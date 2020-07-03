@@ -1,0 +1,30 @@
+[
+            {
+                "name": "Combine", "id": "G1", "expanded": true, "children": [
+                    {"name": "Mix", "id": "A"},
+                    {"name": "Stir", "id": "B"},
+                    {"name": "Blend", "id": "C"}
+                ]
+            },
+            {
+                "name": "Cook", "id": "G2", "expanded": true, "children": [
+                    {"name": "Low", "id": "E"},
+                    {"name": "Medium", "id": "F"},
+                    {"name": "High 3", "id": "G"}
+                ]
+            },
+            {
+                "name": "Cool", "id": "G3", "expanded": true, "children": [
+                    {"name": "Regrigerate", "id": "I"},
+                    {"name": "Freeze", "id": "J"}
+                ]
+            },
+            {
+                "name": "Other Resources", "id": "G4", "expanded": true, "children": [
+                    {"name": "Resource 1", "id": "R1"},
+                    {"name": "Resource 2", "id": "R2"},
+                    {"name": "Resource 3", "id": "R3"},
+                    {"name": "Resource 4", "id": "R4"}
+                ]
+            }
+]
