@@ -1,16 +1,37 @@
 [
             {
-                "name": "Combine", "id": "G1", "expanded": true, "children": [
-                    {"name": "Mix", "id": "A"},
-                    {"name": "Stir", "id": "B"},
-                    {"name": "Blend", "id": "C"}
+                "name": "Combine", "id": "C", "expanded": true, "children": [
+                    {"name": "Mix", "id": "C1"},
+                    {"name": "Stir", "id": "C2"},
+                    {"name": "Blend", "id": "C3"}
                 ]
             },
             {
-                "name": "Cook", "id": "G2", "expanded": true, "children": [
-                    {"name": "Low", "id": "E"},
-                    {"name": "Medium", "id": "F"},
-                    {"name": "High 3", "id": "G"}
+                "name": "Cook", "id": "GL", "expanded": true, "children": [
+                    {"name": "Low", "id": "GL1"},
+                    {"name": "Medium", "id": "GL2"},
+                    {"name": "High", "id": "GL3"}
+                ]
+            },
+            {
+                "name": "Cook Without lid", "id": "GW", "expanded": false, "children": [
+                    {"name": "Low", "id": "GW1"},
+                    {"name": "Medium", "id": "GW2"},
+                    {"name": "High", "id": "GW3"}
+                ]
+            },
+            {
+                "name": "Bake", "id": "BL", "expanded": true, "children": [
+                    {"name": "Low", "id": "BL1"},
+                    {"name": "Medium", "id": "BL2"},
+                    {"name": "High", "id": "BL3"}
+                ]
+            },
+            {
+                "name": "Bake Without foil", "id": "BW", "expanded": false, "children": [
+                    {"name": "Low", "id": "BW1"},
+                    {"name": "Medium", "id": "BW2"},
+                    {"name": "High", "id": "BW3"}
                 ]
             },
             {
@@ -21,10 +42,10 @@
             },
             {
                 "name": "Other Resources", "id": "G4", "expanded": true, "children": [
-                    {"name": "Resource 1", "id": "R1"},
-                    {"name": "Resource 2", "id": "R2"},
-                    {"name": "Resource 3", "id": "R3"},
-                    {"name": "Resource 4", "id": "R4"}
+                    {"name": "Roll", "id": "R1"},
+                    {"name": "Fold", "id": "R2"},
+                    {"name": "Butter", "id": "R3"},
+                    {"name": "Oil", "id": "R4"}
                 ]
             }
 ]

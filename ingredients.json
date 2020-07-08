@@ -1,6 +1,19 @@
 [
-{"id": 1, "display": "Garlic Powder", "color": "#ff0000"},
-{"id": 2, "display": "Salad Dressing", "color": "#00ff00"},
-{"id": 3, "display": "Butter", "color": "#0f0f0f"},
-{"id": 4, "display": "Chicken Breast", "color": "#0000ff"}
-]
+    {"id": 1, "display": "Garlic Powder", "color": "#ff0000"},
+    {"id": 2, "display": "Salad Dressing", "color": "#00ff00"},
+    {"id": 3, "display": "Butter", "color": "#0f0f0f"},
+    {"id": 4, "display": "Chicken Breast", "color": "#0000ff"},
+    {"id": 5, "display": "Onion", "color": "#ff0000"},
+    {"id": 6, "display": "Cornmeal", "color": "#00ff00"},
+    {"id": 7, "display": "Flour", "color": "#0f0f0f"},
+    {"id": 8, "display": "Sugar", "color": "#0000ff"},
+    {"id": 9, "display": "baking powder", "color": "#ff0000"},
+    {"id": 10, "display": "Salt", "color": "#00ff00"},
+    {"id": 11, "display": "Baking soda", "color": "#0f0f0f"},
+    {"id": 12, "display": "Buttermilk", "color": "#0000ff"},
+    {"id": 13, "display": "eggs", "color": "#ff0000"},
+    {"id": 14, "display": "Cheese", "color": "#00ff00"},
+    {"id": 15, "display": "corn", "color": "#0f0f0f"},
+    {"id": 16, "display": "bell peppers", "color": "#0000ff"},
+    {"id": 17, "display": "basil", "color": "#ff0000"}
+]    
