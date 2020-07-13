@@ -84,7 +84,7 @@
                 ]
             },
         ];
-        dp.ingredients = [
+        dp.actions = [
             { "id": 1, "display": "Rice", "color": "#ff0000" },
             { "id": 2, "display": "Sugar", "color": "#00ff00" },
         ]
@@ -112,20 +112,20 @@
 
         // event creating
         dp.onTimeRangeSelected = function (args) {
-            var ingredients = dp.ingredients.reduce((obj, ing) => { obj[ing.id] = ing.display; return obj; }, {});
-            DayPilot.Modal.prompt("Assign Ingredient:", ingredients).then(function (modal) {
+            var action_map = dp.actions.reduce((obj, ing) => { obj[ing.id] = ing.display; return obj; }, {});
+            DayPilot.Modal.prompt("Assign Ingredient:", action_map).then(function (modal) {
                 dp.clearSelection();
-                var ingredient = modal.result;
-                if (!ingredient) return;
-                ingredient = dp.ingredients.filter(x => x.id == ingredient)[0];
+                var selected_action = modal.result;
+                if (!selected_action) return;
+                selected_action = dp.actions.filter(x => x.id == selected_action)[0];
                 var e = new DayPilot.Event({
                     start: args.start,
                     end: args.end,
                     id: DayPilot.guid(),
-                    ingredient: ingredient.id,
+                    action: selected_action.id,
                     resource: args.resource,
-                    text: ingredient.display,
-                    barColor: ingredient.color
+                    text: selected_action.display,
+                    barColor: selected_action.color
                 });
                 dp.events.add(e);
                 dp.message("Created");

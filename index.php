@@ -1,4 +1,7 @@
 <?php
+function inject_js($tag, $content, $html) {return preg_replace("/<$tag>.*<\\/$tag>/s","<$tag>\n$content\n//<\\/$tag>",$html);}
+function inject_html($tag, $content, $html) {return preg_replace("/<$tag>.*<\\/$tag>/s","<$tag>\n$content\n<\\/$tag>",$html);}
+
 if (array_key_exists("ingredients", $_POST) && array_key_exists("resources", $_POST))
 {
     $ingredients=$_POST["ingredients"];
@@ -6,9 +9,7 @@ if (array_key_exists("ingredients", $_POST) && array_key_exists("resources", $_P
     file_put_contents("ingredients.json", $ingredients);
     file_put_contents("resources.json", $resources);
     $html=file_get_contents("scheduler.html");
-    $injected="dp.resources=$resources;\ndp.ingredients=$ingredients;";
-    $tag="auto-generated";
-    $html=preg_replace("/<$tag>.*<\\/$tag>/s","<$tag>\n$injected\n//<\\/$tag>",$html);
+    $html=inject_js("auto-generated", "dp.resources=$resources;\ndp.actions=$ingredients;", $html);
     echo $html;
  } else {?>
 <form method="post">
