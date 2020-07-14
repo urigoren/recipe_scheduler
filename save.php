@@ -8,6 +8,7 @@ $data['labels']=json_decode($_POST['events']);
 $data['status']=1;
 $data = json_encode($data);
 file_put_contents("annotations/$id.json", $data);
-header('Content-type: application/json');
-echo $data;
+//header('Content-type: application/json');
+//echo $data;
+header("Location: https://goren.ml/recipe_scheduler/");
 ?>

@@ -46,10 +46,9 @@
         </div>
         <div class="row"><div class="col-sm-12"></div></div>
         <div id="dp"></div>
-        <form method="POST" action="save.php" onsubmit="show_instruction()">
+        <form method="POST" action="save.php">
             <input type="hidden" name="id" value="<?=$id?>">
             <input type="hidden" name="events" id="events" value="[]">
-            <input type="submit" value="Done">
         </form>
 
     </div>
@@ -91,7 +90,7 @@
         dp.heightSpec = "Max";
         dp.height = 500;
 
-        dp.events.list = [];
+        dp.events.list = <?=$event0?>;
 
 
         dp.eventMovingStartEndEnabled = false;
@@ -126,7 +125,6 @@
                     barColor: selected_action.color
                 });
                 dp.events.add(e);
-                dp.message("Created");
             });
         };
 
@@ -159,8 +157,11 @@
         {
             console.log("next_instruction");
             events[instruction_index]=dp.events.list;
-            if (instruction_index+1==instructions.length)
-                return;
+            if (instruction_index+1==instructions.length){
+                if (!confirm("You are about to submit the annotations, are you sure ?"))
+                    return;
+                save();
+            }
             instruction_index+=1;
             dp.events.list=events[instruction_index];
             dp.update();
@@ -182,6 +183,12 @@
             let instruction=instructions[instruction_index];
             document.getElementById('instruction').innerHTML="<h3>"+(instruction_index+1)+"/"+instructions.length+"</h3>"+instruction;
             document.getElementById('events').value=JSON.stringify(events);
+        }
+        function save()
+        {
+            show_instruction();
+            document.forms[0].submit();
+            
         }
 
     </script>
