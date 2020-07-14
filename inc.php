@@ -1,7 +1,4 @@
 <?php
-function inject_js($tag, $content, $html) {return preg_replace("/<$tag>.*<\\/$tag>/s","<$tag>\n$content\n//<\\/$tag>",$html);}
-function inject_html($tag, $content, $html) {return preg_replace("/<$tag>.*<\\/$tag>/s","<$tag>\n$content\n<\\/$tag>",$html);}
-
 function all_annotaions()
 {
     $ret=array();
