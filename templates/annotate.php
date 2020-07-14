@@ -25,7 +25,7 @@
         <div class="row"><div class="col-sm-12"><h1><?=$data['title']?></h1></div></div>
         <div class="row">
             <div class="col-sm-3">
-                <img src="<?=$data['photo_url']?>" width=200>
+                <a href="<?=$data['url']?>"><img src="<?=$data['photo_url']?>" width=200></a>
             </div>
             <div class="col-sm-9">
             <ul>
