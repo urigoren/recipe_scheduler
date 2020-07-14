@@ -153,7 +153,7 @@
         alert = console.log;
         let instruction_index=0;
         let instructions=<?=json_encode($data['instructions'])?>;
-        let events=instructions.map((x)=>[]);
+        let events=<?=json_encode($events)?>;
 
         function next_instruction()
         {

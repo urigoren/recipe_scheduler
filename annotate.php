@@ -11,6 +11,7 @@ if (array_key_exists("id", $_GET) && annotation_exists($_GET['id']))
         $resources[]=array("name"=>$value, "id"=>$key);
     }
     $actions=json_decode(file_get_contents("actions.json"));
+    $events=$data["labels"];
     include "templates/annotate.php";
  } else {
     header("HTTP/1.0 404 Not Found");
