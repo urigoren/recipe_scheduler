@@ -1,0 +1,38 @@
+{
+    "ingredients": [
+        "1 (8 ounce) package wide egg noodles",
+        "1 (12 ounce) can corned beef",
+        "4 ounces processed cheese food (eg. Velveeta)",
+        "1 (10.75 ounce) can condensed cream of chicken soup",
+        "1 cup milk",
+        "1/2 cup chopped onion",
+        "1 cup seasoned dry bread crumbs"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Cook noodles until tender and drain.",
+        "Combine noodles, corned beef, cheese, cream of chicken soup, milk and onion. Pour into a 2 quart casserole dish. Top with buttered bread crumbs.",
+        "Bake at 350 degrees F (175 degrees C) for 45 minutes."
+    ],
+    "title": "Corned Beef Noodle Casserole",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/195258.jpg",
+    "url": "http://allrecipes.com/Recipe/11812/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ]
+}

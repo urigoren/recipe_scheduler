@@ -1,0 +1,35 @@
+{
+    "ingredients": [
+        "1 cup long-grain white rice, uncooked",
+        "1 1/2 pounds boneless beef sirloin steak, cut into strips",
+        "1 (14.8 ounce) package KRAFT RECIPE MAKERS Sweet & Sour Chicken",
+        "1 (16 ounce) package frozen whole green beans, thawed",
+        "2 red peppers, cut into strips",
+        "2 teaspoons chili garlic sauce"
+    ],
+    "instructions": [
+        "Cook rice as directed on package, omitting salt.",
+        "Stir-fry meat in half the Simmer Sauce in large skillet on medium heat 6 to 8min. or until done. Add vegetables and remaining Simmer Sauce to skillet; cook and stir 2 to 4 min. or until vegetables are crisp-tender. Stir in Finishing Sauce and chili sauce; cook 1 to 2 min. or until heated through.",
+        "Serve over rice."
+    ],
+    "title": "KRAFT RECIPE MAKERS Asian Style Chili Steak and String Beans",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/1034318.jpg",
+    "url": "http://allrecipes.com/Recipe/233689/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

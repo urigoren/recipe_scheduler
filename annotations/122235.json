@@ -1,0 +1,33 @@
+{
+    "ingredients": [
+        "2 tablespoons chicken bouillon granules",
+        "2 tablespoons dried parsley flakes",
+        "1 tablespoon dried minced onion",
+        "1/4 teaspoon pepper",
+        "ADDITIONAL INGREDIENTS:",
+        "2 cups uncooked medium egg noodles",
+        "1 teaspoon butter or margarine",
+        "1 1/4 cups boiling water"
+    ],
+    "instructions": [
+        "In a bowl, combine bouillon, parsley, onion and pepper. Store in an airtight container in a cool dry place for up to 6 months."
+    ],
+    "title": "Seasoned Noodle Mix",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/720545.jpg",
+    "url": "http://allrecipes.com/Recipe/122235/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

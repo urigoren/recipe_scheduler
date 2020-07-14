@@ -1,0 +1,37 @@
+{
+    "ingredients": [
+        "1/2 cup all-purpose flour",
+        "2 teaspoons garlic powder",
+        "1 teaspoon paprika",
+        "1 egg",
+        "1/4 cup butter",
+        "1 pound skinless, boneless chicken breast halves",
+        "1 cup chicken broth",
+        "1/2 lemon"
+    ],
+    "instructions": [
+        "Whisk flour, garlic powder, and paprika together in a bowl. Beat egg in a separate bowl. Melt butter in a skillet over medium heat.",
+        "Dip chicken in egg until coated. Dredge chicken through flour mixture until evenly coated, shaking off excess.",
+        "Fry chicken in the melted butter until browned, 2 to 3 minutes per side. Add chicken broth to skillet, cover, and cook until chicken is not longer pink in the center, about 20 minutes. Squeeze lemon over chicken."
+    ],
+    "title": "Home-Style Chicken Piccata",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2802018.jpg",
+    "url": "http://allrecipes.com/Recipe/244146/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

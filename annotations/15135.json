@@ -1,0 +1,35 @@
+{
+    "ingredients": [
+        "1/2 cup butter",
+        "1 (16 ounce) package frozen mixed vegetables, thawed",
+        "2 (10.75 ounce) cans condensed cream of chicken soup",
+        "2 (10.75 ounce) cans condensed cream of mushroom soup",
+        "3 teaspoons garlic powder",
+        "3 teaspoons onion powder",
+        "3 (3 ounce) packages chicken flavored ramen noodles",
+        "6 skinless, boneless chicken breast halves, cut into bite size pieces"
+    ],
+    "instructions": [
+        "Cut butter or margarine into small chunks and put chunks in the bottom of the slow cooker. Add the vegetables, cream of chicken soups and cream of mushroom soups. Stir. Sprinkle with the garlic powder, onion powder and seasoning packets from the ramen noodle packages. Put chicken pieces in slow cooker. Cover and cook for 6 hours on LOW.",
+        "Break each ramen noodle packet into quarters (4 'pieces'). Put noodles in slow cooker and stir to cover noodles. Cook 1 hour on HIGH. Reduce heat and let simmer until ready to serve."
+    ],
+    "title": "Slow Cooker Casserole",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1707492.jpg",
+    "url": "http://allrecipes.com/Recipe/15135/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        []
+    ]
+}

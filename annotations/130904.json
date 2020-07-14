@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        "3 tablespoons fat-free chicken broth",
+        "2 tablespoons natural peanut butter",
+        "1 tablespoon toasted sesame oil",
+        "1 tablespoon reduced-sodium soy sauce",
+        "2 teaspoons lime juice",
+        "1 teaspoon chili puree with garlic",
+        "1 teaspoon honey or sugar",
+        "Salt",
+        "Freshly ground black pepper"
+    ],
+    "instructions": [
+        "In a small processor or blender, combine the broth, peanut butter, oil, soy sauce, lime juice, chili puree, and honey or sugar. Puree until smooth and creamy. Season to taste with the salt and pepper."
+    ],
+    "title": "Peanut Dipping Sauce",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/130904/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

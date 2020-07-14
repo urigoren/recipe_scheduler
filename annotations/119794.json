@@ -1,0 +1,36 @@
+{
+    "ingredients": [
+        "1/2 cup beef broth",
+        "1/2 cup teriyaki or soy sauce",
+        "1/4 cup vegetable oil",
+        "2 tablespoons brown sugar",
+        "2 tablespoons finely chopped onion",
+        "3 garlic cloves, minced",
+        "1 teaspoon Worcestershire sauce",
+        "1/2 teaspoon hot pepper sauce",
+        "1 (4 pound) beef sirloin tip roast"
+    ],
+    "instructions": [
+        "In a large resealable plastic bag, combine the first eight ingredients; add roast. Seal bag and turn to coat; refrigerate overnight.",
+        "Drain and discard marinade. Place roast on a rack in a shallow roasting pan. Bake, uncovered, at 350 degrees F for 1-1/2 to 2-1/4 hours or until meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F; medium, 160 degrees F; well-done, 170 degrees F). Let stand for 10-15 minutes before slicing."
+    ],
+    "title": "Yankee-Doodle Sirloin Roast",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/990794.jpg",
+    "url": "http://allrecipes.com/Recipe/119794/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        []
+    ]
+}

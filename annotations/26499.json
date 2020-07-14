@@ -1,0 +1,41 @@
+{
+    "ingredients": [
+        "1/2 pound ground pork breakfast sausage",
+        "2 tablespoons butter",
+        "1/2 cup chopped celery",
+        "1/4 cup chopped onion",
+        "1 (4 ounce) can water chestnuts, drained and chopped",
+        "1 (12 ounce) package herb-seasoned dry bread stuffing mix",
+        "3 apples - peeled, cored and cubed",
+        "1 tablespoon chicken broth"
+    ],
+    "instructions": [
+        "Place ground pork breakfast sausage in a large, deep skillet. Cook over medium high heat until evenly brown. Drain and set aside.",
+        "Melt butter in a medium saucepan over medium heat. Stir in celery, onion and water chestnuts. Cook and stir until tender. Remove from heat.",
+        "Preheat oven to 325 degrees F (165 degrees C).",
+        "Prepare herb-seasoned dry bread stuffing mix according to package directions. Mix in sausage, celery mixture, apples and chicken broth.",
+        "Transfer mixture to a medium baking dish. Bake in the preheated oven 30 minutes, or until lightly browned."
+    ],
+    "title": "Sausage and Apple Stuffing",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/65454.jpg",
+    "url": "http://allrecipes.com/Recipe/26499/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

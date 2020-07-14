@@ -1,0 +1,29 @@
+{
+    "ingredients": [
+        "8 boneless pork loin chops, cut 1/4 inch thick",
+        "3 tablespoons chili sauce",
+        "3 tablespoons honey",
+        "2 tablespoons soy sauce"
+    ],
+    "instructions": [
+        "Place pork chops in a greased broiler pan. In a bowl, combine the chili sauce, honey and soy sauce. Pour over pork. Broil 4 in. from the heat for 5-7 minutes or until meat juices run clear."
+    ],
+    "title": "Sweet and Sour Pork Chops",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/853327.jpg",
+    "url": "http://allrecipes.com/Recipe/118295/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

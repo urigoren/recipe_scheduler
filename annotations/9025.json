@@ -1,0 +1,36 @@
+{
+    "ingredients": [
+        "4 skinless, boneless chicken breast halves",
+        "1 teaspoon ground ginger",
+        "4 ounces soy sauce",
+        "2 tablespoons dried minced onion",
+        "1/2 cup packed brown sugar",
+        "3/8 cup bourbon",
+        "1/2 teaspoon garlic powder"
+    ],
+    "instructions": [
+        "Place chicken breasts in a 9x13 inch baking dish. In a small bowl combine the ginger, soy sauce, onion flakes, sugar, bourbon and garlic powder. Mix together and pour mixture over chicken. Cover dish and place in refrigerator. Marinate overnight.",
+        "Preheat oven to 325 degrees F (165 degrees C).",
+        "Remove dish from refrigerator and remove cover. Bake in the preheated oven, basting frequently, for 1 1/2 hours or until chicken is well browned and juices run clear."
+    ],
+    "title": "Bourbon Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1363910.jpg",
+    "url": "http://allrecipes.com/Recipe/9025/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

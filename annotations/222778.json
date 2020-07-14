@@ -1,0 +1,37 @@
+{
+    "ingredients": [
+        "1 teaspoon butter",
+        "1/2 cup finely diced onion",
+        "2 pounds ground beef chuck",
+        "1/2 pound ground lamb",
+        "5 teaspoons Worcestershire sauce",
+        "salt and ground black pepper to taste"
+    ],
+    "instructions": [
+        "Melt butter in a skillet over medium heat and cook and stir onion until nearly translucent, about 4 minutes; remove from heat and cool to room temperature.",
+        "Mix the beef chuck, lamb, onion, Worcestershire sauce, salt, and black pepper in a bowl. Divide the mixture into fifths and form each portion into a large burger. Press an indentation in the center of each burger with your thumb to keep burgers flat while cooking. Chill the patties thoroughly, 4 to 8 hours. Allow burgers to warm to room temperature before cooking.",
+        "Preheat an outdoor grill for high heat, and lightly oil the grate.",
+        "Cook burgers on the hot grill until they show grill marks and the meat is no longer pink inside, about 5 minutes per side. Do not press burgers with a spatula as they cook, and flip only once. Let stand 1 minute before serving."
+    ],
+    "title": "Chris' Best Burgers",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/840338.jpg",
+    "url": "http://allrecipes.com/Recipe/222778/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ]
+}

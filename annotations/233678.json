@@ -1,0 +1,36 @@
+{
+    "ingredients": [
+        "1 cup chopped onion, or more to taste",
+        "1 (15 ounce) can tomato sauce",
+        "1/4 cup brown sugar",
+        "2 tablespoons vinegar",
+        "4 teaspoons chili powder",
+        "1 teaspoon soy sauce",
+        "1 teaspoon salt",
+        "1/2 teaspoon dry mustard",
+        "1 1/2 pounds boneless beef chuck roast"
+    ],
+    "instructions": [
+        "Stir onion, tomato sauce, brown sugar, vinegar, chili powder, soy sauce, salt, and mustard together in a slow cooker; add roast. Spoon onion mixture over the beef to coat.",
+        "Cook on High for 7 hours. Shred meat in slow cooker with a pair of forks. Continue cooking 1 hour more."
+    ],
+    "title": "Barbeque Shredded Beef",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1039813.jpg",
+    "url": "http://allrecipes.com/Recipe/233678/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        []
+    ]
+}

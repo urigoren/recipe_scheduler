@@ -1,0 +1,37 @@
+{
+    "ingredients": [
+        "1/4 cup strawberry preserves",
+        "1 1/2 tablespoons minced garlic",
+        "1 tablespoon soy sauce",
+        "1 tablespoon prepared horseradish",
+        "2 pork chops",
+        "1 tablespoon butter",
+        "1 pinch cayenne pepper",
+        "4 fresh strawberries for garnish"
+    ],
+    "instructions": [
+        "In a small saucepan, combine the strawberry preserves, minced garlic, soy sauce and horseradish. Cook over low heat, stirring frequently until heated through.",
+        "Melt butter in a medium skillet. Lightly sprinkle both sides of each pork chop with cayenne pepper. Fry the chops until browned on each side, then continue to cook over medium heat until no longer pink, and the juices run clear.",
+        "Serve chops with sauce poured over, and garnish with fresh strawberries."
+    ],
+    "title": "Leslie's Strawberry Breakfast Chops",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/856299.jpg",
+    "url": "http://allrecipes.com/Recipe/35564/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

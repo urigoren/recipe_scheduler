@@ -1,0 +1,38 @@
+{
+    "ingredients": [
+        "2 tablespoons chili powder",
+        "1 tablespoon salt",
+        "1 tablespoon garlic powder",
+        "1 tablespoon onion powder",
+        "1 tablespoon ground black pepper",
+        "1 tablespoon white sugar",
+        "1 tablespoon seasoned salt",
+        "1 (4 pound) beef brisket",
+        "1 1/2 cups beef broth"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Combine the chili powder, salt, garlic powder, onion powder, black pepper, sugar, and seasoning salt in a medium bowl, and blend thoroughly. Apply rub to surface of brisket.",
+        "Cook brisket, uncovered, in preheated oven for 1 hour. Remove from oven and add beef broth to roasting pan. Lower oven temperature to 300 degrees F (150 degrees C), cover roasting pan tightly with foil, and cook 3 more hours. Let brisket rest 30 minutes before slicing."
+    ],
+    "title": "Best Ever Brisket",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/420811.jpg",
+    "url": "http://allrecipes.com/Recipe/142642/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

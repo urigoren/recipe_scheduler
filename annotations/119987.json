@@ -1,0 +1,36 @@
+{
+    "ingredients": [
+        "1 (6 ounce) package long grain and wild rice mix",
+        "3 cups cubed cooked turkey",
+        "1 (10.75 ounce) can condensed cream of chicken soup, undiluted",
+        "1 (8 ounce) can sliced water chestnuts, drained and halved",
+        "3/4 cup water",
+        "1/4 cup chopped onion",
+        "3 tablespoons soy sauce",
+        "1 cup soft bread crumbs",
+        "1 tablespoon butter or margarine, melted"
+    ],
+    "instructions": [
+        "Prepare rice according to package directions. Stir in the turkey, soup, water chestnuts, water, onion and soy sauce. Transfer to a greased 2-qt. baking dish. Cover and bake at 350 degrees F for 30 minutes.",
+        "Uncover. Toss bread crumbs and butter; sprinkle over the top. Bake 15-20 minutes longer or until bubbly and golden brown. Let stand for 15 minutes before serving."
+    ],
+    "title": "Wild Rice Turkey Dish",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/990025.jpg",
+    "url": "http://allrecipes.com/Recipe/119987/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        []
+    ]
+}

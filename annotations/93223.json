@@ -1,0 +1,39 @@
+{
+    "ingredients": [
+        "1 pound ground beef",
+        "1 (10.75 ounce) can condensed tomato soup",
+        "1/4 cup brown sugar",
+        "1/8 teaspoon black pepper",
+        "1/4 teaspoon salt",
+        "1 (10.75 ounce) can condensed cream of chicken soup",
+        "1 (12 ounce) package wide egg noodles",
+        "10 slices American cheese"
+    ],
+    "instructions": [
+        "Preheat the oven to 350 degrees F (175 degrees C).",
+        "Bring a large pot of lightly salted water to a boil. Add egg noodles and cook until tender, about 7 minutes. Drain and return to the pan. Mix in the cream of chicken soup until noodles are coated.",
+        "Crumble the ground beef into a large skillet over medium-high heat. Drain the grease, and stir in the tomato soup, brown sugar, pepper and salt. Spread half of the beef in the bottom of a greased 2 1/2 quart casserole dish. Arrange 5 slices of cheese over the beef. Top with half of the noodles, then repeat layers ending with cheese on top.",
+        "Bake for 35 minutes in the preheated oven, until cheese is browned and sauce is bubbly."
+    ],
+    "title": "Amish Casserole",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/567935.jpg",
+    "url": "http://allrecipes.com/Recipe/93223/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ]
+}

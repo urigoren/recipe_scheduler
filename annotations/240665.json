@@ -1,0 +1,30 @@
+{
+    "ingredients": [
+        "1/4 cup gluten-free soy sauce (tamari)",
+        "2 tablespoons honey",
+        "2 tablespoons lemon juice",
+        "1 teaspoon minced onion",
+        "1/4 teaspoon garlic powder"
+    ],
+    "instructions": [
+        "Whisk soy sauce, honey, lemon juice, onion, and garlic powder together in a bowl."
+    ],
+    "title": "Gluten-Free Teriyaki Sauce",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4317503.jpg",
+    "url": "http://allrecipes.com/Recipe/240665/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

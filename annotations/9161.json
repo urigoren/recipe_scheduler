@@ -1,0 +1,35 @@
+{
+    "ingredients": [
+        "2 (15 ounce) cans green beans",
+        "1 cube beef bouillon cube",
+        "1 tablespoon Worcestershire sauce",
+        "1 teaspoon soy sauce",
+        "1 tablespoon butter",
+        "1/8 teaspoon garlic pepper seasoning"
+    ],
+    "instructions": [
+        "Drain the green beans, reserving 1/2 of the liquid. Dissolve the bouillon cube in the reserved liquid.",
+        "Place green beans and liquid in a saucepan. Add Worcestershire sauce, soy sauce, butter or margarine and garlic pepper seasoning to taste. Simmer gently for 15 minutes.",
+        "Remove to serving bowl leaving beans sitting in their liquid. Use a slotted spoon to serve."
+    ],
+    "title": "Mom's Great Green Beans",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1959879.jpg",
+    "url": "http://allrecipes.com/Recipe/9161/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

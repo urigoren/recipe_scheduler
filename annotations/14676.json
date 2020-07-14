@@ -1,0 +1,38 @@
+{
+    "ingredients": [
+        "1 egg",
+        "2 (10.75 ounce) cans condensed tomato soup",
+        "1/4 cup instant rice",
+        "1/4 cup chopped onion",
+        "1 tablespoon chopped fresh parsley",
+        "1 teaspoon onion salt",
+        "1/4 teaspoon ground black pepper",
+        "1 pound lean ground beef",
+        "1/4 cup Worcestershire sauce"
+    ],
+    "instructions": [
+        "Lightly beat egg with a fork, then add a heaping tablespoon of the soup and mix lightly. Mix in rice, onion, parsley, onion salt and pepper. Stir in the ground beef and mix well with hands. From mixture into 1 1/2 inch round meatballs.",
+        "Coat a large skillet over medium heat with cooking spray. Cook meatballs and brown on all sides.",
+        "Combine remaining soup with Worcestershire (you can increase or decrease Worcestershire to your liking), stir until smooth, then spoon over meatballs. Cover with lid and simmer for 20 to 30 minutes, stirring every few minutes."
+    ],
+    "title": "Zesty Porcupine Meatballs",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/709422.jpg",
+    "url": "http://allrecipes.com/Recipe/14676/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

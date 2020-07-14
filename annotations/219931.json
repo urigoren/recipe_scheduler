@@ -1,0 +1,36 @@
+{
+    "ingredients": [
+        "1 (15 ounce) can tomato sauce",
+        "1 (6 ounce) can tomato paste",
+        "1 1/2 cups beef broth",
+        "1/2 teaspoon salt (optional)",
+        "1/4 teaspoon dried oregano",
+        "1/4 teaspoon ground cumin",
+        "1/4 teaspoon garlic powder",
+        "1/4 teaspoon onion powder",
+        "2 teaspoons chili powder, or more to taste"
+    ],
+    "instructions": [
+        "Mix tomato sauce, tomato paste, beef broth, salt, oregano, cumin, garlic powder, onion powder, and chili powder together in a saucepan until smooth.",
+        "Bring sauce to a boil, reduce heat to low, and simmer for 10 minutes."
+    ],
+    "title": "Quick Enchilada Sauce",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4470260.jpg",
+    "url": "http://allrecipes.com/Recipe/219931/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        []
+    ]
+}

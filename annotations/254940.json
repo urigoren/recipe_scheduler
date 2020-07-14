@@ -1,0 +1,35 @@
+{
+    "ingredients": [
+        "3 tablespoons butter",
+        "1 1/2 tablespoons garlic powder",
+        "2 teaspoons rosemary",
+        "salt and ground black pepper to taste",
+        "1/2 cup honey",
+        "6 skinless chicken thighs"
+    ],
+    "instructions": [
+        "Preheat oven to 375 degrees F (190 degrees C).",
+        "Melt butter in a large saucepan over medium heat. Add garlic powder, rosemary, salt, and pepper; simmer until flavors combine, about 1 minute. Stir in honey; bring to a boil. Reduce heat to low. Dip chicken into sauce, 1 piece at a time, until coated. Place chicken on a 9x13-inch baking pan; pour remaining sauce over chicken.",
+        "Bake chicken in the preheated oven until no longer pink at the bone and the juices run clear, about 30 minutes. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C). Remove from oven; immediately turn over chicken with tongs to coat the top with sauce."
+    ],
+    "title": "Honey Garlic Chicken with Rosemary",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4528872.jpg",
+    "url": "http://allrecipes.com/Recipe/254940/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

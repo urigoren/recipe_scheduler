@@ -1,0 +1,33 @@
+{
+    "ingredients": [
+        "1 (26 ounce) can condensed cream of chicken soup",
+        "1 (10.75 ounce) can condensed cream of mushroom soup",
+        "3 (14.5 ounce) cans chicken broth",
+        "2 cups diced, cooked chicken breast meat",
+        "2 teaspoons onion powder",
+        "1 teaspoon seasoning salt",
+        "1/2 teaspoon garlic powder",
+        "2 (9 ounce) packages frozen egg noodles"
+    ],
+    "instructions": [
+        "In a large pot, mix the cream of chicken soup, cream of mushroom soup, chicken broth, and chicken meat. Season with onion powder, seasoning salt, and garlic powder. Bring to a boil, and stir in the noodles. Reduce heat to low, and simmer for 20 to 30 minutes."
+    ],
+    "title": "Incredibly Easy Chicken and Noodles",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1014757.jpg",
+    "url": "http://allrecipes.com/Recipe/17846/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

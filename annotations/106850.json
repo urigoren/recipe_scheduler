@@ -1,0 +1,36 @@
+{
+    "ingredients": [
+        "1/2 cup unsalted butter",
+        "1 (1 ounce) envelope dry onion soup mix",
+        "1/4 cup white wine",
+        "1 pound chicken livers, rinsed and trimmed",
+        "1/2 cup shelled pistachio nuts",
+        "1 (8 ounce) package cream cheese",
+        "1/4 cup water",
+        "onion powder to taste",
+        "garlic powder to taste"
+    ],
+    "instructions": [
+        "In a skillet, melt butter over medium heat. Mix in soup mix and white wine. Arrange chicken livers in pan, and cook until browned and cooked though.",
+        "Place shelled pistachio nuts in food processor and pulse to grind. Add cream cheese and water; process until smooth. Add chicken livers, and process until smooth. Season to taste with onion and garlic powder. Chill."
+    ],
+    "title": "Chicken Liver and Pistachio Nut Pate",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1083483.jpg",
+    "url": "http://allrecipes.com/Recipe/106850/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        []
+    ]
+}

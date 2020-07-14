@@ -1,0 +1,42 @@
+{
+    "ingredients": [
+        "2 tablespoons butter",
+        "1 (2 pound) package frozen hash browns",
+        "2 cups shredded Colby cheese",
+        "1/4 cup minced onion",
+        "1 cup milk",
+        "1/2 cup beef broth",
+        "1/4 teaspoon ground black pepper",
+        "1 teaspoon salt",
+        "1 dash garlic powder"
+    ],
+    "instructions": [
+        "Preheat oven to 425 degrees F (220 degrees C). Coat a large baking dish with 1 tablespoon of butter.",
+        "In a large bowl, mix together the hash browns, Colby cheese and onion. Transfer to the baking dish.",
+        "In a medium bowl, mix together the remaining butter, milk, beef broth, pepper, salt and garlic powder. Pour over the hash brown mixture.",
+        "Microwave the casserole in 5 minute increments, stirring before restarting, until the cheese has melted.",
+        "Bake in the preheated oven 20 minutes, or until the surface begins to brown."
+    ],
+    "title": "Hash Brown Casserole III",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2405.jpg",
+    "url": "http://allrecipes.com/Recipe/21369/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

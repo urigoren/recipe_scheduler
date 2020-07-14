@@ -1,0 +1,31 @@
+{
+    "ingredients": [
+        "1 tablespoon crunchy peanut butter",
+        "3 dashes low-sodium soy sauce",
+        "1/4 teaspoon minced garlic",
+        "1 1/2 cups frozen tri-color peppers and onion mix",
+        "1/4 cup precooked chicken breast strips",
+        "1/3 (8 ounce) package rice noodles"
+    ],
+    "instructions": [
+        "Lightly coat a nonstick skillet with cooking spray, then heat skillet to medium-low. Add peanut butter, soy sauce, and garlic to skillet, stirring frequently until the peanut butter softens. Microwave the pepper mix according to package instructions, then stir into the peanut mixture. Add the chicken. Toss the peanut chicken mixture with boiled, drained noodles."
+    ],
+    "title": "Fit-To-Be-Thai'd Peanut Chicken",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/131307/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

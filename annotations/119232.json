@@ -1,0 +1,30 @@
+{
+    "ingredients": [
+        "4 cups thin pretzel sticks",
+        "3 tablespoons honey",
+        "2 teaspoons butter or margarine, melted",
+        "1 teaspoon onion powder",
+        "1 teaspoon chili powder"
+    ],
+    "instructions": [
+        "Line a 15-in. x 10-in.x 1-in. baking pan with foil; coat the foil with nonstick cooking spray. Place pretzels in a large bowl. In a small bowl, combine the honey, butter, onion powder and chili powder. Pour over pretzels; toss to coat evenly. Spread into prepared pan. Bake at 350 degrees F for 8 minutes, stirring once. Cool on a wire rack, stirring gently several times to separate."
+    ],
+    "title": "Spiced Honey Pretzels",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/983543.jpg",
+    "url": "http://allrecipes.com/Recipe/119232/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

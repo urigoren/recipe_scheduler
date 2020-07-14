@@ -1,0 +1,35 @@
+{
+    "ingredients": [
+        "1 (16 ounce) package chicken drumettes",
+        "2 (10.75 ounce) cans condensed tomato soup",
+        "1/2 cup chopped fresh cilantro",
+        "1 tablespoon onion powder",
+        "1 tablespoon ground black pepper",
+        "1 tablespoon garlic salt"
+    ],
+    "instructions": [
+        "Preheat oven to 325 degrees F (165 degrees C).",
+        "Place drummettes in a 9x13 inch baking dish. In a medium bowl, combine the soup, cilantro, onion powder, pepper and garlic salt. Mix well, and pour mixture over chicken.",
+        "Bake at 325 degrees F (165 degrees C) for 1 hour, or until chicken is cooked through and juices run clear."
+    ],
+    "title": "Kari's Delicious Drummettes",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3806393.jpg",
+    "url": "http://allrecipes.com/Recipe/17818/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

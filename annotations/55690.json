@@ -1,0 +1,44 @@
+{
+    "ingredients": [
+        "6 cups broccoli florets",
+        "1 onion",
+        "2 cups fat-skimmed beef broth",
+        "2 tablespoons Chinese black bean and garlic sauce",
+        "2 tablespoons cornstarch",
+        "1/2 pound dried spaghetti or soba noodles",
+        "1 teaspoon salad oil",
+        "1/2 pound lean ground beef",
+        "Soy sauce"
+    ],
+    "instructions": [
+        "In a covered 5- to 6-quart nonstick pan over high heat, bring 2 1/2 to 3 quarts water to a boil.",
+        "Meanwhile, rinse broccoli. Trim stems and cut crosswise into 1/4-inch-thick slices, then cut florets lengthwise into 1-inch pieces. Peel onion and cut into thin slivers. In a small bowl, mix broth, black bean sauce, and cornstarch.",
+        "Add spaghetti to boiling water and cook, uncovered, until barely tender to bite, 6 to 9 minutes. Pour into a colander, rinse with hot water, and drain.",
+        "Return pan to high heat and pour in oil. Add beef and stir often, breaking up with spoon, until lightly browned and crumbly, 1 to 2 minutes. Add onion and stir until it begins to brown, about 1 minute.",
+        "Add broccoli and 1/2 cup water; cover and stir occasionally until bright green, about 2 minutes. Stir broth mixture, add to pan, and stir until boiling.",
+        "Add noodles to pan; stir over medium heat until hot and coated with sauce, about 1 minute. Add soy sauce to taste. Pour into bowls."
+    ],
+    "title": "Broccoli-Beef Noodles",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/55690/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

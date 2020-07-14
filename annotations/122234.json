@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        "4 (4 ounce) boneless, skinless chicken breast halves",
+        "6 tablespoons butter or margarine, softened, divided",
+        "1 garlic clove, minced",
+        "3/4 teaspoon dried dill weed, divided",
+        "8 (1/2-inch-thick) slices French bread",
+        "4 tablespoons cream cheese, softened",
+        "2 teaspoons lemon juice",
+        "4 lettuce leaves",
+        "8 slices tomato"
+    ],
+    "instructions": [
+        "Pound chicken to flatten evenly; set aside. In a skillet, melt 3 tablespoons of butter; add garlic and 1/2 teaspoon dill. Add chicken; cook until juices run clear. Remove and keep warm. Spread both sides of bread with remaining butter. In a skillet or griddle, grill bread on both sides until golden brown. In a small bowl, combine cream cheese, lemon juice and remaining dill; spread on one side of grilled bread. Place lettuce, chicken and tomato on four slices of bread; top with remaining bread."
+    ],
+    "title": "Dilly Chicken Sandwiches",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/975709.jpg",
+    "url": "http://allrecipes.com/Recipe/122234/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

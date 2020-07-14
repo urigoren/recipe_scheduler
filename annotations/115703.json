@@ -1,0 +1,31 @@
+{
+    "ingredients": [
+        "2 tablespoons butter",
+        "2 tablespoons chopped garlic",
+        "1 cup thinly sliced zucchini",
+        "1/4 cup chopped onion",
+        "1 skinless, boneless chicken breast, cut into 1/2 inch slices",
+        "1 tablespoon butter"
+    ],
+    "instructions": [
+        "Melt 2 tablespoons butter in a small nonstick skillet over medium heat. Cook the garlic in the butter until softened, about 1 minute. Stir in the zucchini and the onion; cover, cook for 2 minutes. Mix the chicken and the remaining 1 tablespoon butter into the skillet; cover. Stirring occasionally, cook until chicken is no longer pink, about 5 minutes."
+    ],
+    "title": "Zucchini Lunchixa",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4468271.jpg",
+    "url": "http://allrecipes.com/Recipe/115703/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

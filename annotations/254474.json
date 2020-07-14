@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        "1 cup rice",
+        "3 tablespoons orzo",
+        "2 tablespoons butter",
+        "2 tablespoons minced onion",
+        "2 1/2 cups water",
+        "1 tablespoon chicken bouillon",
+        "1 teaspoon onion powder",
+        "1/2 teaspoon garlic salt",
+        "1/8 teaspoon ground turmeric"
+    ],
+    "instructions": [
+        "Combine rice, orzo, butter, and onion together in a pot over medium heat; cook and stir until light brown, about 3 minutes. Add water, chicken bouillon, onion powder, garlic salt, and ground turmeric; bring to a boil. Reduce heat to low and cover. Simmer until liquid is absorbed and rice is tender, 15 to 20 minutes."
+    ],
+    "title": "Rice-a-Phoney",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3753290.jpg",
+    "url": "http://allrecipes.com/Recipe/254474/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        "3 pounds chicken thighs",
+        "2 tablespoons soy sauce",
+        "1/2 cup ketchup",
+        "1/4 cup corn syrup",
+        "1 pinch garlic powder"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Rinse the chicken pieces and place them, single layer and skin side up, in a 9x13 inch baking dish.",
+        "Mix the soy sauce, ketchup, corn syrup and garlic powder in a small bowl. Baste the chicken with the sauce, reserving some sauce for basting during baking. Bake uncovered in the preheated oven, basting approximately every 15 minutes, for 1 hour (or until chicken is done and juices run clear)."
+    ],
+    "title": "Sunshine Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/258893.jpg",
+    "url": "http://allrecipes.com/Recipe/8723/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

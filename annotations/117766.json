@@ -1,0 +1,36 @@
+{
+    "ingredients": [
+        "2 teaspoons cornstarch",
+        "3/4 cup chicken broth",
+        "4 teaspoons soy sauce",
+        "2 tablespoons vegetable oil",
+        "1 (3/4 pound) pork tenderloin, cut into 1 inch cubes",
+        "1 garlic clove, minced",
+        "3 cups broccoli coleslaw mix",
+        "1 1/2 teaspoons sesame seeds, toasted",
+        "Hot cooked rice"
+    ],
+    "instructions": [
+        "In a small bowl, combine the cornstarch, broth and soy sauce until smooth; set aside. In a skillet or wok, heat oil; stir-fry the pork and garlic for 5 minutes. Add broccoli coleslaw mix; stir-fry 3-4 minutes longer or until meat is no longer pink and broccoli is crisp-tender.",
+        "Stir cornstarch mixture and add to the pan. Bring to a boil; cook and stir for 1 minute or until thickened. Sprinkle with sesame seeds. Serve with rice if desired."
+    ],
+    "title": "Sesame Pork",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/117766/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        []
+    ]
+}

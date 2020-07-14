@@ -1,0 +1,36 @@
+{
+    "ingredients": [
+        "5 pounds pork tenderloin tips, frozen",
+        "3 cups chicken broth",
+        "1 1/2 cups balsamic vinegar",
+        "5 tablespoons jerk sauce",
+        "6 cloves garlic, chopped",
+        "3 tablespoons soy sauce",
+        "3 tablespoons Worcestershire sauce",
+        "3 tablespoons honey",
+        "2 teaspoons red pepper flakes"
+    ],
+    "instructions": [
+        "Gently stir pork, broth, vinegar, jerk sauce, garlic, soy sauce, Worcestershire sauce, honey, and red pepper flakes together in the crock of your slow cooker.",
+        "Cook on High until the pork is easily shredded with forks, 3 to 4 hours."
+    ],
+    "title": "Jerked Balsamic Pork Tenderloin",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4466334.jpg",
+    "url": "http://allrecipes.com/Recipe/241255/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        []
+    ]
+}

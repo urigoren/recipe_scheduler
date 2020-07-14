@@ -1,0 +1,35 @@
+{
+    "ingredients": [
+        "1 pound lean ground beef",
+        "1 1/2 cups macaroni",
+        "1 quart stewed tomatoes",
+        "2 teaspoons paprika",
+        "1 tablespoon chili powder",
+        "1/2 cup chopped onion",
+        "1 clove garlic, minced",
+        "6 ounces tomato paste (optional)"
+    ],
+    "instructions": [
+        "In large saucepan brown ground chuck, drain.",
+        "Add tomatoes, onions, garlic, paprika, chili powder, macaroni and tomato paste, if desired. Add water, a tablespoon at a time, if mixture seems too dry. Simmer until macaroni is tender."
+    ],
+    "title": "Goulash Supreme",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2433727.jpg",
+    "url": "http://allrecipes.com/Recipe/11847/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        []
+    ]
+}

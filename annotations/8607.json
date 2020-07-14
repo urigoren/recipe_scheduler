@@ -1,0 +1,35 @@
+{
+    "ingredients": [
+        "6 skinless, boneless chicken breast halves",
+        "1 1/2 tablespoons minced onion",
+        "2 tablespoons crushed garlic",
+        "1 1/2 teaspoons poultry seasoning",
+        "1/4 cup soy sauce",
+        "2 teaspoons artificial sweetener"
+    ],
+    "instructions": [
+        "Preheat oven to 425 degrees F (220 degrees C).",
+        "Place chicken in a 9x13 inch baking dish; sprinkle with onion, garlic, seasoning, soy sauce and sweetener.",
+        "Place foil over pan and bake for one hour at 425 degrees F (220 degrees C). It's ready to serve!"
+    ],
+    "title": "Low-Cal Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/915222.jpg",
+    "url": "http://allrecipes.com/Recipe/8607/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

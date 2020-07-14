@@ -1,0 +1,37 @@
+{
+    "ingredients": [
+        "1 (1 ounce) package dry onion soup mix",
+        "4 bone-in chicken breast halves, skinless",
+        "1 (.6 ounce) package cream of chicken soup mix",
+        "2 tablespoons soy sauce",
+        "2 cloves crushed garlic",
+        "1 cup apple juice",
+        "1 cup orange juice",
+        "salt and pepper to taste"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Place the chicken pieces in a lightly greased 9x13 inch baking dish.",
+        "In a medium bowl combine the onion soup mix, cream of chicken soup mix, soy sauce, garlic, apple and orange juice, salt and pepper. Mix together and pour mixture over chicken. Cover and bake in the preheated oven for 1 hour, then remove cover/lid and bake for another 1/2 hour to brown the chicken."
+    ],
+    "title": "Apple and Orange Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/51159.jpg",
+    "url": "http://allrecipes.com/Recipe/8838/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

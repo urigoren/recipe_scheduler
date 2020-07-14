@@ -1,0 +1,33 @@
+{
+    "ingredients": [
+        "1 (1 pound) pork tenderloin cut into 1-inch thick slices",
+        "1 garlic clove, minced",
+        "1 teaspoon dried marjoram",
+        "1 teaspoon dried thyme",
+        "1/4 teaspoon salt",
+        "1/4 teaspoon onion powder",
+        "1 tablespoon butter or stick margarine",
+        "2 tablespoons sugar-free maple syrup"
+    ],
+    "instructions": [
+        "Flatten meat to 1/2-in. thickness. In a resealable plastic bag, combine the garlic, marjoram, thyme, salt and onion powder. Add meat, a slice at a time; shake to coat evenly. In a nonstick skillet, cook meat in butter over medium heat for 2-3 minutes on each side or until meat is no longer pink. Drain and discard pan juices. Add syrup to meat in skillet. Cook over medium-high heat, turning several times, for about 3 minutes or until syrup is absorbed. Serve immediately."
+    ],
+    "title": "Maple Pork Slices",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/511779.jpg",
+    "url": "http://allrecipes.com/Recipe/118219/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

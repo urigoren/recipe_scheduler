@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        "1 pound chicken drumsticks",
+        "1/2 cup ketchup",
+        "1/2 cup honey",
+        "2 tablespoons soy sauce",
+        "1/4 cup vegetable oil",
+        "2 teaspoons lemon juice",
+        "1/4 teaspoon crushed peppercorns",
+        "1/4 teaspoon hot chili sauce",
+        "Salt, to taste"
+    ],
+    "instructions": [
+        "Place chicken in large shallow dish. Add ketchup, honey, soy sauce, lemon juice, and vegetable oil, along with pepper, chili sauce, and salt. Cover the dish and let it stand for about 1 hour in the refrigerator. Prepare the grill, then grill to desired doneness."
+    ],
+    "title": "Honey BBQ-Marinated Chicken Drumsticks",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/1042081.jpg",
+    "url": "http://allrecipes.com/Recipe/234147/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "ingredients": [
+        "1 (10 ounce) package frozen chopped spinach",
+        "2 tablespoons butter or margarine",
+        "2 cups cooked egg noodles",
+        "1 1/2 cups diced, cooked turkey",
+        "1 cup turkey or chicken gravy",
+        "1 (8 ounce) package sour cream and onion dip",
+        "1/2 teaspoon onion salt",
+        "2 tablespoons grated Parmesan cheese"
+    ],
+    "instructions": [
+        "Cook spinach according to package directions; drain. Stir in butter. Place noodles in a greased 11-in. x 7-in. x 2-in. baking dish; top with spinach. Combine turkey, gravy, onion dip and onion salt; spoon over spinach. Sprinkle with Parmesan. Bake, uncovered, at 325 degrees F for 25 minutes or until bubbly."
+    ],
+    "title": "Turkey Florentine",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4213912.jpg",
+    "url": "http://allrecipes.com/Recipe/123550/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

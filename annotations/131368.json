@@ -1,0 +1,40 @@
+{
+    "ingredients": [
+        "1 tablespoon tomato juice",
+        "2 teaspoons honey",
+        "2 teaspoons red wine vinegar",
+        "1/4 teaspoon chipotle chili pepper",
+        "2 teaspoons extra-virgin olive oil",
+        "1 tablespoon finely chopped red onion",
+        "4 cups torn romaine lettuce leaves",
+        "Salt and pepper, to taste",
+        "1 ounce crumbled part-skim queso fresco (Mexican cheese)"
+    ],
+    "instructions": [
+        "In a small bowl, whisk together juice, honey, vinegar, and 1/8 teaspoon chipotle.",
+        "Gradually whisk in the oil. Mix in the onion.",
+        "Add the romaine to a large bowl and toss with dressing. Season with salt, pepper, and an additional 1/8 teaspoon chipotle if desired.",
+        "Divide between two plates and sprinkle half of the cheese over each."
+    ],
+    "title": "Romaine with Chipotle Vinaigrette and Queso Fresco",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/131368/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "ingredients": [
+        "1/4 cup red lentils",
+        "2 tablespoons dried minced onion",
+        "1 1/2 tablespoons chicken bouillon granules",
+        "1/2 teaspoon dried dill weed",
+        "1/8 teaspoon celery seed",
+        "1/8 teaspoon garlic powder",
+        "1 bay leaf",
+        "1 cup uncooked medium egg noodles"
+    ],
+    "instructions": [
+        "In a small (1 pint), glass jar, layer from bottom to top, lentils, minced onion, bouillon, dill, celery seed, garlic powder, bay leaf and noodles. Seal jar.",
+        "Attach a card with the following instructions: Bring 8 cups water to boil in a large saucepan over high heat. Stir in jar of soup mix. Cover, reduce heat and simmer 15 minutes. Remove and discard bay leaf. Stir in 1 (10 ounce) package frozen mixed vegetables and 2 cups cooked, diced turkey meat. Cook 5 minutes more, or until vegetables and turkey are heated through and tender."
+    ],
+    "title": "Turkey Noodle Soup Mix",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/543922.jpg",
+    "url": "http://allrecipes.com/Recipe/25656/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        []
+    ]
+}

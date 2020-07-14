@@ -1,0 +1,31 @@
+{
+    "ingredients": [
+        "1 pound lean ground beef",
+        "salt and pepper to taste",
+        "1/4 cup diced onion",
+        "4 medium potatoes, peeled and diced",
+        "1 (14.75 ounce) can cream-style corn",
+        "1 tablespoon butter or margarine"
+    ],
+    "instructions": [
+        "Crumble beef into a shallow 2-qt. microwave-safe dish. Sprinkle with salt and pepper. Layer with onion, potatoes and corn. Dot with butter. Cover and microwave on high for 15 minutes; stir. Cover and heat 10-12 minutes longer or until meat is no longer pink and potatoes are tender."
+    ],
+    "title": "Potato Corn Casserole",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/121660/",
+    "normalized_ingredients": {
+        "517": "onion",
+        "734": "tomato sauce",
+        "716": "sugar",
+        "754": "vinegar",
+        "233": "chili powder",
+        "705": "soy sauce",
+        "648": "salt",
+        "584": "pepper",
+        "88": "boneless beef chuck roast"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

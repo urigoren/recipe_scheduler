@@ -3,15 +3,19 @@
 
 <head>
     <title>Annotate</title>
-
-    <!-- head -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="js/daypilot-uri.min.js?v=2020.2.4517"></script>
-    <!-- /head -->
-
+    <style>
+        #instruction {
+            color: navy;
+            font-size: 20px;
+            font-family: arial;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -33,10 +37,20 @@
             </ul>
             </div>
         </div>
-        <div class="row"><div class="col-sm-12"></div></div>
+        <div class="row">
+            <div class="col-sm-1"><h1 class="glyphicon glyphicon-backward" onclick="prev_instruction();"></h1></div>
+            <div class="col-sm-10" id="instruction">
+                <h3>1/<?=count($data['instructions'])?></h3><?=$data['instructions'][0]?>
+            </div>
+            <div class="col-sm-1"><h1 class="glyphicon glyphicon-forward" onclick="next_instruction();"></h1></div>
+        </div>
         <div class="row"><div class="col-sm-12"></div></div>
         <div id="dp"></div>
-        <input type="button" onClick="javascript:done();" value="Done">
+        <form method="POST" action="save.php" onsubmit="show_instruction()">
+            <input type="hidden" name="id" value="<?=$id?>">
+            <input type="hidden" name="events" id="events" value="[]">
+            <input type="submit" value="Done">
+        </form>
 
     </div>
     <script type="text/javascript">
@@ -137,17 +151,37 @@
 
         dp.scrollTo("2020-02-01");
         alert = console.log;
+        let instruction_index=0;
+        let instructions=<?=json_encode($data['instructions'])?>;
+        let events=instructions.map((x)=>[]);
 
-        function done() {
-            const hour = s => parseInt(s[11] + s[12])
-            window.events = dp.events.list.map(x => {
-                var ret = {};
-                ret["ingredient"] = x.ingredient;
-                ret["resource"] = x.resource;
-                ret["start"] = hour(x.start.value);
-                ret["end"] = hour(x.end.value);
-                return ret;
-            });
+        function next_instruction()
+        {
+            console.log("next_instruction");
+            events[instruction_index]=dp.events.list;
+            if (instruction_index+1==instructions.length)
+                return;
+            instruction_index+=1;
+            dp.events.list=events[instruction_index];
+            dp.update();
+            show_instruction();
+        }
+        function prev_instruction()
+        {
+            console.log("prev_instruction");
+            events[instruction_index]=dp.events.list;
+            if (instruction_index==0)
+                return;
+            instruction_index-=1;
+            dp.events.list=events[instruction_index];
+            dp.update();
+            show_instruction();
+        }
+        function show_instruction()
+        {
+            let instruction=instructions[instruction_index];
+            document.getElementById('instruction').innerHTML="<h3>"+(instruction_index+1)+"/"+instructions.length+"</h3>"+instruction;
+            document.getElementById('events').value=JSON.stringify(events);
         }
 
     </script>
