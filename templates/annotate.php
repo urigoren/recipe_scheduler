@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="js/daypilot-uri.min.js?v=2020.2.4517"></script>
     <!-- /head -->
 
@@ -17,7 +18,23 @@
 
 
     <div id="content">
-        <span></span>
+        <div class="row"><div class="col-sm-12"><h1><?=$data['title']?></h1></div></div>
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="<?=$data['photo_url']?>" width=200>
+            </div>
+            <div class="col-sm-9">
+            <ul>
+                    <?php
+                    foreach ($data['ingredients'] as $key => $value) {
+                        echo "<li>$value</li>";
+                    }
+                    ?>
+            </ul>
+            </div>
+        </div>
+        <div class="row"><div class="col-sm-12"></div></div>
+        <div class="row"><div class="col-sm-12"></div></div>
         <div id="dp"></div>
         <input type="button" onClick="javascript:done();" value="Done">
 
@@ -54,42 +71,8 @@
 
         dp.treeEnabled = true;
         dp.treePreventParentUsage = true;
-        //<schedule>
-        dp.resources = [
-            {
-                name: "Combine", id: "G1", expanded: true, children: [
-                    { name: "Mix", id: "A" },
-                    { name: "Stir", id: "B" },
-                    { name: "Blend", id: "C" }
-                ]
-            },
-            {
-                name: "Cook", id: "G2", expanded: true, children: [
-                    { name: "Low", id: "E" },
-                    { name: "Medium", id: "F" },
-                    { name: "High 3", id: "G" }
-                ]
-            },
-            {
-                name: "Cool", id: "G3", expanded: true, children: [
-                    { name: "Regrigerate", id: "I" },
-                    { name: "Freeze", id: "J" }
-                ]
-            },
-            {
-                name: "Other Resources", id: "G4", expanded: true, children: [
-                    { name: "Resource 1", id: "R1" },
-                    { name: "Resource 2", id: "R2" },
-                    { name: "Resource 3", id: "R3" },
-                    { name: "Resource 4", id: "R4" }
-                ]
-            },
-        ];
-        dp.actions = [
-            { "id": 1, "display": "Rice", "color": "#ff0000" },
-            { "id": 2, "display": "Sugar", "color": "#00ff00" },
-        ]
-        //</schedule>
+        dp.resources = <?php echo json_encode($resources);?>;
+        dp.actions = <?php echo json_encode($actions);?>;
 
         dp.heightSpec = "Max";
         dp.height = 500;
