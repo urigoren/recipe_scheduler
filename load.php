@@ -1,9 +1,8 @@
 <?php
-if (!array_key_exists("id", $_GET)||!is_numeric($_GET["id"]))
+require "inc.php";
+if (!array_key_exists("id", $_GET)||!annotation_exists($_GET["id"]))
     die("Missing id");
-$id = $_GET["id"];
-$data = file_get_contents("annotations/$id.json");
-$data = json_decode($data, TRUE);
+$data = get_annotation($_GET["id"]);
 
 header('Content-type: application/json');
 echo json_encode( $data );

@@ -1,5 +1,5 @@
 <?php
-include "inc.php";
+require "inc.php";
 $annotations = all_annotaions();
 $table = array();
 foreach ($annotations as $id => $data)

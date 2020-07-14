@@ -22,6 +22,12 @@ function get_annotation($id)
     return $data;
 }
 
+function save_annotation($id, $data)
+{
+    $data = json_encode($data);
+    file_put_contents("annotations/$id.json", $data);
+}
+
 function annotation_exists($id)
 {
     return file_exists("annotations/$id.json");
