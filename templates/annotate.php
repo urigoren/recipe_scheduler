@@ -15,6 +15,9 @@
             font-family: arial;
             text-align: center;
         }
+        .last_instruction {
+            color: green
+        }
     </style>
 </head>
 
@@ -38,11 +41,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-1"><h1 class="glyphicon glyphicon-backward" onclick="prev_instruction();"></h1></div>
+            <div class="col-sm-1"><h1 class="glyphicon glyphicon-backward" id="prev_instruction" onclick="prev_instruction();"></h1></div>
             <div class="col-sm-10" id="instruction">
                 <h3>1/<?=count($data['instructions'])?></h3><?=$data['instructions'][0]?>
             </div>
-            <div class="col-sm-1"><h1 class="glyphicon glyphicon-forward" onclick="next_instruction();"></h1></div>
+            <div class="col-sm-1"><h1 class="glyphicon glyphicon-forward" id="next_instruction" onclick="next_instruction();"></h1></div>
         </div>
         <div class="row"><div class="col-sm-12"></div></div>
         <div id="dp"></div>
@@ -183,6 +186,11 @@
             let instruction=instructions[instruction_index];
             document.getElementById('instruction').innerHTML="<h3>"+(instruction_index+1)+"/"+instructions.length+"</h3>"+instruction;
             document.getElementById('events').value=JSON.stringify(events);
+            const el = document.getElementById('next_instruction');
+            if (instruction_index+1==instructions.length)
+                el.classList.add("last_instruction");
+            else
+                el.classList.remove("last_instruction");
         }
         function save()
         {
