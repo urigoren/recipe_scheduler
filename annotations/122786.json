@@ -14,12 +14,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/978190.jpg",
     "url": "http://allrecipes.com/Recipe/122786/",
     "normalized_ingredients": {
-        "132": "can beef consomme",
-        "510": "ketchup",
-        "754": "soy sauce",
-        "490": "honey",
-        "433": "garlic cloves",
-        "319": "country-style pork spareribs"
+        "87": "beef consomme",
+        "459": "ketchup",
+        "685": "soy sauce",
+        "438": "honey",
+        "374": "garlic cloves",
+        "235": "country-style pork spareribs"
     },
     "status": 0,
     "labels": [

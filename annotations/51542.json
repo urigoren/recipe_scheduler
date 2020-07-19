@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4473734.jpg",
     "url": "http://allrecipes.com/Recipe/51542/",
     "normalized_ingredients": {
-        "449": "green onion",
-        "398": "eggs",
-        "73": "bean sprouts",
-        "754": "soy sauce",
-        "624": "peanut oil",
-        "734": "sliced fresh mushrooms",
-        "315": "cornstarch",
-        "233": "chicken or beef broth"
+        "393": "green onion",
+        "324": "eggs",
+        "82": "bean sprouts",
+        "685": "soy sauce",
+        "540": "peanut oil",
+        "661": "sliced fresh mushrooms",
+        "231": "cornstarch",
+        "168": "chicken or beef broth"
     },
     "status": 0,
     "labels": [

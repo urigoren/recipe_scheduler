@@ -15,12 +15,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/990648.jpg",
     "url": "http://allrecipes.com/Recipe/121375/",
     "normalized_ingredients": {
-        "53": "apple juice",
-        "538": "maple syrup",
-        "754": "soy sauce",
-        "413": "finely chopped onion",
-        "433": "garlic cloves",
-        "690": "salmon fillets"
+        "60": "apple juice",
+        "495": "maple syrup",
+        "685": "soy sauce",
+        "340": "finely chopped onion",
+        "374": "garlic cloves",
+        "615": "salmon fillets"
     },
     "status": 0,
     "labels": [

@@ -15,11 +15,11 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/960963.jpg",
     "url": "http://allrecipes.com/Recipe/229428/",
     "normalized_ingredients": {
-        "754": "soy sauce",
-        "490": "honey",
-        "266": "chopped garlic",
-        "388": "dry mustard",
-        "656": "pork tenderloins"
+        "685": "soy sauce",
+        "438": "honey",
+        "370": "garlic",
+        "310": "dry mustard",
+        "573": "pork tenderloins"
     },
     "status": 0,
     "labels": [

@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1697095.jpg",
     "url": "http://allrecipes.com/Recipe/239482/",
     "normalized_ingredients": {
-        "118": "brown sugar",
-        "492": "honey mustard",
-        "550": "mustard powder",
-        "464": "ground cumin",
-        "216": "cayenne pepper ",
-        "438": "garlic powder",
-        "648": "pork chops",
-        "123": "butter",
-        "51": "apple cider"
+        "128": "brown sugar",
+        "440": "honey mustard",
+        "508": "mustard powder",
+        "410": "ground cumin",
+        "149": "cayenne pepper ",
+        "379": "garlic powder",
+        "565": "pork chops",
+        "132": "butter",
+        "58": "apple cider"
     },
     "status": 0,
     "labels": [

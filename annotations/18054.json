@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/926910.jpg",
     "url": "http://allrecipes.com/Recipe/18054/",
     "normalized_ingredients": {
-        "49": "all-purpose flour",
-        "285": "chuck roast",
-        "784": "tomato sauce",
-        "273": "chopped onion",
-        "118": "brown sugar",
-        "342": "cubes beef bouillon",
-        "245": "chili powder",
-        "290": "clove garlic",
-        "550": "mustard powder"
+        "56": "all-purpose flour",
+        "189": "chuck roast",
+        "722": "tomato sauce",
+        "517": "onion",
+        "128": "brown sugar",
+        "263": "cubes beef bouillon",
+        "180": "chili powder",
+        "194": "clove garlic",
+        "508": "mustard powder"
     },
     "status": 0,
     "labels": [

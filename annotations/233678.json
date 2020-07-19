@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1039813.jpg",
     "url": "http://allrecipes.com/Recipe/233678/",
     "normalized_ingredients": {
-        "273": "chopped onion",
-        "181": "can tomato sauce",
-        "118": "brown sugar",
-        "806": "vinegar",
-        "245": "chili powder",
-        "754": "soy sauce",
-        "692": "salt",
-        "388": "dry mustard",
-        "97": "boneless beef chuck roast"
+        "517": "onion",
+        "722": "tomato sauce",
+        "128": "brown sugar",
+        "750": "vinegar",
+        "180": "chili powder",
+        "685": "soy sauce",
+        "617": "salt",
+        "310": "dry mustard",
+        "105": "boneless beef chuck roast"
     },
     "status": 0,
     "labels": [

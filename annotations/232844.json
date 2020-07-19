@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4441013.jpg",
     "url": "http://allrecipes.com/Recipe/232844/",
     "normalized_ingredients": {
-        "123": "butter",
-        "570": "orzo pasta",
-        "359": "diced onion",
-        "292": "cloves garlic",
-        "813": "white rice",
-        "229": "chicken broth",
-        "280": "chopped spinach",
-        "252": "chopped Bulgarian feta cheese"
+        "132": "butter",
+        "533": "orzo pasta",
+        "282": "diced onion",
+        "196": "cloves garlic",
+        "758": "white rice",
+        "163": "chicken broth",
+        "691": "spinach",
+        "6": "Bulgarian feta cheese"
     },
     "status": 0,
     "labels": [

@@ -19,14 +19,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2076512.jpg",
     "url": "http://allrecipes.com/Recipe/11979/",
     "normalized_ingredients": {
-        "587": "package egg noodles",
-        "514": "lean ground beef",
-        "644": "pinch seasoning salt",
-        "634": "pinch freshly ground black pepper",
-        "636": "pinch garlic powder",
-        "128": "can Mexican-style corn",
-        "157": "can diced tomatoes with green chile peppers",
-        "665": "processed cheese food "
+        "319": "egg noodles",
+        "464": "lean ground beef",
+        "558": "pinch seasoning salt",
+        "549": "pinch freshly ground black pepper",
+        "550": "pinch garlic powder",
+        "38": "Mexican-style corn",
+        "286": "diced tomatoes with green chile peppers",
+        "582": "processed cheese food "
     },
     "status": 0,
     "labels": [

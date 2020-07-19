@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4479057.jpg",
     "url": "http://allrecipes.com/Recipe/256536/",
     "normalized_ingredients": {
-        "438": "garlic powder",
-        "245": "chili powder",
-        "622": "paprika",
-        "367": "dried basil",
-        "237": "chicken tenderloins",
-        "804": "vegetable oil",
-        "273": "chopped onion",
-        "267": "chopped green bell pepper",
-        "277": "chopped red bell pepper"
+        "379": "garlic powder",
+        "180": "chili powder",
+        "538": "paprika",
+        "290": "dried basil",
+        "172": "chicken tenderloins",
+        "747": "vegetable oil",
+        "517": "onion",
+        "390": "green bell pepper",
+        "589": "red bell pepper"
     },
     "status": 0,
     "labels": [

@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989957.jpg",
     "url": "http://allrecipes.com/Recipe/117847/",
     "normalized_ingredients": {
-        "453": "green peppers",
-        "456": "ground beef",
-        "273": "chopped onion",
-        "181": "can tomato sauce",
-        "303": "cooked rice",
-        "692": "salt",
-        "438": "garlic powder",
-        "627": "pepper"
+        "398": "green peppers",
+        "402": "ground beef",
+        "517": "onion",
+        "722": "tomato sauce",
+        "215": "cooked rice",
+        "617": "salt",
+        "379": "garlic powder",
+        "543": "pepper"
     },
     "status": 0,
     "labels": [

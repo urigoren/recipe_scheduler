@@ -15,13 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/65629.jpg",
     "url": "http://allrecipes.com/Recipe/123160/",
     "normalized_ingredients": {
-        "794": "uncooked elbow macaroni",
-        "456": "ground beef",
-        "187": "can whole tomatoes",
-        "181": "can tomato sauce",
-        "504": "jar beef gravy",
-        "273": "chopped onion",
-        "438": "garlic powder"
+        "736": "uncooked elbow macaroni",
+        "402": "ground beef",
+        "768": "whole tomatoes",
+        "722": "tomato sauce",
+        "453": "jar beef gravy",
+        "517": "onion",
+        "379": "garlic powder"
     },
     "status": 0,
     "labels": [

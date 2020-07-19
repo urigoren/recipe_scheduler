@@ -15,13 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3344928.jpg",
     "url": "http://allrecipes.com/Recipe/237906/",
     "normalized_ingredients": {
-        "784": "tomato sauce",
-        "118": "brown sugar",
-        "364": "distilled white vinegar",
-        "245": "chili powder",
-        "455": "ground allspice",
-        "438": "garlic powder",
-        "561": "onion powder"
+        "722": "tomato sauce",
+        "128": "brown sugar",
+        "289": "distilled white vinegar",
+        "180": "chili powder",
+        "401": "ground allspice",
+        "379": "garlic powder",
+        "520": "onion powder"
     },
     "status": 0,
     "labels": [

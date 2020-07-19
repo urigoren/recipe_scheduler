@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1017234.jpg",
     "url": "http://allrecipes.com/Recipe/8626/",
     "normalized_ingredients": {
-        "804": "vegetable oil",
-        "490": "honey",
-        "754": "soy sauce",
-        "460": "ground black pepper",
-        "725": "skinless",
-        "292": "cloves garlic",
-        "565": "onions",
-        "670": "red bell peppers",
-        "724": "skewers"
+        "747": "vegetable oil",
+        "438": "honey",
+        "685": "soy sauce",
+        "406": "ground black pepper",
+        "651": "skinless",
+        "196": "cloves garlic",
+        "524": "onions",
+        "590": "red bell peppers",
+        "650": "skewers"
     },
     "status": 0,
     "labels": [

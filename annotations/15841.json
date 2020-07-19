@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3804742.jpg",
     "url": "http://allrecipes.com/Recipe/15841/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "610": "package taco seasoning mix",
-        "146": "can condensed tomato soup",
-        "809": "water",
-        "273": "chopped onion",
-        "213": "carrots",
-        "657": "potatoes",
-        "758": "stalk celery",
-        "172": "can pork and beans"
+        "402": "ground beef",
+        "708": "taco seasoning mix",
+        "207": "condensed tomato soup",
+        "753": "water",
+        "517": "onion",
+        "146": "carrots",
+        "574": "potatoes",
+        "692": "stalk celery",
+        "563": "pork and beans"
     },
     "status": 0,
     "labels": [

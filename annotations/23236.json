@@ -21,15 +21,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/67355.jpg",
     "url": "http://allrecipes.com/Recipe/23236/",
     "normalized_ingredients": {
-        "527": "links spicy pork sausage",
-        "804": "vegetable oil",
-        "359": "diced onion",
-        "546": "minced garlic",
-        "235": "chicken soup base",
-        "809": "water",
-        "657": "potatoes",
-        "736": "sliced kale",
-        "485": "heavy cream"
+        "479": "links spicy pork sausage",
+        "747": "vegetable oil",
+        "282": "diced onion",
+        "502": "minced garlic",
+        "170": "chicken soup base",
+        "753": "water",
+        "574": "potatoes",
+        "663": "sliced kale",
+        "431": "heavy cream"
     },
     "status": 0,
     "labels": [

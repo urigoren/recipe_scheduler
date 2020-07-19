@@ -22,15 +22,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4476431.jpg",
     "url": "http://allrecipes.com/Recipe/255262/",
     "normalized_ingredients": {
-        "555": "olive oil",
-        "524": "lime, juiced",
-        "438": "garlic powder",
-        "561": "onion powder",
-        "245": "chili powder",
-        "374": "dried oregano",
-        "376": "dried parsley flakes",
-        "460": "ground black pepper",
-        "726": "skinless chicken drumsticks"
+        "514": "olive oil",
+        "475": "lime, juiced",
+        "379": "garlic powder",
+        "520": "onion powder",
+        "180": "chili powder",
+        "297": "dried oregano",
+        "299": "dried parsley flakes",
+        "406": "ground black pepper",
+        "652": "skinless chicken drumsticks"
     },
     "status": 0,
     "labels": [

@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/984723.jpg",
     "url": "http://allrecipes.com/Recipe/119108/",
     "normalized_ingredients": {
-        "809": "water",
-        "124": "butter or margarine",
-        "376": "dried parsley flakes",
-        "227": "chicken bouillon granules",
-        "371": "dried minced onion",
-        "367": "dried basil",
-        "627": "pepper",
-        "438": "garlic powder",
-        "581": "package couscous"
+        "753": "water",
+        "135": "butter or margarine",
+        "299": "dried parsley flakes",
+        "161": "chicken bouillon granules",
+        "294": "dried minced onion",
+        "290": "dried basil",
+        "543": "pepper",
+        "379": "garlic powder",
+        "236": "couscous"
     },
     "status": 0,
     "labels": [

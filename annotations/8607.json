@@ -16,12 +16,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/915222.jpg",
     "url": "http://allrecipes.com/Recipe/8607/",
     "normalized_ingredients": {
-        "725": "skinless",
-        "547": "minced onion",
-        "332": "crushed garlic",
-        "660": "poultry seasoning",
-        "754": "soy sauce",
-        "57": "artificial sweetener"
+        "651": "skinless",
+        "503": "minced onion",
+        "252": "crushed garlic",
+        "577": "poultry seasoning",
+        "685": "soy sauce",
+        "64": "artificial sweetener"
     },
     "status": 0,
     "labels": [

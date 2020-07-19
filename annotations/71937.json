@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3581229.jpg",
     "url": "http://allrecipes.com/Recipe/71937/",
     "normalized_ingredients": {
-        "123": "butter",
-        "558": "onion",
-        "231": "chicken drumsticks",
-        "792": "uncooked barley",
-        "794": "uncooked elbow macaroni",
-        "590": "package frozen cauliflower and broccoli",
-        "592": "package frozen corn",
-        "212": "cans whole peeled tomatoes",
-        "209": "cans tomato sauce"
+        "132": "butter",
+        "517": "onion",
+        "165": "chicken drumsticks",
+        "733": "uncooked barley",
+        "736": "uncooked elbow macaroni",
+        "356": "frozen cauliflower and broccoli",
+        "358": "frozen corn",
+        "766": "whole peeled tomatoes",
+        "722": "tomato sauce"
     },
     "status": 0,
     "labels": [

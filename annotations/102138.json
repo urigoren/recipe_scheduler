@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/986662.jpg",
     "url": "http://allrecipes.com/Recipe/102138/",
     "normalized_ingredients": {
-        "572": "package Hot Flavor Jimmy Dean Hot Pork Sausage",
-        "413": "finely chopped onion",
-        "464": "ground cumin",
-        "245": "chili powder",
-        "546": "minced garlic",
-        "420": "fresh lime juice",
-        "32": "Mexican style shredded cheese",
-        "588": "package egg roll wrappers",
-        "189": "canola oil"
+        "21": "Hot Flavor Jimmy Dean Hot Pork Sausage",
+        "340": "finely chopped onion",
+        "410": "ground cumin",
+        "180": "chili powder",
+        "502": "minced garlic",
+        "474": "lime juice",
+        "37": "Mexican style shredded cheese",
+        "320": "egg roll wrappers",
+        "143": "canola oil"
     },
     "status": 0,
     "labels": [

@@ -17,13 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/227293.jpg",
     "url": "http://allrecipes.com/Recipe/29460/",
     "normalized_ingredients": {
-        "466": "ground ginger",
-        "438": "garlic powder",
-        "754": "soy sauce",
-        "566": "orange juice",
-        "490": "honey",
-        "449": "green onion",
-        "689": "salmon fillet"
+        "412": "ground ginger",
+        "379": "garlic powder",
+        "685": "soy sauce",
+        "527": "orange juice",
+        "438": "honey",
+        "393": "green onion",
+        "614": "salmon fillet"
     },
     "status": 0,
     "labels": [

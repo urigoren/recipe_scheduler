@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/988618.jpg",
     "url": "http://allrecipes.com/Recipe/117205/",
     "normalized_ingredients": {
-        "754": "soy sauce",
-        "449": "green onion",
-        "466": "ground ginger",
-        "12": "Dijon mustard",
-        "433": "garlic cloves",
-        "84": "beef tenderloin",
-        "490": "honey",
-        "706": "sesame seeds"
+        "685": "soy sauce",
+        "393": "green onion",
+        "412": "ground ginger",
+        "14": "Dijon mustard",
+        "374": "garlic cloves",
+        "94": "beef tenderloin",
+        "438": "honey",
+        "632": "sesame seeds"
     },
     "status": 0,
     "labels": [

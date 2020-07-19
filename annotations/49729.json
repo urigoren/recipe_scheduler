@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/778930.jpg",
     "url": "http://allrecipes.com/Recipe/49729/",
     "normalized_ingredients": {
-        "301": "cooked crumbled bacon",
-        "339": "cubed cooked chicken",
-        "177": "can small shrimp",
-        "73": "bean sprouts",
-        "754": "soy sauce",
-        "441": "garlic salt",
-        "588": "package egg roll wrappers",
-        "666": "quart oil for deep frying"
+        "213": "cooked crumbled bacon",
+        "260": "cubed cooked chicken",
+        "649": "shrimp",
+        "82": "bean sprouts",
+        "685": "soy sauce",
+        "382": "garlic salt",
+        "320": "egg roll wrappers",
+        "583": "quart oil for deep frying"
     },
     "status": 0,
     "labels": [

@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4521522.jpg",
     "url": "http://allrecipes.com/Recipe/233136/",
     "normalized_ingredients": {
-        "589": "package elbow macaroni",
-        "456": "ground beef",
-        "371": "dried minced onion",
-        "432": "garlic clove",
-        "210": "cans tomato soup",
-        "148": "can corn",
-        "631": "pinch Italian seasoning",
-        "643": "pinch seasoned salt",
-        "744": "slices fat-free American cheese"
+        "325": "elbow macaroni",
+        "402": "ground beef",
+        "294": "dried minced onion",
+        "373": "garlic clove",
+        "723": "tomato soup",
+        "220": "corn",
+        "546": "pinch Italian seasoning",
+        "557": "pinch seasoned salt",
+        "673": "slices fat-free American cheese"
     },
     "status": 0,
     "labels": [

@@ -14,10 +14,10 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/259769.jpg",
     "url": "http://allrecipes.com/Recipe/20080/",
     "normalized_ingredients": {
-        "490": "honey",
-        "770": "sweet chili sauce",
-        "754": "soy sauce",
-        "231": "chicken drumsticks"
+        "438": "honey",
+        "706": "sweet chili sauce",
+        "685": "soy sauce",
+        "165": "chicken drumsticks"
     },
     "status": 0,
     "labels": [

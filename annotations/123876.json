@@ -16,13 +16,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/977442.jpg",
     "url": "http://allrecipes.com/Recipe/123876/",
     "normalized_ingredients": {
-        "652": "pork spareribs",
-        "490": "honey",
-        "619": "packed brown sugar",
-        "754": "soy sauce",
-        "438": "garlic powder",
-        "466": "ground ginger",
-        "470": "ground mustard"
+        "569": "pork spareribs",
+        "438": "honey",
+        "535": "packed brown sugar",
+        "685": "soy sauce",
+        "379": "garlic powder",
+        "412": "ground ginger",
+        "417": "ground mustard"
     },
     "status": 0,
     "labels": [

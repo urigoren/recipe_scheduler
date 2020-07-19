@@ -16,13 +16,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4431719.jpg",
     "url": "http://allrecipes.com/Recipe/61285/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "343": "cubes chicken bouillon",
-        "438": "garlic powder",
-        "460": "ground black pepper",
-        "561": "onion powder",
-        "49": "all-purpose flour",
-        "534": "low-fat milk"
+        "402": "ground beef",
+        "264": "cubes chicken bouillon",
+        "379": "garlic powder",
+        "406": "ground black pepper",
+        "520": "onion powder",
+        "56": "all-purpose flour",
+        "487": "low-fat milk"
     },
     "status": 0,
     "labels": [

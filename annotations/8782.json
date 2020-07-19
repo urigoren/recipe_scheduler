@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/212616.jpg",
     "url": "http://allrecipes.com/Recipe/8782/",
     "normalized_ingredients": {
-        "239": "chicken wings",
-        "692": "salt",
-        "754": "soy sauce",
-        "245": "chili powder",
-        "381": "drop red food coloring",
-        "364": "distilled white vinegar",
-        "266": "chopped garlic",
-        "412": "finely chopped green chile peppers",
-        "315": "cornstarch"
+        "174": "chicken wings",
+        "617": "salt",
+        "685": "soy sauce",
+        "180": "chili powder",
+        "303": "drop red food coloring",
+        "289": "distilled white vinegar",
+        "370": "garlic",
+        "339": "finely chopped green chile peppers",
+        "231": "cornstarch"
     },
     "status": 0,
     "labels": [

@@ -17,13 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/149377/",
     "normalized_ingredients": {
-        "501": "instant white rice",
-        "808": "warm water",
-        "106": "boneless skinless chicken breast halves",
-        "427": "frozen oriental mixed vegetables",
-        "623": "peanut butter",
-        "26": "KRAFT SWEET RECIPES Honey Mustard Barbecue Sauce",
-        "754": "soy sauce"
+        "450": "instant white rice",
+        "752": "warm water",
+        "114": "boneless skinless chicken breast halves",
+        "364": "frozen oriental mixed vegetables",
+        "539": "peanut butter",
+        "32": "KRAFT SWEET RECIPES Honey Mustard Barbecue Sauce",
+        "685": "soy sauce"
     },
     "status": 0,
     "labels": [

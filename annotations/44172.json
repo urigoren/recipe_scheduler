@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/395105.jpg",
     "url": "http://allrecipes.com/Recipe/44172/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "47": "Worcestershire sauce",
-        "181": "can tomato sauce",
-        "331": "crushed fried pork skins",
-        "398": "eggs",
-        "245": "chili powder",
-        "441": "garlic salt",
-        "437": "garlic pepper seasoning"
+        "402": "ground beef",
+        "53": "Worcestershire sauce",
+        "722": "tomato sauce",
+        "251": "crushed fried pork skins",
+        "324": "eggs",
+        "180": "chili powder",
+        "382": "garlic salt",
+        "378": "garlic pepper seasoning"
     },
     "status": 0,
     "labels": [

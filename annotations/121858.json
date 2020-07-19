@@ -15,13 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/166884.jpg",
     "url": "http://allrecipes.com/Recipe/121858/",
     "normalized_ingredients": {
-        "55": "applesauce",
-        "767": "sugar",
-        "754": "soy sauce",
-        "432": "garlic clove",
-        "466": "ground ginger",
-        "105": "boneless pork loin chops",
-        "124": "butter or margarine"
+        "62": "applesauce",
+        "702": "sugar",
+        "685": "soy sauce",
+        "373": "garlic clove",
+        "412": "ground ginger",
+        "113": "boneless pork loin chops",
+        "135": "butter or margarine"
     },
     "status": 0,
     "labels": [

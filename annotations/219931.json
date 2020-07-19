@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4470260.jpg",
     "url": "http://allrecipes.com/Recipe/219931/",
     "normalized_ingredients": {
-        "181": "can tomato sauce",
-        "180": "can tomato paste",
-        "77": "beef broth",
-        "693": "salt ",
-        "374": "dried oregano",
-        "464": "ground cumin",
-        "438": "garlic powder",
-        "561": "onion powder",
-        "245": "chili powder"
+        "722": "tomato sauce",
+        "720": "tomato paste",
+        "86": "beef broth",
+        "618": "salt ",
+        "297": "dried oregano",
+        "410": "ground cumin",
+        "379": "garlic powder",
+        "520": "onion powder",
+        "180": "chili powder"
     },
     "status": 0,
     "labels": [

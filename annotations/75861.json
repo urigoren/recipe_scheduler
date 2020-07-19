@@ -15,13 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/305103.jpg",
     "url": "http://allrecipes.com/Recipe/75861/",
     "normalized_ingredients": {
-        "653": "pork tenderloin",
-        "400": "envelope dry onion soup mix",
-        "809": "water",
-        "676": "red wine",
-        "546": "minced garlic",
-        "754": "soy sauce",
-        "536": "ly ground black pepper to taste"
+        "570": "pork tenderloin",
+        "327": "envelope dry onion soup mix",
+        "753": "water",
+        "597": "red wine",
+        "502": "minced garlic",
+        "685": "soy sauce",
+        "490": "ly ground black pepper to taste"
     },
     "status": 0,
     "labels": [

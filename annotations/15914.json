@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1979024.jpg",
     "url": "http://allrecipes.com/Recipe/15914/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "273": "chopped onion",
-        "657": "potatoes",
-        "204": "cans kidney beans",
-        "200": "cans condensed tomato soup",
-        "781": "tomato juice",
-        "245": "chili powder",
-        "809": "water",
-        "697": "salt to taste"
+        "402": "ground beef",
+        "517": "onion",
+        "574": "potatoes",
+        "460": "kidney beans",
+        "207": "condensed tomato soup",
+        "719": "tomato juice",
+        "180": "chili powder",
+        "753": "water",
+        "622": "salt to taste"
     },
     "status": 0,
     "labels": [

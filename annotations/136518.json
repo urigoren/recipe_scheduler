@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/693438.jpg",
     "url": "http://allrecipes.com/Recipe/136518/",
     "normalized_ingredients": {
-        "754": "soy sauce",
-        "684": "rice vinegar",
-        "490": "honey",
-        "704": "sesame oil",
-        "546": "minced garlic",
-        "447": "grated fresh ginger root",
-        "269": "chopped green onion or shallot",
-        "669": "raw sesame seeds",
-        "471": "ground pepper"
+        "685": "soy sauce",
+        "608": "rice vinegar",
+        "438": "honey",
+        "631": "sesame oil",
+        "502": "minced garlic",
+        "388": "grated fresh ginger root",
+        "394": "green onion or shallot",
+        "588": "raw sesame seeds",
+        "418": "ground pepper"
     },
     "status": 0,
     "labels": [

@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2280937.jpg",
     "url": "http://allrecipes.com/Recipe/240400/",
     "normalized_ingredients": {
-        "273": "chopped onion",
-        "754": "soy sauce",
-        "118": "brown sugar",
-        "546": "minced garlic",
-        "704": "sesame oil",
-        "706": "sesame seeds",
-        "214": "cayenne",
-        "695": "salt and ground black pepper to taste",
-        "731": "skinless, boneless chicken breasts"
+        "517": "onion",
+        "685": "soy sauce",
+        "128": "brown sugar",
+        "502": "minced garlic",
+        "631": "sesame oil",
+        "632": "sesame seeds",
+        "147": "cayenne",
+        "620": "salt and ground black pepper to taste",
+        "657": "skinless, boneless chicken breasts"
     },
     "status": 0,
     "labels": [

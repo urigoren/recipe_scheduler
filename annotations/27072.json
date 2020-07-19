@@ -16,13 +16,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/437348.jpg",
     "url": "http://allrecipes.com/Recipe/27072/",
     "normalized_ingredients": {
-        "804": "vegetable oil",
-        "797": "uncooked long-grain rice",
-        "441": "garlic salt",
-        "464": "ground cumin",
-        "273": "chopped onion",
-        "784": "tomato sauce",
-        "229": "chicken broth"
+        "747": "vegetable oil",
+        "739": "uncooked long-grain rice",
+        "382": "garlic salt",
+        "410": "ground cumin",
+        "517": "onion",
+        "722": "tomato sauce",
+        "163": "chicken broth"
     },
     "status": 0,
     "labels": [

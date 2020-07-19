@@ -16,12 +16,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/1034318.jpg",
     "url": "http://allrecipes.com/Recipe/233689/",
     "normalized_ingredients": {
-        "532": "long-grain white rice",
-        "98": "boneless beef sirloin steak",
-        "573": "package KRAFT RECIPE MAKERS Sweet & Sour Chicken",
-        "597": "package frozen whole green beans",
-        "675": "red peppers",
-        "243": "chili garlic sauce"
+        "485": "long-grain white rice",
+        "106": "boneless beef sirloin steak",
+        "31": "KRAFT RECIPE MAKERS Sweet & Sour Chicken",
+        "368": "frozen whole green beans",
+        "596": "red peppers",
+        "179": "chili garlic sauce"
     },
     "status": 0,
     "labels": [

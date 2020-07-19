@@ -17,13 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1043526.jpg",
     "url": "http://allrecipes.com/Recipe/82464/",
     "normalized_ingredients": {
-        "608": "package spaghetti or penne pasta",
-        "310": "corn oil",
-        "459": "ground beef or ground lean lamb",
-        "646": "pine nuts or slivered almonds",
-        "696": "salt and pepper to taste",
-        "290": "clove garlic",
-        "298": "container plain yogurt"
+        "688": "spaghetti or penne pasta",
+        "225": "corn oil",
+        "405": "ground beef or ground lean lamb",
+        "560": "pine nuts or slivered almonds",
+        "621": "salt and pepper to taste",
+        "194": "clove garlic",
+        "209": "container plain yogurt"
     },
     "status": 0,
     "labels": [

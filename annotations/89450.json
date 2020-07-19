@@ -17,13 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/89450/",
     "normalized_ingredients": {
-        "615": "package wide egg noodles",
-        "456": "ground beef",
-        "181": "can tomato sauce",
-        "186": "can whole kernel corn",
-        "174": "can sliced black olives",
-        "712": "shredded Cheddar cheese",
-        "245": "chili powder"
+        "770": "wide egg noodles",
+        "402": "ground beef",
+        "722": "tomato sauce",
+        "765": "whole kernel corn",
+        "658": "sliced black olives",
+        "639": "shredded Cheddar cheese",
+        "180": "chili powder"
     },
     "status": 0,
     "labels": [

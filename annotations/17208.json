@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/48320.jpg",
     "url": "http://allrecipes.com/Recipe/17208/",
     "normalized_ingredients": {
-        "804": "vegetable oil",
-        "558": "onion",
-        "166": "can mushrooms",
-        "725": "skinless",
-        "438": "garlic powder",
-        "587": "package egg noodles",
-        "753": "sour cream",
-        "146": "can condensed tomato soup",
-        "696": "salt and pepper to taste"
+        "747": "vegetable oil",
+        "517": "onion",
+        "507": "mushrooms",
+        "651": "skinless",
+        "379": "garlic powder",
+        "319": "egg noodles",
+        "683": "sour cream",
+        "207": "condensed tomato soup",
+        "621": "salt and pepper to taste"
     },
     "status": 0,
     "labels": [

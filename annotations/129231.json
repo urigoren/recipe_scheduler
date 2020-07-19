@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/645010.jpg",
     "url": "http://allrecipes.com/Recipe/129231/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "185": "can water chestnuts",
-        "754": "soy sauce",
-        "118": "brown sugar",
-        "561": "onion powder",
-        "438": "garlic powder",
-        "56": "apricot preserves or jam",
-        "52": "apple cider vinegar"
+        "464": "lean ground beef",
+        "755": "water chestnuts",
+        "685": "soy sauce",
+        "128": "brown sugar",
+        "520": "onion powder",
+        "379": "garlic powder",
+        "63": "apricot preserves or jam",
+        "59": "apple cider vinegar"
     },
     "status": 0,
     "labels": [

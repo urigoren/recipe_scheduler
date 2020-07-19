@@ -19,14 +19,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2096799.jpg",
     "url": "http://allrecipes.com/Recipe/157920/",
     "normalized_ingredients": {
-        "707": "shark steaks",
-        "754": "soy sauce",
-        "47": "Worcestershire sauce",
-        "561": "onion powder",
-        "441": "garlic salt",
-        "263": "chopped fresh thyme",
-        "460": "ground black pepper",
-        "245": "chili powder"
+        "633": "shark steaks",
+        "685": "soy sauce",
+        "53": "Worcestershire sauce",
+        "520": "onion powder",
+        "382": "garlic salt",
+        "353": "fresh thyme",
+        "406": "ground black pepper",
+        "180": "chili powder"
     },
     "status": 0,
     "labels": [

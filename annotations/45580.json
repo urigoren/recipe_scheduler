@@ -19,14 +19,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/808219.jpg",
     "url": "http://allrecipes.com/Recipe/45580/",
     "normalized_ingredients": {
-        "754": "soy sauce",
-        "809": "water",
-        "806": "vinegar",
-        "490": "honey",
-        "546": "minced garlic",
-        "72": "bay leaves",
-        "89": "black pepper",
-        "725": "skinless"
+        "685": "soy sauce",
+        "753": "water",
+        "750": "vinegar",
+        "438": "honey",
+        "502": "minced garlic",
+        "81": "bay leaves",
+        "98": "black pepper",
+        "651": "skinless"
     },
     "status": 0,
     "labels": [

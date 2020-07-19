@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/13499/",
     "normalized_ingredients": {
-        "236": "chicken stock",
-        "823": "wild rice",
-        "123": "butter",
-        "421": "fresh sliced mushrooms",
-        "357": "diced celery",
-        "273": "chopped onion",
-        "308": "corn bread stuffing mix",
-        "660": "poultry seasoning"
+        "171": "chicken stock",
+        "771": "wild rice",
+        "132": "butter",
+        "664": "sliced mushrooms",
+        "279": "diced celery",
+        "517": "onion",
+        "222": "corn bread stuffing mix",
+        "577": "poultry seasoning"
     },
     "status": 0,
     "labels": [

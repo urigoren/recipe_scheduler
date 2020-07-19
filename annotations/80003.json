@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/80003/",
     "normalized_ingredients": {
-        "98": "boneless beef sirloin steak",
-        "451": "green onions, white part only",
-        "30": "Marinade:",
-        "317": "country Dijon-style mustard",
-        "754": "soy sauce",
-        "490": "honey",
-        "420": "fresh lime juice",
-        "110": "bottled minced or fresh crushed garlic",
-        "474": "ground red pepper"
+        "106": "boneless beef sirloin steak",
+        "396": "green onions, white part only",
+        "36": "Marinade:",
+        "233": "country Dijon-style mustard",
+        "685": "soy sauce",
+        "438": "honey",
+        "474": "lime juice",
+        "118": "bottled minced or fresh crushed garlic",
+        "421": "ground red pepper"
     },
     "status": 0,
     "labels": [

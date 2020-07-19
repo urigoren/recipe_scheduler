@@ -16,13 +16,13 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/81617/",
     "normalized_ingredients": {
-        "472": "ground pork",
-        "393": "egg",
-        "378": "dried sage",
-        "379": "dried thyme",
-        "564": "onion salt",
-        "460": "ground black pepper",
-        "245": "chili powder"
+        "419": "ground pork",
+        "317": "egg",
+        "300": "dried sage",
+        "302": "dried thyme",
+        "523": "onion salt",
+        "406": "ground black pepper",
+        "180": "chili powder"
     },
     "status": 0,
     "labels": [

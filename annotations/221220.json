@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2843339.jpg",
     "url": "http://allrecipes.com/Recipe/221220/",
     "normalized_ingredients": {
-        "510": "ketchup",
-        "118": "brown sugar",
-        "47": "Worcestershire sauce",
-        "490": "honey",
-        "123": "butter",
-        "662": "prepared mustard",
-        "517": "lemon juice",
-        "245": "chili powder",
-        "438": "garlic powder"
+        "459": "ketchup",
+        "128": "brown sugar",
+        "53": "Worcestershire sauce",
+        "438": "honey",
+        "132": "butter",
+        "579": "prepared mustard",
+        "468": "lemon juice",
+        "180": "chili powder",
+        "379": "garlic powder"
     },
     "status": 0,
     "labels": [

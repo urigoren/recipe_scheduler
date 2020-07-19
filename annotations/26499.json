@@ -20,14 +20,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/65454.jpg",
     "url": "http://allrecipes.com/Recipe/26499/",
     "normalized_ingredients": {
-        "473": "ground pork breakfast sausage",
-        "123": "butter",
-        "253": "chopped celery",
-        "273": "chopped onion",
-        "185": "can water chestnuts",
-        "599": "package herb-seasoned dry bread stuffing mix",
-        "54": "apples - peeled",
-        "229": "chicken broth"
+        "420": "ground pork breakfast sausage",
+        "132": "butter",
+        "150": "celery",
+        "517": "onion",
+        "755": "water chestnuts",
+        "433": "herb-seasoned dry bread stuffing mix",
+        "61": "apples - peeled",
+        "163": "chicken broth"
     },
     "status": 0,
     "labels": [

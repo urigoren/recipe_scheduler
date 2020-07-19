@@ -18,13 +18,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/966847.jpg",
     "url": "http://allrecipes.com/Recipe/70909/",
     "normalized_ingredients": {
-        "123": "butter",
-        "558": "onion",
-        "490": "honey",
-        "510": "ketchup",
-        "754": "soy sauce",
-        "498": "hot sauce",
-        "456": "ground beef"
+        "132": "butter",
+        "517": "onion",
+        "438": "honey",
+        "459": "ketchup",
+        "685": "soy sauce",
+        "446": "hot sauce",
+        "402": "ground beef"
     },
     "status": 0,
     "labels": [

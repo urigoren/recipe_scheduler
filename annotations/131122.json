@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/246753.jpg",
     "url": "http://allrecipes.com/Recipe/131122/",
     "normalized_ingredients": {
-        "182": "can tomato soup",
-        "118": "brown sugar",
-        "364": "distilled white vinegar",
-        "245": "chili powder",
-        "217": "celery salt",
-        "692": "salt",
-        "383": "drops soy sauce",
-        "725": "skinless"
+        "723": "tomato soup",
+        "128": "brown sugar",
+        "289": "distilled white vinegar",
+        "180": "chili powder",
+        "151": "celery salt",
+        "617": "salt",
+        "305": "drops soy sauce",
+        "651": "skinless"
     },
     "status": 0,
     "labels": [

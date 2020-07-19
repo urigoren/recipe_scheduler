@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/993394.jpg",
     "url": "http://allrecipes.com/Recipe/120055/",
     "normalized_ingredients": {
-        "682": "reduced-sodium soy sauce",
-        "118": "brown sugar",
-        "557": "olive or canola oil",
-        "819": "white wine vinegar or cider vinegar",
-        "711": "sherry or chicken broth",
-        "802": "unsweetened pineapple juice",
-        "433": "garlic cloves",
-        "466": "ground ginger",
-        "788": "tuna steaks"
+        "604": "reduced-sodium soy sauce",
+        "128": "brown sugar",
+        "516": "olive or canola oil",
+        "763": "white wine vinegar or cider vinegar",
+        "638": "sherry or chicken broth",
+        "745": "unsweetened pineapple juice",
+        "374": "garlic cloves",
+        "412": "ground ginger",
+        "729": "tuna steaks"
     },
     "status": 0,
     "labels": [

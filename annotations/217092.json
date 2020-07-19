@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4487524.jpg",
     "url": "http://allrecipes.com/Recipe/217092/",
     "normalized_ingredients": {
-        "809": "water",
-        "814": "white sugar",
-        "754": "soy sauce",
-        "623": "peanut butter",
-        "490": "honey",
-        "825": "wine vinegar",
-        "546": "minced garlic",
-        "239": "chicken wings",
-        "706": "sesame seeds"
+        "753": "water",
+        "759": "white sugar",
+        "685": "soy sauce",
+        "539": "peanut butter",
+        "438": "honey",
+        "773": "wine vinegar",
+        "502": "minced garlic",
+        "174": "chicken wings",
+        "632": "sesame seeds"
     },
     "status": 0,
     "labels": [

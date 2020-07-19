@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1676748.jpg",
     "url": "http://allrecipes.com/Recipe/239910/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "209": "cans tomato sauce",
-        "367": "dried basil",
-        "374": "dried oregano",
-        "561": "onion powder",
-        "438": "garlic powder",
-        "814": "white sugar",
-        "692": "salt",
-        "460": "ground black pepper"
+        "402": "ground beef",
+        "722": "tomato sauce",
+        "290": "dried basil",
+        "297": "dried oregano",
+        "520": "onion powder",
+        "379": "garlic powder",
+        "759": "white sugar",
+        "617": "salt",
+        "406": "ground black pepper"
     },
     "status": 0,
     "labels": [

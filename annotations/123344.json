@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/774457.jpg",
     "url": "http://allrecipes.com/Recipe/123344/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "165": "can mixed vegetables",
-        "146": "can condensed tomato soup",
-        "147": "can condensed vegetable beef soup",
-        "809": "water",
-        "438": "garlic powder",
-        "561": "onion powder",
-        "692": "salt",
-        "627": "pepper"
+        "402": "ground beef",
+        "505": "mixed vegetables",
+        "207": "condensed tomato soup",
+        "208": "condensed vegetable beef soup",
+        "753": "water",
+        "379": "garlic powder",
+        "520": "onion powder",
+        "617": "salt",
+        "543": "pepper"
     },
     "status": 0,
     "labels": [

@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2802018.jpg",
     "url": "http://allrecipes.com/Recipe/244146/",
     "normalized_ingredients": {
-        "49": "all-purpose flour",
-        "438": "garlic powder",
-        "622": "paprika",
-        "393": "egg",
-        "123": "butter",
-        "725": "skinless",
-        "229": "chicken broth",
-        "516": "lemon"
+        "56": "all-purpose flour",
+        "379": "garlic powder",
+        "538": "paprika",
+        "317": "egg",
+        "132": "butter",
+        "651": "skinless",
+        "163": "chicken broth",
+        "467": "lemon"
     },
     "status": 0,
     "labels": [

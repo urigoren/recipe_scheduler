@@ -16,14 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/986168.jpg",
     "url": "http://allrecipes.com/Recipe/117433/",
     "normalized_ingredients": {
-        "384": "dry bread crumbs",
-        "561": "onion powder",
-        "367": "dried basil",
-        "441": "garlic salt",
-        "622": "paprika",
-        "393": "egg",
-        "809": "water",
-        "239": "chicken wings"
+        "306": "dry bread crumbs",
+        "520": "onion powder",
+        "290": "dried basil",
+        "382": "garlic salt",
+        "538": "paprika",
+        "317": "egg",
+        "753": "water",
+        "174": "chicken wings"
     },
     "status": 0,
     "labels": [

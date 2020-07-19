@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/993584.jpg",
     "url": "http://allrecipes.com/Recipe/143350/",
     "normalized_ingredients": {
-        "63": "bacon",
-        "456": "ground beef",
-        "273": "chopped onion",
-        "205": "cans pinto beans",
-        "193": "cans canned butter beans",
-        "192": "cans canned baked beans with pork",
-        "69": "barbeque sauce",
-        "510": "ketchup",
-        "118": "brown sugar"
+        "71": "bacon",
+        "402": "ground beef",
+        "517": "onion",
+        "561": "pinto beans",
+        "139": "canned butter beans",
+        "138": "canned baked beans with pork",
+        "78": "barbeque sauce",
+        "459": "ketchup",
+        "128": "brown sugar"
     },
     "status": 0,
     "labels": [

@@ -19,14 +19,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/567935.jpg",
     "url": "http://allrecipes.com/Recipe/93223/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "146": "can condensed tomato soup",
-        "118": "brown sugar",
-        "89": "black pepper",
-        "692": "salt",
-        "144": "can condensed cream of chicken soup",
-        "615": "package wide egg noodles",
-        "737": "slices American cheese"
+        "402": "ground beef",
+        "207": "condensed tomato soup",
+        "128": "brown sugar",
+        "98": "black pepper",
+        "617": "salt",
+        "205": "condensed cream of chicken soup",
+        "770": "wide egg noodles",
+        "666": "slices American cheese"
     },
     "status": 0,
     "labels": [

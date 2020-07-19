@@ -15,11 +15,11 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/851810.jpg",
     "url": "http://allrecipes.com/Recipe/223296/",
     "normalized_ingredients": {
-        "490": "honey",
-        "663": "prepared yellow mustard",
-        "123": "butter",
-        "222": "center-cut boneless pork chops - 1/2-inch thick",
-        "438": "garlic powder"
+        "438": "honey",
+        "580": "prepared yellow mustard",
+        "132": "butter",
+        "156": "center-cut boneless pork chops - 1/2-inch thick",
+        "379": "garlic powder"
     },
     "status": 0,
     "labels": [

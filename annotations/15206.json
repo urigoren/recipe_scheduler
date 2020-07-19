@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1066728.jpg",
     "url": "http://allrecipes.com/Recipe/15206/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "393": "egg",
-        "809": "water",
-        "115": "bread crumbs",
-        "547": "minced onion",
-        "162": "can jellied cranberry sauce",
-        "248": "chili sauce",
-        "118": "brown sugar",
-        "517": "lemon juice"
+        "464": "lean ground beef",
+        "317": "egg",
+        "753": "water",
+        "123": "bread crumbs",
+        "503": "minced onion",
+        "457": "jellied cranberry sauce",
+        "183": "chili sauce",
+        "128": "brown sugar",
+        "468": "lemon juice"
     },
     "status": 0,
     "labels": [

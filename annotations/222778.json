@@ -17,12 +17,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/840338.jpg",
     "url": "http://allrecipes.com/Recipe/222778/",
     "normalized_ingredients": {
-        "123": "butter",
-        "416": "finely diced onion",
-        "457": "ground beef chuck",
-        "467": "ground lamb",
-        "47": "Worcestershire sauce",
-        "695": "salt and ground black pepper to taste"
+        "132": "butter",
+        "343": "finely diced onion",
+        "403": "ground beef chuck",
+        "413": "ground lamb",
+        "53": "Worcestershire sauce",
+        "620": "salt and ground black pepper to taste"
     },
     "status": 0,
     "labels": [

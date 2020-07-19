@@ -16,14 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/123776/",
     "normalized_ingredients": {
-        "648": "pork chops",
-        "124": "butter or margarine",
-        "809": "water",
-        "580": "package corn bread/muffin mix",
-        "393": "egg",
-        "541": "milk",
-        "245": "chili powder",
-        "306": "cooking oil"
+        "565": "pork chops",
+        "135": "butter or margarine",
+        "753": "water",
+        "223": "corn bread/muffin mix",
+        "317": "egg",
+        "498": "milk",
+        "180": "chili powder",
+        "218": "cooking oil"
     },
     "status": 0,
     "labels": [

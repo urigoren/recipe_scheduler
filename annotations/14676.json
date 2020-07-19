@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/709422.jpg",
     "url": "http://allrecipes.com/Recipe/14676/",
     "normalized_ingredients": {
-        "393": "egg",
-        "200": "cans condensed tomato soup",
-        "500": "instant rice",
-        "273": "chopped onion",
-        "261": "chopped fresh parsley",
-        "564": "onion salt",
-        "460": "ground black pepper",
-        "514": "lean ground beef",
-        "47": "Worcestershire sauce"
+        "317": "egg",
+        "207": "condensed tomato soup",
+        "449": "instant rice",
+        "517": "onion",
+        "351": "fresh parsley",
+        "523": "onion salt",
+        "406": "ground black pepper",
+        "464": "lean ground beef",
+        "53": "Worcestershire sauce"
     },
     "status": 0,
     "labels": [

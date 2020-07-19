@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2986653.jpg",
     "url": "http://allrecipes.com/Recipe/240799/",
     "normalized_ingredients": {
-        "23": "Italian salad dressing",
-        "809": "water",
-        "754": "soy sauce",
-        "490": "honey",
-        "529": "liquid smoke flavoring",
-        "438": "garlic powder",
-        "692": "salt",
-        "674": "red pepper flakes",
-        "87": "beef tri-tip roast"
+        "25": "Italian salad dressing",
+        "753": "water",
+        "685": "soy sauce",
+        "438": "honey",
+        "481": "liquid smoke flavoring",
+        "379": "garlic powder",
+        "617": "salt",
+        "595": "red pepper flakes",
+        "96": "beef tri-tip roast"
     },
     "status": 0,
     "labels": [

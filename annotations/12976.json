@@ -15,13 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/56942.jpg",
     "url": "http://allrecipes.com/Recipe/12976/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "558": "onion",
-        "151": "can cream-style corn",
-        "140": "can chili with beans",
-        "130": "can baked beans with pork",
-        "181": "can tomato sauce",
-        "154": "can diced green chiles"
+        "402": "ground beef",
+        "517": "onion",
+        "240": "cream-style corn",
+        "185": "chili with beans",
+        "74": "baked beans with pork",
+        "722": "tomato sauce",
+        "281": "diced green chiles"
     },
     "status": 0,
     "labels": [

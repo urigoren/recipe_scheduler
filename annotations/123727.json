@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/457069.jpg",
     "url": "http://allrecipes.com/Recipe/123727/",
     "normalized_ingredients": {
-        "121": "bulk pork sausage",
-        "273": "chopped onion",
-        "173": "can refried beans",
-        "245": "chili powder",
-        "464": "ground cumin",
-        "603": "package manicotti shells, cooked",
-        "181": "can tomato sauce",
-        "141": "can chopped green chilies",
-        "712": "shredded Cheddar cheese"
+        "130": "bulk pork sausage",
+        "517": "onion",
+        "605": "refried beans",
+        "180": "chili powder",
+        "410": "ground cumin",
+        "494": "manicotti shells, cooked",
+        "722": "tomato sauce",
+        "391": "green chilies",
+        "639": "shredded Cheddar cheese"
     },
     "status": 0,
     "labels": [

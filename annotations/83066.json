@@ -17,12 +17,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3187315.jpg",
     "url": "http://allrecipes.com/Recipe/83066/",
     "normalized_ingredients": {
-        "330": "crushed dry-roasted",
-        "438": "garlic powder",
-        "561": "onion powder",
-        "698": "salt-free herb seasoning blend",
-        "238": "chicken thighs",
-        "540": "melted butter"
+        "250": "crushed dry-roasted",
+        "379": "garlic powder",
+        "520": "onion powder",
+        "623": "salt-free herb seasoning blend",
+        "173": "chicken thighs",
+        "497": "melted butter"
     },
     "status": 0,
     "labels": [

@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/141327/",
     "normalized_ingredients": {
-        "682": "reduced-sodium soy sauce",
-        "543": "minced fresh ginger",
-        "490": "honey",
-        "548": "miso paste",
-        "546": "minced garlic",
-        "779": "toasted sesame oil",
-        "674": "red pepper flakes",
-        "96": "boneless",
-        "511": "kosher salt"
+        "604": "reduced-sodium soy sauce",
+        "499": "minced fresh ginger",
+        "438": "honey",
+        "504": "miso paste",
+        "502": "minced garlic",
+        "717": "toasted sesame oil",
+        "595": "red pepper flakes",
+        "104": "boneless",
+        "462": "kosher salt"
     },
     "status": 0,
     "labels": [

@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/847509.jpg",
     "url": "http://allrecipes.com/Recipe/222540/",
     "normalized_ingredients": {
-        "307": "cooking spray",
-        "211": "cans tuna in water",
-        "393": "egg",
-        "384": "dry bread crumbs",
-        "441": "garlic salt",
-        "460": "ground black pepper",
-        "361": "diced tomatoes",
-        "547": "minced onion"
+        "219": "cooking spray",
+        "728": "tuna in water",
+        "317": "egg",
+        "306": "dry bread crumbs",
+        "382": "garlic salt",
+        "406": "ground black pepper",
+        "284": "diced tomatoes",
+        "503": "minced onion"
     },
     "status": 0,
     "labels": [

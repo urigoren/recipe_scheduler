@@ -21,15 +21,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/136238.jpg",
     "url": "http://allrecipes.com/Recipe/24639/",
     "normalized_ingredients": {
-        "123": "butter",
-        "565": "onions",
-        "335": "cube beef bouillon",
-        "438": "garlic powder",
-        "561": "onion powder",
-        "696": "salt and pepper to taste",
-        "791": "unbaked pizza crust",
-        "717": "shredded Swiss cheese",
-        "171": "can pizza sauce"
+        "132": "butter",
+        "524": "onions",
+        "256": "cube beef bouillon",
+        "379": "garlic powder",
+        "520": "onion powder",
+        "621": "salt and pepper to taste",
+        "732": "unbaked pizza crust",
+        "643": "shredded Swiss cheese",
+        "562": "pizza sauce"
     },
     "status": 0,
     "labels": [

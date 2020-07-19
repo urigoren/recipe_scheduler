@@ -15,13 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/838298.jpg",
     "url": "http://allrecipes.com/Recipe/117897/",
     "normalized_ingredients": {
-        "754": "soy sauce",
-        "711": "sherry or chicken broth",
-        "118": "brown sugar",
-        "490": "honey",
-        "463": "ground cinnamon",
-        "432": "garlic clove",
-        "656": "pork tenderloins"
+        "685": "soy sauce",
+        "638": "sherry or chicken broth",
+        "128": "brown sugar",
+        "438": "honey",
+        "409": "ground cinnamon",
+        "373": "garlic clove",
+        "573": "pork tenderloins"
     },
     "status": 0,
     "labels": [

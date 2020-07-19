@@ -20,14 +20,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4520022.jpg",
     "url": "http://allrecipes.com/Recipe/233230/",
     "normalized_ingredients": {
-        "278": "chopped red onion",
-        "546": "minced garlic",
-        "370": "dried marjoram",
-        "465": "ground dried rosemary",
-        "511": "kosher salt",
-        "423": "freshly ground black pepper",
+        "594": "red onion",
+        "502": "minced garlic",
+        "293": "dried marjoram",
+        "411": "ground dried rosemary",
+        "462": "kosher salt",
+        "489": "ly ground black pepper",
         "1": "93%-lean ground beef",
-        "467": "ground lamb"
+        "413": "ground lamb"
     },
     "status": 0,
     "labels": [

@@ -16,12 +16,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/870998.jpg",
     "url": "http://allrecipes.com/Recipe/71463/",
     "normalized_ingredients": {
-        "318": "country style pork ribs",
-        "229": "chicken broth",
-        "773": "teriyaki sauce",
-        "438": "garlic powder",
-        "561": "onion powder",
-        "696": "salt and pepper to taste"
+        "234": "country style pork ribs",
+        "163": "chicken broth",
+        "712": "teriyaki sauce",
+        "379": "garlic powder",
+        "520": "onion powder",
+        "621": "salt and pepper to taste"
     },
     "status": 0,
     "labels": [

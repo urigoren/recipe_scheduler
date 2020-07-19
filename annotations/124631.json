@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/980091.jpg",
     "url": "http://allrecipes.com/Recipe/124631/",
     "normalized_ingredients": {
-        "626": "peeled",
-        "273": "chopped onion",
-        "282": "chopped sweet red pepper",
-        "124": "butter or margarine",
-        "194": "cans chicken broth",
-        "591": "package frozen chopped spinach",
-        "700": "seasoned dry bread crumbs",
-        "396": "egg white",
-        "9": "Chopped fresh parsley"
+        "542": "peeled",
+        "517": "onion",
+        "707": "sweet red pepper",
+        "135": "butter or margarine",
+        "163": "chicken broth",
+        "357": "frozen chopped spinach",
+        "627": "seasoned dry bread crumbs",
+        "321": "egg white",
+        "11": "Chopped fresh parsley"
     },
     "status": 0,
     "labels": [

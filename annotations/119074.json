@@ -16,14 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/709128.jpg",
     "url": "http://allrecipes.com/Recipe/119074/",
     "normalized_ingredients": {
-        "396": "egg white",
-        "754": "soy sauce",
-        "384": "dry bread crumbs",
-        "413": "finely chopped onion",
-        "432": "garlic clove",
-        "466": "ground ginger",
-        "627": "pepper",
-        "477": "ground turkey"
+        "321": "egg white",
+        "685": "soy sauce",
+        "306": "dry bread crumbs",
+        "340": "finely chopped onion",
+        "373": "garlic clove",
+        "412": "ground ginger",
+        "543": "pepper",
+        "424": "ground turkey"
     },
     "status": 0,
     "labels": [

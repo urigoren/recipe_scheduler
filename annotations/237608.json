@@ -16,13 +16,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1129991.jpg",
     "url": "http://allrecipes.com/Recipe/237608/",
     "normalized_ingredients": {
-        "555": "olive oil",
-        "398": "eggs",
-        "271": "chopped grilled chicken ",
-        "268": "chopped green onion",
-        "266": "chopped garlic",
-        "304": "cooked white rice",
-        "754": "soy sauce"
+        "514": "olive oil",
+        "324": "eggs",
+        "400": "grilled chicken ",
+        "393": "green onion",
+        "370": "garlic",
+        "216": "cooked white rice",
+        "685": "soy sauce"
     },
     "status": 0,
     "labels": [

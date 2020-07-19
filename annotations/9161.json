@@ -5,7 +5,7 @@
         "1 tablespoon Worcestershire sauce",
         "1 teaspoon soy sauce",
         "1 tablespoon butter",
-        "1 pinch garlic pepper seasoning"
+        "1/8 teaspoon garlic pepper seasoning"
     ],
     "instructions": [
         "Drain the green beans, reserving 1/2 of the liquid. Dissolve the bouillon cube in the reserved liquid.",
@@ -13,15 +13,15 @@
         "Remove to serving bowl leaving beans sitting in their liquid. Use a slotted spoon to serve."
     ],
     "title": "Mom's Great Green Beans",
-    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/335001.jpg",
-    "url": "http://allrecipes.com/Recipe/13484/",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1959879.jpg",
+    "url": "http://allrecipes.com/Recipe/9161/",
     "normalized_ingredients": {
-        "202": "cans green beans",
-        "336": "cube beef bouillon cube",
-        "47": "Worcestershire sauce",
-        "754": "soy sauce",
-        "123": "butter",
-        "635": "pinch garlic pepper seasoning"
+        "389": "green beans",
+        "257": "cube beef bouillon cube",
+        "53": "Worcestershire sauce",
+        "685": "soy sauce",
+        "132": "butter",
+        "378": "garlic pepper seasoning"
     },
     "status": 0,
     "labels": [

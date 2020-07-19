@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1083483.jpg",
     "url": "http://allrecipes.com/Recipe/106850/",
     "normalized_ingredients": {
-        "801": "unsalted butter",
-        "400": "envelope dry onion soup mix",
-        "816": "white wine",
-        "232": "chicken livers",
-        "708": "shelled pistachio nuts",
-        "582": "package cream cheese",
-        "809": "water",
-        "562": "onion powder to taste",
-        "440": "garlic powder to taste"
+        "744": "unsalted butter",
+        "327": "envelope dry onion soup mix",
+        "761": "white wine",
+        "167": "chicken livers",
+        "635": "shelled pistachio nuts",
+        "237": "cream cheese",
+        "753": "water",
+        "521": "onion powder to taste",
+        "381": "garlic powder to taste"
     },
     "status": 0,
     "labels": [

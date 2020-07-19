@@ -21,14 +21,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/306087.jpg",
     "url": "http://allrecipes.com/Recipe/19694/",
     "normalized_ingredients": {
-        "742": "slices bacon",
-        "418": "fresh green beans",
-        "335": "cube beef bouillon",
-        "47": "Worcestershire sauce",
-        "754": "soy sauce",
-        "123": "butter",
-        "118": "brown sugar",
-        "438": "garlic powder"
+        "671": "slices bacon",
+        "389": "green beans",
+        "256": "cube beef bouillon",
+        "53": "Worcestershire sauce",
+        "685": "soy sauce",
+        "132": "butter",
+        "128": "brown sugar",
+        "379": "garlic powder"
     },
     "status": 0,
     "labels": [

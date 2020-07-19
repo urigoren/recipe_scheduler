@@ -17,13 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/45847.jpg",
     "url": "http://allrecipes.com/Recipe/8768/",
     "normalized_ingredients": {
-        "241": "chicken wings, separated at joints",
-        "29": "Louisiana-style hot sauce",
-        "123": "butter",
-        "490": "honey",
-        "637": "pinch garlic salt",
-        "638": "pinch ground black pepper",
-        "215": "cayenne pepper"
+        "176": "chicken wings, separated at joints",
+        "35": "Louisiana-style hot sauce",
+        "132": "butter",
+        "438": "honey",
+        "551": "pinch garlic salt",
+        "552": "pinch ground black pepper",
+        "148": "cayenne pepper"
     },
     "status": 0,
     "labels": [

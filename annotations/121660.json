@@ -14,12 +14,12 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/121660/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "696": "salt and pepper to taste",
-        "359": "diced onion",
-        "657": "potatoes",
-        "151": "can cream-style corn",
-        "124": "butter or margarine"
+        "464": "lean ground beef",
+        "621": "salt and pepper to taste",
+        "282": "diced onion",
+        "574": "potatoes",
+        "240": "cream-style corn",
+        "135": "butter or margarine"
     },
     "status": 0,
     "labels": [

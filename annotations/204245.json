@@ -17,13 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4379713.jpg",
     "url": "http://allrecipes.com/Recipe/204245/",
     "normalized_ingredients": {
-        "109": "bottle soy sauce",
-        "517": "lemon juice",
-        "561": "onion powder",
-        "438": "garlic powder",
-        "72": "bay leaves",
-        "566": "orange juice",
-        "240": "chicken wings, cut into thirds"
+        "117": "bottle soy sauce",
+        "468": "lemon juice",
+        "520": "onion powder",
+        "379": "garlic powder",
+        "81": "bay leaves",
+        "527": "orange juice",
+        "175": "chicken wings, cut into thirds"
     },
     "status": 0,
     "labels": [

@@ -15,13 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/116687/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "194": "cans chicken broth",
-        "796": "uncooked long grain rice",
-        "181": "can tomato sauce",
-        "359": "diced onion",
-        "448": "green bell pepper",
-        "502": "jalapeno pepper"
+        "402": "ground beef",
+        "163": "chicken broth",
+        "738": "uncooked long grain rice",
+        "722": "tomato sauce",
+        "282": "diced onion",
+        "390": "green bell pepper",
+        "451": "jalapeno pepper"
     },
     "status": 0,
     "labels": [

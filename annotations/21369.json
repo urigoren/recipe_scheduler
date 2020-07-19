@@ -21,15 +21,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2405.jpg",
     "url": "http://allrecipes.com/Recipe/21369/",
     "normalized_ingredients": {
-        "123": "butter",
-        "594": "package frozen hash browns",
-        "714": "shredded Colby cheese",
-        "547": "minced onion",
-        "541": "milk",
-        "77": "beef broth",
-        "460": "ground black pepper",
-        "692": "salt",
-        "348": "dash garlic powder"
+        "132": "butter",
+        "361": "frozen hash browns",
+        "641": "shredded Colby cheese",
+        "503": "minced onion",
+        "498": "milk",
+        "86": "beef broth",
+        "406": "ground black pepper",
+        "617": "salt",
+        "270": "dash garlic powder"
     },
     "status": 0,
     "labels": [

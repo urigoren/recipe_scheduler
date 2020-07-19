@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/353501.jpg",
     "url": "http://allrecipes.com/Recipe/81956/",
     "normalized_ingredients": {
-        "131": "can beef broth",
-        "492": "honey mustard",
-        "490": "honey",
-        "809": "water",
-        "491": "honey barbeque sauce",
-        "754": "soy sauce",
-        "538": "maple syrup",
-        "61": "baby back pork ribs"
+        "86": "beef broth",
+        "440": "honey mustard",
+        "438": "honey",
+        "753": "water",
+        "439": "honey barbeque sauce",
+        "685": "soy sauce",
+        "495": "maple syrup",
+        "69": "baby back pork ribs"
     },
     "status": 0,
     "labels": [

@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/663489.jpg",
     "url": "http://allrecipes.com/Recipe/28151/",
     "normalized_ingredients": {
-        "288": "cider vinegar",
-        "248": "chili sauce",
-        "47": "Worcestershire sauce",
-        "180": "can tomato paste",
-        "359": "diced onion",
-        "118": "brown sugar",
-        "215": "cayenne pepper",
-        "804": "vegetable oil",
-        "238": "chicken thighs"
+        "192": "cider vinegar",
+        "183": "chili sauce",
+        "53": "Worcestershire sauce",
+        "720": "tomato paste",
+        "282": "diced onion",
+        "128": "brown sugar",
+        "148": "cayenne pepper",
+        "747": "vegetable oil",
+        "173": "chicken thighs"
     },
     "status": 0,
     "labels": [

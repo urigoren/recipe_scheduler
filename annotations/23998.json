@@ -13,11 +13,11 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/605723.jpg",
     "url": "http://allrecipes.com/Recipe/23998/",
     "normalized_ingredients": {
-        "123": "butter",
-        "725": "skinless",
-        "438": "garlic powder",
-        "702": "seasoning salt",
-        "561": "onion powder"
+        "132": "butter",
+        "651": "skinless",
+        "379": "garlic powder",
+        "629": "seasoning salt",
+        "520": "onion powder"
     },
     "status": 0,
     "labels": [

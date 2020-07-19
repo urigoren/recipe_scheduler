@@ -23,15 +23,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1088402.jpg",
     "url": "http://allrecipes.com/Recipe/219984/",
     "normalized_ingredients": {
-        "754": "soy sauce",
-        "160": "can frozen orange juice concentrate",
-        "567": "orange marmalade",
-        "490": "honey",
-        "67": "balsamic vinegar",
-        "546": "minced garlic",
-        "653": "pork tenderloin",
-        "316": "cornstarch ",
-        "810": "water "
+        "685": "soy sauce",
+        "363": "frozen orange juice concentrate",
+        "528": "orange marmalade",
+        "438": "honey",
+        "76": "balsamic vinegar",
+        "502": "minced garlic",
+        "570": "pork tenderloin",
+        "232": "cornstarch ",
+        "754": "water "
     },
     "status": 0,
     "labels": [

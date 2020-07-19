@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/981520.jpg",
     "url": "http://allrecipes.com/Recipe/122364/",
     "normalized_ingredients": {
-        "311": "corn syrup",
-        "510": "ketchup",
-        "288": "cider vinegar",
-        "47": "Worcestershire sauce",
-        "12": "Dijon mustard",
-        "558": "onion",
-        "433": "garlic cloves",
-        "245": "chili powder",
-        "239": "chicken wings"
+        "226": "corn syrup",
+        "459": "ketchup",
+        "192": "cider vinegar",
+        "53": "Worcestershire sauce",
+        "14": "Dijon mustard",
+        "517": "onion",
+        "374": "garlic cloves",
+        "180": "chili powder",
+        "174": "chicken wings"
     },
     "status": 0,
     "labels": [

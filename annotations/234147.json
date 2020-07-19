@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/1042081.jpg",
     "url": "http://allrecipes.com/Recipe/234147/",
     "normalized_ingredients": {
-        "231": "chicken drumsticks",
-        "510": "ketchup",
-        "490": "honey",
-        "754": "soy sauce",
-        "804": "vegetable oil",
-        "517": "lemon juice",
-        "333": "crushed peppercorns",
-        "494": "hot chili sauce",
-        "38": "Salt"
+        "165": "chicken drumsticks",
+        "459": "ketchup",
+        "438": "honey",
+        "685": "soy sauce",
+        "747": "vegetable oil",
+        "468": "lemon juice",
+        "253": "crushed peppercorns",
+        "442": "hot chili sauce",
+        "45": "Salt"
     },
     "status": 0,
     "labels": [

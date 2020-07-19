@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/617902.jpg",
     "url": "http://allrecipes.com/Recipe/121693/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "558": "onion",
-        "433": "garlic cloves",
-        "181": "can tomato sauce",
-        "180": "can tomato paste",
-        "510": "ketchup",
-        "619": "packed brown sugar",
-        "754": "soy sauce",
-        "483": "hamburger buns"
+        "402": "ground beef",
+        "517": "onion",
+        "374": "garlic cloves",
+        "722": "tomato sauce",
+        "720": "tomato paste",
+        "459": "ketchup",
+        "535": "packed brown sugar",
+        "685": "soy sauce",
+        "429": "hamburger buns"
     },
     "status": 0,
     "labels": [

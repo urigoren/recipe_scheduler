@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/4826.jpg",
     "url": "http://allrecipes.com/Recipe/14674/",
     "normalized_ingredients": {
-        "762": "steaks",
-        "169": "can or bottle stout beer",
-        "289": "clove crushed garlic",
-        "754": "soy sauce",
-        "143": "can condensed beef broth",
-        "378": "dried sage",
-        "561": "onion powder",
-        "423": "freshly ground black pepper"
+        "696": "steaks",
+        "526": "or bottle stout beer",
+        "193": "clove crushed garlic",
+        "685": "soy sauce",
+        "203": "condensed beef broth",
+        "300": "dried sage",
+        "520": "onion powder",
+        "489": "ly ground black pepper"
     },
     "status": 0,
     "labels": [

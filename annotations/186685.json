@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1026802.jpg",
     "url": "http://allrecipes.com/Recipe/186685/",
     "normalized_ingredients": {
-        "682": "reduced-sodium soy sauce",
-        "488": "hoisin sauce",
-        "243": "chili garlic sauce",
-        "419": "fresh lemon juice",
-        "447": "grated fresh ginger root",
-        "290": "clove garlic",
-        "555": "olive oil",
-        "725": "skinless"
+        "604": "reduced-sodium soy sauce",
+        "435": "hoisin sauce",
+        "179": "chili garlic sauce",
+        "468": "lemon juice",
+        "388": "grated fresh ginger root",
+        "194": "clove garlic",
+        "514": "olive oil",
+        "651": "skinless"
     },
     "status": 0,
     "labels": [

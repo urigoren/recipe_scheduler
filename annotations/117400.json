@@ -16,13 +16,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/991782.jpg",
     "url": "http://allrecipes.com/Recipe/117400/",
     "normalized_ingredients": {
-        "754": "soy sauce",
-        "804": "vegetable oil",
-        "782": "tomato paste",
-        "432": "garlic clove",
-        "374": "dried oregano",
-        "627": "pepper",
-        "78": "beef flank steak"
+        "685": "soy sauce",
+        "747": "vegetable oil",
+        "720": "tomato paste",
+        "373": "garlic clove",
+        "297": "dried oregano",
+        "543": "pepper",
+        "88": "beef flank steak"
     },
     "status": 0,
     "labels": [

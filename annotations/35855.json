@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3503581.jpg",
     "url": "http://allrecipes.com/Recipe/35855/",
     "normalized_ingredients": {
-        "585": "package dry egg noodles",
-        "456": "ground beef",
-        "558": "onion",
-        "146": "can condensed tomato soup",
-        "145": "can condensed cream of mushroom soup",
-        "507": "jar sliced mushrooms",
-        "664": "processed American cheese",
-        "438": "garlic powder",
-        "696": "salt and pepper to taste"
+        "308": "dry egg noodles",
+        "402": "ground beef",
+        "517": "onion",
+        "207": "condensed tomato soup",
+        "206": "condensed cream of mushroom soup",
+        "455": "jar sliced mushrooms",
+        "581": "processed American cheese",
+        "379": "garlic powder",
+        "621": "salt and pepper to taste"
     },
     "status": 0,
     "labels": [

@@ -16,12 +16,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/515059.jpg",
     "url": "http://allrecipes.com/Recipe/109875/",
     "normalized_ingredients": {
-        "338": "cubed beef stew meat",
-        "16": "Greek seasoning",
-        "754": "soy sauce",
-        "345": "dark corn syrup",
-        "546": "minced garlic",
-        "701": "seasoned salt"
+        "259": "cubed beef stew meat",
+        "17": "Greek seasoning",
+        "685": "soy sauce",
+        "266": "dark corn syrup",
+        "502": "minced garlic",
+        "628": "seasoned salt"
     },
     "status": 0,
     "labels": [

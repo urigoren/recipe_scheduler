@@ -18,13 +18,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4522174.jpg",
     "url": "http://allrecipes.com/Recipe/241703/",
     "normalized_ingredients": {
-        "605": "package shell pasta",
-        "456": "ground beef",
-        "586": "package dry onion soup mix",
-        "209": "cans tomato sauce",
-        "186": "can whole kernel corn",
-        "151": "can cream-style corn",
-        "712": "shredded Cheddar cheese"
+        "634": "shell pasta",
+        "402": "ground beef",
+        "311": "dry onion soup mix",
+        "722": "tomato sauce",
+        "765": "whole kernel corn",
+        "240": "cream-style corn",
+        "639": "shredded Cheddar cheese"
     },
     "status": 0,
     "labels": [

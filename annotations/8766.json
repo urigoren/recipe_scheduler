@@ -17,13 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/557767.jpg",
     "url": "http://allrecipes.com/Recipe/8766/",
     "normalized_ingredients": {
-        "725": "skinless",
-        "320": "cream cheese",
-        "408": "feta cheese",
-        "438": "garlic powder",
-        "369": "dried dill weed",
-        "540": "melted butter",
-        "696": "salt and pepper to taste"
+        "651": "skinless",
+        "237": "cream cheese",
+        "335": "feta cheese",
+        "379": "garlic powder",
+        "292": "dried dill weed",
+        "497": "melted butter",
+        "621": "salt and pepper to taste"
     },
     "status": 0,
     "labels": [

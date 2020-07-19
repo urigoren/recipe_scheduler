@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1078173.jpg",
     "url": "http://allrecipes.com/Recipe/235796/",
     "normalized_ingredients": {
-        "123": "butter",
-        "813": "white rice",
-        "117": "broken pieces vermicelli pasta",
-        "809": "water",
-        "227": "chicken bouillon granules",
-        "375": "dried parsley",
-        "438": "garlic powder",
-        "561": "onion powder"
+        "132": "butter",
+        "758": "white rice",
+        "127": "broken pieces vermicelli pasta",
+        "753": "water",
+        "161": "chicken bouillon granules",
+        "298": "dried parsley",
+        "379": "garlic powder",
+        "520": "onion powder"
     },
     "status": 0,
     "labels": [

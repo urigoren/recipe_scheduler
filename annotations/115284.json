@@ -19,14 +19,14 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/115284/",
     "normalized_ingredients": {
-        "96": "boneless",
-        "751": "smooth natural peanut butter",
-        "682": "reduced-sodium soy sauce",
-        "546": "minced garlic",
-        "242": "chile-garlic sauce",
-        "543": "minced fresh ginger",
-        "822": "whole-wheat spaghetti",
-        "65": "bag fresh vegetable medley, such as carrots, broccoli"
+        "104": "boneless",
+        "681": "smooth natural peanut butter",
+        "604": "reduced-sodium soy sauce",
+        "502": "minced garlic",
+        "177": "chile-garlic sauce",
+        "499": "minced fresh ginger",
+        "769": "whole-wheat spaghetti",
+        "73": "bag fresh vegetable medley, such as carrots, broccoli"
     },
     "status": 0,
     "labels": [

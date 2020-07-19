@@ -19,14 +19,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/993505.jpg",
     "url": "http://allrecipes.com/Recipe/214533/",
     "normalized_ingredients": {
-        "87": "beef tri-tip roast",
-        "39": "Salt and pepper",
-        "35": "Rub:",
-        "245": "chili powder",
-        "464": "ground cumin",
-        "561": "onion powder",
-        "438": "garlic powder",
-        "627": "pepper"
+        "96": "beef tri-tip roast",
+        "46": "Salt and pepper",
+        "42": "Rub:",
+        "180": "chili powder",
+        "410": "ground cumin",
+        "520": "onion powder",
+        "379": "garlic powder",
+        "543": "pepper"
     },
     "status": 0,
     "labels": [

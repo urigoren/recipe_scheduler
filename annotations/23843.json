@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2019698.jpg",
     "url": "http://allrecipes.com/Recipe/23843/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "696": "salt and pepper to taste",
-        "558": "onion",
-        "448": "green bell pepper",
-        "180": "can tomato paste",
-        "266": "chopped garlic",
-        "374": "dried oregano",
-        "223": "cherry tomatoes",
-        "600": "package linguine pasta"
+        "464": "lean ground beef",
+        "621": "salt and pepper to taste",
+        "517": "onion",
+        "390": "green bell pepper",
+        "720": "tomato paste",
+        "370": "garlic",
+        "297": "dried oregano",
+        "157": "cherry tomatoes",
+        "477": "linguine pasta"
     },
     "status": 0,
     "labels": [

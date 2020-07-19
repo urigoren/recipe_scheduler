@@ -15,13 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989355.jpg",
     "url": "http://allrecipes.com/Recipe/120229/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "273": "chopped onion",
-        "432": "garlic clove",
-        "139": "can chili beans",
-        "155": "can diced tomatoes",
-        "245": "chili powder",
-        "464": "ground cumin"
+        "402": "ground beef",
+        "517": "onion",
+        "373": "garlic clove",
+        "178": "chili beans",
+        "284": "diced tomatoes",
+        "180": "chili powder",
+        "410": "ground cumin"
     },
     "status": 0,
     "labels": [

@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/837104.jpg",
     "url": "http://allrecipes.com/Recipe/222375/",
     "normalized_ingredients": {
-        "457": "ground beef chuck",
-        "746": "slices mozzarella cheese",
-        "483": "hamburger buns",
-        "209": "cans tomato sauce",
-        "374": "dried oregano",
-        "371": "dried minced onion",
-        "692": "salt",
-        "460": "ground black pepper",
-        "438": "garlic powder"
+        "403": "ground beef chuck",
+        "675": "slices mozzarella cheese",
+        "429": "hamburger buns",
+        "722": "tomato sauce",
+        "297": "dried oregano",
+        "294": "dried minced onion",
+        "617": "salt",
+        "406": "ground black pepper",
+        "379": "garlic powder"
     },
     "status": 0,
     "labels": [

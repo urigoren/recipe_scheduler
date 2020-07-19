@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/833634.jpg",
     "url": "http://allrecipes.com/Recipe/20680/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "691": "salsa",
-        "139": "can chili beans",
-        "787": "tortilla chips",
-        "753": "sour cream",
-        "174": "can sliced black olives",
-        "268": "chopped green onion",
-        "265": "chopped fresh tomato",
-        "712": "shredded Cheddar cheese"
+        "464": "lean ground beef",
+        "616": "salsa",
+        "178": "chili beans",
+        "726": "tortilla chips",
+        "683": "sour cream",
+        "658": "sliced black olives",
+        "393": "green onion",
+        "355": "fresh tomato",
+        "639": "shredded Cheddar cheese"
     },
     "status": 0,
     "labels": [

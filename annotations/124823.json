@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/979774.jpg",
     "url": "http://allrecipes.com/Recipe/124823/",
     "normalized_ingredients": {
-        "143": "can condensed beef broth",
-        "180": "can tomato paste",
-        "163": "can kidney beans",
-        "129": "can Mexicorn",
-        "358": "diced cooked chicken",
-        "450": "green onions",
-        "245": "chili powder",
-        "141": "can chopped green chilies",
-        "809": "water"
+        "203": "condensed beef broth",
+        "720": "tomato paste",
+        "460": "kidney beans",
+        "39": "Mexicorn",
+        "280": "diced cooked chicken",
+        "395": "green onions",
+        "180": "chili powder",
+        "391": "green chilies",
+        "753": "water"
     },
     "status": 0,
     "labels": [

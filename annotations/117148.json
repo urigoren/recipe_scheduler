@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989589.jpg",
     "url": "http://allrecipes.com/Recipe/117148/",
     "normalized_ingredients": {
-        "538": "maple syrup",
-        "682": "reduced-sodium soy sauce",
-        "432": "garlic clove",
-        "409": "fillets salmon",
-        "679": "reduced sodium chicken broth",
-        "734": "sliced fresh mushrooms",
-        "627": "pepper",
-        "793": "uncooked couscous"
+        "495": "maple syrup",
+        "604": "reduced-sodium soy sauce",
+        "373": "garlic clove",
+        "336": "fillets salmon",
+        "600": "reduced sodium chicken broth",
+        "661": "sliced fresh mushrooms",
+        "543": "pepper",
+        "734": "uncooked couscous"
     },
     "status": 0,
     "labels": [

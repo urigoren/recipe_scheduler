@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/20094.jpg",
     "url": "http://allrecipes.com/Recipe/87264/",
     "normalized_ingredients": {
-        "123": "butter",
-        "23": "Italian salad dressing",
-        "516": "lemon",
-        "47": "Worcestershire sauce",
-        "237": "chicken tenderloins",
-        "518": "lemon pepper to taste",
-        "442": "garlic salt to taste",
-        "562": "onion powder to taste"
+        "132": "butter",
+        "25": "Italian salad dressing",
+        "467": "lemon",
+        "53": "Worcestershire sauce",
+        "172": "chicken tenderloins",
+        "469": "lemon pepper to taste",
+        "383": "garlic salt to taste",
+        "521": "onion powder to taste"
     },
     "status": 0,
     "labels": [

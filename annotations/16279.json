@@ -16,13 +16,13 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/16279/",
     "normalized_ingredients": {
-        "321": "creamy peanut butter",
-        "287": "chutney",
-        "236": "chicken stock",
-        "520": "light corn syrup",
-        "754": "soy sauce",
-        "291": "cloves crushed garlic",
-        "495": "hot dogs"
+        "241": "creamy peanut butter",
+        "191": "chutney",
+        "171": "chicken stock",
+        "471": "light corn syrup",
+        "685": "soy sauce",
+        "195": "cloves crushed garlic",
+        "443": "hot dogs"
     },
     "status": 0,
     "labels": [

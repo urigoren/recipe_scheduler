@@ -16,14 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/596028.jpg",
     "url": "http://allrecipes.com/Recipe/22270/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "273": "chopped onion",
-        "208": "cans stewed tomatoes",
-        "180": "can tomato paste",
-        "367": "dried basil",
-        "438": "garlic powder",
-        "374": "dried oregano",
-        "166": "can mushrooms"
+        "464": "lean ground beef",
+        "517": "onion",
+        "697": "stewed tomatoes",
+        "720": "tomato paste",
+        "290": "dried basil",
+        "379": "garlic powder",
+        "297": "dried oregano",
+        "507": "mushrooms"
     },
     "status": 0,
     "labels": [

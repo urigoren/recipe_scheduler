@@ -16,11 +16,11 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/640719.jpg",
     "url": "http://allrecipes.com/Recipe/14586/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "186": "can whole kernel corn",
-        "146": "can condensed tomato soup",
-        "615": "package wide egg noodles",
-        "446": "grated Parmesan cheese"
+        "464": "lean ground beef",
+        "765": "whole kernel corn",
+        "207": "condensed tomato soup",
+        "770": "wide egg noodles",
+        "387": "grated Parmesan cheese"
     },
     "status": 0,
     "labels": [

@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/963480.jpg",
     "url": "http://allrecipes.com/Recipe/204890/",
     "normalized_ingredients": {
-        "754": "soy sauce",
-        "818": "white wine vinegar",
-        "704": "sesame oil",
-        "490": "honey",
-        "8": "Chinese five-spice powder",
-        "546": "minced garlic",
-        "466": "ground ginger",
-        "651": "pork short spareribs"
+        "685": "soy sauce",
+        "762": "white wine vinegar",
+        "631": "sesame oil",
+        "438": "honey",
+        "10": "Chinese five-spice powder",
+        "502": "minced garlic",
+        "412": "ground ginger",
+        "568": "pork short spareribs"
     },
     "status": 0,
     "labels": [

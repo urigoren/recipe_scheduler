@@ -15,11 +15,11 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3709366.jpg",
     "url": "http://allrecipes.com/Recipe/57372/",
     "normalized_ingredients": {
-        "76": "beef brisket",
-        "400": "envelope dry onion soup mix",
-        "156": "can diced tomatoes and green chiles",
-        "181": "can tomato sauce",
-        "440": "garlic powder to taste"
+        "85": "beef brisket",
+        "327": "envelope dry onion soup mix",
+        "285": "diced tomatoes and green chiles",
+        "722": "tomato sauce",
+        "381": "garlic powder to taste"
     },
     "status": 0,
     "labels": [

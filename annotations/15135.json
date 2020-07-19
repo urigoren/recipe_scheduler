@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1707492.jpg",
     "url": "http://allrecipes.com/Recipe/15135/",
     "normalized_ingredients": {
-        "123": "butter",
-        "595": "package frozen mixed vegetables",
-        "198": "cans condensed cream of chicken soup",
-        "199": "cans condensed cream of mushroom soup",
-        "438": "garlic powder",
-        "561": "onion powder",
-        "616": "packages chicken flavored ramen noodles",
-        "730": "skinless, boneless chicken breast halves"
+        "132": "butter",
+        "362": "frozen mixed vegetables",
+        "205": "condensed cream of chicken soup",
+        "206": "condensed cream of mushroom soup",
+        "379": "garlic powder",
+        "520": "onion powder",
+        "166": "chicken flavored ramen noodles",
+        "656": "skinless, boneless chicken breast halves"
     },
     "status": 0,
     "labels": [

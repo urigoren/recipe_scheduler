@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/328379.jpg",
     "url": "http://allrecipes.com/Recipe/23856/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "558": "onion",
-        "610": "package taco seasoning mix",
-        "181": "can tomato sauce",
-        "186": "can whole kernel corn",
-        "204": "cans kidney beans",
-        "313": "corn tortilla chips",
-        "712": "shredded Cheddar cheese",
-        "268": "chopped green onion"
+        "464": "lean ground beef",
+        "517": "onion",
+        "708": "taco seasoning mix",
+        "722": "tomato sauce",
+        "765": "whole kernel corn",
+        "460": "kidney beans",
+        "228": "corn tortilla chips",
+        "639": "shredded Cheddar cheese",
+        "393": "green onion"
     },
     "status": 0,
     "labels": [

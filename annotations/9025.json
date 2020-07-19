@@ -17,13 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1363910.jpg",
     "url": "http://allrecipes.com/Recipe/9025/",
     "normalized_ingredients": {
-        "725": "skinless",
-        "466": "ground ginger",
-        "754": "soy sauce",
-        "371": "dried minced onion",
-        "619": "packed brown sugar",
-        "112": "bourbon",
-        "438": "garlic powder"
+        "651": "skinless",
+        "412": "ground ginger",
+        "685": "soy sauce",
+        "294": "dried minced onion",
+        "535": "packed brown sugar",
+        "120": "bourbon",
+        "379": "garlic powder"
     },
     "status": 0,
     "labels": [

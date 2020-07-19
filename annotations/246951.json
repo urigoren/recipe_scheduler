@@ -19,13 +19,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4523845.jpg",
     "url": "http://allrecipes.com/Recipe/246951/",
     "normalized_ingredients": {
-        "19": "Hatch chile peppers",
-        "310": "corn oil",
-        "273": "chopped onion",
-        "546": "minced garlic",
-        "49": "all-purpose flour",
-        "77": "beef broth",
-        "692": "salt"
+        "20": "Hatch chile peppers",
+        "225": "corn oil",
+        "517": "onion",
+        "502": "minced garlic",
+        "56": "all-purpose flour",
+        "86": "beef broth",
+        "617": "salt"
     },
     "status": 0,
     "labels": [

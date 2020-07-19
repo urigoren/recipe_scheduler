@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/990675.jpg",
     "url": "http://allrecipes.com/Recipe/125219/",
     "normalized_ingredients": {
-        "796": "uncooked long grain rice",
-        "253": "chopped celery",
-        "273": "chopped onion",
-        "124": "butter or margarine",
-        "229": "chicken broth",
-        "47": "Worcestershire sauce",
-        "754": "soy sauce",
-        "374": "dried oregano",
-        "379": "dried thyme"
+        "738": "uncooked long grain rice",
+        "150": "celery",
+        "517": "onion",
+        "135": "butter or margarine",
+        "163": "chicken broth",
+        "53": "Worcestershire sauce",
+        "685": "soy sauce",
+        "297": "dried oregano",
+        "302": "dried thyme"
     },
     "status": 0,
     "labels": [

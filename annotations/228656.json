@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/965701.jpg",
     "url": "http://allrecipes.com/Recipe/228656/",
     "normalized_ingredients": {
-        "134": "can butter beans",
-        "403": "extra-lean ground turkey breast",
-        "396": "egg white",
-        "561": "onion powder",
-        "438": "garlic powder",
-        "692": "salt",
-        "89": "black pepper",
-        "22": "Italian bread crumbs",
-        "555": "olive oil"
+        "133": "butter beans",
+        "330": "extra-lean ground turkey breast",
+        "321": "egg white",
+        "520": "onion powder",
+        "379": "garlic powder",
+        "617": "salt",
+        "98": "black pepper",
+        "24": "Italian bread crumbs",
+        "514": "olive oil"
     },
     "status": 0,
     "labels": [

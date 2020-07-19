@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/160393.jpg",
     "url": "http://allrecipes.com/Recipe/13323/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "229": "chicken broth",
-        "809": "water",
-        "617": "packages dry onion soup mix",
-        "181": "can tomato sauce",
-        "759": "stalks celery",
-        "558": "onion",
-        "595": "package frozen mixed vegetables",
-        "399": "elbow macaroni"
+        "402": "ground beef",
+        "163": "chicken broth",
+        "753": "water",
+        "311": "dry onion soup mix",
+        "722": "tomato sauce",
+        "693": "stalks celery",
+        "517": "onion",
+        "362": "frozen mixed vegetables",
+        "325": "elbow macaroni"
     },
     "status": 0,
     "labels": [

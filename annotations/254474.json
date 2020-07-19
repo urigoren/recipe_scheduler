@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3753290.jpg",
     "url": "http://allrecipes.com/Recipe/254474/",
     "normalized_ingredients": {
-        "683": "rice",
-        "569": "orzo",
-        "123": "butter",
-        "547": "minced onion",
-        "809": "water",
-        "225": "chicken bouillon",
-        "561": "onion powder",
-        "441": "garlic salt",
-        "478": "ground turmeric"
+        "607": "rice",
+        "532": "orzo",
+        "132": "butter",
+        "503": "minced onion",
+        "753": "water",
+        "159": "chicken bouillon",
+        "520": "onion powder",
+        "382": "garlic salt",
+        "425": "ground turmeric"
     },
     "status": 0,
     "labels": [

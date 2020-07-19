@@ -17,13 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1116740.jpg",
     "url": "http://allrecipes.com/Recipe/69908/",
     "normalized_ingredients": {
-        "551": "nacho-flavor tortilla chips",
-        "456": "ground beef",
-        "274": "chopped onion ",
-        "696": "salt and pepper to taste",
-        "139": "can chili beans",
-        "181": "can tomato sauce",
-        "715": "shredded Mexican cheese blend"
+        "509": "nacho-flavor tortilla chips",
+        "402": "ground beef",
+        "518": "onion ",
+        "621": "salt and pepper to taste",
+        "178": "chili beans",
+        "722": "tomato sauce",
+        "642": "shredded Mexican cheese blend"
     },
     "status": 0,
     "labels": [

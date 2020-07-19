@@ -14,12 +14,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2070256.jpg",
     "url": "http://allrecipes.com/Recipe/121736/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "668": "quart tomato juice",
-        "809": "water",
-        "794": "uncooked elbow macaroni",
-        "401": "envelope onion soup mix",
-        "245": "chili powder"
+        "402": "ground beef",
+        "585": "quart tomato juice",
+        "753": "water",
+        "736": "uncooked elbow macaroni",
+        "328": "envelope onion soup mix",
+        "180": "chili powder"
     },
     "status": 0,
     "labels": [

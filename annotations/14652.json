@@ -17,13 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/120448.jpg",
     "url": "http://allrecipes.com/Recipe/14652/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "781": "tomato juice",
-        "687": "rolled oats",
-        "393": "egg",
-        "273": "chopped onion",
-        "692": "salt",
-        "460": "ground black pepper"
+        "464": "lean ground beef",
+        "719": "tomato juice",
+        "611": "rolled oats",
+        "317": "egg",
+        "517": "onion",
+        "617": "salt",
+        "406": "ground black pepper"
     },
     "status": 0,
     "labels": [

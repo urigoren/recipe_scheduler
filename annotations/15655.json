@@ -16,13 +16,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3259122.jpg",
     "url": "http://allrecipes.com/Recipe/15655/",
     "normalized_ingredients": {
-        "593": "package frozen corn kernels",
-        "261": "chopped fresh parsley",
-        "266": "chopped garlic",
-        "11": "Creole-style seasoning",
-        "123": "butter",
-        "359": "diced onion",
-        "582": "package cream cheese"
+        "359": "frozen corn kernels",
+        "351": "fresh parsley",
+        "370": "garlic",
+        "13": "Creole-style seasoning",
+        "132": "butter",
+        "282": "diced onion",
+        "237": "cream cheese"
     },
     "status": 0,
     "labels": [

@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/992267.jpg",
     "url": "http://allrecipes.com/Recipe/119971/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "273": "chopped onion",
-        "209": "cans tomato sauce",
-        "609": "package spaghetti sauce mix",
-        "753": "sour cream",
-        "720": "shredded mozzarella cheese",
-        "604": "package refrigerated crescent rolls",
-        "124": "butter or margarine",
-        "446": "grated Parmesan cheese"
+        "402": "ground beef",
+        "517": "onion",
+        "722": "tomato sauce",
+        "690": "spaghetti sauce mix",
+        "683": "sour cream",
+        "646": "shredded mozzarella cheese",
+        "606": "refrigerated crescent rolls",
+        "135": "butter or margarine",
+        "387": "grated Parmesan cheese"
     },
     "status": 0,
     "labels": [

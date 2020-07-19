@@ -16,12 +16,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/329941.jpg",
     "url": "http://allrecipes.com/Recipe/74350/",
     "normalized_ingredients": {
-        "418": "fresh green beans",
-        "754": "soy sauce",
-        "290": "clove garlic",
-        "431": "garlic chili sauce",
-        "490": "honey",
-        "189": "canola oil"
+        "389": "green beans",
+        "685": "soy sauce",
+        "194": "clove garlic",
+        "372": "garlic chili sauce",
+        "438": "honey",
+        "143": "canola oil"
     },
     "status": 0,
     "labels": [

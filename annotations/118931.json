@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/430793.jpg",
     "url": "http://allrecipes.com/Recipe/118931/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "438": "garlic powder",
-        "363": "diced zucchini",
-        "155": "can diced tomatoes",
-        "500": "instant rice",
-        "809": "water",
-        "273": "chopped onion",
-        "682": "reduced-sodium soy sauce",
-        "367": "dried basil"
+        "464": "lean ground beef",
+        "379": "garlic powder",
+        "288": "diced zucchini",
+        "284": "diced tomatoes",
+        "449": "instant rice",
+        "753": "water",
+        "517": "onion",
+        "604": "reduced-sodium soy sauce",
+        "290": "dried basil"
     },
     "status": 0,
     "labels": [

@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/963120.jpg",
     "url": "http://allrecipes.com/Recipe/214661/",
     "normalized_ingredients": {
-        "399": "elbow macaroni",
-        "748": "slices thick-cut bacon",
-        "827": "yellow onion",
-        "209": "cans tomato sauce",
-        "155": "can diced tomatoes",
-        "342": "cubes beef bouillon",
-        "809": "water",
-        "438": "garlic powder",
-        "561": "onion powder"
+        "325": "elbow macaroni",
+        "677": "slices thick-cut bacon",
+        "776": "yellow onion",
+        "722": "tomato sauce",
+        "284": "diced tomatoes",
+        "263": "cubes beef bouillon",
+        "753": "water",
+        "379": "garlic powder",
+        "520": "onion powder"
     },
     "status": 0,
     "labels": [

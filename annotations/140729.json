@@ -19,14 +19,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/130217.jpg",
     "url": "http://allrecipes.com/Recipe/140729/",
     "normalized_ingredients": {
-        "332": "crushed garlic",
-        "397": "egg yolk",
-        "262": "chopped fresh spinach",
-        "106": "boneless skinless chicken breast halves",
-        "70": "basil pesto",
-        "281": "chopped sun-dried tomatoes",
-        "328": "crumbled herbed feta cheese",
-        "428": "frozen puff pastry sheet, thawed"
+        "252": "crushed garlic",
+        "323": "egg yolk",
+        "352": "fresh spinach",
+        "114": "boneless skinless chicken breast halves",
+        "79": "basil pesto",
+        "705": "sun-dried tomatoes",
+        "248": "crumbled herbed feta cheese",
+        "366": "frozen puff pastry sheet, thawed"
     },
     "status": 0,
     "labels": [

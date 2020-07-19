@@ -23,13 +23,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989999.jpg",
     "url": "http://allrecipes.com/Recipe/220060/",
     "normalized_ingredients": {
-        "309": "corn flake cereal",
-        "6": "California walnut pieces",
-        "438": "garlic powder",
-        "692": "salt",
-        "471": "ground pepper",
-        "393": "egg",
-        "96": "boneless"
+        "224": "corn flake cereal",
+        "8": "California walnut pieces",
+        "379": "garlic powder",
+        "617": "salt",
+        "418": "ground pepper",
+        "317": "egg",
+        "104": "boneless"
     },
     "status": 0,
     "labels": [

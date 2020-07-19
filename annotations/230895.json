@@ -16,13 +16,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3584656.jpg",
     "url": "http://allrecipes.com/Recipe/230895/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "809": "water",
-        "181": "can tomato sauce",
-        "578": "package chili seasoning mix",
-        "663": "prepared yellow mustard",
-        "561": "onion powder",
-        "438": "garlic powder"
+        "464": "lean ground beef",
+        "753": "water",
+        "722": "tomato sauce",
+        "184": "chili seasoning mix",
+        "580": "prepared yellow mustard",
+        "520": "onion powder",
+        "379": "garlic powder"
     },
     "status": 0,
     "labels": [

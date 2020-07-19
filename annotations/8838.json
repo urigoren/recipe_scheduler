@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/51159.jpg",
     "url": "http://allrecipes.com/Recipe/8838/",
     "normalized_ingredients": {
-        "586": "package dry onion soup mix",
-        "91": "bone-in chicken breast halves",
-        "583": "package cream of chicken soup mix",
-        "754": "soy sauce",
-        "291": "cloves crushed garlic",
-        "53": "apple juice",
-        "566": "orange juice",
-        "696": "salt and pepper to taste"
+        "311": "dry onion soup mix",
+        "100": "bone-in chicken breast halves",
+        "239": "cream of chicken soup mix",
+        "685": "soy sauce",
+        "195": "cloves crushed garlic",
+        "60": "apple juice",
+        "527": "orange juice",
+        "621": "salt and pepper to taste"
     },
     "status": 0,
     "labels": [

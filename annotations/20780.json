@@ -17,12 +17,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/402971.jpg",
     "url": "http://allrecipes.com/Recipe/20780/",
     "normalized_ingredients": {
-        "239": "chicken wings",
-        "546": "minced garlic",
-        "260": "chopped fresh mint leaves",
-        "123": "butter",
-        "516": "lemon",
-        "490": "honey"
+        "174": "chicken wings",
+        "502": "minced garlic",
+        "349": "fresh mint leaves",
+        "132": "butter",
+        "467": "lemon",
+        "438": "honey"
     },
     "status": 0,
     "labels": [

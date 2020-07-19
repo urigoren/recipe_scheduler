@@ -20,14 +20,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1076054.jpg",
     "url": "http://allrecipes.com/Recipe/19547/",
     "normalized_ingredients": {
-        "584": "package dry corn bread mix",
-        "123": "butter",
-        "253": "chopped celery",
-        "558": "onion",
-        "398": "eggs",
-        "236": "chicken stock",
-        "378": "dried sage",
-        "696": "salt and pepper to taste"
+        "307": "dry corn bread mix",
+        "132": "butter",
+        "150": "celery",
+        "517": "onion",
+        "324": "eggs",
+        "171": "chicken stock",
+        "300": "dried sage",
+        "621": "salt and pepper to taste"
     },
     "status": 0,
     "labels": [

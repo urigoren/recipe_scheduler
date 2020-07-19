@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/18823/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "558": "onion",
-        "180": "can tomato paste",
-        "127": "can Italian-style stewed tomatoes",
-        "692": "salt",
-        "460": "ground black pepper",
-        "612": "package thin egg noodles",
-        "598": "package frozen whole kernel corn",
-        "723": "shredded sharp Cheddar cheese"
+        "464": "lean ground beef",
+        "517": "onion",
+        "720": "tomato paste",
+        "28": "Italian-style stewed tomatoes",
+        "617": "salt",
+        "406": "ground black pepper",
+        "714": "thin egg noodles",
+        "369": "frozen whole kernel corn",
+        "648": "shredded sharp Cheddar cheese"
     },
     "status": 0,
     "labels": [

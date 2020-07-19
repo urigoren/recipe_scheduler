@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/990778.jpg",
     "url": "http://allrecipes.com/Recipe/118909/",
     "normalized_ingredients": {
-        "94": "bone-in pork loin chops ",
-        "189": "canola oil",
-        "452": "green pepper",
-        "253": "chopped celery",
-        "273": "chopped onion",
-        "510": "ketchup",
-        "619": "packed brown sugar",
-        "681": "reduced-sodium chicken broth",
-        "245": "chili powder"
+        "103": "bone-in pork loin chops ",
+        "143": "canola oil",
+        "397": "green pepper",
+        "150": "celery",
+        "517": "onion",
+        "459": "ketchup",
+        "535": "packed brown sugar",
+        "603": "reduced-sodium chicken broth",
+        "180": "chili powder"
     },
     "status": 0,
     "labels": [

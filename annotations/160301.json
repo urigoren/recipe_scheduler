@@ -18,13 +18,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4498002.jpg",
     "url": "http://allrecipes.com/Recipe/160301/",
     "normalized_ingredients": {
-        "107": "boneless venison roast",
-        "546": "minced garlic",
-        "454": "grill seasoning",
-        "245": "chili powder",
-        "77": "beef broth",
-        "123": "butter",
-        "417": "flour"
+        "115": "boneless venison roast",
+        "502": "minced garlic",
+        "399": "grill seasoning",
+        "180": "chili powder",
+        "86": "beef broth",
+        "132": "butter",
+        "344": "flour"
     },
     "status": 0,
     "labels": [

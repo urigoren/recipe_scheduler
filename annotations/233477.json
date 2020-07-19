@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/233477/",
     "normalized_ingredients": {
-        "277": "chopped red bell pepper",
-        "229": "chicken broth",
-        "67": "balsamic vinegar",
-        "782": "tomato paste",
-        "374": "dried oregano",
-        "438": "garlic powder",
-        "490": "honey",
-        "460": "ground black pepper",
-        "699": "sea salt"
+        "589": "red bell pepper",
+        "163": "chicken broth",
+        "76": "balsamic vinegar",
+        "720": "tomato paste",
+        "297": "dried oregano",
+        "379": "garlic powder",
+        "438": "honey",
+        "406": "ground black pepper",
+        "625": "sea salt"
     },
     "status": 0,
     "labels": [

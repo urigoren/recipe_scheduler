@@ -15,13 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/987333.jpg",
     "url": "http://allrecipes.com/Recipe/25709/",
     "normalized_ingredients": {
-        "332": "crushed garlic",
-        "123": "butter",
-        "809": "water",
-        "227": "chicken bouillon granules",
-        "265": "chopped fresh tomato",
-        "398": "eggs",
-        "696": "salt and pepper to taste"
+        "252": "crushed garlic",
+        "132": "butter",
+        "753": "water",
+        "161": "chicken bouillon granules",
+        "355": "fresh tomato",
+        "324": "eggs",
+        "621": "salt and pepper to taste"
     },
     "status": 0,
     "labels": [

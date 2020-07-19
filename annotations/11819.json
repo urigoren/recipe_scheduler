@@ -17,13 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1524494.jpg",
     "url": "http://allrecipes.com/Recipe/11819/",
     "normalized_ingredients": {
-        "756": "spaghetti",
-        "149": "can corned beef",
-        "757": "spaghetti sauce",
-        "337": "cube chicken bouillon",
-        "24": "Italian seasoning",
-        "439": "garlic powder ",
-        "372": "dried minced onion "
+        "687": "spaghetti",
+        "230": "corned beef",
+        "689": "spaghetti sauce",
+        "258": "cube chicken bouillon",
+        "26": "Italian seasoning",
+        "380": "garlic powder ",
+        "295": "dried minced onion "
     },
     "status": 0,
     "labels": [

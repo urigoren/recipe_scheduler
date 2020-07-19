@@ -16,12 +16,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3806393.jpg",
     "url": "http://allrecipes.com/Recipe/17818/",
     "normalized_ingredients": {
-        "577": "package chicken drumettes",
-        "200": "cans condensed tomato soup",
-        "256": "chopped fresh cilantro",
-        "561": "onion powder",
-        "460": "ground black pepper",
-        "441": "garlic salt"
+        "164": "chicken drumettes",
+        "207": "condensed tomato soup",
+        "346": "fresh cilantro",
+        "520": "onion powder",
+        "406": "ground black pepper",
+        "382": "garlic salt"
     },
     "status": 0,
     "labels": [

@@ -18,13 +18,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1320144.jpg",
     "url": "http://allrecipes.com/Recipe/238432/",
     "normalized_ingredients": {
-        "525": "limes",
-        "490": "honey",
-        "754": "soy sauce",
-        "555": "olive oil",
-        "546": "minced garlic",
-        "464": "ground cumin",
-        "238": "chicken thighs"
+        "476": "limes",
+        "438": "honey",
+        "685": "soy sauce",
+        "514": "olive oil",
+        "502": "minced garlic",
+        "410": "ground cumin",
+        "173": "chicken thighs"
     },
     "status": 0,
     "labels": [

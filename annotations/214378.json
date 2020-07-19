@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/214378/",
     "normalized_ingredients": {
-        "91": "bone-in chicken breast halves",
-        "438": "garlic powder",
-        "245": "chili powder",
-        "695": "salt and ground black pepper to taste",
-        "565": "onions",
-        "657": "potatoes",
-        "123": "butter",
-        "168": "can or bottle beer",
-        "712": "shredded Cheddar cheese"
+        "100": "bone-in chicken breast halves",
+        "379": "garlic powder",
+        "180": "chili powder",
+        "620": "salt and ground black pepper to taste",
+        "524": "onions",
+        "574": "potatoes",
+        "132": "butter",
+        "525": "or bottle beer",
+        "639": "shredded Cheddar cheese"
     },
     "status": 0,
     "labels": [

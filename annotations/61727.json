@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/8443.jpg",
     "url": "http://allrecipes.com/Recipe/61727/",
     "normalized_ingredients": {
-        "804": "vegetable oil",
-        "703": "self-rising flour",
-        "33": "New Mexico or California chili powder",
-        "181": "can tomato sauce",
-        "809": "water",
-        "464": "ground cumin",
-        "438": "garlic powder",
-        "564": "onion salt",
-        "697": "salt to taste"
+        "747": "vegetable oil",
+        "630": "self-rising flour",
+        "40": "New Mexico or California chili powder",
+        "722": "tomato sauce",
+        "753": "water",
+        "410": "ground cumin",
+        "379": "garlic powder",
+        "523": "onion salt",
+        "622": "salt to taste"
     },
     "status": 0,
     "labels": [

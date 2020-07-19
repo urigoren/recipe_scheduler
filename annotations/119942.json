@@ -15,13 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/119942/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "565": "onions",
-        "433": "garlic cloves",
-        "108": "bottle chili sauce",
-        "621": "packet dry brown gravy mix",
-        "401": "envelope onion soup mix",
-        "692": "salt"
+        "402": "ground beef",
+        "524": "onions",
+        "374": "garlic cloves",
+        "116": "bottle chili sauce",
+        "537": "packet dry brown gravy mix",
+        "328": "envelope onion soup mix",
+        "617": "salt"
     },
     "status": 0,
     "labels": [

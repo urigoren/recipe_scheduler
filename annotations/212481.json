@@ -21,15 +21,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4205980.jpg",
     "url": "http://allrecipes.com/Recipe/212481/",
     "normalized_ingredients": {
-        "579": "package corn bread mix",
-        "745": "slices firm white bread",
-        "122": "bulk spicy pork sausage",
-        "733": "sliced celery",
-        "558": "onion",
-        "378": "dried sage",
-        "540": "melted butter",
-        "138": "can chicken broth",
-        "398": "eggs"
+        "221": "corn bread mix",
+        "674": "slices firm white bread",
+        "131": "bulk spicy pork sausage",
+        "660": "sliced celery",
+        "517": "onion",
+        "300": "dried sage",
+        "497": "melted butter",
+        "163": "chicken broth",
+        "324": "eggs"
     },
     "status": 0,
     "labels": [

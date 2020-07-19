@@ -16,14 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1968964.jpg",
     "url": "http://allrecipes.com/Recipe/228769/",
     "normalized_ingredients": {
-        "404": "extra-virgin olive oil",
-        "62": "baby spinach leaves",
-        "692": "salt",
-        "460": "ground black pepper",
-        "438": "garlic powder",
-        "561": "onion powder",
-        "769": "sun-dried tomato halves packed in olive oil with herbs",
-        "325": "crumbled feta cheese"
+        "331": "extra-virgin olive oil",
+        "70": "baby spinach leaves",
+        "617": "salt",
+        "406": "ground black pepper",
+        "379": "garlic powder",
+        "520": "onion powder",
+        "704": "sun-dried tomato halves packed in olive oil with herbs",
+        "245": "crumbled feta cheese"
     },
     "status": 0,
     "labels": [

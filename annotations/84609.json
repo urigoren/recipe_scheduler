@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/964660.jpg",
     "url": "http://allrecipes.com/Recipe/84609/",
     "normalized_ingredients": {
-        "613": "package uncooked egg noodles",
-        "456": "ground beef",
-        "650": "pork sausage",
-        "558": "onion",
-        "531": "loaf processed cheese food",
-        "209": "cans tomato sauce",
-        "592": "package frozen corn",
-        "448": "green bell pepper",
-        "175": "can sliced mushrooms"
+        "735": "uncooked egg noodles",
+        "402": "ground beef",
+        "567": "pork sausage",
+        "517": "onion",
+        "483": "loaf processed cheese food",
+        "722": "tomato sauce",
+        "358": "frozen corn",
+        "390": "green bell pepper",
+        "664": "sliced mushrooms"
     },
     "status": 0,
     "labels": [

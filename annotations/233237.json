@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1027021.jpg",
     "url": "http://allrecipes.com/Recipe/233237/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "207": "cans reduced-sodium beef broth",
-        "152": "can crushed tomatoes with puree",
-        "245": "chili powder",
-        "622": "paprika",
-        "561": "onion powder",
-        "438": "garlic powder",
-        "511": "kosher salt",
-        "215": "cayenne pepper"
+        "402": "ground beef",
+        "602": "reduced-sodium beef broth",
+        "255": "crushed tomatoes with puree",
+        "180": "chili powder",
+        "538": "paprika",
+        "520": "onion powder",
+        "379": "garlic powder",
+        "462": "kosher salt",
+        "148": "cayenne pepper"
     },
     "status": 0,
     "labels": [

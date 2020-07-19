@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1762435.jpg",
     "url": "http://allrecipes.com/Recipe/19748/",
     "normalized_ingredients": {
-        "79": "beef frankfurters",
-        "172": "can pork and beans",
-        "134": "can butter beans",
-        "139": "can chili beans",
-        "558": "onion",
-        "118": "brown sugar",
-        "374": "dried oregano",
-        "364": "distilled white vinegar"
+        "89": "beef frankfurters",
+        "563": "pork and beans",
+        "133": "butter beans",
+        "178": "chili beans",
+        "517": "onion",
+        "128": "brown sugar",
+        "297": "dried oregano",
+        "289": "distilled white vinegar"
     },
     "status": 0,
     "labels": [

@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/58501.jpg",
     "url": "http://allrecipes.com/Recipe/26438/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "558": "onion",
-        "155": "can diced tomatoes",
-        "181": "can tomato sauce",
-        "170": "can pinto beans",
-        "245": "chili powder",
-        "464": "ground cumin",
-        "462": "ground cayenne pepper",
-        "546": "minced garlic"
+        "402": "ground beef",
+        "517": "onion",
+        "284": "diced tomatoes",
+        "722": "tomato sauce",
+        "561": "pinto beans",
+        "180": "chili powder",
+        "410": "ground cumin",
+        "408": "ground cayenne pepper",
+        "502": "minced garlic"
     },
     "status": 0,
     "labels": [

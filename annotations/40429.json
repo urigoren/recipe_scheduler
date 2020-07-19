@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/70225.jpg",
     "url": "http://allrecipes.com/Recipe/40429/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "515": "lean ground pork",
-        "780": "tomato - peeled",
-        "398": "eggs",
-        "558": "onion",
-        "266": "chopped garlic",
-        "692": "salt",
-        "89": "black pepper"
+        "464": "lean ground beef",
+        "465": "lean ground pork",
+        "718": "tomato - peeled",
+        "324": "eggs",
+        "517": "onion",
+        "370": "garlic",
+        "617": "salt",
+        "98": "black pepper"
     },
     "status": 0,
     "labels": [

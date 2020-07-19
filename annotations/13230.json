@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2520828.jpg",
     "url": "http://allrecipes.com/Recipe/13230/",
     "normalized_ingredients": {
-        "546": "minced garlic",
-        "558": "onion",
-        "123": "butter",
-        "197": "cans condensed chicken broth",
-        "196": "cans condensed beef broth",
-        "460": "ground black pepper",
-        "575": "package au jus gravy mix",
-        "322": "croutons",
-        "741": "slices Swiss cheese"
+        "502": "minced garlic",
+        "517": "onion",
+        "132": "butter",
+        "204": "condensed chicken broth",
+        "203": "condensed beef broth",
+        "406": "ground black pepper",
+        "66": "au jus gravy mix",
+        "242": "croutons",
+        "670": "slices Swiss cheese"
     },
     "status": 0,
     "labels": [

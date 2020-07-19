@@ -12,10 +12,10 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/853327.jpg",
     "url": "http://allrecipes.com/Recipe/118295/",
     "normalized_ingredients": {
-        "105": "boneless pork loin chops",
-        "248": "chili sauce",
-        "490": "honey",
-        "754": "soy sauce"
+        "113": "boneless pork loin chops",
+        "183": "chili sauce",
+        "438": "honey",
+        "685": "soy sauce"
     },
     "status": 0,
     "labels": [

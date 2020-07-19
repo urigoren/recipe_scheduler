@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4462438.jpg",
     "url": "http://allrecipes.com/Recipe/16280/",
     "normalized_ingredients": {
-        "386": "dry egg noodles",
-        "456": "ground beef",
-        "558": "onion",
-        "697": "salt to taste",
-        "461": "ground black pepper to taste",
-        "442": "garlic salt to taste",
-        "148": "can corn",
-        "163": "can kidney beans",
-        "146": "can condensed tomato soup"
+        "308": "dry egg noodles",
+        "402": "ground beef",
+        "517": "onion",
+        "622": "salt to taste",
+        "407": "ground black pepper to taste",
+        "383": "garlic salt to taste",
+        "220": "corn",
+        "460": "kidney beans",
+        "207": "condensed tomato soup"
     },
     "status": 0,
     "labels": [

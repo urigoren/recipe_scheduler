@@ -18,12 +18,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/796828.jpg",
     "url": "http://allrecipes.com/Recipe/220326/",
     "normalized_ingredients": {
-        "725": "skinless",
-        "804": "vegetable oil",
-        "547": "minced onion",
-        "639": "pinch ground cumin",
-        "633": "pinch chili powder",
-        "784": "tomato sauce"
+        "651": "skinless",
+        "747": "vegetable oil",
+        "503": "minced onion",
+        "553": "pinch ground cumin",
+        "548": "pinch chili powder",
+        "722": "tomato sauce"
     },
     "status": 0,
     "labels": [

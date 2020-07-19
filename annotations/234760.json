@@ -21,15 +21,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1963713.jpg",
     "url": "http://allrecipes.com/Recipe/234760/",
     "normalized_ingredients": {
-        "213": "carrots",
-        "219": "celery stalk",
-        "558": "onion",
-        "292": "cloves garlic",
-        "24": "Italian seasoning",
-        "460": "ground black pepper",
-        "237": "chicken tenderloins",
-        "398": "eggs",
-        "167": "can no-salt-added tomato sauce"
+        "146": "carrots",
+        "153": "celery stalk",
+        "517": "onion",
+        "196": "cloves garlic",
+        "26": "Italian seasoning",
+        "406": "ground black pepper",
+        "172": "chicken tenderloins",
+        "324": "eggs",
+        "511": "no-salt-added tomato sauce"
     },
     "status": 0,
     "labels": [

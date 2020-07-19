@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/980369.jpg",
     "url": "http://allrecipes.com/Recipe/125141/",
     "normalized_ingredients": {
-        "754": "soy sauce",
-        "288": "cider vinegar",
-        "118": "brown sugar",
-        "413": "finely chopped onion",
-        "804": "vegetable oil",
-        "432": "garlic clove",
-        "466": "ground ginger",
-        "627": "pepper",
-        "98": "boneless beef sirloin steak"
+        "685": "soy sauce",
+        "192": "cider vinegar",
+        "128": "brown sugar",
+        "340": "finely chopped onion",
+        "747": "vegetable oil",
+        "373": "garlic clove",
+        "412": "ground ginger",
+        "543": "pepper",
+        "106": "boneless beef sirloin steak"
     },
     "status": 0,
     "labels": [

@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4520298.jpg",
     "url": "http://allrecipes.com/Recipe/237286/",
     "normalized_ingredients": {
-        "42": "Sriracha hot sauce",
-        "490": "honey",
-        "123": "butter",
-        "438": "garlic powder",
-        "561": "onion powder",
-        "24": "Italian seasoning",
-        "692": "salt",
-        "460": "ground black pepper",
-        "725": "skinless"
+        "50": "Sriracha hot sauce",
+        "438": "honey",
+        "132": "butter",
+        "379": "garlic powder",
+        "520": "onion powder",
+        "26": "Italian seasoning",
+        "617": "salt",
+        "406": "ground black pepper",
+        "651": "skinless"
     },
     "status": 0,
     "labels": [

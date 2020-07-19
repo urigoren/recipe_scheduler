@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/234122/",
     "normalized_ingredients": {
-        "576": "package bulk pork sausage",
-        "253": "chopped celery",
-        "273": "chopped onion",
-        "828": "zucchinis",
-        "201": "cans diced tomatoes",
-        "138": "can chicken broth",
-        "24": "Italian seasoning",
-        "441": "garlic salt",
-        "713": "shredded Cheddar cheese "
+        "130": "bulk pork sausage",
+        "150": "celery",
+        "517": "onion",
+        "777": "zucchinis",
+        "284": "diced tomatoes",
+        "163": "chicken broth",
+        "26": "Italian seasoning",
+        "382": "garlic salt",
+        "640": "shredded Cheddar cheese "
     },
     "status": 0,
     "labels": [

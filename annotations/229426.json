@@ -18,13 +18,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2551421.jpg",
     "url": "http://allrecipes.com/Recipe/229426/",
     "normalized_ingredients": {
-        "307": "cooking spray",
-        "747": "slices smoked maple bacon",
-        "50": "apple butter",
-        "490": "honey",
-        "455": "ground allspice",
-        "245": "chili powder",
-        "653": "pork tenderloin"
+        "219": "cooking spray",
+        "676": "slices smoked maple bacon",
+        "57": "apple butter",
+        "438": "honey",
+        "401": "ground allspice",
+        "180": "chili powder",
+        "570": "pork tenderloin"
     },
     "status": 0,
     "labels": [

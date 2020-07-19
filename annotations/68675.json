@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1101100.jpg",
     "url": "http://allrecipes.com/Recipe/68675/",
     "normalized_ingredients": {
-        "458": "ground beef chuck ",
-        "103": "boneless lamb chops",
-        "547": "minced onion",
-        "546": "minced garlic",
-        "468": "ground marjoram",
-        "476": "ground rosemary",
-        "699": "sea salt",
-        "460": "ground black pepper"
+        "404": "ground beef chuck ",
+        "111": "boneless lamb chops",
+        "503": "minced onion",
+        "502": "minced garlic",
+        "415": "ground marjoram",
+        "423": "ground rosemary",
+        "625": "sea salt",
+        "406": "ground black pepper"
     },
     "status": 0,
     "labels": [

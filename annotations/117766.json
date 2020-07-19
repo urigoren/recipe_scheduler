@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/117766/",
     "normalized_ingredients": {
-        "315": "cornstarch",
-        "229": "chicken broth",
-        "754": "soy sauce",
-        "804": "vegetable oil",
-        "653": "pork tenderloin",
-        "432": "garlic clove",
-        "116": "broccoli coleslaw mix",
-        "706": "sesame seeds",
-        "20": "Hot cooked rice"
+        "231": "cornstarch",
+        "163": "chicken broth",
+        "685": "soy sauce",
+        "747": "vegetable oil",
+        "570": "pork tenderloin",
+        "373": "garlic clove",
+        "125": "broccoli coleslaw mix",
+        "632": "sesame seeds",
+        "22": "Hot cooked rice"
     },
     "status": 0,
     "labels": [

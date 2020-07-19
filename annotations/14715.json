@@ -15,11 +15,11 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/475643.jpg",
     "url": "http://allrecipes.com/Recipe/14715/",
     "normalized_ingredients": {
-        "754": "soy sauce",
-        "677": "red wine vinegar",
-        "490": "honey",
-        "438": "garlic powder",
-        "648": "pork chops"
+        "685": "soy sauce",
+        "598": "red wine vinegar",
+        "438": "honey",
+        "379": "garlic powder",
+        "565": "pork chops"
     },
     "status": 0,
     "labels": [

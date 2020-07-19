@@ -18,12 +18,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4468821.jpg",
     "url": "http://allrecipes.com/Recipe/23369/",
     "normalized_ingredients": {
-        "230": "chicken drumettes",
-        "520": "light corn syrup",
-        "754": "soy sauce",
-        "814": "white sugar",
-        "816": "white wine",
-        "636": "pinch garlic powder"
+        "164": "chicken drumettes",
+        "471": "light corn syrup",
+        "685": "soy sauce",
+        "759": "white sugar",
+        "761": "white wine",
+        "550": "pinch garlic powder"
     },
     "status": 0,
     "labels": [

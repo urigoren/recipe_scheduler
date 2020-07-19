@@ -16,12 +16,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4509181.jpg",
     "url": "http://allrecipes.com/Recipe/255233/",
     "normalized_ingredients": {
-        "123": "butter",
-        "648": "pork chops",
-        "354": "dashes onion powder",
-        "352": "dashes garlic powder",
-        "738": "slices Cheddar cheese",
-        "742": "slices bacon"
+        "132": "butter",
+        "565": "pork chops",
+        "276": "dashes onion powder",
+        "274": "dashes garlic powder",
+        "667": "slices Cheddar cheese",
+        "671": "slices bacon"
     },
     "status": 0,
     "labels": [

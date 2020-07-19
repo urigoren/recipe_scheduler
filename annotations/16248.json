@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/363064.jpg",
     "url": "http://allrecipes.com/Recipe/16248/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "558": "onion",
-        "178": "can stewed tomatoes",
-        "181": "can tomato sauce",
-        "163": "can kidney beans",
-        "809": "water",
-        "633": "pinch chili powder",
-        "636": "pinch garlic powder",
-        "696": "salt and pepper to taste"
+        "402": "ground beef",
+        "517": "onion",
+        "697": "stewed tomatoes",
+        "722": "tomato sauce",
+        "460": "kidney beans",
+        "753": "water",
+        "548": "pinch chili powder",
+        "550": "pinch garlic powder",
+        "621": "salt and pepper to taste"
     },
     "status": 0,
     "labels": [

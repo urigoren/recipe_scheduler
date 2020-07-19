@@ -12,10 +12,10 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/399254.jpg",
     "url": "http://allrecipes.com/Recipe/70096/",
     "normalized_ingredients": {
-        "76": "beef brisket",
-        "111": "bottles chili sauce",
-        "400": "envelope dry onion soup mix",
-        "438": "garlic powder"
+        "85": "beef brisket",
+        "119": "bottles chili sauce",
+        "327": "envelope dry onion soup mix",
+        "379": "garlic powder"
     },
     "status": 0,
     "labels": [

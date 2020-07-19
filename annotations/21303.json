@@ -18,13 +18,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1096910.jpg",
     "url": "http://allrecipes.com/Recipe/21303/",
     "normalized_ingredients": {
-        "648": "pork chops",
-        "440": "garlic powder to taste",
-        "696": "salt and pepper to taste",
-        "558": "onion",
-        "484": "head cabbage",
-        "512": "large egg noodles",
-        "123": "butter"
+        "565": "pork chops",
+        "381": "garlic powder to taste",
+        "621": "salt and pepper to taste",
+        "517": "onion",
+        "430": "head cabbage",
+        "319": "egg noodles",
+        "132": "butter"
     },
     "status": 0,
     "labels": [

@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/56962.jpg",
     "url": "http://allrecipes.com/Recipe/14535/",
     "normalized_ingredients": {
-        "239": "chicken wings",
-        "754": "soy sauce",
-        "346": "dark soy sauce",
-        "704": "sesame oil",
-        "571": "oyster sauce",
-        "438": "garlic powder",
-        "561": "onion powder",
-        "461": "ground black pepper to taste",
-        "367": "dried basil"
+        "174": "chicken wings",
+        "685": "soy sauce",
+        "268": "dark soy sauce",
+        "631": "sesame oil",
+        "534": "oyster sauce",
+        "379": "garlic powder",
+        "520": "onion powder",
+        "407": "ground black pepper to taste",
+        "290": "dried basil"
     },
     "status": 0,
     "labels": [

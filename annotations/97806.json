@@ -22,15 +22,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/255177.jpg",
     "url": "http://allrecipes.com/Recipe/97806/",
     "normalized_ingredients": {
-        "657": "potatoes",
-        "226": "chicken bouillon cubes",
-        "807": "warm milk",
-        "540": "melted butter",
-        "306": "cooking oil",
-        "526": "links pork sausage",
-        "558": "onion",
-        "203": "cans homestyle beef gravy",
-        "324": "crumbled dried oregano"
+        "574": "potatoes",
+        "160": "chicken bouillon cubes",
+        "751": "warm milk",
+        "497": "melted butter",
+        "218": "cooking oil",
+        "478": "links pork sausage",
+        "517": "onion",
+        "437": "homestyle beef gravy",
+        "244": "crumbled dried oregano"
     },
     "status": 0,
     "labels": [

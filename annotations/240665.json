@@ -13,11 +13,11 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4317503.jpg",
     "url": "http://allrecipes.com/Recipe/240665/",
     "normalized_ingredients": {
-        "444": "gluten-free soy sauce ",
-        "490": "honey",
-        "517": "lemon juice",
-        "547": "minced onion",
-        "438": "garlic powder"
+        "385": "gluten-free soy sauce ",
+        "438": "honey",
+        "468": "lemon juice",
+        "503": "minced onion",
+        "379": "garlic powder"
     },
     "status": 0,
     "labels": [

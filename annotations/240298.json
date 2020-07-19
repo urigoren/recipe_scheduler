@@ -16,13 +16,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2251141.jpg",
     "url": "http://allrecipes.com/Recipe/240298/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "827": "yellow onion",
-        "438": "garlic powder",
-        "695": "salt and ground black pepper to taste",
-        "248": "chili sauce",
-        "448": "green bell pepper",
-        "181": "can tomato sauce"
+        "402": "ground beef",
+        "776": "yellow onion",
+        "379": "garlic powder",
+        "620": "salt and ground black pepper to taste",
+        "183": "chili sauce",
+        "390": "green bell pepper",
+        "722": "tomato sauce"
     },
     "status": 0,
     "labels": [

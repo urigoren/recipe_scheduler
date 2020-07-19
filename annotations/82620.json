@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/82620/",
     "normalized_ingredients": {
-        "513": "lean",
-        "555": "olive oil",
-        "273": "chopped onion",
-        "290": "clove garlic",
-        "89": "black pepper",
-        "533": "low sodium tomato juice",
-        "498": "hot sauce",
-        "47": "Worcestershire sauce"
+        "463": "lean",
+        "514": "olive oil",
+        "517": "onion",
+        "194": "clove garlic",
+        "98": "black pepper",
+        "486": "low sodium tomato juice",
+        "446": "hot sauce",
+        "53": "Worcestershire sauce"
     },
     "status": 0,
     "labels": [

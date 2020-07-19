@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1103510.jpg",
     "url": "http://allrecipes.com/Recipe/236257/",
     "normalized_ingredients": {
-        "373": "dried onion flakes",
-        "49": "all-purpose flour",
-        "75": "beef bouillon granules",
-        "441": "garlic salt",
-        "464": "ground cumin",
-        "622": "paprika",
-        "245": "chili powder",
-        "215": "cayenne pepper",
-        "814": "white sugar"
+        "296": "dried onion flakes",
+        "56": "all-purpose flour",
+        "84": "beef bouillon granules",
+        "382": "garlic salt",
+        "410": "ground cumin",
+        "538": "paprika",
+        "180": "chili powder",
+        "148": "cayenne pepper",
+        "759": "white sugar"
     },
     "status": 0,
     "labels": [

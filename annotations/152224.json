@@ -15,11 +15,11 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/223812.jpg",
     "url": "http://allrecipes.com/Recipe/152224/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "284": "chopped yellow onion",
-        "393": "egg",
-        "150": "can cream of chicken soup",
-        "611": "package tater tots"
+        "464": "lean ground beef",
+        "776": "yellow onion",
+        "317": "egg",
+        "238": "cream of chicken soup",
+        "710": "tater tots"
     },
     "status": 0,
     "labels": [

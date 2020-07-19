@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/593156.jpg",
     "url": "http://allrecipes.com/Recipe/16235/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "558": "onion",
-        "460": "ground black pepper",
-        "441": "garlic salt",
-        "784": "tomato sauce",
-        "506": "jar salsa",
-        "249": "chili seasoning mix",
-        "164": "can light red kidney beans",
-        "153": "can dark red kidney beans"
+        "402": "ground beef",
+        "517": "onion",
+        "406": "ground black pepper",
+        "382": "garlic salt",
+        "722": "tomato sauce",
+        "454": "jar salsa",
+        "184": "chili seasoning mix",
+        "472": "light red kidney beans",
+        "267": "dark red kidney beans"
     },
     "status": 0,
     "labels": [

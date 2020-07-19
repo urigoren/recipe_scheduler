@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1076783.jpg",
     "url": "http://allrecipes.com/Recipe/234972/",
     "normalized_ingredients": {
-        "657": "potatoes",
-        "186": "can whole kernel corn",
-        "273": "chopped onion",
-        "123": "butter",
-        "74": "beef base",
-        "692": "salt",
-        "674": "red pepper flakes",
-        "460": "ground black pepper",
-        "809": "water"
+        "574": "potatoes",
+        "765": "whole kernel corn",
+        "517": "onion",
+        "132": "butter",
+        "83": "beef base",
+        "617": "salt",
+        "595": "red pepper flakes",
+        "406": "ground black pepper",
+        "753": "water"
     },
     "status": 0,
     "labels": [

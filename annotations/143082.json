@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1655056.jpg",
     "url": "http://allrecipes.com/Recipe/143082/",
     "normalized_ingredients": {
-        "118": "brown sugar",
-        "490": "honey",
-        "754": "soy sauce",
-        "258": "chopped fresh ginger root",
-        "266": "chopped garlic",
-        "498": "hot sauce",
-        "696": "salt and pepper to taste",
-        "725": "skinless",
-        "804": "vegetable oil"
+        "128": "brown sugar",
+        "438": "honey",
+        "685": "soy sauce",
+        "348": "fresh ginger root",
+        "370": "garlic",
+        "446": "hot sauce",
+        "621": "salt and pepper to taste",
+        "651": "skinless",
+        "747": "vegetable oil"
     },
     "status": 0,
     "labels": [

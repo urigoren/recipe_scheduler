@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/16024.jpg",
     "url": "http://allrecipes.com/Recipe/11831/",
     "normalized_ingredients": {
-        "273": "chopped onion",
-        "804": "vegetable oil",
-        "146": "can condensed tomato soup",
-        "245": "chili powder",
-        "692": "salt",
-        "47": "Worcestershire sauce",
-        "395": "egg noodles",
-        "723": "shredded sharp Cheddar cheese",
-        "183": "can tuna"
+        "517": "onion",
+        "747": "vegetable oil",
+        "207": "condensed tomato soup",
+        "180": "chili powder",
+        "617": "salt",
+        "53": "Worcestershire sauce",
+        "319": "egg noodles",
+        "648": "shredded sharp Cheddar cheese",
+        "727": "tuna"
     },
     "status": 0,
     "labels": [

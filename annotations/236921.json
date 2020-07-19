@@ -17,13 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1128611.jpg",
     "url": "http://allrecipes.com/Recipe/236921/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "273": "chopped onion",
-        "245": "chili powder",
-        "499": "hot water",
-        "820": "whole kernel corn",
-        "155": "can diced tomatoes",
-        "602": "package macaroni and cheese mix"
+        "402": "ground beef",
+        "517": "onion",
+        "180": "chili powder",
+        "447": "hot water",
+        "765": "whole kernel corn",
+        "284": "diced tomatoes",
+        "493": "macaroni and cheese mix"
     },
     "status": 0,
     "labels": [

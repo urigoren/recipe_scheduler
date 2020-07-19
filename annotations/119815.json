@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989667.jpg",
     "url": "http://allrecipes.com/Recipe/119815/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "273": "chopped onion",
-        "270": "chopped green pepper",
-        "432": "garlic clove",
-        "179": "can tomato juice",
-        "794": "uncooked elbow macaroni",
-        "47": "Worcestershire sauce",
-        "692": "salt",
-        "627": "pepper"
+        "402": "ground beef",
+        "517": "onion",
+        "397": "green pepper",
+        "373": "garlic clove",
+        "719": "tomato juice",
+        "736": "uncooked elbow macaroni",
+        "53": "Worcestershire sauce",
+        "617": "salt",
+        "543": "pepper"
     },
     "status": 0,
     "labels": [

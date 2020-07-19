@@ -16,13 +16,13 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/140239/",
     "normalized_ingredients": {
-        "824": "wild salmon steaks",
-        "682": "reduced-sodium soy sauce",
-        "566": "orange juice",
-        "266": "chopped garlic",
-        "12": "Dijon mustard",
-        "782": "tomato paste",
-        "516": "lemon"
+        "772": "wild salmon steaks",
+        "604": "reduced-sodium soy sauce",
+        "527": "orange juice",
+        "370": "garlic",
+        "14": "Dijon mustard",
+        "720": "tomato paste",
+        "467": "lemon"
     },
     "status": 0,
     "labels": [

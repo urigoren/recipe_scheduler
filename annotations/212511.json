@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/467823.jpg",
     "url": "http://allrecipes.com/Recipe/212511/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "163": "can kidney beans",
-        "158": "can enchilada sauce",
-        "438": "garlic powder",
-        "580": "package corn bread/muffin mix",
-        "541": "milk",
-        "393": "egg",
-        "540": "melted butter",
-        "712": "shredded Cheddar cheese"
+        "402": "ground beef",
+        "460": "kidney beans",
+        "326": "enchilada sauce",
+        "379": "garlic powder",
+        "223": "corn bread/muffin mix",
+        "498": "milk",
+        "317": "egg",
+        "497": "melted butter",
+        "639": "shredded Cheddar cheese"
     },
     "status": 0,
     "labels": [

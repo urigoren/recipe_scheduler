@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3588962.jpg",
     "url": "http://allrecipes.com/Recipe/234522/",
     "normalized_ingredients": {
-        "804": "vegetable oil",
-        "275": "chopped onions",
-        "293": "cloves minced garlic",
-        "248": "chili sauce",
-        "88": "beer",
-        "490": "honey",
-        "47": "Worcestershire sauce",
-        "388": "dry mustard",
-        "318": "country style pork ribs"
+        "747": "vegetable oil",
+        "524": "onions",
+        "197": "cloves minced garlic",
+        "183": "chili sauce",
+        "97": "beer",
+        "438": "honey",
+        "53": "Worcestershire sauce",
+        "310": "dry mustard",
+        "234": "country style pork ribs"
     },
     "status": 0,
     "labels": [

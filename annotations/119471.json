@@ -16,14 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/992103.jpg",
     "url": "http://allrecipes.com/Recipe/119471/",
     "normalized_ingredients": {
-        "558": "onion",
-        "432": "garlic clove",
-        "126": "butter or stick margarine",
-        "93": "bone-in pork loin chops",
-        "181": "can tomato sauce",
-        "390": "dry white wine or chicken broth",
-        "374": "dried oregano",
-        "627": "pepper"
+        "517": "onion",
+        "373": "garlic clove",
+        "137": "butter or stick margarine",
+        "102": "bone-in pork loin chops",
+        "722": "tomato sauce",
+        "313": "dry white wine or chicken broth",
+        "297": "dried oregano",
+        "543": "pepper"
     },
     "status": 0,
     "labels": [

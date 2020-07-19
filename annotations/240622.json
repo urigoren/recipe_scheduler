@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3457965.jpg",
     "url": "http://allrecipes.com/Recipe/240622/",
     "normalized_ingredients": {
-        "189": "canola oil",
-        "456": "ground beef",
-        "290": "clove garlic",
-        "163": "can kidney beans",
-        "273": "chopped onion",
-        "448": "green bell pepper",
-        "181": "can tomato sauce",
-        "245": "chili powder",
-        "692": "salt"
+        "143": "canola oil",
+        "402": "ground beef",
+        "194": "clove garlic",
+        "460": "kidney beans",
+        "517": "onion",
+        "390": "green bell pepper",
+        "722": "tomato sauce",
+        "180": "chili powder",
+        "617": "salt"
     },
     "status": 0,
     "labels": [

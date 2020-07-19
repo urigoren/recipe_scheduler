@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/5187.jpg",
     "url": "http://allrecipes.com/Recipe/88095/",
     "normalized_ingredients": {
-        "804": "vegetable oil",
-        "558": "onion",
-        "546": "minced garlic",
-        "245": "chili powder",
-        "464": "ground cumin",
-        "799": "uncooked short-grain white rice",
-        "229": "chicken broth",
-        "782": "tomato paste"
+        "747": "vegetable oil",
+        "517": "onion",
+        "502": "minced garlic",
+        "180": "chili powder",
+        "410": "ground cumin",
+        "741": "uncooked short-grain white rice",
+        "163": "chicken broth",
+        "720": "tomato paste"
     },
     "status": 0,
     "labels": [

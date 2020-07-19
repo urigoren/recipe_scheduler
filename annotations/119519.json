@@ -15,13 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/976440.jpg",
     "url": "http://allrecipes.com/Recipe/119519/",
     "normalized_ingredients": {
-        "413": "finely chopped onion",
-        "124": "butter or margarine",
-        "367": "dried basil",
-        "622": "paprika",
-        "438": "garlic powder",
-        "146": "can condensed tomato soup",
-        "541": "milk"
+        "340": "finely chopped onion",
+        "135": "butter or margarine",
+        "290": "dried basil",
+        "538": "paprika",
+        "379": "garlic powder",
+        "207": "condensed tomato soup",
+        "498": "milk"
     },
     "status": 0,
     "labels": [

@@ -16,14 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4476613.jpg",
     "url": "http://allrecipes.com/Recipe/16273/",
     "normalized_ingredients": {
-        "456": "ground beef",
-        "809": "water",
-        "273": "chopped onion",
-        "290": "clove garlic",
-        "784": "tomato sauce",
-        "245": "chili powder",
-        "549": "monosodium glutamate ",
-        "692": "salt"
+        "402": "ground beef",
+        "753": "water",
+        "517": "onion",
+        "194": "clove garlic",
+        "722": "tomato sauce",
+        "180": "chili powder",
+        "506": "monosodium glutamate ",
+        "617": "salt"
     },
     "status": 0,
     "labels": [

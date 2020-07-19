@@ -16,12 +16,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/35341.jpg",
     "url": "http://allrecipes.com/Recipe/88495/",
     "normalized_ingredients": {
-        "754": "soy sauce",
-        "419": "fresh lemon juice",
-        "118": "brown sugar",
-        "248": "chili sauce",
-        "438": "garlic powder",
-        "221": "center cut pork chops"
+        "685": "soy sauce",
+        "468": "lemon juice",
+        "128": "brown sugar",
+        "183": "chili sauce",
+        "379": "garlic powder",
+        "155": "center cut pork chops"
     },
     "status": 0,
     "labels": [

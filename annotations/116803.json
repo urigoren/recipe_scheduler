@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/856300.jpg",
     "url": "http://allrecipes.com/Recipe/116803/",
     "normalized_ingredients": {
-        "438": "garlic powder",
-        "466": "ground ginger",
-        "627": "pepper",
-        "215": "cayenne pepper",
-        "649": "pork loin chops",
-        "804": "vegetable oil",
-        "510": "ketchup",
-        "682": "reduced-sodium soy sauce",
-        "490": "honey"
+        "379": "garlic powder",
+        "412": "ground ginger",
+        "543": "pepper",
+        "148": "cayenne pepper",
+        "566": "pork loin chops",
+        "747": "vegetable oil",
+        "459": "ketchup",
+        "604": "reduced-sodium soy sauce",
+        "438": "honey"
     },
     "status": 0,
     "labels": [

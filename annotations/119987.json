@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/990025.jpg",
     "url": "http://allrecipes.com/Recipe/119987/",
     "normalized_ingredients": {
-        "601": "package long grain and wild rice mix",
-        "340": "cubed cooked turkey",
-        "144": "can condensed cream of chicken soup",
-        "176": "can sliced water chestnuts",
-        "809": "water",
-        "273": "chopped onion",
-        "754": "soy sauce",
-        "752": "soft bread crumbs",
-        "124": "butter or margarine"
+        "484": "long grain and wild rice mix",
+        "261": "cubed cooked turkey",
+        "205": "condensed cream of chicken soup",
+        "665": "sliced water chestnuts",
+        "753": "water",
+        "517": "onion",
+        "685": "soy sauce",
+        "682": "soft bread crumbs",
+        "135": "butter or margarine"
     },
     "status": 0,
     "labels": [

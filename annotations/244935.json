@@ -14,11 +14,11 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/244935/",
     "normalized_ingredients": {
-        "92": "bone-in pork chop",
-        "809": "water",
-        "558": "onion",
-        "224": "chicken base",
-        "290": "clove garlic"
+        "101": "bone-in pork chop",
+        "753": "water",
+        "517": "onion",
+        "158": "chicken base",
+        "194": "clove garlic"
     },
     "status": 0,
     "labels": [

@@ -19,14 +19,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/172054.jpg",
     "url": "http://allrecipes.com/Recipe/126082/",
     "normalized_ingredients": {
-        "546": "minced garlic",
-        "754": "soy sauce",
-        "490": "honey",
-        "438": "garlic powder",
-        "561": "onion powder",
-        "246": "chili powder ",
-        "469": "ground moose",
-        "189": "canola oil"
+        "502": "minced garlic",
+        "685": "soy sauce",
+        "438": "honey",
+        "379": "garlic powder",
+        "520": "onion powder",
+        "181": "chili powder ",
+        "416": "ground moose",
+        "143": "canola oil"
     },
     "status": 0,
     "labels": [

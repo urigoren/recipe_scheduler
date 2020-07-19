@@ -15,11 +15,11 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4474123.jpg",
     "url": "http://allrecipes.com/Recipe/238073/",
     "normalized_ingredients": {
-        "490": "honey",
-        "754": "soy sauce",
-        "517": "lemon juice",
-        "546": "minced garlic",
-        "648": "pork chops"
+        "438": "honey",
+        "685": "soy sauce",
+        "468": "lemon juice",
+        "502": "minced garlic",
+        "565": "pork chops"
     },
     "status": 0,
     "labels": [

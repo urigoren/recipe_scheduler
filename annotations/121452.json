@@ -16,14 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/993090.jpg",
     "url": "http://allrecipes.com/Recipe/121452/",
     "normalized_ingredients": {
-        "691": "salsa",
-        "68": "barbecue sauce",
-        "619": "packed brown sugar",
-        "495": "hot dogs",
-        "371": "dried minced onion",
-        "206": "cans pork and beans",
-        "139": "can chili beans",
-        "135": "can butter beans or lima beans"
+        "616": "salsa",
+        "77": "barbecue sauce",
+        "535": "packed brown sugar",
+        "443": "hot dogs",
+        "294": "dried minced onion",
+        "563": "pork and beans",
+        "178": "chili beans",
+        "134": "butter beans or lima beans"
     },
     "status": 0,
     "labels": [

@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/362075.jpg",
     "url": "http://allrecipes.com/Recipe/8853/",
     "normalized_ingredients": {
-        "725": "skinless",
-        "393": "egg",
-        "517": "lemon juice",
-        "49": "all-purpose flour",
-        "438": "garlic powder",
-        "622": "paprika",
-        "123": "butter",
-        "228": "chicken bouillon powder",
-        "90": "boiling water"
+        "651": "skinless",
+        "317": "egg",
+        "468": "lemon juice",
+        "56": "all-purpose flour",
+        "379": "garlic powder",
+        "538": "paprika",
+        "132": "butter",
+        "162": "chicken bouillon powder",
+        "99": "boiling water"
     },
     "status": 0,
     "labels": [

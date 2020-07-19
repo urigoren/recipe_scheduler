@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989824.jpg",
     "url": "http://allrecipes.com/Recipe/117061/",
     "normalized_ingredients": {
-        "391": "ears sweet corn",
-        "123": "butter",
-        "245": "chili powder",
-        "296": "coarsely ground pepper",
-        "438": "garlic powder",
-        "215": "cayenne pepper",
-        "315": "cornstarch",
-        "680": "reduced sodium chicken broth or vegetable broth"
+        "315": "ears sweet corn",
+        "132": "butter",
+        "180": "chili powder",
+        "200": "coarsely ground pepper",
+        "379": "garlic powder",
+        "148": "cayenne pepper",
+        "231": "cornstarch",
+        "601": "reduced sodium chicken broth or vegetable broth"
     },
     "status": 0,
     "labels": [

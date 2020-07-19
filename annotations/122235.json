@@ -16,14 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/720545.jpg",
     "url": "http://allrecipes.com/Recipe/122235/",
     "normalized_ingredients": {
-        "227": "chicken bouillon granules",
-        "376": "dried parsley flakes",
-        "371": "dried minced onion",
-        "627": "pepper",
+        "161": "chicken bouillon granules",
+        "299": "dried parsley flakes",
+        "294": "dried minced onion",
+        "543": "pepper",
         "2": "ADDITIONAL INGREDIENTS:",
-        "798": "uncooked medium egg noodles",
-        "124": "butter or margarine",
-        "90": "boiling water"
+        "740": "uncooked medium egg noodles",
+        "135": "butter or margarine",
+        "99": "boiling water"
     },
     "status": 0,
     "labels": [

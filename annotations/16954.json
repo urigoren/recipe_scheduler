@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/855246.jpg",
     "url": "http://allrecipes.com/Recipe/16954/",
     "normalized_ingredients": {
-        "393": "egg",
-        "809": "water",
-        "123": "butter",
-        "804": "vegetable oil",
-        "558": "onion",
-        "304": "cooked white rice",
-        "754": "soy sauce",
-        "460": "ground black pepper",
-        "299": "cooked"
+        "317": "egg",
+        "753": "water",
+        "132": "butter",
+        "747": "vegetable oil",
+        "517": "onion",
+        "216": "cooked white rice",
+        "685": "soy sauce",
+        "406": "ground black pepper",
+        "211": "cooked"
     },
     "status": 0,
     "labels": [

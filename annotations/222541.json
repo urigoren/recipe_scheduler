@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1436739.jpg",
     "url": "http://allrecipes.com/Recipe/222541/",
     "normalized_ingredients": {
-        "659": "pouch tuna in water",
-        "413": "finely chopped onion",
-        "410": "finely chopped celery with leaves",
-        "393": "egg",
-        "384": "dry bread crumbs",
-        "743": "slices day-old bread",
-        "636": "pinch garlic powder",
-        "642": "pinch salt and ground black pepper to taste",
-        "555": "olive oil"
+        "576": "pouch tuna in water",
+        "340": "finely chopped onion",
+        "337": "finely chopped celery with leaves",
+        "317": "egg",
+        "306": "dry bread crumbs",
+        "672": "slices day-old bread",
+        "550": "pinch garlic powder",
+        "556": "pinch salt and ground black pepper to taste",
+        "514": "olive oil"
     },
     "status": 0,
     "labels": [

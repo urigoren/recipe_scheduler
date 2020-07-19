@@ -16,14 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4213912.jpg",
     "url": "http://allrecipes.com/Recipe/123550/",
     "normalized_ingredients": {
-        "591": "package frozen chopped spinach",
-        "124": "butter or margarine",
-        "302": "cooked egg noodles",
-        "356": "diced",
-        "790": "turkey or chicken gravy",
-        "607": "package sour cream and onion dip",
-        "564": "onion salt",
-        "446": "grated Parmesan cheese"
+        "357": "frozen chopped spinach",
+        "135": "butter or margarine",
+        "214": "cooked egg noodles",
+        "278": "diced",
+        "731": "turkey or chicken gravy",
+        "684": "sour cream and onion dip",
+        "523": "onion salt",
+        "387": "grated Parmesan cheese"
     },
     "status": 0,
     "labels": [

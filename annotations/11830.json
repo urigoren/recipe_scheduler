@@ -19,15 +19,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/47770.jpg",
     "url": "http://allrecipes.com/Recipe/11830/",
     "normalized_ingredients": {
-        "321": "creamy peanut butter",
-        "499": "hot water",
-        "521": "light soy sauce",
-        "289": "clove crushed garlic",
-        "486": "heavy whipping cream",
-        "704": "sesame oil",
-        "347": "dash chili sauce",
-        "756": "spaghetti",
-        "256": "chopped fresh cilantro"
+        "241": "creamy peanut butter",
+        "447": "hot water",
+        "473": "light soy sauce",
+        "193": "clove crushed garlic",
+        "432": "heavy whipping cream",
+        "631": "sesame oil",
+        "269": "dash chili sauce",
+        "687": "spaghetti",
+        "346": "fresh cilantro"
     },
     "status": 0,
     "labels": [

@@ -20,14 +20,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2484314.jpg",
     "url": "http://allrecipes.com/Recipe/234518/",
     "normalized_ingredients": {
-        "188": "canning salt",
-        "245": "chili powder",
-        "438": "garlic powder",
-        "561": "onion powder",
-        "466": "ground ginger",
-        "460": "ground black pepper",
-        "632": "pinch cayenne pepper",
-        "402": "extra lean ground beef"
+        "142": "canning salt",
+        "180": "chili powder",
+        "379": "garlic powder",
+        "520": "onion powder",
+        "412": "ground ginger",
+        "406": "ground black pepper",
+        "547": "pinch cayenne pepper",
+        "329": "extra lean ground beef"
     },
     "status": 0,
     "labels": [

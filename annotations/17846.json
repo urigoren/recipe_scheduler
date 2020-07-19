@@ -16,14 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1014757.jpg",
     "url": "http://allrecipes.com/Recipe/17846/",
     "normalized_ingredients": {
-        "144": "can condensed cream of chicken soup",
-        "145": "can condensed cream of mushroom soup",
-        "194": "cans chicken broth",
-        "356": "diced",
-        "561": "onion powder",
-        "702": "seasoning salt",
-        "438": "garlic powder",
-        "618": "packages frozen egg noodles"
+        "205": "condensed cream of chicken soup",
+        "206": "condensed cream of mushroom soup",
+        "163": "chicken broth",
+        "278": "diced",
+        "520": "onion powder",
+        "629": "seasoning salt",
+        "379": "garlic powder",
+        "360": "frozen egg noodles"
     },
     "status": 0,
     "labels": [

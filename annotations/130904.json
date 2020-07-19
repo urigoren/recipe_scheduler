@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/130904/",
     "normalized_ingredients": {
-        "406": "fat-free chicken broth",
-        "552": "natural peanut butter",
-        "779": "toasted sesame oil",
-        "682": "reduced-sodium soy sauce",
-        "522": "lime juice",
-        "247": "chili puree with garlic",
-        "493": "honey or sugar",
-        "38": "Salt",
-        "14": "Freshly ground black pepper"
+        "333": "fat-free chicken broth",
+        "510": "natural peanut butter",
+        "717": "toasted sesame oil",
+        "604": "reduced-sodium soy sauce",
+        "474": "lime juice",
+        "182": "chili puree with garlic",
+        "441": "honey or sugar",
+        "45": "Salt",
+        "15": "Freshly ground black pepper"
     },
     "status": 0,
     "labels": [

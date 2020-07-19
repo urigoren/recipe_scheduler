@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2530987.jpg",
     "url": "http://allrecipes.com/Recipe/217412/",
     "normalized_ingredients": {
-        "97": "boneless beef chuck roast",
-        "558": "onion",
-        "72": "bay leaves",
-        "460": "ground black pepper",
-        "438": "garlic powder",
-        "364": "distilled white vinegar",
-        "181": "can tomato sauce",
-        "245": "chili powder",
-        "697": "salt to taste"
+        "105": "boneless beef chuck roast",
+        "517": "onion",
+        "81": "bay leaves",
+        "406": "ground black pepper",
+        "379": "garlic powder",
+        "289": "distilled white vinegar",
+        "722": "tomato sauce",
+        "180": "chili powder",
+        "622": "salt to taste"
     },
     "status": 0,
     "labels": [

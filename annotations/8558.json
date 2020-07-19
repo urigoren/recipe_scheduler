@@ -16,12 +16,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/241753.jpg",
     "url": "http://allrecipes.com/Recipe/8558/",
     "normalized_ingredients": {
-        "239": "chicken wings",
-        "441": "garlic salt",
-        "561": "onion powder",
-        "142": "can cola-flavored carbonated beverage",
-        "620": "packed light brown sugar",
-        "754": "soy sauce"
+        "174": "chicken wings",
+        "382": "garlic salt",
+        "520": "onion powder",
+        "202": "cola-flavored carbonated beverage",
+        "536": "packed light brown sugar",
+        "685": "soy sauce"
     },
     "status": 0,
     "labels": [

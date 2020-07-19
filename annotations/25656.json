@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/543922.jpg",
     "url": "http://allrecipes.com/Recipe/25656/",
     "normalized_ingredients": {
-        "673": "red lentils",
-        "371": "dried minced onion",
-        "227": "chicken bouillon granules",
-        "369": "dried dill weed",
-        "218": "celery seed",
-        "438": "garlic powder",
-        "71": "bay leaf",
-        "798": "uncooked medium egg noodles"
+        "593": "red lentils",
+        "294": "dried minced onion",
+        "161": "chicken bouillon granules",
+        "292": "dried dill weed",
+        "152": "celery seed",
+        "379": "garlic powder",
+        "80": "bay leaf",
+        "740": "uncooked medium egg noodles"
     },
     "status": 0,
     "labels": [

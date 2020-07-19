@@ -15,11 +15,11 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/258893.jpg",
     "url": "http://allrecipes.com/Recipe/8723/",
     "normalized_ingredients": {
-        "238": "chicken thighs",
-        "754": "soy sauce",
-        "510": "ketchup",
-        "311": "corn syrup",
-        "636": "pinch garlic powder"
+        "173": "chicken thighs",
+        "685": "soy sauce",
+        "459": "ketchup",
+        "226": "corn syrup",
+        "550": "pinch garlic powder"
     },
     "status": 0,
     "labels": [

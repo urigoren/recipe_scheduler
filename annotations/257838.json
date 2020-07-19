@@ -20,14 +20,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4505599.jpg",
     "url": "http://allrecipes.com/Recipe/257838/",
     "normalized_ingredients": {
-        "558": "onion",
-        "445": "grams minced beef",
-        "261": "chopped fresh parsley",
-        "264": "chopped fresh thyme leaves",
-        "393": "egg",
-        "115": "bread crumbs",
-        "628": "pepper & salt to taste",
-        "554": "of your favourite tomato sauce"
+        "517": "onion",
+        "386": "grams minced beef",
+        "351": "fresh parsley",
+        "354": "fresh thyme leaves",
+        "317": "egg",
+        "123": "bread crumbs",
+        "544": "pepper & salt to taste",
+        "513": "of your favourite tomato sauce"
     },
     "status": 0,
     "labels": [

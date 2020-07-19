@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2433727.jpg",
     "url": "http://allrecipes.com/Recipe/11847/",
     "normalized_ingredients": {
-        "514": "lean ground beef",
-        "537": "macaroni",
-        "667": "quart stewed tomatoes",
-        "622": "paprika",
-        "245": "chili powder",
-        "273": "chopped onion",
-        "290": "clove garlic",
-        "783": "tomato paste "
+        "464": "lean ground beef",
+        "492": "macaroni",
+        "584": "quart stewed tomatoes",
+        "538": "paprika",
+        "180": "chili powder",
+        "517": "onion",
+        "194": "clove garlic",
+        "721": "tomato paste "
     },
     "status": 0,
     "labels": [

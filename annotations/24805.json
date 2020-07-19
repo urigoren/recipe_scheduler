@@ -18,13 +18,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/213270.jpg",
     "url": "http://allrecipes.com/Recipe/24805/",
     "normalized_ingredients": {
-        "804": "vegetable oil",
-        "273": "chopped onion",
-        "341": "cubed leg of lamb meat",
-        "657": "potatoes",
-        "263": "chopped fresh thyme",
-        "123": "butter",
-        "234": "chicken or lamb stock"
+        "747": "vegetable oil",
+        "517": "onion",
+        "262": "cubed leg of lamb meat",
+        "574": "potatoes",
+        "353": "fresh thyme",
+        "132": "butter",
+        "169": "chicken or lamb stock"
     },
     "status": 0,
     "labels": [

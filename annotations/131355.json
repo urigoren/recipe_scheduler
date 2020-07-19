@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/131355/",
     "normalized_ingredients": {
-        "479": "half-and-half",
-        "809": "water",
-        "692": "salt",
-        "48": "Yukon Gold potatoes",
-        "123": "butter",
-        "359": "diced onion",
-        "433": "garlic cloves",
-        "58": "assorted mushrooms ",
-        "405": "fat-free"
+        "426": "half-and-half",
+        "753": "water",
+        "617": "salt",
+        "54": "Yukon Gold potatoes",
+        "132": "butter",
+        "282": "diced onion",
+        "374": "garlic cloves",
+        "65": "assorted mushrooms ",
+        "332": "fat-free"
     },
     "status": 0,
     "labels": [

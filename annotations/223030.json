@@ -17,12 +17,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2493703.jpg",
     "url": "http://allrecipes.com/Recipe/223030/",
     "normalized_ingredients": {
-        "725": "skinless",
-        "754": "soy sauce",
-        "546": "minced garlic",
-        "674": "red pepper flakes",
-        "490": "honey",
-        "420": "fresh lime juice"
+        "651": "skinless",
+        "685": "soy sauce",
+        "502": "minced garlic",
+        "595": "red pepper flakes",
+        "438": "honey",
+        "474": "lime juice"
     },
     "status": 0,
     "labels": [

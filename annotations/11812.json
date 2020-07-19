@@ -18,13 +18,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/195258.jpg",
     "url": "http://allrecipes.com/Recipe/11812/",
     "normalized_ingredients": {
-        "615": "package wide egg noodles",
-        "149": "can corned beef",
-        "665": "processed cheese food ",
-        "144": "can condensed cream of chicken soup",
-        "541": "milk",
-        "273": "chopped onion",
-        "700": "seasoned dry bread crumbs"
+        "770": "wide egg noodles",
+        "230": "corned beef",
+        "582": "processed cheese food ",
+        "205": "condensed cream of chicken soup",
+        "498": "milk",
+        "517": "onion",
+        "627": "seasoned dry bread crumbs"
     },
     "status": 0,
     "labels": [

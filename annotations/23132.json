@@ -19,14 +19,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2428249.jpg",
     "url": "http://allrecipes.com/Recipe/23132/",
     "normalized_ingredients": {
-        "614": "package uncooked spaghetti",
-        "59": "avocado - pitted, peeled",
-        "522": "lime juice",
-        "184": "can vegetarian chili",
-        "735": "sliced green onion",
-        "785": "tomatoes",
-        "546": "minced garlic",
-        "256": "chopped fresh cilantro"
+        "742": "uncooked spaghetti",
+        "67": "avocado - pitted, peeled",
+        "474": "lime juice",
+        "749": "vegetarian chili",
+        "662": "sliced green onion",
+        "724": "tomatoes",
+        "502": "minced garlic",
+        "346": "fresh cilantro"
     },
     "status": 0,
     "labels": [

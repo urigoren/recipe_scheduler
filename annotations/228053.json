@@ -17,14 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4475537.jpg",
     "url": "http://allrecipes.com/Recipe/228053/",
     "normalized_ingredients": {
-        "229": "chicken broth",
-        "544": "minced fresh ginger root",
-        "546": "minced garlic",
-        "754": "soy sauce",
-        "774": "thin catfish fillets",
-        "811": "white mushrooms",
-        "735": "sliced green onion",
-        "257": "chopped fresh cilantro "
+        "163": "chicken broth",
+        "500": "minced fresh ginger root",
+        "502": "minced garlic",
+        "685": "soy sauce",
+        "713": "thin catfish fillets",
+        "756": "white mushrooms",
+        "662": "sliced green onion",
+        "347": "fresh cilantro "
     },
     "status": 0,
     "labels": [

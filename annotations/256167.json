@@ -16,14 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/256167/",
     "normalized_ingredients": {
-        "754": "soy sauce",
-        "623": "peanut butter",
-        "490": "honey",
-        "382": "drops Chinese hot sauce",
-        "815": "white vinegar",
-        "704": "sesame oil",
-        "438": "garlic powder",
-        "460": "ground black pepper"
+        "685": "soy sauce",
+        "539": "peanut butter",
+        "438": "honey",
+        "304": "drops Chinese hot sauce",
+        "760": "white vinegar",
+        "631": "sesame oil",
+        "379": "garlic powder",
+        "406": "ground black pepper"
     },
     "status": 0,
     "labels": [

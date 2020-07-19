@@ -15,12 +15,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4039548.jpg",
     "url": "http://allrecipes.com/Recipe/228257/",
     "normalized_ingredients": {
-        "467": "ground lamb",
-        "754": "soy sauce",
-        "273": "chopped onion",
-        "695": "salt and ground black pepper to taste",
-        "60": "avocado oil",
-        "326": "crumbled feta cheese "
+        "413": "ground lamb",
+        "685": "soy sauce",
+        "517": "onion",
+        "620": "salt and ground black pepper to taste",
+        "68": "avocado oil",
+        "246": "crumbled feta cheese "
     },
     "status": 0,
     "labels": [

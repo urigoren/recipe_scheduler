@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/975709.jpg",
     "url": "http://allrecipes.com/Recipe/122234/",
     "normalized_ingredients": {
-        "96": "boneless",
-        "125": "butter or margarine, softened",
-        "432": "garlic clove",
-        "369": "dried dill weed",
-        "739": "slices French bread",
-        "320": "cream cheese",
-        "517": "lemon juice",
-        "519": "lettuce leaves",
-        "749": "slices tomato"
+        "104": "boneless",
+        "136": "butter or margarine, softened",
+        "373": "garlic clove",
+        "292": "dried dill weed",
+        "668": "slices French bread",
+        "237": "cream cheese",
+        "468": "lemon juice",
+        "470": "lettuce leaves",
+        "678": "slices tomato"
     },
     "status": 0,
     "labels": [

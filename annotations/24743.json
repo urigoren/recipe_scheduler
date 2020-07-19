@@ -18,13 +18,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/638858.jpg",
     "url": "http://allrecipes.com/Recipe/24743/",
     "normalized_ingredients": {
-        "123": "butter",
-        "775": "thin egg noodles",
-        "795": "uncooked instant rice",
-        "617": "packages dry onion soup mix",
-        "803": "vegetable broth",
-        "185": "can water chestnuts",
-        "755": "soy sauce to taste"
+        "132": "butter",
+        "714": "thin egg noodles",
+        "737": "uncooked instant rice",
+        "311": "dry onion soup mix",
+        "746": "vegetable broth",
+        "755": "water chestnuts",
+        "686": "soy sauce to taste"
     },
     "status": 0,
     "labels": [
