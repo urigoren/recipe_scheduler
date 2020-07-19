@@ -1,0 +1,36 @@
+{
+    "ingredients": [
+        "1/2 cup soy sauce",
+        "1/4 cup lime or lemon juice",
+        "1/4 cup peanut butter",
+        "2 tablespoons brown sugar",
+        "2 garlic cloves, minced",
+        "1 teaspoon crushed red pepper flakes",
+        "1/4 teaspoon ground ginger",
+        "1 pound pork tenderloin, cut into 1 inch cubes",
+        "2 medium green peppers, cut into 1-inch pieces"
+    ],
+    "instructions": [
+        "In a large bowl, combine the first seven ingredients; mix well. Set aside 1/2 cup for basting; cover and refrigerate. Pour remaining marinade into a large resealable plastic bag or shallow glass container; add pork and turn to coat. Seal or cover and refrigerate for 2-3 hours, turning occasionally.",
+        "Drain and discard the marinade. On metal or soaked bamboo skewers, alternate pork and green peppers. Grill, uncovered, over medium heat for 6 minutes, turning once. Baste with reserved marinade. Grill 8-10 minutes longer or until meat juices run clear, turning and basting frequently."
+    ],
+    "title": "Peanutty Pork Kabobs",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/985449.jpg",
+    "url": "http://allrecipes.com/Recipe/42402/",
+    "normalized_ingredients": {
+        "754": "soy sauce",
+        "523": "lime or lemon juice",
+        "623": "peanut butter",
+        "118": "brown sugar",
+        "433": "garlic cloves",
+        "334": "crushed red pepper flakes",
+        "466": "ground ginger",
+        "653": "pork tenderloin",
+        "453": "green peppers"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        []
+    ]
+}

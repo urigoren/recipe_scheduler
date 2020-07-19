@@ -17,15 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1078173.jpg",
     "url": "http://allrecipes.com/Recipe/235796/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "123": "butter",
+        "813": "white rice",
+        "117": "broken pieces vermicelli pasta",
+        "809": "water",
+        "227": "chicken bouillon granules",
+        "375": "dried parsley",
+        "438": "garlic powder",
+        "561": "onion powder"
     },
     "status": 0,
     "labels": [

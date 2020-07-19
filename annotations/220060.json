@@ -23,15 +23,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989999.jpg",
     "url": "http://allrecipes.com/Recipe/220060/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "309": "corn flake cereal",
+        "6": "California walnut pieces",
+        "438": "garlic powder",
+        "692": "salt",
+        "471": "ground pepper",
+        "393": "egg",
+        "96": "boneless"
     },
     "status": 0,
     "labels": [

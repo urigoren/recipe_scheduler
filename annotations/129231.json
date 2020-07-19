@@ -18,15 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/645010.jpg",
     "url": "http://allrecipes.com/Recipe/129231/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "514": "lean ground beef",
+        "185": "can water chestnuts",
+        "754": "soy sauce",
+        "118": "brown sugar",
+        "561": "onion powder",
+        "438": "garlic powder",
+        "56": "apricot preserves or jam",
+        "52": "apple cider vinegar"
     },
     "status": 0,
     "labels": [

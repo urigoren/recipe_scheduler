@@ -20,15 +20,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1077723.jpg",
     "url": "http://allrecipes.com/Recipe/232335/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "812": "white onion",
+        "490": "honey",
+        "118": "brown sugar",
+        "754": "soy sauce",
+        "123": "butter",
+        "550": "mustard powder",
+        "429": "garlic",
+        "239": "chicken wings"
     },
     "status": 0,
     "labels": [

@@ -17,15 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1128611.jpg",
     "url": "http://allrecipes.com/Recipe/236921/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "456": "ground beef",
+        "273": "chopped onion",
+        "245": "chili powder",
+        "499": "hot water",
+        "820": "whole kernel corn",
+        "155": "can diced tomatoes",
+        "602": "package macaroni and cheese mix"
     },
     "status": 0,
     "labels": [

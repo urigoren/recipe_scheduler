@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/8443.jpg",
     "url": "http://allrecipes.com/Recipe/61727/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "804": "vegetable oil",
+        "703": "self-rising flour",
+        "33": "New Mexico or California chili powder",
+        "181": "can tomato sauce",
+        "809": "water",
+        "464": "ground cumin",
+        "438": "garlic powder",
+        "564": "onion salt",
+        "697": "salt to taste"
     },
     "status": 0,
     "labels": [

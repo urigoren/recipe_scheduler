@@ -17,15 +17,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/840338.jpg",
     "url": "http://allrecipes.com/Recipe/222778/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "123": "butter",
+        "416": "finely diced onion",
+        "457": "ground beef chuck",
+        "467": "ground lamb",
+        "47": "Worcestershire sauce",
+        "695": "salt and ground black pepper to taste"
     },
     "status": 0,
     "labels": [

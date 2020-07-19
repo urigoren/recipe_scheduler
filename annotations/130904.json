@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/130904/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "406": "fat-free chicken broth",
+        "552": "natural peanut butter",
+        "779": "toasted sesame oil",
+        "682": "reduced-sodium soy sauce",
+        "522": "lime juice",
+        "247": "chili puree with garlic",
+        "493": "honey or sugar",
+        "38": "Salt",
+        "14": "Freshly ground black pepper"
     },
     "status": 0,
     "labels": [

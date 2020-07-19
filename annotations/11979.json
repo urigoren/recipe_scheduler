@@ -19,15 +19,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2076512.jpg",
     "url": "http://allrecipes.com/Recipe/11979/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "587": "package egg noodles",
+        "514": "lean ground beef",
+        "644": "pinch seasoning salt",
+        "634": "pinch freshly ground black pepper",
+        "636": "pinch garlic powder",
+        "128": "can Mexican-style corn",
+        "157": "can diced tomatoes with green chile peppers",
+        "665": "processed cheese food "
     },
     "status": 0,
     "labels": [

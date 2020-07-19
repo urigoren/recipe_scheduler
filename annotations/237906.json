@@ -1,0 +1,30 @@
+{
+    "ingredients": [
+        "1 cup tomato sauce",
+        "2 tablespoons brown sugar, or more to taste",
+        "2 tablespoons distilled white vinegar",
+        "1/2 teaspoon chili powder",
+        "1/4 teaspoon ground allspice",
+        "1/4 teaspoon garlic powder",
+        "1/4 teaspoon onion powder"
+    ],
+    "instructions": [
+        "Whisk tomato sauce, brown sugar, vinegar, chili powder, allspice, garlic powder, and onion powder together in a bowl."
+    ],
+    "title": "Homemade Chili Sauce",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3344928.jpg",
+    "url": "http://allrecipes.com/Recipe/237906/",
+    "normalized_ingredients": {
+        "784": "tomato sauce",
+        "118": "brown sugar",
+        "364": "distilled white vinegar",
+        "245": "chili powder",
+        "455": "ground allspice",
+        "438": "garlic powder",
+        "561": "onion powder"
+    },
+    "status": 0,
+    "labels": [
+        []
+    ]
+}

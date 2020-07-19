@@ -19,15 +19,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2351852.jpg",
     "url": "http://allrecipes.com/Recipe/237055/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "514": "lean ground beef",
+        "368": "dried cranberries",
+        "433": "garlic cloves",
+        "695": "salt and ground black pepper to taste",
+        "623": "peanut butter",
+        "560": "onion Kaiser rolls",
+        "764": "strawberry jam",
+        "327": "crumbled goat cheese"
     },
     "status": 0,
     "labels": [

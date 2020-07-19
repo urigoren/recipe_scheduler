@@ -14,15 +14,12 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/121660/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "514": "lean ground beef",
+        "696": "salt and pepper to taste",
+        "359": "diced onion",
+        "657": "potatoes",
+        "151": "can cream-style corn",
+        "124": "butter or margarine"
     },
     "status": 0,
     "labels": [

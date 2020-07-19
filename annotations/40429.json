@@ -18,15 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/70225.jpg",
     "url": "http://allrecipes.com/Recipe/40429/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "514": "lean ground beef",
+        "515": "lean ground pork",
+        "780": "tomato - peeled",
+        "398": "eggs",
+        "558": "onion",
+        "266": "chopped garlic",
+        "692": "salt",
+        "89": "black pepper"
     },
     "status": 0,
     "labels": [

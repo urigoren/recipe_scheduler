@@ -15,15 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/116687/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "456": "ground beef",
+        "194": "cans chicken broth",
+        "796": "uncooked long grain rice",
+        "181": "can tomato sauce",
+        "359": "diced onion",
+        "448": "green bell pepper",
+        "502": "jalapeno pepper"
     },
     "status": 0,
     "labels": [

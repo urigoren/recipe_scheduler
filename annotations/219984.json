@@ -23,15 +23,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1088402.jpg",
     "url": "http://allrecipes.com/Recipe/219984/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "754": "soy sauce",
+        "160": "can frozen orange juice concentrate",
+        "567": "orange marmalade",
+        "490": "honey",
+        "67": "balsamic vinegar",
+        "546": "minced garlic",
+        "653": "pork tenderloin",
+        "316": "cornstarch ",
+        "810": "water "
     },
     "status": 0,
     "labels": [

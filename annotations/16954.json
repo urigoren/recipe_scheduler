@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/855246.jpg",
     "url": "http://allrecipes.com/Recipe/16954/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "393": "egg",
+        "809": "water",
+        "123": "butter",
+        "804": "vegetable oil",
+        "558": "onion",
+        "304": "cooked white rice",
+        "754": "soy sauce",
+        "460": "ground black pepper",
+        "299": "cooked"
     },
     "status": 0,
     "labels": [

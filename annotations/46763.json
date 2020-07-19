@@ -18,15 +18,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3532461.jpg",
     "url": "http://allrecipes.com/Recipe/46763/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "456": "ground beef",
+        "191": "cans baked beans with pork",
+        "136": "can canned chopped green chile peppers",
+        "46": "Vidalia onion",
+        "69": "barbeque sauce",
+        "118": "brown sugar",
+        "438": "garlic powder",
+        "245": "chili powder",
+        "497": "hot pepper sauce "
     },
     "status": 0,
     "labels": [

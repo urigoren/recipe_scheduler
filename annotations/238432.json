@@ -18,15 +18,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1320144.jpg",
     "url": "http://allrecipes.com/Recipe/238432/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "525": "limes",
+        "490": "honey",
+        "754": "soy sauce",
+        "555": "olive oil",
+        "546": "minced garlic",
+        "464": "ground cumin",
+        "238": "chicken thighs"
     },
     "status": 0,
     "labels": [

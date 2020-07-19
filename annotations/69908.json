@@ -17,15 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1116740.jpg",
     "url": "http://allrecipes.com/Recipe/69908/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "551": "nacho-flavor tortilla chips",
+        "456": "ground beef",
+        "274": "chopped onion ",
+        "696": "salt and pepper to taste",
+        "139": "can chili beans",
+        "181": "can tomato sauce",
+        "715": "shredded Mexican cheese blend"
     },
     "status": 0,
     "labels": [

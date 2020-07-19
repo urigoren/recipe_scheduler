@@ -20,15 +20,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4505599.jpg",
     "url": "http://allrecipes.com/Recipe/257838/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "558": "onion",
+        "445": "grams minced beef",
+        "261": "chopped fresh parsley",
+        "264": "chopped fresh thyme leaves",
+        "393": "egg",
+        "115": "bread crumbs",
+        "628": "pepper & salt to taste",
+        "554": "of your favourite tomato sauce"
     },
     "status": 0,
     "labels": [

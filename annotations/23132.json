@@ -1,0 +1,38 @@
+{
+    "ingredients": [
+        "1 (8 ounce) package uncooked spaghetti",
+        "1 avocado - pitted, peeled, and cubed",
+        "1 tablespoon lime juice",
+        "1 (15 ounce) can vegetarian chili",
+        "1/3 cup sliced green onion",
+        "2 large tomatoes, diced",
+        "1 teaspoon minced garlic",
+        "1/3 cup chopped fresh cilantro"
+    ],
+    "instructions": [
+        "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain.",
+        "In a small bowl combine avocado and lime juice.",
+        "In a separate bowl combine chili, green onion, tomatoes, garlic and cilantro.",
+        "Serve pasta topped with chili mixture and avocado."
+    ],
+    "title": "Avocado Side Dish",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2428249.jpg",
+    "url": "http://allrecipes.com/Recipe/23132/",
+    "normalized_ingredients": {
+        "614": "package uncooked spaghetti",
+        "59": "avocado - pitted, peeled",
+        "522": "lime juice",
+        "184": "can vegetarian chili",
+        "735": "sliced green onion",
+        "785": "tomatoes",
+        "546": "minced garlic",
+        "256": "chopped fresh cilantro"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ]
+}

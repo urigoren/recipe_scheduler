@@ -21,15 +21,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1963713.jpg",
     "url": "http://allrecipes.com/Recipe/234760/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "213": "carrots",
+        "219": "celery stalk",
+        "558": "onion",
+        "292": "cloves garlic",
+        "24": "Italian seasoning",
+        "460": "ground black pepper",
+        "237": "chicken tenderloins",
+        "398": "eggs",
+        "167": "can no-salt-added tomato sauce"
     },
     "status": 0,
     "labels": [

@@ -16,15 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4213912.jpg",
     "url": "http://allrecipes.com/Recipe/123550/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "591": "package frozen chopped spinach",
+        "124": "butter or margarine",
+        "302": "cooked egg noodles",
+        "356": "diced",
+        "790": "turkey or chicken gravy",
+        "607": "package sour cream and onion dip",
+        "564": "onion salt",
+        "446": "grated Parmesan cheese"
     },
     "status": 0,
     "labels": [

@@ -17,15 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/543922.jpg",
     "url": "http://allrecipes.com/Recipe/25656/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "673": "red lentils",
+        "371": "dried minced onion",
+        "227": "chicken bouillon granules",
+        "369": "dried dill weed",
+        "218": "celery seed",
+        "438": "garlic powder",
+        "71": "bay leaf",
+        "798": "uncooked medium egg noodles"
     },
     "status": 0,
     "labels": [

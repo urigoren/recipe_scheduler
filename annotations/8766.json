@@ -17,15 +17,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/557767.jpg",
     "url": "http://allrecipes.com/Recipe/8766/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "725": "skinless",
+        "320": "cream cheese",
+        "408": "feta cheese",
+        "438": "garlic powder",
+        "369": "dried dill weed",
+        "540": "melted butter",
+        "696": "salt and pepper to taste"
     },
     "status": 0,
     "labels": [

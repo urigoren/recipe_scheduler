@@ -16,15 +16,14 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/123776/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "648": "pork chops",
+        "124": "butter or margarine",
+        "809": "water",
+        "580": "package corn bread/muffin mix",
+        "393": "egg",
+        "541": "milk",
+        "245": "chili powder",
+        "306": "cooking oil"
     },
     "status": 0,
     "labels": [

@@ -17,15 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4441013.jpg",
     "url": "http://allrecipes.com/Recipe/232844/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "123": "butter",
+        "570": "orzo pasta",
+        "359": "diced onion",
+        "292": "cloves garlic",
+        "813": "white rice",
+        "229": "chicken broth",
+        "280": "chopped spinach",
+        "252": "chopped Bulgarian feta cheese"
     },
     "status": 0,
     "labels": [

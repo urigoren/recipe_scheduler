@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        "1 1/2 pounds extra lean ground beef",
+        "1 (10.75 ounce) can condensed tomato soup, divided",
+        "1 (6 ounce) package STOVE TOP Stuffing Mix for Chicken",
+        "1 egg, lightly beaten",
+        "1 onion, chopped",
+        "1 teaspoon dried thyme leaves",
+        "1/4 cup chili sauce"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F. Mix meat, 1/2 cup of the soup, stuffing mix, egg, onion and thyme. Press evenly into 8x4-inch loaf pan sprayed with cooking spray.",
+        "Bake 55 min.",
+        "Heat remaining soup with chili sauce in small saucepan. Spoon over meatloaf just before serving."
+    ],
+    "title": "Family Classic Meatloaf",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/130011/",
+    "normalized_ingredients": {
+        "402": "extra lean ground beef",
+        "146": "can condensed tomato soup",
+        "574": "package STOVE TOP Stuffing Mix for Chicken",
+        "393": "egg",
+        "558": "onion",
+        "380": "dried thyme leaves",
+        "248": "chili sauce"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

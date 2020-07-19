@@ -21,15 +21,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2405.jpg",
     "url": "http://allrecipes.com/Recipe/21369/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "123": "butter",
+        "594": "package frozen hash browns",
+        "714": "shredded Colby cheese",
+        "547": "minced onion",
+        "541": "milk",
+        "77": "beef broth",
+        "460": "ground black pepper",
+        "692": "salt",
+        "348": "dash garlic powder"
     },
     "status": 0,
     "labels": [

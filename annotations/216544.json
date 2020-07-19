@@ -17,15 +17,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4481066.jpg",
     "url": "http://allrecipes.com/Recipe/216544/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "704": "sesame oil",
+        "546": "minced garlic",
+        "641": "pinch salt",
+        "645": "pine nuts",
+        "305": "cooked, boneless chicken breast halves",
+        "623": "peanut butter",
+        "351": "dash soy sauce",
+        "629": "pickled jalapeno pepper slices",
+        "809": "water"
     },
     "status": 0,
     "labels": [

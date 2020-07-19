@@ -15,15 +15,11 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/851810.jpg",
     "url": "http://allrecipes.com/Recipe/223296/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "490": "honey",
+        "663": "prepared yellow mustard",
+        "123": "butter",
+        "222": "center-cut boneless pork chops - 1/2-inch thick",
+        "438": "garlic powder"
     },
     "status": 0,
     "labels": [

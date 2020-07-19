@@ -20,15 +20,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4515224.jpg",
     "url": "http://allrecipes.com/Recipe/258102/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "195": "cans chili with beef and beans",
+        "181": "can tomato sauce",
+        "804": "vegetable oil",
+        "314": "corn tortillas",
+        "495": "hot dogs",
+        "712": "shredded Cheddar cheese",
+        "274": "chopped onion ",
+        "732": "sliced black olives "
     },
     "status": 0,
     "labels": [

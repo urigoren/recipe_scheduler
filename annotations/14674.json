@@ -17,15 +17,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/4826.jpg",
     "url": "http://allrecipes.com/Recipe/14674/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "762": "steaks",
+        "169": "can or bottle stout beer",
+        "289": "clove crushed garlic",
+        "754": "soy sauce",
+        "143": "can condensed beef broth",
+        "378": "dried sage",
+        "561": "onion powder",
+        "423": "freshly ground black pepper"
     },
     "status": 0,
     "labels": [

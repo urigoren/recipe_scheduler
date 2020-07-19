@@ -15,15 +15,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/25138.jpg",
     "url": "http://allrecipes.com/Recipe/123453/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "754": "soy sauce",
+        "490": "honey",
+        "517": "lemon juice",
+        "556": "olive oil or vegetable oil",
+        "433": "garlic cloves",
+        "466": "ground ginger",
+        "104": "boneless pork chops"
     },
     "status": 0,
     "labels": [

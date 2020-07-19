@@ -19,15 +19,14 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/135922/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "44": "Sutton & Dodge\u2122 boneless beef chuck roast",
+        "4": "Archer Farms\u2122 taco seasoning",
+        "3": "Archer Farms\u2122 roasted poblano pepper cooking sauce",
+        "31": "Market Pantry\u2122 corn tortillas",
+        "45": "Toppings",
+        "283": "chopped tomato",
+        "254": "chopped cilantro",
+        "273": "chopped onion"
     },
     "status": 0,
     "labels": [

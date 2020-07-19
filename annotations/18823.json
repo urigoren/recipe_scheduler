@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/18823/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "514": "lean ground beef",
+        "558": "onion",
+        "180": "can tomato paste",
+        "127": "can Italian-style stewed tomatoes",
+        "692": "salt",
+        "460": "ground black pepper",
+        "612": "package thin egg noodles",
+        "598": "package frozen whole kernel corn",
+        "723": "shredded sharp Cheddar cheese"
     },
     "status": 0,
     "labels": [

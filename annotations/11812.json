@@ -18,15 +18,13 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/195258.jpg",
     "url": "http://allrecipes.com/Recipe/11812/",
     "normalized_ingredients": {
-        "517": "onion",
-        "734": "tomato sauce",
-        "716": "sugar",
-        "754": "vinegar",
-        "233": "chili powder",
-        "705": "soy sauce",
-        "648": "salt",
-        "584": "pepper",
-        "88": "boneless beef chuck roast"
+        "615": "package wide egg noodles",
+        "149": "can corned beef",
+        "665": "processed cheese food ",
+        "144": "can condensed cream of chicken soup",
+        "541": "milk",
+        "273": "chopped onion",
+        "700": "seasoned dry bread crumbs"
     },
     "status": 0,
     "labels": [
