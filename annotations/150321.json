@@ -11,28 +11,39 @@
         "1/4 cup fresh raspberries"
     ],
     "instructions": [
-        "Whisk together raspberry preserves, pineapple juice concentrate, soy sauce, and rice vinegar. Stir in chili powder, curry powder, and garlic powder; pour over chicken breasts in a resealable plastic bag. Marinate chicken in refrigerator at least 4 hours to overnight.",
-        "Preheat oven to 350 degrees F (175 degrees C). Place chicken into a baking dish, and pour remaining marinade overtop. Cover the dish with a lid or aluminum foil.",
-        "Bake in preheated oven until the chicken juices run clear, 30 to 40 minutes. Transfer to a serving platter and garnish with fresh raspberries."
+        "Whisk together raspberry preserves, pineapple juice concentrate, soy sauce, and rice vinegar.",
+        "Stir in chili powder, curry powder, and garlic powder; pour over chicken breasts in a resealable plastic bag.",
+        "Marinate chicken in refrigerator at least 4 hours to overnight.",
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Place chicken into a baking dish, and pour remaining marinade overtop.",
+        "Cover the dish with a lid or aluminum foil.",
+        "Bake in preheated oven until the chicken juices run clear, 30 to 40 minutes.",
+        "Transfer to a serving platter and garnish with fresh raspberries."
     ],
     "title": "Easy Raspberry Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2006875.jpg",
     "url": "http://allrecipes.com/Recipe/150321/",
     "normalized_ingredients": {
-        "587": "raspberry preserves",
-        "365": "frozen pineapple juice concentrate",
-        "685": "soy sauce",
-        "608": "rice vinegar",
-        "180": "chili powder",
-        "265": "curry powder",
-        "379": "garlic powder",
-        "651": "skinless",
-        "586": "raspberries"
+        "554": "raspberry preserves",
+        "346": "frozen pineapple juice concentrate",
+        "644": "soy sauce",
+        "575": "rice vinegar",
+        "169": "chili powder",
+        "249": "curry powder",
+        "360": "garlic powder",
+        "618": "skinless",
+        "553": "raspberries"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Whisk together raspberry preserves, pineapple juice concentrate, soy sauce, and rice vinegar. Stir in chili powder, curry powder, and garlic powder; pour over chicken breasts in a resealable plastic bag. Marinate chicken in refrigerator at least 4 hours to overnight.",
+        "Preheat oven to 350 degrees F (175 degrees C). Place chicken into a baking dish, and pour remaining marinade overtop. Cover the dish with a lid or aluminum foil.",
+        "Bake in preheated oven until the chicken juices run clear, 30 to 40 minutes. Transfer to a serving platter and garnish with fresh raspberries."
     ]
 }

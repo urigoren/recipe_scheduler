@@ -11,24 +11,29 @@
         "salt and freshly ground black pepper to taste"
     ],
     "instructions": [
-        "In a saucepan over medium heat, mix the tomato sauce, honey, soy sauce, vinegar, corn syrup, Worcestershire sauce, hoisin sauce, cayenne pepper, salt, and pepper. Cook 30 minutes, until thickened. Cool, and use immediately."
+        "In a saucepan over medium heat, mix the tomato sauce, honey, soy sauce, vinegar, corn syrup, Worcestershire sauce, hoisin sauce, cayenne pepper, salt, and pepper.",
+        "Cook 30 minutes, until thickened.",
+        "Cool, and use immediately."
     ],
     "title": "Ryan's Gourmet BBQ Sauce",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4519430.jpg",
     "url": "http://allrecipes.com/Recipe/76492/",
     "normalized_ingredients": {
-        "722": "tomato sauce",
-        "438": "honey",
-        "685": "soy sauce",
-        "289": "distilled white vinegar",
-        "471": "light corn syrup",
-        "53": "Worcestershire sauce",
-        "435": "hoisin sauce",
-        "148": "cayenne pepper",
-        "619": "salt and freshly ground black pepper to taste"
+        "684": "tomato sauce",
+        "418": "honey",
+        "644": "soy sauce",
+        "273": "distilled white vinegar",
+        "449": "light corn syrup",
+        "47": "Worcestershire sauce",
+        "416": "hoisin sauce",
+        "139": "cayenne pepper",
+        "585": "salt and freshly ground black pepper to taste"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a saucepan over medium heat, mix the tomato sauce, honey, soy sauce, vinegar, corn syrup, Worcestershire sauce, hoisin sauce, cayenne pepper, salt, and pepper. Cook 30 minutes, until thickened. Cool, and use immediately."
     ]
 }

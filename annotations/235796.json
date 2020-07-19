@@ -10,25 +10,31 @@
         "1/4 teaspoon onion powder"
     ],
     "instructions": [
-        "Melt butter in a large saucepan over medium heat. Cook rice and vermicelli in hot butter until browned, about 3 minutes.",
-        "Pour water over the rice mixture. Stir chicken bouillon, parsley, garlic powder, and onion powder into the water; bring to a boil, place a cover on the saucepan, reduce heat to low, and cook until the water has absorbed into the rice and pasta, about 25 minutes."
+        "Melt butter in a large saucepan over medium heat.",
+        "Cook rice and vermicelli in hot butter until browned, about 3 minutes.",
+        "Pour water over the rice mixture.",
+        "Stir chicken bouillon, parsley, garlic powder, and onion powder into the water; bring to a boil, place a cover on the saucepan, reduce heat to low, and cook until the water has absorbed into the rice and pasta, about 25 minutes."
     ],
     "title": "A Homemade San Francisco Treat: Chicken Vermicelli Rice",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1078173.jpg",
     "url": "http://allrecipes.com/Recipe/235796/",
     "normalized_ingredients": {
-        "132": "butter",
-        "758": "white rice",
-        "127": "broken pieces vermicelli pasta",
-        "753": "water",
-        "161": "chicken bouillon granules",
-        "298": "dried parsley",
-        "379": "garlic powder",
-        "520": "onion powder"
+        "124": "butter",
+        "718": "white rice",
+        "119": "broken pieces vermicelli pasta",
+        "714": "water",
+        "150": "chicken bouillon granules",
+        "283": "dried parsley",
+        "360": "garlic powder",
+        "492": "onion powder"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Melt butter in a large saucepan over medium heat. Cook rice and vermicelli in hot butter until browned, about 3 minutes.",
+        "Pour water over the rice mixture. Stir chicken bouillon, parsley, garlic powder, and onion powder into the water; bring to a boil, place a cover on the saucepan, reduce heat to low, and cook until the water has absorbed into the rice and pasta, about 25 minutes."
     ]
 }

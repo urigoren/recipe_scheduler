@@ -10,27 +10,35 @@
         "4 fresh strawberries for garnish"
     ],
     "instructions": [
-        "In a small saucepan, combine the strawberry preserves, minced garlic, soy sauce and horseradish. Cook over low heat, stirring frequently until heated through.",
-        "Melt butter in a medium skillet. Lightly sprinkle both sides of each pork chop with cayenne pepper. Fry the chops until browned on each side, then continue to cook over medium heat until no longer pink, and the juices run clear.",
+        "In a small saucepan, combine the strawberry preserves, minced garlic, soy sauce and horseradish.",
+        "Cook over low heat, stirring frequently until heated through.",
+        "Melt butter in a medium skillet.",
+        "Lightly sprinkle both sides of each pork chop with cayenne pepper.",
+        "Fry the chops until browned on each side, then continue to cook over medium heat until no longer pink, and the juices run clear.",
         "Serve chops with sauce poured over, and garnish with fresh strawberries."
     ],
     "title": "Leslie's Strawberry Breakfast Chops",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/856299.jpg",
     "url": "http://allrecipes.com/Recipe/35564/",
     "normalized_ingredients": {
-        "700": "strawberry preserves",
-        "502": "minced garlic",
-        "685": "soy sauce",
-        "578": "prepared horseradish",
-        "565": "pork chops",
-        "132": "butter",
-        "547": "pinch cayenne pepper",
-        "698": "strawberries for garnish"
+        "661": "strawberry preserves",
+        "351": "garlic",
+        "644": "soy sauce",
+        "545": "prepared horseradish",
+        "534": "pork chops",
+        "124": "butter",
+        "517": "pinch cayenne pepper",
+        "659": "strawberries for garnish"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "In a small saucepan, combine the strawberry preserves, minced garlic, soy sauce and horseradish. Cook over low heat, stirring frequently until heated through.",
+        "Melt butter in a medium skillet. Lightly sprinkle both sides of each pork chop with cayenne pepper. Fry the chops until browned on each side, then continue to cook over medium heat until no longer pink, and the juices run clear.",
+        "Serve chops with sauce poured over, and garnish with fresh strawberries."
     ]
 }

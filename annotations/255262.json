@@ -11,26 +11,33 @@
         "10 skinless chicken drumsticks"
     ],
     "instructions": [
-        "Combine olive oil, lime juice, garlic powder, onion powder, chili powder, oregano, parsley, and pepper in a gallon-size resealable plastic bag. Add chicken drumsticks; turn to coat evenly. Seal bag, squeezing out all the air.",
+        "Combine olive oil, lime juice, garlic powder, onion powder, chili powder, oregano, parsley, and pepper in a gallon-size resealable plastic bag.",
+        "Add chicken drumsticks; turn to coat evenly.",
+        "Seal bag, squeezing out all the air.",
         "Let chicken marinate in the refrigerator, at least 2 hours and preferably overnight.",
-        "Preheat oven to 425 degrees F (220 degrees C). Line a baking sheet with aluminum foil.",
-        "Let chicken come to room temperature, about 25 minutes. Arrange on the baking sheet.",
-        "Roast in the preheated oven until browned, about 25 minutes. Flip chicken and baste with juices; continue cooking until browned on the second side, 10 to 15 minutes more.",
-        "Cover chicken with aluminum foil. Let stand before serving, about 5 minutes."
+        "Preheat oven to 425 degrees F",
+        "(220 degrees C).",
+        "Line a baking sheet with aluminum foil.",
+        "Let chicken come to room temperature, about 25 minutes.",
+        "Arrange on the baking sheet.",
+        "Roast in the preheated oven until browned, about 25 minutes.",
+        "Flip chicken and baste with juices; continue cooking until browned on the second side, 10 to 15 minutes more.",
+        "Cover chicken with aluminum foil.",
+        "Let stand before serving, about 5 minutes."
     ],
     "title": "Garlic Lime Roasted Chicken Drumsticks",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4476431.jpg",
     "url": "http://allrecipes.com/Recipe/255262/",
     "normalized_ingredients": {
-        "514": "olive oil",
-        "475": "lime, juiced",
-        "379": "garlic powder",
-        "520": "onion powder",
-        "180": "chili powder",
-        "297": "dried oregano",
-        "299": "dried parsley flakes",
-        "406": "ground black pepper",
-        "652": "skinless chicken drumsticks"
+        "486": "olive oil",
+        "453": "lime, juiced",
+        "360": "garlic powder",
+        "492": "onion powder",
+        "169": "chili powder",
+        "282": "dried oregano",
+        "284": "dried parsley flakes",
+        "387": "ground black pepper",
+        "619": "skinless chicken drumsticks"
     },
     "status": 0,
     "labels": [
@@ -40,5 +47,13 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Combine olive oil, lime juice, garlic powder, onion powder, chili powder, oregano, parsley, and pepper in a gallon-size resealable plastic bag. Add chicken drumsticks; turn to coat evenly. Seal bag, squeezing out all the air.",
+        "Let chicken marinate in the refrigerator, at least 2 hours and preferably overnight.",
+        "Preheat oven to 425 degrees F (220 degrees C). Line a baking sheet with aluminum foil.",
+        "Let chicken come to room temperature, about 25 minutes. Arrange on the baking sheet.",
+        "Roast in the preheated oven until browned, about 25 minutes. Flip chicken and baste with juices; continue cooking until browned on the second side, 10 to 15 minutes more.",
+        "Cover chicken with aluminum foil. Let stand before serving, about 5 minutes."
     ]
 }

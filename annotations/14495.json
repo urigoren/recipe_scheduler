@@ -10,27 +10,37 @@
         "2 (3/4 pound) pork tenderloins"
     ],
     "instructions": [
-        "Place soy sauce, brown sugar, sherry, dried onion, cinnamon, olive oil, and a touch of garlic powder in a large resealable plastic bag. Seal, and shake to mix. Place pork in bag with marinade, seal, and refrigerate for 6 to 12 hours.",
+        "Place soy sauce, brown sugar, sherry, dried onion, cinnamon, olive oil, and a touch of garlic powder in a large resealable plastic bag.",
+        "Seal, and shake to mix.",
+        "Place pork in bag with marinade, seal, and refrigerate for 6 to 12 hours.",
         "Preheat grill for high heat.",
-        "Lightly oil grate. Place tenderloins on grill, and discard marinade. Cook 20 minutes, or to desired doneness. Slice into medallions, and serve."
+        "Lightly oil grate.",
+        "Place tenderloins on grill, and discard marinade.",
+        "Cook 20 minutes, or to desired doneness.",
+        "Slice into medallions, and serve."
     ],
     "title": "Marinated Pork Tenderloin",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/672397.jpg",
     "url": "http://allrecipes.com/Recipe/14495/",
     "normalized_ingredients": {
-        "685": "soy sauce",
-        "535": "packed brown sugar",
-        "636": "sherry",
-        "294": "dried minced onion",
-        "409": "ground cinnamon",
-        "514": "olive oil",
-        "550": "pinch garlic powder",
-        "573": "pork tenderloins"
+        "644": "soy sauce",
+        "504": "packed brown sugar",
+        "602": "sherry",
+        "279": "dried minced onion",
+        "390": "ground cinnamon",
+        "486": "olive oil",
+        "520": "pinch garlic powder",
+        "541": "pork tenderloins"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Place soy sauce, brown sugar, sherry, dried onion, cinnamon, olive oil, and a touch of garlic powder in a large resealable plastic bag. Seal, and shake to mix. Place pork in bag with marinade, seal, and refrigerate for 6 to 12 hours.",
+        "Preheat grill for high heat.",
+        "Lightly oil grate. Place tenderloins on grill, and discard marinade. Cook 20 minutes, or to desired doneness. Slice into medallions, and serve."
     ]
 }

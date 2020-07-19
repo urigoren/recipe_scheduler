@@ -8,7 +8,8 @@
         "1/4 cup tomato sauce"
     ],
     "instructions": [
-        "Place chicken breasts into a saucepan and pour in enough water to cover. Place over medium heat, bring to a boil, and simmer until chicken meat is no longer pink, 10 to 12 minutes.",
+        "Place chicken breasts into a saucepan and pour in enough water to cover.",
+        "Place over medium heat, bring to a boil, and simmer until chicken meat is no longer pink, 10 to 12 minutes.",
         "Transfer chicken breasts to a bowl, allow to cool, and shred the chicken meat with 2 forks.",
         "Heat vegetable oil in a small non-stick saucepan over medium heat, and cook and stir onion until translucent, 2 to 3 minutes.",
         "Mix in the shredded chicken, cumin, chili powder, and tomato sauce; bring to a boil.",
@@ -18,12 +19,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/796828.jpg",
     "url": "http://allrecipes.com/Recipe/220326/",
     "normalized_ingredients": {
-        "651": "skinless",
-        "747": "vegetable oil",
-        "503": "minced onion",
-        "553": "pinch ground cumin",
-        "548": "pinch chili powder",
-        "722": "tomato sauce"
+        "618": "skinless",
+        "708": "vegetable oil",
+        "489": "onion",
+        "523": "pinch ground cumin",
+        "518": "pinch chili powder",
+        "684": "tomato sauce"
     },
     "status": 0,
     "labels": [
@@ -32,5 +33,12 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Place chicken breasts into a saucepan and pour in enough water to cover. Place over medium heat, bring to a boil, and simmer until chicken meat is no longer pink, 10 to 12 minutes.",
+        "Transfer chicken breasts to a bowl, allow to cool, and shred the chicken meat with 2 forks.",
+        "Heat vegetable oil in a small non-stick saucepan over medium heat, and cook and stir onion until translucent, 2 to 3 minutes.",
+        "Mix in the shredded chicken, cumin, chili powder, and tomato sauce; bring to a boil.",
+        "Reduce heat to low and simmer until chicken is hot and the flavors have blended, about 3 minutes."
     ]
 }

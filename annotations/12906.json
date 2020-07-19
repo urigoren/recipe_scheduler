@@ -11,28 +11,37 @@
         "1 (15 ounce) can pinto beans"
     ],
     "instructions": [
-        "Place chicken and salsa in the slow cooker the night before you want to eat this chili. Season with garlic powder, cumin, chili powder, salt, and pepper. Cook 6 to 8 hours on Low setting.",
-        "About 3 to 4 hours before you want to eat, shred the chicken with 2 forks. Return the meat to the pot, and continue cooking.",
-        "Stir the corn and the pinto beans into the slow cooker. Simmer until ready to serve."
+        "Place chicken and salsa in the slow cooker the night before you want to eat this chili.",
+        "Season with garlic powder, cumin, chili powder, salt, and pepper.",
+        "Cook 6 to 8 hours on Low setting.",
+        "About 3 to 4 hours before you want to eat, shred the chicken with 2 forks.",
+        "Return the meat to the pot, and continue cooking.",
+        "Stir the corn and the pinto beans into the slow cooker.",
+        "Simmer until ready to serve."
     ],
     "title": "Chicken and Corn Chili",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1964141.jpg",
     "url": "http://allrecipes.com/Recipe/12906/",
     "normalized_ingredients": {
-        "651": "skinless",
-        "454": "jar salsa",
-        "379": "garlic powder",
-        "410": "ground cumin",
-        "180": "chili powder",
-        "622": "salt to taste",
-        "407": "ground black pepper to taste",
-        "38": "Mexican-style corn",
-        "561": "pinto beans"
+        "618": "skinless",
+        "432": "jar salsa",
+        "360": "garlic powder",
+        "391": "ground cumin",
+        "169": "chili powder",
+        "588": "salt to taste",
+        "388": "ground black pepper to taste",
+        "32": "Mexican-style corn",
+        "531": "pinto beans"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Place chicken and salsa in the slow cooker the night before you want to eat this chili. Season with garlic powder, cumin, chili powder, salt, and pepper. Cook 6 to 8 hours on Low setting.",
+        "About 3 to 4 hours before you want to eat, shred the chicken with 2 forks. Return the meat to the pot, and continue cooking.",
+        "Stir the corn and the pinto beans into the slow cooker. Simmer until ready to serve."
     ]
 }

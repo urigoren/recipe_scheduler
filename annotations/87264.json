@@ -10,27 +10,37 @@
         "onion powder to taste"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F (175 degrees C). Place the butter in a 9x9 inch baking dish, and melt in the oven. Remove from heat, and mix in Italian salad dressing, lemon juice, and Worcestershire sauce.",
-        "Arrange the chicken tenderloins in the baking dish, coating with the melted butter mixture. Season both sides of chicken with lemon pepper, garlic salt, and onion powder. Sprinkle with lemon zest.",
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Place the butter in a 9x9 inch baking dish, and melt in the oven.",
+        "Remove from heat, and mix in Italian salad dressing, lemon juice, and Worcestershire sauce.",
+        "Arrange the chicken tenderloins in the baking dish, coating with the melted butter mixture.",
+        "Season both sides of chicken with lemon pepper, garlic salt, and onion powder.",
+        "Sprinkle with lemon zest.",
         "Bake 25 minutes in the preheated oven, or until chicken juices run clear."
     ],
     "title": "Lemon Butter Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/20094.jpg",
     "url": "http://allrecipes.com/Recipe/87264/",
     "normalized_ingredients": {
-        "132": "butter",
-        "25": "Italian salad dressing",
-        "467": "lemon",
-        "53": "Worcestershire sauce",
-        "172": "chicken tenderloins",
-        "469": "lemon pepper to taste",
-        "383": "garlic salt to taste",
-        "521": "onion powder to taste"
+        "124": "butter",
+        "21": "Italian salad dressing",
+        "445": "lemon",
+        "47": "Worcestershire sauce",
+        "160": "chicken tenderloins",
+        "447": "lemon pepper to taste",
+        "364": "garlic salt to taste",
+        "493": "onion powder to taste"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 350 degrees F (175 degrees C). Place the butter in a 9x9 inch baking dish, and melt in the oven. Remove from heat, and mix in Italian salad dressing, lemon juice, and Worcestershire sauce.",
+        "Arrange the chicken tenderloins in the baking dish, coating with the melted butter mixture. Season both sides of chicken with lemon pepper, garlic salt, and onion powder. Sprinkle with lemon zest.",
+        "Bake 25 minutes in the preheated oven, or until chicken juices run clear."
     ]
 }

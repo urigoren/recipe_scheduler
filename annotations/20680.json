@@ -11,24 +11,30 @@
         "2 cups shredded Cheddar cheese"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F (175 degrees C).",
-        "In a large skillet over medium-high heat, cook ground beef until no longer pink. Stir in salsa, reduce heat, and simmer 20 minutes, or until liquid is absorbed. Stir in beans, and heat through.",
-        "Spray a 9x13 baking dish with cooking spray. Spread crushed tortilla chips in dish, and then spoon beef mixture over chips. Spread sour cream over beef, and sprinkle olives, green onion, and tomato over the sour cream. Top with Cheddar cheese.",
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "In a large skillet over medium-high heat, cook ground beef until no longer pink.",
+        "Stir in salsa, reduce heat, and simmer 20 minutes, or until liquid is absorbed.",
+        "Stir in beans, and heat through.",
+        "Spray a 9x13 baking dish with cooking spray.",
+        "Spread crushed tortilla chips in dish, and then spoon beef mixture over chips.",
+        "Spread sour cream over beef, and sprinkle olives, green onion, and tomato over the sour cream.",
+        "Top with Cheddar cheese.",
         "Bake in preheated oven for 30 minutes, or until hot and bubbly."
     ],
     "title": "Easy Mexican Casserole",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/833634.jpg",
     "url": "http://allrecipes.com/Recipe/20680/",
     "normalized_ingredients": {
-        "464": "lean ground beef",
-        "616": "salsa",
-        "178": "chili beans",
-        "726": "tortilla chips",
-        "683": "sour cream",
-        "658": "sliced black olives",
-        "393": "green onion",
-        "355": "fresh tomato",
-        "639": "shredded Cheddar cheese"
+        "443": "lean ground beef",
+        "582": "salsa",
+        "166": "chili beans",
+        "688": "tortilla chips",
+        "642": "sour cream",
+        "90": "black olives",
+        "374": "green onion",
+        "337": "fresh tomato",
+        "605": "shredded Cheddar cheese"
     },
     "status": 0,
     "labels": [
@@ -36,5 +42,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "In a large skillet over medium-high heat, cook ground beef until no longer pink. Stir in salsa, reduce heat, and simmer 20 minutes, or until liquid is absorbed. Stir in beans, and heat through.",
+        "Spray a 9x13 baking dish with cooking spray. Spread crushed tortilla chips in dish, and then spoon beef mixture over chips. Spread sour cream over beef, and sprinkle olives, green onion, and tomato over the sour cream. Top with Cheddar cheese.",
+        "Bake in preheated oven for 30 minutes, or until hot and bubbly."
     ]
 }

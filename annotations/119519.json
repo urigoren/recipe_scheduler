@@ -9,22 +9,28 @@
         "1 cup milk"
     ],
     "instructions": [
-        "In a saucepan, saute onion in butter until tender. Add basil, paprika and garlic powder. Stir in soup and milk until well blended. Cook over medium heat for 6 minutes or until heated through."
+        "In a saucepan, saute onion in butter until tender.",
+        "Add basil, paprika and garlic powder.",
+        "Stir in soup and milk until well blended.",
+        "Cook over medium heat for 6 minutes or until heated through."
     ],
     "title": "Flavorful Tomato Soup",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/976440.jpg",
     "url": "http://allrecipes.com/Recipe/119519/",
     "normalized_ingredients": {
-        "340": "finely chopped onion",
-        "135": "butter or margarine",
-        "290": "dried basil",
-        "538": "paprika",
-        "379": "garlic powder",
-        "207": "condensed tomato soup",
-        "498": "milk"
+        "321": "finely chopped onion",
+        "127": "butter or margarine",
+        "275": "dried basil",
+        "507": "paprika",
+        "360": "garlic powder",
+        "193": "condensed tomato soup",
+        "475": "milk"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a saucepan, saute onion in butter until tender. Add basil, paprika and garlic powder. Stir in soup and milk until well blended. Cook over medium heat for 6 minutes or until heated through."
     ]
 }

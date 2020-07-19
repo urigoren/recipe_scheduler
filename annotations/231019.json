@@ -11,24 +11,28 @@
         "2/3 cup soy sauce"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
         "Mix cream cheese, feta cheese, carrot, garlic powder, egg yolk, basil, and parsley together in a bowl.",
-        "Place a wonton wrapper on a work surface and wet the corners of the wrapper with a moist finger. Spoon 1 teaspoon of filling in the center of the wrapper; fold wrapper over the filling, sealing the edges shut. Repeat with remaining wrappers and filling. Place wontons on a baking sheet and brush with soy sauce.",
+        "Place a wonton wrapper on a work surface and wet the corners of the wrapper with a moist finger.",
+        "Spoon 1 teaspoon of filling in the center of the wrapper; fold wrapper over the filling, sealing the edges shut.",
+        "Repeat with remaining wrappers and filling.",
+        "Place wontons on a baking sheet and brush with soy sauce.",
         "Bake in the preheated oven until corners of wontons are brown, 10 to 12 minutes."
     ],
     "title": "Creamy Cheese Wontons",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/970642.jpg",
     "url": "http://allrecipes.com/Recipe/231019/",
     "normalized_ingredients": {
-        "237": "cream cheese",
-        "245": "crumbled feta cheese",
-        "145": "carrot",
-        "379": "garlic powder",
-        "323": "egg yolk",
-        "345": "fresh basil",
-        "351": "fresh parsley",
-        "774": "wonton wrappers",
-        "685": "soy sauce"
+        "221": "cream cheese",
+        "229": "crumbled feta cheese",
+        "136": "carrot",
+        "360": "garlic powder",
+        "306": "egg yolk",
+        "326": "fresh basil",
+        "333": "fresh parsley",
+        "733": "wonton wrappers",
+        "644": "soy sauce"
     },
     "status": 0,
     "labels": [
@@ -36,5 +40,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Mix cream cheese, feta cheese, carrot, garlic powder, egg yolk, basil, and parsley together in a bowl.",
+        "Place a wonton wrapper on a work surface and wet the corners of the wrapper with a moist finger. Spoon 1 teaspoon of filling in the center of the wrapper; fold wrapper over the filling, sealing the edges shut. Repeat with remaining wrappers and filling. Place wontons on a baking sheet and brush with soy sauce.",
+        "Bake in the preheated oven until corners of wontons are brown, 10 to 12 minutes."
     ]
 }

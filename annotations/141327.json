@@ -11,24 +11,31 @@
         "1/2 teaspoon kosher salt"
     ],
     "instructions": [
-        "Combine soy sauce, ginger, honey, miso, garlic, oil, and red-pepper flakes in shallow baking dish or large resealable plastic bag. Add chicken, turn to coat, cover, and chill at least 2 hours.",
-        "Heat grill to medium for indirect heat. If using charcoal grill, position coals on one-half of grill. If using gas grill, heat one side to high, the other to low. Lightly oil grill grates.",
-        "Remove chicken from marinade. Discard marinade. Season chicken with salt.",
-        "Grill chicken 10 minutes over hottest section of grill, turning once. Move to cooler section of grill and cook 10 minutes longer or until thermometer inserted into thickest part registers 165 degrees F."
+        "Combine soy sauce, ginger, honey, miso, garlic, oil, and red-pepper flakes in shallow baking dish or large resealable plastic bag.",
+        "Add chicken, turn to coat, cover, and chill at least 2 hours.",
+        "Heat grill to medium for indirect heat.",
+        "If using charcoal grill, position coals on one-half of grill.",
+        "If using gas grill, heat one side to high, the other to low.",
+        "Lightly oil grill grates.",
+        "Remove chicken from marinade.",
+        "Discard marinade.",
+        "Season chicken with salt.",
+        "Grill chicken 10 minutes over hottest section of grill, turning once.",
+        "Move to cooler section of grill and cook 10 minutes longer or until thermometer inserted into thickest part registers 165 degrees F."
     ],
     "title": "Grilled Ginger-Soy Chicken",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/141327/",
     "normalized_ingredients": {
-        "604": "reduced-sodium soy sauce",
-        "499": "minced fresh ginger",
-        "438": "honey",
-        "504": "miso paste",
-        "502": "minced garlic",
-        "717": "toasted sesame oil",
-        "595": "red pepper flakes",
-        "104": "boneless",
-        "462": "kosher salt"
+        "572": "reduced-sodium soy sauce",
+        "329": "fresh ginger",
+        "418": "honey",
+        "476": "miso paste",
+        "351": "garlic",
+        "679": "toasted sesame oil",
+        "563": "red pepper flakes",
+        "98": "boneless",
+        "441": "kosher salt"
     },
     "status": 0,
     "labels": [
@@ -36,5 +43,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Combine soy sauce, ginger, honey, miso, garlic, oil, and red-pepper flakes in shallow baking dish or large resealable plastic bag. Add chicken, turn to coat, cover, and chill at least 2 hours.",
+        "Heat grill to medium for indirect heat. If using charcoal grill, position coals on one-half of grill. If using gas grill, heat one side to high, the other to low. Lightly oil grill grates.",
+        "Remove chicken from marinade. Discard marinade. Season chicken with salt.",
+        "Grill chicken 10 minutes over hottest section of grill, turning once. Move to cooler section of grill and cook 10 minutes longer or until thermometer inserted into thickest part registers 165 degrees F."
     ]
 }

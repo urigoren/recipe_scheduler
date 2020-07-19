@@ -8,7 +8,9 @@
         "8 center cut pork chops"
     ],
     "instructions": [
-        "In a large resealable bag, mix together the soy sauce, lemon juice, brown sugar, chili sauce, and garlic powder.. Place the pork chops into the bag, carefully seal the bag, and marinate for 6-12 hours in the refrigerator. Turn the bag over about halfway through.",
+        "In a large resealable bag, mix together the soy sauce, lemon juice, brown sugar, chili sauce, and garlic powder..",
+        "Place the pork chops into the bag, carefully seal the bag, and marinate for 6-12 hours in the refrigerator.",
+        "Turn the bag over about halfway through.",
         "Preheat an outdoor grill for high heat.",
         "Arrange pork chops on the lightly oiled grate, and cook 5 to 7 minutes on each side, until the internal temperature reaches 145 degrees F (63 degrees C)."
     ],
@@ -16,17 +18,22 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/35341.jpg",
     "url": "http://allrecipes.com/Recipe/88495/",
     "normalized_ingredients": {
-        "685": "soy sauce",
-        "468": "lemon juice",
-        "128": "brown sugar",
-        "183": "chili sauce",
-        "379": "garlic powder",
-        "155": "center cut pork chops"
+        "644": "soy sauce",
+        "446": "lemon juice",
+        "120": "brown sugar",
+        "172": "chili sauce",
+        "360": "garlic powder",
+        "145": "center cut pork chops"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "In a large resealable bag, mix together the soy sauce, lemon juice, brown sugar, chili sauce, and garlic powder.. Place the pork chops into the bag, carefully seal the bag, and marinate for 6-12 hours in the refrigerator. Turn the bag over about halfway through.",
+        "Preheat an outdoor grill for high heat.",
+        "Arrange pork chops on the lightly oiled grate, and cook 5 to 7 minutes on each side, until the internal temperature reaches 145 degrees F (63 degrees C)."
     ]
 }

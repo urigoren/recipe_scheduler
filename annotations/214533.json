@@ -11,22 +11,30 @@
     ],
     "instructions": [
         "Heat oven to 425 degrees F. Combine rub ingredients in small bowl; press evenly onto all surfaces of beef roast.",
-        "Place roast on rack in shallow roasting pan. Do not add water or cover. Roast in 425 degrees F oven 30 to 40 minutes for medium rare; 40 to 45 minutes for medium doneness.",
-        "Remove roast when instant-read thermometer registers 135 degrees F for medium rare; 150 degrees F for medium. Transfer roast to carving board; tent loosely with aluminum foil. Let stand 15 minutes. (Temperature will continue to rise about 10 degrees F to reach 145 degrees F for medium rare; 160 degrees F for medium.)",
-        "Carve roast across the grain into thin slices. Season with salt and pepper, as desired."
+        "Place roast on rack in shallow roasting pan.",
+        "Do not add water or cover.",
+        "Roast in 425 degrees F oven 30 to 40 minutes for medium rare; 40 to 45 minutes for medium doneness.",
+        "Remove roast when instant-read thermometer",
+        "registers",
+        "135 degrees F for medium rare; 150 degrees F for medium.",
+        "Transfer roast to carving board; tent loosely with aluminum foil.",
+        "Let stand 15 minutes.",
+        "(Temperature will continue to rise about 10 degrees F to reach 145 degrees F for medium rare; 160 degrees F for medium.)",
+        "Carve roast across the grain into thin slices.",
+        "Season with salt and pepper, as desired."
     ],
     "title": "Chili-Crusted Tri-Tip Roast",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/993505.jpg",
     "url": "http://allrecipes.com/Recipe/214533/",
     "normalized_ingredients": {
-        "96": "beef tri-tip roast",
-        "46": "Salt and pepper",
-        "42": "Rub:",
-        "180": "chili powder",
-        "410": "ground cumin",
-        "520": "onion powder",
-        "379": "garlic powder",
-        "543": "pepper"
+        "88": "beef tri-tip roast",
+        "41": "Salt and pepper",
+        "37": "Rub:",
+        "169": "chili powder",
+        "391": "ground cumin",
+        "492": "onion powder",
+        "360": "garlic powder",
+        "512": "pepper"
     },
     "status": 0,
     "labels": [
@@ -34,5 +42,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Heat oven to 425 degrees F. Combine rub ingredients in small bowl; press evenly onto all surfaces of beef roast.",
+        "Place roast on rack in shallow roasting pan. Do not add water or cover. Roast in 425 degrees F oven 30 to 40 minutes for medium rare; 40 to 45 minutes for medium doneness.",
+        "Remove roast when instant-read thermometer registers 135 degrees F for medium rare; 150 degrees F for medium. Transfer roast to carving board; tent loosely with aluminum foil. Let stand 15 minutes. (Temperature will continue to rise about 10 degrees F to reach 145 degrees F for medium rare; 160 degrees F for medium.)",
+        "Carve roast across the grain into thin slices. Season with salt and pepper, as desired."
     ]
 }

@@ -8,23 +8,35 @@
         "1/4 teaspoon ground cumin"
     ],
     "instructions": [
-        "Soak corn in cold water for 1 hour. Meanwhile, in a microwave-safe dish, combine butter and garlic. Cover and microwave on high for 2 minutes or until garlic is softened, stirring once. Stir in the steak sauce, chili powder and cumin; set aside.",
-        "Carefully peel back husks from corn to within 1 in. of bottom; remove silk. Brush corn with sauce. Rewrap corn in husks and secure with kitchen string. Coat grill rack with nonstick cooking spray before starting the grill. Grill corn, covered, over medium heat for 25-30 minutes, turning occasionally."
+        "Soak corn in cold water for 1 hour.",
+        "Meanwhile, in a microwave-safe dish, combine butter and garlic.",
+        "Cover and microwave on high for 2 minutes or until garlic is softened, stirring once.",
+        "Stir in the steak sauce, chili powder and cumin; set aside.",
+        "Carefully peel back husks from corn to within 1 in.",
+        "of bottom; remove silk.",
+        "Brush corn with sauce.",
+        "Rewrap corn in husks and secure with kitchen string.",
+        "Coat grill rack with nonstick cooking spray before starting the grill.",
+        "Grill corn, covered, over medium heat for 25-30 minutes, turning occasionally."
     ],
     "title": "Santa Fe Corn on the Cob",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/983971.jpg",
     "url": "http://allrecipes.com/Recipe/119729/",
     "normalized_ingredients": {
-        "316": "ears sweet corn in husks",
-        "137": "butter or stick margarine",
-        "374": "garlic cloves",
-        "694": "steak sauce",
-        "180": "chili powder",
-        "410": "ground cumin"
+        "300": "ears sweet corn in husks",
+        "129": "butter or stick margarine",
+        "355": "garlic cloves",
+        "654": "steak sauce",
+        "169": "chili powder",
+        "391": "ground cumin"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Soak corn in cold water for 1 hour. Meanwhile, in a microwave-safe dish, combine butter and garlic. Cover and microwave on high for 2 minutes or until garlic is softened, stirring once. Stir in the steak sauce, chili powder and cumin; set aside.",
+        "Carefully peel back husks from corn to within 1 in. of bottom; remove silk. Brush corn with sauce. Rewrap corn in husks and secure with kitchen string. Coat grill rack with nonstick cooking spray before starting the grill. Grill corn, covered, over medium heat for 25-30 minutes, turning occasionally."
     ]
 }

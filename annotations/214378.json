@@ -11,28 +11,42 @@
         "3/4 cup shredded Cheddar cheese"
     ],
     "instructions": [
-        "Rinse and pat dry the chicken breasts. Rub the garlic powder and chili powder onto the surface of the chicken; season with salt and pepper.",
-        "Melt the butter in a large skillet over medium heat; lay the chicken into the skillet with the bone side facing down. Add the onions. Cover the skillet and cook, stirring the onions occasionally, 15 minutes. Turn the chicken and continue cooking until the chicken is no longer pink at the bone and the juices run clear, about 30 minutes. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C).",
-        "Add the potatoes to the skillet, return the cover to the skillet, and cook until the potatoes are cooked through, 7 to 10 minutes. Pour the beer into the skillet and allow the mixture to cook uncovered until the liquid is mostly absorbed, 7 to 10 minutes. Remove the chicken to a platter and set aside. Sprinkle the cheese over the potato and onion mixture; cook until the cheese is melted. Serve hot with the chicken breasts."
+        "Rinse and pat dry the chicken breasts.",
+        "Rub the garlic powder and chili powder onto the surface of the chicken; season with salt and pepper.",
+        "Melt the butter in a large skillet over medium heat; lay the chicken into the skillet with the bone side facing down.",
+        "Add the onions.",
+        "Cover the skillet and cook, stirring the onions occasionally, 15 minutes.",
+        "Turn the chicken and continue cooking until the chicken is no longer pink at the bone and the juices run clear, about 30 minutes.",
+        "An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C).",
+        "Add the potatoes to the skillet, return the cover to the skillet, and cook until the potatoes are cooked through, 7 to 10 minutes.",
+        "Pour the beer into the skillet and allow the mixture to cook uncovered until the liquid is mostly absorbed, 7 to 10 minutes.",
+        "Remove the chicken to a platter and set aside.",
+        "Sprinkle the cheese over the potato and onion mixture; cook until the cheese is melted.",
+        "Serve hot with the chicken breasts."
     ],
     "title": "Terry's Beer Chicken",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/214378/",
     "normalized_ingredients": {
-        "100": "bone-in chicken breast halves",
-        "379": "garlic powder",
-        "180": "chili powder",
-        "620": "salt and ground black pepper to taste",
-        "524": "onions",
-        "574": "potatoes",
-        "132": "butter",
-        "525": "or bottle beer",
-        "639": "shredded Cheddar cheese"
+        "94": "bone-in chicken breast halves",
+        "360": "garlic powder",
+        "169": "chili powder",
+        "586": "salt and ground black pepper to taste",
+        "495": "onions",
+        "542": "potatoes",
+        "124": "butter",
+        "496": "or bottle beer",
+        "605": "shredded Cheddar cheese"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Rinse and pat dry the chicken breasts. Rub the garlic powder and chili powder onto the surface of the chicken; season with salt and pepper.",
+        "Melt the butter in a large skillet over medium heat; lay the chicken into the skillet with the bone side facing down. Add the onions. Cover the skillet and cook, stirring the onions occasionally, 15 minutes. Turn the chicken and continue cooking until the chicken is no longer pink at the bone and the juices run clear, about 30 minutes. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C).",
+        "Add the potatoes to the skillet, return the cover to the skillet, and cook until the potatoes are cooked through, 7 to 10 minutes. Pour the beer into the skillet and allow the mixture to cook uncovered until the liquid is mostly absorbed, 7 to 10 minutes. Remove the chicken to a platter and set aside. Sprinkle the cheese over the potato and onion mixture; cook until the cheese is melted. Serve hot with the chicken breasts."
     ]
 }

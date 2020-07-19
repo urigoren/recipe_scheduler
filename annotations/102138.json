@@ -11,28 +11,37 @@
         "1 cup canola oil"
     ],
     "instructions": [
-        "In a large skillet, cook sausage, onion, cumin and chili powder over medium-high heat, stirring frequently until meat is thoroughly cooked and no longer pink. Stir in garlic, remove from heat; set aside to cool 5 minutes.",
-        "Transfer sausage to a large mixing bowl; stir in lime juice and cheese. For each chimichanga, place 2 rounded tablespoons of mixture on egg roll wrapper; roll according to package instructions.",
-        "To cook: in a wok, Dutch oven or fryer, add oil to a depth of 3 inches; heat to 375 F. Fry 3 or 4 at a time about 3 minutes or until deep golden brown; drain on paper towels. Serve with sauce if desired (see recipe below)."
+        "In a large skillet, cook sausage, onion, cumin and chili powder over medium-high heat, stirring frequently until meat is thoroughly cooked and no longer pink.",
+        "Stir in garlic, remove from heat; set aside to cool 5 minutes.",
+        "Transfer sausage to a large mixing bowl",
+        "; stir in lime juice and cheese.",
+        "For each chimichanga, place 2 rounded tablespoons of mixture on egg roll wrapper; roll according to package instructions.",
+        "To cook: in a wok, Dutch oven or fryer, add oil to a depth of 3 inches; heat to 375 F. Fry 3 or 4 at a time about 3 minutes or until deep golden brown; drain on paper towels.",
+        "Serve with sauce if desired (see recipe below)."
     ],
     "title": "Jimmy Dean Mini Sausage Chimichangas",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/986662.jpg",
     "url": "http://allrecipes.com/Recipe/102138/",
     "normalized_ingredients": {
-        "21": "Hot Flavor Jimmy Dean Hot Pork Sausage",
-        "340": "finely chopped onion",
-        "410": "ground cumin",
-        "180": "chili powder",
-        "502": "minced garlic",
-        "474": "lime juice",
-        "37": "Mexican style shredded cheese",
-        "320": "egg roll wrappers",
-        "143": "canola oil"
+        "17": "Hot Flavor Jimmy Dean Hot Pork Sausage",
+        "321": "finely chopped onion",
+        "391": "ground cumin",
+        "169": "chili powder",
+        "351": "garlic",
+        "452": "lime juice",
+        "31": "Mexican style shredded cheese",
+        "304": "egg roll wrappers",
+        "135": "canola oil"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "In a large skillet, cook sausage, onion, cumin and chili powder over medium-high heat, stirring frequently until meat is thoroughly cooked and no longer pink. Stir in garlic, remove from heat; set aside to cool 5 minutes.",
+        "Transfer sausage to a large mixing bowl; stir in lime juice and cheese. For each chimichanga, place 2 rounded tablespoons of mixture on egg roll wrapper; roll according to package instructions.",
+        "To cook: in a wok, Dutch oven or fryer, add oil to a depth of 3 inches; heat to 375 F. Fry 3 or 4 at a time about 3 minutes or until deep golden brown; drain on paper towels. Serve with sauce if desired (see recipe below)."
     ]
 }

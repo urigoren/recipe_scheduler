@@ -9,22 +9,29 @@
         "1 (4 ounce) can diced green chiles"
     ],
     "instructions": [
-        "Crumble the ground beef into a large skillet or Dutch oven over medium-high heat. Add onion; cook and stir until beef is no longer pink. Drain off grease. Reduce heat to medium-low and stir in the corn, chili with beans, baked beans, tomato sauce and green chilies. Cover and simmer for 30 minutes, stirring occasionally."
+        "Crumble the ground beef into a large skillet or Dutch oven over medium-high heat.",
+        "Add onion; cook and stir until beef is no longer pink.",
+        "Drain off grease.",
+        "Reduce heat to medium-low and stir in the corn, chili with beans, baked beans, tomato sauce and green chilies.",
+        "Cover and simmer for 30 minutes, stirring occasionally."
     ],
     "title": "Cowboy Stew I",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/56942.jpg",
     "url": "http://allrecipes.com/Recipe/12976/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "517": "onion",
-        "240": "cream-style corn",
-        "185": "chili with beans",
-        "74": "baked beans with pork",
-        "722": "tomato sauce",
-        "281": "diced green chiles"
+        "383": "ground beef",
+        "489": "onion",
+        "224": "cream-style corn",
+        "174": "chili with beans",
+        "65": "baked beans with pork",
+        "684": "tomato sauce",
+        "265": "diced green chiles"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Crumble the ground beef into a large skillet or Dutch oven over medium-high heat. Add onion; cook and stir until beef is no longer pink. Drain off grease. Reduce heat to medium-low and stir in the corn, chili with beans, baked beans, tomato sauce and green chilies. Cover and simmer for 30 minutes, stirring occasionally."
     ]
 }

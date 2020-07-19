@@ -13,22 +13,25 @@
     "instructions": [
         "Preheat grill for medium heat and lightly oil the grate.",
         "Shape beef chuck into 12 patties.",
-        "Grill patties on preheated grill until no longer pink in the center, 3 to 4 minutes on each side. Place 2 slices mozzarella cheese on each patty about 1 minute before removing from grill. Place patties on hamburger buns.",
-        "Mix tomato sauce, oregano, minced onion, salt, pepper, and garlic powder in a bowl; cover and heat in the microwave on high until heated through, about 5 minutes. Spread tomato sauce mixture over burgers to serve."
+        "Grill patties on preheated grill until no longer pink in the center, 3 to 4 minutes on each side.",
+        "Place 2 slices mozzarella cheese on each patty about 1 minute before removing from grill.",
+        "Place patties on hamburger buns.",
+        "Mix tomato sauce, oregano, minced onion, salt, pepper, and garlic powder in a bowl; cover and heat in the microwave on high until heated through, about 5 minutes.",
+        "Spread tomato sauce mixture over burgers to serve."
     ],
     "title": "Emily's Pizza Burgers",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/837104.jpg",
     "url": "http://allrecipes.com/Recipe/222375/",
     "normalized_ingredients": {
-        "403": "ground beef chuck",
-        "675": "slices mozzarella cheese",
-        "429": "hamburger buns",
-        "722": "tomato sauce",
-        "297": "dried oregano",
-        "294": "dried minced onion",
-        "617": "salt",
-        "406": "ground black pepper",
-        "379": "garlic powder"
+        "384": "ground beef chuck",
+        "634": "slices mozzarella cheese",
+        "410": "hamburger buns",
+        "684": "tomato sauce",
+        "282": "dried oregano",
+        "279": "dried minced onion",
+        "583": "salt",
+        "387": "ground black pepper",
+        "360": "garlic powder"
     },
     "status": 0,
     "labels": [
@@ -36,5 +39,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat grill for medium heat and lightly oil the grate.",
+        "Shape beef chuck into 12 patties.",
+        "Grill patties on preheated grill until no longer pink in the center, 3 to 4 minutes on each side. Place 2 slices mozzarella cheese on each patty about 1 minute before removing from grill. Place patties on hamburger buns.",
+        "Mix tomato sauce, oregano, minced onion, salt, pepper, and garlic powder in a bowl; cover and heat in the microwave on high until heated through, about 5 minutes. Spread tomato sauce mixture over burgers to serve."
     ]
 }

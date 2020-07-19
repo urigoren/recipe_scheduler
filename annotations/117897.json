@@ -9,22 +9,30 @@
         "2 (3/4 pound) pork tenderloins"
     ],
     "instructions": [
-        "In a large resealable plastic bag, combine the first six ingredients. Add the pork; seal bag and turn to coat. Refrigerate 4-6 hours. Drain and discard marinade. Grill pork, uncovered, over medium heat for 15-20 minutes or until a meat thermometer reads 145 degrees F (63 degrees C), turning occasionally. Let stand for 5 minutes before slicing."
+        "In a large resealable plastic bag, combine the first six ingredients.",
+        "Add the pork; seal bag and turn to coat.",
+        "Refrigerate 4-6 hours.",
+        "Drain and discard marinade.",
+        "Grill pork, uncovered, over medium heat for 15-20 minutes or until a meat thermometer reads 145 degrees F (63 degrees C), turning occasionally.",
+        "Let stand for 5 minutes before slicing."
     ],
     "title": "Cinnamon Pork Tenderloin",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/838298.jpg",
     "url": "http://allrecipes.com/Recipe/117897/",
     "normalized_ingredients": {
-        "685": "soy sauce",
-        "638": "sherry or chicken broth",
-        "128": "brown sugar",
-        "438": "honey",
-        "409": "ground cinnamon",
-        "373": "garlic clove",
-        "573": "pork tenderloins"
+        "644": "soy sauce",
+        "604": "sherry or chicken broth",
+        "120": "brown sugar",
+        "418": "honey",
+        "390": "ground cinnamon",
+        "354": "garlic clove",
+        "541": "pork tenderloins"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a large resealable plastic bag, combine the first six ingredients. Add the pork; seal bag and turn to coat. Refrigerate 4-6 hours. Drain and discard marinade. Grill pork, uncovered, over medium heat for 15-20 minutes or until a meat thermometer reads 145 degrees F (63 degrees C), turning occasionally. Let stand for 5 minutes before slicing."
     ]
 }

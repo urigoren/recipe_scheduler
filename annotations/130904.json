@@ -11,24 +11,29 @@
         "Freshly ground black pepper"
     ],
     "instructions": [
-        "In a small processor or blender, combine the broth, peanut butter, oil, soy sauce, lime juice, chili puree, and honey or sugar. Puree until smooth and creamy. Season to taste with the salt and pepper."
+        "In a small processor or blender, combine the broth, peanut butter, oil, soy sauce, lime juice, chili puree, and honey or sugar.",
+        "Puree until smooth and creamy.",
+        "Season to taste with the salt and pepper."
     ],
     "title": "Peanut Dipping Sauce",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/130904/",
     "normalized_ingredients": {
-        "333": "fat-free chicken broth",
-        "510": "natural peanut butter",
-        "717": "toasted sesame oil",
-        "604": "reduced-sodium soy sauce",
-        "474": "lime juice",
-        "182": "chili puree with garlic",
-        "441": "honey or sugar",
-        "45": "Salt",
-        "15": "Freshly ground black pepper"
+        "315": "fat-free chicken broth",
+        "482": "natural peanut butter",
+        "679": "toasted sesame oil",
+        "572": "reduced-sodium soy sauce",
+        "452": "lime juice",
+        "171": "chili puree with garlic",
+        "420": "honey or sugar",
+        "40": "Salt",
+        "12": "Freshly ground black pepper"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a small processor or blender, combine the broth, peanut butter, oil, soy sauce, lime juice, chili puree, and honey or sugar. Puree until smooth and creamy. Season to taste with the salt and pepper."
     ]
 }

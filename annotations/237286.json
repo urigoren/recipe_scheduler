@@ -13,22 +13,24 @@
     "instructions": [
         "Preheat oven to 450 degrees F (230 degrees C).",
         "Whisk Sriracha sauce, honey, butter, garlic powder, onion powder, Italian seasoning, salt, and black pepper together in a small bowl.",
-        "Place chicken in a baking dish. Pour Sriracha mixture over the chicken and turn to coat chicken completely.",
-        "Cook in the preheated oven until no longer pink in the center and the juices run clear, 15 to 20 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+        "Place chicken in a baking dish.",
+        "Pour Sriracha mixture over the chicken and turn to coat chicken completely.",
+        "Cook in the preheated oven until no longer pink in the center and the juices run clear, 15 to 20 minutes.",
+        "An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
     ],
     "title": "Sriracha Honey Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4520298.jpg",
     "url": "http://allrecipes.com/Recipe/237286/",
     "normalized_ingredients": {
-        "50": "Sriracha hot sauce",
-        "438": "honey",
-        "132": "butter",
-        "379": "garlic powder",
-        "520": "onion powder",
-        "26": "Italian seasoning",
-        "617": "salt",
-        "406": "ground black pepper",
-        "651": "skinless"
+        "44": "Sriracha hot sauce",
+        "418": "honey",
+        "124": "butter",
+        "360": "garlic powder",
+        "492": "onion powder",
+        "22": "Italian seasoning",
+        "583": "salt",
+        "387": "ground black pepper",
+        "618": "skinless"
     },
     "status": 0,
     "labels": [
@@ -36,5 +38,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 450 degrees F (230 degrees C).",
+        "Whisk Sriracha sauce, honey, butter, garlic powder, onion powder, Italian seasoning, salt, and black pepper together in a small bowl.",
+        "Place chicken in a baking dish. Pour Sriracha mixture over the chicken and turn to coat chicken completely.",
+        "Cook in the preheated oven until no longer pink in the center and the juices run clear, 15 to 20 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
     ]
 }

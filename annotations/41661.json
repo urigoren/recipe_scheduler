@@ -8,23 +8,32 @@
     ],
     "instructions": [
         "Preheat the oven to 350 degrees F (175 degrees C).",
-        "In a small bowl, stir together the orange juice, soy sauce, onion soup mix and garlic powder; set aside. Rinse chicken, and pat dry. Place chicken thighs into a 9x13 inch glass baking dish. Pour the orange juice mixture over.",
-        "Bake, uncovered, for 1 hour and 30 minutes in the preheated oven, basting every half hour. If using boneless chicken, reduce cooking time to 1 hour."
+        "In a small bowl, stir together the orange juice, soy sauce, onion soup mix and garlic powder; set aside.",
+        "Rinse chicken, and pat dry.",
+        "Place chicken thighs into a 9x13 inch glass baking dish.",
+        "Pour the orange juice mixture over.",
+        "Bake, uncovered, for 1 hour and 30 minutes in the preheated oven, basting every half hour.",
+        "If using boneless chicken, reduce cooking time to 1 hour."
     ],
     "title": "Bev's Orange Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/418754.jpg",
     "url": "http://allrecipes.com/Recipe/41661/",
     "normalized_ingredients": {
-        "527": "orange juice",
-        "685": "soy sauce",
-        "327": "envelope dry onion soup mix",
-        "379": "garlic powder",
-        "173": "chicken thighs"
+        "498": "orange juice",
+        "644": "soy sauce",
+        "309": "envelope dry onion soup mix",
+        "360": "garlic powder",
+        "161": "chicken thighs"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat the oven to 350 degrees F (175 degrees C).",
+        "In a small bowl, stir together the orange juice, soy sauce, onion soup mix and garlic powder; set aside. Rinse chicken, and pat dry. Place chicken thighs into a 9x13 inch glass baking dish. Pour the orange juice mixture over.",
+        "Bake, uncovered, for 1 hour and 30 minutes in the preheated oven, basting every half hour. If using boneless chicken, reduce cooking time to 1 hour."
     ]
 }

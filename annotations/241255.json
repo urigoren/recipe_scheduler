@@ -18,19 +18,23 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4466334.jpg",
     "url": "http://allrecipes.com/Recipe/241255/",
     "normalized_ingredients": {
-        "572": "pork tenderloin tips",
-        "163": "chicken broth",
-        "76": "balsamic vinegar",
-        "458": "jerk sauce",
-        "196": "cloves garlic",
-        "685": "soy sauce",
-        "53": "Worcestershire sauce",
-        "438": "honey",
-        "595": "red pepper flakes"
+        "540": "pork tenderloin tips",
+        "152": "chicken broth",
+        "67": "balsamic vinegar",
+        "436": "jerk sauce",
+        "183": "cloves garlic",
+        "644": "soy sauce",
+        "47": "Worcestershire sauce",
+        "418": "honey",
+        "563": "red pepper flakes"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Gently stir pork, broth, vinegar, jerk sauce, garlic, soy sauce, Worcestershire sauce, honey, and red pepper flakes together in the crock of your slow cooker.",
+        "Cook on High until the pork is easily shredded with forks, 3 to 4 hours."
     ]
 }

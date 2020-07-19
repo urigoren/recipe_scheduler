@@ -10,23 +10,30 @@
         "1 ounce crumbled feta cheese"
     ],
     "instructions": [
-        "Heat olive oil in a large skillet over medium heat. Cook and stir baby spinach in hot oil until very tender, about 5 minutes. Season spinach evenly with salt, pepper, garlic powder, and onion powder, turning with tongs while sprinkling. Add tomatoes; cook and stir until tomatoes begin to soften, about 90 seconds. Sprinkle with feta cheese off heat and toss to serve."
+        "Heat olive oil in a large skillet over medium heat.",
+        "Cook and stir baby spinach in hot oil until very tender, about 5 minutes.",
+        "Season spinach evenly with salt, pepper, garlic powder, and onion powder, turning with tongs while sprinkling.",
+        "Add tomatoes; cook and stir until tomatoes begin to soften, about 90 seconds.",
+        "Sprinkle with feta cheese off heat and toss to serve."
     ],
     "title": "Christoph's Mediterranean Spinach and Sun Dried Tomato Dish",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1968964.jpg",
     "url": "http://allrecipes.com/Recipe/228769/",
     "normalized_ingredients": {
-        "331": "extra-virgin olive oil",
-        "70": "baby spinach leaves",
-        "617": "salt",
-        "406": "ground black pepper",
-        "379": "garlic powder",
-        "520": "onion powder",
-        "704": "sun-dried tomato halves packed in olive oil with herbs",
-        "245": "crumbled feta cheese"
+        "313": "extra-virgin olive oil",
+        "61": "baby spinach leaves",
+        "583": "salt",
+        "387": "ground black pepper",
+        "360": "garlic powder",
+        "492": "onion powder",
+        "665": "sun-dried tomato halves packed in olive oil with herbs",
+        "229": "crumbled feta cheese"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Heat olive oil in a large skillet over medium heat. Cook and stir baby spinach in hot oil until very tender, about 5 minutes. Season spinach evenly with salt, pepper, garlic powder, and onion powder, turning with tongs while sprinkling. Add tomatoes; cook and stir until tomatoes begin to soften, about 90 seconds. Sprinkle with feta cheese off heat and toss to serve."
     ]
 }

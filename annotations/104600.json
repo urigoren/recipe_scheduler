@@ -10,25 +10,33 @@
         "1/4 cup water"
     ],
     "instructions": [
-        "Rinse and pat dry the chicken wings. Whisk together the sugar, soy sauce, rice wine, chili garlic sauce, sesame oil, and garlic in a large bowl, then add the chicken wings and toss to evenly coat.",
-        "Heat a lightly oiled skillet over medium heat. Stir in the chicken wings, sauce, and water. Cover and cook until the chicken wings are no longer pink at the bone, turning the chicken wings occasionally, about 15 minutes. Remove lid and continue cooking until the sauce has thickened, 5 to 10 minutes."
+        "Rinse and pat dry the chicken wings.",
+        "Whisk together the sugar, soy sauce, rice wine, chili garlic sauce, sesame oil, and garlic in a large bowl, then add the chicken wings and toss to evenly coat.",
+        "Heat a lightly oiled skillet over medium heat.",
+        "Stir in the chicken wings, sauce, and water.",
+        "Cover and cook until the chicken wings are no longer pink at the bone, turning the chicken wings occasionally, about 15 minutes.",
+        "Remove lid and continue cooking until the sauce has thickened, 5 to 10 minutes."
     ],
     "title": "Spicy Chinese Chicken Wings",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3686140.jpg",
     "url": "http://allrecipes.com/Recipe/104600/",
     "normalized_ingredients": {
-        "174": "chicken wings",
-        "759": "white sugar",
-        "685": "soy sauce",
-        "609": "rice wine",
-        "179": "chili garlic sauce",
-        "631": "sesame oil",
-        "196": "cloves garlic",
-        "753": "water"
+        "162": "chicken wings",
+        "719": "white sugar",
+        "644": "soy sauce",
+        "576": "rice wine",
+        "167": "chili garlic sauce",
+        "596": "sesame oil",
+        "183": "cloves garlic",
+        "714": "water"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Rinse and pat dry the chicken wings. Whisk together the sugar, soy sauce, rice wine, chili garlic sauce, sesame oil, and garlic in a large bowl, then add the chicken wings and toss to evenly coat.",
+        "Heat a lightly oiled skillet over medium heat. Stir in the chicken wings, sauce, and water. Cover and cook until the chicken wings are no longer pink at the bone, turning the chicken wings occasionally, about 15 minutes. Remove lid and continue cooking until the sauce has thickened, 5 to 10 minutes."
     ]
 }

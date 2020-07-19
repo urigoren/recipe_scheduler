@@ -8,21 +8,30 @@
         "1/2 cup butter or margarine, cubed"
     ],
     "instructions": [
-        "Combine the first four ingredients; rub over roast. Place roast, fat side up, in a roasting pan. Dot with butter. Bake, uncovered, at 350 degrees F for 1-3/4 to 3 hours or until meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F medium, 160 degrees F; well-done, 170 degrees F). Let stand for 10-15 minutes before carving. Thicken pan drippings for gravy if desired."
+        "Combine the first four ingredients; rub over roast.",
+        "Place roast, fat side up, in a roasting pan.",
+        "Dot with butter.",
+        "Bake, uncovered, at 350 degrees F for 1-3/4 to 3 hours or until meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F medium, 160 degrees F;",
+        "well-done, 170 degrees F).",
+        "Let stand for 10-15 minutes before carving.",
+        "Thicken pan drippings for gravy if desired."
     ],
     "title": "No-Fuss Beef Roast",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989689.jpg",
     "url": "http://allrecipes.com/Recipe/121458/",
     "normalized_ingredients": {
-        "628": "seasoned salt",
-        "379": "garlic powder",
-        "520": "onion powder",
-        "148": "cayenne pepper",
-        "90": "beef rib roast",
-        "135": "butter or margarine"
+        "593": "seasoned salt",
+        "360": "garlic powder",
+        "492": "onion powder",
+        "139": "cayenne pepper",
+        "81": "beef rib roast",
+        "127": "butter or margarine"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Combine the first four ingredients; rub over roast. Place roast, fat side up, in a roasting pan. Dot with butter. Bake, uncovered, at 350 degrees F for 1-3/4 to 3 hours or until meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F medium, 160 degrees F; well-done, 170 degrees F). Let stand for 10-15 minutes before carving. Thicken pan drippings for gravy if desired."
     ]
 }

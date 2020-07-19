@@ -13,24 +13,30 @@
     "instructions": [
         "Preheat oven to 425 degrees F.",
         "Pat pork dry and sprinkle with salt and pepper.",
-        "Heat oil in a 10-inch nonstick skillet over high heat until hot but not smoking, then brown pork, turning, about 4 minutes. Transfer to an oiled shallow baking pan.",
-        "Add butter to skillet and cook garlic over moderate heat, stirring, until fragrant, about 30 seconds. Remove pan from heat and stir in crumbs, sage, and salt and pepper to taste.",
-        "Spread mustard over pork and pat half of seasoned crumbs onto mustard, then sprinkle with remaining seasoned crumbs. Roast in middle of oven until an instant-read thermometer inserted diagonally 2 inches into meat registers 155 degrees F, 20 to 25 minutes. (Check after 15 minutes to see if crumbs are getting too dark; if they are, tent loosely with foil.) Transfer to a cutting board, then tent loosely with foil and let stand 10 minutes before slicing (temperature will rise to 160 degrees F).",
+        "Heat oil in a 10-inch nonstick skillet over high heat until hot but not smoking, then brown pork, turning, about 4 minutes.",
+        "Transfer to an oiled shallow baking pan.",
+        "Add butter to skillet and cook garlic over moderate heat, stirring, until fragrant, about 30 seconds.",
+        "Remove pan from heat and stir in crumbs, sage, and salt and pepper to taste.",
+        "Spread mustard over pork and pat half of seasoned crumbs onto mustard, then sprinkle with remaining seasoned crumbs.",
+        "Roast in middle of oven until an instant-read thermometer inserted diagonally 2 inches into meat registers 155 degrees F, 20 to 25 minutes.",
+        "(Check after 15 minutes to see if crumbs are getting too dark; if they are, tent loosely with foil.)",
+        "Transfer to a cutting board, then tent loosely with foil and let stand 10 minutes before slicing",
+        "(temperature will rise to 160 degrees F).",
         "Makes 4 servings."
     ],
     "title": "Roasted Pork Tenderloin with Sage Corn Bread Crust",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/138508/",
     "normalized_ingredients": {
-        "570": "pork tenderloin",
-        "617": "salt",
-        "98": "black pepper",
-        "514": "olive oil",
-        "744": "unsalted butter",
-        "374": "garlic cloves",
-        "227": "corn toaster cakes, crumbled",
-        "338": "finely chopped fresh sage",
-        "14": "Dijon mustard"
+        "538": "pork tenderloin",
+        "583": "salt",
+        "92": "black pepper",
+        "486": "olive oil",
+        "705": "unsalted butter",
+        "355": "garlic cloves",
+        "213": "corn toaster cakes, crumbled",
+        "319": "finely chopped fresh sage",
+        "11": "Dijon mustard"
     },
     "status": 0,
     "labels": [
@@ -40,5 +46,13 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 425 degrees F.",
+        "Pat pork dry and sprinkle with salt and pepper.",
+        "Heat oil in a 10-inch nonstick skillet over high heat until hot but not smoking, then brown pork, turning, about 4 minutes. Transfer to an oiled shallow baking pan.",
+        "Add butter to skillet and cook garlic over moderate heat, stirring, until fragrant, about 30 seconds. Remove pan from heat and stir in crumbs, sage, and salt and pepper to taste.",
+        "Spread mustard over pork and pat half of seasoned crumbs onto mustard, then sprinkle with remaining seasoned crumbs. Roast in middle of oven until an instant-read thermometer inserted diagonally 2 inches into meat registers 155 degrees F, 20 to 25 minutes. (Check after 15 minutes to see if crumbs are getting too dark; if they are, tent loosely with foil.) Transfer to a cutting board, then tent loosely with foil and let stand 10 minutes before slicing (temperature will rise to 160 degrees F).",
+        "Makes 4 servings."
     ]
 }

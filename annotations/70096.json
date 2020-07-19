@@ -6,19 +6,26 @@
         "2 teaspoons garlic powder"
     ],
     "instructions": [
-        "Place the beef brisket into a slow cooker. In a medium bowl, mix together the chili sauce, onion soup mix, and garlic powder. Pour over the brisket. Cover, and cook on the Low setting for 8 to 10 hours. Slice the brisket against the grain, and pour the gravy over the slices."
+        "Place the beef brisket into a slow cooker.",
+        "In a medium bowl, mix together the chili sauce, onion soup mix, and garlic powder.",
+        "Pour over the brisket.",
+        "Cover, and cook on the Low setting for 8 to 10 hours.",
+        "Slice the brisket against the grain, and pour the gravy over the slices."
     ],
     "title": "Cousin David's Slow Cooker Brisket",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/399254.jpg",
     "url": "http://allrecipes.com/Recipe/70096/",
     "normalized_ingredients": {
-        "85": "beef brisket",
-        "119": "bottles chili sauce",
-        "327": "envelope dry onion soup mix",
-        "379": "garlic powder"
+        "76": "beef brisket",
+        "113": "bottles chili sauce",
+        "309": "envelope dry onion soup mix",
+        "360": "garlic powder"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Place the beef brisket into a slow cooker. In a medium bowl, mix together the chili sauce, onion soup mix, and garlic powder. Pour over the brisket. Cover, and cook on the Low setting for 8 to 10 hours. Slice the brisket against the grain, and pour the gravy over the slices."
     ]
 }

@@ -13,26 +13,34 @@
     "instructions": [
         "Mix together brown sugar, honey, soy sauce, ginger, garlic and hot sauce in a small bowl.",
         "Lightly salt and pepper the chicken strips.",
-        "Heat oil in a large skillet over medium heat. Add chicken strips and brown on both sides, about 1 minute per side. Pour the sauce over the chicken. Simmer uncovered until the sauce thickens, 8 to 10 minutes."
+        "Heat oil in a large skillet over medium heat.",
+        "Add chicken strips and brown on both sides, about 1 minute per side.",
+        "Pour the sauce over the chicken.",
+        "Simmer uncovered until the sauce thickens, 8 to 10 minutes."
     ],
     "title": "Sweet, Sticky and Spicy Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1655056.jpg",
     "url": "http://allrecipes.com/Recipe/143082/",
     "normalized_ingredients": {
-        "128": "brown sugar",
-        "438": "honey",
-        "685": "soy sauce",
-        "348": "fresh ginger root",
-        "370": "garlic",
-        "446": "hot sauce",
-        "621": "salt and pepper to taste",
-        "651": "skinless",
-        "747": "vegetable oil"
+        "120": "brown sugar",
+        "418": "honey",
+        "644": "soy sauce",
+        "330": "fresh ginger root",
+        "351": "garlic",
+        "425": "hot sauce",
+        "587": "salt and pepper to taste",
+        "618": "skinless",
+        "708": "vegetable oil"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Mix together brown sugar, honey, soy sauce, ginger, garlic and hot sauce in a small bowl.",
+        "Lightly salt and pepper the chicken strips.",
+        "Heat oil in a large skillet over medium heat. Add chicken strips and brown on both sides, about 1 minute per side. Pour the sauce over the chicken. Simmer uncovered until the sauce thickens, 8 to 10 minutes."
     ]
 }

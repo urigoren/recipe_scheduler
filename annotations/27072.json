@@ -9,24 +9,33 @@
         "2 cups chicken broth"
     ],
     "instructions": [
-        "Heat oil in a large saucepan over medium heat and add rice. Cook, stirring constantly, until puffed and golden. While rice is cooking, sprinkle with salt and cumin.",
-        "Stir in onions and cook until tender. Stir in tomato sauce and chicken broth; bring to a boil. Reduce heat to low, cover and simmer for 20 to 25 minutes. Fluff with a fork."
+        "Heat oil in a large saucepan over medium heat and add rice.",
+        "Cook, stirring constantly, until puffed and golden.",
+        "While rice is cooking, sprinkle with salt and cumin.",
+        "Stir in onions and cook until tender.",
+        "Stir in tomato sauce and chicken broth; bring to a boil.",
+        "Reduce heat to low, cover and simmer for 20 to 25 minutes.",
+        "Fluff with a fork."
     ],
     "title": "Mexican Rice II",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/437348.jpg",
     "url": "http://allrecipes.com/Recipe/27072/",
     "normalized_ingredients": {
-        "747": "vegetable oil",
-        "739": "uncooked long-grain rice",
-        "382": "garlic salt",
-        "410": "ground cumin",
-        "517": "onion",
-        "722": "tomato sauce",
-        "163": "chicken broth"
+        "708": "vegetable oil",
+        "701": "uncooked long-grain rice",
+        "363": "garlic salt",
+        "391": "ground cumin",
+        "489": "onion",
+        "684": "tomato sauce",
+        "152": "chicken broth"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Heat oil in a large saucepan over medium heat and add rice. Cook, stirring constantly, until puffed and golden. While rice is cooking, sprinkle with salt and cumin.",
+        "Stir in onions and cook until tender. Stir in tomato sauce and chicken broth; bring to a boil. Reduce heat to low, cover and simmer for 20 to 25 minutes. Fluff with a fork."
     ]
 }

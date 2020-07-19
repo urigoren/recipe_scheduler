@@ -8,25 +8,34 @@
         "1/8 teaspoon garlic pepper seasoning"
     ],
     "instructions": [
-        "Drain the green beans, reserving 1/2 of the liquid. Dissolve the bouillon cube in the reserved liquid.",
-        "Place green beans and liquid in a saucepan. Add Worcestershire sauce, soy sauce, butter or margarine and garlic pepper seasoning to taste. Simmer gently for 15 minutes.",
-        "Remove to serving bowl leaving beans sitting in their liquid. Use a slotted spoon to serve."
+        "Drain the green beans, reserving 1/2 of the liquid.",
+        "Dissolve the bouillon cube in the reserved liquid.",
+        "Place green beans and liquid in a saucepan.",
+        "Add Worcestershire sauce, soy sauce, butter or margarine and garlic pepper seasoning to taste.",
+        "Simmer gently for 15 minutes.",
+        "Remove to serving bowl leaving beans sitting in their liquid.",
+        "Use a slotted spoon to serve."
     ],
     "title": "Mom's Great Green Beans",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1959879.jpg",
     "url": "http://allrecipes.com/Recipe/9161/",
     "normalized_ingredients": {
-        "389": "green beans",
-        "257": "cube beef bouillon cube",
-        "53": "Worcestershire sauce",
-        "685": "soy sauce",
-        "132": "butter",
-        "378": "garlic pepper seasoning"
+        "370": "green beans",
+        "241": "cube beef bouillon cube",
+        "47": "Worcestershire sauce",
+        "644": "soy sauce",
+        "124": "butter",
+        "359": "garlic pepper seasoning"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Drain the green beans, reserving 1/2 of the liquid. Dissolve the bouillon cube in the reserved liquid.",
+        "Place green beans and liquid in a saucepan. Add Worcestershire sauce, soy sauce, butter or margarine and garlic pepper seasoning to taste. Simmer gently for 15 minutes.",
+        "Remove to serving bowl leaving beans sitting in their liquid. Use a slotted spoon to serve."
     ]
 }

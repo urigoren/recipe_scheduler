@@ -7,24 +7,34 @@
         "2 (1 1/4 pound) pork tenderloins, cut into 2-inch pieces"
     ],
     "instructions": [
-        "Place soy sauce, honey, garlic, and dry mustard into a large resealable plastic bag. Squeeze the bag to thoroughly mix the marinade and add pork tenderloin pieces to the bag. Squeeze bag several times to coat pork with marinade, squeeze air from bag, and seal. Refrigerate pork at least 1 hour or up to overnight.",
-        "Preheat an outdoor grill for high heat and lightly oil the grate. Remove pork from marinade and discard used marinade.",
-        "Grill pork on the preheated grill until seared and the juices run clear, 4 to 5 minutes per side. An instant-read meat thermometer inserted into the pork should read at least 145 degrees F (65 degrees C)."
+        "Place soy sauce, honey, garlic, and dry mustard into a large resealable plastic bag.",
+        "Squeeze the bag to thoroughly mix the marinade and add pork tenderloin pieces to the bag.",
+        "Squeeze bag several times to coat pork with marinade, squeeze air from bag, and seal.",
+        "Refrigerate pork at least 1 hour or up to overnight.",
+        "Preheat an outdoor grill for high heat and lightly oil the grate.",
+        "Remove pork from marinade and discard used marinade.",
+        "Grill pork on the preheated grill until seared and the juices run clear, 4 to 5 minutes per side.",
+        "An instant-read meat thermometer inserted into the pork should read at least 145 degrees F (65 degrees C)."
     ],
     "title": "Sheila's Grilled Pork Tenderloin",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/960963.jpg",
     "url": "http://allrecipes.com/Recipe/229428/",
     "normalized_ingredients": {
-        "685": "soy sauce",
-        "438": "honey",
-        "370": "garlic",
-        "310": "dry mustard",
-        "573": "pork tenderloins"
+        "644": "soy sauce",
+        "418": "honey",
+        "351": "garlic",
+        "296": "dry mustard",
+        "541": "pork tenderloins"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Place soy sauce, honey, garlic, and dry mustard into a large resealable plastic bag. Squeeze the bag to thoroughly mix the marinade and add pork tenderloin pieces to the bag. Squeeze bag several times to coat pork with marinade, squeeze air from bag, and seal. Refrigerate pork at least 1 hour or up to overnight.",
+        "Preheat an outdoor grill for high heat and lightly oil the grate. Remove pork from marinade and discard used marinade.",
+        "Grill pork on the preheated grill until seared and the juices run clear, 4 to 5 minutes per side. An instant-read meat thermometer inserted into the pork should read at least 145 degrees F (65 degrees C)."
     ]
 }

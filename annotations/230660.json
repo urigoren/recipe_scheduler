@@ -9,22 +9,26 @@
         "ground black pepper to taste"
     ],
     "instructions": [
-        "Combine chicken, orange juice, soy sauce, honey, garlic paste, ginger paste, and black pepper in a large nonstick skillet over medium-high heat. Cook and stir until the sauce reduces to a sticky glaze and the chicken is cooked through, about 20 minutes."
+        "Combine chicken, orange juice, soy sauce, honey, garlic paste, ginger paste, and black pepper in a large nonstick skillet over medium-high heat.",
+        "Cook and stir until the sauce reduces to a sticky glaze and the chicken is cooked through, about 20 minutes."
     ],
     "title": "Orange, Honey and Soy Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2122115.jpg",
     "url": "http://allrecipes.com/Recipe/230660/",
     "normalized_ingredients": {
-        "656": "skinless, boneless chicken breast halves",
-        "529": "oranges",
-        "685": "soy sauce",
-        "438": "honey",
-        "377": "garlic paste",
-        "384": "ginger paste",
-        "407": "ground black pepper to taste"
+        "623": "skinless, boneless chicken breast halves",
+        "499": "oranges",
+        "644": "soy sauce",
+        "418": "honey",
+        "358": "garlic paste",
+        "365": "ginger paste",
+        "388": "ground black pepper to taste"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Combine chicken, orange juice, soy sauce, honey, garlic paste, ginger paste, and black pepper in a large nonstick skillet over medium-high heat. Cook and stir until the sauce reduces to a sticky glaze and the chicken is cooked through, about 20 minutes."
     ]
 }

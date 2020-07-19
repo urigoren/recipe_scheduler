@@ -11,26 +11,36 @@
     ],
     "instructions": [
         "Preheat the oven to 375 degrees F (190 degrees C).",
-        "In a large bowl, mix together the ground beef, Worcestershire sauce. tomato sauce, crushed pork skins, and eggs. Season with chili powder, garlic salt, and garlic pepper. Mix until well blended. Form into a loaf, and place into a greased loaf pan.",
-        "Bake, uncovered for 35 to 40 minutes in the preheated oven. Let stand for at least 5 minutes before slicing and serving."
+        "In a large bowl, mix together the ground beef, Worcestershire sauce.",
+        "tomato sauce, crushed pork skins, and eggs.",
+        "Season with chili powder, garlic salt, and garlic pepper.",
+        "Mix until well blended.",
+        "Form into a loaf, and place into a greased loaf pan.",
+        "Bake, uncovered for 35 to 40 minutes in the preheated oven.",
+        "Let stand for at least 5 minutes before slicing and serving."
     ],
     "title": "All Protein Meatloaf",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/395105.jpg",
     "url": "http://allrecipes.com/Recipe/44172/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "53": "Worcestershire sauce",
-        "722": "tomato sauce",
-        "251": "crushed fried pork skins",
-        "324": "eggs",
-        "180": "chili powder",
-        "382": "garlic salt",
-        "378": "garlic pepper seasoning"
+        "383": "ground beef",
+        "47": "Worcestershire sauce",
+        "684": "tomato sauce",
+        "235": "crushed fried pork skins",
+        "307": "eggs",
+        "169": "chili powder",
+        "363": "garlic salt",
+        "359": "garlic pepper seasoning"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat the oven to 375 degrees F (190 degrees C).",
+        "In a large bowl, mix together the ground beef, Worcestershire sauce. tomato sauce, crushed pork skins, and eggs. Season with chili powder, garlic salt, and garlic pepper. Mix until well blended. Form into a loaf, and place into a greased loaf pan.",
+        "Bake, uncovered for 35 to 40 minutes in the preheated oven. Let stand for at least 5 minutes before slicing and serving."
     ]
 }

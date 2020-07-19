@@ -9,26 +9,35 @@
         "1 (1 1/2-pound) salmon fillet"
     ],
     "instructions": [
-        "In a large self-closing plastic bag, combine ginger, garlic, soy sauce, orange juice, honey, and green onion; mix well. Place salmon in bag and seal tightly. Turn bag gently to distribute marinade. Refrigerate for 15 to 30 minutes.",
+        "In a large self-closing plastic bag, combine ginger, garlic, soy sauce, orange juice, honey, and green onion; mix well.",
+        "Place salmon in bag and seal tightly.",
+        "Turn bag gently to distribute marinade.",
+        "Refrigerate for 15 to 30 minutes.",
         "Preheat an outdoor grill for medium heat and lightly oil grate.",
-        "Remove salmon from marinade, shake off excess, and discard remaining marinade. Grill for 12 to 15 minutes per inch of thickness, or until the fish flakes easily with a fork."
+        "Remove salmon from marinade, shake off excess, and discard remaining marinade.",
+        "Grill for 12 to 15 minutes per inch of thickness, or until the fish flakes easily with a fork."
     ],
     "title": "Honey-Ginger Grilled Salmon",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/227293.jpg",
     "url": "http://allrecipes.com/Recipe/29460/",
     "normalized_ingredients": {
-        "412": "ground ginger",
-        "379": "garlic powder",
-        "685": "soy sauce",
-        "527": "orange juice",
-        "438": "honey",
-        "393": "green onion",
-        "614": "salmon fillet"
+        "393": "ground ginger",
+        "360": "garlic powder",
+        "644": "soy sauce",
+        "498": "orange juice",
+        "418": "honey",
+        "374": "green onion",
+        "580": "salmon fillet"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "In a large self-closing plastic bag, combine ginger, garlic, soy sauce, orange juice, honey, and green onion; mix well. Place salmon in bag and seal tightly. Turn bag gently to distribute marinade. Refrigerate for 15 to 30 minutes.",
+        "Preheat an outdoor grill for medium heat and lightly oil grate.",
+        "Remove salmon from marinade, shake off excess, and discard remaining marinade. Grill for 12 to 15 minutes per inch of thickness, or until the fish flakes easily with a fork."
     ]
 }

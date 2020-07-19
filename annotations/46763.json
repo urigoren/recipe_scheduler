@@ -12,25 +12,31 @@
     ],
     "instructions": [
         "In a skillet over medium heat, brown the ground beef until no longer pink; drain fat, and set aside.",
-        "In a 3 1/2 quart or larger slow cooker, combine the ground beef, baked beans, green chiles, onion and barbeque sauce. Season with brown sugar, garlic powder, chili powder and hot pepper sauce. Cook on HIGH for 2 hours, or low for 4 to 5 hours."
+        "In a 3 1/2 quart or larger slow cooker, combine the ground beef, baked beans, green chiles, onion and barbeque sauce.",
+        "Season with brown sugar, garlic powder, chili powder and hot pepper sauce.",
+        "Cook on HIGH for 2 hours, or low for 4 to 5 hours."
     ],
     "title": "Texas-Style Baked Beans",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3532461.jpg",
     "url": "http://allrecipes.com/Recipe/46763/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "74": "baked beans with pork",
-        "140": "canned chopped green chile peppers",
-        "52": "Vidalia onion",
-        "78": "barbeque sauce",
-        "128": "brown sugar",
-        "379": "garlic powder",
-        "180": "chili powder",
-        "445": "hot pepper sauce "
+        "383": "ground beef",
+        "65": "baked beans with pork",
+        "132": "canned chopped green chile peppers",
+        "46": "Vidalia onion",
+        "69": "barbeque sauce",
+        "120": "brown sugar",
+        "360": "garlic powder",
+        "169": "chili powder",
+        "424": "hot pepper sauce "
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "In a skillet over medium heat, brown the ground beef until no longer pink; drain fat, and set aside.",
+        "In a 3 1/2 quart or larger slow cooker, combine the ground beef, baked beans, green chiles, onion and barbeque sauce. Season with brown sugar, garlic powder, chili powder and hot pepper sauce. Cook on HIGH for 2 hours, or low for 4 to 5 hours."
     ]
 }

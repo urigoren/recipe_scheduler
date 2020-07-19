@@ -10,27 +10,38 @@
         "1 1/2 teaspoons black pepper"
     ],
     "instructions": [
-        "Preheat oven to 300 degrees F (150 degrees C). Lightly grease a large shallow baking dish.",
-        "In a large bowl, combine ground beef, ground pork, tomatoes, eggs, onion, garlic, salt and pepper. Mix well. Shape into 12 (4-inch) round patties. Place in baking dish.",
-        "Bake in preheated oven for 35 minutes, until evenly brown, and juices run clear. Cook to a minimum of 160 degrees F (73 degrees C)."
+        "Preheat oven to 300 degrees F",
+        "(150 degrees C).",
+        "Lightly grease a large shallow baking dish.",
+        "In a large bowl, combine ground beef, ground pork, tomatoes, eggs, onion, garlic, salt and pepper.",
+        "Mix well.",
+        "Shape into 12 (4-inch) round patties.",
+        "Place in baking dish.",
+        "Bake in preheated oven for 35 minutes, until evenly brown, and juices run clear.",
+        "Cook to a minimum of 160 degrees F (73 degrees C)."
     ],
     "title": "Salisbury Steak",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/70225.jpg",
     "url": "http://allrecipes.com/Recipe/40429/",
     "normalized_ingredients": {
-        "464": "lean ground beef",
-        "465": "lean ground pork",
-        "718": "tomato - peeled",
-        "324": "eggs",
-        "517": "onion",
-        "370": "garlic",
-        "617": "salt",
-        "98": "black pepper"
+        "443": "lean ground beef",
+        "444": "lean ground pork",
+        "680": "tomato - peeled",
+        "307": "eggs",
+        "489": "onion",
+        "351": "garlic",
+        "583": "salt",
+        "92": "black pepper"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 300 degrees F (150 degrees C). Lightly grease a large shallow baking dish.",
+        "In a large bowl, combine ground beef, ground pork, tomatoes, eggs, onion, garlic, salt and pepper. Mix well. Shape into 12 (4-inch) round patties. Place in baking dish.",
+        "Bake in preheated oven for 35 minutes, until evenly brown, and juices run clear. Cook to a minimum of 160 degrees F (73 degrees C)."
     ]
 }

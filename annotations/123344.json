@@ -11,24 +11,30 @@
         "1/8 teaspoon pepper"
     ],
     "instructions": [
-        "In a large saucepan over medium heat, brown beef; drain. Add the remaining ingredients and mix well. Bring to a boil. Reduce heat; cover and simmer for 8-10 minutes or until heated through."
+        "In a large saucepan over medium heat, brown beef; drain.",
+        "Add the remaining ingredients and mix well.",
+        "Bring to a boil.",
+        "Reduce heat; cover and simmer for 8-10 minutes or until heated through."
     ],
     "title": "Campfire Stew",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/774457.jpg",
     "url": "http://allrecipes.com/Recipe/123344/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "505": "mixed vegetables",
-        "207": "condensed tomato soup",
-        "208": "condensed vegetable beef soup",
-        "753": "water",
-        "379": "garlic powder",
-        "520": "onion powder",
-        "617": "salt",
-        "543": "pepper"
+        "383": "ground beef",
+        "477": "mixed vegetables",
+        "193": "condensed tomato soup",
+        "194": "condensed vegetable beef soup",
+        "714": "water",
+        "360": "garlic powder",
+        "492": "onion powder",
+        "583": "salt",
+        "512": "pepper"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a large saucepan over medium heat, brown beef; drain. Add the remaining ingredients and mix well. Bring to a boil. Reduce heat; cover and simmer for 8-10 minutes or until heated through."
     ]
 }

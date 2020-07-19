@@ -11,24 +11,35 @@
         "2 cups shredded Cheddar cheese"
     ],
     "instructions": [
-        "In a skillet, cook sausage and onion until sausage is no longer pink and onion is tender; drain. Stir in beans, chili powder and cumin. Stuff into manicotti shells; place in a greased 13-in. x 9-in. x 2-in. baking dish. Combine tomato sauce and chilies if desired; pour over manicotti. Sprinkle with cheese. Bake, uncovered, at 350 degrees F for 45 minutes or until heated through."
+        "In a skillet, cook sausage and onion until sausage is no longer pink and onion is tender; drain.",
+        "Stir in beans, chili powder and cumin.",
+        "Stuff into manicotti shells; place in a greased 13-in.",
+        "x 9-in.",
+        "x 2-in.",
+        "baking dish.",
+        "Combine tomato sauce and chilies if desired; pour over manicotti.",
+        "Sprinkle with cheese.",
+        "Bake, uncovered, at 350 degrees F for 45 minutes or until heated through."
     ],
     "title": "Mexican Manicotti",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/457069.jpg",
     "url": "http://allrecipes.com/Recipe/123727/",
     "normalized_ingredients": {
-        "130": "bulk pork sausage",
-        "517": "onion",
-        "605": "refried beans",
-        "180": "chili powder",
-        "410": "ground cumin",
-        "494": "manicotti shells, cooked",
-        "722": "tomato sauce",
-        "391": "green chilies",
-        "639": "shredded Cheddar cheese"
+        "122": "bulk pork sausage",
+        "489": "onion",
+        "573": "refried beans",
+        "169": "chili powder",
+        "391": "ground cumin",
+        "471": "manicotti shells, cooked",
+        "684": "tomato sauce",
+        "372": "green chilies",
+        "605": "shredded Cheddar cheese"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a skillet, cook sausage and onion until sausage is no longer pink and onion is tender; drain. Stir in beans, chili powder and cumin. Stuff into manicotti shells; place in a greased 13-in. x 9-in. x 2-in. baking dish. Combine tomato sauce and chilies if desired; pour over manicotti. Sprinkle with cheese. Bake, uncovered, at 350 degrees F for 45 minutes or until heated through."
     ]
 }

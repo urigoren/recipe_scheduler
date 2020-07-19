@@ -1,0 +1,50 @@
+{
+    "ingredients": [
+        "8 ounces elbow macaroni",
+        "1 pound ground beef",
+        "1 cup finely chopped onion",
+        "1/2 teaspoon ground cumin",
+        "1/4 teaspoon chili powder",
+        "1/4 teaspoon salt",
+        "1/8 teaspoon pepper",
+        "2 (8 ounce) cans tomato sauce",
+        "1 1/2 cups cooked frozen or fresh corn"
+    ],
+    "instructions": [
+        "Bring a medium pot of water to a boil.",
+        "Add macaroni, and cook until tender according to package instructions.",
+        "Drain in a colander, and set aside.",
+        "Meanwhile, heat a large saute pan over medium-high heat.",
+        "Add ground beef and onion; cook, stirring frequently with a wooden spoon, until meat is no longer pink and onion is soft and translucent, 4 to 5 minutes.",
+        "Add cumin, chili powder, salt, and pepper; stir to combine.",
+        "Stir tomato sauce and corn into mixture in pan.",
+        "Cook until sauce comes to a boil, about 5 minutes.",
+        "Remove from heat, and stir in reserved cooked macaroni.",
+        "Scoop onto plates, and serve warm."
+    ],
+    "title": "Macaroni with Beef",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/144669/",
+    "normalized_ingredients": {
+        "308": "elbow macaroni",
+        "383": "ground beef",
+        "321": "finely chopped onion",
+        "391": "ground cumin",
+        "169": "chili powder",
+        "583": "salt",
+        "512": "pepper",
+        "684": "tomato sauce",
+        "200": "cooked frozen or fresh corn"
+    },
+    "status": 0,
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "steps": [
+        "Bring a medium pot of water to a boil. Add macaroni, and cook until tender according to package instructions. Drain in a colander, and set aside.",
+        "Meanwhile, heat a large saute pan over medium-high heat. Add ground beef and onion; cook, stirring frequently with a wooden spoon, until meat is no longer pink and onion is soft and translucent, 4 to 5 minutes. Add cumin, chili powder, salt, and pepper; stir to combine.",
+        "Stir tomato sauce and corn into mixture in pan. Cook until sauce comes to a boil, about 5 minutes. Remove from heat, and stir in reserved cooked macaroni. Scoop onto plates, and serve warm."
+    ]
+}

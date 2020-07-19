@@ -12,22 +12,30 @@
     "instructions": [
         "Stir salt, chili powder, garlic powder, onion powder, ginger, black pepper, and cayenne pepper together in a large bowl; add ground beef and mix well.",
         "Pass beef mixture through a meat grinder set with the finest blade.",
-        "Preheat oven to 250 degrees F (120 degrees C). Place wire-racks onto baking sheets.",
-        "Place 1/2 ground beef mixture between two sheets of heavy plastic on a solid, level surface. Firmly roll beef mixture to a thickness of 1/8 inch. Remove the top layer of plastic wrap, invert beef mixture onto prepared baking sheet, and remove the bottom layer of plastic wrap. Repeat for remaining beef mixture.",
-        "Bake beef mixture in the preheated oven with the oven door slightly ajar for 2 1/2 hours. Rotate the baking sheet. Bake until jerky is cooked through, another 3 hours. Remove jerky from oven and cut into strips while warm."
+        "Preheat oven to 250 degrees F",
+        "(120 degrees C).",
+        "Place wire-racks onto baking sheets.",
+        "Place 1/2 ground beef mixture between two sheets of heavy plastic on a solid, level surface.",
+        "Firmly roll beef mixture to a thickness of 1/8 inch.",
+        "Remove the top layer of plastic wrap, invert beef mixture onto prepared baking sheet, and remove the bottom layer of plastic wrap.",
+        "Repeat for remaining beef mixture.",
+        "Bake beef mixture in the preheated oven with the oven door slightly ajar for 2 1/2 hours.",
+        "Rotate the baking sheet.",
+        "Bake until jerky is cooked through, another 3 hours.",
+        "Remove jerky from oven and cut into strips while warm."
     ],
     "title": "Ground Beef Jerky",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2484314.jpg",
     "url": "http://allrecipes.com/Recipe/234518/",
     "normalized_ingredients": {
-        "142": "canning salt",
-        "180": "chili powder",
-        "379": "garlic powder",
-        "520": "onion powder",
-        "412": "ground ginger",
-        "406": "ground black pepper",
-        "547": "pinch cayenne pepper",
-        "329": "extra lean ground beef"
+        "134": "canning salt",
+        "169": "chili powder",
+        "360": "garlic powder",
+        "492": "onion powder",
+        "393": "ground ginger",
+        "387": "ground black pepper",
+        "517": "pinch cayenne pepper",
+        "311": "extra lean ground beef"
     },
     "status": 0,
     "labels": [
@@ -36,5 +44,12 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Stir salt, chili powder, garlic powder, onion powder, ginger, black pepper, and cayenne pepper together in a large bowl; add ground beef and mix well.",
+        "Pass beef mixture through a meat grinder set with the finest blade.",
+        "Preheat oven to 250 degrees F (120 degrees C). Place wire-racks onto baking sheets.",
+        "Place 1/2 ground beef mixture between two sheets of heavy plastic on a solid, level surface. Firmly roll beef mixture to a thickness of 1/8 inch. Remove the top layer of plastic wrap, invert beef mixture onto prepared baking sheet, and remove the bottom layer of plastic wrap. Repeat for remaining beef mixture.",
+        "Bake beef mixture in the preheated oven with the oven door slightly ajar for 2 1/2 hours. Rotate the baking sheet. Bake until jerky is cooked through, another 3 hours. Remove jerky from oven and cut into strips while warm."
     ]
 }

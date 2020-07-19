@@ -8,23 +8,35 @@
         "4 (8 ounce) salmon fillets"
     ],
     "instructions": [
-        "In a bowl, combine the first five ingredients. Remove 1/2 cup for basting; cover and refrigerate. Pour remaining marinade into a large resealable plastic bag. Add salmon; seal bag and turn to coat. Refrigerate for 1-3 hours.",
-        "Drain and discard marinade. Broil salmon 4-in. from the heat for 5 minutes. Baste with reserved marinade. Broil 10 minutes longer or until fish flakes easily with fork, basting frequently."
+        "In a bowl, combine the first five ingredients.",
+        "Remove 1/2 cup for basting; cover and refrigerate.",
+        "Pour remaining marinade into a large resealable plastic bag.",
+        "Add salmon; seal bag and turn to coat.",
+        "Refrigerate for 1-3 hours.",
+        "Drain and discard marinade.",
+        "Broil salmon 4-in.",
+        "from the heat for 5 minutes.",
+        "Baste with reserved marinade.",
+        "Broil 10 minutes longer or until fish flakes easily with fork, basting frequently."
     ],
     "title": "Maple Teriyaki Salmon Fillets",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/990648.jpg",
     "url": "http://allrecipes.com/Recipe/121375/",
     "normalized_ingredients": {
-        "60": "apple juice",
-        "495": "maple syrup",
-        "685": "soy sauce",
-        "340": "finely chopped onion",
-        "374": "garlic cloves",
-        "615": "salmon fillets"
+        "53": "apple juice",
+        "472": "maple syrup",
+        "644": "soy sauce",
+        "321": "finely chopped onion",
+        "355": "garlic cloves",
+        "581": "salmon fillets"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "In a bowl, combine the first five ingredients. Remove 1/2 cup for basting; cover and refrigerate. Pour remaining marinade into a large resealable plastic bag. Add salmon; seal bag and turn to coat. Refrigerate for 1-3 hours.",
+        "Drain and discard marinade. Broil salmon 4-in. from the heat for 5 minutes. Baste with reserved marinade. Broil 10 minutes longer or until fish flakes easily with fork, basting frequently."
     ]
 }

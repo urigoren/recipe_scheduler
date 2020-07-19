@@ -10,23 +10,29 @@
         "2 (9 ounce) packages frozen egg noodles"
     ],
     "instructions": [
-        "In a large pot, mix the cream of chicken soup, cream of mushroom soup, chicken broth, and chicken meat. Season with onion powder, seasoning salt, and garlic powder. Bring to a boil, and stir in the noodles. Reduce heat to low, and simmer for 20 to 30 minutes."
+        "In a large pot, mix the cream of chicken soup, cream of mushroom soup, chicken broth, and chicken meat.",
+        "Season with onion powder, seasoning salt, and garlic powder.",
+        "Bring to a boil, and stir in the noodles.",
+        "Reduce heat to low, and simmer for 20 to 30 minutes."
     ],
     "title": "Incredibly Easy Chicken and Noodles",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1014757.jpg",
     "url": "http://allrecipes.com/Recipe/17846/",
     "normalized_ingredients": {
-        "205": "condensed cream of chicken soup",
-        "206": "condensed cream of mushroom soup",
-        "163": "chicken broth",
-        "278": "diced",
-        "520": "onion powder",
-        "629": "seasoning salt",
-        "379": "garlic powder",
-        "360": "frozen egg noodles"
+        "191": "condensed cream of chicken soup",
+        "192": "condensed cream of mushroom soup",
+        "152": "chicken broth",
+        "262": "diced",
+        "492": "onion powder",
+        "594": "seasoning salt",
+        "360": "garlic powder",
+        "342": "frozen egg noodles"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a large pot, mix the cream of chicken soup, cream of mushroom soup, chicken broth, and chicken meat. Season with onion powder, seasoning salt, and garlic powder. Bring to a boil, and stir in the noodles. Reduce heat to low, and simmer for 20 to 30 minutes."
     ]
 }

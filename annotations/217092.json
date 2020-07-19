@@ -11,24 +11,30 @@
         "1 teaspoon sesame seeds, or to taste (optional)"
     ],
     "instructions": [
-        "In an electric skillet or a large skillet over medium heat, mix together the water, sugar, soy sauce, peanut butter, honey, wine vinegar, and garlic until smooth and the sugar has dissolved. Place the wings into the sauce, cover, and simmer for 30 minutes. Uncover and simmer until the wings are tender and the sauce has thickened, about 30 more minutes, spooning sauce over wings occasionally. Sprinkle with sesame seeds."
+        "In an electric skillet or a large skillet over medium heat, mix together the water, sugar, soy sauce, peanut butter, honey, wine vinegar, and garlic until smooth and the sugar has dissolved.",
+        "Place the wings into the sauce, cover, and simmer for 30 minutes.",
+        "Uncover and simmer until the wings are tender and the sauce has thickened, about 30 more minutes, spooning sauce over wings occasionally.",
+        "Sprinkle with sesame seeds."
     ],
     "title": "Caramelized Chicken Wings",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4487524.jpg",
     "url": "http://allrecipes.com/Recipe/217092/",
     "normalized_ingredients": {
-        "753": "water",
-        "759": "white sugar",
-        "685": "soy sauce",
-        "539": "peanut butter",
-        "438": "honey",
-        "773": "wine vinegar",
-        "502": "minced garlic",
-        "174": "chicken wings",
-        "632": "sesame seeds"
+        "714": "water",
+        "719": "white sugar",
+        "644": "soy sauce",
+        "508": "peanut butter",
+        "418": "honey",
+        "732": "wine vinegar",
+        "351": "garlic",
+        "162": "chicken wings",
+        "598": "sesame seeds"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In an electric skillet or a large skillet over medium heat, mix together the water, sugar, soy sauce, peanut butter, honey, wine vinegar, and garlic until smooth and the sugar has dissolved. Place the wings into the sauce, cover, and simmer for 30 minutes. Uncover and simmer until the wings are tender and the sauce has thickened, about 30 more minutes, spooning sauce over wings occasionally. Sprinkle with sesame seeds."
     ]
 }

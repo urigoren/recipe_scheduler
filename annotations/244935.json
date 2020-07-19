@@ -7,22 +7,30 @@
         "1 clove garlic"
     ],
     "instructions": [
-        "Cut bones and fat from pork chop and cut meat into small pieces. Place bone, fat, and meat in a saucepan; add water, onion, chicken base, and garlic. Bring liquid to a boil, reduce heat to medium-low, cover saucepan, and simmer, adding more water every hour, 5 to 6 hours.",
-        "Strain broth into a bowl and separate bones from the meat. Put meat and 1/2 of the broth in a blender; blend. Return blended broth to broth in saucepan and mix well."
+        "Cut bones and fat from pork chop and cut meat into small pieces.",
+        "Place bone, fat, and meat in a saucepan; add water, onion, chicken base, and garlic.",
+        "Bring liquid to a boil, reduce heat to medium-low, cover saucepan, and simmer, adding more water every hour, 5 to 6 hours.",
+        "Strain broth into a bowl and separate bones from the meat.",
+        "Put meat and 1/2 of the broth in a blender; blend.",
+        "Return blended broth to broth in saucepan and mix well."
     ],
     "title": "Pork Chop Tonkotsu Broth",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/244935/",
     "normalized_ingredients": {
-        "101": "bone-in pork chop",
-        "753": "water",
-        "517": "onion",
-        "158": "chicken base",
-        "194": "clove garlic"
+        "95": "bone-in pork chop",
+        "714": "water",
+        "489": "onion",
+        "148": "chicken base",
+        "181": "clove garlic"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Cut bones and fat from pork chop and cut meat into small pieces. Place bone, fat, and meat in a saucepan; add water, onion, chicken base, and garlic. Bring liquid to a boil, reduce heat to medium-low, cover saucepan, and simmer, adding more water every hour, 5 to 6 hours.",
+        "Strain broth into a bowl and separate bones from the meat. Put meat and 1/2 of the broth in a blender; blend. Return blended broth to broth in saucepan and mix well."
     ]
 }

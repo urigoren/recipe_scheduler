@@ -10,25 +10,34 @@
         "1/2 teaspoon Worcestershire sauce"
     ],
     "instructions": [
-        "Rinse and pat dry pork. Mince garlic and set aside. Heat oil in a non stick skillet to medium high and saute pork chop 3 to 4 minutes per side until lightly browned. Remove from heat and keep warm.",
-        "In same skillet, saute onion and garlic for about 2 minutes; add black pepper, tomato juice, hot sauce and Worcestershire sauce and mix well. Add back pork; lower heat to a simmer and cook for about 10 minutes, turning once. Serve over rice."
+        "Rinse and pat dry pork.",
+        "Mince garlic and set aside.",
+        "Heat oil in a non stick skillet to medium high and saute pork chop 3 to 4 minutes per side until lightly browned.",
+        "Remove from heat and keep warm.",
+        "In same skillet, saute onion and garlic for about 2 minutes; add black pepper, tomato juice, hot sauce and Worcestershire sauce and mix well.",
+        "Add back pork; lower heat to a simmer and cook for about 10 minutes, turning once.",
+        "Serve over rice."
     ],
     "title": "eDiets Low Carb Tangy Pork Chop",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/82620/",
     "normalized_ingredients": {
-        "463": "lean",
-        "514": "olive oil",
-        "517": "onion",
-        "194": "clove garlic",
-        "98": "black pepper",
-        "486": "low sodium tomato juice",
-        "446": "hot sauce",
-        "53": "Worcestershire sauce"
+        "442": "lean",
+        "486": "olive oil",
+        "489": "onion",
+        "181": "clove garlic",
+        "92": "black pepper",
+        "463": "low sodium tomato juice",
+        "425": "hot sauce",
+        "47": "Worcestershire sauce"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Rinse and pat dry pork. Mince garlic and set aside. Heat oil in a non stick skillet to medium high and saute pork chop 3 to 4 minutes per side until lightly browned. Remove from heat and keep warm.",
+        "In same skillet, saute onion and garlic for about 2 minutes; add black pepper, tomato juice, hot sauce and Worcestershire sauce and mix well. Add back pork; lower heat to a simmer and cook for about 10 minutes, turning once. Serve over rice."
     ]
 }

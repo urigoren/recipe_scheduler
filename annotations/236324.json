@@ -16,17 +16,20 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1992000.jpg",
     "url": "http://allrecipes.com/Recipe/236324/",
     "normalized_ingredients": {
-        "514": "olive oil",
-        "760": "white vinegar",
-        "685": "soy sauce",
-        "53": "Worcestershire sauce",
-        "502": "minced garlic",
-        "296": "dried onion flakes",
-        "49": "Sriracha hot chili sauce",
-        "695": "steak seasoning"
+        "486": "olive oil",
+        "720": "white vinegar",
+        "644": "soy sauce",
+        "47": "Worcestershire sauce",
+        "351": "garlic",
+        "281": "dried onion flakes",
+        "43": "Sriracha hot chili sauce",
+        "655": "steak seasoning"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Combine olive oil, vinegar, soy sauce, Worcestershire sauce, garlic, onion flakes, Sriracha sauce, and steak seasoning in a resealable bag."
     ]
 }

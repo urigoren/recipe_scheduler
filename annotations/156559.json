@@ -8,8 +8,13 @@
     ],
     "instructions": [
         "Heat sausage and sauce in small saucepan over low heat until hot.",
-        "Meanwhile, cut polenta into 12 slices. In 12-inch skillet heat olive oil over medium heat until hot. Add polenta slices. Cook 6 to 7 minutes or until light golden brown, turning once.",
-        "To serve, place 3 slices on serving plate, top with 1/4 of the sausage mixture. Sprinkle with parsley. Serve immediately."
+        "Meanwhile, cut polenta into 12 slices.",
+        "In 12-inch skillet heat olive oil over medium heat until hot.",
+        "Add polenta slices.",
+        "Cook 6 to 7 minutes or until light golden brown, turning once.",
+        "To serve, place 3 slices on serving plate, top with 1/4 of the sausage mixture.",
+        "Sprinkle with parsley.",
+        "Serve immediately."
     ],
     "title": "Chicken Sausage Marinara over Polenta",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
@@ -18,13 +23,18 @@
         "3": "Archer Farms\u2122 organic spinach & garlic with feta chicken sausages",
         "4": "Archer Farms\u2122 organic tomato basil pasta sauce",
         "5": "Archer farms\u2122 organic extra virgin olive oil",
-        "531": "organic polenta",
-        "530": "organic parsley"
+        "501": "organic polenta",
+        "500": "organic parsley"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Heat sausage and sauce in small saucepan over low heat until hot.",
+        "Meanwhile, cut polenta into 12 slices. In 12-inch skillet heat olive oil over medium heat until hot. Add polenta slices. Cook 6 to 7 minutes or until light golden brown, turning once.",
+        "To serve, place 3 slices on serving plate, top with 1/4 of the sausage mixture. Sprinkle with parsley. Serve immediately."
     ]
 }

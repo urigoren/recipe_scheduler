@@ -9,24 +9,31 @@
         "3 tablespoons soy sauce"
     ],
     "instructions": [
-        "Heat a wok or non-stick skillet over medium-high heat; add olive oil. Cook and stir eggs in the hot oil until cooked through, 2 to 3 minutes. Add chicken, green onion, and garlic to scrambled eggs; cook and stir until heated through, about 2 minutes.",
-        "Mix rice into egg mixture; cook and stir until rice is warmed, about 2 minutes. Add soy sauce; cook and stir until rice mixture is evenly coated, about 3 minutes."
+        "Heat a wok or non-stick skillet over medium-high heat; add olive oil.",
+        "Cook and stir eggs in the hot oil until cooked through, 2 to 3 minutes.",
+        "Add chicken, green onion, and garlic to scrambled eggs; cook and stir until heated through, about 2 minutes.",
+        "Mix rice into egg mixture; cook and stir until rice is warmed, about 2 minutes.",
+        "Add soy sauce; cook and stir until rice mixture is evenly coated, about 3 minutes."
     ],
     "title": "Hibachi-Style Fried Rice",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1129991.jpg",
     "url": "http://allrecipes.com/Recipe/237608/",
     "normalized_ingredients": {
-        "514": "olive oil",
-        "324": "eggs",
-        "400": "grilled chicken ",
-        "393": "green onion",
-        "370": "garlic",
-        "216": "cooked white rice",
-        "685": "soy sauce"
+        "486": "olive oil",
+        "307": "eggs",
+        "381": "grilled chicken ",
+        "374": "green onion",
+        "351": "garlic",
+        "202": "cooked white rice",
+        "644": "soy sauce"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Heat a wok or non-stick skillet over medium-high heat; add olive oil. Cook and stir eggs in the hot oil until cooked through, 2 to 3 minutes. Add chicken, green onion, and garlic to scrambled eggs; cook and stir until heated through, about 2 minutes.",
+        "Mix rice into egg mixture; cook and stir until rice is warmed, about 2 minutes. Add soy sauce; cook and stir until rice mixture is evenly coated, about 3 minutes."
     ]
 }

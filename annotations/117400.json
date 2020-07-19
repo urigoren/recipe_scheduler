@@ -9,24 +9,34 @@
         "1 pound beef flank steak"
     ],
     "instructions": [
-        "In a large resealable plastic bag, combine the first six ingredients. Cut an 1/8-in.-deep diamond pattern into both sides of steak. Place in the bag; seal and turn to coat. Refrigerate overnight.",
-        "Drain and discard marinade. Place steak on a broiler pan. Broil 4 in. from the heat for 7-8 minutes on each side or until meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F; medium, 160 degrees F; well-done, 170 degrees F)."
+        "In a large resealable plastic bag, combine the first six ingredients.",
+        "Cut an 1/8-in.-deep diamond pattern into both sides of steak.",
+        "Place in the bag; seal and turn to coat.",
+        "Refrigerate overnight.",
+        "Drain and discard marinade.",
+        "Place steak on a broiler pan.",
+        "Broil 4 in.",
+        "from the heat for 7-8 minutes on each side or until meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F; medium, 160 degrees F; well-done, 170 degrees F)."
     ],
     "title": "Marinated Flank Steak",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/991782.jpg",
     "url": "http://allrecipes.com/Recipe/117400/",
     "normalized_ingredients": {
-        "685": "soy sauce",
-        "747": "vegetable oil",
-        "720": "tomato paste",
-        "373": "garlic clove",
-        "297": "dried oregano",
-        "543": "pepper",
-        "88": "beef flank steak"
+        "644": "soy sauce",
+        "708": "vegetable oil",
+        "682": "tomato paste",
+        "354": "garlic clove",
+        "282": "dried oregano",
+        "512": "pepper",
+        "79": "beef flank steak"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "In a large resealable plastic bag, combine the first six ingredients. Cut an 1/8-in.-deep diamond pattern into both sides of steak. Place in the bag; seal and turn to coat. Refrigerate overnight.",
+        "Drain and discard marinade. Place steak on a broiler pan. Broil 4 in. from the heat for 7-8 minutes on each side or until meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F; medium, 160 degrees F; well-done, 170 degrees F)."
     ]
 }

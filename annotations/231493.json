@@ -10,23 +10,29 @@
         "1/8 teaspoon ground black pepper"
     ],
     "instructions": [
-        "Heat a large skillet over medium-high heat. Cook and stir beef in the hot skillet until browned and crumbly, 5 to 7 minutes. Reduce heat to low. Stir mustard, balsamic vinegar, garlic, soy sauce, honey, paprika, and black pepper into the ground beef; bring to a simmer and cook until hot, about 3 minutes."
+        "Heat a large skillet over medium-high heat.",
+        "Cook and stir beef in the hot skillet until browned and crumbly, 5 to 7 minutes.",
+        "Reduce heat to low.",
+        "Stir mustard, balsamic vinegar, garlic, soy sauce, honey, paprika, and black pepper into the ground beef; bring to a simmer and cook until hot, about 3 minutes."
     ],
     "title": "Garlic Mustard Ground Beef",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4112671.jpg",
     "url": "http://allrecipes.com/Recipe/231493/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "775": "yellow mustard",
-        "76": "balsamic vinegar",
-        "502": "minced garlic",
-        "685": "soy sauce",
-        "438": "honey",
-        "538": "paprika",
-        "406": "ground black pepper"
+        "383": "ground beef",
+        "734": "yellow mustard",
+        "67": "balsamic vinegar",
+        "351": "garlic",
+        "644": "soy sauce",
+        "418": "honey",
+        "507": "paprika",
+        "387": "ground black pepper"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Heat a large skillet over medium-high heat. Cook and stir beef in the hot skillet until browned and crumbly, 5 to 7 minutes. Reduce heat to low. Stir mustard, balsamic vinegar, garlic, soy sauce, honey, paprika, and black pepper into the ground beef; bring to a simmer and cook until hot, about 3 minutes."
     ]
 }

@@ -10,23 +10,33 @@
         "2 tablespoons cooking oil"
     ],
     "instructions": [
-        "In a skillet over medium heat, brown pork chops in butter. Add water; bring to a boil. Reduce heat; cover and simmer for 20 minutes or until juices run clear and pork is tender. Drain pork chops on paper towels. Drain all drippings from pan. In a bowl, combine muffin mix, egg, milk and chili powder; mix until blended. Immediately coat chops with batter. In the same skillet over medium heat, fry chops in oil until batter is golden brown and cooked through."
+        "In a skillet over medium heat, brown pork chops in butter.",
+        "Add water; bring to a boil.",
+        "Reduce heat; cover and simmer for 20 minutes or until juices run clear and pork is tender.",
+        "Drain pork chops on paper towels.",
+        "Drain all drippings from pan.",
+        "In a bowl, combine muffin mix, egg, milk and chili powder; mix until blended.",
+        "Immediately coat chops with batter.",
+        "In the same skillet over medium heat, fry chops in oil until batter is golden brown and cooked through."
     ],
     "title": "Inside-Out Pork Chops",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/123776/",
     "normalized_ingredients": {
-        "565": "pork chops",
-        "135": "butter or margarine",
-        "753": "water",
-        "223": "corn bread/muffin mix",
-        "317": "egg",
-        "498": "milk",
-        "180": "chili powder",
-        "218": "cooking oil"
+        "534": "pork chops",
+        "127": "butter or margarine",
+        "714": "water",
+        "209": "corn bread/muffin mix",
+        "301": "egg",
+        "475": "milk",
+        "169": "chili powder",
+        "204": "cooking oil"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a skillet over medium heat, brown pork chops in butter. Add water; bring to a boil. Reduce heat; cover and simmer for 20 minutes or until juices run clear and pork is tender. Drain pork chops on paper towels. Drain all drippings from pan. In a bowl, combine muffin mix, egg, milk and chili powder; mix until blended. Immediately coat chops with batter. In the same skillet over medium heat, fry chops in oil until batter is golden brown and cooked through."
     ]
 }

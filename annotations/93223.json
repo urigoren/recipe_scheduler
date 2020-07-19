@@ -11,22 +11,29 @@
     ],
     "instructions": [
         "Preheat the oven to 350 degrees F (175 degrees C).",
-        "Bring a large pot of lightly salted water to a boil. Add egg noodles and cook until tender, about 7 minutes. Drain and return to the pan. Mix in the cream of chicken soup until noodles are coated.",
-        "Crumble the ground beef into a large skillet over medium-high heat. Drain the grease, and stir in the tomato soup, brown sugar, pepper and salt. Spread half of the beef in the bottom of a greased 2 1/2 quart casserole dish. Arrange 5 slices of cheese over the beef. Top with half of the noodles, then repeat layers ending with cheese on top.",
+        "Bring a large pot of lightly salted water to a boil.",
+        "Add egg noodles and cook until tender, about 7 minutes.",
+        "Drain and return to the pan.",
+        "Mix in the cream of chicken soup until noodles are coated.",
+        "Crumble the ground beef into a large skillet over medium-high heat.",
+        "Drain the grease, and stir in the tomato soup, brown sugar, pepper and salt.",
+        "Spread half of the beef in the bottom of a greased 2 1/2 quart casserole dish.",
+        "Arrange 5 slices of cheese over the beef.",
+        "Top with half of the noodles, then repeat layers ending with cheese on top.",
         "Bake for 35 minutes in the preheated oven, until cheese is browned and sauce is bubbly."
     ],
     "title": "Amish Casserole",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/567935.jpg",
     "url": "http://allrecipes.com/Recipe/93223/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "207": "condensed tomato soup",
-        "128": "brown sugar",
-        "98": "black pepper",
-        "617": "salt",
-        "205": "condensed cream of chicken soup",
-        "770": "wide egg noodles",
-        "666": "slices American cheese"
+        "383": "ground beef",
+        "193": "condensed tomato soup",
+        "120": "brown sugar",
+        "92": "black pepper",
+        "583": "salt",
+        "191": "condensed cream of chicken soup",
+        "729": "wide egg noodles",
+        "626": "slices American cheese"
     },
     "status": 0,
     "labels": [
@@ -34,5 +41,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat the oven to 350 degrees F (175 degrees C).",
+        "Bring a large pot of lightly salted water to a boil. Add egg noodles and cook until tender, about 7 minutes. Drain and return to the pan. Mix in the cream of chicken soup until noodles are coated.",
+        "Crumble the ground beef into a large skillet over medium-high heat. Drain the grease, and stir in the tomato soup, brown sugar, pepper and salt. Spread half of the beef in the bottom of a greased 2 1/2 quart casserole dish. Arrange 5 slices of cheese over the beef. Top with half of the noodles, then repeat layers ending with cheese on top.",
+        "Bake for 35 minutes in the preheated oven, until cheese is browned and sauce is bubbly."
     ]
 }

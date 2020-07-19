@@ -13,14 +13,17 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4317503.jpg",
     "url": "http://allrecipes.com/Recipe/240665/",
     "normalized_ingredients": {
-        "385": "gluten-free soy sauce ",
-        "438": "honey",
-        "468": "lemon juice",
-        "503": "minced onion",
-        "379": "garlic powder"
+        "366": "gluten-free soy sauce ",
+        "418": "honey",
+        "446": "lemon juice",
+        "489": "onion",
+        "360": "garlic powder"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Whisk soy sauce, honey, lemon juice, onion, and garlic powder together in a bowl."
     ]
 }

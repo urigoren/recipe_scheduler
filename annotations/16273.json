@@ -10,23 +10,29 @@
         "1/2 teaspoon salt"
     ],
     "instructions": [
-        "In a medium skillet over medium high heat, saute the ground beef for 10 to 15 minutes, or until well browned. Break up with a fork until fine. Add the water, onion, garlic, tomato sauce, chili powder, monosodium glutamate and salt. Allow to simmer for 10 minutes, or until heated thoroughly."
+        "In a medium skillet over medium high heat, saute the ground beef for 10 to 15 minutes, or until well browned.",
+        "Break up with a fork until fine.",
+        "Add the water, onion, garlic, tomato sauce, chili powder, monosodium glutamate and salt.",
+        "Allow to simmer for 10 minutes, or until heated thoroughly."
     ],
     "title": "Coney Sauce",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4476613.jpg",
     "url": "http://allrecipes.com/Recipe/16273/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "753": "water",
-        "517": "onion",
-        "194": "clove garlic",
-        "722": "tomato sauce",
-        "180": "chili powder",
-        "506": "monosodium glutamate ",
-        "617": "salt"
+        "383": "ground beef",
+        "714": "water",
+        "489": "onion",
+        "181": "clove garlic",
+        "684": "tomato sauce",
+        "169": "chili powder",
+        "478": "monosodium glutamate ",
+        "583": "salt"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a medium skillet over medium high heat, saute the ground beef for 10 to 15 minutes, or until well browned. Break up with a fork until fine. Add the water, onion, garlic, tomato sauce, chili powder, monosodium glutamate and salt. Allow to simmer for 10 minutes, or until heated thoroughly."
     ]
 }

@@ -9,22 +9,26 @@
         "soy sauce to taste"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F (175 degrees C). Grease a 2 quart casserole dish.",
-        "Melt butter in a large skillet over medium heat. Brown noodles in the butter.",
-        "In a large bowl combine browned noodles, rice, soup mix, broth, water chestnuts and soy sauce. Mix well and transfer to prepared casserole dish.",
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Grease a 2 quart casserole dish.",
+        "Melt butter in a large skillet over medium heat.",
+        "Brown noodles in the butter.",
+        "In a large bowl combine browned noodles, rice, soup mix, broth, water chestnuts and soy sauce.",
+        "Mix well and transfer to prepared casserole dish.",
         "Bake for 45 minutes, or until liquid has been absorbed and casserole is browned and crispy on top."
     ],
     "title": "Fairy Godmother Rice",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/638858.jpg",
     "url": "http://allrecipes.com/Recipe/24743/",
     "normalized_ingredients": {
-        "132": "butter",
-        "714": "thin egg noodles",
-        "737": "uncooked instant rice",
-        "311": "dry onion soup mix",
-        "746": "vegetable broth",
-        "755": "water chestnuts",
-        "686": "soy sauce to taste"
+        "124": "butter",
+        "675": "thin egg noodles",
+        "699": "uncooked instant rice",
+        "297": "dry onion soup mix",
+        "707": "vegetable broth",
+        "715": "water chestnuts",
+        "645": "soy sauce to taste"
     },
     "status": 0,
     "labels": [
@@ -32,5 +36,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 350 degrees F (175 degrees C). Grease a 2 quart casserole dish.",
+        "Melt butter in a large skillet over medium heat. Brown noodles in the butter.",
+        "In a large bowl combine browned noodles, rice, soup mix, broth, water chestnuts and soy sauce. Mix well and transfer to prepared casserole dish.",
+        "Bake for 45 minutes, or until liquid has been absorbed and casserole is browned and crispy on top."
     ]
 }

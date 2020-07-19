@@ -9,24 +9,36 @@
         "1/2 lemon, juiced"
     ],
     "instructions": [
-        "Place the salmon in a zip-top bag. Mix the soy sauce, orange juice, garlic, mustard, tomato paste, and lemon juice in a bowl. Pour into the bag with the salmon. Seal the bag, pressing out excess air. Refrigerate to marinate 4 to 6 hours.",
-        "Prepare a grill. Remove the salmon from the bag, reserving the marinade. Place the salmon on the grill and cook, turning once, for about 5 minutes on each side, or longer for well done. For extra flavor, lightly drizzle a few tablespoons of the marinade on salmon during grilling. Discard leftover marinade."
+        "Place the salmon in a zip-top bag.",
+        "Mix the soy sauce, orange juice, garlic, mustard, tomato paste, and lemon juice in a bowl.",
+        "Pour into the bag with the salmon.",
+        "Seal the bag, pressing out excess air.",
+        "Refrigerate to marinate 4 to 6 hours.",
+        "Prepare a grill.",
+        "Remove the salmon from the bag, reserving the marinade.",
+        "Place the salmon on the grill and cook, turning once, for about 5 minutes on each side, or longer for well done.",
+        "For extra flavor, lightly drizzle a few tablespoons of the marinade on salmon during grilling.",
+        "Discard leftover marinade."
     ],
     "title": "Asian Citrus-Grilled Salmon",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/140239/",
     "normalized_ingredients": {
-        "772": "wild salmon steaks",
-        "604": "reduced-sodium soy sauce",
-        "527": "orange juice",
-        "370": "garlic",
-        "14": "Dijon mustard",
-        "720": "tomato paste",
-        "467": "lemon"
+        "731": "wild salmon steaks",
+        "572": "reduced-sodium soy sauce",
+        "498": "orange juice",
+        "351": "garlic",
+        "11": "Dijon mustard",
+        "682": "tomato paste",
+        "445": "lemon"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Place the salmon in a zip-top bag. Mix the soy sauce, orange juice, garlic, mustard, tomato paste, and lemon juice in a bowl. Pour into the bag with the salmon. Seal the bag, pressing out excess air. Refrigerate to marinate 4 to 6 hours.",
+        "Prepare a grill. Remove the salmon from the bag, reserving the marinade. Place the salmon on the grill and cook, turning once, for about 5 minutes on each side, or longer for well done. For extra flavor, lightly drizzle a few tablespoons of the marinade on salmon during grilling. Discard leftover marinade."
     ]
 }

@@ -10,23 +10,34 @@
         "2 tablespoons grated Parmesan cheese"
     ],
     "instructions": [
-        "Cook spinach according to package directions; drain. Stir in butter. Place noodles in a greased 11-in. x 7-in. x 2-in. baking dish; top with spinach. Combine turkey, gravy, onion dip and onion salt; spoon over spinach. Sprinkle with Parmesan. Bake, uncovered, at 325 degrees F for 25 minutes or until bubbly."
+        "Cook spinach according to package directions; drain.",
+        "Stir in butter.",
+        "Place noodles in a greased 11-in.",
+        "x 7-in.",
+        "x 2-in.",
+        "baking dish; top with spinach.",
+        "Combine turkey, gravy, onion dip and onion salt; spoon over spinach.",
+        "Sprinkle with Parmesan.",
+        "Bake, uncovered, at 325 degrees F for 25 minutes or until bubbly."
     ],
     "title": "Turkey Florentine",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4213912.jpg",
     "url": "http://allrecipes.com/Recipe/123550/",
     "normalized_ingredients": {
-        "357": "frozen chopped spinach",
-        "135": "butter or margarine",
-        "214": "cooked egg noodles",
-        "278": "diced",
-        "731": "turkey or chicken gravy",
-        "684": "sour cream and onion dip",
-        "523": "onion salt",
-        "387": "grated Parmesan cheese"
+        "339": "frozen chopped spinach",
+        "127": "butter or margarine",
+        "199": "cooked egg noodles",
+        "262": "diced",
+        "693": "turkey or chicken gravy",
+        "643": "sour cream and onion dip",
+        "494": "onion salt",
+        "368": "grated Parmesan cheese"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Cook spinach according to package directions; drain. Stir in butter. Place noodles in a greased 11-in. x 7-in. x 2-in. baking dish; top with spinach. Combine turkey, gravy, onion dip and onion salt; spoon over spinach. Sprinkle with Parmesan. Bake, uncovered, at 325 degrees F for 25 minutes or until bubbly."
     ]
 }

@@ -11,24 +11,34 @@
         "Chopped fresh parsley"
     ],
     "instructions": [
-        "In a large saucepan, combine potatoes, onion, red pepper, butter and chicken broth; bring to a boil. Reduce heat; cover and simmer about 10 minutes or until the potatoes are tender. Remove from the heat. In a small bowl, combine the spinach, bread crumbs and egg white; let stand for 15 minutes. Shape into 1-in. balls; add to soup. Return to a boil; reduce heat and simmer 10-15 minutes or until dumplings are firm. Sprinkle with parsley."
+        "In a large saucepan, combine potatoes, onion, red pepper, butter and chicken broth; bring to a boil.",
+        "Reduce heat; cover and simmer about 10 minutes or until the potatoes are tender.",
+        "Remove from the heat.",
+        "In a small bowl, combine the spinach, bread crumbs and egg white; let stand for 15 minutes.",
+        "Shape into 1-in.",
+        "balls; add to soup.",
+        "Return to a boil; reduce heat and simmer 10-15 minutes or until dumplings are firm.",
+        "Sprinkle with parsley."
     ],
     "title": "Potato Soup with Spinach Dumplings",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/980091.jpg",
     "url": "http://allrecipes.com/Recipe/124631/",
     "normalized_ingredients": {
-        "542": "peeled",
-        "517": "onion",
-        "707": "sweet red pepper",
-        "135": "butter or margarine",
-        "163": "chicken broth",
-        "357": "frozen chopped spinach",
-        "627": "seasoned dry bread crumbs",
-        "321": "egg white",
-        "11": "Chopped fresh parsley"
+        "511": "peeled",
+        "489": "onion",
+        "668": "sweet red pepper",
+        "127": "butter or margarine",
+        "152": "chicken broth",
+        "339": "frozen chopped spinach",
+        "592": "seasoned dry bread crumbs",
+        "305": "egg white",
+        "9": "Chopped fresh parsley"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a large saucepan, combine potatoes, onion, red pepper, butter and chicken broth; bring to a boil. Reduce heat; cover and simmer about 10 minutes or until the potatoes are tender. Remove from the heat. In a small bowl, combine the spinach, bread crumbs and egg white; let stand for 15 minutes. Shape into 1-in. balls; add to soup. Return to a boil; reduce heat and simmer 10-15 minutes or until dumplings are firm. Sprinkle with parsley."
     ]
 }

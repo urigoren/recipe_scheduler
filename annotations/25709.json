@@ -9,22 +9,28 @@
         "salt and pepper to taste"
     ],
     "instructions": [
-        "In a large pot over medium heat, cook garlic in butter until brown. Pour in water and bring to a boil. Stir in bouillon granules, reduce heat and simmer a minimum of 20 minutes. Stir in tomatoes, whisk in eggs and season with salt and pepper just before serving."
+        "In a large pot over medium heat, cook garlic in butter until brown.",
+        "Pour in water and bring to a boil.",
+        "Stir in bouillon granules, reduce heat and simmer a minimum of 20 minutes.",
+        "Stir in tomatoes, whisk in eggs and season with salt and pepper just before serving."
     ],
     "title": "Garlic Soup",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/987333.jpg",
     "url": "http://allrecipes.com/Recipe/25709/",
     "normalized_ingredients": {
-        "252": "crushed garlic",
-        "132": "butter",
-        "753": "water",
-        "161": "chicken bouillon granules",
-        "355": "fresh tomato",
-        "324": "eggs",
-        "621": "salt and pepper to taste"
+        "236": "crushed garlic",
+        "124": "butter",
+        "714": "water",
+        "150": "chicken bouillon granules",
+        "337": "fresh tomato",
+        "307": "eggs",
+        "587": "salt and pepper to taste"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a large pot over medium heat, cook garlic in butter until brown. Pour in water and bring to a boil. Stir in bouillon granules, reduce heat and simmer a minimum of 20 minutes. Stir in tomatoes, whisk in eggs and season with salt and pepper just before serving."
     ]
 }

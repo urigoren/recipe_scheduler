@@ -11,24 +11,30 @@
         "2 pounds beef top round, thinly sliced"
     ],
     "instructions": [
-        "Whisk Worcestershire sauce, soy sauce, paprika, honey, black pepper, red pepper flakes, garlic powder, and onion powder together in a bowl. Add beef to bowl and turn to coat beef completely. Cover the bowl with plastic wrap and marinate in the refrigerator, 3 hours to overnight.",
-        "Preheat oven to 175 degrees F (80 degrees C). Line a baking sheet with aluminum foil and place a wire rack over the foil.",
-        "Transfer beef to paper towels to dry. Discard marinade. Arrange beef slices in a single layer on the prepared wire rack on the baking sheet.",
-        "Bake beef in the preheated oven until dry and leathery, 3 to 4 hours. Cut with scissors into bite-size pieces."
+        "Whisk Worcestershire sauce, soy sauce, paprika, honey, black pepper, red pepper flakes, garlic powder, and onion powder together in a bowl.",
+        "Add beef to bowl and turn to coat beef completely.",
+        "Cover the bowl with plastic wrap and marinate in the refrigerator, 3 hours to overnight.",
+        "Preheat oven to 175 degrees F (80 degrees C).",
+        "Line a baking sheet with aluminum foil and place a wire rack over the foil.",
+        "Transfer beef to paper towels to dry.",
+        "Discard marinade.",
+        "Arrange beef slices in a single layer on the prepared wire rack on the baking sheet.",
+        "Bake beef in the preheated oven until dry and leathery, 3 to 4 hours.",
+        "Cut with scissors into bite-size pieces."
     ],
     "title": "Homemade Beef Jerky",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2191857.jpg",
     "url": "http://allrecipes.com/Recipe/241555/",
     "normalized_ingredients": {
-        "53": "Worcestershire sauce",
-        "685": "soy sauce",
-        "680": "smoked paprika",
-        "438": "honey",
-        "489": "ly ground black pepper",
-        "595": "red pepper flakes",
-        "379": "garlic powder",
-        "520": "onion powder",
-        "95": "beef top round"
+        "47": "Worcestershire sauce",
+        "644": "soy sauce",
+        "639": "smoked paprika",
+        "418": "honey",
+        "466": "ly ground black pepper",
+        "563": "red pepper flakes",
+        "360": "garlic powder",
+        "492": "onion powder",
+        "87": "beef top round"
     },
     "status": 0,
     "labels": [
@@ -36,5 +42,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Whisk Worcestershire sauce, soy sauce, paprika, honey, black pepper, red pepper flakes, garlic powder, and onion powder together in a bowl. Add beef to bowl and turn to coat beef completely. Cover the bowl with plastic wrap and marinate in the refrigerator, 3 hours to overnight.",
+        "Preheat oven to 175 degrees F (80 degrees C). Line a baking sheet with aluminum foil and place a wire rack over the foil.",
+        "Transfer beef to paper towels to dry. Discard marinade. Arrange beef slices in a single layer on the prepared wire rack on the baking sheet.",
+        "Bake beef in the preheated oven until dry and leathery, 3 to 4 hours. Cut with scissors into bite-size pieces."
     ]
 }

@@ -11,26 +11,36 @@
     ],
     "instructions": [
         "Preheat an oven to 350 degrees F (175 degrees C).",
-        "Stir the tomato soup, brown sugar, vinegar, chili powder, celery salt, salt, and soy sauce together in a casserole dish. Lie the chicken into the mixture; turn to coat on all sides. Cover the dish with aluminum foil.",
-        "Bake in the preheated oven for 30 minutes. Turn the oven off and allow the chicken to continue to cook in the oven until it is no longer pink in the center and the juices run clear, about 20 minutes more. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+        "Stir the tomato soup, brown sugar, vinegar, chili powder, celery salt, salt, and soy sauce together in a casserole dish.",
+        "Lie the chicken into the mixture; turn to coat on all sides.",
+        "Cover the dish with aluminum foil.",
+        "Bake in the preheated oven for 30 minutes.",
+        "Turn the oven off and allow the chicken to continue to cook in the oven until it is no longer pink in the center and",
+        "the juices run clear, about 20 minutes more.",
+        "An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
     ],
     "title": "Snoogy Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/246753.jpg",
     "url": "http://allrecipes.com/Recipe/131122/",
     "normalized_ingredients": {
-        "723": "tomato soup",
-        "128": "brown sugar",
-        "289": "distilled white vinegar",
-        "180": "chili powder",
-        "151": "celery salt",
-        "617": "salt",
-        "305": "drops soy sauce",
-        "651": "skinless"
+        "685": "tomato soup",
+        "120": "brown sugar",
+        "273": "distilled white vinegar",
+        "169": "chili powder",
+        "142": "celery salt",
+        "583": "salt",
+        "291": "drops soy sauce",
+        "618": "skinless"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat an oven to 350 degrees F (175 degrees C).",
+        "Stir the tomato soup, brown sugar, vinegar, chili powder, celery salt, salt, and soy sauce together in a casserole dish. Lie the chicken into the mixture; turn to coat on all sides. Cover the dish with aluminum foil.",
+        "Bake in the preheated oven for 30 minutes. Turn the oven off and allow the chicken to continue to cook in the oven until it is no longer pink in the center and the juices run clear, about 20 minutes more. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
     ]
 }

@@ -11,24 +11,29 @@
         "1/2 cup boiling water"
     ],
     "instructions": [
-        "In a small bowl, beat the egg together with 1 tablespoon of the lemon juice. Set aside.",
-        "In a shallow bowl or dish mix together the flour, garlic powder and paprika. Dip the chicken in the egg/lemon mixture, then in the seasoned flour.",
+        "In a small bowl, beat the egg together with 1 tablespoon of the lemon juice.",
+        "Set aside.",
+        "In a shallow bowl or dish mix together the flour, garlic powder and paprika.",
+        "Dip the chicken in the egg/lemon mixture, then in the seasoned flour.",
         "In a large skillet, melt butter/margarine and brown the coated chicken pieces.",
-        "Dissolve the bouillon in the boiling water, then add the remaining 2 tablespoons of lemon juice. Pour liquid into skillet. Cover and let simmer for 20 minutes, turning chicken pieces after 10 minutes, until chicken is tender. Garnish as desired and serve."
+        "Dissolve the bouillon in the boiling water, then add the remaining 2 tablespoons of lemon juice.",
+        "Pour liquid into skillet.",
+        "Cover and let simmer for 20 minutes, turning chicken pieces after 10 minutes, until chicken is tender.",
+        "Garnish as desired and serve."
     ],
     "title": "Chicken Piccata II",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/362075.jpg",
     "url": "http://allrecipes.com/Recipe/8853/",
     "normalized_ingredients": {
-        "651": "skinless",
-        "317": "egg",
-        "468": "lemon juice",
-        "56": "all-purpose flour",
-        "379": "garlic powder",
-        "538": "paprika",
-        "132": "butter",
-        "162": "chicken bouillon powder",
-        "99": "boiling water"
+        "618": "skinless",
+        "301": "egg",
+        "446": "lemon juice",
+        "49": "all-purpose flour",
+        "360": "garlic powder",
+        "507": "paprika",
+        "124": "butter",
+        "151": "chicken bouillon powder",
+        "93": "boiling water"
     },
     "status": 0,
     "labels": [
@@ -36,5 +41,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "In a small bowl, beat the egg together with 1 tablespoon of the lemon juice. Set aside.",
+        "In a shallow bowl or dish mix together the flour, garlic powder and paprika. Dip the chicken in the egg/lemon mixture, then in the seasoned flour.",
+        "In a large skillet, melt butter/margarine and brown the coated chicken pieces.",
+        "Dissolve the bouillon in the boiling water, then add the remaining 2 tablespoons of lemon juice. Pour liquid into skillet. Cover and let simmer for 20 minutes, turning chicken pieces after 10 minutes, until chicken is tender. Garnish as desired and serve."
     ]
 }

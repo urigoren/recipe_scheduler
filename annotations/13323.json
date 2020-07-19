@@ -12,27 +12,33 @@
     ],
     "instructions": [
         "In a saute pan, brown ground beef, over medium heat.",
-        "In a large stock pot, combine broth, water, onion soup mix, tomato sauce, celery, onion, frozen vegetables and macaroni. Bring to a boil and then simmer until macaroni is done.",
+        "In a large stock pot, combine broth, water, onion soup mix, tomato sauce, celery, onion, frozen vegetables and macaroni.",
+        "Bring to a boil and then simmer until macaroni is done.",
         "Add browned ground beef, mix and serve."
     ],
     "title": "Hamburger Vegetable Soup",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/160393.jpg",
     "url": "http://allrecipes.com/Recipe/13323/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "163": "chicken broth",
-        "753": "water",
-        "311": "dry onion soup mix",
-        "722": "tomato sauce",
-        "693": "stalks celery",
-        "517": "onion",
-        "362": "frozen mixed vegetables",
-        "325": "elbow macaroni"
+        "383": "ground beef",
+        "152": "chicken broth",
+        "714": "water",
+        "297": "dry onion soup mix",
+        "684": "tomato sauce",
+        "653": "stalks celery",
+        "489": "onion",
+        "344": "frozen mixed vegetables",
+        "308": "elbow macaroni"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "In a saute pan, brown ground beef, over medium heat.",
+        "In a large stock pot, combine broth, water, onion soup mix, tomato sauce, celery, onion, frozen vegetables and macaroni. Bring to a boil and then simmer until macaroni is done.",
+        "Add browned ground beef, mix and serve."
     ]
 }

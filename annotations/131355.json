@@ -11,24 +11,29 @@
         "3 cups fat-free, reduced-sodium chicken broth"
     ],
     "instructions": [
-        "Combine half-and-half, water, salt, and potatoes in a large saucepan; bring to a boil. Reduce heat and simmer 18 minutes or until potatoes are tender.",
-        "Meanwhile, melt butter in a stockpot over medium-high heat. Add onion and garlic to pan; saute 3 minutes. Add mushrooms; saute 5 minutes. Add broth; bring to a boil.",
+        "Combine half-and-half, water, salt, and potatoes in a large saucepan; bring to a boil.",
+        "Reduce heat and simmer 18 minutes or until potatoes are tender.",
+        "Meanwhile, melt butter in a stockpot over medium-high heat.",
+        "Add onion and garlic to pan; saute 3 minutes.",
+        "Add mushrooms; saute 5 minutes.",
+        "Add broth; bring to a boil.",
         "Reduce heat and simmer 6 minutes.",
-        "Add potato mixture to mushroom mixture; puree in batches. Garnish with chopped fresh thyme if desired."
+        "Add potato mixture to mushroom mixture; puree in batches.",
+        "Garnish with chopped fresh thyme if desired."
     ],
     "title": "Creamy Mushroom Soup",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/131355/",
     "normalized_ingredients": {
-        "426": "half-and-half",
-        "753": "water",
-        "617": "salt",
-        "54": "Yukon Gold potatoes",
-        "132": "butter",
-        "282": "diced onion",
-        "374": "garlic cloves",
-        "65": "assorted mushrooms ",
-        "332": "fat-free"
+        "406": "half-and-half",
+        "714": "water",
+        "583": "salt",
+        "48": "Yukon Gold potatoes",
+        "124": "butter",
+        "266": "diced onion",
+        "355": "garlic cloves",
+        "57": "assorted mushrooms ",
+        "314": "fat-free"
     },
     "status": 0,
     "labels": [
@@ -36,5 +41,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Combine half-and-half, water, salt, and potatoes in a large saucepan; bring to a boil. Reduce heat and simmer 18 minutes or until potatoes are tender.",
+        "Meanwhile, melt butter in a stockpot over medium-high heat. Add onion and garlic to pan; saute 3 minutes. Add mushrooms; saute 5 minutes. Add broth; bring to a boil.",
+        "Reduce heat and simmer 6 minutes.",
+        "Add potato mixture to mushroom mixture; puree in batches. Garnish with chopped fresh thyme if desired."
     ]
 }

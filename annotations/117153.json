@@ -10,25 +10,34 @@
         "2 tablespoons chopped green onion"
     ],
     "instructions": [
-        "Rub steaks with garlic and sprinkle with salt and pepper; set aside. Melt butter in a large skillet. Add the sherry or broth, Worcestershire sauce and onion. Bring to a boil. Reduce heat; simmer, uncovered, for 5 minutes.",
-        "Add the steaks and cook over medium heat for 3-7 minutes on each side or until the meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F, medium, 160 degrees F, well-done, 170 degrees F)."
+        "Rub steaks with garlic and sprinkle with salt and pepper; set aside.",
+        "Melt butter in a large skillet.",
+        "Add the sherry or broth, Worcestershire sauce and onion.",
+        "Bring to a boil.",
+        "Reduce heat; simmer, uncovered, for 5 minutes.",
+        "Add the steaks and cook over medium heat for 3-7 minutes on each side or until the meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F, medium,",
+        "160 degrees F, well-done, 170 degrees F)."
     ],
     "title": "Special Strip Steaks",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/988932.jpg",
     "url": "http://allrecipes.com/Recipe/117153/",
     "normalized_ingredients": {
-        "93": "beef strip steaks",
-        "373": "garlic clove",
-        "617": "salt",
-        "543": "pepper",
-        "132": "butter",
-        "637": "sherry or beef broth",
-        "53": "Worcestershire sauce",
-        "393": "green onion"
+        "84": "beef strip steaks",
+        "354": "garlic clove",
+        "583": "salt",
+        "512": "pepper",
+        "124": "butter",
+        "603": "sherry or beef broth",
+        "47": "Worcestershire sauce",
+        "374": "green onion"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Rub steaks with garlic and sprinkle with salt and pepper; set aside. Melt butter in a large skillet. Add the sherry or broth, Worcestershire sauce and onion. Bring to a boil. Reduce heat; simmer, uncovered, for 5 minutes.",
+        "Add the steaks and cook over medium heat for 3-7 minutes on each side or until the meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F, medium, 160 degrees F, well-done, 170 degrees F)."
     ]
 }

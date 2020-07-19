@@ -11,24 +11,29 @@
         "1 teaspoon minced garlic"
     ],
     "instructions": [
-        "In a large saucepan over medium-high heat, cook beef and onion until meat is no longer pink. Stir in tomatoes, tomato sauce, beans, chili powder, cumin, cayenne and garlic. Cover, reduce heat and simmer 20 minutes."
+        "In a large saucepan over medium-high heat, cook beef and onion until meat is no longer pink.",
+        "Stir in tomatoes, tomato sauce, beans, chili powder, cumin, cayenne and garlic.",
+        "Cover, reduce heat and simmer 20 minutes."
     ],
     "title": "Melanie's Chili",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/58501.jpg",
     "url": "http://allrecipes.com/Recipe/26438/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "517": "onion",
-        "284": "diced tomatoes",
-        "722": "tomato sauce",
-        "561": "pinto beans",
-        "180": "chili powder",
-        "410": "ground cumin",
-        "408": "ground cayenne pepper",
-        "502": "minced garlic"
+        "383": "ground beef",
+        "489": "onion",
+        "268": "diced tomatoes",
+        "684": "tomato sauce",
+        "531": "pinto beans",
+        "169": "chili powder",
+        "391": "ground cumin",
+        "389": "ground cayenne pepper",
+        "351": "garlic"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a large saucepan over medium-high heat, cook beef and onion until meat is no longer pink. Stir in tomatoes, tomato sauce, beans, chili powder, cumin, cayenne and garlic. Cover, reduce heat and simmer 20 minutes."
     ]
 }

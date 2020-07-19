@@ -11,26 +11,34 @@
         "2 tablespoons butter or margarine"
     ],
     "instructions": [
-        "Slice the thawed tofu into very thin slices (like bacon). In a medium bowl, stir together the yeast, water, maple syrup, liquid smoke, soy sauce, onion powder and garlic powder. Place the tofu strips into the bowl to marinate for at least 10 minutes.",
-        "Heat butter or margarine in a large skillet over medium-high heat. Quickly fry tofu strips until crisp, turning once, about 5 minutes. Drain on paper towels, and serve immediately."
+        "Slice the thawed tofu into very thin slices (like bacon).",
+        "In a medium bowl, stir together the yeast, water, maple syrup, liquid smoke, soy sauce, onion powder and garlic powder.",
+        "Place the tofu strips into the bowl to marinate for at least 10 minutes.",
+        "Heat butter or margarine in a large skillet over medium-high heat.",
+        "Quickly fry tofu strips until crisp, turning once, about 5 minutes.",
+        "Drain on paper towels, and serve immediately."
     ],
     "title": "Faken (Veggie Bacon)",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/24593.jpg",
     "url": "http://allrecipes.com/Recipe/22980/",
     "normalized_ingredients": {
-        "679": "smoked firm tofu",
-        "512": "nutritional yeast",
-        "753": "water",
-        "495": "maple syrup",
-        "272": "dash liquid smoke flavoring ",
-        "488": "low-sodium soy sauce",
-        "520": "onion powder",
-        "379": "garlic powder",
-        "135": "butter or margarine"
+        "638": "smoked firm tofu",
+        "484": "nutritional yeast",
+        "714": "water",
+        "472": "maple syrup",
+        "256": "dash liquid smoke flavoring ",
+        "465": "low-sodium soy sauce",
+        "492": "onion powder",
+        "360": "garlic powder",
+        "127": "butter or margarine"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Slice the thawed tofu into very thin slices (like bacon). In a medium bowl, stir together the yeast, water, maple syrup, liquid smoke, soy sauce, onion powder and garlic powder. Place the tofu strips into the bowl to marinate for at least 10 minutes.",
+        "Heat butter or margarine in a large skillet over medium-high heat. Quickly fry tofu strips until crisp, turning once, about 5 minutes. Drain on paper towels, and serve immediately."
     ]
 }

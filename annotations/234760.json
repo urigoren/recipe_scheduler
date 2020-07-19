@@ -11,25 +11,32 @@
         "1 (8 ounce) can no-salt-added tomato sauce, divided"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F (175 degrees C). Grease a 9x5-inch loaf pan.",
-        "Place carrots, celery, onion, garlic, Italian seasoning, and black pepper in a food processor; pulse until vegetables are minced. Transfer vegetable mixture to a large bowl.",
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Grease a 9x5-inch loaf pan.",
+        "Place carrots, celery, onion, garlic, Italian seasoning, and black pepper in a food processor; pulse until vegetables are minced.",
+        "Transfer vegetable mixture to a large bowl.",
         "Process chicken tenderloins in the food processor until ground.",
-        "Stir eggs into vegetable mixture using a fork until incorporated; add half the tomato sauce and mix. Fold chicken into vegetable-tomato sauce mixture; pour into prepared loaf pan.",
-        "Bake in the preheated oven for 1 hour 30 minutes; spread remaining tomato sauce over meatloaf. Continue baking until meatloaf is cooked through, about 30 more minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C). Let cool in pan for 20 minutes before slicing."
+        "Stir eggs into vegetable mixture using a fork until incorporated; add half the tomato sauce and mix.",
+        "Fold chicken into vegetable-tomato sauce mixture; pour into prepared loaf pan.",
+        "Bake in the preheated oven for 1 hour 30 minutes; spread remaining tomato sauce over meatloaf.",
+        "Continue baking until meatloaf is cooked through, about 30 more minutes.",
+        "An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).",
+        "Let cool in pan for 20 minutes before slicing."
     ],
     "title": "Italian Paleo Chicken Meat Loaf",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1963713.jpg",
     "url": "http://allrecipes.com/Recipe/234760/",
     "normalized_ingredients": {
-        "146": "carrots",
-        "153": "celery stalk",
-        "517": "onion",
-        "196": "cloves garlic",
-        "26": "Italian seasoning",
-        "406": "ground black pepper",
-        "172": "chicken tenderloins",
-        "324": "eggs",
-        "511": "no-salt-added tomato sauce"
+        "137": "carrots",
+        "144": "celery stalk",
+        "489": "onion",
+        "183": "cloves garlic",
+        "22": "Italian seasoning",
+        "387": "ground black pepper",
+        "160": "chicken tenderloins",
+        "307": "eggs",
+        "483": "no-salt-added tomato sauce"
     },
     "status": 0,
     "labels": [
@@ -38,5 +45,12 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 350 degrees F (175 degrees C). Grease a 9x5-inch loaf pan.",
+        "Place carrots, celery, onion, garlic, Italian seasoning, and black pepper in a food processor; pulse until vegetables are minced. Transfer vegetable mixture to a large bowl.",
+        "Process chicken tenderloins in the food processor until ground.",
+        "Stir eggs into vegetable mixture using a fork until incorporated; add half the tomato sauce and mix. Fold chicken into vegetable-tomato sauce mixture; pour into prepared loaf pan.",
+        "Bake in the preheated oven for 1 hour 30 minutes; spread remaining tomato sauce over meatloaf. Continue baking until meatloaf is cooked through, about 30 more minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C). Let cool in pan for 20 minutes before slicing."
     ]
 }

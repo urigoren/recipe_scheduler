@@ -10,7 +10,10 @@
         "3 pounds skinless, boneless chicken breasts, cut into strips"
     ],
     "instructions": [
-        "Whisk vegetable oil, chili powder, lime juice, honey, garlic powder, paprika, and black pepper in a bowl to make a marinade. Place chicken strips into a large resealable plastic bag; pour marinade over chicken. Knead bag to coat chicken with marinade. Squeeze out air, seal bag, and refrigerate 4 hours to overnight.",
+        "Whisk vegetable oil, chili powder, lime juice, honey, garlic powder, paprika, and black pepper in a bowl to make a marinade.",
+        "Place chicken strips into a large resealable plastic bag; pour marinade over chicken.",
+        "Knead bag to coat chicken with marinade.",
+        "Squeeze out air, seal bag, and refrigerate 4 hours to overnight.",
         "Preheat an outdoor grill for medium-high heat and lightly oil the grate.",
         "Remove chicken strips from marinade; discard used marinade.",
         "Grill chicken on preheated grill until browned, the juices run clear, and an instant-read meat thermometer inserted into the thickest piece reads at least 160 degrees F (70 degrees C), about 10 minutes per side."
@@ -19,14 +22,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1019437.jpg",
     "url": "http://allrecipes.com/Recipe/231174/",
     "normalized_ingredients": {
-        "747": "vegetable oil",
-        "180": "chili powder",
-        "474": "lime juice",
-        "438": "honey",
-        "379": "garlic powder",
-        "538": "paprika",
-        "406": "ground black pepper",
-        "657": "skinless, boneless chicken breasts"
+        "708": "vegetable oil",
+        "169": "chili powder",
+        "452": "lime juice",
+        "418": "honey",
+        "360": "garlic powder",
+        "507": "paprika",
+        "387": "ground black pepper",
+        "624": "skinless, boneless chicken breasts"
     },
     "status": 0,
     "labels": [
@@ -34,5 +37,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Whisk vegetable oil, chili powder, lime juice, honey, garlic powder, paprika, and black pepper in a bowl to make a marinade. Place chicken strips into a large resealable plastic bag; pour marinade over chicken. Knead bag to coat chicken with marinade. Squeeze out air, seal bag, and refrigerate 4 hours to overnight.",
+        "Preheat an outdoor grill for medium-high heat and lightly oil the grate.",
+        "Remove chicken strips from marinade; discard used marinade.",
+        "Grill chicken on preheated grill until browned, the juices run clear, and an instant-read meat thermometer inserted into the thickest piece reads at least 160 degrees F (70 degrees C), about 10 minutes per side."
     ]
 }

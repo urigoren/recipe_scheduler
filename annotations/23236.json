@@ -11,9 +11,12 @@
         "1/3 cup heavy cream"
     ],
     "instructions": [
-        "Preheat oven to 300 degrees F (150 degrees C).",
-        "Place sausage links on a baking sheet and bake 25 minutes, or until cooked through. Slice into 1/2 inch slices.",
-        "Heat oil in a large saucepan over medium heat. Saute onions until translucent; add garlic and cook 1 minute.",
+        "Preheat oven to 300 degrees F",
+        "(150 degrees C).",
+        "Place sausage links on a baking sheet and bake 25 minutes, or until cooked through.",
+        "Slice into 1/2 inch slices.",
+        "Heat oil in a large saucepan over medium heat.",
+        "Saute onions until translucent; add garlic and cook 1 minute.",
         "Stir in broth, water and potatoes; simmer 15 minutes.",
         "Reduce heat to low and add sausage, kale and cream; simmer until heated through and serve."
     ],
@@ -21,15 +24,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/67355.jpg",
     "url": "http://allrecipes.com/Recipe/23236/",
     "normalized_ingredients": {
-        "479": "links spicy pork sausage",
-        "747": "vegetable oil",
-        "282": "diced onion",
-        "502": "minced garlic",
-        "170": "chicken soup base",
-        "753": "water",
-        "574": "potatoes",
-        "663": "sliced kale",
-        "431": "heavy cream"
+        "457": "links spicy pork sausage",
+        "708": "vegetable oil",
+        "266": "diced onion",
+        "351": "garlic",
+        "158": "chicken soup base",
+        "714": "water",
+        "542": "potatoes",
+        "437": "kale",
+        "412": "heavy cream"
     },
     "status": 0,
     "labels": [
@@ -38,5 +41,12 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 300 degrees F (150 degrees C).",
+        "Place sausage links on a baking sheet and bake 25 minutes, or until cooked through. Slice into 1/2 inch slices.",
+        "Heat oil in a large saucepan over medium heat. Saute onions until translucent; add garlic and cook 1 minute.",
+        "Stir in broth, water and potatoes; simmer 15 minutes.",
+        "Reduce heat to low and add sausage, kale and cream; simmer until heated through and serve."
     ]
 }

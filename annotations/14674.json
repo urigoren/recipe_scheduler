@@ -10,25 +10,35 @@
         "1 teaspoon freshly ground black pepper"
     ],
     "instructions": [
-        "Place steaks in a flat glass dish. Use a big enough dish so that steaks lay flat on the bottom. Toss in your garlic and spices. Pour the bottle of stout, soy sauce, and beef broth over the steaks. Add just enough water to cover the steaks. Cover, and let marinate in the refrigerator overnight (or at least three hours).",
-        "Preheat the oven to broil. Cook steaks to desired doneness."
+        "Place steaks in a flat glass dish.",
+        "Use a big enough dish so that steaks lay flat on the bottom.",
+        "Toss in your garlic and spices.",
+        "Pour the bottle of stout, soy sauce, and beef broth over the steaks.",
+        "Add just enough water to cover the steaks.",
+        "Cover, and let marinate in the refrigerator overnight (or at least three hours).",
+        "Preheat the oven to broil.",
+        "Cook steaks to desired doneness."
     ],
     "title": "Stout Steak",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/4826.jpg",
     "url": "http://allrecipes.com/Recipe/14674/",
     "normalized_ingredients": {
-        "696": "steaks",
-        "526": "or bottle stout beer",
-        "193": "clove crushed garlic",
-        "685": "soy sauce",
-        "203": "condensed beef broth",
-        "300": "dried sage",
-        "520": "onion powder",
-        "489": "ly ground black pepper"
+        "656": "steaks",
+        "497": "or bottle stout beer",
+        "180": "clove crushed garlic",
+        "644": "soy sauce",
+        "189": "condensed beef broth",
+        "286": "dried sage",
+        "492": "onion powder",
+        "466": "ly ground black pepper"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Place steaks in a flat glass dish. Use a big enough dish so that steaks lay flat on the bottom. Toss in your garlic and spices. Pour the bottle of stout, soy sauce, and beef broth over the steaks. Add just enough water to cover the steaks. Cover, and let marinate in the refrigerator overnight (or at least three hours).",
+        "Preheat the oven to broil. Cook steaks to desired doneness."
     ]
 }

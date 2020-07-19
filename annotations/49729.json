@@ -10,25 +10,35 @@
         "1 quart oil for deep frying"
     ],
     "instructions": [
-        "In a large bowl, stir together the bacon, chicken, shrimp and bean sprouts. Season with soy sauce and garlic salt, and mix until well blended. Place a few generous teaspoons onto the center of one egg roll wrapper at a time, and roll up according to the package directions.",
-        "Heat enough oil to cover the rolls completely in a large heavy skillet to 365 degrees F (180 degrees C). Fry rolls a few at a time, turning once, until golden brown. Remove with tongs to drain on paper towels. They are delicious plain, or with plum sauce for dipping."
+        "In a large bowl, stir together the bacon, chicken, shrimp and bean sprouts.",
+        "Season with soy sauce and garlic salt, and mix",
+        "until well blended.",
+        "Place a few generous teaspoons onto the center of one egg roll wrapper at a time, and roll up according to the package directions.",
+        "Heat enough oil to cover the rolls completely in a large heavy skillet to 365 degrees F (180 degrees C).",
+        "Fry rolls a few at a time, turning once, until golden brown.",
+        "Remove with tongs to drain on paper towels.",
+        "They are delicious plain, or with plum sauce for dipping."
     ],
     "title": "Egg Rolls a la Paye",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/778930.jpg",
     "url": "http://allrecipes.com/Recipe/49729/",
     "normalized_ingredients": {
-        "213": "cooked crumbled bacon",
-        "260": "cubed cooked chicken",
-        "649": "shrimp",
-        "82": "bean sprouts",
-        "685": "soy sauce",
-        "382": "garlic salt",
-        "320": "egg roll wrappers",
-        "583": "quart oil for deep frying"
+        "198": "cooked crumbled bacon",
+        "244": "cubed cooked chicken",
+        "616": "shrimp",
+        "73": "bean sprouts",
+        "644": "soy sauce",
+        "363": "garlic salt",
+        "304": "egg roll wrappers",
+        "550": "quart oil for deep frying"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "In a large bowl, stir together the bacon, chicken, shrimp and bean sprouts. Season with soy sauce and garlic salt, and mix until well blended. Place a few generous teaspoons onto the center of one egg roll wrapper at a time, and roll up according to the package directions.",
+        "Heat enough oil to cover the rolls completely in a large heavy skillet to 365 degrees F (180 degrees C). Fry rolls a few at a time, turning once, until golden brown. Remove with tongs to drain on paper towels. They are delicious plain, or with plum sauce for dipping."
     ]
 }

@@ -11,26 +11,36 @@
         "Hot cooked rice"
     ],
     "instructions": [
-        "In a small bowl, combine the cornstarch, broth and soy sauce until smooth; set aside. In a skillet or wok, heat oil; stir-fry the pork and garlic for 5 minutes. Add broccoli coleslaw mix; stir-fry 3-4 minutes longer or until meat is no longer pink and broccoli is crisp-tender.",
-        "Stir cornstarch mixture and add to the pan. Bring to a boil; cook and stir for 1 minute or until thickened. Sprinkle with sesame seeds. Serve with rice if desired."
+        "In a small bowl, combine the cornstarch, broth and soy sauce until smooth; set aside.",
+        "In a skillet or wok, heat oil; stir-fry the pork and garlic for 5 minutes.",
+        "Add broccoli coleslaw mix; stir-fry 3-4 minutes longer or until meat",
+        "is no longer pink and broccoli is crisp-tender.",
+        "Stir cornstarch mixture and add to the pan.",
+        "Bring to a boil; cook and stir for 1 minute or until thickened.",
+        "Sprinkle with sesame seeds.",
+        "Serve with rice if desired."
     ],
     "title": "Sesame Pork",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/117766/",
     "normalized_ingredients": {
-        "231": "cornstarch",
-        "163": "chicken broth",
-        "685": "soy sauce",
-        "747": "vegetable oil",
-        "570": "pork tenderloin",
-        "373": "garlic clove",
-        "125": "broccoli coleslaw mix",
-        "632": "sesame seeds",
-        "22": "Hot cooked rice"
+        "216": "cornstarch",
+        "152": "chicken broth",
+        "644": "soy sauce",
+        "708": "vegetable oil",
+        "538": "pork tenderloin",
+        "354": "garlic clove",
+        "118": "broccoli coleslaw mix",
+        "598": "sesame seeds",
+        "18": "Hot cooked rice"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "In a small bowl, combine the cornstarch, broth and soy sauce until smooth; set aside. In a skillet or wok, heat oil; stir-fry the pork and garlic for 5 minutes. Add broccoli coleslaw mix; stir-fry 3-4 minutes longer or until meat is no longer pink and broccoli is crisp-tender.",
+        "Stir cornstarch mixture and add to the pan. Bring to a boil; cook and stir for 1 minute or until thickened. Sprinkle with sesame seeds. Serve with rice if desired."
     ]
 }

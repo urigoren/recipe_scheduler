@@ -11,28 +11,39 @@
         "1 cup brown sugar, packed"
     ],
     "instructions": [
-        "Place the bacon in a large, deep skillet and cook over medium-high heat until evenly brown. Drain on paper towels, crumble, and set aside. Drain bacon fat from the skillet.",
-        "Using the same skillet, cook the ground beef and onion over medium heat, stirring until the meat is no longer pink, 5 to 7 minutes. Drain.",
-        "Transfer the ground beef to a slow cooker. Add the pinto beans, butter beans, baked beans with pork, barbeque sauce, ketchup, and brown sugar to the ground beef mixture; stir to blend well. Cover and cook for 4 hours on High. Top each serving with crumbled bacon."
+        "Place the bacon in a large, deep skillet and cook over medium-high heat until evenly brown.",
+        "Drain on paper towels, crumble, and set aside.",
+        "Drain bacon fat from the skillet.",
+        "Using the same skillet, cook the ground beef and onion over medium heat, stirring until the meat is no longer pink, 5 to 7 minutes.",
+        "Drain.",
+        "Transfer the ground beef to a slow cooker.",
+        "Add the pinto beans, butter beans, baked beans with pork, barbeque sauce, ketchup, and brown sugar to the ground beef mixture; stir to blend well.",
+        "Cover and cook for 4 hours on High.",
+        "Top each serving with crumbled bacon."
     ],
     "title": "Aunt Ro's Baked Beans",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/993584.jpg",
     "url": "http://allrecipes.com/Recipe/143350/",
     "normalized_ingredients": {
-        "71": "bacon",
-        "402": "ground beef",
-        "517": "onion",
-        "561": "pinto beans",
-        "139": "canned butter beans",
-        "138": "canned baked beans with pork",
-        "78": "barbeque sauce",
-        "459": "ketchup",
-        "128": "brown sugar"
+        "62": "bacon",
+        "383": "ground beef",
+        "489": "onion",
+        "531": "pinto beans",
+        "131": "canned butter beans",
+        "130": "canned baked beans with pork",
+        "69": "barbeque sauce",
+        "438": "ketchup",
+        "120": "brown sugar"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Place the bacon in a large, deep skillet and cook over medium-high heat until evenly brown. Drain on paper towels, crumble, and set aside. Drain bacon fat from the skillet.",
+        "Using the same skillet, cook the ground beef and onion over medium heat, stirring until the meat is no longer pink, 5 to 7 minutes. Drain.",
+        "Transfer the ground beef to a slow cooker. Add the pinto beans, butter beans, baked beans with pork, barbeque sauce, ketchup, and brown sugar to the ground beef mixture; stir to blend well. Cover and cook for 4 hours on High. Top each serving with crumbled bacon."
     ]
 }

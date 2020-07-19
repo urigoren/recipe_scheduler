@@ -10,27 +10,40 @@
         "1 tablespoon poultry seasoning"
     ],
     "instructions": [
-        "Combine chicken stock and wild rice in a saucepan. Cover and bring to a boil over high heat. Reduce heat and simmer until rice is tender, about 45 minutes. Remove from heat.",
-        "Melt the butter in a large skillet. Add the mushrooms, celery, and onion. Cook and stir until the vegetables are soft, about 5 minutes.",
-        "In a large bowl, mix the crumbled cornbread and poultry seasoning. Add the rice with chicken broth and the vegetables and mix well. Use to stuff a turkey or bake on its own. More chicken stock can be added if stuffing is dry."
+        "Combine chicken stock and wild rice in a saucepan.",
+        "Cover and bring to a boil over high heat.",
+        "Reduce heat and simmer until rice is tender, about 45 minutes.",
+        "Remove from heat.",
+        "Melt the butter in a large skillet.",
+        "Add the mushrooms, celery, and onion.",
+        "Cook and stir until the vegetables are soft, about 5 minutes.",
+        "In a large bowl, mix the crumbled cornbread and poultry seasoning.",
+        "Add the rice with chicken broth and the vegetables and mix well.",
+        "Use to stuff a turkey or bake on its own.",
+        "More chicken stock can be added if stuffing is dry."
     ],
     "title": "Amber's Super Stuffing",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1001108.jpg",
     "url": "http://allrecipes.com/Recipe/9068/",
     "normalized_ingredients": {
-        "171": "chicken stock",
-        "771": "wild rice",
-        "132": "butter",
-        "664": "sliced mushrooms",
-        "150": "celery",
-        "517": "onion",
-        "222": "corn bread stuffing mix",
-        "577": "poultry seasoning"
+        "159": "chicken stock",
+        "730": "wild rice",
+        "124": "butter",
+        "625": "sliced mushrooms",
+        "141": "celery",
+        "489": "onion",
+        "208": "corn bread stuffing mix",
+        "544": "poultry seasoning"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Combine chicken stock and wild rice in a saucepan. Cover and bring to a boil over high heat. Reduce heat and simmer until rice is tender, about 45 minutes. Remove from heat.",
+        "Melt the butter in a large skillet. Add the mushrooms, celery, and onion. Cook and stir until the vegetables are soft, about 5 minutes.",
+        "In a large bowl, mix the crumbled cornbread and poultry seasoning. Add the rice with chicken broth and the vegetables and mix well. Use to stuff a turkey or bake on its own. More chicken stock can be added if stuffing is dry."
     ]
 }

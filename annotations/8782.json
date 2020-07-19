@@ -11,28 +11,38 @@
         "4 tablespoons cornstarch"
     ],
     "instructions": [
-        "TO MAKE MARINADE: Combine the soy sauce, red chili powder, red food coloring, vinegar, garlic and green chiles. Mix well.",
-        "On each chicken wing, push the meat down to one end. Marinate the wings for AT LEAST 1/2 hour.",
-        "Remove the wings from the marinade and add the cornstarch to the marinade to make a batter. Dip the wings in the batter and deep fry. Ready to serve!"
+        "TO MAKE MARINADE",
+        ": Combine the soy sauce, red chili powder, red food coloring, vinegar, garlic and green chiles.",
+        "Mix well.",
+        "On each chicken wing, push the meat down to one end.",
+        "Marinate the wings for AT LEAST 1/2 hour.",
+        "Remove the wings from the marinade and add the cornstarch to the marinade to make a batter.",
+        "Dip the wings in the batter and deep fry.",
+        "Ready to serve!"
     ],
     "title": "Chicken Lollipops",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/212616.jpg",
     "url": "http://allrecipes.com/Recipe/8782/",
     "normalized_ingredients": {
-        "174": "chicken wings",
-        "617": "salt",
-        "685": "soy sauce",
-        "180": "chili powder",
-        "303": "drop red food coloring",
-        "289": "distilled white vinegar",
-        "370": "garlic",
-        "339": "finely chopped green chile peppers",
-        "231": "cornstarch"
+        "162": "chicken wings",
+        "583": "salt",
+        "644": "soy sauce",
+        "169": "chili powder",
+        "289": "drop red food coloring",
+        "273": "distilled white vinegar",
+        "351": "garlic",
+        "320": "finely chopped green chile peppers",
+        "216": "cornstarch"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "TO MAKE MARINADE: Combine the soy sauce, red chili powder, red food coloring, vinegar, garlic and green chiles. Mix well.",
+        "On each chicken wing, push the meat down to one end. Marinate the wings for AT LEAST 1/2 hour.",
+        "Remove the wings from the marinade and add the cornstarch to the marinade to make a batter. Dip the wings in the batter and deep fry. Ready to serve!"
     ]
 }

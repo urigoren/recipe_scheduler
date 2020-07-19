@@ -9,24 +9,32 @@
         "1/4 teaspoon paprika"
     ],
     "instructions": [
-        "In a large bowl, combine all ingredients. Pour into a greased 11-in. x 7-in. x 2-in. baking dish.",
+        "In a large bowl, combine all ingredients.",
+        "Pour into a greased 11-in.",
+        "x 7-in.",
+        "x 2-in.",
+        "baking dish.",
         "Bake, uncovered, at 400 degrees for 25-30 minutes or until the top and edges are golden brown."
     ],
     "title": "Corn Bread Casserole",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/992964.jpg",
     "url": "http://allrecipes.com/Recipe/42500/",
     "normalized_ingredients": {
-        "765": "whole kernel corn",
-        "141": "canned cream-style corn",
-        "223": "corn bread/muffin mix",
-        "317": "egg",
-        "135": "butter or margarine",
-        "379": "garlic powder",
-        "538": "paprika"
+        "724": "whole kernel corn",
+        "133": "canned cream-style corn",
+        "209": "corn bread/muffin mix",
+        "301": "egg",
+        "127": "butter or margarine",
+        "360": "garlic powder",
+        "507": "paprika"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "In a large bowl, combine all ingredients. Pour into a greased 11-in. x 7-in. x 2-in. baking dish.",
+        "Bake, uncovered, at 400 degrees for 25-30 minutes or until the top and edges are golden brown."
     ]
 }

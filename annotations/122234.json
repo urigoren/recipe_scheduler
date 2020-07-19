@@ -11,24 +11,34 @@
         "8 slices tomato"
     ],
     "instructions": [
-        "Pound chicken to flatten evenly; set aside. In a skillet, melt 3 tablespoons of butter; add garlic and 1/2 teaspoon dill. Add chicken; cook until juices run clear. Remove and keep warm. Spread both sides of bread with remaining butter. In a skillet or griddle, grill bread on both sides until golden brown. In a small bowl, combine cream cheese, lemon juice and remaining dill; spread on one side of grilled bread. Place lettuce, chicken and tomato on four slices of bread; top with remaining bread."
+        "Pound chicken to flatten evenly; set aside.",
+        "In a skillet, melt 3 tablespoons of butter; add garlic and 1/2 teaspoon dill.",
+        "Add chicken; cook until juices run clear.",
+        "Remove and keep warm.",
+        "Spread both sides of bread with remaining butter.",
+        "In a skillet or griddle, grill bread on both sides until golden brown.",
+        "In a small bowl, combine cream cheese, lemon juice and remaining dill; spread on one side of grilled bread.",
+        "Place lettuce, chicken and tomato on four slices of bread; top with remaining bread."
     ],
     "title": "Dilly Chicken Sandwiches",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/975709.jpg",
     "url": "http://allrecipes.com/Recipe/122234/",
     "normalized_ingredients": {
-        "104": "boneless",
-        "136": "butter or margarine, softened",
-        "373": "garlic clove",
-        "292": "dried dill weed",
-        "668": "slices French bread",
-        "237": "cream cheese",
-        "468": "lemon juice",
-        "470": "lettuce leaves",
-        "678": "slices tomato"
+        "98": "boneless",
+        "128": "butter or margarine, softened",
+        "354": "garlic clove",
+        "277": "dried dill weed",
+        "628": "slices French bread",
+        "221": "cream cheese",
+        "446": "lemon juice",
+        "448": "lettuce leaves",
+        "637": "slices tomato"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Pound chicken to flatten evenly; set aside. In a skillet, melt 3 tablespoons of butter; add garlic and 1/2 teaspoon dill. Add chicken; cook until juices run clear. Remove and keep warm. Spread both sides of bread with remaining butter. In a skillet or griddle, grill bread on both sides until golden brown. In a small bowl, combine cream cheese, lemon juice and remaining dill; spread on one side of grilled bread. Place lettuce, chicken and tomato on four slices of bread; top with remaining bread."
     ]
 }

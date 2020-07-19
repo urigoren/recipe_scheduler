@@ -11,22 +11,27 @@
     ],
     "instructions": [
         "Rinse the shark steaks and trim off any skin.",
-        "Mix together the soy sauce, Worcestershire sauce, onion powder, garlic salt, thyme, black pepper, and chili powder in a small bowl to form a paste. Spread a thin layer of the soy sauce mixture on both sides of each shark steak. Place on a plate and cover. Allow to marinate in the refrigerator at least 30 minutes.",
-        "Preheat oven to 325 degrees F (165 degrees C).",
-        "Arrange the shark on a baking sheet. Bake the shark in the preheated oven until cooked completely through, about 40 minutes, turning the steaks over once, about half-way through the cooking time."
+        "Mix together the soy sauce, Worcestershire sauce, onion powder, garlic salt, thyme, black pepper, and chili powder in a small bowl to form a paste.",
+        "Spread a thin layer of the soy sauce mixture on both sides of each shark steak.",
+        "Place on a plate and cover.",
+        "Allow to marinate in the refrigerator at least 30 minutes.",
+        "Preheat oven to 325 degrees F",
+        "(165 degrees C).",
+        "Arrange the shark on a baking sheet.",
+        "Bake the shark in the preheated oven until cooked completely through, about 40 minutes, turning the steaks over once, about half-way through the cooking time."
     ],
     "title": "Seven Spiced Shark Steaks",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2096799.jpg",
     "url": "http://allrecipes.com/Recipe/157920/",
     "normalized_ingredients": {
-        "633": "shark steaks",
-        "685": "soy sauce",
-        "53": "Worcestershire sauce",
-        "520": "onion powder",
-        "382": "garlic salt",
-        "353": "fresh thyme",
-        "406": "ground black pepper",
-        "180": "chili powder"
+        "599": "shark steaks",
+        "644": "soy sauce",
+        "47": "Worcestershire sauce",
+        "492": "onion powder",
+        "363": "garlic salt",
+        "335": "fresh thyme",
+        "387": "ground black pepper",
+        "169": "chili powder"
     },
     "status": 0,
     "labels": [
@@ -34,5 +39,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Rinse the shark steaks and trim off any skin.",
+        "Mix together the soy sauce, Worcestershire sauce, onion powder, garlic salt, thyme, black pepper, and chili powder in a small bowl to form a paste. Spread a thin layer of the soy sauce mixture on both sides of each shark steak. Place on a plate and cover. Allow to marinate in the refrigerator at least 30 minutes.",
+        "Preheat oven to 325 degrees F (165 degrees C).",
+        "Arrange the shark on a baking sheet. Bake the shark in the preheated oven until cooked completely through, about 40 minutes, turning the steaks over once, about half-way through the cooking time."
     ]
 }

@@ -10,27 +10,35 @@
         "1/4 cup minced onion"
     ],
     "instructions": [
-        "Preheat oven to 375 degrees F (190 degrees C). Spray a baking sheet with cooking spray.",
-        "Mix tuna, egg, bread crumbs, garlic salt, and black pepper and fold in diced tomatoes and onion. Form the mixture into 4 patties and place onto prepared baking sheet.",
+        "Preheat oven to 375 degrees F",
+        "(190 degrees C).",
+        "Spray a baking sheet with cooking spray.",
+        "Mix tuna, egg, bread crumbs, garlic salt, and black pepper and fold in diced tomatoes and onion.",
+        "Form the mixture into 4 patties and place onto prepared baking sheet.",
         "Bake in the preheated oven until burgers are golden brown and crisp, about 10 minutes per side."
     ],
     "title": "Thirty-Minute Baked Tuna Burgers",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/847509.jpg",
     "url": "http://allrecipes.com/Recipe/222540/",
     "normalized_ingredients": {
-        "219": "cooking spray",
-        "728": "tuna in water",
-        "317": "egg",
-        "306": "dry bread crumbs",
-        "382": "garlic salt",
-        "406": "ground black pepper",
-        "284": "diced tomatoes",
-        "503": "minced onion"
+        "205": "cooking spray",
+        "690": "tuna in water",
+        "301": "egg",
+        "292": "dry bread crumbs",
+        "363": "garlic salt",
+        "387": "ground black pepper",
+        "268": "diced tomatoes",
+        "489": "onion"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 375 degrees F (190 degrees C). Spray a baking sheet with cooking spray.",
+        "Mix tuna, egg, bread crumbs, garlic salt, and black pepper and fold in diced tomatoes and onion. Form the mixture into 4 patties and place onto prepared baking sheet.",
+        "Bake in the preheated oven until burgers are golden brown and crisp, about 10 minutes per side."
     ]
 }

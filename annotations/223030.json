@@ -9,20 +9,26 @@
     ],
     "instructions": [
         "Preheat grill for medium heat and lightly oil the grate.",
-        "Place chicken breasts in a shallow baking dish. Whisk soy sauce, garlic, and red pepper flakes in a bowl; pour over chicken, turning to coat. Allow chicken to marinate for 10 minutes.",
+        "Place chicken breasts in a shallow baking dish.",
+        "Whisk soy sauce, garlic, and red pepper flakes in a bowl; pour over chicken, turning to coat.",
+        "Allow chicken to marinate for 10 minutes.",
         "Whisk honey and lime juice in a bowl; set aside.",
-        "Place chicken on preheated grill; brush with marinade. Discard remaining marinade. Cover grill and cook for 5 minutes, then brush both sides with honey lime mixture. Flip chicken and continue cooking until no longer pink in the center and the juices run clear, about 5 more minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+        "Place chicken on preheated grill; brush with marinade.",
+        "Discard remaining marinade.",
+        "Cover grill and cook for 5 minutes, then brush both sides with honey lime mixture.",
+        "Flip chicken and continue cooking until no longer pink in the center and the juices run clear, about 5 more minutes.",
+        "An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
     ],
     "title": "Thai Grilled Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2493703.jpg",
     "url": "http://allrecipes.com/Recipe/223030/",
     "normalized_ingredients": {
-        "651": "skinless",
-        "685": "soy sauce",
-        "502": "minced garlic",
-        "595": "red pepper flakes",
-        "438": "honey",
-        "474": "lime juice"
+        "618": "skinless",
+        "644": "soy sauce",
+        "351": "garlic",
+        "563": "red pepper flakes",
+        "418": "honey",
+        "452": "lime juice"
     },
     "status": 0,
     "labels": [
@@ -30,5 +36,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat grill for medium heat and lightly oil the grate.",
+        "Place chicken breasts in a shallow baking dish. Whisk soy sauce, garlic, and red pepper flakes in a bowl; pour over chicken, turning to coat. Allow chicken to marinate for 10 minutes.",
+        "Whisk honey and lime juice in a bowl; set aside.",
+        "Place chicken on preheated grill; brush with marinade. Discard remaining marinade. Cover grill and cook for 5 minutes, then brush both sides with honey lime mixture. Flip chicken and continue cooking until no longer pink in the center and the juices run clear, about 5 more minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
     ]
 }

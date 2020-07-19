@@ -9,24 +9,29 @@
         "1/2 teaspoon garlic powder"
     ],
     "instructions": [
-        "Stir lean ground beef, water, tomato sauce, chili seasoning mix, yellow mustard, onion powder, and garlic powder together in a large saucepan; bring to a boil, stirring often. Cover, reduce heat to low, and simmer until ground beef is no longer pink, about 10 minutes.",
+        "Stir lean ground beef, water, tomato sauce, chili seasoning mix, yellow mustard, onion powder, and garlic powder together in a large saucepan; bring to a boil, stirring often.",
+        "Cover, reduce heat to low, and simmer until ground beef is no longer pink, about 10 minutes.",
         "Remove lid and simmer sauce until thickened, about 20 more minutes."
     ],
     "title": "Chili Style Coney Sauce",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3584656.jpg",
     "url": "http://allrecipes.com/Recipe/230895/",
     "normalized_ingredients": {
-        "464": "lean ground beef",
-        "753": "water",
-        "722": "tomato sauce",
-        "184": "chili seasoning mix",
-        "580": "prepared yellow mustard",
-        "520": "onion powder",
-        "379": "garlic powder"
+        "443": "lean ground beef",
+        "714": "water",
+        "684": "tomato sauce",
+        "173": "chili seasoning mix",
+        "547": "prepared yellow mustard",
+        "492": "onion powder",
+        "360": "garlic powder"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Stir lean ground beef, water, tomato sauce, chili seasoning mix, yellow mustard, onion powder, and garlic powder together in a large saucepan; bring to a boil, stirring often. Cover, reduce heat to low, and simmer until ground beef is no longer pink, about 10 minutes.",
+        "Remove lid and simmer sauce until thickened, about 20 more minutes."
     ]
 }

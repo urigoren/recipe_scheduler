@@ -6,19 +6,26 @@
         "2 tablespoons soy sauce"
     ],
     "instructions": [
-        "Place pork chops in a greased broiler pan. In a bowl, combine the chili sauce, honey and soy sauce. Pour over pork. Broil 4 in. from the heat for 5-7 minutes or until meat juices run clear."
+        "Place pork chops in a greased broiler pan.",
+        "In a bowl, combine the chili sauce, honey and soy sauce.",
+        "Pour over pork.",
+        "Broil 4 in.",
+        "from the heat for 5-7 minutes or until meat juices run clear."
     ],
     "title": "Sweet and Sour Pork Chops",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/853327.jpg",
     "url": "http://allrecipes.com/Recipe/118295/",
     "normalized_ingredients": {
-        "113": "boneless pork loin chops",
-        "183": "chili sauce",
-        "438": "honey",
-        "685": "soy sauce"
+        "107": "boneless pork loin chops",
+        "172": "chili sauce",
+        "418": "honey",
+        "644": "soy sauce"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Place pork chops in a greased broiler pan. In a bowl, combine the chili sauce, honey and soy sauce. Pour over pork. Broil 4 in. from the heat for 5-7 minutes or until meat juices run clear."
     ]
 }

@@ -9,24 +9,31 @@
         "1 1/2 cups low-fat milk"
     ],
     "instructions": [
-        "Heat a large skillet over medium-high heat; stir in the ground beef, chicken bouillon, garlic powder, black pepper, and onion powder. Cook and stir until the beef is crumbly, evenly browned, and no longer pink, about 7 minutes.",
-        "Stir in the flour and cook for 3 minutes, stirring constantly. Stir in the milk and bring to a simmer, stirring constantly. Reduce heat to medium-low, and simmer 5 minutes to thicken."
+        "Heat a large skillet over medium-high heat; stir in the ground beef, chicken bouillon, garlic powder, black pepper, and onion powder.",
+        "Cook and stir until the beef is crumbly, evenly browned, and no longer pink, about 7 minutes.",
+        "Stir in the flour and cook for 3 minutes, stirring constantly.",
+        "Stir in the milk and bring to a simmer, stirring constantly.",
+        "Reduce heat to medium-low, and simmer 5 minutes to thicken."
     ],
     "title": "Creamed Beef for SOS",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4431719.jpg",
     "url": "http://allrecipes.com/Recipe/61285/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "264": "cubes chicken bouillon",
-        "379": "garlic powder",
-        "406": "ground black pepper",
-        "520": "onion powder",
-        "56": "all-purpose flour",
-        "487": "low-fat milk"
+        "383": "ground beef",
+        "248": "cubes chicken bouillon",
+        "360": "garlic powder",
+        "387": "ground black pepper",
+        "492": "onion powder",
+        "49": "all-purpose flour",
+        "464": "low-fat milk"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Heat a large skillet over medium-high heat; stir in the ground beef, chicken bouillon, garlic powder, black pepper, and onion powder. Cook and stir until the beef is crumbly, evenly browned, and no longer pink, about 7 minutes.",
+        "Stir in the flour and cook for 3 minutes, stirring constantly. Stir in the milk and bring to a simmer, stirring constantly. Reduce heat to medium-low, and simmer 5 minutes to thicken."
     ]
 }

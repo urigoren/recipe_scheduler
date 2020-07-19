@@ -11,26 +11,36 @@
         "garlic powder to taste"
     ],
     "instructions": [
-        "In a skillet, melt butter over medium heat. Mix in soup mix and white wine. Arrange chicken livers in pan, and cook until browned and cooked though.",
-        "Place shelled pistachio nuts in food processor and pulse to grind. Add cream cheese and water; process until smooth. Add chicken livers, and process until smooth. Season to taste with onion and garlic powder. Chill."
+        "In a skillet, melt butter over medium heat.",
+        "Mix in soup mix and white wine.",
+        "Arrange chicken livers in pan, and cook until browned and cooked though.",
+        "Place shelled pistachio nuts in food processor and pulse to grind.",
+        "Add cream cheese and water; process until smooth.",
+        "Add chicken livers, and process until smooth.",
+        "Season to taste with onion and garlic powder.",
+        "Chill."
     ],
     "title": "Chicken Liver and Pistachio Nut Pate",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1083483.jpg",
     "url": "http://allrecipes.com/Recipe/106850/",
     "normalized_ingredients": {
-        "744": "unsalted butter",
-        "327": "envelope dry onion soup mix",
-        "761": "white wine",
-        "167": "chicken livers",
-        "635": "shelled pistachio nuts",
-        "237": "cream cheese",
-        "753": "water",
-        "521": "onion powder to taste",
-        "381": "garlic powder to taste"
+        "705": "unsalted butter",
+        "309": "envelope dry onion soup mix",
+        "721": "white wine",
+        "155": "chicken livers",
+        "601": "shelled pistachio nuts",
+        "221": "cream cheese",
+        "714": "water",
+        "493": "onion powder to taste",
+        "362": "garlic powder to taste"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "In a skillet, melt butter over medium heat. Mix in soup mix and white wine. Arrange chicken livers in pan, and cook until browned and cooked though.",
+        "Place shelled pistachio nuts in food processor and pulse to grind. Add cream cheese and water; process until smooth. Add chicken livers, and process until smooth. Season to taste with onion and garlic powder. Chill."
     ]
 }

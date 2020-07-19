@@ -11,26 +11,33 @@
         "1/2 teaspoon crushed red pepper flakes"
     ],
     "instructions": [
-        "Cut each tenderloin into 12 slices; sprinkle with salt. In a large nonstick skillet coated with nonstick cooking spray, brown pork in batches in butter over medium heat for 3-4 minutes on each side. Return all pork to the skillet.",
-        "Combine the remaining ingredients; pour over pork. Cook and stir over low heat for 2-3 minutes or until sauce is thickened."
+        "Cut each tenderloin into 12 slices; sprinkle with salt.",
+        "In a large nonstick skillet coated with nonstick cooking spray, brown pork in batches in butter over medium heat for 3-4 minutes on each side.",
+        "Return all pork to the skillet.",
+        "Combine the remaining ingredients; pour over pork.",
+        "Cook and stir over low heat for 2-3 minutes or until sauce is thickened."
     ],
     "title": "Tenderloin with Herb Sauce",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/990263.jpg",
     "url": "http://allrecipes.com/Recipe/117812/",
     "normalized_ingredients": {
-        "573": "pork tenderloins",
-        "617": "salt",
-        "132": "butter",
-        "427": "half-and-half cream",
-        "501": "minced fresh parsley",
-        "434": "herbes de Provence",
-        "604": "reduced-sodium soy sauce",
-        "84": "beef bouillon granules",
-        "254": "crushed red pepper flakes"
+        "541": "pork tenderloins",
+        "583": "salt",
+        "124": "butter",
+        "407": "half-and-half cream",
+        "333": "fresh parsley",
+        "415": "herbes de Provence",
+        "572": "reduced-sodium soy sauce",
+        "75": "beef bouillon granules",
+        "238": "crushed red pepper flakes"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Cut each tenderloin into 12 slices; sprinkle with salt. In a large nonstick skillet coated with nonstick cooking spray, brown pork in batches in butter over medium heat for 3-4 minutes on each side. Return all pork to the skillet.",
+        "Combine the remaining ingredients; pour over pork. Cook and stir over low heat for 2-3 minutes or until sauce is thickened."
     ]
 }

@@ -8,21 +8,27 @@
         "1/4 teaspoon chili powder"
     ],
     "instructions": [
-        "In a large saucepan, cook beef over medium heat until no longer pink; drain. Add the remaining ingredients. Bring to a boil. Reduce heat; simmer, uncovered, for 15-20 minutes or until macaroni is tender."
+        "In a large saucepan, cook beef over medium heat until no longer pink; drain.",
+        "Add the remaining ingredients.",
+        "Bring to a boil.",
+        "Reduce heat; simmer, uncovered, for 15-20 minutes or until macaroni is tender."
     ],
     "title": "Beefy Tomato Soup",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2070256.jpg",
     "url": "http://allrecipes.com/Recipe/121736/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "585": "quart tomato juice",
-        "753": "water",
-        "736": "uncooked elbow macaroni",
-        "328": "envelope onion soup mix",
-        "180": "chili powder"
+        "383": "ground beef",
+        "552": "quart tomato juice",
+        "714": "water",
+        "698": "uncooked elbow macaroni",
+        "310": "envelope onion soup mix",
+        "169": "chili powder"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a large saucepan, cook beef over medium heat until no longer pink; drain. Add the remaining ingredients. Bring to a boil. Reduce heat; simmer, uncovered, for 15-20 minutes or until macaroni is tender."
     ]
 }

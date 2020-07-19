@@ -7,7 +7,9 @@
         "4 pork chops"
     ],
     "instructions": [
-        "In a shallow dish, combine the soy sauce, vinegar, honey and garlic powder. Place chops in dish, and turn to coat. Cover, and marinate for 2 to 4 hours in the refrigerator.",
+        "In a shallow dish, combine the soy sauce, vinegar, honey and garlic powder.",
+        "Place chops in dish, and turn to coat.",
+        "Cover, and marinate for 2 to 4 hours in the refrigerator.",
         "Preheat grill to high heat, and lightly oil grate.",
         "Grill steaks 5 to 8 minutes per side, or to desired doneness."
     ],
@@ -15,16 +17,21 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/475643.jpg",
     "url": "http://allrecipes.com/Recipe/14715/",
     "normalized_ingredients": {
-        "685": "soy sauce",
-        "598": "red wine vinegar",
-        "438": "honey",
-        "379": "garlic powder",
-        "565": "pork chops"
+        "644": "soy sauce",
+        "566": "red wine vinegar",
+        "418": "honey",
+        "360": "garlic powder",
+        "534": "pork chops"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "In a shallow dish, combine the soy sauce, vinegar, honey and garlic powder. Place chops in dish, and turn to coat. Cover, and marinate for 2 to 4 hours in the refrigerator.",
+        "Preheat grill to high heat, and lightly oil grate.",
+        "Grill steaks 5 to 8 minutes per side, or to desired doneness."
     ]
 }

@@ -10,27 +10,37 @@
         "1/2 lemon"
     ],
     "instructions": [
-        "Whisk flour, garlic powder, and paprika together in a bowl. Beat egg in a separate bowl. Melt butter in a skillet over medium heat.",
-        "Dip chicken in egg until coated. Dredge chicken through flour mixture until evenly coated, shaking off excess.",
-        "Fry chicken in the melted butter until browned, 2 to 3 minutes per side. Add chicken broth to skillet, cover, and cook until chicken is not longer pink in the center, about 20 minutes. Squeeze lemon over chicken."
+        "Whisk flour, garlic powder, and paprika together in a bowl.",
+        "Beat egg in a separate bowl.",
+        "Melt butter in a skillet over medium heat.",
+        "Dip chicken in egg until coated.",
+        "Dredge chicken through flour mixture until evenly coated, shaking off excess.",
+        "Fry chicken in the melted butter until browned, 2 to 3 minutes per side.",
+        "Add chicken broth to skillet, cover, and cook until chicken is not longer pink in the center, about 20 minutes.",
+        "Squeeze lemon over chicken."
     ],
     "title": "Home-Style Chicken Piccata",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2802018.jpg",
     "url": "http://allrecipes.com/Recipe/244146/",
     "normalized_ingredients": {
-        "56": "all-purpose flour",
-        "379": "garlic powder",
-        "538": "paprika",
-        "317": "egg",
-        "132": "butter",
-        "651": "skinless",
-        "163": "chicken broth",
-        "467": "lemon"
+        "49": "all-purpose flour",
+        "360": "garlic powder",
+        "507": "paprika",
+        "301": "egg",
+        "124": "butter",
+        "618": "skinless",
+        "152": "chicken broth",
+        "445": "lemon"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Whisk flour, garlic powder, and paprika together in a bowl. Beat egg in a separate bowl. Melt butter in a skillet over medium heat.",
+        "Dip chicken in egg until coated. Dredge chicken through flour mixture until evenly coated, shaking off excess.",
+        "Fry chicken in the melted butter until browned, 2 to 3 minutes per side. Add chicken broth to skillet, cover, and cook until chicken is not longer pink in the center, about 20 minutes. Squeeze lemon over chicken."
     ]
 }

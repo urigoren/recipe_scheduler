@@ -10,23 +10,34 @@
         "1 frozen puff pastry sheet, thawed, cut in half"
     ],
     "instructions": [
-        "In a small bowl, use a fork to combine crushed garlic and egg yolk. Place chicken breasts in a shallow glass dish and spread both sides with egg mixture. Cover dish with plastic wrap and refrigerate 4 hours, or overnight (recommended).",
-        "Preheat oven to 375 degrees F (190 degrees C). Grease a baking sheet.",
-        "Place one half of the puff pastry sheet on a lightly floured board. Place 1/2 cup spinach in the center of the pastry sheet. Remove one chicken breast from marinade, shaking off any excess, and place on top of spinach. Spread 1 tablespoon pesto over chicken, layer with half the sun-dried tomatoes, sprinkle with half the feta cheese, and top with 1/2 cup spinach. Fold pastry sheet around chicken, using fingers or fork to seal pastry seam. Place chicken seam side down on baking sheet. Repeat steps with the second half of the puff pastry sheet and remaining chicken breast.",
-        "Bake 35 to 40 minutes. Test for doneness by cutting through center of chicken breast; if juices run clear, chicken is cooked."
+        "In a small bowl, use a fork to combine crushed garlic and egg yolk.",
+        "Place chicken breasts in a shallow glass dish and spread both sides with egg mixture.",
+        "Cover dish with plastic wrap and refrigerate 4 hours, or overnight (recommended).",
+        "Preheat oven to 375 degrees F",
+        "(190 degrees C).",
+        "Grease a baking sheet.",
+        "Place one half of the puff pastry sheet on a lightly floured board.",
+        "Place 1/2 cup spinach in the center of the pastry sheet.",
+        "Remove one chicken breast from marinade, shaking off any excess, and place on top of spinach.",
+        "Spread 1 tablespoon pesto over chicken, layer with half the sun-dried tomatoes, sprinkle with half the feta cheese, and top with 1/2 cup spinach.",
+        "Fold pastry sheet around chicken, using fingers or fork to seal pastry seam.",
+        "Place chicken seam side down on baking sheet.",
+        "Repeat steps with the second half of the puff pastry sheet and remaining chicken breast.",
+        "Bake 35 to 40 minutes.",
+        "Test for doneness by cutting through center of chicken breast; if juices run clear, chicken is cooked."
     ],
     "title": "Mediterranean Puff Pastry Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/130217.jpg",
     "url": "http://allrecipes.com/Recipe/140729/",
     "normalized_ingredients": {
-        "252": "crushed garlic",
-        "323": "egg yolk",
-        "352": "fresh spinach",
-        "114": "boneless skinless chicken breast halves",
-        "79": "basil pesto",
-        "705": "sun-dried tomatoes",
-        "248": "crumbled herbed feta cheese",
-        "366": "frozen puff pastry sheet, thawed"
+        "236": "crushed garlic",
+        "306": "egg yolk",
+        "334": "fresh spinach",
+        "108": "boneless skinless chicken breast halves",
+        "70": "basil pesto",
+        "666": "sun-dried tomatoes",
+        "232": "crumbled herbed feta cheese",
+        "348": "frozen puff pastry sheet, thawed"
     },
     "status": 0,
     "labels": [
@@ -34,5 +45,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "In a small bowl, use a fork to combine crushed garlic and egg yolk. Place chicken breasts in a shallow glass dish and spread both sides with egg mixture. Cover dish with plastic wrap and refrigerate 4 hours, or overnight (recommended).",
+        "Preheat oven to 375 degrees F (190 degrees C). Grease a baking sheet.",
+        "Place one half of the puff pastry sheet on a lightly floured board. Place 1/2 cup spinach in the center of the pastry sheet. Remove one chicken breast from marinade, shaking off any excess, and place on top of spinach. Spread 1 tablespoon pesto over chicken, layer with half the sun-dried tomatoes, sprinkle with half the feta cheese, and top with 1/2 cup spinach. Fold pastry sheet around chicken, using fingers or fork to seal pastry seam. Place chicken seam side down on baking sheet. Repeat steps with the second half of the puff pastry sheet and remaining chicken breast.",
+        "Bake 35 to 40 minutes. Test for doneness by cutting through center of chicken breast; if juices run clear, chicken is cooked."
     ]
 }

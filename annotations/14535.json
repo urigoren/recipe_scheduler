@@ -11,28 +11,37 @@
         "1 tablespoon dried basil"
     ],
     "instructions": [
-        "In a shallow glass bowl combine the soy sauce, dark soy sauce, sesame oil, oyster sauce, garlic powder, onion powder, ground black pepper and dried basil. Mix together. Add chicken wings, cover and refrigerate overnight. Stir together again the next day.",
+        "In a shallow glass bowl combine the soy sauce, dark soy sauce, sesame oil, oyster sauce, garlic powder, onion powder, ground black pepper and dried basil.",
+        "Mix together.",
+        "Add chicken wings, cover and refrigerate overnight.",
+        "Stir together again the next day.",
         "Lightly oil grill and preheat to high heat.",
-        "Remove wings from marinade and discard remaining marinade. Grill chicken wings over preheated grill for 8 to 12 minutes each side, or until cooked through and juices run clear."
+        "Remove wings from marinade and discard remaining marinade.",
+        "Grill chicken wings over preheated grill for 8 to 12 minutes each side, or until cooked through and juices run clear."
     ],
     "title": "Malaysian Barbecue Chicken Wings",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/56962.jpg",
     "url": "http://allrecipes.com/Recipe/14535/",
     "normalized_ingredients": {
-        "174": "chicken wings",
-        "685": "soy sauce",
-        "268": "dark soy sauce",
-        "631": "sesame oil",
-        "534": "oyster sauce",
-        "379": "garlic powder",
-        "520": "onion powder",
-        "407": "ground black pepper to taste",
-        "290": "dried basil"
+        "162": "chicken wings",
+        "644": "soy sauce",
+        "252": "dark soy sauce",
+        "596": "sesame oil",
+        "503": "oyster sauce",
+        "360": "garlic powder",
+        "492": "onion powder",
+        "388": "ground black pepper to taste",
+        "275": "dried basil"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "In a shallow glass bowl combine the soy sauce, dark soy sauce, sesame oil, oyster sauce, garlic powder, onion powder, ground black pepper and dried basil. Mix together. Add chicken wings, cover and refrigerate overnight. Stir together again the next day.",
+        "Lightly oil grill and preheat to high heat.",
+        "Remove wings from marinade and discard remaining marinade. Grill chicken wings over preheated grill for 8 to 12 minutes each side, or until cooked through and juices run clear."
     ]
 }

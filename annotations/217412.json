@@ -11,26 +11,34 @@
         "salt to taste"
     ],
     "instructions": [
-        "Place the roast, onion, bay leaves, black pepper, garlic powder, and vinegar in slow cooker; cover ingredients completely with water. Cover and cook on High setting until meat is very tender and falling apart, about 4 hours.",
-        "Remove meat from slow cooker and discard liquids. Return meat to slow cooker; shred with fork and knife. Stir tomato sauce, chili powder, and salt into the shredded meat. Cover the cooker, and cook meat and sauce on High for an additional 2 hours."
+        "Place the roast, onion, bay leaves, black pepper, garlic powder, and vinegar in slow cooker; cover ingredients completely with water.",
+        "Cover and cook on High setting until meat is very tender and falling apart, about 4 hours.",
+        "Remove meat from slow cooker and discard liquids.",
+        "Return meat to slow cooker; shred with fork and knife.",
+        "Stir tomato sauce, chili powder, and salt into the shredded meat.",
+        "Cover the cooker, and cook meat and sauce on High for an additional 2 hours."
     ],
     "title": "Slow Cooker Beef Barbacoa",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2530987.jpg",
     "url": "http://allrecipes.com/Recipe/217412/",
     "normalized_ingredients": {
-        "105": "boneless beef chuck roast",
-        "517": "onion",
-        "81": "bay leaves",
-        "406": "ground black pepper",
-        "379": "garlic powder",
-        "289": "distilled white vinegar",
-        "722": "tomato sauce",
-        "180": "chili powder",
-        "622": "salt to taste"
+        "99": "boneless beef chuck roast",
+        "489": "onion",
+        "72": "bay leaves",
+        "387": "ground black pepper",
+        "360": "garlic powder",
+        "273": "distilled white vinegar",
+        "684": "tomato sauce",
+        "169": "chili powder",
+        "588": "salt to taste"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Place the roast, onion, bay leaves, black pepper, garlic powder, and vinegar in slow cooker; cover ingredients completely with water. Cover and cook on High setting until meat is very tender and falling apart, about 4 hours.",
+        "Remove meat from slow cooker and discard liquids. Return meat to slow cooker; shred with fork and knife. Stir tomato sauce, chili powder, and salt into the shredded meat. Cover the cooker, and cook meat and sauce on High for an additional 2 hours."
     ]
 }

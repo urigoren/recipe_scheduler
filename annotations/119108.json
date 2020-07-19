@@ -11,24 +11,30 @@
         "1 (10 ounce) package couscous"
     ],
     "instructions": [
-        "In a saucepan, combine the first eight ingredients; bring to a boil. Remove form the heat; stir in couscous. Cover and let stand for 5 minutes or until the liquid is absorbed. Fluff with a fork."
+        "In a saucepan, combine the first eight ingredients; bring to a boil.",
+        "Remove form the heat; stir in couscous.",
+        "Cover and let stand for 5 minutes or until the liquid is absorbed.",
+        "Fluff with a fork."
     ],
     "title": "Seasoned Couscous",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/984723.jpg",
     "url": "http://allrecipes.com/Recipe/119108/",
     "normalized_ingredients": {
-        "753": "water",
-        "135": "butter or margarine",
-        "299": "dried parsley flakes",
-        "161": "chicken bouillon granules",
-        "294": "dried minced onion",
-        "290": "dried basil",
-        "543": "pepper",
-        "379": "garlic powder",
-        "236": "couscous"
+        "714": "water",
+        "127": "butter or margarine",
+        "284": "dried parsley flakes",
+        "150": "chicken bouillon granules",
+        "279": "dried minced onion",
+        "275": "dried basil",
+        "512": "pepper",
+        "360": "garlic powder",
+        "220": "couscous"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a saucepan, combine the first eight ingredients; bring to a boil. Remove form the heat; stir in couscous. Cover and let stand for 5 minutes or until the liquid is absorbed. Fluff with a fork."
     ]
 }

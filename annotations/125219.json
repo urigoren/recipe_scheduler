@@ -11,24 +11,31 @@
         "1 teaspoon dried thyme"
     ],
     "instructions": [
-        "In a skillet, saute rice, celery and onion in butter until the rice is lightly browned and the vegetables are tender. Spoon into a greased 2-qt. casserole. Combine all remaining ingredients; pour over rice mixture. Cover and bake at 325 degrees F for 50 minutes or until the rice is done."
+        "In a skillet, saute rice, celery and onion in butter until the rice is lightly browned and the vegetables are tender.",
+        "Spoon into a greased 2-qt.",
+        "casserole.",
+        "Combine all remaining ingredients; pour over rice mixture.",
+        "Cover and bake at 325 degrees F for 50 minutes or until the rice is done."
     ],
     "title": "Herbed Rice Pilaf",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/990675.jpg",
     "url": "http://allrecipes.com/Recipe/125219/",
     "normalized_ingredients": {
-        "738": "uncooked long grain rice",
-        "150": "celery",
-        "517": "onion",
-        "135": "butter or margarine",
-        "163": "chicken broth",
-        "53": "Worcestershire sauce",
-        "685": "soy sauce",
-        "297": "dried oregano",
-        "302": "dried thyme"
+        "700": "uncooked long grain rice",
+        "141": "celery",
+        "489": "onion",
+        "127": "butter or margarine",
+        "152": "chicken broth",
+        "47": "Worcestershire sauce",
+        "644": "soy sauce",
+        "282": "dried oregano",
+        "288": "dried thyme"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a skillet, saute rice, celery and onion in butter until the rice is lightly browned and the vegetables are tender. Spoon into a greased 2-qt. casserole. Combine all remaining ingredients; pour over rice mixture. Cover and bake at 325 degrees F for 50 minutes or until the rice is done."
     ]
 }

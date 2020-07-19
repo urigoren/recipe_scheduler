@@ -11,24 +11,31 @@
         "salt to taste"
     ],
     "instructions": [
-        "In a large pot over medium heat, combine the ground beef and onions. Saute for 5 minutes, or until meat is browned. Drain excess fat and add the potatoes, beans, tomato soup, tomato juice, chili powder, water and salt to taste. Bring just to a boil and reduce heat to low. Simmer for 1 hour and serve."
+        "In a large pot over medium heat, combine the ground beef and onions.",
+        "Saute for 5 minutes, or until meat is browned.",
+        "Drain excess fat and add the potatoes, beans, tomato soup, tomato juice, chili powder, water and salt to taste.",
+        "Bring just to a boil and reduce heat to low.",
+        "Simmer for 1 hour and serve."
     ],
     "title": "Chili Soup",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1979024.jpg",
     "url": "http://allrecipes.com/Recipe/15914/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "517": "onion",
-        "574": "potatoes",
-        "460": "kidney beans",
-        "207": "condensed tomato soup",
-        "719": "tomato juice",
-        "180": "chili powder",
-        "753": "water",
-        "622": "salt to taste"
+        "383": "ground beef",
+        "489": "onion",
+        "542": "potatoes",
+        "439": "kidney beans",
+        "193": "condensed tomato soup",
+        "681": "tomato juice",
+        "169": "chili powder",
+        "714": "water",
+        "588": "salt to taste"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a large pot over medium heat, combine the ground beef and onions. Saute for 5 minutes, or until meat is browned. Drain excess fat and add the potatoes, beans, tomato soup, tomato juice, chili powder, water and salt to taste. Bring just to a boil and reduce heat to low. Simmer for 1 hour and serve."
     ]
 }

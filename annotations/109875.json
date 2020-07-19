@@ -8,25 +8,40 @@
         "1/2 teaspoon seasoned salt"
     ],
     "instructions": [
-        "Season the meat with Greek seasoning. In a large resealable bag or non reactive bowl, combine the soy sauce, corn syrup, garlic and seasoned salt. Massage the bag to blend, then add the beef. Press out most of the air and seal. Marinate for up to 24 hours, flipping over occasionally to evenly marinate.",
-        "Preheat a grill for medium heat. When hot, lightly oil the grate. Thread the beef cubes onto skewers.",
-        "Grill the meat on the preheated grill, turning occasionally, until they have reached your desired degree of doneness. Be careful not to let the flames get too high. These will darken quickly because of the high sugar content. Don't worry- they aren't burning!"
+        "Season the meat with Greek seasoning.",
+        "In a large resealable bag or non reactive bowl, combine the soy sauce, corn syrup, garlic and seasoned salt.",
+        "Massage the bag to blend, then add the beef.",
+        "Press out most of the air and seal.",
+        "Marinate for up to 24 hours, flipping over occasionally to evenly marinate.",
+        "Preheat a grill for medium heat.",
+        "When hot, lightly oil the grate.",
+        "Thread the beef cubes onto skewers.",
+        "Grill the meat on the preheated grill, turning occasionally, until they have reached your desired degree of doneness.",
+        "Be careful not to let the flames get too high.",
+        "These will darken quickly because of the high sugar content.",
+        "Don't worry-",
+        "they aren't burning!"
     ],
     "title": "Sweet Grilled Steak Bites",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/515059.jpg",
     "url": "http://allrecipes.com/Recipe/109875/",
     "normalized_ingredients": {
-        "259": "cubed beef stew meat",
-        "17": "Greek seasoning",
-        "685": "soy sauce",
-        "266": "dark corn syrup",
-        "502": "minced garlic",
-        "628": "seasoned salt"
+        "243": "cubed beef stew meat",
+        "14": "Greek seasoning",
+        "644": "soy sauce",
+        "250": "dark corn syrup",
+        "351": "garlic",
+        "593": "seasoned salt"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Season the meat with Greek seasoning. In a large resealable bag or non reactive bowl, combine the soy sauce, corn syrup, garlic and seasoned salt. Massage the bag to blend, then add the beef. Press out most of the air and seal. Marinate for up to 24 hours, flipping over occasionally to evenly marinate.",
+        "Preheat a grill for medium heat. When hot, lightly oil the grate. Thread the beef cubes onto skewers.",
+        "Grill the meat on the preheated grill, turning occasionally, until they have reached your desired degree of doneness. Be careful not to let the flames get too high. These will darken quickly because of the high sugar content. Don't worry- they aren't burning!"
     ]
 }

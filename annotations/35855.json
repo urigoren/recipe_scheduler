@@ -11,28 +11,41 @@
         "salt and pepper to taste"
     ],
     "instructions": [
-        "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain. Preheat oven to 350 degrees F (175 degrees C.)",
-        "Place ground beef and onion in a large, deep skillet. Cook over medium high heat until meat is evenly brown, and onion is tender. Drain excess fat. Stir in noodles, condensed tomato soup, condensed mushroom soup, sliced mushrooms and 1 cup cheese. Season with garlic powder, salt and pepper. Pour into a 9x13 inch baking dish. Sprinkle top with remaining 1/2 cup cheese.",
+        "Bring a large pot of lightly salted water to a boil.",
+        "Add pasta and cook for 8 to 10 minutes or until al dente; drain.",
+        "Preheat oven to 350 degrees F (175 degrees C.)",
+        "Place ground beef and onion in a large, deep skillet.",
+        "Cook over medium high heat until meat is evenly brown, and onion is tender.",
+        "Drain excess fat.",
+        "Stir in noodles, condensed tomato soup, condensed mushroom soup, sliced mushrooms and 1 cup cheese.",
+        "Season with garlic powder, salt and pepper.",
+        "Pour into a 9x13 inch baking dish.",
+        "Sprinkle top with remaining 1/2 cup cheese.",
         "Bake in preheated oven for 30 minutes."
     ],
     "title": "Marchetti",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3503581.jpg",
     "url": "http://allrecipes.com/Recipe/35855/",
     "normalized_ingredients": {
-        "308": "dry egg noodles",
-        "402": "ground beef",
-        "517": "onion",
-        "207": "condensed tomato soup",
-        "206": "condensed cream of mushroom soup",
-        "455": "jar sliced mushrooms",
-        "581": "processed American cheese",
-        "379": "garlic powder",
-        "621": "salt and pepper to taste"
+        "294": "dry egg noodles",
+        "383": "ground beef",
+        "489": "onion",
+        "193": "condensed tomato soup",
+        "192": "condensed cream of mushroom soup",
+        "433": "jar sliced mushrooms",
+        "548": "processed American cheese",
+        "360": "garlic powder",
+        "587": "salt and pepper to taste"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain. Preheat oven to 350 degrees F (175 degrees C.)",
+        "Place ground beef and onion in a large, deep skillet. Cook over medium high heat until meat is evenly brown, and onion is tender. Drain excess fat. Stir in noodles, condensed tomato soup, condensed mushroom soup, sliced mushrooms and 1 cup cheese. Season with garlic powder, salt and pepper. Pour into a 9x13 inch baking dish. Sprinkle top with remaining 1/2 cup cheese.",
+        "Bake in preheated oven for 30 minutes."
     ]
 }

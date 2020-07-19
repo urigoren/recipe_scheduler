@@ -10,23 +10,28 @@
         "1/2 pound processed cheese food (eg. Velveeta), sliced"
     ],
     "instructions": [
-        "In a large pot with boiling salted water cook egg noodles until al dente. Drain well.",
-        "Meanwhile, in a large skillet cook meat with seasoning salt, black pepper, and garlic powder until brown. Add the cans of Mexican-style corn, tomatoes with green chilies and mix well.",
-        "Pour mixture into casserole dish prepared with butter spray. Arrange sliced processed cheese food on top. Cover with aluminum foil.",
-        "Bake in a preheated 375 degree F(190 degrees C) oven for 20 to 30 minutes. Stir and serve."
+        "In a large pot with boiling salted water cook egg noodles until al dente.",
+        "Drain well.",
+        "Meanwhile, in a large skillet cook meat with seasoning salt, black pepper, and garlic powder until brown.",
+        "Add the cans of Mexican-style corn, tomatoes with green chilies and mix well.",
+        "Pour mixture into casserole dish prepared with butter spray.",
+        "Arrange sliced processed cheese food on top.",
+        "Cover with aluminum foil.",
+        "Bake in a preheated 375 degree F(190 degrees C) oven for 20 to 30 minutes.",
+        "Stir and serve."
     ],
     "title": "Tallerine",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2076512.jpg",
     "url": "http://allrecipes.com/Recipe/11979/",
     "normalized_ingredients": {
-        "319": "egg noodles",
-        "464": "lean ground beef",
-        "558": "pinch seasoning salt",
-        "549": "pinch freshly ground black pepper",
-        "550": "pinch garlic powder",
-        "38": "Mexican-style corn",
-        "286": "diced tomatoes with green chile peppers",
-        "582": "processed cheese food "
+        "303": "egg noodles",
+        "443": "lean ground beef",
+        "528": "pinch seasoning salt",
+        "519": "pinch freshly ground black pepper",
+        "520": "pinch garlic powder",
+        "32": "Mexican-style corn",
+        "270": "diced tomatoes with green chile peppers",
+        "549": "processed cheese food "
     },
     "status": 0,
     "labels": [
@@ -34,5 +39,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "In a large pot with boiling salted water cook egg noodles until al dente. Drain well.",
+        "Meanwhile, in a large skillet cook meat with seasoning salt, black pepper, and garlic powder until brown. Add the cans of Mexican-style corn, tomatoes with green chilies and mix well.",
+        "Pour mixture into casserole dish prepared with butter spray. Arrange sliced processed cheese food on top. Cover with aluminum foil.",
+        "Bake in a preheated 375 degree F(190 degrees C) oven for 20 to 30 minutes. Stir and serve."
     ]
 }

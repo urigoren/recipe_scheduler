@@ -11,26 +11,33 @@
         "3 tablespoons olive oil"
     ],
     "instructions": [
-        "Mix drained tuna, onion, celery, egg, bread crumbs, bread cubes, garlic powder, salt, and black pepper in a bowl. If mixture is too dry to hold together, stir in reserved tuna juice, 1 teaspoon at a time. Divide mixture in fourths and shape each portion into a patty.",
-        "Heat olive oil in a large skillet over medium heat and pan-fry the patties until golden brown, about 3 minutes per side. Drain patties on paper towels."
+        "Mix drained tuna, onion, celery, egg, bread crumbs, bread cubes, garlic powder, salt, and black pepper in a bowl.",
+        "If mixture is too dry to hold together, stir in reserved tuna juice, 1 teaspoon at a time.",
+        "Divide mixture in fourths and shape each portion into a patty.",
+        "Heat olive oil in a large skillet over medium heat and pan-fry the patties until golden brown, about 3 minutes per side.",
+        "Drain patties on paper towels."
     ],
     "title": "Fish Friday Tuna Burgers",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1436739.jpg",
     "url": "http://allrecipes.com/Recipe/222541/",
     "normalized_ingredients": {
-        "576": "pouch tuna in water",
-        "340": "finely chopped onion",
-        "337": "finely chopped celery with leaves",
-        "317": "egg",
-        "306": "dry bread crumbs",
-        "672": "slices day-old bread",
-        "550": "pinch garlic powder",
-        "556": "pinch salt and ground black pepper to taste",
-        "514": "olive oil"
+        "543": "pouch tuna in water",
+        "321": "finely chopped onion",
+        "318": "finely chopped celery with leaves",
+        "301": "egg",
+        "292": "dry bread crumbs",
+        "631": "slices day-old bread",
+        "520": "pinch garlic powder",
+        "526": "pinch salt and ground black pepper to taste",
+        "486": "olive oil"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Mix drained tuna, onion, celery, egg, bread crumbs, bread cubes, garlic powder, salt, and black pepper in a bowl. If mixture is too dry to hold together, stir in reserved tuna juice, 1 teaspoon at a time. Divide mixture in fourths and shape each portion into a patty.",
+        "Heat olive oil in a large skillet over medium heat and pan-fry the patties until golden brown, about 3 minutes per side. Drain patties on paper towels."
     ]
 }

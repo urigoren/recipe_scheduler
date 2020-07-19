@@ -10,23 +10,30 @@
     ],
     "instructions": [
         "Cut each frank into five bite-sized pieces, unless you're using cocktail wieners.",
-        "In a large saucepan, combine peanut butter, chutney, chicken stock, corn syrup, Heat and stir constantly until very smooth. Add franks and continue stirring carefully until franks are covered with sauce. Reduce heat and continue to heat slowly until franks are hot. Insert toothpicks into frankfurters and serve."
+        "In a large saucepan, combine peanut butter, chutney, chicken stock, corn syrup, Heat and stir constantly until very smooth.",
+        "Add franks and continue stirring carefully until franks are covered with sauce.",
+        "Reduce heat and continue to heat slowly until franks are hot.",
+        "Insert toothpicks into frankfurters and serve."
     ],
     "title": "Franks in Peanut Butter and Chutney",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/16279/",
     "normalized_ingredients": {
-        "241": "creamy peanut butter",
-        "191": "chutney",
-        "171": "chicken stock",
-        "471": "light corn syrup",
-        "685": "soy sauce",
-        "195": "cloves crushed garlic",
-        "443": "hot dogs"
+        "225": "creamy peanut butter",
+        "178": "chutney",
+        "159": "chicken stock",
+        "449": "light corn syrup",
+        "644": "soy sauce",
+        "182": "cloves crushed garlic",
+        "422": "hot dogs"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Cut each frank into five bite-sized pieces, unless you're using cocktail wieners.",
+        "In a large saucepan, combine peanut butter, chutney, chicken stock, corn syrup, Heat and stir constantly until very smooth. Add franks and continue stirring carefully until franks are covered with sauce. Reduce heat and continue to heat slowly until franks are hot. Insert toothpicks into frankfurters and serve."
     ]
 }

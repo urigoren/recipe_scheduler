@@ -9,22 +9,27 @@
         "2 pounds ground beef"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F (175 degrees C). Lightly grease an 8x8 inch baking pan.",
-        "Melt the butter in a skillet over medium heat. Stir in the onion, honey, ketchup, soy sauce, and hot sauce. Cook and stir 5 minutes, until onion is tender.",
-        "In a bowl, mix the onion mixture with the ground beef. Transfer to the prepared baking dish.",
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Lightly grease an 8x8 inch baking pan.",
+        "Melt the butter in a skillet over medium heat.",
+        "Stir in the onion, honey, ketchup, soy sauce, and hot sauce.",
+        "Cook and stir 5 minutes, until onion is tender.",
+        "In a bowl, mix the onion mixture with the ground beef.",
+        "Transfer to the prepared baking dish.",
         "Bake 1 hour in the preheated oven, or to an internal temperature of 165 degrees F (70 degrees C)."
     ],
     "title": "Jill's Sweet and Tangy Meatloaf",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/966847.jpg",
     "url": "http://allrecipes.com/Recipe/70909/",
     "normalized_ingredients": {
-        "132": "butter",
-        "517": "onion",
-        "438": "honey",
-        "459": "ketchup",
-        "685": "soy sauce",
-        "446": "hot sauce",
-        "402": "ground beef"
+        "124": "butter",
+        "489": "onion",
+        "418": "honey",
+        "438": "ketchup",
+        "644": "soy sauce",
+        "425": "hot sauce",
+        "383": "ground beef"
     },
     "status": 0,
     "labels": [
@@ -32,5 +37,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 350 degrees F (175 degrees C). Lightly grease an 8x8 inch baking pan.",
+        "Melt the butter in a skillet over medium heat. Stir in the onion, honey, ketchup, soy sauce, and hot sauce. Cook and stir 5 minutes, until onion is tender.",
+        "In a bowl, mix the onion mixture with the ground beef. Transfer to the prepared baking dish.",
+        "Bake 1 hour in the preheated oven, or to an internal temperature of 165 degrees F (70 degrees C)."
     ]
 }

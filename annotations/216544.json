@@ -11,24 +11,33 @@
         "1/2 cup water"
     ],
     "instructions": [
-        "Heat the sesame oil in a skillet over medium heat. Stir in the garlic and salt. Cook and stir 1 minute, then stir in the pine nuts, and cook until golden, about 5 minutes. Add the diced chicken breast, and cook a few minutes to reheat. Stir in the peanut butter, soy sauce, and jalapeno pepper until the peanut butter has melted. Pour in the water, and bring to a simmer. Cook and stir until the sauce has thickened, about 5 minutes more."
+        "Heat the sesame oil in a skillet over medium heat.",
+        "Stir in the garlic and salt.",
+        "Cook and stir 1 minute, then stir in the pine nuts, and cook until golden, about 5 minutes.",
+        "Add the diced chicken breast, and cook a few minutes to reheat.",
+        "Stir in the peanut butter, soy sauce, and jalapeno pepper until the peanut butter has melted.",
+        "Pour in the water, and bring to a simmer.",
+        "Cook and stir until the sauce has thickened, about 5 minutes more."
     ],
     "title": "Peanut Butter Sauce Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4481066.jpg",
     "url": "http://allrecipes.com/Recipe/216544/",
     "normalized_ingredients": {
-        "631": "sesame oil",
-        "502": "minced garlic",
-        "555": "pinch salt",
-        "559": "pine nuts",
-        "217": "cooked, boneless chicken breast halves",
-        "539": "peanut butter",
-        "273": "dash soy sauce",
-        "545": "pickled jalapeno pepper slices",
-        "753": "water"
+        "596": "sesame oil",
+        "351": "garlic",
+        "525": "pinch salt",
+        "529": "pine nuts",
+        "203": "cooked, boneless chicken breast halves",
+        "508": "peanut butter",
+        "257": "dash soy sauce",
+        "514": "pickled jalapeno pepper slices",
+        "714": "water"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Heat the sesame oil in a skillet over medium heat. Stir in the garlic and salt. Cook and stir 1 minute, then stir in the pine nuts, and cook until golden, about 5 minutes. Add the diced chicken breast, and cook a few minutes to reheat. Stir in the peanut butter, soy sauce, and jalapeno pepper until the peanut butter has melted. Pour in the water, and bring to a simmer. Cook and stir until the sauce has thickened, about 5 minutes more."
     ]
 }

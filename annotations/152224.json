@@ -7,24 +7,32 @@
         "1 (32 ounce) package tater tots"
     ],
     "instructions": [
-        "Preheat an oven to 450 degrees F (230 degrees C). Grease a 9x9-inch baking dish.",
-        "Mix the ground beef, onion, and egg together in a bowl; spread evenly into the prepared baking dish. Arrange the tater tots over the beef mixture. Pour the chicken soup over the tater tots.",
+        "Preheat an oven to 450 degrees F (230 degrees C).",
+        "Grease a 9x9-inch baking dish.",
+        "Mix the ground beef, onion, and egg together in a bowl; spread evenly into the prepared baking dish.",
+        "Arrange the tater tots over the beef mixture.",
+        "Pour the chicken soup over the tater tots.",
         "Bake in the preheated oven until the beef is cooked through and has reached an internal temperature of 160 degrees F (71 degrees C), about 1 hour."
     ],
     "title": "Easy Tater Tot Hot Dish",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/223812.jpg",
     "url": "http://allrecipes.com/Recipe/152224/",
     "normalized_ingredients": {
-        "464": "lean ground beef",
-        "776": "yellow onion",
-        "317": "egg",
-        "238": "cream of chicken soup",
-        "710": "tater tots"
+        "443": "lean ground beef",
+        "735": "yellow onion",
+        "301": "egg",
+        "222": "cream of chicken soup",
+        "671": "tater tots"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat an oven to 450 degrees F (230 degrees C). Grease a 9x9-inch baking dish.",
+        "Mix the ground beef, onion, and egg together in a bowl; spread evenly into the prepared baking dish. Arrange the tater tots over the beef mixture. Pour the chicken soup over the tater tots.",
+        "Bake in the preheated oven until the beef is cooked through and has reached an internal temperature of 160 degrees F (71 degrees C), about 1 hour."
     ]
 }

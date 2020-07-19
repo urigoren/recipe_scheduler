@@ -10,23 +10,27 @@
         "1/8 teaspoon ground black pepper"
     ],
     "instructions": [
-        "Combine soy sauce, peanut butter, honey, Chinese hot sauce, white vinegar, sesame oil, garlic powder, and ground black pepper; whisk well until smooth."
+        "Combine soy sauce, peanut butter, honey, Chinese hot sauce, white vinegar, sesame oil, garlic powder, and ground black pepper; whisk",
+        "well until smooth."
     ],
     "title": "Hoisin Sauce",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/256167/",
     "normalized_ingredients": {
-        "685": "soy sauce",
-        "539": "peanut butter",
-        "438": "honey",
-        "304": "drops Chinese hot sauce",
-        "760": "white vinegar",
-        "631": "sesame oil",
-        "379": "garlic powder",
-        "406": "ground black pepper"
+        "644": "soy sauce",
+        "508": "peanut butter",
+        "418": "honey",
+        "290": "drops Chinese hot sauce",
+        "720": "white vinegar",
+        "596": "sesame oil",
+        "360": "garlic powder",
+        "387": "ground black pepper"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Combine soy sauce, peanut butter, honey, Chinese hot sauce, white vinegar, sesame oil, garlic powder, and ground black pepper; whisk well until smooth."
     ]
 }

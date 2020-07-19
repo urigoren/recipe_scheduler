@@ -11,26 +11,35 @@
         "salt and pepper to taste"
     ],
     "instructions": [
-        "Place spinach, water, bouillon, onion, and garlic powder in a large pot over medium-high heat. Bring to a boil, then reduce heat to medium-low and simmer until onion is tender.",
-        "Meanwhile, melt the butter in a small saucepan and whisk in the flour until smooth. Cook for 2 minutes. Slowly stir in half-and-half; mix until smooth. Pour the cream mixture into the spinach soup, and simmer until thickened, about 10 minutes. Season to taste with salt and pepper."
+        "Place spinach, water, bouillon, onion, and garlic powder in a large pot over medium-high heat.",
+        "Bring to a boil, then reduce heat to medium-low and simmer until onion is tender.",
+        "Meanwhile, melt the butter in a small saucepan and whisk in the flour until smooth.",
+        "Cook for 2 minutes.",
+        "Slowly stir in half-and-half; mix until smooth.",
+        "Pour the cream mixture into the spinach soup, and simmer until thickened, about 10 minutes.",
+        "Season to taste with salt and pepper."
     ],
     "title": "Creamy Spinach Soup",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/804992.jpg",
     "url": "http://allrecipes.com/Recipe/104786/",
     "normalized_ingredients": {
-        "357": "frozen chopped spinach",
-        "753": "water",
-        "161": "chicken bouillon granules",
-        "517": "onion",
-        "379": "garlic powder",
-        "132": "butter",
-        "56": "all-purpose flour",
-        "426": "half-and-half",
-        "621": "salt and pepper to taste"
+        "339": "frozen chopped spinach",
+        "714": "water",
+        "150": "chicken bouillon granules",
+        "489": "onion",
+        "360": "garlic powder",
+        "124": "butter",
+        "49": "all-purpose flour",
+        "406": "half-and-half",
+        "587": "salt and pepper to taste"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "Place spinach, water, bouillon, onion, and garlic powder in a large pot over medium-high heat. Bring to a boil, then reduce heat to medium-low and simmer until onion is tender.",
+        "Meanwhile, melt the butter in a small saucepan and whisk in the flour until smooth. Cook for 2 minutes. Slowly stir in half-and-half; mix until smooth. Pour the cream mixture into the spinach soup, and simmer until thickened, about 10 minutes. Season to taste with salt and pepper."
     ]
 }

@@ -16,17 +16,20 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4475456.jpg",
     "url": "http://allrecipes.com/Recipe/232744/",
     "normalized_ingredients": {
-        "496": "mayonnaise",
-        "260": "cubed cooked chicken",
-        "428": "halved grapes",
-        "16": "Gala apple",
-        "283": "diced red onion",
-        "440": "honey mustard",
-        "379": "garlic powder",
-        "406": "ground black pepper"
+        "473": "mayonnaise",
+        "244": "cubed cooked chicken",
+        "409": "halved grapes",
+        "13": "Gala apple",
+        "267": "diced red onion",
+        "419": "honey mustard",
+        "360": "garlic powder",
+        "387": "ground black pepper"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Mix mayonnaise, chicken, grapes, apple, onion, honey mustard, garlic powder, and black pepper in a bowl."
     ]
 }

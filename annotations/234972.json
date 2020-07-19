@@ -11,28 +11,36 @@
         "water, as needed"
     ],
     "instructions": [
-        "Combine potatoes, corn, onion, butter, beef base, salt, red pepper flakes, and black pepper in a saucepan. Pour enough water over the mixture to cover by 2 inches.",
+        "Combine potatoes, corn, onion, butter, beef base, salt, red pepper flakes, and black pepper in a saucepan.",
+        "Pour enough water over the mixture to cover by 2 inches.",
         "Bring the soup to a boil, reduce heat to medium-low, and simmer until the potatoes are soft, about 20 minutes.",
-        "Pour soup into a blender no more than half full. Cover and hold lid down; pulse a few times before leaving on to blend. Puree in batches until smooth."
+        "Pour soup into a blender no more than half full.",
+        "Cover and hold lid down; pulse a few times before leaving on to blend.",
+        "Puree in batches until smooth."
     ],
     "title": "Creamy Potato and Corn Soup",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1076783.jpg",
     "url": "http://allrecipes.com/Recipe/234972/",
     "normalized_ingredients": {
-        "574": "potatoes",
-        "765": "whole kernel corn",
-        "517": "onion",
-        "132": "butter",
-        "83": "beef base",
-        "617": "salt",
-        "595": "red pepper flakes",
-        "406": "ground black pepper",
-        "753": "water"
+        "542": "potatoes",
+        "724": "whole kernel corn",
+        "489": "onion",
+        "124": "butter",
+        "74": "beef base",
+        "583": "salt",
+        "563": "red pepper flakes",
+        "387": "ground black pepper",
+        "714": "water"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Combine potatoes, corn, onion, butter, beef base, salt, red pepper flakes, and black pepper in a saucepan. Pour enough water over the mixture to cover by 2 inches.",
+        "Bring the soup to a boil, reduce heat to medium-low, and simmer until the potatoes are soft, about 20 minutes.",
+        "Pour soup into a blender no more than half full. Cover and hold lid down; pulse a few times before leaving on to blend. Puree in batches until smooth."
     ]
 }

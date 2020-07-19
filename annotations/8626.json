@@ -11,24 +11,30 @@
         "skewers"
     ],
     "instructions": [
-        "In a large bowl, whisk together oil, honey, soy sauce, and pepper. Before adding chicken, reserve a small amount of marinade to brush onto kabobs while cooking. Place the chicken, garlic, onions and peppers in the bowl, and marinate in the refrigerator at least 2 hours (the longer the better).",
+        "In a large bowl, whisk together oil, honey, soy sauce, and pepper.",
+        "Before adding chicken, reserve a small amount of marinade to brush onto kabobs while cooking.",
+        "Place the chicken, garlic, onions and peppers in the bowl, and marinate in the refrigerator at least 2 hours (the longer the better).",
         "Preheat the grill for high heat.",
-        "Drain marinade from the chicken and vegetables, and discard marinade. Thread chicken and vegetables alternately onto the skewers.",
-        "Lightly oil the grill grate. Place the skewers on the grill. Cook for 12 to 15 minutes, until chicken juices run clear. Turn and brush with reserved marinade frequently."
+        "Drain marinade from the chicken and vegetables, and discard marinade.",
+        "Thread chicken and vegetables alternately onto the skewers.",
+        "Lightly oil the grill grate.",
+        "Place the skewers on the grill.",
+        "Cook for 12 to 15 minutes, until chicken juices run clear.",
+        "Turn and brush with reserved marinade frequently."
     ],
     "title": "Yummy Honey Chicken Kabobs",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1017234.jpg",
     "url": "http://allrecipes.com/Recipe/8626/",
     "normalized_ingredients": {
-        "747": "vegetable oil",
-        "438": "honey",
-        "685": "soy sauce",
-        "406": "ground black pepper",
-        "651": "skinless",
-        "196": "cloves garlic",
-        "524": "onions",
-        "590": "red bell peppers",
-        "650": "skewers"
+        "708": "vegetable oil",
+        "418": "honey",
+        "644": "soy sauce",
+        "387": "ground black pepper",
+        "618": "skinless",
+        "183": "cloves garlic",
+        "495": "onions",
+        "557": "red bell peppers",
+        "617": "skewers"
     },
     "status": 0,
     "labels": [
@@ -36,5 +42,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "In a large bowl, whisk together oil, honey, soy sauce, and pepper. Before adding chicken, reserve a small amount of marinade to brush onto kabobs while cooking. Place the chicken, garlic, onions and peppers in the bowl, and marinate in the refrigerator at least 2 hours (the longer the better).",
+        "Preheat the grill for high heat.",
+        "Drain marinade from the chicken and vegetables, and discard marinade. Thread chicken and vegetables alternately onto the skewers.",
+        "Lightly oil the grill grate. Place the skewers on the grill. Cook for 12 to 15 minutes, until chicken juices run clear. Turn and brush with reserved marinade frequently."
     ]
 }

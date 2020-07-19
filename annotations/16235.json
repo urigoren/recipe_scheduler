@@ -11,26 +11,32 @@
         "1 (15 ounce) can dark red kidney beans"
     ],
     "instructions": [
-        "In a large saucepan over medium heat, combine the ground beef and the onion and saute for 10 minutes, or until meat is browned and onion is tender. Drain grease, if desired.",
-        "Add the ground black pepper, garlic salt, tomato sauce, salsa, chili seasoning mix and kidney beans. Mix well, reduce heat to low and simmer for at least an hour."
+        "In a large saucepan over medium heat, combine the ground beef and the onion and saute for 10 minutes, or until meat is browned and onion is tender.",
+        "Drain grease, if desired.",
+        "Add the ground black pepper, garlic salt, tomato sauce, salsa, chili seasoning mix and kidney beans.",
+        "Mix well, reduce heat to low and simmer for at least an hour."
     ],
     "title": "Debdoozie's Blue Ribbon Chili",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/593156.jpg",
     "url": "http://allrecipes.com/Recipe/16235/",
     "normalized_ingredients": {
-        "402": "ground beef",
-        "517": "onion",
-        "406": "ground black pepper",
-        "382": "garlic salt",
-        "722": "tomato sauce",
-        "454": "jar salsa",
-        "184": "chili seasoning mix",
-        "472": "light red kidney beans",
-        "267": "dark red kidney beans"
+        "383": "ground beef",
+        "489": "onion",
+        "387": "ground black pepper",
+        "363": "garlic salt",
+        "684": "tomato sauce",
+        "432": "jar salsa",
+        "173": "chili seasoning mix",
+        "450": "light red kidney beans",
+        "251": "dark red kidney beans"
     },
     "status": 0,
     "labels": [
         [],
         []
+    ],
+    "steps": [
+        "In a large saucepan over medium heat, combine the ground beef and the onion and saute for 10 minutes, or until meat is browned and onion is tender. Drain grease, if desired.",
+        "Add the ground black pepper, garlic salt, tomato sauce, salsa, chili seasoning mix and kidney beans. Mix well, reduce heat to low and simmer for at least an hour."
     ]
 }

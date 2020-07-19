@@ -8,25 +8,35 @@
         "12 slices bacon"
     ],
     "instructions": [
-        "Melt butter in a skillet over medium heat. Add pork chops; season with onion and garlic powder. Cook until pork chops are no longer pink in the center, about 5 minutes per side.",
-        "Transfer pork chops to a plate; top each one with 2 slices of Cheddar cheese. Place a bowl over the plate to trap in heat.",
-        "Place bacon into the skillet; cook until crisp and no longer pink, about 6 minutes. Wrap 3 slices of bacon around each pork chop."
+        "Melt butter in a skillet over medium heat.",
+        "Add pork chops; season with onion and garlic powder.",
+        "Cook until pork chops are no longer pink in the center, about 5 minutes per side.",
+        "Transfer pork chops to a plate; top each one with 2 slices of Cheddar cheese.",
+        "Place a bowl over the plate to trap in heat.",
+        "Place bacon into the skillet; cook until crisp and",
+        "no longer pink, about 6 minutes.",
+        "Wrap 3 slices of bacon around each pork chop."
     ],
     "title": "Killer Fried Pork Chops",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4509181.jpg",
     "url": "http://allrecipes.com/Recipe/255233/",
     "normalized_ingredients": {
-        "132": "butter",
-        "565": "pork chops",
-        "276": "dashes onion powder",
-        "274": "dashes garlic powder",
-        "667": "slices Cheddar cheese",
-        "671": "slices bacon"
+        "124": "butter",
+        "534": "pork chops",
+        "260": "dashes onion powder",
+        "258": "dashes garlic powder",
+        "627": "slices Cheddar cheese",
+        "630": "slices bacon"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Melt butter in a skillet over medium heat. Add pork chops; season with onion and garlic powder. Cook until pork chops are no longer pink in the center, about 5 minutes per side.",
+        "Transfer pork chops to a plate; top each one with 2 slices of Cheddar cheese. Place a bowl over the plate to trap in heat.",
+        "Place bacon into the skillet; cook until crisp and no longer pink, about 6 minutes. Wrap 3 slices of bacon around each pork chop."
     ]
 }

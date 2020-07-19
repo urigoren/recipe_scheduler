@@ -11,24 +11,30 @@
         "Salt, to taste"
     ],
     "instructions": [
-        "Place chicken in large shallow dish. Add ketchup, honey, soy sauce, lemon juice, and vegetable oil, along with pepper, chili sauce, and salt. Cover the dish and let it stand for about 1 hour in the refrigerator. Prepare the grill, then grill to desired doneness."
+        "Place chicken in large shallow dish.",
+        "Add ketchup, honey, soy sauce, lemon juice, and vegetable oil, along with pepper, chili sauce, and salt.",
+        "Cover the dish and let it stand for about 1 hour in the refrigerator.",
+        "Prepare the grill, then grill to desired doneness."
     ],
     "title": "Honey BBQ-Marinated Chicken Drumsticks",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/1042081.jpg",
     "url": "http://allrecipes.com/Recipe/234147/",
     "normalized_ingredients": {
-        "165": "chicken drumsticks",
-        "459": "ketchup",
-        "438": "honey",
-        "685": "soy sauce",
-        "747": "vegetable oil",
-        "468": "lemon juice",
-        "253": "crushed peppercorns",
-        "442": "hot chili sauce",
-        "45": "Salt"
+        "154": "chicken drumsticks",
+        "438": "ketchup",
+        "418": "honey",
+        "644": "soy sauce",
+        "708": "vegetable oil",
+        "446": "lemon juice",
+        "237": "crushed peppercorns",
+        "421": "hot chili sauce",
+        "40": "Salt"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "Place chicken in large shallow dish. Add ketchup, honey, soy sauce, lemon juice, and vegetable oil, along with pepper, chili sauce, and salt. Cover the dish and let it stand for about 1 hour in the refrigerator. Prepare the grill, then grill to desired doneness."
     ]
 }

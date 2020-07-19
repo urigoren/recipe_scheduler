@@ -11,28 +11,39 @@
         "1 1/2 cups beef broth"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F (175 degrees C).",
-        "Combine the chili powder, salt, garlic powder, onion powder, black pepper, sugar, and seasoning salt in a medium bowl, and blend thoroughly. Apply rub to surface of brisket.",
-        "Cook brisket, uncovered, in preheated oven for 1 hour. Remove from oven and add beef broth to roasting pan. Lower oven temperature to 300 degrees F (150 degrees C), cover roasting pan tightly with foil, and cook 3 more hours. Let brisket rest 30 minutes before slicing."
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Combine the chili powder, salt, garlic powder, onion powder, black pepper, sugar, and seasoning salt in a medium bowl, and blend thoroughly.",
+        "Apply rub to surface of brisket.",
+        "Cook brisket, uncovered, in preheated oven for 1 hour.",
+        "Remove from oven and add beef broth to roasting pan.",
+        "Lower oven temperature to 300 degrees F (150 degrees C)",
+        ", cover roasting pan tightly with foil, and cook 3 more hours.",
+        "Let brisket rest 30 minutes before slicing."
     ],
     "title": "Best Ever Brisket",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/420811.jpg",
     "url": "http://allrecipes.com/Recipe/142642/",
     "normalized_ingredients": {
-        "180": "chili powder",
-        "617": "salt",
-        "379": "garlic powder",
-        "520": "onion powder",
-        "406": "ground black pepper",
-        "759": "white sugar",
-        "628": "seasoned salt",
-        "85": "beef brisket",
-        "86": "beef broth"
+        "169": "chili powder",
+        "583": "salt",
+        "360": "garlic powder",
+        "492": "onion powder",
+        "387": "ground black pepper",
+        "719": "white sugar",
+        "593": "seasoned salt",
+        "76": "beef brisket",
+        "77": "beef broth"
     },
     "status": 0,
     "labels": [
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Combine the chili powder, salt, garlic powder, onion powder, black pepper, sugar, and seasoning salt in a medium bowl, and blend thoroughly. Apply rub to surface of brisket.",
+        "Cook brisket, uncovered, in preheated oven for 1 hour. Remove from oven and add beef broth to roasting pan. Lower oven temperature to 300 degrees F (150 degrees C), cover roasting pan tightly with foil, and cook 3 more hours. Let brisket rest 30 minutes before slicing."
     ]
 }

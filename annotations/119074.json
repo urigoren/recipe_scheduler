@@ -10,23 +10,29 @@
         "12 ounces ground turkey"
     ],
     "instructions": [
-        "In a bowl, combine the first seven ingredients. Crumble turkey over mixture and mix just until combined. Shape into four patties. Cook in a nonstick skillet coated with nonstick cooking spray until no longer pink."
+        "In a bowl, combine the first seven ingredients.",
+        "Crumble turkey over mixture and mix just until combined.",
+        "Shape into four patties.",
+        "Cook in a nonstick skillet coated with nonstick cooking spray until no longer pink."
     ],
     "title": "Asian Turkey Burgers",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/709128.jpg",
     "url": "http://allrecipes.com/Recipe/119074/",
     "normalized_ingredients": {
-        "321": "egg white",
-        "685": "soy sauce",
-        "306": "dry bread crumbs",
-        "340": "finely chopped onion",
-        "373": "garlic clove",
-        "412": "ground ginger",
-        "543": "pepper",
-        "424": "ground turkey"
+        "305": "egg white",
+        "644": "soy sauce",
+        "292": "dry bread crumbs",
+        "321": "finely chopped onion",
+        "354": "garlic clove",
+        "393": "ground ginger",
+        "512": "pepper",
+        "405": "ground turkey"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a bowl, combine the first seven ingredients. Crumble turkey over mixture and mix just until combined. Shape into four patties. Cook in a nonstick skillet coated with nonstick cooking spray until no longer pink."
     ]
 }

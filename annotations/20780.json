@@ -8,21 +8,25 @@
         "1/4 cup honey"
     ],
     "instructions": [
-        "Preheat oven to 375 degrees F (190 degrees C).",
-        "Place chicken in two 9x13 inch baking dishes. Blend garlic and mint leaves and spread mixture under skin of chicken pieces.",
-        "In a small saucepan, heat butter, lemon juice and honey over medium low heat; mix well. Brush warmed mixture all over chicken skin.",
-        "Bake for 1 hour, or until golden brown and cooked through (juices run clear). Brush again with honey mixture, and serve."
+        "Preheat oven to 375 degrees F",
+        "(190 degrees C).",
+        "Place chicken in two 9x13 inch baking dishes.",
+        "Blend garlic and mint leaves and spread mixture under skin of chicken pieces.",
+        "In a small saucepan, heat butter, lemon juice and honey over medium low heat; mix well.",
+        "Brush warmed mixture all over chicken skin.",
+        "Bake for 1 hour, or until golden brown and cooked through (juices run clear).",
+        "Brush again with honey mixture, and serve."
     ],
     "title": "Wings with Mint Leaves and Honey",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/402971.jpg",
     "url": "http://allrecipes.com/Recipe/20780/",
     "normalized_ingredients": {
-        "174": "chicken wings",
-        "502": "minced garlic",
-        "349": "fresh mint leaves",
-        "132": "butter",
-        "467": "lemon",
-        "438": "honey"
+        "162": "chicken wings",
+        "351": "garlic",
+        "331": "fresh mint leaves",
+        "124": "butter",
+        "445": "lemon",
+        "418": "honey"
     },
     "status": 0,
     "labels": [
@@ -30,5 +34,11 @@
         [],
         [],
         []
+    ],
+    "steps": [
+        "Preheat oven to 375 degrees F (190 degrees C).",
+        "Place chicken in two 9x13 inch baking dishes. Blend garlic and mint leaves and spread mixture under skin of chicken pieces.",
+        "In a small saucepan, heat butter, lemon juice and honey over medium low heat; mix well. Brush warmed mixture all over chicken skin.",
+        "Bake for 1 hour, or until golden brown and cooked through (juices run clear). Brush again with honey mixture, and serve."
     ]
 }

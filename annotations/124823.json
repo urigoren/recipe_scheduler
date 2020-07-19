@@ -11,24 +11,29 @@
         "1 2/3 cups water"
     ],
     "instructions": [
-        "In a large saucepan, combine beef broth and tomato paste. Add remaining ingredients. Cover and simmer for 10 minutes."
+        "In a large saucepan, combine beef broth and tomato paste.",
+        "Add remaining ingredients.",
+        "Cover and simmer for 10 minutes."
     ],
     "title": "Southwestern Chicken Soup",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/979774.jpg",
     "url": "http://allrecipes.com/Recipe/124823/",
     "normalized_ingredients": {
-        "203": "condensed beef broth",
-        "720": "tomato paste",
-        "460": "kidney beans",
-        "39": "Mexicorn",
-        "280": "diced cooked chicken",
-        "395": "green onions",
-        "180": "chili powder",
-        "391": "green chilies",
-        "753": "water"
+        "189": "condensed beef broth",
+        "682": "tomato paste",
+        "439": "kidney beans",
+        "33": "Mexicorn",
+        "264": "diced cooked chicken",
+        "376": "green onions",
+        "169": "chili powder",
+        "372": "green chilies",
+        "714": "water"
     },
     "status": 0,
     "labels": [
         []
+    ],
+    "steps": [
+        "In a large saucepan, combine beef broth and tomato paste. Add remaining ingredients. Cover and simmer for 10 minutes."
     ]
 }
