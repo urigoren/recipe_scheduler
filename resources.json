@@ -3,7 +3,9 @@
         "name": "Dishes", "id": "D", "expanded": true, "children": [
             {"name": "Plate", "id": "D1"},
             {"name": "Bowl", "id": "D2"},
-            {"name": "Grate", "id": "D3"}
+            {"name": "Skillet", "id": "D3"},
+            {"name": "Pot", "id": "D4"},
+            {"name": "Grate", "id": "D5"}
         ]
     },
     {
