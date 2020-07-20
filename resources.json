@@ -1,51 +1,46 @@
 [
             {
-                "name": "Combine", "id": "C", "expanded": true, "children": [
-                    {"name": "Mix", "id": "C1"},
-                    {"name": "Stir", "id": "C2"},
-                    {"name": "Blend", "id": "C3"}
+                "name": "Knife", "id": "C", "expanded": true, "children": [
+                    {"name": "Chop finely", "id": "C1"},
+                    {"name": "Cut to chunks", "id": "C2"}
                 ]
             },
             {
-                "name": "Cook", "id": "GL", "expanded": true, "children": [
-                    {"name": "Low", "id": "GL1"},
-                    {"name": "Medium", "id": "GL2"},
-                    {"name": "High", "id": "GL3"}
+                "name": "Stove", "id": "GL", "expanded": false, "children": [
+                    {"name": "Low (with lid)", "id": "GL1"},
+                    {"name": "Low (without lid)", "id": "GW1"},
+                    {"name": "Medium (with lid)", "id": "GL2"},
+                    {"name": "Medium (without lid)", "id": "GW2"},
+                    {"name": "High (with lid)", "id": "GL3"},
+                    {"name": "High (without lid)", "id": "GW3"}
                 ]
             },
             {
-                "name": "Cook Without lid", "id": "GW", "expanded": false, "children": [
-                    {"name": "Low", "id": "GW1"},
-                    {"name": "Medium", "id": "GW2"},
-                    {"name": "High", "id": "GW3"}
-                ]
-            },
-            {
-                "name": "Bake", "id": "BL", "expanded": true, "children": [
+                "name": "Oven", "id": "BL", "expanded": true, "children": [
+                    {"name": "Oil Grate", "id": "BL0"},
                     {"name": "Low", "id": "BL1"},
                     {"name": "Medium", "id": "BL2"},
                     {"name": "High", "id": "BL3"}
                 ]
             },
             {
-                "name": "Bake Without foil", "id": "BW", "expanded": false, "children": [
-                    {"name": "Low", "id": "BW1"},
-                    {"name": "Medium", "id": "BW2"},
-                    {"name": "High", "id": "BW3"}
+                "name": "Regrigerator", "id": "R", "expanded": true, "children": [
+                    {"name": "Marinade", "id": "R1"},
+                    {"name": "Freeze", "id": "R2"}
                 ]
             },
             {
-                "name": "Cool", "id": "G3", "expanded": true, "children": [
-                    {"name": "Regrigerate", "id": "I"},
-                    {"name": "Freeze", "id": "J"}
+                "name": "Sink", "id": "S", "expanded": true, "children": [
+                    {"name": "Wash", "id": "S1"},
+                    {"name": "Drain", "id": "S2"}
                 ]
             },
             {
-                "name": "Other Resources", "id": "G4", "expanded": true, "children": [
-                    {"name": "Roll", "id": "R1"},
-                    {"name": "Fold", "id": "R2"},
-                    {"name": "Butter", "id": "R3"},
-                    {"name": "Oil", "id": "R4"}
+                "name": "Hands", "id": "H", "expanded": true, "children": [
+                    {"name": "Roll", "id": "H1"},
+                    {"name": "Fold", "id": "H2"},
+                    {"name": "Massage", "id": "H3"},
+                    {"name": "Knead", "id": "H4"}
                 ]
             }
 ]
