@@ -1,46 +1,52 @@
 [
-            {
-                "name": "Knife", "id": "C", "expanded": true, "children": [
-                    {"name": "Chop finely", "id": "C1"},
-                    {"name": "Cut to chunks", "id": "C2"}
-                ]
-            },
-            {
-                "name": "Stove", "id": "GL", "expanded": false, "children": [
-                    {"name": "Low (with lid)", "id": "GL1"},
-                    {"name": "Low (without lid)", "id": "GW1"},
-                    {"name": "Medium (with lid)", "id": "GL2"},
-                    {"name": "Medium (without lid)", "id": "GW2"},
-                    {"name": "High (with lid)", "id": "GL3"},
-                    {"name": "High (without lid)", "id": "GW3"}
-                ]
-            },
-            {
-                "name": "Oven", "id": "BL", "expanded": true, "children": [
-                    {"name": "Oil Grate", "id": "BL0"},
-                    {"name": "Low", "id": "BL1"},
-                    {"name": "Medium", "id": "BL2"},
-                    {"name": "High", "id": "BL3"}
-                ]
-            },
-            {
-                "name": "Regrigerator", "id": "R", "expanded": true, "children": [
-                    {"name": "Marinade", "id": "R1"},
-                    {"name": "Freeze", "id": "R2"}
-                ]
-            },
-            {
-                "name": "Sink", "id": "S", "expanded": true, "children": [
-                    {"name": "Wash", "id": "S1"},
-                    {"name": "Drain", "id": "S2"}
-                ]
-            },
-            {
-                "name": "Hands", "id": "H", "expanded": true, "children": [
-                    {"name": "Roll", "id": "H1"},
-                    {"name": "Fold", "id": "H2"},
-                    {"name": "Massage", "id": "H3"},
-                    {"name": "Knead", "id": "H4"}
-                ]
-            }
+    {
+        "name": "Dishes", "id": "D", "expanded": true, "children": [
+            {"name": "Plate", "id": "D1"},
+            {"name": "Bowl", "id": "D2"},
+            {"name": "Grate", "id": "D3"}
+        ]
+    },
+    {
+        "name": "Knife", "id": "C", "expanded": false, "children": [
+            {"name": "Chop finely", "id": "C1"},
+            {"name": "Cut to chunks", "id": "C2"}
+        ]
+    },
+    {
+        "name": "Stove", "id": "GL", "expanded": false, "children": [
+            {"name": "Low (with lid)", "id": "GL1"},
+            {"name": "Low (without lid)", "id": "GW1"},
+            {"name": "Medium (with lid)", "id": "GL2"},
+            {"name": "Medium (without lid)", "id": "GW2"},
+            {"name": "High (with lid)", "id": "GL3"},
+            {"name": "High (without lid)", "id": "GW3"}
+        ]
+    },
+    {
+        "name": "Oven", "id": "BL", "expanded": false, "children": [
+            {"name": "Low", "id": "BL1"},
+            {"name": "Medium", "id": "BL2"},
+            {"name": "High", "id": "BL3"}
+        ]
+    },
+    {
+        "name": "Regrigerator", "id": "R", "expanded": false, "children": [
+            {"name": "Marinade", "id": "R1"},
+            {"name": "Freeze", "id": "R2"}
+        ]
+    },
+    {
+        "name": "Sink", "id": "S", "expanded": false, "children": [
+            {"name": "Wash", "id": "S1"},
+            {"name": "Drain", "id": "S2"}
+        ]
+    },
+    {
+        "name": "Hands", "id": "H", "expanded": false, "children": [
+            {"name": "Roll", "id": "H1"},
+            {"name": "Fold", "id": "H2"},
+            {"name": "Massage", "id": "H3"},
+            {"name": "Knead", "id": "H4"}
+        ]
+    }
 ]
