@@ -73,13 +73,26 @@
             items: [
                 {
                     text: "Delete", onClick: function (args) {
-                        dp.events.remove(args.source);
+                        if (dp.multiselect.events().length==0)
+                        {
+                            dp.events.remove(args.source);
+                        }
+                        else
+                        {
+                            dp.multiselect.events().forEach(dp.events.remove);
+                        }
                     }
                 },
                 { text: "-" },
                 {
                     text: "Select", onClick: function (args) {
                         dp.multiselect.add(args.source);
+                    }
+                },
+                {
+                    text: "Copy", onClick: function (args) {
+                        action_clipboard = dp.multiselect.events().map((x)=>x["data"]["action"]);
+                        dp.multiselect.clear();
                     }
                 },
             ]
@@ -115,19 +128,24 @@
             var action_map = dp.actions.reduce((obj, ing) => { obj[ing.id] = ing.display; return obj; }, {});
             DayPilot.Modal.prompt("Assign Ingredient:", action_map).then(function (modal) {
                 dp.clearSelection();
-                var selected_action = modal.result;
-                if (!selected_action) return;
-                selected_action = dp.actions.filter(x => x.id == selected_action)[0];
-                var e = new DayPilot.Event({
-                    start: args.start,
-                    end: args.end,
-                    id: DayPilot.guid(),
-                    action: selected_action.id,
-                    resource: args.resource,
-                    text: selected_action.display,
-                    barColor: selected_action.color
+                var selected_action_id = modal.result;
+                if (selected_action_id===undefined) return;
+                let selected_actions = dp.actions.filter(x => x.id >=0);
+                if (selected_action_id==-2)//paste
+                    selected_actions=selected_actions.filter(x => action_clipboard.filter((y)=>x.id == y).length>0);
+                if (selected_action_id>=0)
+                    selected_actions=selected_actions.filter(x => x.id == selected_action_id);
+                selected_actions.map(function (selected_action) {
+                    dp.events.add(new DayPilot.Event({
+                        start: args.start,
+                        end: args.end,
+                        id: selected_action.id+':'+DayPilot.guid(),
+                        action: selected_action.id,
+                        resource: args.resource,
+                        text: selected_action.display,
+                        barColor: selected_action.color
+                    }));
                 });
-                dp.events.add(e);
             });
         };
 
@@ -155,6 +173,7 @@
         let instruction_index=0;
         let instructions=<?=json_encode($data['instructions'])?>;
         let events=<?=json_encode($events)?>;
+        let action_clipboard=[];
 
         function next_instruction()
         {
