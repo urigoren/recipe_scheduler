@@ -16,6 +16,7 @@ if (array_key_exists("id", $_GET) && annotation_exists($_GET['id']))
         $actions=array();
         $actions[] =array("display"=>"__ALL__", "id"=>-1, "color"=>"#ffffff");
         $actions[] =array("display"=>"__PASTE__", "id"=>-2, "color"=>"#ffffff");
+        $actions[] =array("display"=>"__PREVIOUSLY_THERE__", "id"=>-3, "color"=>"#ffffff");
         foreach ($data["normalized_ingredients"] as $key => $value) {
             $actions[]=array("display"=>$value, "id"=>$key, "color"=>"#00ff00");
         }

@@ -85,6 +85,13 @@
                 },
                 { text: "-" },
                 {
+                    text: "Add Previously seen", onClick: function (args) {
+                        dp.onTimeRangeRightClicked(args.source.data);
+                        dp.events.remove(args.source);
+                    }
+                },
+                { text: "-" },
+                {
                     text: "Select", onClick: function (args) {
                         dp.multiselect.add(args.source);
                     }
@@ -123,6 +130,24 @@
             dp.message("Resized: " + args.e.text());
         };
 
+        // right click
+        dp.onTimeRangeRightClicked=function (args) {
+            let previously_selected = prev_actions_for_resource(args.resource);
+            let selected_actions=dp.actions.filter(x => previously_selected.filter((y)=>x.id == y).length>0);
+            //TODO: remove code dup
+            selected_actions.map(function (selected_action) {
+                    dp.events.add(new DayPilot.Event({
+                        start: args.start,
+                        end: args.end,
+                        id: selected_action.id+':'+DayPilot.guid(),
+                        action: selected_action.id,
+                        resource: args.resource,
+                        text: selected_action.display,
+                        barColor: selected_action.color
+                    }));
+                });
+        }
+
         // event creating
         dp.onTimeRangeSelected = function (args) {
             var action_map = dp.actions.reduce((obj, ing) => { obj[ing.id] = ing.display; return obj; }, {});
@@ -133,6 +158,12 @@
                 let selected_actions = dp.actions.filter(x => x.id >=0);
                 if (selected_action_id==-2)//paste
                     selected_actions=selected_actions.filter(x => action_clipboard.filter((y)=>x.id == y).length>0);
+                if (selected_action_id==-3)//already there
+                {
+                    let previously_selected = prev_actions_for_resource(args.resource);
+                    selected_actions=selected_actions.filter(x => previously_selected.filter((y)=>x.id == y).length>0);
+                    dp.message("You can add previously seen items by right clicking");
+                }
                 if (selected_action_id>=0)
                     selected_actions=selected_actions.filter(x => x.id == selected_action_id);
                 selected_actions.map(function (selected_action) {
@@ -175,6 +206,19 @@
         let events=<?=json_encode($events)?>;
         let action_clipboard=[];
 
+        function prev_actions_for_resource(resource)
+        {
+            let ret = [];
+            events[instruction_index]=dp.events.list;
+            for(var i=0;i<=instruction_index;i++)
+            {
+                events[i].filter((x)=>x["resource"]==resource).map((x)=>x["action"]).forEach(function (aid) {
+                    if (!ret.includes(aid))
+                        ret.push(aid);
+                });
+            }
+            return ret;
+        }
         function next_instruction()
         {
             console.log("next_instruction");

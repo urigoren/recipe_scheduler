@@ -7,7 +7,6 @@ $data = get_annotation($id);
 $data['labels']=json_decode($_POST['events']);
 $data['status']=1;
 save_annotation($id, $data);
-//header('Content-type: application/json');
-//echo $data;
-header("Location: https://goren.ml/recipe_scheduler/");
+$redirect=str_replace('save.php','',$_SERVER['REQUEST_URI']);
+header("Location: $redirect");
 ?>
