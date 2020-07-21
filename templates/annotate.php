@@ -51,6 +51,7 @@
         <div id="dp"></div>
         <form method="POST" action="save.php">
             <input type="hidden" name="id" value="<?=$id?>">
+            <input type="hidden" name="status" value="1">
             <input type="hidden" name="events" id="events" value="[]">
         </form>
 

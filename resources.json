@@ -5,7 +5,8 @@
             {"name": "Bowl", "id": "D2"},
             {"name": "Skillet", "id": "D3"},
             {"name": "Pot", "id": "D4"},
-            {"name": "Grate", "id": "D5"}
+            {"name": "Grate", "id": "D5"},
+            {"name": "Wok", "id": "D6"}
         ]
     },
     {
@@ -34,7 +35,8 @@
     {
         "name": "Regrigerator", "id": "R", "expanded": false, "children": [
             {"name": "Marinade", "id": "R1"},
-            {"name": "Freeze", "id": "R2"}
+            {"name": "Chill", "id": "R2"},
+            {"name": "Freeze", "id": "R3"}
         ]
     },
     {
@@ -49,6 +51,12 @@
             {"name": "Fold", "id": "H2"},
             {"name": "Massage", "id": "H3"},
             {"name": "Knead", "id": "H4"}
+        ]
+    },
+    {
+        "name": "Other", "id": "O", "expanded": false, "children": [
+            {"name": "Grind", "id": "O1"},
+            {"name": "Blend", "id": "O2"}
         ]
     }
 ]

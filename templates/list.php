@@ -11,6 +11,13 @@
     <div id="annotations"></div>
     <script>
 const tabledata=<?php echo json_encode($table);?>;
+function status_color(status) {
+    if (status==-1)
+        return "red";
+    if (status==1)
+        return "green";
+    return "orange";
+}
 var table = new Tabulator("#annotations", {
 	data:tabledata,           //load row data from array
 	layout:"fitColumns",      //fit columns to width of table
@@ -18,7 +25,7 @@ var table = new Tabulator("#annotations", {
 	 	{title:"Recipe", field:"title", hozAlign:"left", sorter: "string"},
         {title:"Ingredients", field:"num_ing", sorter: "number"},
         {title:"Instructions", field:"num_instruct", sorter: "number"},
-	 	{title:"Status", field:"status", formatter:"tickCross", sorter: "number"},
+	 	{title:"Status", field:"status", formatter:"traffic", sorter: "number",formatterParams:{color: status_color}},
  	],
     rowClick:function(e, row){ //trigger an alert message when the row is clicked
          window.location.href = 'annotate.php?id='+row.getData().id;
