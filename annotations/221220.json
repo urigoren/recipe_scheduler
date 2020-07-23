@@ -17,21 +17,21 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2843339.jpg",
     "url": "http://allrecipes.com/Recipe/221220/",
     "normalized_ingredients": {
-        "438": "ketchup",
-        "120": "brown sugar",
-        "47": "Worcestershire sauce",
-        "418": "honey",
-        "124": "butter",
-        "546": "prepared mustard",
-        "446": "lemon juice",
-        "169": "chili powder",
-        "360": "garlic powder"
+        "IoskwJgPz": "ketchup",
+        "IRG-HJdJz": "brown sugar",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "Itg64O_Uz": "honey",
+        "I10_d4pRP": "butter",
+        "IF59D7FK9": "prepared mustard",
+        "I5wmzk9dU": "lemon juice",
+        "Ix4-27vCe": "chili powder",
+        "IvZ0DqVmo": "garlic powder"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Stir ketchup, brown sugar, Worcestershire sauce, honey, butter, mustard, lemon juice, chili powder, and garlic powder together in a saucepan over medium heat; simmer until hot, about 5 minutes."
+    ],
+    "labels": [
+        []
     ]
 }

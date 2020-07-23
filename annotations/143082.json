@@ -22,25 +22,28 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1655056.jpg",
     "url": "http://allrecipes.com/Recipe/143082/",
     "normalized_ingredients": {
-        "120": "brown sugar",
-        "418": "honey",
-        "644": "soy sauce",
-        "330": "fresh ginger root",
-        "351": "garlic",
-        "425": "hot sauce",
-        "587": "salt and pepper to taste",
-        "618": "skinless",
-        "708": "vegetable oil"
+        "IRG-HJdJz": "brown sugar",
+        "Itg64O_Uz": "honey",
+        "ILAT-xDbX": "soy sauce",
+        "IfQ6FM5Es": "fresh ginger root",
+        "IzPYYTv5e": "garlic",
+        "IQZcREeYH": "hot sauce",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "IyzbCHQD4": "skinless",
+        "I7oUHHY41": "vegetable oil"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Mix together brown sugar, honey, soy sauce, ginger, garlic and hot sauce in a small bowl.",
         "Lightly salt and pepper the chicken strips.",
         "Heat oil in a large skillet over medium heat. Add chicken strips and brown on both sides, about 1 minute per side. Pour the sauce over the chicken. Simmer uncovered until the sauce thickens, 8 to 10 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

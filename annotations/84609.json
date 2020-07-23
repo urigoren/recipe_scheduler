@@ -25,27 +25,32 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/964660.jpg",
     "url": "http://allrecipes.com/Recipe/84609/",
     "normalized_ingredients": {
-        "697": "uncooked egg noodles",
-        "383": "ground beef",
-        "536": "pork sausage",
-        "489": "onion",
-        "460": "loaf processed cheese food",
-        "684": "tomato sauce",
-        "340": "frozen corn",
-        "371": "green bell pepper",
-        "479": "mushrooms"
+        "IXxA92DUf": "uncooked egg noodles",
+        "INzU_lxpu": "ground beef",
+        "IwqtOCYJd": "pork sausage",
+        "Iz0wiMjVJ": "onion",
+        "I-m9kA_tt": "loaf processed cheese food",
+        "I-4q8Lxl1": "tomato sauce",
+        "IlKlggYjX": "frozen corn",
+        "IzL3iMCR3": "green bell pepper",
+        "IllGAVvjD": "mushrooms"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat the oven to 350 degrees F (175 degrees C).",
         "Bring a large pot of water to a boil. Add the egg noodles, and cook until tender, about 8 minutes. Meanwhile, crumble the ground beef and pork into a large skillet over medium heat. Add the onion to the meat once there are juices in the pan. Cook and stir until onion is tender and meat is no longer pink. Drain grease.",
         "Transfer the meat and onion to a 9x13 inch baking dish, and mix in the egg noodles, cheese, tomato sauce, corn, green pepper and mushrooms.",
         "Bake for 45 minutes in the preheated oven, until bubbling hot and lightly browned on the top."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

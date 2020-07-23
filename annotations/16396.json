@@ -24,26 +24,31 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/489715.jpg",
     "url": "http://allrecipes.com/Recipe/16396/",
     "normalized_ingredients": {
-        "577": "ricotta cheese",
-        "301": "egg",
-        "360": "garlic powder",
-        "492": "onion powder",
-        "23": "Italian-style seasoning",
-        "612": "shredded mozzarella cheese",
-        "434": "jar spaghetti sauce",
-        "261": "deli sliced roast beef"
+        "IEf9jftMG": "ricotta cheese",
+        "IDpMSCH9Y": "egg",
+        "IvZ0DqVmo": "garlic powder",
+        "ICQ5epRkS": "onion powder",
+        "IKpJu2CpY": "Italian-style seasoning",
+        "I6xndLv-L": "shredded mozzarella cheese",
+        "IAHfPqwcT": "jar spaghetti sauce",
+        "I1dSnvRSG": "deli sliced roast beef"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 375 degrees F (190 degrees C).",
         "In a large bowl, combine the ricotta cheese, egg, garlic powder, onion powder, Italian-style seasoning and half the mozzarella cheese and mix well. Place a spoonful of mixture onto a slice of roast beef and roll. Repeat with remaining beef.",
         "Spread 1/2 cup of the spaghetti sauce on the bottom of a 9x13 inch casserole dish. Place the beef rolls in the baking dish seam side down. Pour the remaining sauce over the beef rolls.",
         "Bake covered at 375 degrees F (190 degrees C) for 40 minutes, add the remaining mozzarella cheese over the top and bake for an additional 3 minutes, uncovered, until cheese is melted."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

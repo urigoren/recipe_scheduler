@@ -24,23 +24,30 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1116740.jpg",
     "url": "http://allrecipes.com/Recipe/69908/",
     "normalized_ingredients": {
-        "481": "nacho-flavor tortilla chips",
-        "383": "ground beef",
-        "490": "onion ",
-        "587": "salt and pepper to taste",
-        "166": "chili beans",
-        "684": "tomato sauce",
-        "608": "shredded Mexican cheese blend"
+        "I6nZVNKNu": "nacho-flavor tortilla chips",
+        "INzU_lxpu": "ground beef",
+        "I6LDFTCYU": "onion ",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "IKQdTniEX": "chili beans",
+        "I-4q8Lxl1": "tomato sauce",
+        "Iyg80fda3": "shredded Mexican cheese blend"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 375 degrees F (190 degrees C). Grease a 9 inch pie plate. Spread crushed tortilla chips in the bottom of the prepared pie plate.",
         "Cook ground beef and onion in a large skillet over medium-high heat until meat is well browned. Drain fat. Season with salt and pepper. Spoon mixture over chips. Top meat with chili beans, tomato sauce, and cheese.",
         "Bake pie, uncovered, until filling is hot and the cheese is melted, 15 to 17 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

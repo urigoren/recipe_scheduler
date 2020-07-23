@@ -19,20 +19,23 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/596028.jpg",
     "url": "http://allrecipes.com/Recipe/22270/",
     "normalized_ingredients": {
-        "443": "lean ground beef",
-        "489": "onion",
-        "658": "stewed tomatoes",
-        "682": "tomato paste",
-        "275": "dried basil",
-        "360": "garlic powder",
-        "282": "dried oregano",
-        "479": "mushrooms"
+        "ICVfuQXfd": "lean ground beef",
+        "Iz0wiMjVJ": "onion",
+        "IuL9yHeUG": "stewed tomatoes",
+        "INAgcB9lc": "tomato paste",
+        "IkF0wURa-": "dried basil",
+        "IvZ0DqVmo": "garlic powder",
+        "I5MyZsfNh": "dried oregano",
+        "IllGAVvjD": "mushrooms"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a large saucepan over medium heat, cook ground beef with onion until brown; drain. Stir tomatoes, tomato paste, basil, garlic powder, oregano and mushrooms into beef mixture. Bring to a boil, then reduce heat to low and simmer one hour. Serve over hot pasta."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

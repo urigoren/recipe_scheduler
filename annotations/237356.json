@@ -33,25 +33,17 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4010362.jpg",
     "url": "http://allrecipes.com/Recipe/237356/",
     "normalized_ingredients": {
-        "197": "cooked chicken breast halves",
-        "418": "honey",
-        "468": "ly squeezed lime juice",
-        "169": "chili powder",
-        "351": "garlic",
-        "373": "green enchilada sauce",
-        "413": "heavy whipping cream",
-        "214": "corn tortillas",
-        "613": "shredded queso asadero "
+        "IaWyoRvow": "cooked chicken breast halves",
+        "Itg64O_Uz": "honey",
+        "IPTfbaSn3": "ly squeezed lime juice",
+        "Ix4-27vCe": "chili powder",
+        "IzPYYTv5e": "garlic",
+        "I87pK5QC7": "green enchilada sauce",
+        "INHWkPIdc": "heavy whipping cream",
+        "IsKQXI-vo": "corn tortillas",
+        "Ii88y7G4Q": "shredded queso asadero "
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Place shredded chicken in a bowl.",
         "Whisk honey, lime juice, chili powder, and garlic together in a bowl; pour over chicken and toss to coat. Marinate chicken in refrigerator for at least 30 minutes.",
@@ -59,5 +51,24 @@
         "Mix enchilada sauce and cream together in a shallow bowl. Dip 1 tortilla in enchilada sauce mixture and place in the bottom of a 9x13-inch baking dish. Repeat dipping tortillas and arranging in the dish until bottom of dish is covered.",
         "Spread 1/2 the chicken mixture over dipped-tortilla layer. Sprinkle 1/3 the queso asadero over chicken layer. Dip more tortillas in enchilada sauce mixture and arrange over queso asadero layer. Spoon 2 to 3 spoonful enchilada sauce mixture over tortilla layer. Repeat layering with remaining chicken, 1/3 queso asadero, ending with a layer of dipped tortillas. Pour any remaining enchilada sauce mixture over tortillas. Sprinkle remaining 1/3 queso asadero over enchiladas.",
         "Bake in the preheated oven until heated through and cheese is melted and golden, about 30 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

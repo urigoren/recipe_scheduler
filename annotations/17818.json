@@ -19,22 +19,25 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3806393.jpg",
     "url": "http://allrecipes.com/Recipe/17818/",
     "normalized_ingredients": {
-        "153": "chicken drumettes",
-        "193": "condensed tomato soup",
-        "327": "fresh cilantro",
-        "492": "onion powder",
-        "387": "ground black pepper",
-        "363": "garlic salt"
+        "IWeGmLk4K": "chicken drumettes",
+        "I2wQk_rF4": "condensed tomato soup",
+        "IFP4aQpcU": "fresh cilantro",
+        "ICQ5epRkS": "onion powder",
+        "IdlJrAHh2": "ground black pepper",
+        "IOHK_fJm8": "garlic salt"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 325 degrees F (165 degrees C).",
         "Place drummettes in a 9x13 inch baking dish. In a medium bowl, combine the soup, cilantro, onion powder, pepper and garlic salt. Mix well, and pour mixture over chicken.",
         "Bake at 325 degrees F (165 degrees C) for 1 hour, or until chicken is cooked through and juices run clear."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

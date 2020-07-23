@@ -20,19 +20,24 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/119942/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "495": "onions",
-        "355": "garlic cloves",
-        "110": "bottle chili sauce",
-        "506": "packet dry brown gravy mix",
-        "310": "envelope onion soup mix",
-        "583": "salt"
+        "INzU_lxpu": "ground beef",
+        "IXBaW-8TW": "onions",
+        "IjAY80WeL": "garlic cloves",
+        "Ij6oTPYAt": "bottle chili sauce",
+        "IGrUqxawK": "packet dry brown gravy mix",
+        "I2eQKERDI": "envelope onion soup mix",
+        "IzrIHcuDJ": "salt"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a Dutch oven cook the beef, onions and garlic over medium heat until meat is no longer pink; drain. Stir in the remaining ingredients. Cook for 10 minutes or until heated through. Cool. Place about 2-3/4 cups each in four freezer containers. May be frozen for up to 3 months."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

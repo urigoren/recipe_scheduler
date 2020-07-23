@@ -21,22 +21,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/1034318.jpg",
     "url": "http://allrecipes.com/Recipe/233689/",
     "normalized_ingredients": {
-        "462": "long-grain white rice",
-        "100": "boneless beef sirloin steak",
-        "25": "KRAFT RECIPE MAKERS Sweet & Sour Chicken",
-        "349": "frozen whole green beans",
-        "564": "red peppers",
-        "167": "chili garlic sauce"
+        "IIWDCt_GZ": "long-grain white rice",
+        "IqAi24Ivk": "boneless beef sirloin steak",
+        "I5mKmufwm": "KRAFT RECIPE MAKERS Sweet & Sour Chicken",
+        "IiuhexERi": "frozen whole green beans",
+        "IbhwOfrr3": "red peppers",
+        "IKeeuKzTy": "chili garlic sauce"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Cook rice as directed on package, omitting salt.",
         "Stir-fry meat in half the Simmer Sauce in large skillet on medium heat 6 to 8min. or until done. Add vegetables and remaining Simmer Sauce to skillet; cook and stir 2 to 4 min. or until vegetables are crisp-tender. Stir in Finishing Sauce and chili sauce; cook 1 to 2 min. or until heated through.",
         "Serve over rice."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

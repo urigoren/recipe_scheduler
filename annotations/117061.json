@@ -23,22 +23,28 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989824.jpg",
     "url": "http://allrecipes.com/Recipe/117061/",
     "normalized_ingredients": {
-        "299": "ears sweet corn",
-        "124": "butter",
-        "169": "chili powder",
-        "186": "coarsely ground pepper",
-        "360": "garlic powder",
-        "139": "cayenne pepper",
-        "216": "cornstarch",
-        "569": "reduced sodium chicken broth or vegetable broth"
+        "I5G45tdUQ": "ears sweet corn",
+        "I10_d4pRP": "butter",
+        "Ix4-27vCe": "chili powder",
+        "IY56-wA5m": "coarsely ground pepper",
+        "IvZ0DqVmo": "garlic powder",
+        "IHYTIwEXb": "cayenne pepper",
+        "Ik1g9zGpa": "cornstarch",
+        "IlvuC2XJX": "reduced sodium chicken broth or vegetable broth"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "In a large kettle, bring 3 qts. of water to a boil; add corn. Return to a boil; cook for 3-5 minutes or until tender.",
         "Meanwhile, in a small saucepan, melt butter. Stir in the chili powder, pepper, garlic powder and cayenne; cook and stir for 1 minute. Combine cornstarch and broth until smooth; gradually whisk into butter mixture. Bring to a boil; cook and stir for 1-2 minutes or until slightly thickened. Drain corn; serve with seasoned butter."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

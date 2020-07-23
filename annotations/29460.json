@@ -21,23 +21,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/227293.jpg",
     "url": "http://allrecipes.com/Recipe/29460/",
     "normalized_ingredients": {
-        "393": "ground ginger",
-        "360": "garlic powder",
-        "644": "soy sauce",
-        "498": "orange juice",
-        "418": "honey",
-        "374": "green onion",
-        "580": "salmon fillet"
+        "IAq835ZPT": "ground ginger",
+        "IvZ0DqVmo": "garlic powder",
+        "ILAT-xDbX": "soy sauce",
+        "IjCTxRq3o": "orange juice",
+        "Itg64O_Uz": "honey",
+        "IIPGLrn7i": "green onion",
+        "I4uHQ7s3Q": "salmon fillet"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "In a large self-closing plastic bag, combine ginger, garlic, soy sauce, orange juice, honey, and green onion; mix well. Place salmon in bag and seal tightly. Turn bag gently to distribute marinade. Refrigerate for 15 to 30 minutes.",
         "Preheat an outdoor grill for medium heat and lightly oil grate.",
         "Remove salmon from marinade, shake off excess, and discard remaining marinade. Grill for 12 to 15 minutes per inch of thickness, or until the fish flakes easily with a fork."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

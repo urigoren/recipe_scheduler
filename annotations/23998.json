@@ -15,17 +15,19 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/605723.jpg",
     "url": "http://allrecipes.com/Recipe/23998/",
     "normalized_ingredients": {
-        "124": "butter",
-        "618": "skinless",
-        "360": "garlic powder",
-        "594": "seasoning salt",
-        "492": "onion powder"
+        "I10_d4pRP": "butter",
+        "IyzbCHQD4": "skinless",
+        "IvZ0DqVmo": "garlic powder",
+        "IubiahnlF": "seasoning salt",
+        "ICQ5epRkS": "onion powder"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Melt butter in a large skillet over medium high heat. Add chicken and sprinkle with garlic powder, seasoning salt and onion powder. Saute about 10 to 15 minutes on each side, or until chicken is cooked through and juices run clear."
+    ],
+    "labels": [
+        [],
+        [],
+        []
     ]
 }

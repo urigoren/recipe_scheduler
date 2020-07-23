@@ -17,21 +17,22 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3584656.jpg",
     "url": "http://allrecipes.com/Recipe/230895/",
     "normalized_ingredients": {
-        "443": "lean ground beef",
-        "714": "water",
-        "684": "tomato sauce",
-        "173": "chili seasoning mix",
-        "547": "prepared yellow mustard",
-        "492": "onion powder",
-        "360": "garlic powder"
+        "ICVfuQXfd": "lean ground beef",
+        "IlGA3C7DK": "water",
+        "I-4q8Lxl1": "tomato sauce",
+        "ILcIeoign": "chili seasoning mix",
+        "IFVfDW1hp": "prepared yellow mustard",
+        "ICQ5epRkS": "onion powder",
+        "IvZ0DqVmo": "garlic powder"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Stir lean ground beef, water, tomato sauce, chili seasoning mix, yellow mustard, onion powder, and garlic powder together in a large saucepan; bring to a boil, stirring often. Cover, reduce heat to low, and simmer until ground beef is no longer pink, about 10 minutes.",
         "Remove lid and simmer sauce until thickened, about 20 more minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        []
     ]
 }

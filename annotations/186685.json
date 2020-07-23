@@ -21,24 +21,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1026802.jpg",
     "url": "http://allrecipes.com/Recipe/186685/",
     "normalized_ingredients": {
-        "572": "reduced-sodium soy sauce",
-        "416": "hoisin sauce",
-        "167": "chili garlic sauce",
-        "446": "lemon juice",
-        "369": "grated fresh ginger root",
-        "181": "clove garlic",
-        "486": "olive oil",
-        "618": "skinless"
+        "IfK0MFefK": "reduced-sodium soy sauce",
+        "IjLMNCxJy": "hoisin sauce",
+        "IKeeuKzTy": "chili garlic sauce",
+        "I5wmzk9dU": "lemon juice",
+        "ISKHBGDi7": "grated fresh ginger root",
+        "IZHo2eKTZ": "clove garlic",
+        "IbpWInzAX": "olive oil",
+        "IyzbCHQD4": "skinless"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Whisk together the soy sauce, hoisin sauce, chili sauce, lemon juice, ginger, garlic, and olive oil in a 9x13 inch baking dish. Place the salmon fillets into the marinade, and turn to evenly coat. Cover the dish with plastic wrap, and marinate in the refrigerator for 30 minutes.",
         "Preheat an oven to 350 degrees F (175 degrees C). Remove and discard the plastic wrap from the salmon, use a spoon to scoop up the marinade that has collected in the bottom of the baking dish, and drizzle it over the salmon fillets.",
         "Bake in the preheated oven until the salmon flakes easily with a fork, about 30 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

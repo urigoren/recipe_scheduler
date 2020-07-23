@@ -19,19 +19,23 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/56942.jpg",
     "url": "http://allrecipes.com/Recipe/12976/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "489": "onion",
-        "224": "cream-style corn",
-        "174": "chili with beans",
-        "65": "baked beans with pork",
-        "684": "tomato sauce",
-        "265": "diced green chiles"
+        "INzU_lxpu": "ground beef",
+        "Iz0wiMjVJ": "onion",
+        "I1uFB-wTC": "cream-style corn",
+        "IXmL48mAi": "chili with beans",
+        "ICB1iBOw4": "baked beans with pork",
+        "I-4q8Lxl1": "tomato sauce",
+        "IQHuNfokx": "diced green chiles"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Crumble the ground beef into a large skillet or Dutch oven over medium-high heat. Add onion; cook and stir until beef is no longer pink. Drain off grease. Reduce heat to medium-low and stir in the corn, chili with beans, baked beans, tomato sauce and green chilies. Cover and simmer for 30 minutes, stirring occasionally."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

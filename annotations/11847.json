@@ -19,22 +19,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2433727.jpg",
     "url": "http://allrecipes.com/Recipe/11847/",
     "normalized_ingredients": {
-        "443": "lean ground beef",
-        "469": "macaroni",
-        "551": "quart stewed tomatoes",
-        "507": "paprika",
-        "169": "chili powder",
-        "489": "onion",
-        "181": "clove garlic",
-        "683": "tomato paste "
+        "ICVfuQXfd": "lean ground beef",
+        "IOPF3I6M_": "macaroni",
+        "Iglwfrcy-": "quart stewed tomatoes",
+        "I3iyfiDk4": "paprika",
+        "Ix4-27vCe": "chili powder",
+        "Iz0wiMjVJ": "onion",
+        "IZHo2eKTZ": "clove garlic",
+        "IllGcqEnI": "tomato paste "
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "In large saucepan brown ground chuck, drain.",
         "Add tomatoes, onions, garlic, paprika, chili powder, macaroni and tomato paste, if desired. Add water, a tablespoon at a time, if mixture seems too dry. Simmer until macaroni is tender."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

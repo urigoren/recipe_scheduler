@@ -17,18 +17,21 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2070256.jpg",
     "url": "http://allrecipes.com/Recipe/121736/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "552": "quart tomato juice",
-        "714": "water",
-        "698": "uncooked elbow macaroni",
-        "310": "envelope onion soup mix",
-        "169": "chili powder"
+        "INzU_lxpu": "ground beef",
+        "IBn9OIguo": "quart tomato juice",
+        "IlGA3C7DK": "water",
+        "IuyTJ0Hui": "uncooked elbow macaroni",
+        "I2eQKERDI": "envelope onion soup mix",
+        "Ix4-27vCe": "chili powder"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a large saucepan, cook beef over medium heat until no longer pink; drain. Add the remaining ingredients. Bring to a boil. Reduce heat; simmer, uncovered, for 15-20 minutes or until macaroni is tender."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

@@ -22,23 +22,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1027021.jpg",
     "url": "http://allrecipes.com/Recipe/233237/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "570": "reduced-sodium beef broth",
-        "239": "crushed tomatoes with puree",
-        "169": "chili powder",
-        "507": "paprika",
-        "492": "onion powder",
-        "360": "garlic powder",
-        "441": "kosher salt",
-        "139": "cayenne pepper"
+        "INzU_lxpu": "ground beef",
+        "IVN_SJHst": "reduced-sodium beef broth",
+        "I-bIbd1P5": "crushed tomatoes with puree",
+        "Ix4-27vCe": "chili powder",
+        "I3iyfiDk4": "paprika",
+        "ICQ5epRkS": "onion powder",
+        "IvZ0DqVmo": "garlic powder",
+        "InDhV5Q2Q": "kosher salt",
+        "IHYTIwEXb": "cayenne pepper"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Heat a large skillet over medium-high heat. Cook and stir beef in the hot skillet until browned and crumbly, 5 to 7 minutes; drain and discard grease. Add beef broth to ground beef; bring to a boil. Reduce heat to medium-low and simmer until liquid is slightly reduced, about 30 minutes.",
         "Mix tomatoes with puree, chili powder, paprika, onion powder, garlic powder, salt, and cayenne pepper into ground beef mixture. Simmer, stirring occasionally, until mixture is very thick, about 1 1/2 hours."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

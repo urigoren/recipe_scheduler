@@ -23,24 +23,29 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/395105.jpg",
     "url": "http://allrecipes.com/Recipe/44172/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "47": "Worcestershire sauce",
-        "684": "tomato sauce",
-        "235": "crushed fried pork skins",
-        "307": "eggs",
-        "169": "chili powder",
-        "363": "garlic salt",
-        "359": "garlic pepper seasoning"
+        "INzU_lxpu": "ground beef",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "I-4q8Lxl1": "tomato sauce",
+        "ItMbwAM0N": "crushed fried pork skins",
+        "Iq5LZ-uXu": "eggs",
+        "Ix4-27vCe": "chili powder",
+        "IOHK_fJm8": "garlic salt",
+        "Izt6MJm6X": "garlic pepper seasoning"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat the oven to 375 degrees F (190 degrees C).",
         "In a large bowl, mix together the ground beef, Worcestershire sauce. tomato sauce, crushed pork skins, and eggs. Season with chili powder, garlic salt, and garlic pepper. Mix until well blended. Form into a loaf, and place into a greased loaf pan.",
         "Bake, uncovered for 35 to 40 minutes in the preheated oven. Let stand for at least 5 minutes before slicing and serving."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

@@ -1,0 +1,39 @@
+{
+    "ingredients": [
+        "1 cup reduced-sodium soy sauce",
+        "2 tablespoons minced garlic",
+        "2 tablespoons grated fresh ginger root",
+        "2 teaspoons sesame oil",
+        "1 teaspoon chili oil",
+        "1/3 cup fresh lime juice",
+        "1/4 cup rice vinegar",
+        "1/4 teaspoon onion powder"
+    ],
+    "instructions": [
+        "Combine soy sauce, garlic, ginger, sesame oil, chili oil, lime juice, vinegar and onion powder in a blender.",
+        "Process until evenly combined.",
+        "Chill before serving."
+    ],
+    "title": "Tangy Ginger Lime Salad Dressing",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/837101.jpg",
+    "url": "http://allrecipes.com/Recipe/24599/",
+    "normalized_ingredients": {
+        "IfK0MFefK": "reduced-sodium soy sauce",
+        "IzPYYTv5e": "garlic",
+        "ISKHBGDi7": "grated fresh ginger root",
+        "IpyJf3OVq": "sesame oil",
+        "IZckRZ46q": "chili oil",
+        "IW1qYXIte": "lime juice",
+        "IV32I3Qhn": "rice vinegar",
+        "ICQ5epRkS": "onion powder"
+    },
+    "status": 0,
+    "steps": [
+        "Combine soy sauce, garlic, ginger, sesame oil, chili oil, lime juice, vinegar and onion powder in a blender. Process until evenly combined. Chill before serving."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ]
+}

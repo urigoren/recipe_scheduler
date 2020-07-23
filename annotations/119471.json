@@ -20,20 +20,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/992103.jpg",
     "url": "http://allrecipes.com/Recipe/119471/",
     "normalized_ingredients": {
-        "489": "onion",
-        "354": "garlic clove",
-        "129": "butter or stick margarine",
-        "96": "bone-in pork loin chops",
-        "684": "tomato sauce",
-        "298": "dry white wine or chicken broth",
-        "282": "dried oregano",
-        "512": "pepper"
+        "Iz0wiMjVJ": "onion",
+        "IwROKJycn": "garlic clove",
+        "IQa8-0qhS": "butter or stick margarine",
+        "INOd8culu": "bone-in pork loin chops",
+        "I-4q8Lxl1": "tomato sauce",
+        "Iea2Z8N0W": "dry white wine or chicken broth",
+        "I5MyZsfNh": "dried oregano",
+        "Is_lS1dmt": "pepper"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a large nonstick skillet, saute onion and garlic in butter until tender. add pork chops; brown on both sides. In a small bowl, combine the tomato sauce, wine or broth, oregano and pepper; pour over chops. Bring to a boil. Reduce heat; cover and simmer for 10-15 minutes or until tender."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

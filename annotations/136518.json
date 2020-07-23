@@ -17,21 +17,21 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/693438.jpg",
     "url": "http://allrecipes.com/Recipe/136518/",
     "normalized_ingredients": {
-        "644": "soy sauce",
-        "575": "rice vinegar",
-        "418": "honey",
-        "596": "sesame oil",
-        "351": "garlic",
-        "369": "grated fresh ginger root",
-        "375": "green onion or shallot",
-        "555": "raw sesame seeds",
-        "399": "ground pepper"
+        "ILAT-xDbX": "soy sauce",
+        "IV32I3Qhn": "rice vinegar",
+        "Itg64O_Uz": "honey",
+        "IpyJf3OVq": "sesame oil",
+        "IzPYYTv5e": "garlic",
+        "ISKHBGDi7": "grated fresh ginger root",
+        "IhxHEmu4i": "green onion or shallot",
+        "Imkqtcf11": "raw sesame seeds",
+        "IGcblNZYH": "ground pepper"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Whisk together soy sauce, rice vinegar, honey, sesame oil, garlic, ginger, green onion, sesame seeds, and pepper until the honey has dissolved."
+    ],
+    "labels": [
+        []
     ]
 }

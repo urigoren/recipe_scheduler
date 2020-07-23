@@ -23,18 +23,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/978190.jpg",
     "url": "http://allrecipes.com/Recipe/122786/",
     "normalized_ingredients": {
-        "78": "beef consomme",
-        "438": "ketchup",
-        "644": "soy sauce",
-        "418": "honey",
-        "355": "garlic cloves",
-        "219": "country-style pork spareribs"
+        "IHzQsYdIe": "beef consomme",
+        "IoskwJgPz": "ketchup",
+        "ILAT-xDbX": "soy sauce",
+        "Itg64O_Uz": "honey",
+        "IjAY80WeL": "garlic cloves",
+        "IO_f7MVWi": "country-style pork spareribs"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Combine the first five ingredients in a bowl. Pour half into a large resealable plastic bag or shallow glass container; add ribs. Cover and refrigerate overnight, turning once. Refrigerate remaining marinade. Remove ribs to a greased roasting pan; discard marinade. Cover and bake at 425 degrees F for 10 minutes. Reduce heat to 325 degrees F. Cover and bake 30 minutes longer; drain. Pour reserved marinade over ribs. Bake, uncovered, for 45 minutes or until meat is tender, basting frequently."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

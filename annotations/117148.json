@@ -30,22 +30,35 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989589.jpg",
     "url": "http://allrecipes.com/Recipe/117148/",
     "normalized_ingredients": {
-        "472": "maple syrup",
-        "572": "reduced-sodium soy sauce",
-        "354": "garlic clove",
-        "317": "fillets salmon",
-        "568": "reduced sodium chicken broth",
-        "332": "fresh mushrooms",
-        "512": "pepper",
-        "696": "uncooked couscous"
+        "I7RpsL1au": "maple syrup",
+        "IfK0MFefK": "reduced-sodium soy sauce",
+        "IwROKJycn": "garlic clove",
+        "IZC6P8AHk": "fillets salmon",
+        "IKgWh_ikp": "reduced sodium chicken broth",
+        "I1GhUudnU": "fresh mushrooms",
+        "Is_lS1dmt": "pepper",
+        "IgC5ckUFs": "uncooked couscous"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Line a small baking pan with foil; coat the foil with nonstick cooking spray. In a small bowl, combine the syrup, soy sauce and garlic. Place fillets skin side down on prepared pan. Brush half of the syrup mixture over salmon. Broil 6 in. from the heat for 7 minutes. Brush with remaining syrup mixture. Broil 6-8 minutes longer or until fish flakes easily with fork.",
         "Meanwhile, in a small saucepan, bring the broth, mushrooms and pepper to a boil. Reduce heat; cover and simmer 5-6 minutes or until mushrooms are tender. Return to a boil. Stir in couscous. Cover and remove from the heat; let stand for 5 minutes. Fluff with a fork. Serve with salmon."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

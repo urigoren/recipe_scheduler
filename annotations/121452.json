@@ -19,20 +19,23 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/993090.jpg",
     "url": "http://allrecipes.com/Recipe/121452/",
     "normalized_ingredients": {
-        "582": "salsa",
-        "68": "barbecue sauce",
-        "504": "packed brown sugar",
-        "422": "hot dogs",
-        "279": "dried minced onion",
-        "533": "pork and beans",
-        "166": "chili beans",
-        "126": "butter beans or lima beans"
+        "IAUPB6Ol9": "salsa",
+        "I0EA2DbS7": "barbecue sauce",
+        "IjdeLbzOg": "packed brown sugar",
+        "ISxbdBax8": "hot dogs",
+        "IqGPmWGu-": "dried minced onion",
+        "IdqnJwNSJ": "pork and beans",
+        "IKQdTniEX": "chili beans",
+        "ImEc8EsXN": "butter beans or lima beans"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a bowl, combine the first five ingredients; mix well. Stir in the beans; pour into an ungreased 2-qt. baking dish. Bake, uncovered, at 375 degrees F for 35-40 minutes or until bubbly."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

@@ -18,19 +18,22 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/976440.jpg",
     "url": "http://allrecipes.com/Recipe/119519/",
     "normalized_ingredients": {
-        "321": "finely chopped onion",
-        "127": "butter or margarine",
-        "275": "dried basil",
-        "507": "paprika",
-        "360": "garlic powder",
-        "193": "condensed tomato soup",
-        "475": "milk"
+        "IO6BGJ2ZC": "finely chopped onion",
+        "IJiuoefFg": "butter or margarine",
+        "IkF0wURa-": "dried basil",
+        "I3iyfiDk4": "paprika",
+        "IvZ0DqVmo": "garlic powder",
+        "I2wQk_rF4": "condensed tomato soup",
+        "I7L24gq6G": "milk"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a saucepan, saute onion in butter until tender. Add basil, paprika and garlic powder. Stir in soup and milk until well blended. Cook over medium heat for 6 minutes or until heated through."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

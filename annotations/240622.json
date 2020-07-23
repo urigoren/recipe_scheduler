@@ -21,23 +21,26 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3457965.jpg",
     "url": "http://allrecipes.com/Recipe/240622/",
     "normalized_ingredients": {
-        "135": "canola oil",
-        "383": "ground beef",
-        "181": "clove garlic",
-        "439": "kidney beans",
-        "489": "onion",
-        "371": "green bell pepper",
-        "684": "tomato sauce",
-        "169": "chili powder",
-        "583": "salt"
+        "It3BrYOoh": "canola oil",
+        "INzU_lxpu": "ground beef",
+        "IZHo2eKTZ": "clove garlic",
+        "I7y16rOcY": "kidney beans",
+        "Iz0wiMjVJ": "onion",
+        "IzL3iMCR3": "green bell pepper",
+        "I-4q8Lxl1": "tomato sauce",
+        "Ix4-27vCe": "chili powder",
+        "IzrIHcuDJ": "salt"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Heat oil in a large skillet over medium-high heat. Cook and stir beef and garlic in hot oil until completely browned, 5 to 7 minutes.",
         "Stir kidney beans, onion, and bell pepper with the beef mixture. Pour tomato sauce over the beef mixture; season with chili powder and salt. Stir the mixture so the sauce coats everything, reduce heat to low, and cook, stirring occasionally, until the chili thickens, about 45 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

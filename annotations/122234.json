@@ -24,21 +24,28 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/975709.jpg",
     "url": "http://allrecipes.com/Recipe/122234/",
     "normalized_ingredients": {
-        "98": "boneless",
-        "128": "butter or margarine, softened",
-        "354": "garlic clove",
-        "277": "dried dill weed",
-        "628": "slices French bread",
-        "221": "cream cheese",
-        "446": "lemon juice",
-        "448": "lettuce leaves",
-        "637": "slices tomato"
+        "IYkvl3BQC": "boneless",
+        "InvU18sSE": "butter or margarine, softened",
+        "IwROKJycn": "garlic clove",
+        "Ie1BWNb-F": "dried dill weed",
+        "ItYKwYDIs": "slices French bread",
+        "IDUWQF1DU": "cream cheese",
+        "I5wmzk9dU": "lemon juice",
+        "ImrVnFAnV": "lettuce leaves",
+        "IJZuXONnm": "slices tomato"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Pound chicken to flatten evenly; set aside. In a skillet, melt 3 tablespoons of butter; add garlic and 1/2 teaspoon dill. Add chicken; cook until juices run clear. Remove and keep warm. Spread both sides of bread with remaining butter. In a skillet or griddle, grill bread on both sides until golden brown. In a small bowl, combine cream cheese, lemon juice and remaining dill; spread on one side of grilled bread. Place lettuce, chicken and tomato on four slices of bread; top with remaining bread."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

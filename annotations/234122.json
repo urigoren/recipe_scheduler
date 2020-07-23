@@ -21,23 +21,26 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/234122/",
     "normalized_ingredients": {
-        "122": "bulk pork sausage",
-        "141": "celery",
-        "489": "onion",
-        "736": "zucchinis",
-        "268": "diced tomatoes",
-        "152": "chicken broth",
-        "22": "Italian seasoning",
-        "363": "garlic salt",
-        "606": "shredded Cheddar cheese "
+        "IQJztuIPS": "bulk pork sausage",
+        "I1IusNkrV": "celery",
+        "Iz0wiMjVJ": "onion",
+        "IDeI6sVxG": "zucchinis",
+        "IWzBDAARA": "diced tomatoes",
+        "INNbMITPe": "chicken broth",
+        "I2-i2J3i8": "Italian seasoning",
+        "IOHK_fJm8": "garlic salt",
+        "I65VJJAYp": "shredded Cheddar cheese "
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Heat a large pot over medium-high heat. Cook and stir sausage, celery, and onion in the hot skillet until sausage is completely browned, 5 to 7 minutes; drain and discard grease.",
         "Stir zucchini, diced tomatoes, chicken broth, Italian seasoning, and garlic salt into the sausage mixture. Place pot over low heat and cook mixture at a simmer until the zucchini is tender, about 25 minutes. Top individual servings with Cheddar cheese."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

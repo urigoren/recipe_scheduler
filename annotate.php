@@ -13,12 +13,16 @@ if (array_key_exists("id", $_GET) && annotation_exists($_GET['id']))
     {
         // ingredients as actions
         $resources = json_decode(file_get_contents("resources.json"));
+        $tools = json_decode(file_get_contents("tools.json"));
         $actions=array();
-        $actions[] =array("display"=>"__ALL__", "id"=>-1, "color"=>"#ffffff");
-        $actions[] =array("display"=>"__PASTE__", "id"=>-2, "color"=>"#ffffff");
-        $actions[] =array("display"=>"__PREVIOUSLY_THERE__", "id"=>-3, "color"=>"#ffffff");
+        $actions[] =array("display"=>"All Ingredients", "id"=>"AALL", "color"=>"#ffffff");
+        $actions[] =array("display"=>"Paste from clipboard", "id"=>"APASTE", "color"=>"#ffffff");
+        $actions[] =array("display"=>"Previously assigned here", "id"=>"AALREADY", "color"=>"#ffffff");
+        foreach ($tools as $key => $value) {
+            $actions[]=array("display"=>"-".$value, "id"=>$key, "color"=>"#ff0000");
+        }
         foreach ($data["normalized_ingredients"] as $key => $value) {
-            $actions[]=array("display"=>$value, "id"=>$key, "color"=>"#00ff00");
+            $actions[]=array("display"=>"+".$value, "id"=>$key, "color"=>"#00ff00");
         }
     }
     else {

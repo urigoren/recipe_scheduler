@@ -18,21 +18,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/223812.jpg",
     "url": "http://allrecipes.com/Recipe/152224/",
     "normalized_ingredients": {
-        "443": "lean ground beef",
-        "735": "yellow onion",
-        "301": "egg",
-        "222": "cream of chicken soup",
-        "671": "tater tots"
+        "ICVfuQXfd": "lean ground beef",
+        "I18vf8b48": "yellow onion",
+        "IDpMSCH9Y": "egg",
+        "ICiJjrNU7": "cream of chicken soup",
+        "IhgsPfJ1q": "tater tots"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat an oven to 450 degrees F (230 degrees C). Grease a 9x9-inch baking dish.",
         "Mix the ground beef, onion, and egg together in a bowl; spread evenly into the prepared baking dish. Arrange the tater tots over the beef mixture. Pour the chicken soup over the tater tots.",
         "Bake in the preheated oven until the beef is cooked through and has reached an internal temperature of 160 degrees F (71 degrees C), about 1 hour."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

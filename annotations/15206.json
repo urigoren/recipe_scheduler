@@ -23,27 +23,30 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1066728.jpg",
     "url": "http://allrecipes.com/Recipe/15206/",
     "normalized_ingredients": {
-        "443": "lean ground beef",
-        "301": "egg",
-        "714": "water",
-        "116": "bread crumbs",
-        "489": "onion",
-        "435": "jellied cranberry sauce",
-        "172": "chili sauce",
-        "120": "brown sugar",
-        "446": "lemon juice"
+        "ICVfuQXfd": "lean ground beef",
+        "IDpMSCH9Y": "egg",
+        "IlGA3C7DK": "water",
+        "I8UU4881n": "bread crumbs",
+        "Iz0wiMjVJ": "onion",
+        "Iv_eYQ4bj": "jellied cranberry sauce",
+        "IrOFel8FB": "chili sauce",
+        "IRG-HJdJz": "brown sugar",
+        "I5wmzk9dU": "lemon juice"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 350 degrees F (175 degrees C).",
         "In a large bowl, mix together the ground beef, egg, water, bread crumbs, and minced onion. Roll into small meatballs.",
         "Bake in preheated oven for 20 to 25 minutes, turning once.",
         "In a slow cooker or large saucepan over low heat, blend the cranberry sauce, chili sauce, brown sugar, and lemon juice. Add meatballs, and simmer for 1 hour before serving."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

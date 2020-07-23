@@ -32,24 +32,16 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/306087.jpg",
     "url": "http://allrecipes.com/Recipe/19694/",
     "normalized_ingredients": {
-        "630": "slices bacon",
-        "370": "green beans",
-        "240": "cube beef bouillon",
-        "47": "Worcestershire sauce",
-        "644": "soy sauce",
-        "124": "butter",
-        "120": "brown sugar",
-        "360": "garlic powder"
+        "IAMCClUjH": "slices bacon",
+        "IgEi15aQH": "green beans",
+        "I5m6jCFp2": "cube beef bouillon",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "ILAT-xDbX": "soy sauce",
+        "I10_d4pRP": "butter",
+        "IRG-HJdJz": "brown sugar",
+        "IvZ0DqVmo": "garlic powder"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 350 degrees F (175 degrees C).",
         "Place bacon in a large, deep skillet. Cook over medium high heat until partially cooked. Drain, cut each piece in half, and set aside.",
@@ -57,5 +49,24 @@
         "Take a bundle of green beans (4 or 5) and wrap them with a piece of bacon. Secure with a toothpick if necessary. Place the bundles in a shallow baking dish.",
         "In a saucepan over medium heat, combine the reserved stock with the Worcestershire sauce, soy sauce, butter, brown sugar, and garlic powder. Stir until the sugar is dissolved.",
         "Pour the sauce over the bundles and bake in a preheated 350 degrees F (175 degrees C) oven for 20 minutes or until the bacon is done."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

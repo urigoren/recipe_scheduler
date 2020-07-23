@@ -24,23 +24,29 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/855246.jpg",
     "url": "http://allrecipes.com/Recipe/16954/",
     "normalized_ingredients": {
-        "301": "egg",
-        "714": "water",
-        "124": "butter",
-        "708": "vegetable oil",
-        "489": "onion",
-        "202": "cooked white rice",
-        "644": "soy sauce",
-        "387": "ground black pepper",
-        "196": "cooked"
+        "IDpMSCH9Y": "egg",
+        "IlGA3C7DK": "water",
+        "I10_d4pRP": "butter",
+        "I7oUHHY41": "vegetable oil",
+        "Iz0wiMjVJ": "onion",
+        "IJKGJH_3K": "cooked white rice",
+        "ILAT-xDbX": "soy sauce",
+        "IdlJrAHh2": "ground black pepper",
+        "IkKjpmZaq": "cooked"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "In a small bowl, beat egg with water. Melt butter in a large skillet over medium low heat. Add egg and leave flat for 1 to 2 minutes. Remove from skillet and cut into shreds.",
         "Heat oil in same skillet; add onion and saute until soft. Then add rice, soy sauce, pepper and chicken. Stir fry together for about 5 minutes, then stir in egg. Serve hot."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

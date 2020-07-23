@@ -16,16 +16,20 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/853327.jpg",
     "url": "http://allrecipes.com/Recipe/118295/",
     "normalized_ingredients": {
-        "107": "boneless pork loin chops",
-        "172": "chili sauce",
-        "418": "honey",
-        "644": "soy sauce"
+        "Ixsij1FT4": "boneless pork loin chops",
+        "IrOFel8FB": "chili sauce",
+        "Itg64O_Uz": "honey",
+        "ILAT-xDbX": "soy sauce"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Place pork chops in a greased broiler pan. In a bowl, combine the chili sauce, honey and soy sauce. Pour over pork. Broil 4 in. from the heat for 5-7 minutes or until meat juices run clear."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

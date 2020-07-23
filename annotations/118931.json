@@ -22,21 +22,26 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/430793.jpg",
     "url": "http://allrecipes.com/Recipe/118931/",
     "normalized_ingredients": {
-        "443": "lean ground beef",
-        "360": "garlic powder",
-        "272": "diced zucchini",
-        "268": "diced tomatoes",
-        "427": "instant rice",
-        "714": "water",
-        "489": "onion",
-        "572": "reduced-sodium soy sauce",
-        "275": "dried basil"
+        "ICVfuQXfd": "lean ground beef",
+        "IvZ0DqVmo": "garlic powder",
+        "IDy1WHdvM": "diced zucchini",
+        "IWzBDAARA": "diced tomatoes",
+        "Iz_tfq33c": "instant rice",
+        "IlGA3C7DK": "water",
+        "Iz0wiMjVJ": "onion",
+        "IfK0MFefK": "reduced-sodium soy sauce",
+        "IkF0wURa-": "dried basil"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Crumble beef into a 1-1/2-qt. microwave-safe dish; sprinkle with garlic powder. Cover and microwave on high for 2 minutes; stir. Heat 1-2 minutes longer or until no longer pink; drain. Stir in the remaining ingredients. Cover and microwave on high for 20-25 minutes or until vegetables and rice are tender, stirring twice."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

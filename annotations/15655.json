@@ -21,21 +21,26 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3259122.jpg",
     "url": "http://allrecipes.com/Recipe/15655/",
     "normalized_ingredients": {
-        "341": "frozen corn kernels",
-        "333": "fresh parsley",
-        "351": "garlic",
-        "10": "Creole-style seasoning",
-        "124": "butter",
-        "266": "diced onion",
-        "221": "cream cheese"
+        "IJfFu7_Up": "frozen corn kernels",
+        "Ipez39jKi": "fresh parsley",
+        "IzPYYTv5e": "garlic",
+        "I7dCLKn8r": "Creole-style seasoning",
+        "I10_d4pRP": "butter",
+        "IGB20k1ns": "diced onion",
+        "IDUWQF1DU": "cream cheese"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "In a saucepan over medium heat, combine the corn, parsley, garlic, Creole seasoning. Add enough water to cover, bring to a boil and cook until tender. Drain and set aside.",
         "In a large skillet over medium heat, add the butter and onion; saute until onion softens. Add corn and cream cheese. Cook over low heat for 10 minutes. Remove from heat, chill completely and serve cold."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

@@ -24,27 +24,31 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/663489.jpg",
     "url": "http://allrecipes.com/Recipe/28151/",
     "normalized_ingredients": {
-        "179": "cider vinegar",
-        "172": "chili sauce",
-        "47": "Worcestershire sauce",
-        "682": "tomato paste",
-        "266": "diced onion",
-        "120": "brown sugar",
-        "139": "cayenne pepper",
-        "708": "vegetable oil",
-        "161": "chicken thighs"
+        "ISTFo1vpU": "cider vinegar",
+        "IrOFel8FB": "chili sauce",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "INAgcB9lc": "tomato paste",
+        "IGB20k1ns": "diced onion",
+        "IRG-HJdJz": "brown sugar",
+        "IHYTIwEXb": "cayenne pepper",
+        "I7oUHHY41": "vegetable oil",
+        "ISdM85QOB": "chicken thighs"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 350 degrees F (175 degrees C).",
         "In a medium saucepan over medium heat, blend cider vinegar, chili sauce, Worcestershire sauce, and tomato paste. Mix in the onion, brown sugar, and cayenne pepper.",
         "Heat oil in a medium skillet over medium heat, and saute the chicken thighs until browned. Remove from heat, drain, and arrange in a medium baking dish. Cover with the cider vinegar sauce mixture.",
         "Bake covered 45 minutes in the preheated oven, or until chicken is no longer pink and juices run clear."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

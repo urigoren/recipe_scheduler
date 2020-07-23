@@ -23,25 +23,29 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/56962.jpg",
     "url": "http://allrecipes.com/Recipe/14535/",
     "normalized_ingredients": {
-        "162": "chicken wings",
-        "644": "soy sauce",
-        "252": "dark soy sauce",
-        "596": "sesame oil",
-        "503": "oyster sauce",
-        "360": "garlic powder",
-        "492": "onion powder",
-        "388": "ground black pepper to taste",
-        "275": "dried basil"
+        "Ieg3R-oQ_": "chicken wings",
+        "ILAT-xDbX": "soy sauce",
+        "IX4eYl5Wu": "dark soy sauce",
+        "IpyJf3OVq": "sesame oil",
+        "IOa5on4Lh": "oyster sauce",
+        "IvZ0DqVmo": "garlic powder",
+        "ICQ5epRkS": "onion powder",
+        "Ivjvhu6Qz": "ground black pepper to taste",
+        "IkF0wURa-": "dried basil"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "In a shallow glass bowl combine the soy sauce, dark soy sauce, sesame oil, oyster sauce, garlic powder, onion powder, ground black pepper and dried basil. Mix together. Add chicken wings, cover and refrigerate overnight. Stir together again the next day.",
         "Lightly oil grill and preheat to high heat.",
         "Remove wings from marinade and discard remaining marinade. Grill chicken wings over preheated grill for 8 to 12 minutes each side, or until cooked through and juices run clear."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

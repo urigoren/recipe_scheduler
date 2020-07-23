@@ -17,20 +17,21 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/720545.jpg",
     "url": "http://allrecipes.com/Recipe/122235/",
     "normalized_ingredients": {
-        "150": "chicken bouillon granules",
-        "284": "dried parsley flakes",
-        "279": "dried minced onion",
-        "512": "pepper",
-        "2": "ADDITIONAL INGREDIENTS:",
-        "702": "uncooked medium egg noodles",
-        "127": "butter or margarine",
-        "93": "boiling water"
+        "I4LZHw-qF": "chicken bouillon granules",
+        "IRNwJGSwI": "dried parsley flakes",
+        "IqGPmWGu-": "dried minced onion",
+        "Is_lS1dmt": "pepper",
+        "IdltXKk1o": "ADDITIONAL INGREDIENTS:",
+        "IHqP1OcMF": "uncooked medium egg noodles",
+        "IJiuoefFg": "butter or margarine",
+        "InE0Xq-T-": "boiling water"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a bowl, combine bouillon, parsley, onion and pepper. Store in an airtight container in a cool dry place for up to 6 months."
+    ],
+    "labels": [
+        [],
+        []
     ]
 }

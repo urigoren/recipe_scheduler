@@ -24,25 +24,30 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/47770.jpg",
     "url": "http://allrecipes.com/Recipe/11830/",
     "normalized_ingredients": {
-        "225": "creamy peanut butter",
-        "426": "hot water",
-        "451": "light soy sauce",
-        "180": "clove crushed garlic",
-        "413": "heavy whipping cream",
-        "596": "sesame oil",
-        "253": "dash chili sauce",
-        "646": "spaghetti",
-        "327": "fresh cilantro"
+        "INXemAiuq": "creamy peanut butter",
+        "IGPvsHFnm": "hot water",
+        "IpQeldaIu": "light soy sauce",
+        "IRU0n4lq9": "clove crushed garlic",
+        "INHWkPIdc": "heavy whipping cream",
+        "IpyJf3OVq": "sesame oil",
+        "I8Rgl7NRk": "dash chili sauce",
+        "IFv0KBBUm": "spaghetti",
+        "IFP4aQpcU": "fresh cilantro"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Place the peanut butter in a small glass, and add the hot water; stir with a fork until smooth. Mix in soy sauce, garlic, cream, sesame oil, chili sauce until smooth. Set aside.",
         "Cook pasta in a large pot of boiling water until done. Drain well.",
         "Place the drained pasta in a bowl. Stir the reserved peanut butter mixture together again; add to the cooked pasta. Toss all together, and garnish with cilantro."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

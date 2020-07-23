@@ -22,25 +22,29 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/638858.jpg",
     "url": "http://allrecipes.com/Recipe/24743/",
     "normalized_ingredients": {
-        "124": "butter",
-        "675": "thin egg noodles",
-        "699": "uncooked instant rice",
-        "297": "dry onion soup mix",
-        "707": "vegetable broth",
-        "715": "water chestnuts",
-        "645": "soy sauce to taste"
+        "I10_d4pRP": "butter",
+        "IuSSOPEcE": "thin egg noodles",
+        "IDtyTo84C": "uncooked instant rice",
+        "I8IdKkoFz": "dry onion soup mix",
+        "In-8sXthJ": "vegetable broth",
+        "I-2CKAvHd": "water chestnuts",
+        "Ie996I-vY": "soy sauce to taste"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 350 degrees F (175 degrees C). Grease a 2 quart casserole dish.",
         "Melt butter in a large skillet over medium heat. Brown noodles in the butter.",
         "In a large bowl combine browned noodles, rice, soup mix, broth, water chestnuts and soy sauce. Mix well and transfer to prepared casserole dish.",
         "Bake for 45 minutes, or until liquid has been absorbed and casserole is browned and crispy on top."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

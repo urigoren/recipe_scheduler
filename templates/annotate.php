@@ -87,14 +87,34 @@
                 { text: "-" },
                 {
                     text: "Add Previously seen", onClick: function (args) {
-                        dp.onTimeRangeRightClicked(args.source.data);
+                        let previously_selected = prev_actions_for_resource(args.source.data.resource);
+                        let selected_actions=dp.actions.filter(x => previously_selected.filter((y)=>x.id == y).length>0);
+                        args=args.source.data;
+                        //TODO: remove code dup
+                        selected_actions.map(function (selected_action) {
+                                let display=selected_action.display;
+                                dp.events.add(new DayPilot.Event({
+                                    start: args.start,
+                                    end: args.end,
+                                    id: selected_action.id+':'+DayPilot.guid(),
+                                    action: selected_action.id,
+                                    resource: args.resource,
+                                    text: display,
+                                    barColor: selected_action.color
+                                }));
+                            });
+
                         dp.events.remove(args.source);
                     }
                 },
                 { text: "-" },
                 {
-                    text: "Select", onClick: function (args) {
-                        dp.multiselect.add(args.source);
+                    text: "Select All", onClick: function (args) {
+                        window.w=args;
+                        const item=args['source']['data'];
+                        dp.events.all().filter((x)=>(x["data"]["resource"]==item.resource)&&(x["data"]["start"]==item.start)).forEach(function (e) {
+                            dp.multiselect.add(e);
+                        });
                     }
                 },
                 {
@@ -131,24 +151,6 @@
             dp.message("Resized: " + args.e.text());
         };
 
-        // right click
-        dp.onTimeRangeRightClicked=function (args) {
-            let previously_selected = prev_actions_for_resource(args.resource);
-            let selected_actions=dp.actions.filter(x => previously_selected.filter((y)=>x.id == y).length>0);
-            //TODO: remove code dup
-            selected_actions.map(function (selected_action) {
-                    dp.events.add(new DayPilot.Event({
-                        start: args.start,
-                        end: args.end,
-                        id: selected_action.id+':'+DayPilot.guid(),
-                        action: selected_action.id,
-                        resource: args.resource,
-                        text: selected_action.display,
-                        barColor: selected_action.color
-                    }));
-                });
-        }
-
         // event creating
         dp.onTimeRangeSelected = function (args) {
             var action_map = dp.actions.reduce((obj, ing) => { obj[ing.id] = ing.display; return obj; }, {});
@@ -156,25 +158,30 @@
                 dp.clearSelection();
                 var selected_action_id = modal.result;
                 if (selected_action_id===undefined) return;
-                let selected_actions = dp.actions.filter(x => x.id >=0);
-                if (selected_action_id==-2)//paste
+                let selected_actions = dp.actions.filter(x => x.id[0]!='A');
+                if (selected_action_id=='AALL')//all
+                    selected_actions = dp.actions.filter(x => x.id[0]=='I');
+                if (selected_action_id=='APASTE')//paste
                     selected_actions=selected_actions.filter(x => action_clipboard.filter((y)=>x.id == y).length>0);
-                if (selected_action_id==-3)//already there
+                if (selected_action_id=='AALREADY')//already there
                 {
                     let previously_selected = prev_actions_for_resource(args.resource);
                     selected_actions=selected_actions.filter(x => previously_selected.filter((y)=>x.id == y).length>0);
-                    dp.message("You can add previously seen items by right clicking");
+                    //dp.message("You can add previously seen items by right clicking");
                 }
-                if (selected_action_id>=0)
+                if ((selected_action_id[0]=='I') || selected_action_id[0]=='T')//Ingredient or tool
                     selected_actions=selected_actions.filter(x => x.id == selected_action_id);
                 selected_actions.map(function (selected_action) {
+                    let display=selected_action.display;
+                    if ((display[0]=='-')||(display[0]=='+'))
+                        display=display.substr(1);
                     dp.events.add(new DayPilot.Event({
                         start: args.start,
                         end: args.end,
                         id: selected_action.id+':'+DayPilot.guid(),
                         action: selected_action.id,
                         resource: args.resource,
-                        text: selected_action.display,
+                        text: display,
                         barColor: selected_action.color
                     }));
                 });
@@ -228,8 +235,13 @@
                 if (!confirm("You are about to submit the annotations, are you sure ?"))
                     return;
                 save();
+                return;
             }
             instruction_index+=1;
+            if (!(events[instruction_index].length))
+            {
+                events[instruction_index]=events[instruction_index-1].slice();
+            }
             dp.events.list=events[instruction_index];
             dp.update();
             show_instruction();

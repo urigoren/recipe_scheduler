@@ -20,24 +20,26 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/645010.jpg",
     "url": "http://allrecipes.com/Recipe/129231/",
     "normalized_ingredients": {
-        "443": "lean ground beef",
-        "715": "water chestnuts",
-        "644": "soy sauce",
-        "120": "brown sugar",
-        "492": "onion powder",
-        "360": "garlic powder",
-        "56": "apricot preserves or jam",
-        "52": "apple cider vinegar"
+        "ICVfuQXfd": "lean ground beef",
+        "I-2CKAvHd": "water chestnuts",
+        "ILAT-xDbX": "soy sauce",
+        "IRG-HJdJz": "brown sugar",
+        "ICQ5epRkS": "onion powder",
+        "IvZ0DqVmo": "garlic powder",
+        "Ie2c-8S_g": "apricot preserves or jam",
+        "Ip_T4HGks": "apple cider vinegar"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 400 degrees F (200 degrees C).",
         "Mix together ground beef, chestnuts, soy sauce, brown sugar, onion powder, and garlic powder thoroughly in a large bowl. Form the mixture into 2 tablespoon-sized balls, and place onto a baking sheet.",
         "Bake in preheated oven until no longer pink in the center, about 15 minutes. Stir together the apricot preserves and the cider vinegar, toss with meatballs in a clean bowl, then return to baking sheet, and bake for an additional 5 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

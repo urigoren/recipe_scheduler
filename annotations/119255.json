@@ -25,21 +25,29 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/993217.jpg",
     "url": "http://allrecipes.com/Recipe/119255/",
     "normalized_ingredients": {
-        "278": "dried marjoram",
-        "492": "onion powder",
-        "360": "garlic powder",
-        "512": "pepper",
-        "96": "bone-in pork loin chops",
-        "488": "olive or canola oil",
-        "714": "water",
-        "216": "cornstarch",
-        "571": "reduced-sodium chicken broth"
+        "IsLZd8JNX": "dried marjoram",
+        "ICQ5epRkS": "onion powder",
+        "IvZ0DqVmo": "garlic powder",
+        "Is_lS1dmt": "pepper",
+        "INOd8culu": "bone-in pork loin chops",
+        "IBbwbhhc_": "olive or canola oil",
+        "IlGA3C7DK": "water",
+        "Ik1g9zGpa": "cornstarch",
+        "IWt4dCT54": "reduced-sodium chicken broth"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Combine seasonings; sprinkle over pork chops. In a nonstick skillet, cook chops in oil until browned on both sides. Add water. Bring to a boil. Reduce heat; cover and simmer for 45-60 minutes or until tender. Remove meat and keep warm. Combine cornstarch and broth until smooth; stir into cooking juices. Bring to a boil; cook and stir for 2 minutes or until thickened. Serve over pork chops."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

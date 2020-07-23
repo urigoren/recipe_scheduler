@@ -22,22 +22,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/988932.jpg",
     "url": "http://allrecipes.com/Recipe/117153/",
     "normalized_ingredients": {
-        "84": "beef strip steaks",
-        "354": "garlic clove",
-        "583": "salt",
-        "512": "pepper",
-        "124": "butter",
-        "603": "sherry or beef broth",
-        "47": "Worcestershire sauce",
-        "374": "green onion"
+        "I8bCM9Ko1": "beef strip steaks",
+        "IwROKJycn": "garlic clove",
+        "IzrIHcuDJ": "salt",
+        "Is_lS1dmt": "pepper",
+        "I10_d4pRP": "butter",
+        "Ipdry3C0Z": "sherry or beef broth",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "IIPGLrn7i": "green onion"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Rub steaks with garlic and sprinkle with salt and pepper; set aside. Melt butter in a large skillet. Add the sherry or broth, Worcestershire sauce and onion. Bring to a boil. Reduce heat; simmer, uncovered, for 5 minutes.",
         "Add the steaks and cook over medium heat for 3-7 minutes on each side or until the meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F, medium, 160 degrees F, well-done, 170 degrees F)."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

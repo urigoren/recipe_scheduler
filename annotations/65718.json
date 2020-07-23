@@ -26,21 +26,31 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/65718/",
     "normalized_ingredients": {
-        "510": "pecan halves",
-        "35": "Nonstick cooking spray",
-        "449": "light corn syrup",
-        "28": "Kikkoman Soy Sauce",
-        "492": "onion powder",
-        "360": "garlic powder",
-        "403": "ground red pepper "
+        "IW_l74QUT": "pecan halves",
+        "I0HlpUsFa": "Nonstick cooking spray",
+        "IKNjYtyt9": "light corn syrup",
+        "IuuYpTQLS": "Kikkoman Soy Sauce",
+        "ICQ5epRkS": "onion powder",
+        "IvZ0DqVmo": "garlic powder",
+        "IyLEfHD4z": "ground red pepper "
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Bring 1-1/2 quarts water to boil in large saucepan. Add pecans and boil 2 minutes; drain thoroughly. Meanwhile, spray large, shallow baking pan with cooking spray; set aside. Combine corn syrup, soy sauce, onion and garlic powders and red pepper in same saucepan. Cook, over medium-high heat, until mixture begins to boil, stirring constantly. Stir in pecans and cook, stirring, 3 to 4 minutes, or until sauce is absorbed by nuts. Turn pecans out onto prepared baking pan, spreading to separate pecans in a single layer.",
         "Bake in 250 degrees F oven 40 minutes, stirring and turning nuts over every 15 minutes. Remove pan from oven; stir pecans to spread in single layer. Cool completely, in pan, on wire rack. Store in tightly covered container."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

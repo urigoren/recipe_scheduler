@@ -19,22 +19,25 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/694150.jpg",
     "url": "http://allrecipes.com/Recipe/25445/",
     "normalized_ingredients": {
-        "644": "soy sauce",
-        "418": "honey",
-        "708": "vegetable oil",
-        "452": "lime juice",
-        "351": "garlic",
-        "618": "skinless"
+        "ILAT-xDbX": "soy sauce",
+        "Itg64O_Uz": "honey",
+        "I7oUHHY41": "vegetable oil",
+        "IW1qYXIte": "lime juice",
+        "IzPYYTv5e": "garlic",
+        "IyzbCHQD4": "skinless"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "In a shallow container, blend soy sauce, honey, vegetable oil, lime juice, and garlic. Place chicken breast halves into the mixture, and turn to coat. Cover, and marinate in the refrigerator at least 30 minutes.",
         "Preheat an outdoor grill for high heat.",
         "Lightly oil the grill grate. Discard marinade, and grill chicken 6 to 8 minutes on each side, until juices run clear."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

@@ -22,25 +22,29 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/195258.jpg",
     "url": "http://allrecipes.com/Recipe/11812/",
     "normalized_ingredients": {
-        "729": "wide egg noodles",
-        "215": "corned beef",
-        "549": "processed cheese food ",
-        "191": "condensed cream of chicken soup",
-        "475": "milk",
-        "489": "onion",
-        "592": "seasoned dry bread crumbs"
+        "II9erzFoU": "wide egg noodles",
+        "IOggjtQHB": "corned beef",
+        "I4PyDRp0c": "processed cheese food ",
+        "IbIjWSJxb": "condensed cream of chicken soup",
+        "I7L24gq6G": "milk",
+        "Iz0wiMjVJ": "onion",
+        "IHyzKrVmO": "seasoned dry bread crumbs"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 350 degrees F (175 degrees C).",
         "Cook noodles until tender and drain.",
         "Combine noodles, corned beef, cheese, cream of chicken soup, milk and onion. Pour into a 2 quart casserole dish. Top with buttered bread crumbs.",
         "Bake at 350 degrees F (175 degrees C) for 45 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

@@ -27,27 +27,34 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/141327/",
     "normalized_ingredients": {
-        "572": "reduced-sodium soy sauce",
-        "329": "fresh ginger",
-        "418": "honey",
-        "476": "miso paste",
-        "351": "garlic",
-        "679": "toasted sesame oil",
-        "563": "red pepper flakes",
-        "98": "boneless",
-        "441": "kosher salt"
+        "IfK0MFefK": "reduced-sodium soy sauce",
+        "IB3RMMJmP": "fresh ginger",
+        "Itg64O_Uz": "honey",
+        "ISdxK6atJ": "miso paste",
+        "IzPYYTv5e": "garlic",
+        "ID5zqpXGS": "toasted sesame oil",
+        "ISL0wr7VR": "red pepper flakes",
+        "IYkvl3BQC": "boneless",
+        "InDhV5Q2Q": "kosher salt"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Combine soy sauce, ginger, honey, miso, garlic, oil, and red-pepper flakes in shallow baking dish or large resealable plastic bag. Add chicken, turn to coat, cover, and chill at least 2 hours.",
         "Heat grill to medium for indirect heat. If using charcoal grill, position coals on one-half of grill. If using gas grill, heat one side to high, the other to low. Lightly oil grill grates.",
         "Remove chicken from marinade. Discard marinade. Season chicken with salt.",
         "Grill chicken 10 minutes over hottest section of grill, turning once. Move to cooler section of grill and cook 10 minutes longer or until thermometer inserted into thickest part registers 165 degrees F."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

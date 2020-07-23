@@ -23,25 +23,30 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1096910.jpg",
     "url": "http://allrecipes.com/Recipe/21303/",
     "normalized_ingredients": {
-        "534": "pork chops",
-        "362": "garlic powder to taste",
-        "587": "salt and pepper to taste",
-        "489": "onion",
-        "411": "head cabbage",
-        "303": "egg noodles",
-        "124": "butter"
+        "Il-vU97ZJ": "pork chops",
+        "ICd58rwxC": "garlic powder to taste",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "Iz0wiMjVJ": "onion",
+        "IkNHUvIXw": "head cabbage",
+        "IkUMHmRZp": "egg noodles",
+        "I10_d4pRP": "butter"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Sprinkle pork chops with garlic powder, salt and pepper and place in a large greased sauce pan or deep skillet with chopped onion and fry until very brown and well cooked. It is ok if they stick a little, as the drippings are essential in this dish. When done, remove chops and set aside.",
         "Add a little water to the saucepan or skillet and mix up the drippings a bit. Place cabbage into the pot, and allow to cook down completely.",
         "In a separate large saucepan, boil the egg noodles in water until cooked. Drain noodles and mix in butter.",
         "Cut up the pork chops to bite size pieces and set aside. When the cabbage has cooked down, add pork and cooked noodles and mix completely."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

@@ -30,27 +30,37 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2019698.jpg",
     "url": "http://allrecipes.com/Recipe/23843/",
     "normalized_ingredients": {
-        "443": "lean ground beef",
-        "587": "salt and pepper to taste",
-        "489": "onion",
-        "371": "green bell pepper",
-        "682": "tomato paste",
-        "351": "garlic",
-        "282": "dried oregano",
-        "147": "cherry tomatoes",
-        "455": "linguine pasta"
+        "ICVfuQXfd": "lean ground beef",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "Iz0wiMjVJ": "onion",
+        "IzL3iMCR3": "green bell pepper",
+        "INAgcB9lc": "tomato paste",
+        "IzPYYTv5e": "garlic",
+        "I5MyZsfNh": "dried oregano",
+        "I87oJbF0-": "cherry tomatoes",
+        "IOTp4d5ov": "linguine pasta"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Bring a large pot of lightly salted water to a boil. Add linguine pasta and cook for 8 to 10 minutes or until al dente; drain.",
         "In a large skillet over medium heat, brown the ground beef until almost cooked; about 10 minutes. Season lightly with salt and pepper.",
         "Using a food processor, chop the onion finely. Wash it out and then put in the bell pepper. It should turn to liquid. That's the surprise!",
         "Add tomato paste, garlic, onions, oregano, and bell pepper juice to the browned beef. Allow it to settle a little bit, folding it all together. Add the tomatoes and cover; simmer for another 15 minutes. With a fork or spatula crush the tomatoes and blend the juice into the sauce; continue simmering for about 10 more minutes. Serve over cooked pasta."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

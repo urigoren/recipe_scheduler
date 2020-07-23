@@ -19,21 +19,25 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/851810.jpg",
     "url": "http://allrecipes.com/Recipe/223296/",
     "normalized_ingredients": {
-        "418": "honey",
-        "547": "prepared yellow mustard",
-        "124": "butter",
-        "146": "center-cut boneless pork chops - 1/2-inch thick",
-        "360": "garlic powder"
+        "Itg64O_Uz": "honey",
+        "IFVfDW1hp": "prepared yellow mustard",
+        "I10_d4pRP": "butter",
+        "ITtNMQcmB": "center-cut boneless pork chops - 1/2-inch thick",
+        "IvZ0DqVmo": "garlic powder"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Mix honey and mustard together in a bowl until thoroughly combined.",
         "Heat butter in a skillet over medium-high heat and lay pork chops into the hot butter. Sprinkle chops with half the garlic powder and cook until browned, about 3 minutes. Turn chops over, sprinkle with remaining garlic powder, and pan-fry chops for 3 more minutes.",
         "Brush honey mustard sauce over chops, turn them over, and cook for 5 minutes; turn chops onto other side and brush with honey mustard sauce. Cook until chops are no longer pink inside and an instant-read meat thermometer inserted into the thickest part of a chop reads 165 degrees F (75 degrees C), about 5 more minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

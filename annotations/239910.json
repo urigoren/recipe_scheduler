@@ -19,23 +19,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1676748.jpg",
     "url": "http://allrecipes.com/Recipe/239910/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "684": "tomato sauce",
-        "275": "dried basil",
-        "282": "dried oregano",
-        "492": "onion powder",
-        "360": "garlic powder",
-        "719": "white sugar",
-        "583": "salt",
-        "387": "ground black pepper"
+        "INzU_lxpu": "ground beef",
+        "I-4q8Lxl1": "tomato sauce",
+        "IkF0wURa-": "dried basil",
+        "I5MyZsfNh": "dried oregano",
+        "ICQ5epRkS": "onion powder",
+        "IvZ0DqVmo": "garlic powder",
+        "I6xvdoZzb": "white sugar",
+        "IzrIHcuDJ": "salt",
+        "IdlJrAHh2": "ground black pepper"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Heat a large skillet over medium-high heat. Cook and stir beef in the hot skillet until browned completely, 5 to 7 minutes; drain and discard grease.",
         "Stir tomato sauce, basil, oregano, onion powder, garlic powder, sugar, salt, and pepper into the beef; bring to a boil, reduce heat to low, and cook sauce at a simmer, stirring occasionally, until thick and rich, about 1 hour."
+    ],
+    "labels": [
+        [],
+        [],
+        []
     ]
 }

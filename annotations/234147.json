@@ -20,21 +20,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/1042081.jpg",
     "url": "http://allrecipes.com/Recipe/234147/",
     "normalized_ingredients": {
-        "154": "chicken drumsticks",
-        "438": "ketchup",
-        "418": "honey",
-        "644": "soy sauce",
-        "708": "vegetable oil",
-        "446": "lemon juice",
-        "237": "crushed peppercorns",
-        "421": "hot chili sauce",
-        "40": "Salt"
+        "IF9M_nZnE": "chicken drumsticks",
+        "IoskwJgPz": "ketchup",
+        "Itg64O_Uz": "honey",
+        "ILAT-xDbX": "soy sauce",
+        "I7oUHHY41": "vegetable oil",
+        "I5wmzk9dU": "lemon juice",
+        "IhId7gjK5": "crushed peppercorns",
+        "IdAevL6Ik": "hot chili sauce",
+        "IrzNMe274": "Salt"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Place chicken in large shallow dish. Add ketchup, honey, soy sauce, lemon juice, and vegetable oil, along with pepper, chili sauce, and salt. Cover the dish and let it stand for about 1 hour in the refrigerator. Prepare the grill, then grill to desired doneness."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

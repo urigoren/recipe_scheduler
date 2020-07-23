@@ -26,27 +26,33 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/18823/",
     "normalized_ingredients": {
-        "443": "lean ground beef",
-        "489": "onion",
-        "682": "tomato paste",
-        "24": "Italian-style stewed tomatoes",
-        "583": "salt",
-        "387": "ground black pepper",
-        "675": "thin egg noodles",
-        "350": "frozen whole kernel corn",
-        "615": "shredded sharp Cheddar cheese"
+        "ICVfuQXfd": "lean ground beef",
+        "Iz0wiMjVJ": "onion",
+        "INAgcB9lc": "tomato paste",
+        "INunwY1Vv": "Italian-style stewed tomatoes",
+        "IzrIHcuDJ": "salt",
+        "IdlJrAHh2": "ground black pepper",
+        "IuSSOPEcE": "thin egg noodles",
+        "ImZ0XQaUf": "frozen whole kernel corn",
+        "I02UBdDpo": "shredded sharp Cheddar cheese"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 350 degrees F (175 degrees C).",
         "In a Dutch oven over medium-high heat, saute the ground beef and the onion together for about 5 minutes, or until the meat is browned and crumbly. Stir in the tomato paste, stewed tomatoes with juice, salt and ground black pepper.",
         "Add the uncooked egg noodles to this mixture and pour in water to cover. Bring to a boil, reduce heat to low and let simmer until the noodles are slightly softened, about 5 minutes. Drain excess water, stir in the corn and transfer mixture to a 9x13-inch baking dish. Top with cheese.",
         "Bake at 350 degrees F (175 degrees C) for 30 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

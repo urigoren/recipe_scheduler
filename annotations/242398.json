@@ -20,24 +20,26 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2281988.jpg",
     "url": "http://allrecipes.com/Recipe/242398/",
     "normalized_ingredients": {
-        "115": "box whole wheat rotini pasta",
-        "357": "garlic mushroom marinara sauce",
-        "440": "kimchi",
-        "610": "shredded cooked chicken",
-        "271": "diced white onion",
-        "558": "red chile paste",
-        "124": "butter",
-        "590": "scallion"
+        "Io1RyyXap": "box whole wheat rotini pasta",
+        "Ij6TBm7Cl": "garlic mushroom marinara sauce",
+        "IYXkaQI1b": "kimchi",
+        "IOz-_bqB7": "shredded cooked chicken",
+        "IZQo52bbl": "diced white onion",
+        "InE-rNe_U": "red chile paste",
+        "I10_d4pRP": "butter",
+        "ILayDpm-Z": "scallion"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Bring a large pot of heavily salted water to a boil; cook the rotini at a boil until tender yet firm to the bite, about 15 minutes; drain and transfer to a bowl.",
         "Bring marinara sauce to a simmer in a saucepan. Add kimchi, chicken, onion, and red chile paste; stir until completely mixed and heated through, about 5 minutes.",
         "Mix butter into pasta and toss to coat. Pour marinara sauce over pasta and top with scallions."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

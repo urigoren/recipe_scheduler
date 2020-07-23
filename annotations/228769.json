@@ -20,20 +20,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1968964.jpg",
     "url": "http://allrecipes.com/Recipe/228769/",
     "normalized_ingredients": {
-        "313": "extra-virgin olive oil",
-        "61": "baby spinach leaves",
-        "583": "salt",
-        "387": "ground black pepper",
-        "360": "garlic powder",
-        "492": "onion powder",
-        "665": "sun-dried tomato halves packed in olive oil with herbs",
-        "229": "crumbled feta cheese"
+        "IThF37rzr": "extra-virgin olive oil",
+        "IIWUTLp2s": "baby spinach leaves",
+        "IzrIHcuDJ": "salt",
+        "IdlJrAHh2": "ground black pepper",
+        "IvZ0DqVmo": "garlic powder",
+        "ICQ5epRkS": "onion powder",
+        "ICMNadDIv": "sun-dried tomato halves packed in olive oil with herbs",
+        "IMnKiE2MU": "crumbled feta cheese"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Heat olive oil in a large skillet over medium heat. Cook and stir baby spinach in hot oil until very tender, about 5 minutes. Season spinach evenly with salt, pepper, garlic powder, and onion powder, turning with tongs while sprinkling. Add tomatoes; cook and stir until tomatoes begin to soften, about 90 seconds. Sprinkle with feta cheese off heat and toss to serve."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

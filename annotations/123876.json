@@ -24,21 +24,29 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/977442.jpg",
     "url": "http://allrecipes.com/Recipe/123876/",
     "normalized_ingredients": {
-        "537": "pork spareribs",
-        "418": "honey",
-        "504": "packed brown sugar",
-        "644": "soy sauce",
-        "360": "garlic powder",
-        "393": "ground ginger",
-        "398": "ground mustard"
+        "IhmX17TkK": "pork spareribs",
+        "Itg64O_Uz": "honey",
+        "IjdeLbzOg": "packed brown sugar",
+        "ILAT-xDbX": "soy sauce",
+        "IvZ0DqVmo": "garlic powder",
+        "IAq835ZPT": "ground ginger",
+        "IrqK0r_be": "ground mustard"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Cut ribs into serving-size pieces; place in a large resealable plastic bag. Combine remaining ingredients; pour half the marinade over the ribs. Seal bag and turn to coat; refrigerate for several hours or overnight, turning bag occasionally. Cover and refrigerate remaining marinade.",
         "Drain and discard marinade from ribs. Place ribs on a rack in a greased shallow baking pan. Cover and bake at 350 degrees F for 1 hour. Drain. Pour reserved marinade over ribs. Bake, uncovered, for 30-45 minutes or until meat is tender, brushing occasionally with pan juices."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

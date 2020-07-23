@@ -20,21 +20,25 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/81617/",
     "normalized_ingredients": {
-        "400": "ground pork",
-        "301": "egg",
-        "286": "dried sage",
-        "288": "dried thyme",
-        "494": "onion salt",
-        "387": "ground black pepper",
-        "169": "chili powder"
+        "IjCtMJWsl": "ground pork",
+        "IDpMSCH9Y": "egg",
+        "IAs1jp6ke": "dried sage",
+        "IqDlE93Rd": "dried thyme",
+        "IRHxv_GTR": "onion salt",
+        "IdlJrAHh2": "ground black pepper",
+        "Ix4-27vCe": "chili powder"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Beat the egg well. Add the sage, thyme, garlic powder, salt, pepper and cayenne. Beat again. Add the ground pork and squish it all together with your hands.",
         "Form into 6 patties. Pan fry for 3 - 4 minutes per side."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

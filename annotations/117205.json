@@ -25,22 +25,30 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/988618.jpg",
     "url": "http://allrecipes.com/Recipe/117205/",
     "normalized_ingredients": {
-        "644": "soy sauce",
-        "374": "green onion",
-        "393": "ground ginger",
-        "11": "Dijon mustard",
-        "355": "garlic cloves",
-        "85": "beef tenderloin",
-        "418": "honey",
-        "598": "sesame seeds"
+        "ILAT-xDbX": "soy sauce",
+        "IIPGLrn7i": "green onion",
+        "IAq835ZPT": "ground ginger",
+        "IKs2ocPx_": "Dijon mustard",
+        "IjAY80WeL": "garlic cloves",
+        "IpjpIaj9z": "beef tenderloin",
+        "Itg64O_Uz": "honey",
+        "IS0gcu44e": "sesame seeds"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "In a large resealable bag, combine the first five ingredients. Add tenderloin; seal bag and turn to coat. Refrigerate for 2 hours, turning several times.",
         "Drain and discard marinade. Brush the beef with honey; sprinkle with sesame seeds. Place in a shallow roasting pan. Bake at 400 degrees F for 25 minutes. Cover with foil. Bake 30-35 minutes longer or until meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F; medium, 160 degrees F; well-done, 170 degrees F). Let stand for 10 minutes before slicing."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

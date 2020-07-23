@@ -23,25 +23,29 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4462438.jpg",
     "url": "http://allrecipes.com/Recipe/16280/",
     "normalized_ingredients": {
-        "294": "dry egg noodles",
-        "383": "ground beef",
-        "489": "onion",
-        "588": "salt to taste",
-        "388": "ground black pepper to taste",
-        "364": "garlic salt to taste",
-        "206": "corn",
-        "439": "kidney beans",
-        "193": "condensed tomato soup"
+        "I51hRU8eR": "dry egg noodles",
+        "INzU_lxpu": "ground beef",
+        "Iz0wiMjVJ": "onion",
+        "ILk6FOH8U": "salt to taste",
+        "Ivjvhu6Qz": "ground black pepper to taste",
+        "I5QY0Bh1N": "garlic salt to taste",
+        "IxUjqmQ6R": "corn",
+        "I7y16rOcY": "kidney beans",
+        "I2wQk_rF4": "condensed tomato soup"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain.",
         "In a large skillet, over medium heat, brown the ground beef and onion together. Drain off the grease. Add salt, pepper, and garlic salt to taste.",
         "Stir in the corn, kidney beans, and tomato soup. Stir in the cooked egg noodles and mix thoroughly."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

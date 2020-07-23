@@ -24,21 +24,28 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/980091.jpg",
     "url": "http://allrecipes.com/Recipe/124631/",
     "normalized_ingredients": {
-        "511": "peeled",
-        "489": "onion",
-        "668": "sweet red pepper",
-        "127": "butter or margarine",
-        "152": "chicken broth",
-        "339": "frozen chopped spinach",
-        "592": "seasoned dry bread crumbs",
-        "305": "egg white",
-        "9": "Chopped fresh parsley"
+        "IpRv8vOBf": "peeled",
+        "Iz0wiMjVJ": "onion",
+        "IaZwDjt6k": "sweet red pepper",
+        "IJiuoefFg": "butter or margarine",
+        "INNbMITPe": "chicken broth",
+        "IfDyZlP3_": "frozen chopped spinach",
+        "IHyzKrVmO": "seasoned dry bread crumbs",
+        "IEVIMHLF7": "egg white",
+        "IC4o4WZNo": "Chopped fresh parsley"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a large saucepan, combine potatoes, onion, red pepper, butter and chicken broth; bring to a boil. Reduce heat; cover and simmer about 10 minutes or until the potatoes are tender. Remove from the heat. In a small bowl, combine the spinach, bread crumbs and egg white; let stand for 15 minutes. Shape into 1-in. balls; add to soup. Return to a boil; reduce heat and simmer 10-15 minutes or until dumplings are firm. Sprinkle with parsley."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

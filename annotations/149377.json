@@ -24,23 +24,30 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/149377/",
     "normalized_ingredients": {
-        "428": "instant white rice",
-        "713": "warm water",
-        "108": "boneless skinless chicken breast halves",
-        "345": "frozen oriental mixed vegetables",
-        "508": "peanut butter",
-        "26": "KRAFT SWEET RECIPES Honey Mustard Barbecue Sauce",
-        "644": "soy sauce"
+        "IDEAMz-hQ": "instant white rice",
+        "I9gs_FpDC": "warm water",
+        "I_cuSaV7X": "boneless skinless chicken breast halves",
+        "IDH1BKG_r": "frozen oriental mixed vegetables",
+        "IEC1R0HRF": "peanut butter",
+        "I3gqi8wfk": "KRAFT SWEET RECIPES Honey Mustard Barbecue Sauce",
+        "ILAT-xDbX": "soy sauce"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 400 degrees F. Mix rice and 3 cups of the water; spoon evenly onto center of each of six large sheets of heavy-duty foil. Top each with one chicken breast and 1/2 cup of the vegetables. Drizzle evenly with combined peanut butter, barbecue sauce, soy sauce and remaining 1/4 cup water.",
         "Bring up foil sides. Double fold top and both ends to seal each packet, leaving room for heat circulation inside. Place foil packets in single layer in 15x10x1-inch baking pan.",
         "Bake 30 to 35 minutes or until chicken is cooked through (170 degrees F). Remove packets from oven; let stand 5 minutes. Place one packet on each of six dinner plates. Cut slits in foil with sharp knife to release steam before opening."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

@@ -20,23 +20,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/640719.jpg",
     "url": "http://allrecipes.com/Recipe/14586/",
     "normalized_ingredients": {
-        "443": "lean ground beef",
-        "724": "whole kernel corn",
-        "193": "condensed tomato soup",
-        "729": "wide egg noodles",
-        "368": "grated Parmesan cheese"
+        "ICVfuQXfd": "lean ground beef",
+        "IgG6czOBh": "whole kernel corn",
+        "I2wQk_rF4": "condensed tomato soup",
+        "II9erzFoU": "wide egg noodles",
+        "Il1HOfVRG": "grated Parmesan cheese"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "In a large skillet, cook and stir ground meat until browned. Drain off excess fat.",
         "Stir in corn and tomato soup. Simmer while the noodles are cooking, about 10 minutes.",
         "Cook pasta in a large pot of boiling water until al dente. Drain.",
         "Stir noodles into ground beef mixture, and sprinkle parmesan cheese on top. Serve immediately."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

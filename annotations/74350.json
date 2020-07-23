@@ -20,22 +20,26 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/329941.jpg",
     "url": "http://allrecipes.com/Recipe/74350/",
     "normalized_ingredients": {
-        "370": "green beans",
-        "644": "soy sauce",
-        "181": "clove garlic",
-        "353": "garlic chili sauce",
-        "418": "honey",
-        "135": "canola oil"
+        "IgEi15aQH": "green beans",
+        "ILAT-xDbX": "soy sauce",
+        "IZHo2eKTZ": "clove garlic",
+        "IRHwXgUzx": "garlic chili sauce",
+        "Itg64O_Uz": "honey",
+        "It3BrYOoh": "canola oil"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Arrange a steamer basket in a pot over boiling water, and steam the green beans 3 to 4 minutes.",
         "In a bowl, mix the soy sauce, garlic, garlic chili sauce, and honey.",
         "Heat the canola oil in a skillet over medium heat. Add the green beans, and fry for 3 to 5 minutes. Pour in the soy sauce mixture. Continue cooking and stirring 2 minutes, or until the liquid is nearly evaporated. Serve immediately."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

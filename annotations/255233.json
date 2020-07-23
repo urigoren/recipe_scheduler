@@ -21,22 +21,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4509181.jpg",
     "url": "http://allrecipes.com/Recipe/255233/",
     "normalized_ingredients": {
-        "124": "butter",
-        "534": "pork chops",
-        "260": "dashes onion powder",
-        "258": "dashes garlic powder",
-        "627": "slices Cheddar cheese",
-        "630": "slices bacon"
+        "I10_d4pRP": "butter",
+        "Il-vU97ZJ": "pork chops",
+        "I4F8ix1sP": "dashes onion powder",
+        "Ii2pEXFK4": "dashes garlic powder",
+        "IcGNwO0Oa": "slices Cheddar cheese",
+        "IAMCClUjH": "slices bacon"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Melt butter in a skillet over medium heat. Add pork chops; season with onion and garlic powder. Cook until pork chops are no longer pink in the center, about 5 minutes per side.",
         "Transfer pork chops to a plate; top each one with 2 slices of Cheddar cheese. Place a bowl over the plate to trap in heat.",
         "Place bacon into the skillet; cook until crisp and no longer pink, about 6 minutes. Wrap 3 slices of bacon around each pork chop."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

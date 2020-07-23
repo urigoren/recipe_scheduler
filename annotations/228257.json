@@ -20,20 +20,25 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4039548.jpg",
     "url": "http://allrecipes.com/Recipe/228257/",
     "normalized_ingredients": {
-        "394": "ground lamb",
-        "644": "soy sauce",
-        "489": "onion",
-        "586": "salt and ground black pepper to taste",
-        "60": "avocado oil",
-        "230": "crumbled feta cheese "
+        "Ig0Bu5gif": "ground lamb",
+        "ILAT-xDbX": "soy sauce",
+        "Iz0wiMjVJ": "onion",
+        "IukXkN8DV": "salt and ground black pepper to taste",
+        "IN5VjWjfg": "avocado oil",
+        "IHOuDXqXz": "crumbled feta cheese "
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Put lamb, soy sauce, and onion in a bowl and season with salt and pepper to taste. Mix with hands to combine. Form lamb mixture into 4 patties.",
         "Heat avocado oil in a skillet over medium heat. Cook lamb patties until browned, 5 to 8 minutes on each side. An instant-read meat thermometer, inserted into the center of a patty, should read at least 145 degrees F (65 degrees C). Sprinkle with feta cheese and serve."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

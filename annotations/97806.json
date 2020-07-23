@@ -31,25 +31,17 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/255177.jpg",
     "url": "http://allrecipes.com/Recipe/97806/",
     "normalized_ingredients": {
-        "542": "potatoes",
-        "149": "chicken bouillon cubes",
-        "712": "warm milk",
-        "474": "melted butter",
-        "204": "cooking oil",
-        "456": "links pork sausage",
-        "489": "onion",
-        "417": "homestyle beef gravy",
-        "228": "crumbled dried oregano"
+        "I4aHwvjDO": "potatoes",
+        "Ida00G72e": "chicken bouillon cubes",
+        "I3TvGdcyq": "warm milk",
+        "Ixfk1PTD9": "melted butter",
+        "Ib3qQ-MsV": "cooking oil",
+        "Il7O9hz1F": "links pork sausage",
+        "Iz0wiMjVJ": "onion",
+        "I_R8Tdk-N": "homestyle beef gravy",
+        "IRuHd9y7u": "crumbled dried oregano"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Place the potatoes in a pan, and add enough water to cover. Bring to a boil, and cook until tender, about 20 minutes. Drain, leaving the potatoes in the pan.",
         "Meanwhile, stir the bouillon cubes into the warm milk until dissolved. Stir the milk mixture and butter into the potatoes. Mash the potatoes until smooth and creamy.",
@@ -57,5 +49,22 @@
         "Using the same skillet, add the onion rings. Cook and stir over medium heat until the onions are golden, but still crisp, about 5 minutes.",
         "Heat the gravy in a pan over medium heat.",
         "To serve, scoop the potatoes onto a large serving plate. Arrange the sausages over the potatoes, top with the onions, drizzle with gravy, and sprinkle with oregano."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

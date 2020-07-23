@@ -20,21 +20,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3804742.jpg",
     "url": "http://allrecipes.com/Recipe/15841/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "669": "taco seasoning mix",
-        "193": "condensed tomato soup",
-        "714": "water",
-        "489": "onion",
-        "137": "carrots",
-        "542": "potatoes",
-        "652": "stalk celery",
-        "533": "pork and beans"
+        "INzU_lxpu": "ground beef",
+        "IfL9BtMVg": "taco seasoning mix",
+        "I2wQk_rF4": "condensed tomato soup",
+        "IlGA3C7DK": "water",
+        "Iz0wiMjVJ": "onion",
+        "IGGqLcv5p": "carrots",
+        "I4aHwvjDO": "potatoes",
+        "I-6zFH_tM": "stalk celery",
+        "IdqnJwNSJ": "pork and beans"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a large pot over medium high heat, saut E the ground beef. Add the taco seasoning, soup, water, onions, carrots, potatoes, celery and beans. Reduce heat to low. Cover and simmer about 30 minutes, or until the vegetables are tender."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

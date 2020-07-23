@@ -25,29 +25,33 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/136238.jpg",
     "url": "http://allrecipes.com/Recipe/24639/",
     "normalized_ingredients": {
-        "124": "butter",
-        "495": "onions",
-        "240": "cube beef bouillon",
-        "360": "garlic powder",
-        "492": "onion powder",
-        "587": "salt and pepper to taste",
-        "694": "unbaked pizza crust",
-        "609": "shredded Swiss cheese",
-        "532": "pizza sauce"
+        "I10_d4pRP": "butter",
+        "IXBaW-8TW": "onions",
+        "I5m6jCFp2": "cube beef bouillon",
+        "IvZ0DqVmo": "garlic powder",
+        "ICQ5epRkS": "onion powder",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "Ix3MQFv-e": "unbaked pizza crust",
+        "I9zaUaU1F": "shredded Swiss cheese",
+        "I7sHPCv-A": "pizza sauce"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 450 degrees F (230 degrees C).",
         "Melt butter in a medium saucepan over low heat. Slowly cook and stir onions in the butter, and mix in beef bouillon, garlic powder, onion powder, salt and pepper. Continue cooking about 5 minutes, until onions are soft.",
         "Arrange onion mixture evenly on the pizza crust. Top with Swiss cheese.",
         "Place topped pizza crust on a medium baking sheet. Bake in the preheated oven 15 minutes, or until cheese is melted and crust is golden brown.",
         "Remove from heat, cut into strips and serve with pizza sauce."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

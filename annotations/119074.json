@@ -19,20 +19,23 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/709128.jpg",
     "url": "http://allrecipes.com/Recipe/119074/",
     "normalized_ingredients": {
-        "305": "egg white",
-        "644": "soy sauce",
-        "292": "dry bread crumbs",
-        "321": "finely chopped onion",
-        "354": "garlic clove",
-        "393": "ground ginger",
-        "512": "pepper",
-        "405": "ground turkey"
+        "IEVIMHLF7": "egg white",
+        "ILAT-xDbX": "soy sauce",
+        "I-XuWYX5K": "dry bread crumbs",
+        "IO6BGJ2ZC": "finely chopped onion",
+        "IwROKJycn": "garlic clove",
+        "IAq835ZPT": "ground ginger",
+        "Is_lS1dmt": "pepper",
+        "IlVc50HUg": "ground turkey"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a bowl, combine the first seven ingredients. Crumble turkey over mixture and mix just until combined. Shape into four patties. Cook in a nonstick skillet coated with nonstick cooking spray until no longer pink."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

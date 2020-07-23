@@ -23,24 +23,29 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/672397.jpg",
     "url": "http://allrecipes.com/Recipe/14495/",
     "normalized_ingredients": {
-        "644": "soy sauce",
-        "504": "packed brown sugar",
-        "602": "sherry",
-        "279": "dried minced onion",
-        "390": "ground cinnamon",
-        "486": "olive oil",
-        "520": "pinch garlic powder",
-        "541": "pork tenderloins"
+        "ILAT-xDbX": "soy sauce",
+        "IjdeLbzOg": "packed brown sugar",
+        "IB4_4fm80": "sherry",
+        "IqGPmWGu-": "dried minced onion",
+        "IFpnkGW9q": "ground cinnamon",
+        "IbpWInzAX": "olive oil",
+        "IwoxqWgWF": "pinch garlic powder",
+        "IYXFDeIgz": "pork tenderloins"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Place soy sauce, brown sugar, sherry, dried onion, cinnamon, olive oil, and a touch of garlic powder in a large resealable plastic bag. Seal, and shake to mix. Place pork in bag with marinade, seal, and refrigerate for 6 to 12 hours.",
         "Preheat grill for high heat.",
         "Lightly oil grate. Place tenderloins on grill, and discard marinade. Cook 20 minutes, or to desired doneness. Slice into medallions, and serve."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

@@ -1,0 +1,47 @@
+{
+    "ingredients": [
+        "1 pound ground pork",
+        "1 (6 ounce) package STOVE TOP Stuffing Mix for Chicken",
+        "3/4 cup cranberry sauce",
+        "1 egg",
+        "1 cup water",
+        "2 tablespoons melted butter"
+    ],
+    "instructions": [
+        "Preheat oven to 325 degrees F. Cook pork in large skillet until cooked through, stirring frequently; drain.",
+        "Place in large bowl; cool slightly.",
+        "Stir in dry stuffing mix.",
+        "Add cranberry sauce, egg and water;",
+        "mix well.",
+        "Shape into 16 balls; place on foil-covered baking sheet.",
+        "Brush evenly with butter.",
+        "Bake 20 min."
+    ],
+    "title": "Stuffing Balls",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/127438/",
+    "normalized_ingredients": {
+        "IjCtMJWsl": "ground pork",
+        "I2CnalDeN": "STOVE TOP Stuffing Mix for Chicken",
+        "IzGAZm27V": "cranberry sauce",
+        "IDpMSCH9Y": "egg",
+        "IlGA3C7DK": "water",
+        "Ixfk1PTD9": "melted butter"
+    },
+    "status": 0,
+    "steps": [
+        "Preheat oven to 325 degrees F. Cook pork in large skillet until cooked through, stirring frequently; drain. Place in large bowl; cool slightly. Stir in dry stuffing mix.",
+        "Add cranberry sauce, egg and water; mix well. Shape into 16 balls; place on foil-covered baking sheet. Brush evenly with butter.",
+        "Bake 20 min."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

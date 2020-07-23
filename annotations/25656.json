@@ -24,22 +24,29 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/543922.jpg",
     "url": "http://allrecipes.com/Recipe/25656/",
     "normalized_ingredients": {
-        "560": "red lentils",
-        "279": "dried minced onion",
-        "150": "chicken bouillon granules",
-        "277": "dried dill weed",
-        "143": "celery seed",
-        "360": "garlic powder",
-        "71": "bay leaf",
-        "702": "uncooked medium egg noodles"
+        "I5UXJbYhx": "red lentils",
+        "IqGPmWGu-": "dried minced onion",
+        "I4LZHw-qF": "chicken bouillon granules",
+        "Ie1BWNb-F": "dried dill weed",
+        "I5pXtLWZn": "celery seed",
+        "IvZ0DqVmo": "garlic powder",
+        "IALbgJROm": "bay leaf",
+        "IHqP1OcMF": "uncooked medium egg noodles"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "In a small (1 pint), glass jar, layer from bottom to top, lentils, minced onion, bouillon, dill, celery seed, garlic powder, bay leaf and noodles. Seal jar.",
         "Attach a card with the following instructions: Bring 8 cups water to boil in a large saucepan over high heat. Stir in jar of soup mix. Cover, reduce heat and simmer 15 minutes. Remove and discard bay leaf. Stir in 1 (10 ounce) package frozen mixed vegetables and 2 cups cooked, diced turkey meat. Cook 5 minutes more, or until vegetables and turkey are heated through and tender."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

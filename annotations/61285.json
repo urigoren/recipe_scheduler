@@ -19,21 +19,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4431719.jpg",
     "url": "http://allrecipes.com/Recipe/61285/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "248": "cubes chicken bouillon",
-        "360": "garlic powder",
-        "387": "ground black pepper",
-        "492": "onion powder",
-        "49": "all-purpose flour",
-        "464": "low-fat milk"
+        "INzU_lxpu": "ground beef",
+        "INFJYNTO_": "cubes chicken bouillon",
+        "IvZ0DqVmo": "garlic powder",
+        "IdlJrAHh2": "ground black pepper",
+        "ICQ5epRkS": "onion powder",
+        "IW2FkWnJk": "all-purpose flour",
+        "IjpdbZgBK": "low-fat milk"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Heat a large skillet over medium-high heat; stir in the ground beef, chicken bouillon, garlic powder, black pepper, and onion powder. Cook and stir until the beef is crumbly, evenly browned, and no longer pink, about 7 minutes.",
         "Stir in the flour and cook for 3 minutes, stirring constantly. Stir in the milk and bring to a simmer, stirring constantly. Reduce heat to medium-low, and simmer 5 minutes to thicken."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

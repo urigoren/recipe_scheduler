@@ -1,0 +1,51 @@
+{
+    "ingredients": [
+        "1 clove garlic",
+        "1/4 cup apple cider vinegar",
+        "2 tablespoons soy sauce",
+        "1/2 cup honey",
+        "1/4 teaspoon ground ginger",
+        "1 pinch ground black pepper",
+        "6 pork chops"
+    ],
+    "instructions": [
+        "Place pork chops into a large resealable bag.",
+        "In a blender or food processor, combine the garlic, vinegar, soy sauce, honey, ginger, and pepper.",
+        "Puree until the garlic has been finely chopped.",
+        "Pour this mixture over the pork chops.",
+        "Seal, and marinate in refrigerator at least 4 hours.",
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Transfer the pork chops and marinade to a baking dish.",
+        "Bake uncovered in the preheated oven until the sauce has reduced, and the pork is no longer pink in the center, about 25 minutes."
+    ],
+    "title": "Pork Chops with Tangy Honey Sauce",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/830054.jpg",
+    "url": "http://allrecipes.com/Recipe/150308/",
+    "normalized_ingredients": {
+        "IZHo2eKTZ": "clove garlic",
+        "Ip_T4HGks": "apple cider vinegar",
+        "ILAT-xDbX": "soy sauce",
+        "Itg64O_Uz": "honey",
+        "IAq835ZPT": "ground ginger",
+        "IxSOqwpvV": "pinch ground black pepper",
+        "Il-vU97ZJ": "pork chops"
+    },
+    "status": 0,
+    "steps": [
+        "Place pork chops into a large resealable bag. In a blender or food processor, combine the garlic, vinegar, soy sauce, honey, ginger, and pepper. Puree until the garlic has been finely chopped. Pour this mixture over the pork chops. Seal, and marinate in refrigerator at least 4 hours.",
+        "Preheat oven to 350 degrees F (175 degrees C). Transfer the pork chops and marinade to a baking dish.",
+        "Bake uncovered in the preheated oven until the sauce has reduced, and the pork is no longer pink in the center, about 25 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

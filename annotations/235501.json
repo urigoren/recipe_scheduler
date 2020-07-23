@@ -28,24 +28,16 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2467523.jpg",
     "url": "http://allrecipes.com/Recipe/235501/",
     "normalized_ingredients": {
-        "169": "chili powder",
-        "120": "brown sugar",
-        "583": "salt",
-        "360": "garlic powder",
-        "492": "onion powder",
-        "387": "ground black pepper",
-        "296": "dry mustard",
-        "76": "beef brisket"
+        "Ix4-27vCe": "chili powder",
+        "IRG-HJdJz": "brown sugar",
+        "IzrIHcuDJ": "salt",
+        "IvZ0DqVmo": "garlic powder",
+        "ICQ5epRkS": "onion powder",
+        "IdlJrAHh2": "ground black pepper",
+        "IMsHA7pb1": "dry mustard",
+        "IxqQj9DZ0": "beef brisket"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat grill for medium-low heat or 270 degrees F (132 degrees C), and lightly oil the grate.",
         "Whisk chili powder, brown sugar, salt, garlic powder, onion powder, ground black pepper, and dry mustard together in a small bowl to create the dry rub.",
@@ -53,5 +45,20 @@
         "Cook brisket, uncovered and fatty-side up, on the preheated grill for 4 hours. Transfer brisket to a roasting pan and cover pan tightly with aluminum foil.",
         "Preheat oven to 270 degrees F (132 degrees C).",
         "Cook in the preheated oven until meat is tender and pulls easily away from the side of the brisket, about 8 more hours. Let meat rest 30 minutes before slicing."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

@@ -20,24 +20,26 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1762435.jpg",
     "url": "http://allrecipes.com/Recipe/19748/",
     "normalized_ingredients": {
-        "80": "beef frankfurters",
-        "533": "pork and beans",
-        "125": "butter beans",
-        "166": "chili beans",
-        "489": "onion",
-        "120": "brown sugar",
-        "282": "dried oregano",
-        "273": "distilled white vinegar"
+        "I87fJcBqS": "beef frankfurters",
+        "IdqnJwNSJ": "pork and beans",
+        "I7a_frz87": "butter beans",
+        "IKQdTniEX": "chili beans",
+        "Iz0wiMjVJ": "onion",
+        "IRG-HJdJz": "brown sugar",
+        "I5MyZsfNh": "dried oregano",
+        "IDn93ZNqi": "distilled white vinegar"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 350 degrees F (175 degrees C).",
         "In a large bowl combine the frankfurters, pork and beans, butter beans, chili beans, onion, sugar, oregano and vinegar. Mix all together and pour mixture into a lightly greased 9x13-inch baking dish.",
         "Bake uncovered at 350 degrees F (175 degrees C) for 1 hour, or until cooked through and bubbly."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

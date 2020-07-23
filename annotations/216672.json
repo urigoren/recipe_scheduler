@@ -26,26 +26,33 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/815023.jpg",
     "url": "http://allrecipes.com/Recipe/216672/",
     "normalized_ingredients": {
-        "726": "whole roasting chicken",
-        "418": "honey",
-        "169": "chili powder",
-        "391": "ground cumin",
-        "139": "cayenne pepper",
-        "583": "salt",
-        "360": "garlic powder",
-        "124": "butter"
+        "Ih1VEDPm_": "whole roasting chicken",
+        "Itg64O_Uz": "honey",
+        "Ix4-27vCe": "chili powder",
+        "Ithb2Rinv": "ground cumin",
+        "IHYTIwEXb": "cayenne pepper",
+        "IzrIHcuDJ": "salt",
+        "IvZ0DqVmo": "garlic powder",
+        "I10_d4pRP": "butter"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 400 degrees F (200 degrees C). Rinse and pat dry the chicken; place in roasting pan.",
         "In a bowl, mix together the honey, chili powder, cumin, cayenne pepper, salt, and garlic powder. Using your hands, rub the honey mixture all over the chicken. Baste chicken with the melted butter.",
         "Roast the chicken in the preheated oven until the skin begins to brown, 30 to 45 minutes. Baste the chicken with juices in the roasting pan.",
         "Reduce heat to 350 degrees F (175 degrees C), and roast until no longer pink at the bone and the juices run clear, about 1 1/2 to 2 hours. Baste occasionally during roasting. An instant-read thermometer inserted into the thickest part of the thigh, near the bone should read 180 degrees F (80 degrees C). Remove the chicken from the oven, cover with a doubled sheet of aluminum foil, and allow to rest in a warm area for 10 minutes before slicing."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

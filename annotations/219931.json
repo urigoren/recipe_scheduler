@@ -18,23 +18,23 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4470260.jpg",
     "url": "http://allrecipes.com/Recipe/219931/",
     "normalized_ingredients": {
-        "684": "tomato sauce",
-        "682": "tomato paste",
-        "77": "beef broth",
-        "584": "salt ",
-        "282": "dried oregano",
-        "391": "ground cumin",
-        "360": "garlic powder",
-        "492": "onion powder",
-        "169": "chili powder"
+        "I-4q8Lxl1": "tomato sauce",
+        "INAgcB9lc": "tomato paste",
+        "IM1TgK_n-": "beef broth",
+        "ITl_5zOqb": "salt ",
+        "I5MyZsfNh": "dried oregano",
+        "Ithb2Rinv": "ground cumin",
+        "IvZ0DqVmo": "garlic powder",
+        "ICQ5epRkS": "onion powder",
+        "Ix4-27vCe": "chili powder"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Mix tomato sauce, tomato paste, beef broth, salt, oregano, cumin, garlic powder, onion powder, and chili powder together in a saucepan until smooth.",
         "Bring sauce to a boil, reduce heat to low, and simmer for 10 minutes."
+    ],
+    "labels": [
+        [],
+        []
     ]
 }

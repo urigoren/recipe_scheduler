@@ -19,21 +19,23 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/979774.jpg",
     "url": "http://allrecipes.com/Recipe/124823/",
     "normalized_ingredients": {
-        "189": "condensed beef broth",
-        "682": "tomato paste",
-        "439": "kidney beans",
-        "33": "Mexicorn",
-        "264": "diced cooked chicken",
-        "376": "green onions",
-        "169": "chili powder",
-        "372": "green chilies",
-        "714": "water"
+        "I8Wa8wWhv": "condensed beef broth",
+        "INAgcB9lc": "tomato paste",
+        "I7y16rOcY": "kidney beans",
+        "I3yBCNxm8": "Mexicorn",
+        "ICJt05QMD": "diced cooked chicken",
+        "I_o-EUBYD": "green onions",
+        "Ix4-27vCe": "chili powder",
+        "IVZYL_2gv": "green chilies",
+        "IlGA3C7DK": "water"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a large saucepan, combine beef broth and tomato paste. Add remaining ingredients. Cover and simmer for 10 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        []
     ]
 }

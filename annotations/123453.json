@@ -18,19 +18,22 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/25138.jpg",
     "url": "http://allrecipes.com/Recipe/123453/",
     "normalized_ingredients": {
-        "644": "soy sauce",
-        "418": "honey",
-        "446": "lemon juice",
-        "487": "olive oil or vegetable oil",
-        "355": "garlic cloves",
-        "393": "ground ginger",
-        "106": "boneless pork chops"
+        "ILAT-xDbX": "soy sauce",
+        "Itg64O_Uz": "honey",
+        "I5wmzk9dU": "lemon juice",
+        "I3IjxFqJe": "olive oil or vegetable oil",
+        "IjAY80WeL": "garlic cloves",
+        "IAq835ZPT": "ground ginger",
+        "Iynxt1P5R": "boneless pork chops"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a large resealable plastic bag or shallow glass container, combine the first six ingredients. Add pork and turn to coat. Seal or cover; refrigerate for 4-8 hours. Grill, uncovered, over medium heat for 10-12 minutes or until juices run clear, turning once."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

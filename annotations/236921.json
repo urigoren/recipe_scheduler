@@ -20,23 +20,26 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1128611.jpg",
     "url": "http://allrecipes.com/Recipe/236921/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "489": "onion",
-        "169": "chili powder",
-        "426": "hot water",
-        "724": "whole kernel corn",
-        "268": "diced tomatoes",
-        "470": "macaroni and cheese mix"
+        "INzU_lxpu": "ground beef",
+        "Iz0wiMjVJ": "onion",
+        "Ix4-27vCe": "chili powder",
+        "IGPvsHFnm": "hot water",
+        "IgG6czOBh": "whole kernel corn",
+        "IWzBDAARA": "diced tomatoes",
+        "IyY2EtppN": "macaroni and cheese mix"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Heat a 3-quart saucepan over medium-high heat. Cook and stir beef and onion in the hot skillet until browned and crumbly, 5 to 7 minutes; drain and discard grease.",
         "Return pan to heat and season ground beef mixture with chili powder. Pour water into the saucepan and bring to a boil. Stir corn, tomatoes, and macaroni into the mixture; bring to a simmer and cook until the macaroni is tender, about 10 minutes.",
         "Sprinkle contents of cheese packet from macaroni and cheese package over the mixture; stir."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

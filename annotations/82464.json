@@ -24,23 +24,30 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1043526.jpg",
     "url": "http://allrecipes.com/Recipe/82464/",
     "normalized_ingredients": {
-        "647": "spaghetti or penne pasta",
-        "211": "corn oil",
-        "386": "ground beef or ground lean lamb",
-        "530": "pine nuts or slivered almonds",
-        "587": "salt and pepper to taste",
-        "181": "clove garlic",
-        "195": "container plain yogurt"
+        "Iy3qBoHFq": "spaghetti or penne pasta",
+        "I-yYZvqrO": "corn oil",
+        "INTD1t0Ix": "ground beef or ground lean lamb",
+        "IkQgeoDlR": "pine nuts or slivered almonds",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "IZHo2eKTZ": "clove garlic",
+        "IexYe6n2e": "container plain yogurt"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain.",
         "Meanwhile, heat the corn oil in a large skillet over medium-high heat. Stir in the beef and cook until well browned, stirring frequently to break apart, about 7 minutes. Add the pine nuts, and cook for another minute until dark brown. Season to taste with salt and pepper, then remove from the heat, and drain off excess fat.",
         "In a large bowl, crush the garlic into a smooth paste. Whisk the yogurt with the garlic until creamy and smooth. Once the pasta has been cooked and drained, place into a serving dish, and pour the yogurt over it. Top with the cooked meat and nuts while it is still hot."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

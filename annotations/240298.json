@@ -19,21 +19,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2251141.jpg",
     "url": "http://allrecipes.com/Recipe/240298/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "735": "yellow onion",
-        "360": "garlic powder",
-        "586": "salt and ground black pepper to taste",
-        "172": "chili sauce",
-        "371": "green bell pepper",
-        "684": "tomato sauce"
+        "INzU_lxpu": "ground beef",
+        "I18vf8b48": "yellow onion",
+        "IvZ0DqVmo": "garlic powder",
+        "IukXkN8DV": "salt and ground black pepper to taste",
+        "IrOFel8FB": "chili sauce",
+        "IzL3iMCR3": "green bell pepper",
+        "I-4q8Lxl1": "tomato sauce"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Heat a large skillet over medium-high heat. Add ground beef and onion to skillet and season with garlic powder, salt, and pepper. Cook and stir until beef is completely browned, 5 to 7 minutes; drain and discard grease.",
         "Return skillet to stove top. Stir chili sauce, green bell pepper, and tomato sauce into the beef mixture; reduce heat to medium-low and simmer, stirring regularly, until the sauce is thick, about 30 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

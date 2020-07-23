@@ -22,23 +22,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/24593.jpg",
     "url": "http://allrecipes.com/Recipe/22980/",
     "normalized_ingredients": {
-        "638": "smoked firm tofu",
-        "484": "nutritional yeast",
-        "714": "water",
-        "472": "maple syrup",
-        "256": "dash liquid smoke flavoring ",
-        "465": "low-sodium soy sauce",
-        "492": "onion powder",
-        "360": "garlic powder",
-        "127": "butter or margarine"
+        "I3A0AX5j9": "smoked firm tofu",
+        "ITOwZtMKa": "nutritional yeast",
+        "IlGA3C7DK": "water",
+        "I7RpsL1au": "maple syrup",
+        "I4zFYnxqV": "dash liquid smoke flavoring ",
+        "IS67YpbKU": "low-sodium soy sauce",
+        "ICQ5epRkS": "onion powder",
+        "IvZ0DqVmo": "garlic powder",
+        "IJiuoefFg": "butter or margarine"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Slice the thawed tofu into very thin slices (like bacon). In a medium bowl, stir together the yeast, water, maple syrup, liquid smoke, soy sauce, onion powder and garlic powder. Place the tofu strips into the bowl to marinate for at least 10 minutes.",
         "Heat butter or margarine in a large skillet over medium-high heat. Quickly fry tofu strips until crisp, turning once, about 5 minutes. Drain on paper towels, and serve immediately."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

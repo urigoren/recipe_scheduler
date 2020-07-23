@@ -21,23 +21,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1524494.jpg",
     "url": "http://allrecipes.com/Recipe/11819/",
     "normalized_ingredients": {
-        "646": "spaghetti",
-        "215": "corned beef",
-        "648": "spaghetti sauce",
-        "242": "cube chicken bouillon",
-        "22": "Italian seasoning",
-        "361": "garlic powder ",
-        "280": "dried minced onion "
+        "IFv0KBBUm": "spaghetti",
+        "IOggjtQHB": "corned beef",
+        "IAT13MxJh": "spaghetti sauce",
+        "I_3WhJ7mV": "cube chicken bouillon",
+        "I2-i2J3i8": "Italian seasoning",
+        "Ioi59EgdG": "garlic powder ",
+        "Iaqg7F70r": "dried minced onion "
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Dissolve bouillon in boiling water. Cut spaghetti noodles in half and add to boiling water until done.",
         "Over medium heat empty can of corned beef onto a skillet. Add spaghetti sauce to meat. Stir until heated; corned beef will come apart and a thick sauce will form. If desired, add Italian seasoning, garlic powder, dry onion, or any other spices.",
         "Once noodles are done, drain and combine with corned beef sauce."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

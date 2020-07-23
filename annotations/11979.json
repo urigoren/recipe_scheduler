@@ -24,26 +24,31 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2076512.jpg",
     "url": "http://allrecipes.com/Recipe/11979/",
     "normalized_ingredients": {
-        "303": "egg noodles",
-        "443": "lean ground beef",
-        "528": "pinch seasoning salt",
-        "519": "pinch freshly ground black pepper",
-        "520": "pinch garlic powder",
-        "32": "Mexican-style corn",
-        "270": "diced tomatoes with green chile peppers",
-        "549": "processed cheese food "
+        "IkUMHmRZp": "egg noodles",
+        "ICVfuQXfd": "lean ground beef",
+        "I6goSh2bD": "pinch seasoning salt",
+        "Ic68ntUg6": "pinch freshly ground black pepper",
+        "IwoxqWgWF": "pinch garlic powder",
+        "ISTEvhyqt": "Mexican-style corn",
+        "I9HS__ZD8": "diced tomatoes with green chile peppers",
+        "I4PyDRp0c": "processed cheese food "
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "In a large pot with boiling salted water cook egg noodles until al dente. Drain well.",
         "Meanwhile, in a large skillet cook meat with seasoning salt, black pepper, and garlic powder until brown. Add the cans of Mexican-style corn, tomatoes with green chilies and mix well.",
         "Pour mixture into casserole dish prepared with butter spray. Arrange sliced processed cheese food on top. Cover with aluminum foil.",
         "Bake in a preheated 375 degree F(190 degrees C) oven for 20 to 30 minutes. Stir and serve."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

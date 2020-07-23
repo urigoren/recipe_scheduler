@@ -20,18 +20,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989689.jpg",
     "url": "http://allrecipes.com/Recipe/121458/",
     "normalized_ingredients": {
-        "593": "seasoned salt",
-        "360": "garlic powder",
-        "492": "onion powder",
-        "139": "cayenne pepper",
-        "81": "beef rib roast",
-        "127": "butter or margarine"
+        "IyF1dOM0H": "seasoned salt",
+        "IvZ0DqVmo": "garlic powder",
+        "ICQ5epRkS": "onion powder",
+        "IHYTIwEXb": "cayenne pepper",
+        "Id2sFmMCA": "beef rib roast",
+        "IJiuoefFg": "butter or margarine"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Combine the first four ingredients; rub over roast. Place roast, fat side up, in a roasting pan. Dot with butter. Bake, uncovered, at 350 degrees F for 1-3/4 to 3 hours or until meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F medium, 160 degrees F; well-done, 170 degrees F). Let stand for 10-15 minutes before carving. Thicken pan drippings for gravy if desired."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

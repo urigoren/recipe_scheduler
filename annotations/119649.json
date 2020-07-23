@@ -22,23 +22,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/991433.jpg",
     "url": "http://allrecipes.com/Recipe/119649/",
     "normalized_ingredients": {
-        "644": "soy sauce",
-        "709": "vegetable or canola oil",
-        "567": "red wine vinegar or cider vinegar",
-        "68": "barbecue sauce",
-        "654": "steak sauce",
-        "279": "dried minced onion",
-        "459": "liquid smoke flavoring ",
-        "360": "garlic powder",
-        "79": "beef flank steak"
+        "ILAT-xDbX": "soy sauce",
+        "I6PDABwuU": "vegetable or canola oil",
+        "IfmBf-7jO": "red wine vinegar or cider vinegar",
+        "I0EA2DbS7": "barbecue sauce",
+        "IwTYCeUxQ": "steak sauce",
+        "IqGPmWGu-": "dried minced onion",
+        "IdPwerDQ_": "liquid smoke flavoring ",
+        "IvZ0DqVmo": "garlic powder",
+        "Irq5Z8Gc2": "beef flank steak"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "In a large resealable plastic bag, combine the first eight ingredients. Add the steak; seal bag and turn to coat. Refrigerate for 8 hours or overnight.",
         "Drain and discard marinade. Grill steak, covered, over medium-hot heat for 6-8 minutes on each side or until meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F; medium, 160 degrees F; well-done, 170 degrees F) Slice steak across the grain."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

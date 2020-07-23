@@ -19,21 +19,23 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/130904/",
     "normalized_ingredients": {
-        "315": "fat-free chicken broth",
-        "482": "natural peanut butter",
-        "679": "toasted sesame oil",
-        "572": "reduced-sodium soy sauce",
-        "452": "lime juice",
-        "171": "chili puree with garlic",
-        "420": "honey or sugar",
-        "40": "Salt",
-        "12": "Freshly ground black pepper"
+        "IcVa_lrd8": "fat-free chicken broth",
+        "IHbicDNmO": "natural peanut butter",
+        "ID5zqpXGS": "toasted sesame oil",
+        "IfK0MFefK": "reduced-sodium soy sauce",
+        "IW1qYXIte": "lime juice",
+        "I14924yDc": "chili puree with garlic",
+        "IV2oHdxyR": "honey or sugar",
+        "IrzNMe274": "Salt",
+        "I8bu_ljEP": "Freshly ground black pepper"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a small processor or blender, combine the broth, peanut butter, oil, soy sauce, lime juice, chili puree, and honey or sugar. Puree until smooth and creamy. Season to taste with the salt and pepper."
+    ],
+    "labels": [
+        [],
+        [],
+        []
     ]
 }

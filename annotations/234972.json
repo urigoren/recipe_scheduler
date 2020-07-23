@@ -22,25 +22,28 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1076783.jpg",
     "url": "http://allrecipes.com/Recipe/234972/",
     "normalized_ingredients": {
-        "542": "potatoes",
-        "724": "whole kernel corn",
-        "489": "onion",
-        "124": "butter",
-        "74": "beef base",
-        "583": "salt",
-        "563": "red pepper flakes",
-        "387": "ground black pepper",
-        "714": "water"
+        "I4aHwvjDO": "potatoes",
+        "IgG6czOBh": "whole kernel corn",
+        "Iz0wiMjVJ": "onion",
+        "I10_d4pRP": "butter",
+        "IV2G7xPMZ": "beef base",
+        "IzrIHcuDJ": "salt",
+        "ISL0wr7VR": "red pepper flakes",
+        "IdlJrAHh2": "ground black pepper",
+        "IlGA3C7DK": "water"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Combine potatoes, corn, onion, butter, beef base, salt, red pepper flakes, and black pepper in a saucepan. Pour enough water over the mixture to cover by 2 inches.",
         "Bring the soup to a boil, reduce heat to medium-low, and simmer until the potatoes are soft, about 20 minutes.",
         "Pour soup into a blender no more than half full. Cover and hold lid down; pulse a few times before leaving on to blend. Puree in batches until smooth."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

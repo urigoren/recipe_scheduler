@@ -18,21 +18,22 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3898443.jpg",
     "url": "http://allrecipes.com/Recipe/22340/",
     "normalized_ingredients": {
-        "218": "country style pork ribs",
-        "472": "maple syrup",
-        "644": "soy sauce",
-        "279": "dried minced onion",
-        "390": "ground cinnamon",
-        "393": "ground ginger",
-        "382": "ground allspice",
-        "360": "garlic powder",
-        "255": "dash ground black pepper"
+        "IvoDU66tm": "country style pork ribs",
+        "I7RpsL1au": "maple syrup",
+        "ILAT-xDbX": "soy sauce",
+        "IqGPmWGu-": "dried minced onion",
+        "IFpnkGW9q": "ground cinnamon",
+        "IAq835ZPT": "ground ginger",
+        "I_du9V7ML": "ground allspice",
+        "IvZ0DqVmo": "garlic powder",
+        "Imes4hZqC": "dash ground black pepper"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Combine ribs, maple syrup, soy sauce, minced onion, cinnamon, ginger, allspice, garlic powder and pepper in a slow cooker. Cover and cook on Low for 7 to 9 hours."
+    ],
+    "labels": [
+        [],
+        []
     ]
 }

@@ -20,18 +20,24 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/121660/",
     "normalized_ingredients": {
-        "443": "lean ground beef",
-        "587": "salt and pepper to taste",
-        "266": "diced onion",
-        "542": "potatoes",
-        "224": "cream-style corn",
-        "127": "butter or margarine"
+        "ICVfuQXfd": "lean ground beef",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "IGB20k1ns": "diced onion",
+        "I4aHwvjDO": "potatoes",
+        "I1uFB-wTC": "cream-style corn",
+        "IJiuoefFg": "butter or margarine"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Crumble beef into a shallow 2-qt. microwave-safe dish. Sprinkle with salt and pepper. Layer with onion, potatoes and corn. Dot with butter. Cover and microwave on high for 15 minutes; stir. Cover and heat 10-12 minutes longer or until meat is no longer pink and potatoes are tender."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

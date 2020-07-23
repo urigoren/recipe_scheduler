@@ -20,21 +20,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/984723.jpg",
     "url": "http://allrecipes.com/Recipe/119108/",
     "normalized_ingredients": {
-        "714": "water",
-        "127": "butter or margarine",
-        "284": "dried parsley flakes",
-        "150": "chicken bouillon granules",
-        "279": "dried minced onion",
-        "275": "dried basil",
-        "512": "pepper",
-        "360": "garlic powder",
-        "220": "couscous"
+        "IlGA3C7DK": "water",
+        "IJiuoefFg": "butter or margarine",
+        "IRNwJGSwI": "dried parsley flakes",
+        "I4LZHw-qF": "chicken bouillon granules",
+        "IqGPmWGu-": "dried minced onion",
+        "IkF0wURa-": "dried basil",
+        "Is_lS1dmt": "pepper",
+        "IvZ0DqVmo": "garlic powder",
+        "IEuY5N4dS": "couscous"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a saucepan, combine the first eight ingredients; bring to a boil. Remove form the heat; stir in couscous. Cover and let stand for 5 minutes or until the liquid is absorbed. Fluff with a fork."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

@@ -36,26 +36,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989999.jpg",
     "url": "http://allrecipes.com/Recipe/220060/",
     "normalized_ingredients": {
-        "210": "corn flake cereal",
-        "7": "California walnut pieces",
-        "360": "garlic powder",
-        "583": "salt",
-        "399": "ground pepper",
-        "301": "egg",
-        "98": "boneless"
+        "Im2AdwF5x": "corn flake cereal",
+        "IxBtf4b4x": "California walnut pieces",
+        "IvZ0DqVmo": "garlic powder",
+        "IzrIHcuDJ": "salt",
+        "IGcblNZYH": "ground pepper",
+        "IDpMSCH9Y": "egg",
+        "IYkvl3BQC": "boneless"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 450 degrees F.",
         "Line a baking sheet with aluminum foil and spray with non-stick cooking spray.",
@@ -66,5 +55,29 @@
         "With a fork, remove chicken pieces letting extra egg drip off. Put chicken into bag with walnut mixture.",
         "Close bag. Gently shake bag back and forth, and press walnuts onto chicken. Pour chicken onto prepared pan and use a fork to separate pieces so they aren't touching each other. Wash hands again if you touched the chicken.",
         "Bake 10 minutes until crumbs are golden brown and chicken is cooked through. To check if chicken is done, remove one piece and cut in half. It should be white all the way through, not pink."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

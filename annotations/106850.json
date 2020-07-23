@@ -1,1 +1,52 @@
-{"ingredients":["1\/2 cup unsalted butter","1 (1 ounce) envelope dry onion soup mix","1\/4 cup white wine","1 pound chicken livers, rinsed and trimmed","1\/2 cup shelled pistachio nuts","1 (8 ounce) package cream cheese","1\/4 cup water","onion powder to taste","garlic powder to taste"],"instructions":["In a skillet, melt butter over medium heat.","Mix in soup mix and white wine.","Arrange chicken livers in pan, and cook until browned and cooked though.","Place shelled pistachio nuts in food processor and pulse to grind.","Add cream cheese and water; process until smooth.","Add chicken livers, and process until smooth.","Season to taste with onion and garlic powder.","Chill."],"title":"Chicken Liver and Pistachio Nut Pate","photo_url":"http:\/\/images.media-allrecipes.com\/userphotos\/560x315\/1083483.jpg","url":"http:\/\/allrecipes.com\/Recipe\/106850\/","normalized_ingredients":{"705":"unsalted butter","309":"envelope dry onion soup mix","721":"white wine","155":"chicken livers","601":"shelled pistachio nuts","221":"cream cheese","714":"water","493":"onion powder to taste","362":"garlic powder to taste"},"status":1,"labels":[[{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"705:2e707cfe-9e33-ab30-654f-1ae57a134705","action":705,"resource":"D3","text":"unsalted butter","barColor":"#00ff00"},{"start":"2020-01-01T01:00:00","end":"2020-01-01T02:00:00","id":"705:23cc7670-f011-cc89-07e0-2064a5f4a4e3","action":705,"resource":"GW2","text":"unsalted butter","barColor":"#00ff00"}],[{"start":"2020-01-01T01:00:00","end":"2020-01-01T02:00:00","id":"705:5fbe0eaf-df66-bb0e-3ab2-cebad1f8b6b5","action":705,"resource":"GW2","text":"unsalted butter","barColor":"#00ff00"},{"start":"2020-01-01T01:00:00","end":"2020-01-01T02:00:00","id":"309:0a2d2107-a564-0132-f628-21d4500af449","action":309,"resource":"GW2","text":"envelope dry onion soup mix","barColor":"#00ff00"},{"start":"2020-01-01T01:00:00","end":"2020-01-01T02:00:00","id":"721:5c0581e5-c7fe-35a6-8860-24894d721fc4","action":721,"resource":"GW2","text":"white wine","barColor":"#00ff00"}],[{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"705:7cae1c3e-24c8-c66b-dceb-8ec2fac0153e","action":705,"resource":"GW2","text":"unsalted butter","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"309:4fcdf733-4766-df8d-d641-3a91447e6213","action":309,"resource":"GW2","text":"envelope dry onion soup mix","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"721:1e94bfc2-ea89-e785-9a9b-ae1bfb98b7a8","action":721,"resource":"GW2","text":"white wine","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"155:dcb6d75a-ab23-6efe-8152-5c989b1364da","action":155,"resource":"GW2","text":"chicken livers","barColor":"#00ff00"}],[{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"601:f0b229e4-217c-524c-2e8e-9640a845a58d","action":601,"resource":"O1","text":"shelled pistachio nuts","barColor":"#00ff00"}],[{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"601:0a5a9b8c-063e-bb19-8061-af5226eb7dc2","action":601,"resource":"O2","text":"shelled pistachio nuts","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"714:350c3189-b4e3-35ac-d106-809eea802413","action":714,"resource":"O2","text":"water","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"221:19e8d6de-b754-3481-ea6a-df3bcf69692e","action":221,"resource":"O2","text":"cream cheese","barColor":"#00ff00"}],[{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"705:62f2dc09-0225-74ba-ad9f-9859c2749c97","action":705,"resource":"O1","text":"unsalted butter","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"309:d680fa0e-4385-1677-f2f4-233c78113ffb","action":309,"resource":"O1","text":"envelope dry onion soup mix","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"721:ddb2c258-32ec-5b2b-ba10-ab7e8c37038f","action":721,"resource":"O1","text":"white wine","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"155:8e2a1c3a-0dfc-bc32-e6aa-03a84cf07f18","action":155,"resource":"O1","text":"chicken livers","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"601:5493e302-9351-f37d-f7ad-2284fc964f01","action":601,"resource":"O1","text":"shelled pistachio nuts","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"221:e2949f2d-fba9-b52b-7c29-4ca26bfbeddf","action":221,"resource":"O1","text":"cream cheese","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"714:d86bdc04-e3e0-9e4b-7e74-fb3dc6557b4a","action":714,"resource":"O1","text":"water","barColor":"#00ff00"}],[{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"705:7ee2f2fd-f8a1-4dff-0921-e9f4f5a1636e","action":705,"resource":"D2","text":"unsalted butter","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"309:87bf2f78-34f9-74ea-ee5c-5310f356b71f","action":309,"resource":"D2","text":"envelope dry onion soup mix","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"721:8f1659bb-63f0-7d9a-e82c-71362529d491","action":721,"resource":"D2","text":"white wine","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"155:f126b389-ebd1-3313-d6d1-c460c179c9a6","action":155,"resource":"D2","text":"chicken livers","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"601:9cc75f18-25a3-f945-8692-95bba9663757","action":601,"resource":"D2","text":"shelled pistachio nuts","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"221:73d3900c-49cc-fafd-4255-a0fd2cd29976","action":221,"resource":"D2","text":"cream cheese","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"714:f17a9d9f-406f-c603-c027-65969292c931","action":714,"resource":"D2","text":"water","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"493:520ead83-b485-87dc-3fc6-7ef96a58dbf7","action":493,"resource":"D2","text":"onion powder to taste","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"362:b0405534-aef0-9f8e-77b0-38a8a69bf6b7","action":362,"resource":"D2","text":"garlic powder to taste","barColor":"#00ff00"}],[{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"705:24a654f6-ed49-ce04-12f3-369f81476c97","action":705,"resource":"R2","text":"unsalted butter","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"309:435744d6-6c87-25d0-3ce5-60066551593a","action":309,"resource":"R2","text":"envelope dry onion soup mix","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"721:16569283-8f58-fd0c-ca34-4e808f700772","action":721,"resource":"R2","text":"white wine","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"155:6e83ab04-7fdf-79b0-73c3-acd7fe603300","action":155,"resource":"R2","text":"chicken livers","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"601:db8f53dd-a88e-b06d-3660-72e1a707ed07","action":601,"resource":"R2","text":"shelled pistachio nuts","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"221:41477460-8e65-60e2-1c8d-aee18da6862c","action":221,"resource":"R2","text":"cream cheese","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"714:4cd4c1d8-66dc-2674-b8c1-5c0958588a4b","action":714,"resource":"R2","text":"water","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"493:ecd9fe76-8abc-2369-cf88-17a0c99f4dda","action":493,"resource":"R2","text":"onion powder to taste","barColor":"#00ff00"},{"start":"2020-01-01T00:00:00","end":"2020-01-01T01:00:00","id":"362:acaf3345-43c5-f7ac-31cd-fd5438de6868","action":362,"resource":"R2","text":"garlic powder to taste","barColor":"#00ff00"}]],"steps":["In a skillet, melt butter over medium heat. Mix in soup mix and white wine. Arrange chicken livers in pan, and cook until browned and cooked though.","Place shelled pistachio nuts in food processor and pulse to grind. Add cream cheese and water; process until smooth. Add chicken livers, and process until smooth. Season to taste with onion and garlic powder. Chill."]}
+{
+    "ingredients": [
+        "1/2 cup unsalted butter",
+        "1 (1 ounce) envelope dry onion soup mix",
+        "1/4 cup white wine",
+        "1 pound chicken livers, rinsed and trimmed",
+        "1/2 cup shelled pistachio nuts",
+        "1 (8 ounce) package cream cheese",
+        "1/4 cup water",
+        "onion powder to taste",
+        "garlic powder to taste"
+    ],
+    "instructions": [
+        "In a skillet, melt butter over medium heat.",
+        "Mix in soup mix and white wine.",
+        "Arrange chicken livers in pan, and cook until browned and cooked though.",
+        "Place shelled pistachio nuts in food processor and pulse to grind.",
+        "Add cream cheese and water; process until smooth.",
+        "Add chicken livers, and process until smooth.",
+        "Season to taste with onion and garlic powder.",
+        "Chill."
+    ],
+    "title": "Chicken Liver and Pistachio Nut Pate",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1083483.jpg",
+    "url": "http://allrecipes.com/Recipe/106850/",
+    "normalized_ingredients": {
+        "IXLKVjWtq": "unsalted butter",
+        "IVY7sX09f": "envelope dry onion soup mix",
+        "IUvBT1CZ7": "white wine",
+        "Ik0NgEK-T": "chicken livers",
+        "I3m7jsSEA": "shelled pistachio nuts",
+        "IDUWQF1DU": "cream cheese",
+        "IlGA3C7DK": "water",
+        "IyABiIj7H": "onion powder to taste",
+        "ICd58rwxC": "garlic powder to taste"
+    },
+    "status": 0,
+    "steps": [
+        "In a skillet, melt butter over medium heat. Mix in soup mix and white wine. Arrange chicken livers in pan, and cook until browned and cooked though.",
+        "Place shelled pistachio nuts in food processor and pulse to grind. Add cream cheese and water; process until smooth. Add chicken livers, and process until smooth. Season to taste with onion and garlic powder. Chill."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

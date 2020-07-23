@@ -23,25 +23,30 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4522174.jpg",
     "url": "http://allrecipes.com/Recipe/241703/",
     "normalized_ingredients": {
-        "600": "shell pasta",
-        "383": "ground beef",
-        "297": "dry onion soup mix",
-        "684": "tomato sauce",
-        "724": "whole kernel corn",
-        "224": "cream-style corn",
-        "605": "shredded Cheddar cheese"
+        "IjE3Xin0y": "shell pasta",
+        "INzU_lxpu": "ground beef",
+        "I8IdKkoFz": "dry onion soup mix",
+        "I-4q8Lxl1": "tomato sauce",
+        "IgG6czOBh": "whole kernel corn",
+        "I1uFB-wTC": "cream-style corn",
+        "IIa_cno7K": "shredded Cheddar cheese"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 350 degrees F (175 degrees C).",
         "Bring a large pot of lightly salted water to a boil. Cook shell pasta in boiling water, stirring occasionally, until cooked through but firm to the bite, 12 minutes; drain.",
         "Heat an oven-safe Dutch oven over medium-high heat. Cook and stir beef with the onion soup mix in the pot until browned and crumbly, 5 to 7 minutes. Stir tomato sauce, whole kernel corn, and cream-style corn into the beef; add drained shell pasta and stir.",
         "Transfer Dutch oven to the preheated oven and bake for 23 minutes. Stir casserole, top with cheese, and continue baking until the cheese melts, about 5 minutes more."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

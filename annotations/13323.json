@@ -20,25 +20,26 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/160393.jpg",
     "url": "http://allrecipes.com/Recipe/13323/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "152": "chicken broth",
-        "714": "water",
-        "297": "dry onion soup mix",
-        "684": "tomato sauce",
-        "653": "stalks celery",
-        "489": "onion",
-        "344": "frozen mixed vegetables",
-        "308": "elbow macaroni"
+        "INzU_lxpu": "ground beef",
+        "INNbMITPe": "chicken broth",
+        "IlGA3C7DK": "water",
+        "I8IdKkoFz": "dry onion soup mix",
+        "I-4q8Lxl1": "tomato sauce",
+        "IUW0Gg5k3": "stalks celery",
+        "Iz0wiMjVJ": "onion",
+        "IstAVOrIO": "frozen mixed vegetables",
+        "IfPFKkTKu": "elbow macaroni"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "In a saute pan, brown ground beef, over medium heat.",
         "In a large stock pot, combine broth, water, onion soup mix, tomato sauce, celery, onion, frozen vegetables and macaroni. Bring to a boil and then simmer until macaroni is done.",
         "Add browned ground beef, mix and serve."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

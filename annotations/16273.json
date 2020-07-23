@@ -19,20 +19,23 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4476613.jpg",
     "url": "http://allrecipes.com/Recipe/16273/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "714": "water",
-        "489": "onion",
-        "181": "clove garlic",
-        "684": "tomato sauce",
-        "169": "chili powder",
-        "478": "monosodium glutamate ",
-        "583": "salt"
+        "INzU_lxpu": "ground beef",
+        "IlGA3C7DK": "water",
+        "Iz0wiMjVJ": "onion",
+        "IZHo2eKTZ": "clove garlic",
+        "I-4q8Lxl1": "tomato sauce",
+        "Ix4-27vCe": "chili powder",
+        "IXaH9DsEy": "monosodium glutamate ",
+        "IzrIHcuDJ": "salt"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a medium skillet over medium high heat, saute the ground beef for 10 to 15 minutes, or until well browned. Break up with a fork until fine. Add the water, onion, garlic, tomato sauce, chili powder, monosodium glutamate and salt. Allow to simmer for 10 minutes, or until heated thoroughly."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

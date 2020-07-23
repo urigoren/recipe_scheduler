@@ -19,21 +19,23 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989667.jpg",
     "url": "http://allrecipes.com/Recipe/119815/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "489": "onion",
-        "378": "green pepper",
-        "354": "garlic clove",
-        "681": "tomato juice",
-        "698": "uncooked elbow macaroni",
-        "47": "Worcestershire sauce",
-        "583": "salt",
-        "512": "pepper"
+        "INzU_lxpu": "ground beef",
+        "Iz0wiMjVJ": "onion",
+        "IuJpj6O8u": "green pepper",
+        "IwROKJycn": "garlic clove",
+        "Iy8b1prke": "tomato juice",
+        "IuyTJ0Hui": "uncooked elbow macaroni",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "IzrIHcuDJ": "salt",
+        "Is_lS1dmt": "pepper"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a skillet, cook the beef, onion, green pepper and garlic over medium heat until meat is no longer pink; drain. Add the tomato juice, macaroni, Worcestershire sauce, salt and pepper; bring to a boil. Reduce heat; cover and simmer for 20 minutes or until macaroni is tender."
+    ],
+    "labels": [
+        [],
+        [],
+        []
     ]
 }

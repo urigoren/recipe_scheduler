@@ -20,21 +20,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4487524.jpg",
     "url": "http://allrecipes.com/Recipe/217092/",
     "normalized_ingredients": {
-        "714": "water",
-        "719": "white sugar",
-        "644": "soy sauce",
-        "508": "peanut butter",
-        "418": "honey",
-        "732": "wine vinegar",
-        "351": "garlic",
-        "162": "chicken wings",
-        "598": "sesame seeds"
+        "IlGA3C7DK": "water",
+        "I6xvdoZzb": "white sugar",
+        "ILAT-xDbX": "soy sauce",
+        "IEC1R0HRF": "peanut butter",
+        "Itg64O_Uz": "honey",
+        "IwlanpT-K": "wine vinegar",
+        "IzPYYTv5e": "garlic",
+        "Ieg3R-oQ_": "chicken wings",
+        "IS0gcu44e": "sesame seeds"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In an electric skillet or a large skillet over medium heat, mix together the water, sugar, soy sauce, peanut butter, honey, wine vinegar, and garlic until smooth and the sugar has dissolved. Place the wings into the sauce, cover, and simmer for 30 minutes. Uncover and simmer until the wings are tender and the sauce has thickened, about 30 more minutes, spooning sauce over wings occasionally. Sprinkle with sesame seeds."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

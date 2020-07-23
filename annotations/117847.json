@@ -27,24 +27,33 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989957.jpg",
     "url": "http://allrecipes.com/Recipe/117847/",
     "normalized_ingredients": {
-        "379": "green peppers",
-        "383": "ground beef",
-        "489": "onion",
-        "684": "tomato sauce",
-        "201": "cooked rice",
-        "583": "salt",
-        "360": "garlic powder",
-        "512": "pepper"
+        "IneKm5jTn": "green peppers",
+        "INzU_lxpu": "ground beef",
+        "Iz0wiMjVJ": "onion",
+        "I-4q8Lxl1": "tomato sauce",
+        "IFbMq4zAU": "cooked rice",
+        "IzrIHcuDJ": "salt",
+        "IvZ0DqVmo": "garlic powder",
+        "Is_lS1dmt": "pepper"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Cut tops off peppers and remove seeds. Place peppers in a large saucepan and cover with water. Bring to a boil; cook for 3 minutes. Drain and immediately place in ice water; invert on paper towels.",
         "In a small skillet, cook beef and onion over medium heat until meat is no longer pink; drain. Remove from the heat. Stir in 1 cup tomato sauce, rice, salt, garlic powder and pepper. Spoon into peppers.",
         "Place in an ungreased shallow 2-qt. baking dish. Drizzle with remaining tomato sauce. Cover and bake at 350 degrees F for 25-30 minutes or until peppers are tender."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

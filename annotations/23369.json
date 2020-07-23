@@ -19,26 +19,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4468821.jpg",
     "url": "http://allrecipes.com/Recipe/23369/",
     "normalized_ingredients": {
-        "153": "chicken drumettes",
-        "449": "light corn syrup",
-        "644": "soy sauce",
-        "719": "white sugar",
-        "721": "white wine",
-        "520": "pinch garlic powder"
+        "IWeGmLk4K": "chicken drumettes",
+        "IKNjYtyt9": "light corn syrup",
+        "ILAT-xDbX": "soy sauce",
+        "I6xvdoZzb": "white sugar",
+        "IUvBT1CZ7": "white wine",
+        "IwoxqWgWF": "pinch garlic powder"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 400 degrees F (200 degrees C).",
         "Lay chicken in a single layer in a baking dish.",
         "In a medium bowl combine corn syrup, soy sauce, sugar and wine. Pour over chicken and sprinkle with garlic powder.",
         "Bake in preheated oven until sauce is hot and bubbly.",
         "Reduce temperature to 350 degrees F (175 degrees C), and bake until thick and sticky, basting repeatedly."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

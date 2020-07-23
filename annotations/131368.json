@@ -22,27 +22,29 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/131368/",
     "normalized_ingredients": {
-        "681": "tomato juice",
-        "418": "honey",
-        "566": "red wine vinegar",
-        "177": "chipotle chili pepper",
-        "313": "extra-virgin olive oil",
-        "323": "finely chopped red onion",
-        "687": "torn romaine lettuce leaves",
-        "41": "Salt and pepper",
-        "233": "crumbled part-skim queso fresco "
+        "Iy8b1prke": "tomato juice",
+        "Itg64O_Uz": "honey",
+        "IAvvHfLe4": "red wine vinegar",
+        "I7N3NOWhL": "chipotle chili pepper",
+        "IThF37rzr": "extra-virgin olive oil",
+        "IfmBPLyK-": "finely chopped red onion",
+        "Ipc3V8J_W": "torn romaine lettuce leaves",
+        "IvNBXV72T": "Salt and pepper",
+        "IZmcKxw9v": "crumbled part-skim queso fresco "
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "In a small bowl, whisk together juice, honey, vinegar, and 1/8 teaspoon chipotle.",
         "Gradually whisk in the oil. Mix in the onion.",
         "Add the romaine to a large bowl and toss with dressing. Season with salt, pepper, and an additional 1/8 teaspoon chipotle if desired.",
         "Divide between two plates and sprinkle half of the cheese over each."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

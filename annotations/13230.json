@@ -30,27 +30,37 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2520828.jpg",
     "url": "http://allrecipes.com/Recipe/13230/",
     "normalized_ingredients": {
-        "351": "garlic",
-        "489": "onion",
-        "124": "butter",
-        "190": "condensed chicken broth",
-        "189": "condensed beef broth",
-        "387": "ground black pepper",
-        "58": "au jus gravy mix",
-        "226": "croutons",
-        "629": "slices Swiss cheese"
+        "IzPYYTv5e": "garlic",
+        "Iz0wiMjVJ": "onion",
+        "I10_d4pRP": "butter",
+        "ICgdL02YI": "condensed chicken broth",
+        "I8Wa8wWhv": "condensed beef broth",
+        "IdlJrAHh2": "ground black pepper",
+        "IWIH-KZp4": "au jus gravy mix",
+        "IlVQADKUL": "croutons",
+        "Itgv7hYda": "slices Swiss cheese"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "In a small skillet over medium heat, cook garlic until just golden. Set aside.",
         "In a skillet, cook sliced onions in butter, over medium low heat, until a caramel color is reached (any onion that is burned during this process should be discarded). Set aside.",
         "Combine chicken and beef broth in a 2 quart saucepan. Add fried garlic, fresh ground pepper and sauteed onions. Bring the soup mixture to a boil and then simmer over low heat for 15 minutes. Stir in the packaged gravy mix and simmer for another 10 minutes.",
         "Turn on oven broiler and divide soup evenly among 4 oven safe soup crocks. Place several croutons on the top of the soup followed by two slices of Swiss cheese on top of the croutons. Make sure that the cheese does not sink into the soup. Place soup crocks on a cookie sheet and place under the broiler. Broil until the cheese is golden brown and bubbling. Let cool slightly before serving."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

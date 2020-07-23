@@ -25,23 +25,30 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/989868.jpg",
     "url": "http://allrecipes.com/Recipe/119652/",
     "normalized_ingredients": {
-        "598": "sesame seeds",
-        "127": "butter or margarine",
-        "489": "onion",
-        "355": "garlic cloves",
-        "662": "strong brewed coffee",
-        "644": "soy sauce",
-        "720": "white vinegar",
-        "47": "Worcestershire sauce",
-        "102": "boneless beef top sirloin steak"
+        "IS0gcu44e": "sesame seeds",
+        "IJiuoefFg": "butter or margarine",
+        "Iz0wiMjVJ": "onion",
+        "IjAY80WeL": "garlic cloves",
+        "ISwTqDQ_1": "strong brewed coffee",
+        "ILAT-xDbX": "soy sauce",
+        "IUUPU5vsH": "white vinegar",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "I_K10i1JA": "boneless beef top sirloin steak"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "In a skillet, toast sesame seeds in butter. Add onion and garlic; saute until tender. In a bowl, combine the coffee, soy sauce, vinegar, Worcestershire sauce and sesame seed mixture. Pour half into a large resealable plastic bag; add steak. Seal bag and turn to coat; refrigerate for 8 hours or overnight, turning occasionally. Cover and refrigerate remaining marinade.",
         "Drain and discard marinade from steak. Grill steak, covered, over medium-hot heat for 6-10 minutes on each side or until meat reaches desired doneness (for medium-rare, a meat thermometer should read 145 degrees F; medium, 160 degrees F; well-done, 170 degrees F). Warm reserved marinade and serve with steak."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

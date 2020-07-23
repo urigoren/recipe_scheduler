@@ -20,23 +20,25 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3532461.jpg",
     "url": "http://allrecipes.com/Recipe/46763/",
     "normalized_ingredients": {
-        "383": "ground beef",
-        "65": "baked beans with pork",
-        "132": "canned chopped green chile peppers",
-        "46": "Vidalia onion",
-        "69": "barbeque sauce",
-        "120": "brown sugar",
-        "360": "garlic powder",
-        "169": "chili powder",
-        "424": "hot pepper sauce "
+        "INzU_lxpu": "ground beef",
+        "ICB1iBOw4": "baked beans with pork",
+        "IdYH27-YB": "canned chopped green chile peppers",
+        "IHCdxk9Ey": "Vidalia onion",
+        "IsuMOgFFG": "barbeque sauce",
+        "IRG-HJdJz": "brown sugar",
+        "IvZ0DqVmo": "garlic powder",
+        "Ix4-27vCe": "chili powder",
+        "IZqyBGOUS": "hot pepper sauce "
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "In a skillet over medium heat, brown the ground beef until no longer pink; drain fat, and set aside.",
         "In a 3 1/2 quart or larger slow cooker, combine the ground beef, baked beans, green chiles, onion and barbeque sauce. Season with brown sugar, garlic powder, chili powder and hot pepper sauce. Cook on HIGH for 2 hours, or low for 4 to 5 hours."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

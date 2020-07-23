@@ -22,23 +22,28 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/45847.jpg",
     "url": "http://allrecipes.com/Recipe/8768/",
     "normalized_ingredients": {
-        "164": "chicken wings, separated at joints",
-        "29": "Louisiana-style hot sauce",
-        "124": "butter",
-        "418": "honey",
-        "521": "pinch garlic salt",
-        "522": "pinch ground black pepper",
-        "139": "cayenne pepper"
+        "IjoHO4S_u": "chicken wings, separated at joints",
+        "I2bCZbuQt": "Louisiana-style hot sauce",
+        "I10_d4pRP": "butter",
+        "Itg64O_Uz": "honey",
+        "IfuJ0r8Cm": "pinch garlic salt",
+        "IxSOqwpvV": "pinch ground black pepper",
+        "IHYTIwEXb": "cayenne pepper"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat an outdoor grill for high heat.",
         "Lightly oil the grill grate. Grill the chicken 8 to 12 minutes on each side, or until juices run clear. (You can deep fry or bake the chicken instead if you want to, but it is best when grilled.) Remove chicken to a large roasting pan.",
         "In a saucepan over medium heat, mix the hot sauce, butter, honey, garlic salt, black pepper, and cayenne pepper. Simmer about 10 minutes, until blended and heated through. Pour the sauce over the grilled chicken wings and stir to coat."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

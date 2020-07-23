@@ -19,21 +19,23 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4519430.jpg",
     "url": "http://allrecipes.com/Recipe/76492/",
     "normalized_ingredients": {
-        "684": "tomato sauce",
-        "418": "honey",
-        "644": "soy sauce",
-        "273": "distilled white vinegar",
-        "449": "light corn syrup",
-        "47": "Worcestershire sauce",
-        "416": "hoisin sauce",
-        "139": "cayenne pepper",
-        "585": "salt and freshly ground black pepper to taste"
+        "I-4q8Lxl1": "tomato sauce",
+        "Itg64O_Uz": "honey",
+        "ILAT-xDbX": "soy sauce",
+        "IDn93ZNqi": "distilled white vinegar",
+        "IKNjYtyt9": "light corn syrup",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "IjLMNCxJy": "hoisin sauce",
+        "IHYTIwEXb": "cayenne pepper",
+        "InF3Pp1nc": "salt and freshly ground black pepper to taste"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "In a saucepan over medium heat, mix the tomato sauce, honey, soy sauce, vinegar, corn syrup, Worcestershire sauce, hoisin sauce, cayenne pepper, salt, and pepper. Cook 30 minutes, until thickened. Cool, and use immediately."
+    ],
+    "labels": [
+        [],
+        [],
+        []
     ]
 }

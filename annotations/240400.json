@@ -18,23 +18,23 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2280937.jpg",
     "url": "http://allrecipes.com/Recipe/240400/",
     "normalized_ingredients": {
-        "489": "onion",
-        "644": "soy sauce",
-        "120": "brown sugar",
-        "351": "garlic",
-        "596": "sesame oil",
-        "598": "sesame seeds",
-        "138": "cayenne",
-        "586": "salt and ground black pepper to taste",
-        "624": "skinless, boneless chicken breasts"
+        "Iz0wiMjVJ": "onion",
+        "ILAT-xDbX": "soy sauce",
+        "IRG-HJdJz": "brown sugar",
+        "IzPYYTv5e": "garlic",
+        "IpyJf3OVq": "sesame oil",
+        "IS0gcu44e": "sesame seeds",
+        "I-5bomrDf": "cayenne",
+        "IukXkN8DV": "salt and ground black pepper to taste",
+        "I7RMBnD2u": "skinless, boneless chicken breasts"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Whisk onion, soy sauce, brown sugar, garlic, sesame oil, sesame seeds, cayenne pepper, salt, and black pepper together in a bowl until marinade is smooth.",
         "Cook and stir chicken and marinade together in a large skillet over medium-high heat until chicken is cooked through, about 15 minutes."
+    ],
+    "labels": [
+        [],
+        []
     ]
 }

@@ -19,24 +19,26 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3187315.jpg",
     "url": "http://allrecipes.com/Recipe/83066/",
     "normalized_ingredients": {
-        "234": "crushed dry-roasted",
-        "360": "garlic powder",
-        "492": "onion powder",
-        "589": "salt-free herb seasoning blend",
-        "161": "chicken thighs",
-        "474": "melted butter"
+        "ItkXCavtu": "crushed dry-roasted",
+        "IvZ0DqVmo": "garlic powder",
+        "ICQ5epRkS": "onion powder",
+        "I20Hoz359": "salt-free herb seasoning blend",
+        "ISdM85QOB": "chicken thighs",
+        "Ixfk1PTD9": "melted butter"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 375 degrees F (190 degrees C).",
         "In a shallow bowl, mix the peanuts, garlic powder, onion powder, and salt-free herb seasoning blend.",
         "Dip the chicken thighs in the melted butter, then press into the peanuts to coat. Arrange on a baking sheet.",
         "Bake 45 minutes in the preheated oven, or until chicken juices run clear."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

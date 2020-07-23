@@ -19,22 +19,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1078173.jpg",
     "url": "http://allrecipes.com/Recipe/235796/",
     "normalized_ingredients": {
-        "124": "butter",
-        "718": "white rice",
-        "119": "broken pieces vermicelli pasta",
-        "714": "water",
-        "150": "chicken bouillon granules",
-        "283": "dried parsley",
-        "360": "garlic powder",
-        "492": "onion powder"
+        "I10_d4pRP": "butter",
+        "I0FPFj1oF": "white rice",
+        "In3I3sMO_": "broken pieces vermicelli pasta",
+        "IlGA3C7DK": "water",
+        "I4LZHw-qF": "chicken bouillon granules",
+        "I7qELLKk_": "dried parsley",
+        "IvZ0DqVmo": "garlic powder",
+        "ICQ5epRkS": "onion powder"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Melt butter in a large saucepan over medium heat. Cook rice and vermicelli in hot butter until browned, about 3 minutes.",
         "Pour water over the rice mixture. Stir chicken bouillon, parsley, garlic powder, and onion powder into the water; bring to a boil, place a cover on the saucepan, reduce heat to low, and cook until the water has absorbed into the rice and pasta, about 25 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
     ]
 }

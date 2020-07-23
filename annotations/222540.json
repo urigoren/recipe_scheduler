@@ -21,24 +21,27 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/847509.jpg",
     "url": "http://allrecipes.com/Recipe/222540/",
     "normalized_ingredients": {
-        "205": "cooking spray",
-        "690": "tuna in water",
-        "301": "egg",
-        "292": "dry bread crumbs",
-        "363": "garlic salt",
-        "387": "ground black pepper",
-        "268": "diced tomatoes",
-        "489": "onion"
+        "I8O2ccv5M": "cooking spray",
+        "ImsSKMhZ-": "tuna in water",
+        "IDpMSCH9Y": "egg",
+        "I-XuWYX5K": "dry bread crumbs",
+        "IOHK_fJm8": "garlic salt",
+        "IdlJrAHh2": "ground black pepper",
+        "IWzBDAARA": "diced tomatoes",
+        "Iz0wiMjVJ": "onion"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat oven to 375 degrees F (190 degrees C). Spray a baking sheet with cooking spray.",
         "Mix tuna, egg, bread crumbs, garlic salt, and black pepper and fold in diced tomatoes and onion. Form the mixture into 4 patties and place onto prepared baking sheet.",
         "Bake in the preheated oven until burgers are golden brown and crisp, about 10 minutes per side."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

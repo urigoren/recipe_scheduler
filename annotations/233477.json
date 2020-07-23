@@ -17,21 +17,21 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/233477/",
     "normalized_ingredients": {
-        "556": "red bell pepper",
-        "152": "chicken broth",
-        "67": "balsamic vinegar",
-        "682": "tomato paste",
-        "282": "dried oregano",
-        "360": "garlic powder",
-        "418": "honey",
-        "387": "ground black pepper",
-        "591": "sea salt"
+        "IxQyyStx0": "red bell pepper",
+        "INNbMITPe": "chicken broth",
+        "I8QjmhD24": "balsamic vinegar",
+        "INAgcB9lc": "tomato paste",
+        "I5MyZsfNh": "dried oregano",
+        "IvZ0DqVmo": "garlic powder",
+        "Itg64O_Uz": "honey",
+        "IdlJrAHh2": "ground black pepper",
+        "ICf1wHyU4": "sea salt"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Combine bell pepper, chicken broth, balsamic vinegar, tomato paste, oregano, garlic powder, honey, black pepper, and sea salt in a blender; blend on high for 8 minutes."
+    ],
+    "labels": [
+        []
     ]
 }

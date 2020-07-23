@@ -19,21 +19,24 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/16279/",
     "normalized_ingredients": {
-        "225": "creamy peanut butter",
-        "178": "chutney",
-        "159": "chicken stock",
-        "449": "light corn syrup",
-        "644": "soy sauce",
-        "182": "cloves crushed garlic",
-        "422": "hot dogs"
+        "INXemAiuq": "creamy peanut butter",
+        "IR3jA7GcM": "chutney",
+        "IUK6M4rKK": "chicken stock",
+        "IKNjYtyt9": "light corn syrup",
+        "ILAT-xDbX": "soy sauce",
+        "IJOq1Xe3o": "cloves crushed garlic",
+        "ISxbdBax8": "hot dogs"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Cut each frank into five bite-sized pieces, unless you're using cocktail wieners.",
         "In a large saucepan, combine peanut butter, chutney, chicken stock, corn syrup, Heat and stir constantly until very smooth. Add franks and continue stirring carefully until franks are covered with sauce. Reduce heat and continue to heat slowly until franks are hot. Insert toothpicks into frankfurters and serve."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

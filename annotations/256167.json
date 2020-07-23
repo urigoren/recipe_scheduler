@@ -17,20 +17,21 @@
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
     "url": "http://allrecipes.com/Recipe/256167/",
     "normalized_ingredients": {
-        "644": "soy sauce",
-        "508": "peanut butter",
-        "418": "honey",
-        "290": "drops Chinese hot sauce",
-        "720": "white vinegar",
-        "596": "sesame oil",
-        "360": "garlic powder",
-        "387": "ground black pepper"
+        "ILAT-xDbX": "soy sauce",
+        "IEC1R0HRF": "peanut butter",
+        "Itg64O_Uz": "honey",
+        "Iz_kj4UEV": "drops Chinese hot sauce",
+        "IUUPU5vsH": "white vinegar",
+        "IpyJf3OVq": "sesame oil",
+        "IvZ0DqVmo": "garlic powder",
+        "IdlJrAHh2": "ground black pepper"
     },
     "status": 0,
-    "labels": [
-        []
-    ],
     "steps": [
         "Combine soy sauce, peanut butter, honey, Chinese hot sauce, white vinegar, sesame oil, garlic powder, and ground black pepper; whisk well until smooth."
+    ],
+    "labels": [
+        [],
+        []
     ]
 }

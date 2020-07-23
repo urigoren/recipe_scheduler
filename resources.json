@@ -1,12 +1,11 @@
 [
     {
-        "name": "Dishes", "id": "D", "expanded": true, "children": [
-            {"name": "Plate", "id": "D1"},
-            {"name": "Bowl", "id": "D2"},
-            {"name": "Skillet", "id": "D3"},
-            {"name": "Pot", "id": "D4"},
-            {"name": "Grate", "id": "D5"},
-            {"name": "Wok", "id": "D6"}
+        "name": "Workspace", "id": "W", "expanded": true, "children": [
+            {"name": "Combine", "id": "W1"},
+            {"name": "Roll", "id": "W2"},
+            {"name": "Fold", "id": "W3"},
+            {"name": "Massage", "id": "W4"},
+            {"name": "Knead", "id": "W5"}
         ]
     },
     {
@@ -43,14 +42,6 @@
         "name": "Sink", "id": "S", "expanded": false, "children": [
             {"name": "Wash", "id": "S1"},
             {"name": "Drain", "id": "S2"}
-        ]
-    },
-    {
-        "name": "Hands", "id": "H", "expanded": false, "children": [
-            {"name": "Roll", "id": "H1"},
-            {"name": "Fold", "id": "H2"},
-            {"name": "Massage", "id": "H3"},
-            {"name": "Knead", "id": "H4"}
         ]
     },
     {

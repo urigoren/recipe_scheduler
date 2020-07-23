@@ -24,25 +24,30 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/212616.jpg",
     "url": "http://allrecipes.com/Recipe/8782/",
     "normalized_ingredients": {
-        "162": "chicken wings",
-        "583": "salt",
-        "644": "soy sauce",
-        "169": "chili powder",
-        "289": "drop red food coloring",
-        "273": "distilled white vinegar",
-        "351": "garlic",
-        "320": "finely chopped green chile peppers",
-        "216": "cornstarch"
+        "Ieg3R-oQ_": "chicken wings",
+        "IzrIHcuDJ": "salt",
+        "ILAT-xDbX": "soy sauce",
+        "Ix4-27vCe": "chili powder",
+        "Il2OF9X9U": "drop red food coloring",
+        "IDn93ZNqi": "distilled white vinegar",
+        "IzPYYTv5e": "garlic",
+        "Iy1PdwCGN": "finely chopped green chile peppers",
+        "Ik1g9zGpa": "cornstarch"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        []
-    ],
     "steps": [
         "TO MAKE MARINADE: Combine the soy sauce, red chili powder, red food coloring, vinegar, garlic and green chiles. Mix well.",
         "On each chicken wing, push the meat down to one end. Marinate the wings for AT LEAST 1/2 hour.",
         "Remove the wings from the marinade and add the cornstarch to the marinade to make a batter. Dip the wings in the batter and deep fry. Ready to serve!"
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

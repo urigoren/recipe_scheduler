@@ -22,26 +22,29 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2351852.jpg",
     "url": "http://allrecipes.com/Recipe/237055/",
     "normalized_ingredients": {
-        "443": "lean ground beef",
-        "276": "dried cranberries",
-        "355": "garlic cloves",
-        "586": "salt and ground black pepper to taste",
-        "508": "peanut butter",
-        "491": "onion Kaiser rolls",
-        "660": "strawberry jam",
-        "231": "crumbled goat cheese"
+        "ICVfuQXfd": "lean ground beef",
+        "IWhsakAZ9": "dried cranberries",
+        "IjAY80WeL": "garlic cloves",
+        "IukXkN8DV": "salt and ground black pepper to taste",
+        "IEC1R0HRF": "peanut butter",
+        "IwaxjcMIU": "onion Kaiser rolls",
+        "IodkTNT89": "strawberry jam",
+        "IivuyDWcC": "crumbled goat cheese"
     },
     "status": 0,
-    "labels": [
-        [],
-        [],
-        [],
-        []
-    ],
     "steps": [
         "Preheat an outdoor grill for medium-high heat and lightly oil the grate.",
         "Combine ground beef, dried cranberries, garlic, salt, and pepper together in a bowl; form into 4 patties.",
         "Cook patties on the preheated grill until browned and cooked through, 5 to 7 minutes per side. An instant-read thermometer inserted into the center should read 160 degrees F (71 degrees C).",
         "Spread 1 tablespoon peanut butter onto the bottom layer of each roll; top with 1 burger. Spread 1 tablespoon strawberry jam on the top layer of each roll; sprinkle with 1 tablespoon goat cheese. Place strawberry jam-goat cheese-layered bun atop burger to make a sandwich."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }

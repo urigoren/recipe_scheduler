@@ -19,21 +19,24 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1129991.jpg",
     "url": "http://allrecipes.com/Recipe/237608/",
     "normalized_ingredients": {
-        "486": "olive oil",
-        "307": "eggs",
-        "381": "grilled chicken ",
-        "374": "green onion",
-        "351": "garlic",
-        "202": "cooked white rice",
-        "644": "soy sauce"
+        "IbpWInzAX": "olive oil",
+        "Iq5LZ-uXu": "eggs",
+        "IGI_F9c5x": "grilled chicken ",
+        "IIPGLrn7i": "green onion",
+        "IzPYYTv5e": "garlic",
+        "IJKGJH_3K": "cooked white rice",
+        "ILAT-xDbX": "soy sauce"
     },
     "status": 0,
-    "labels": [
-        [],
-        []
-    ],
     "steps": [
         "Heat a wok or non-stick skillet over medium-high heat; add olive oil. Cook and stir eggs in the hot oil until cooked through, 2 to 3 minutes. Add chicken, green onion, and garlic to scrambled eggs; cook and stir until heated through, about 2 minutes.",
         "Mix rice into egg mixture; cook and stir until rice is warmed, about 2 minutes. Add soy sauce; cook and stir until rice mixture is evenly coated, about 3 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }
