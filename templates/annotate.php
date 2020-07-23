@@ -89,16 +89,17 @@
                     text: "Add Previously seen", onClick: function (args) {
                         let previously_selected = prev_actions_for_resource(args.source.data.resource);
                         let selected_actions=dp.actions.filter(x => previously_selected.filter((y)=>x.id == y).length>0);
-                        args=args.source.data;
                         //TODO: remove code dup
                         selected_actions.map(function (selected_action) {
                                 let display=selected_action.display;
+                                if ((display[0]=='-')||(display[0]=='+'))
+                                    display=display.substr(1);
                                 dp.events.add(new DayPilot.Event({
-                                    start: args.start,
-                                    end: args.end,
+                                    start: args.source.data.start,
+                                    end: args.source.data.end,
                                     id: selected_action.id+':'+DayPilot.guid(),
                                     action: selected_action.id,
-                                    resource: args.resource,
+                                    resource: args.source.data.resource,
                                     text: display,
                                     barColor: selected_action.color
                                 }));
