@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/daypilot-uri.min.js?v=2020.2.4517"></script>
     <style>
         #instruction {
@@ -56,18 +58,37 @@
         </form>
 
     </div>
+    <div class="modal" tabindex="-1" role="dialog" id="event_dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+    </div>
     <script type="text/javascript">
 
         var dp = new DayPilot.Scheduler("dp");
 
 
         dp.startDate = "2020-01-01";
-        dp.days = 1;
-        dp.scale = "Hour";
+        dp.days = 28;
+        dp.scale = "Day";
         dp.timeHeaders = [
             //{groupBy: "Month", format: "MMMM yyyy"},
-            //{groupBy: "Day", format: "d"}
-            { groupBy: "Hour", format: "H" }
+            {groupBy: "Day", format: "d"}
+            //{ groupBy: "Hour", format: "H" }
         ];
 
         dp.contextMenu = new DayPilot.Menu({
@@ -155,6 +176,7 @@
         // event creating
         dp.onTimeRangeSelected = function (args) {
             var action_map = dp.actions.reduce((obj, ing) => { obj[ing.id] = ing.display; return obj; }, {});
+            //jQuery('#event_dialog').modal('show');
             DayPilot.Modal.prompt("Assign Ingredient:", action_map).then(function (modal) {
                 dp.clearSelection();
                 var selected_action_id = modal.result;
@@ -208,12 +230,19 @@
 
         dp.init();
 
-        dp.scrollTo("2020-02-01");
+        dp.scrollTo("2020-01-01");
         alert = console.log;
         let instruction_index=0;
         let instructions=<?=json_encode($data['instructions'])?>;
         let events=<?=json_encode($events)?>;
         let action_clipboard=[];
+        const time_cols = document.getElementsByClassName("scheduler_default_timeheadercol_inner");
+
+
+        for (let i=0; i<time_cols.length;i++) {
+            time_cols.item(i).innerText=(i*10);
+        }
+
 
         function prev_actions_for_resource(resource)
         {
