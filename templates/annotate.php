@@ -93,6 +93,98 @@
     </div>
     <script type="text/javascript">
 
+        function change_time_header()
+        {
+            const time_cols = document.getElementsByClassName("scheduler_default_timeheadercol_inner");
+
+            for (let i=0; i<time_cols.length;i++) {
+                time_cols.item(i).innerText=(i*10);
+            }
+        }
+
+        function event_dialog_save()
+        {
+            const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
+            const selected_actions=dp.actions.filter(x => selected_action_ids.filter((y)=>x.id == y).length>0);
+            selected_actions.map(function (selected_action) {
+                    dp.events.add(new DayPilot.Event({
+                        start: selected_time_range.start,
+                        end: selected_time_range.end,
+                        id: selected_action.id+':'+DayPilot.guid(),
+                        action: selected_action.id,
+                        resource: selected_time_range.resource,
+                        text: selected_action.display,
+                        barColor: selected_action.color
+                    }));
+                });
+            jQuery('#event_dialog').modal('hide');
+        }
+        function event_dialog_clipboard() {
+            jQuery(".event_item").prop("checked", false);
+            action_clipboard.forEach(id=>{document.getElementById(id).checked=1;})
+        }
+        function prev_actions_for_resource(resource)
+        {
+            let ret = [];
+            events[instruction_index]=dp.events.list;
+            for(var i=0;i<=instruction_index;i++)
+            {
+                events[i].filter((x)=>x["resource"]==resource).map((x)=>x["action"]).forEach(function (aid) {
+                    if (!ret.includes(aid))
+                        ret.push(aid);
+                });
+            }
+            return ret;
+        }
+        function next_instruction()
+        {
+            console.log("next_instruction");
+            events[instruction_index]=dp.events.list;
+            if (instruction_index+1==instructions.length){
+                if (!confirm("You are about to submit the annotations, are you sure ?"))
+                    return;
+                save();
+                return;
+            }
+            instruction_index+=1;
+            if (!(events[instruction_index].length))
+            {
+                events[instruction_index]=events[instruction_index-1].slice();
+            }
+            dp.events.list=events[instruction_index];
+            dp.update();
+            change_time_header();
+            show_instruction();
+        }
+        function prev_instruction()
+        {
+            console.log("prev_instruction");
+            events[instruction_index]=dp.events.list;
+            if (instruction_index==0)
+                return;
+            instruction_index-=1;
+            dp.events.list=events[instruction_index];
+            dp.update();
+            show_instruction();
+        }
+        function show_instruction()
+        {
+            let instruction=instructions[instruction_index];
+            document.getElementById('instruction').innerHTML="<h3>"+(instruction_index+1)+"/"+instructions.length+"</h3>"+instruction;
+            document.getElementById('events').value=JSON.stringify(events);
+            const el = document.getElementById('next_instruction');
+            if (instruction_index+1==instructions.length)
+                el.classList.add("last_instruction");
+            else
+                el.classList.remove("last_instruction");
+        }
+        function save()
+        {
+            show_instruction();
+            document.forms[0].submit();
+            
+        }
+
         var dp = new DayPilot.Scheduler("dp");
 
 
@@ -210,6 +302,7 @@
         };
 
         dp.init();
+        change_time_header();
 
         dp.scrollTo("2020-01-01");
         alert = console.log;
@@ -218,94 +311,7 @@
         let events=<?=json_encode($events)?>;
         let action_clipboard=[];
         let selected_time_range={};
-        const time_cols = document.getElementsByClassName("scheduler_default_timeheadercol_inner");
 
-
-        for (let i=0; i<time_cols.length;i++) {
-            time_cols.item(i).innerText=(i*10);
-        }
-
-        function event_dialog_save()
-        {
-            const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
-            const selected_actions=dp.actions.filter(x => selected_action_ids.filter((y)=>x.id == y).length>0);
-            selected_actions.map(function (selected_action) {
-                    dp.events.add(new DayPilot.Event({
-                        start: selected_time_range.start,
-                        end: selected_time_range.end,
-                        id: selected_action.id+':'+DayPilot.guid(),
-                        action: selected_action.id,
-                        resource: selected_time_range.resource,
-                        text: selected_action.display,
-                        barColor: selected_action.color
-                    }));
-                });
-            jQuery('#event_dialog').modal('hide');
-        }
-        function event_dialog_clipboard() {
-            jQuery(".event_item").prop("checked", false);
-            action_clipboard.forEach(id=>{document.getElementById(id).checked=1;})
-        }
-        function prev_actions_for_resource(resource)
-        {
-            let ret = [];
-            events[instruction_index]=dp.events.list;
-            for(var i=0;i<=instruction_index;i++)
-            {
-                events[i].filter((x)=>x["resource"]==resource).map((x)=>x["action"]).forEach(function (aid) {
-                    if (!ret.includes(aid))
-                        ret.push(aid);
-                });
-            }
-            return ret;
-        }
-        function next_instruction()
-        {
-            console.log("next_instruction");
-            events[instruction_index]=dp.events.list;
-            if (instruction_index+1==instructions.length){
-                if (!confirm("You are about to submit the annotations, are you sure ?"))
-                    return;
-                save();
-                return;
-            }
-            instruction_index+=1;
-            if (!(events[instruction_index].length))
-            {
-                events[instruction_index]=events[instruction_index-1].slice();
-            }
-            dp.events.list=events[instruction_index];
-            dp.update();
-            show_instruction();
-        }
-        function prev_instruction()
-        {
-            console.log("prev_instruction");
-            events[instruction_index]=dp.events.list;
-            if (instruction_index==0)
-                return;
-            instruction_index-=1;
-            dp.events.list=events[instruction_index];
-            dp.update();
-            show_instruction();
-        }
-        function show_instruction()
-        {
-            let instruction=instructions[instruction_index];
-            document.getElementById('instruction').innerHTML="<h3>"+(instruction_index+1)+"/"+instructions.length+"</h3>"+instruction;
-            document.getElementById('events').value=JSON.stringify(events);
-            const el = document.getElementById('next_instruction');
-            if (instruction_index+1==instructions.length)
-                el.classList.add("last_instruction");
-            else
-                el.classList.remove("last_instruction");
-        }
-        function save()
-        {
-            show_instruction();
-            document.forms[0].submit();
-            
-        }
 
     </script>
 
