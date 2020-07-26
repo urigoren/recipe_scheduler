@@ -120,7 +120,6 @@
             jQuery('#event_dialog').modal('hide');
         }
         function event_dialog_clipboard() {
-            jQuery(".event_item").prop("checked", false);
             action_clipboard.forEach(id=>{document.getElementById(id).checked=1;})
         }
         function prev_actions_for_resource(resource)
