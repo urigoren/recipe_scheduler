@@ -62,7 +62,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
         <div class="modal-header">
-            <h5 class="modal-title">Add Tools / Ingredients</h5>
+            <h5 class="modal-title"  id="modal-instruction"></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
             </button>
@@ -173,6 +173,7 @@
         function show_instruction()
         {
             let instruction=instructions[instruction_index];
+            document.getElementById('modal-instruction').innerHTML=instruction;
             document.getElementById('instruction').innerHTML="<h3>"+(instruction_index+1)+"/"+instructions.length+"</h3>"+instruction;
             document.getElementById('events').value=JSON.stringify(events);
             const el = document.getElementById('next_instruction');
@@ -305,7 +306,6 @@
         };
 
         dp.init();
-        change_time_header();
 
         dp.scrollTo("2020-01-01");
         alert = console.log;
@@ -314,7 +314,8 @@
         let events=<?=json_encode($events)?>;
         let action_clipboard=[];
         let selected_time_range={};
-
+        change_time_header();
+        show_instruction();
 
     </script>
 
