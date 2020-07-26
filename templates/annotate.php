@@ -86,6 +86,7 @@
         <div class="modal-footer">
             <button type="button" class="btn btn-primary" onclick="event_dialog_save()">Save changes</button>
             <button type="button" class="btn btn-secondary" onclick="event_dialog_clipboard()">From Clipboard</button>
+            <button type="button" class="btn btn-secondary" onclick="event_dialog_clear()">Clear</button>
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
         </div>
@@ -121,6 +122,9 @@
         }
         function event_dialog_clipboard() {
             action_clipboard.forEach(id=>{document.getElementById(id).checked=1;})
+        }
+        function event_dialog_clear() {
+            jQuery(".event_item").prop("checked", false);
         }
         function prev_actions_for_resource(resource)
         {
