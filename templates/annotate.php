@@ -62,16 +62,30 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
         <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
+            <h5 class="modal-title">Add Tools / Ingredients</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
             </button>
         </div>
         <div class="modal-body">
-            <p>Modal body text goes here.</p>
+            <div class="row">
+                <div class="col-sm-6"><h3>Ingredients</h3><?php
+
+                        foreach ($data["normalized_ingredients"] as $key => $value) {
+                            echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
+                        }
+
+                ?></div>
+                <div class="col-sm-6"><h3>Tools</h3><?php
+                        foreach ($tools as $key => $value) {
+                            echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
+                        }
+                ?></div>
+            </div>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-primary" onclick="event_dialog_save()">Save changes</button>
+            <button type="button" class="btn btn-secondary" onclick="event_dialog_clipboard()">From Clipboard</button>
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
         </div>
@@ -107,21 +121,17 @@
                 },
                 { text: "-" },
                 {
-                    text: "Add Previously seen", onClick: function (args) {
-                        let previously_selected = prev_actions_for_resource(args.source.data.resource);
-                        let selected_actions=dp.actions.filter(x => previously_selected.filter((y)=>x.id == y).length>0);
+                    text: "Paste", onClick: function (args) {
+                        const selected_actions=dp.actions.filter(x => action_clipboard.filter((y)=>x.id == y).length>0);
                         //TODO: remove code dup
                         selected_actions.map(function (selected_action) {
-                                let display=selected_action.display;
-                                if ((display[0]=='-')||(display[0]=='+'))
-                                    display=display.substr(1);
                                 dp.events.add(new DayPilot.Event({
                                     start: args.source.data.start,
                                     end: args.source.data.end,
                                     id: selected_action.id+':'+DayPilot.guid(),
                                     action: selected_action.id,
                                     resource: args.source.data.resource,
-                                    text: display,
+                                    text: selected_action.display,
                                     barColor: selected_action.color
                                 }));
                             });
@@ -175,40 +185,11 @@
 
         // event creating
         dp.onTimeRangeSelected = function (args) {
-            var action_map = dp.actions.reduce((obj, ing) => { obj[ing.id] = ing.display; return obj; }, {});
-            //jQuery('#event_dialog').modal('show');
-            DayPilot.Modal.prompt("Assign Ingredient:", action_map).then(function (modal) {
-                dp.clearSelection();
-                var selected_action_id = modal.result;
-                if (selected_action_id===undefined) return;
-                let selected_actions = dp.actions.filter(x => x.id[0]!='A');
-                if (selected_action_id=='AALL')//all
-                    selected_actions = dp.actions.filter(x => x.id[0]=='I');
-                if (selected_action_id=='APASTE')//paste
-                    selected_actions=selected_actions.filter(x => action_clipboard.filter((y)=>x.id == y).length>0);
-                if (selected_action_id=='AALREADY')//already there
-                {
-                    let previously_selected = prev_actions_for_resource(args.resource);
-                    selected_actions=selected_actions.filter(x => previously_selected.filter((y)=>x.id == y).length>0);
-                    //dp.message("You can add previously seen items by right clicking");
-                }
-                if ((selected_action_id[0]=='I') || selected_action_id[0]=='T')//Ingredient or tool
-                    selected_actions=selected_actions.filter(x => x.id == selected_action_id);
-                selected_actions.map(function (selected_action) {
-                    let display=selected_action.display;
-                    if ((display[0]=='-')||(display[0]=='+'))
-                        display=display.substr(1);
-                    dp.events.add(new DayPilot.Event({
-                        start: args.start,
-                        end: args.end,
-                        id: selected_action.id+':'+DayPilot.guid(),
-                        action: selected_action.id,
-                        resource: args.resource,
-                        text: display,
-                        barColor: selected_action.color
-                    }));
-                });
-            });
+            selected_time_range=args;
+            jQuery(".event_item").prop("checked", false);
+            const previously_selected = prev_actions_for_resource(args.resource);
+            previously_selected.forEach(id=>{document.getElementById(id).checked=1;})
+            jQuery('#event_dialog').modal('show');
         };
 
         dp.onEventMove = function (args) {
@@ -236,6 +217,7 @@
         let instructions=<?=json_encode($data['instructions'])?>;
         let events=<?=json_encode($events)?>;
         let action_clipboard=[];
+        let selected_time_range={};
         const time_cols = document.getElementsByClassName("scheduler_default_timeheadercol_inner");
 
 
@@ -243,7 +225,27 @@
             time_cols.item(i).innerText=(i*10);
         }
 
-
+        function event_dialog_save()
+        {
+            const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
+            const selected_actions=dp.actions.filter(x => selected_action_ids.filter((y)=>x.id == y).length>0);
+            selected_actions.map(function (selected_action) {
+                    dp.events.add(new DayPilot.Event({
+                        start: selected_time_range.start,
+                        end: selected_time_range.end,
+                        id: selected_action.id+':'+DayPilot.guid(),
+                        action: selected_action.id,
+                        resource: selected_time_range.resource,
+                        text: selected_action.display,
+                        barColor: selected_action.color
+                    }));
+                });
+            jQuery('#event_dialog').modal('hide');
+        }
+        function event_dialog_clipboard() {
+            jQuery(".event_item").prop("checked", false);
+            action_clipboard.forEach(id=>{document.getElementById(id).checked=1;})
+        }
         function prev_actions_for_resource(resource)
         {
             let ret = [];
