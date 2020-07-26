@@ -16,12 +16,11 @@
     },
     {
         "name": "Stove", "id": "GL", "expanded": false, "children": [
-            {"name": "Low (with lid)", "id": "GL1"},
-            {"name": "Low (without lid)", "id": "GW1"},
-            {"name": "Medium (with lid)", "id": "GL2"},
-            {"name": "Medium (without lid)", "id": "GW2"},
-            {"name": "High (with lid)", "id": "GL3"},
-            {"name": "High (without lid)", "id": "GW3"}
+            {"name": "Low", "id": "GW1"},
+            {"name": "Medium-Low", "id": "GW2"},
+            {"name": "Medium", "id": "GW3"},
+            {"name": "Medium-High", "id": "GW4"},
+            {"name": "High", "id": "GW5"}
         ]
     },
     {
