@@ -17,8 +17,8 @@ function status_color(status) {
     if (status==1)
         return "green";
         if (status==-5)
-        return "blue";
-    return "red";
+        return "red";
+    return "blue";
 }
 var table = new Tabulator("#annotations", {
 	data:tabledata,           //load row data from array
