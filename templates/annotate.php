@@ -32,7 +32,7 @@
             <div class="col-sm-3">
                 <a href="<?=$data['url']?>"><img src="<?=$data['photo_url']?>" width=200></a>
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-6">
             <ul>
                     <?php
                     foreach ($data['ingredients'] as $key => $value) {
@@ -40,6 +40,21 @@
                     }
                     ?>
             </ul>
+            </div>
+            <h5>Status</h5>
+            <div class="col-sm-3">
+                <form method="POST" action="save.php">
+                <input type="hidden" name="id" value="<?=$id?>">
+                <select name="status">
+                <option value="1">All OK</option>
+                <option value="0">All OK, not finished</option>
+                <option value="-1">Missing Tool</option>
+                <option value="-2">Missing Resource</option>
+                <option value="-3">Missing Ingredient</option>
+                <option value="-5">Other issue</option>
+                </select>
+                <input type="hidden" name="events" id="events" value="[]">
+                </form>
             </div>
         </div>
         <div class="row">
@@ -51,11 +66,6 @@
         </div>
         <div class="row"><div class="col-sm-12"></div></div>
         <div id="dp"></div>
-        <form method="POST" action="save.php">
-            <input type="hidden" name="id" value="<?=$id?>">
-            <input type="hidden" name="status" value="1">
-            <input type="hidden" name="events" id="events" value="[]">
-        </form>
 
     </div>
     <div class="modal" tabindex="-1" role="dialog" id="event_dialog">
@@ -76,8 +86,13 @@
                         }
 
                 ?></div>
-                <div class="col-sm-6"><h3>Tools</h3><?php
+                <div class="col-sm-3"><h3>Tools</h3><?php
                         foreach ($tools as $key => $value) {
+                            echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
+                        }
+                ?></div>
+                <div class="col-sm-3"><h3>Implicit</h3><?php
+                        foreach ($implicits as $key => $value) {
                             echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
                         }
                 ?></div>

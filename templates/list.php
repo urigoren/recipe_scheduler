@@ -12,11 +12,13 @@
     <script>
 const tabledata=<?php echo json_encode($table);?>;
 function status_color(status) {
-    if (status==-1)
-        return "red";
+    if (status==0)
+        return "orange";
     if (status==1)
         return "green";
-    return "orange";
+        if (status==-5)
+        return "blue";
+    return "red";
 }
 var table = new Tabulator("#annotations", {
 	data:tabledata,           //load row data from array
