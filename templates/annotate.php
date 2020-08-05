@@ -122,7 +122,7 @@
         {
             const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
             const selected_actions=dp.actions.filter(x => selected_action_ids.filter((y)=>x.id == y).length>0);
-            //truncate(selected_time_range.resource, selected_time_range.start);
+            truncate(selected_time_range.resource, selected_time_range.start);
             selected_actions.forEach(function (selected_action) {
                     dp.events.add(new DayPilot.Event({
                         start: selected_time_range.start,
@@ -318,7 +318,6 @@
             const previously_selected = dp.events.list.filter((x)=>(x["resource"]==resource) && (x["start"]==start)).map((x)=>x["action"]);
             previously_selected.forEach(id=>{document.getElementById(id).checked=1;})
             jQuery('#event_dialog').modal('show');
-            truncate(resource, start);
         };
 
 
