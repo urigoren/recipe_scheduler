@@ -122,7 +122,8 @@
         {
             const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
             const selected_actions=dp.actions.filter(x => selected_action_ids.filter((y)=>x.id == y).length>0);
-            selected_actions.map(function (selected_action) {
+            //truncate(selected_time_range.resource, selected_time_range.start);
+            selected_actions.forEach(function (selected_action) {
                     dp.events.add(new DayPilot.Event({
                         start: selected_time_range.start,
                         end: selected_time_range.end,
@@ -134,12 +135,17 @@
                     }));
                 });
             jQuery('#event_dialog').modal('hide');
+            setTimeout(dp.multiselect.clear, 100);
         }
         function event_dialog_clipboard() {
             action_clipboard.forEach(id=>{document.getElementById(id).checked=1;})
         }
         function event_dialog_clear() {
             jQuery(".event_item").prop("checked", false);
+        }
+        function truncate(resource, start)
+        {
+            dp.events.list.filter((x)=>(x["resource"]==resource) && (x["start"]==start)).forEach((e)=>dp.events.removeById(e.id));
         }
         function prev_actions_for_resource(resource)
         {
@@ -302,6 +308,19 @@
             previously_selected.forEach(id=>{document.getElementById(id).checked=1;})
             jQuery('#event_dialog').modal('show');
         };
+
+        dp.onEventClicked = function (args) {
+            selected_time_range=args.e.data;
+            jQuery(".event_item").prop("checked", false);
+            const resource=args.e.data.resource;
+            const start=args.e.data.start;
+            const end=args.e.data.end;
+            const previously_selected = dp.events.list.filter((x)=>(x["resource"]==resource) && (x["start"]==start)).map((x)=>x["action"]);
+            previously_selected.forEach(id=>{document.getElementById(id).checked=1;})
+            jQuery('#event_dialog').modal('show');
+            truncate(resource, start);
+        };
+
 
         dp.onEventMove = function (args) {
             if (args.ctrl) {
