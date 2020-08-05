@@ -135,7 +135,7 @@
                     }));
                 });
             jQuery('#event_dialog').modal('hide');
-            setTimeout(dp.multiselect.clear, 100);
+            setTimeout(dp.multirange.clear, 100);
         }
         function event_dialog_clipboard() {
             action_clipboard.forEach(id=>{document.getElementById(id).checked=1;})
