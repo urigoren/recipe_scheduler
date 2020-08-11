@@ -130,7 +130,7 @@
                     text: selected_action.display,
                     barColor: selected_action.color
                 });
-                if (dp.events.list.filter(x=>x.action==e.data.action).length==0)
+                if (dp.events.list.filter(x=>(x.action==e.data.action) && (x.resource==e.data.resource) && (x.start==e.data.start)).length==0)
                 {
                     dp.events.add(e);
                     future_events.push(e);
