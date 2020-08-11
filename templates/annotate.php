@@ -130,8 +130,11 @@
                     text: selected_action.display,
                     barColor: selected_action.color
                 });
-                dp.events.add(e);
-                future_events.push(e);
+                if (dp.events.list.filter(x=>x.action==e.data.action).length==0)
+                {
+                    dp.events.add(e);
+                    future_events.push(e);
+                }
             });
             for(i=instruction_index+1;i<events.length;i++)
             {
@@ -141,11 +144,25 @@
             }
 
         }
+        function truncate(resource, start)
+        {
+            let future_events=[];
+            let i=0;
+            dp.events.list.filter((x)=>(x["resource"]==resource) && (x["start"]==start)).forEach((e)=>{
+                dp.events.removeById(e.id);
+                future_events.push(e);
+            });
+            for(i=instruction_index+1;i<events.length;i++)
+            {
+                if (!events[i].length)
+                    break;
+                future_events.forEach(e=>{events[i]=events[i].filter(c=>c.id!=e.id);});
+            }
+        }
         function event_dialog_save()
         {
             const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
             truncate(selected_time_range.resource, selected_time_range.start);
-            window.w=selected_time_range;
             add_events_by_action_id(selected_action_ids, {
                 "start": selected_time_range.start,
                 "end:": selected_time_range.end,
@@ -170,10 +187,6 @@
         }
         function event_dialog_clear() {
             jQuery(".event_item").prop("checked", false);
-        }
-        function truncate(resource, start)
-        {
-            dp.events.list.filter((x)=>(x["resource"]==resource) && (x["start"]==start)).forEach((e)=>dp.events.removeById(e.id));
         }
         function prev_actions_for_resource(resource)
         {
@@ -259,8 +272,15 @@
                         }
                         else
                         {
-                            dp.multiselect.events().forEach(dp.events.remove);
+                            truncate(args.source.data.resource, args.source.data.start);
                         }
+                    }
+                },
+                {
+                    text: "Cut", onClick: function (args) {
+                        action_clipboard = dp.multiselect.events().map((x)=>x["data"]["action"]);
+                        dp.multiselect.clear();
+                        truncate(args.source.data.resource, args.source.data.start);
                     }
                 },
                 { text: "-" },
@@ -278,7 +298,6 @@
                 { text: "-" },
                 {
                     text: "Select All", onClick: function (args) {
-                        window.w=args;
                         const item=args['source']['data'];
                         dp.events.all().filter((x)=>(x["data"]["resource"]==item.resource)&&(x["data"]["start"]==item.start)).forEach(function (e) {
                             dp.multiselect.add(e);
@@ -315,7 +334,6 @@
         dp.onEventMouseOver = function (args) {
             const hoverEvent = args.e.data;
             dp.multiselect.clear();
-            window.hoverEvent=hoverEvent;
             dp.events.all().filter((x)=>(x["data"]["resource"]==hoverEvent.resource)&&(x["data"]["start"]==hoverEvent.start)).forEach(function (e) {
                             dp.multiselect.add(e);
                         });
