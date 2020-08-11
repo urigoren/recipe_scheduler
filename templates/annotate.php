@@ -108,16 +108,6 @@
     </div>
     </div>
     <script type="text/javascript">
-
-        function change_time_header()
-        {
-            const time_cols = document.getElementsByClassName("scheduler_default_timeheadercol_inner");
-
-            for (let i=0; i<time_cols.length;i++) {
-                time_cols.item(i).innerText=(i*10);
-            }
-        }
-
         function event_dialog_save()
         {
             const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
@@ -177,7 +167,6 @@
             }
             dp.events.list=events[instruction_index];
             dp.update();
-            change_time_header();
             show_instruction();
         }
         function prev_instruction()
@@ -256,6 +245,7 @@
                         dp.events.remove(args.source);
                     }
                 },
+                /*
                 { text: "-" },
                 {
                     text: "Select All", onClick: function (args) {
@@ -266,6 +256,7 @@
                         });
                     }
                 },
+                */
                 {
                     text: "Copy", onClick: function (args) {
                         action_clipboard = dp.multiselect.events().map((x)=>x["data"]["action"]);
@@ -282,6 +273,8 @@
 
         dp.heightSpec = "Max";
         dp.height = 500;
+        dp.allowMultiMove=true;
+        dp.allowMultiResize=true;
 
         dp.events.list = <?=$event0?>;
 
@@ -290,10 +283,25 @@
         dp.eventResizingStartEndEnabled = false;
         dp.timeRangeSelectingStartEndEnabled = false;
 
+        dp.onEventMouseOver = function (args) {
+            const hoverEvent = args.e.data;
+            dp.multiselect.clear();
+            window.hoverEvent=hoverEvent;
+            dp.events.all().filter((x)=>(x["data"]["resource"]==hoverEvent.resource)&&(x["data"]["start"]==hoverEvent.start)).forEach(function (e) {
+                            dp.multiselect.add(e);
+                        });
+        }
+        /*
         // event moving
-        dp.onEventMoved = function (args) {
-            dp.message("Moved: " + args.e.text());
+        dp.onEventMoving = function (args) {
+            //dp.message("Moved: " + args.e.text());
+            const previously_selected = dp.events.list.filter((x)=>(x["resource"]==args.resource) && (x["start"]==args.start));
+            dp.multiselect.clear();
+            previously_selected.map(dp.multiselect.add);
+            window.w=previously_selected;
+
         };
+        */
 
         // event resizing
         dp.onEventResized = function (args) {
@@ -347,7 +355,6 @@
         let events=<?=json_encode($events)?>;
         let action_clipboard=[];
         let selected_time_range={};
-        change_time_header();
         show_instruction();
 
     </script>
