@@ -99,6 +99,13 @@
             </div>
         </div>
         <div class="modal-footer">
+            <select id="instruction_length">
+            <option selected value="">Ends Immediately</option>
+            <?php
+            foreach ($time_lengths as $key => $value) {
+                echo "<option value=\"$key\">$value</option>";
+            }
+            ?></select>
             <button type="button" class="btn btn-primary" onclick="event_dialog_save()">Save changes</button>
             <button type="button" class="btn btn-secondary" onclick="event_dialog_clipboard()">From Clipboard</button>
             <button type="button" class="btn btn-secondary" onclick="event_dialog_clear()">Clear</button>
@@ -108,27 +115,58 @@
     </div>
     </div>
     <script type="text/javascript">
+        function add_events_by_action_id(ids, event_data)
+        {
+            const selected_actions=dp.actions.filter(x => ids.filter((y)=>x.id == y).length>0);
+            let future_events = [];
+            let i=0;
+            selected_actions.forEach(function (selected_action) {
+                const e=new DayPilot.Event({
+                    start: event_data.start,
+                    end: (!!(event_data.end) ? event_data.end : event_data.start.addDays(1)),
+                    id: selected_action.id+':'+DayPilot.guid(),
+                    action: selected_action.id,
+                    resource: event_data.resource,
+                    text: selected_action.display,
+                    barColor: selected_action.color
+                });
+                dp.events.add(e);
+                future_events.push(e);
+            });
+            for(i=instruction_index+1;i<events.length;i++)
+            {
+                if (!events[i].length)
+                    break;
+                future_events.forEach(e=>{events[i].push(e.data);});
+            }
+
+        }
         function event_dialog_save()
         {
             const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
-            const selected_actions=dp.actions.filter(x => selected_action_ids.filter((y)=>x.id == y).length>0);
             truncate(selected_time_range.resource, selected_time_range.start);
-            selected_actions.forEach(function (selected_action) {
-                    dp.events.add(new DayPilot.Event({
-                        start: selected_time_range.start,
-                        end: selected_time_range.end,
-                        id: selected_action.id+':'+DayPilot.guid(),
-                        action: selected_action.id,
-                        resource: selected_time_range.resource,
-                        text: selected_action.display,
-                        barColor: selected_action.color
-                    }));
-                });
+            window.w=selected_time_range;
+            add_events_by_action_id(selected_action_ids, {
+                "start": selected_time_range.start,
+                "end:": selected_time_range.end,
+                "resource": selected_time_range.resource,
+            });
+            //instruction length special event:
+            const instruction_length_id = document.getElementById("instruction_length").value;
+            add_events_by_action_id([instruction_length_id], {
+                "start": selected_time_range.start,
+                "end:": selected_time_range.end,
+                "resource": selected_time_range.resource,
+            });
             jQuery('#event_dialog').modal('hide');
             setTimeout(dp.multirange.clear, 100);
         }
         function event_dialog_clipboard() {
-            action_clipboard.forEach(id=>{document.getElementById(id).checked=1;})
+            action_clipboard.forEach(id=>{
+                const c=document.getElementById(id);
+                if ((!!c) && (c.type==="checkbox"))
+                    c.checked=1;
+            })
         }
         function event_dialog_clear() {
             jQuery(".event_item").prop("checked", false);
@@ -229,20 +267,11 @@
                 {
                     text: "Paste", onClick: function (args) {
                         const selected_actions=dp.actions.filter(x => action_clipboard.filter((y)=>x.id == y).length>0);
-                        //TODO: remove code dup
-                        selected_actions.map(function (selected_action) {
-                                dp.events.add(new DayPilot.Event({
-                                    start: args.source.data.start,
-                                    end: args.source.data.end,
-                                    id: selected_action.id+':'+DayPilot.guid(),
-                                    action: selected_action.id,
-                                    resource: args.source.data.resource,
-                                    text: selected_action.display,
-                                    barColor: selected_action.color
-                                }));
-                            });
-
-                        dp.events.remove(args.source);
+                        add_events_by_action_id(action_clipboard, {
+                            "start": args.source.data.start,
+                            "end": args.source.data.end,
+                            "resource": args.source.data.resource,
+                        });
                     }
                 },
                 /*
@@ -291,17 +320,6 @@
                             dp.multiselect.add(e);
                         });
         }
-        /*
-        // event moving
-        dp.onEventMoving = function (args) {
-            //dp.message("Moved: " + args.e.text());
-            const previously_selected = dp.events.list.filter((x)=>(x["resource"]==args.resource) && (x["start"]==args.start));
-            dp.multiselect.clear();
-            previously_selected.map(dp.multiselect.add);
-            window.w=previously_selected;
-
-        };
-        */
 
         // event resizing
         dp.onEventResized = function (args) {
@@ -313,7 +331,11 @@
             selected_time_range=args;
             jQuery(".event_item").prop("checked", false);
             const previously_selected = prev_actions_for_resource(args.resource);
-            previously_selected.forEach(id=>{document.getElementById(id).checked=1;})
+            previously_selected.forEach(id=>{
+                const c=document.getElementById(id);
+                if ((!!c) && (c.type==="checkbox"))
+                    c.checked=1;
+            })
             jQuery('#event_dialog').modal('show');
         };
 
@@ -324,27 +346,31 @@
             const start=args.e.data.start;
             const end=args.e.data.end;
             const previously_selected = dp.events.list.filter((x)=>(x["resource"]==resource) && (x["start"]==start)).map((x)=>x["action"]);
-            previously_selected.forEach(id=>{document.getElementById(id).checked=1;})
+            previously_selected.forEach(id=>{
+                const c=document.getElementById(id);
+                if ((!!c) && (c.type==="checkbox"))
+                    c.checked=1;
+            })
             jQuery('#event_dialog').modal('show');
         };
 
 
-        dp.onEventMove = function (args) {
-            if (args.ctrl) {
-                var newEvent = new DayPilot.Event({
-                    start: args.newStart,
-                    end: args.newEnd,
-                    text: "Copy of " + args.e.text(),
-                    resource: args.newResource,
-                    id: DayPilot.guid()  // generate random id
-                });
-                dp.events.add(newEvent);
+        // dp.onEventMove = function (args) {
+        //     if (args.ctrl) {
+        //         var newEvent = new DayPilot.Event({
+        //             start: args.newStart,
+        //             end: args.newEnd,
+        //             text: "Copy of " + args.e.text(),
+        //             resource: args.newResource,
+        //             id: DayPilot.guid()  // generate random id
+        //         });
+        //         dp.events.add(newEvent);
 
-                // notify the server about the action here
+        //         // notify the server about the action here
 
-                args.preventDefault(); // prevent the default action - moving event to the new location
-            }
-        };
+        //         args.preventDefault(); // prevent the default action - moving event to the new location
+        //     }
+        // };
 
         dp.init();
 

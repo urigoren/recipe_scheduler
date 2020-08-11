@@ -10,6 +10,7 @@ if (array_key_exists("id", $_GET) && annotation_exists($_GET['id']))
     $resources = json_decode(file_get_contents("data/resources.json"));
     $tools = json_decode(file_get_contents("data/tools.json"));
     $implicits = json_decode(file_get_contents("data/implicit_ingredients.json"));
+    $time_lengths = json_decode(file_get_contents("data/time_lengths.json"));
     $actions=array();
     foreach ($tools as $key => $value) {
         $actions[]=array("display"=>$value, "id"=>$key, "color"=>"#ff0000");
@@ -19,6 +20,9 @@ if (array_key_exists("id", $_GET) && annotation_exists($_GET['id']))
     }
     foreach ($data["normalized_ingredients"] as $key => $value) {
         $actions[]=array("display"=>$value, "id"=>$key, "color"=>"#00ff00");
+    }
+    foreach ($time_lengths as $key => $value) {
+        $actions[]=array("display"=>$value, "id"=>$key, "color"=>"#000000");
     }
 
     $events=$data["labels"];
