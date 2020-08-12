@@ -121,6 +121,11 @@
             let future_events = [];
             let i=0;
             selected_actions.forEach(function (selected_action) {
+                console.log(event_data)
+                if (typeof(event_data.start)==="string")
+                    event_data.start=DayPilot.Date(event_data.start)
+                if (typeof(event_data.end)==="string")
+                    event_data.end=DayPilot.Date(event_data.end)
                 const e=new DayPilot.Event({
                     start: event_data.start,
                     end: (!!(event_data.end) ? event_data.end : event_data.start.addDays(1)),
