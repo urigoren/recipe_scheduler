@@ -51,6 +51,7 @@
                 <option value="-1">Missing Tool</option>
                 <option value="-2">Missing Resource</option>
                 <option value="-3">Missing Ingredient</option>
+                <option value="-4">Missing Time Boundry</option>
                 <option value="-5">Other issue</option>
                 </select>
                 <input type="hidden" name="events" id="events" value="[]">
@@ -222,6 +223,7 @@
                 events[instruction_index]=events[instruction_index-1].slice();
             }
             dp.events.list=events[instruction_index];
+            expand_resources();
             dp.update();
             show_instruction();
         }
@@ -233,6 +235,7 @@
                 return;
             instruction_index-=1;
             dp.events.list=events[instruction_index];
+            expand_resources();
             dp.update();
             show_instruction();
         }
@@ -247,6 +250,19 @@
                 el.classList.add("last_instruction");
             else
                 el.classList.remove("last_instruction");
+
+        }
+        function expand_resources()
+        {
+            let i=0;
+            let children=[];
+            let active_resources=[];
+            for (i=0;i<dp.resources.length;i++)
+            {
+                children=dp.resources[i].children.map(x=>x.id);
+                active_resources=dp.events.list.map(e=>e.resource);
+                dp.resources[i].expanded= dp.resources[i].expanded || children.map(c=>active_resources.indexOf(c)).filter(i=>i>-1).length>0;
+            }
         }
         function save()
         {
@@ -394,7 +410,7 @@
         //         args.preventDefault(); // prevent the default action - moving event to the new location
         //     }
         // };
-
+        expand_resources();
         dp.init();
 
         dp.scrollTo("2020-01-01");
