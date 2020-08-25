@@ -1,3 +1,6 @@
 *.jsonl
 *.zip
+*.npy
+*.npz
 notebooks/.ipynb_checkpoints/
+preprocessed/
