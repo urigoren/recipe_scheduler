@@ -479,23 +479,10 @@
             jQuery('#event_dialog').modal('show');
         };
 
+        dp.onEventMoving = function(args) {
+            args.allowed = dp.eventMovingStartEndEnabled;
+        }
 
-        // dp.onEventMove = function (args) {
-        //     if (args.ctrl) {
-        //         var newEvent = new DayPilot.Event({
-        //             start: args.newStart,
-        //             end: args.newEnd,
-        //             text: "Copy of " + args.e.text(),
-        //             resource: args.newResource,
-        //             id: DayPilot.guid()  // generate random id
-        //         });
-        //         dp.events.add(newEvent);
-
-        //         // notify the server about the action here
-
-        //         args.preventDefault(); // prevent the default action - moving event to the new location
-        //     }
-        // };
         expand_resources();
         dp.init();
 
