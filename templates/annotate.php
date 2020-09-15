@@ -69,57 +69,81 @@
         <div id="dp"></div>
 
     </div>
-    <div class="modal" tabindex="-1" role="dialog" id="event_dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title"  id="modal-instruction"></h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="modal-body">
-            <div class="row">
-                <div class="col-sm-6"><h3>Ingredients</h3><?php
-
-                        foreach ($data["normalized_ingredients"] as $key => $value) {
-                            echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
-                        }
-
-                ?></div>
-                <div class="col-sm-3"><h3>Tools</h3><?php
-                        foreach ($tools as $key => $value) {
-                            echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
-                        }
-                ?></div>
-                <div class="col-sm-3"><h3>Implicit</h3><?php
-                        foreach ($implicits as $key => $value) {
-                            echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
-                        }
-                ?></div>
+    <div class="modal" tabindex="-1" role="dialog" id="msgbox_dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title"  id="msgbox_title"></h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row"><div class="col-sm-12" id="msgbox_body">
+                </div></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
             </div>
         </div>
-        <div class="modal-footer">
-            <select id="instruction_length">
-            <option selected value="">Ends Immediately</option>
-            <?php
-            foreach ($time_lengths as $key => $value) {
-                echo "<option value=\"$key\">$value</option>";
-            }
-            ?></select>
-            <button type="button" class="btn btn-primary" onclick="event_dialog_save()">Save changes</button>
-            <button type="button" class="btn btn-secondary" onclick="event_dialog_clipboard()">From Clipboard</button>
-            <button type="button" class="btn btn-secondary" onclick="event_dialog_clear()">Clear</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-        </div>
     </div>
+    <div class="modal" tabindex="-1" role="dialog" id="event_dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"  id="modal-instruction"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-6"><h3>Ingredients</h3><?php
+
+                            foreach ($data["normalized_ingredients"] as $key => $value) {
+                                echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
+                            }
+
+                    ?></div>
+                    <div class="col-sm-3"><h3>Tools</h3><?php
+                            foreach ($tools as $key => $value) {
+                                echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
+                            }
+                    ?></div>
+                    <div class="col-sm-3"><h3>Implicit</h3><?php
+                            foreach ($implicits as $key => $value) {
+                                echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
+                            }
+                    ?></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <select id="instruction_length">
+                <option selected value="">Ends Immediately</option>
+                <?php
+                foreach ($time_lengths as $key => $value) {
+                    echo "<option value=\"$key\">$value</option>";
+                }
+                ?></select>
+                <button type="button" class="btn btn-primary" onclick="event_dialog_save()">Save changes</button>
+                <button type="button" class="btn btn-secondary" onclick="event_dialog_clipboard()">From Clipboard</button>
+                <button type="button" class="btn btn-secondary" onclick="event_dialog_clear()">Clear</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
     </div>
     <script type="text/javascript">
+        function msgbox(title, txt)
+        {
+            jQuery('#msgbox_title').text(title);
+            jQuery('#msgbox_body').text(txt);
+            jQuery('#msgbox_dialog').modal('show');
+        }
         function add_events_by_action_id(ids, event_data)
         {
             const selected_actions=dp.actions.filter(x => ids.filter((y)=>x.id == y).length>0);
-            let future_events = [];
             let i=0;
             selected_actions.forEach(function (selected_action) {
                 console.log(event_data)
@@ -139,31 +163,33 @@
                 if (dp.events.list.filter(x=>(x.action==e.data.action) && (x.resource==e.data.resource) && (x.start==e.data.start)).length==0)
                 {
                     dp.events.add(e);
-                    future_events.push(e);
                 }
             });
-            for(i=instruction_index+1;i<events.length;i++)
-            {
-                if (!events[i].length)
-                    break;
-                future_events.forEach(e=>{events[i].push(e.data);});
-            }
+
+        }
+        function set_reference_time_range(latest_events)
+        {
+            dp.events.list.filter(on_start_date).map(e=>e.id).forEach(dp.events.removeById);
+            latest_events.forEach(function (event_data) {
+                const e=new DayPilot.Event({
+                    start: DayPilot.Date(dp.startDate),
+                    end: DayPilot.Date(dp.startDate).addDays(1),
+                    id: event_data.id,
+                    action: event_data.action,
+                    resource: event_data.resource,
+                    text: event_data.text,
+                    barColor: event_data.barColor
+                });
+                dp.events.add(e);
+            });
 
         }
         function truncate(resource, start)
         {
-            let future_events=[];
             let i=0;
             dp.events.list.filter((x)=>(x["resource"]==resource) && (x["start"]==start)).forEach((e)=>{
                 dp.events.removeById(e.id);
-                future_events.push(e);
             });
-            for(i=instruction_index+1;i<events.length;i++)
-            {
-                if (!events[i].length)
-                    break;
-                future_events.forEach(e=>{events[i]=events[i].filter(c=>c.id!=e.id);});
-            }
         }
         function event_dialog_save()
         {
@@ -207,6 +233,11 @@
             }
             return ret;
         }
+        function get_latest_state_events()
+        {
+            const max_dt = dp.events.list.map(x=>x.end.ticks).reduce((x,y)=>(x>y?x:y),0);
+            return dp.events.list.filter(x=>x.end.ticks==max_dt);
+        }
         function next_instruction()
         {
             console.log("next_instruction");
@@ -217,12 +248,10 @@
                 save();
                 return;
             }
+            const latest_state_events=get_latest_state_events();
             instruction_index+=1;
-            if (!(events[instruction_index].length))
-            {
-                events[instruction_index]=events[instruction_index-1].slice();
-            }
             dp.events.list=events[instruction_index];
+            set_reference_time_range(latest_state_events);
             expand_resources();
             dp.update();
             show_instruction();
@@ -250,6 +279,7 @@
                 el.classList.add("last_instruction");
             else
                 el.classList.remove("last_instruction");
+            jQuery('.scheduler_default_timeheadercol_inner:contains("1")').css('background-color', 'gray')
 
         }
         function expand_resources()
@@ -275,14 +305,16 @@
 
 
         dp.startDate = "2020-01-01";
-        dp.days = 28;
+        const on_start_date = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.start.value.startsWith(dp.startDate):obj.start.value.startsWith(dp.startDate));
+        dp.days = 5;
         dp.scale = "Day";
+        dp.cellWidth=150;
         dp.timeHeaders = [
             //{groupBy: "Month", format: "MMMM yyyy"},
             {groupBy: "Day", format: "d"}
             //{ groupBy: "Hour", format: "H" }
         ];
-
+        
         dp.contextMenu = new DayPilot.Menu({
             items: [
                 {
@@ -367,6 +399,11 @@
 
         // event creating
         dp.onTimeRangeSelected = function (args) {
+            if (on_start_date(args))
+            {
+                msgbox("Reference Time-range cannot be changed", "The first time range is read only and cannot be modified");
+                return;
+            }
             selected_time_range=args;
             jQuery(".event_item").prop("checked", false);
             const previously_selected = prev_actions_for_resource(args.resource);
@@ -379,6 +416,11 @@
         };
 
         dp.onEventClicked = function (args) {
+            if (on_start_date(args))
+            {
+                msgbox("Reference Time-range cannot be changed", "The first time range is read only and cannot be modified");
+                return;
+            }
             selected_time_range=args.e.data;
             jQuery(".event_item").prop("checked", false);
             const resource=args.e.data.resource;
