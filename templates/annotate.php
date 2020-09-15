@@ -141,6 +141,13 @@
             jQuery('#msgbox_body').text(txt);
             jQuery('#msgbox_dialog').modal('show');
         }
+        function populate_unused_resource(start)
+        {
+            truncate(unused_resource_id, start);
+            const used_ingredients = dp.events.list.filter(x=>x.start==start).map(x=>x.action);
+            const unused_ingredients = dp.actions.map(a=>a.id).filter(a=>a.startsWith('I')).filter(a=>(used_ingredients.filter(x=>x===a)).length===0);
+            add_events_by_action_id(unused_ingredients, {"start": start, "resource": unused_resource_id});
+        }
         function add_events_by_action_id(ids, event_data)
         {
             const selected_actions=dp.actions.filter(x => ids.filter((y)=>x.id == y).length>0);
@@ -165,15 +172,30 @@
                     dp.events.add(e);
                 }
             });
+            if (event_data.resource!=unused_resource_id)
+                populate_unused_resource(event_data.start);
 
         }
         function set_reference_time_range(latest_events)
         {
+            if  ((typeof latest_events === "undefined") || (latest_events.length==0))
+            {
+                // use all ingredients, set as unused
+                latest_events=dp.actions.filter(a=>a.id.startsWith('I')).map(a=>({
+                    "resource": unused_resource_id,
+                    "text": a.display,
+                    "barColor": a.color,
+                    "action": a.id,
+                    "id": a.id+':'+DayPilot.guid()
+                    }));
+            }
+            const start = DayPilot.Date(dp.startDate);
+            const end = start.addDays(1);
             dp.events.list.filter(on_start_date).map(e=>e.id).forEach(dp.events.removeById);
             latest_events.forEach(function (event_data) {
                 const e=new DayPilot.Event({
-                    start: DayPilot.Date(dp.startDate),
-                    end: DayPilot.Date(dp.startDate).addDays(1),
+                    start: start,
+                    end: end,
                     id: event_data.id,
                     action: event_data.action,
                     resource: event_data.resource,
@@ -182,10 +204,12 @@
                 });
                 dp.events.add(e);
             });
-
+            populate_unused_resource(start);
         }
         function truncate(resource, start)
         {
+            if  (typeof start === "undefined") 
+                start=DayPilot.Date(dp.startDate);
             let i=0;
             dp.events.list.filter((x)=>(x["resource"]==resource) && (x["start"]==start)).forEach((e)=>{
                 dp.events.removeById(e.id);
@@ -280,6 +304,7 @@
             else
                 el.classList.remove("last_instruction");
             jQuery('.scheduler_default_timeheadercol_inner:contains("1")').css('background-color', 'gray')
+            jQuery('.scheduler_default_rowheader_inner:contains("Unused")').css('background-color', 'gray')
 
         }
         function expand_resources()
@@ -305,7 +330,9 @@
 
 
         dp.startDate = "2020-01-01";
+        const unused_resource_id = "A1";
         const on_start_date = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.start.value.startsWith(dp.startDate):obj.start.value.startsWith(dp.startDate));
+        const on_unused = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource===unused_resource_id:obj.resource===unused_resource_id);
         dp.days = 5;
         dp.scale = "Day";
         dp.cellWidth=150;
@@ -404,6 +431,11 @@
                 msgbox("Reference Time-range cannot be changed", "The first time range is read only and cannot be modified");
                 return;
             }
+            if (on_unused(args))
+            {
+                msgbox("Unused ingredients", "Unused Ingredients are populated automatically, there's no need to specify them manually");
+                return;
+            }
             selected_time_range=args;
             jQuery(".event_item").prop("checked", false);
             const previously_selected = prev_actions_for_resource(args.resource);
@@ -419,6 +451,11 @@
             if (on_start_date(args))
             {
                 msgbox("Reference Time-range cannot be changed", "The first time range is read only and cannot be modified");
+                return;
+            }
+            if (on_unused(args))
+            {
+                msgbox("Unused ingredients", "Unused Ingredients are populated automatically, there's no need to specify them manually");
                 return;
             }
             selected_time_range=args.e.data;
@@ -463,6 +500,10 @@
         let action_clipboard=[];
         let selected_time_range={};
         show_instruction();
+        if (dp.events.list.length==0)
+        {
+            set_reference_time_range();
+        }
 
     </script>
 
