@@ -135,15 +135,37 @@
         </div>
     </div>
     <script type="text/javascript">
-        function msgbox(title, txt)
+        function msgbox(title, body)
         {
             jQuery('#msgbox_title').text(title);
-            jQuery('#msgbox_body').text(txt);
+            jQuery('#msgbox_body').html(body);
             jQuery('#msgbox_dialog').modal('show');
         }
         function verify_annotation()
         {
-            //TODO: Check that a "used" ingredient cannot become "unused" 
+            let dt = DayPilot.Date(dp.startDate);
+            let time_stamps = [];
+            let i=0;
+            while (dp.events.list.filter(x=>x.start==dt).length>0) {
+                time_stamps.splice(0,0,dt);
+                dt=dt.addDays(1);
+            }
+            let next_dt=time_stamps[0];
+            let unused=[], next_unused=[], reused_issues=[];
+            next_unused=dp.events.list.filter(x=>(x.resource===unused_resource_id)&&(x.start===next_dt)).map(x=>x.action);
+            for (i=1;i<time_stamps.length;i++) {
+                dt=time_stamps[i];
+                unused=dp.events.list.filter(x=>(x.resource===unused_resource_id)&&(x.start===dt)).map(x=>x.action);
+                reused_issues=next_unused.filter(x=>unused.indexOf(x)<0);
+                if (reused_issues.length>0)
+                {
+                    msgbox("Ingredients cannot be marked as unused", "The following ingredients were marked as unused, despite being used previously:<ul><li>" +
+                    reused_issues.map(x=>dp.actions.filter(y=>y.id==x)[0].display).join("<li>")+"</ul>");
+                    return false;
+                }
+                next_unused=unused;
+                next_dt=dt;
+            }
             return true;
         }
         function populate_unused_resource(start)
