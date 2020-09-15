@@ -141,6 +141,11 @@
             jQuery('#msgbox_body').text(txt);
             jQuery('#msgbox_dialog').modal('show');
         }
+        function verify_annotation()
+        {
+            //TODO: Check that a "used" ingredient cannot become "unused" 
+            return true;
+        }
         function populate_unused_resource(start)
         {
             truncate(unused_resource_id, start);
@@ -266,6 +271,8 @@
         {
             console.log("next_instruction");
             events[instruction_index]=dp.events.list;
+            if (!verify_annotation())
+                return;
             if (instruction_index+1==instructions.length){
                 if (!confirm("You are about to submit the annotations, are you sure ?"))
                     return;
