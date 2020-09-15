@@ -141,6 +141,11 @@
             jQuery('#msgbox_body').html(body);
             jQuery('#msgbox_dialog').modal('show');
         }
+        function date(dt) {
+            if (typeof(dt)==="string")
+                    return DayPilot.Date(dt);
+            return dt;
+        }
         function verify_annotation()
         {
             let dt = DayPilot.Date(dp.startDate);
@@ -180,11 +185,8 @@
             const selected_actions=dp.actions.filter(x => ids.filter((y)=>x.id == y).length>0);
             let i=0;
             selected_actions.forEach(function (selected_action) {
-                console.log(event_data)
-                if (typeof(event_data.start)==="string")
-                    event_data.start=DayPilot.Date(event_data.start)
-                if (typeof(event_data.end)==="string")
-                    event_data.end=DayPilot.Date(event_data.end)
+                event_data.start=date(event_data.start);
+                event_data.end=date(event_data.end);
                 const e=new DayPilot.Event({
                     start: event_data.start,
                     end: (!!(event_data.end) ? event_data.end : event_data.start.addDays(1)),
@@ -360,7 +362,7 @@
 
         dp.startDate = "2020-01-01";
         const unused_resource_id = "A1";
-        const on_start_date = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.start.value.startsWith(dp.startDate):obj.start.value.startsWith(dp.startDate));
+        const on_start_date = (obj)=>(obj.hasOwnProperty('e')?date(obj.e.data.start).value.startsWith(dp.startDate):date(obj.start).value.startsWith(dp.startDate));
         const on_unused = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource===unused_resource_id:obj.resource===unused_resource_id);
         dp.days = 5;
         dp.scale = "Day";

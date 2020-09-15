@@ -3,7 +3,8 @@
         "name": "Idle", "id": "A", "expanded": true, "children": [
             {"name": "Unused", "id": "A1"},
             {"name": "Set-Aside", "id": "A2"},
-            {"name": "Discarded", "id": "A0"}
+            {"name": "Discarded", "id": "A0"},
+            {"name": "Serve", "id": "A5"}
         ]
     },
     {
