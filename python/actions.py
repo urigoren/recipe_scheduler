@@ -4,9 +4,10 @@ from copy import deepcopy
 from pathlib import Path
 from pprint import pp
 
-annot_path = Path("../annotations")
-data_path = Path("../data")
-preprocessed_path = Path("../preprocessed")
+base_path = Path(__file__).absolute().parent.parent
+annot_path = base_path / "annotations"
+data_path = base_path / "data"
+preprocessed_path = base_path / "preprocessed"
 
 with (preprocessed_path / "ingredients.json").open("r") as f:
     ingredients = json.load(f)
@@ -47,13 +48,8 @@ def program_step(annotation):
                         actions.append(Instruction(ts, "chef_check", ing, resource))
                 elif ing.startswith("T"):
                     actions.append(Instruction(ts, "use", ing, resource))
-                else:
-                    if resource == "A1":
-                        pass
-                    elif resource == "A0":
-                        actions.append(Instruction(ts, "discard", ing, ""))
-                    else:
-                        actions.append(Instruction(ts, "put", ing, resource))
+                elif resource != "A1":
+                    actions.append(Instruction(ts, "put", ing, resource))
             for ing in removed_ings:
                 if not ing.startswith("L") and not resource.startswith("A"):
                     actions.append(Instruction(ts, "remove", ing, resource))
@@ -76,7 +72,6 @@ def program_step(annotation):
         "use",
         "put",
         "chef_check",
-        "discard",
     ]
     actions = sorted(actions, key=lambda t: (t.ts, action_order.index(t.command)))
     return actions
@@ -84,6 +79,7 @@ def program_step(annotation):
 
 def program(annotation, verbose=False):
     """Runs program_step for each item in list, and fix timestamps"""
+    # Union all steps, and align timestamps
     actions = []
     ts = 0
     for a in annotation:
@@ -94,6 +90,8 @@ def program(annotation, verbose=False):
             instruction.ts += ts
         actions.extend(p)
         ts = p[-1].ts
+    #
+    # Vebose
     if verbose:
         actions = [
             (

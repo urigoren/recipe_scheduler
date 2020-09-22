@@ -4,3 +4,4 @@
 *.npz
 notebooks/.ipynb_checkpoints/
 preprocessed/
+.vscode/settings.json
