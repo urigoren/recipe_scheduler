@@ -175,6 +175,8 @@
         }
         function populate_unused_resource(start)
         {
+            if (start==dp.startDate)
+                return;
             truncate(unused_resource_id, start);
             const used_ingredients = dp.events.list.filter(x=>x.start==start).map(x=>x.action);
             const unused_ingredients = dp.actions.map(a=>a.id).filter(a=>a.startsWith('I')).filter(a=>(used_ingredients.filter(x=>x===a)).length===0);
@@ -288,8 +290,8 @@
         }
         function get_latest_state_events()
         {
-            const max_dt = dp.events.list.map(x=>x.end.ticks).reduce((x,y)=>(x>y?x:y),0);
-            return dp.events.list.filter(x=>x.end.ticks==max_dt);
+            const max_dt = dp.events.list.map(x=>date(x.end).ticks).reduce((x,y)=>(x>y?x:y),0);
+            return dp.events.list.filter(x=>(date(x.end).ticks==max_dt) && (!x.action.startsWith('L')));
         }
         function next_instruction()
         {
