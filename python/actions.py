@@ -56,7 +56,7 @@ def program_step(annotation):
         state = deepcopy(new_state)
     for res in resource_dict:
         for ts in range(1, 1 + max_ts):
-            before = {a.ingredient for a in actions if a.ts < ts and a.command == "put" and a.resource == res and a.ingredient.startswith("I") }
+            before = {a.ingredient for a in actions if a.ts < ts and a.command == "put" and a.resource == res and a.ingredient.startswith("I")}
             after = {a.ingredient for a in actions if a.ts == ts and a.command == "remove" and a.resource == res and a.ingredient.startswith("I")}
             new_res = {a.resource for a in actions if a.ts == ts and a.command == "put" and a.resource != res and a.ingredient in {b for b in before}}
             if len(new_res) != 1:
@@ -106,7 +106,7 @@ def program(annotation, verbose=False):
 
 
 def main(args):
-    with (data_path/"annotaions.json").open('r') as f:
+    with (data_path / "annotaions.json").open('r') as f:
         annotations = json.load(f)
     pp(program(annotations[args.annotation_id], verbose=args.verbose))
     return 0
