@@ -1,7 +1,7 @@
 import sys, json
 
 sys.path.append("src")
-from flask import Flask, request, send_from_directory, render_template, redirect, make_response, jsonify
+from flask import Flask, request, send_from_directory, render_template, redirect, url_for, jsonify
 import pandas as pd
 from pathlib import Path
 from operator import itemgetter as at
@@ -53,6 +53,20 @@ def annotate(annotation_id):
                            tools=data.tools, implicits=data.implicit_ingredients,time_lengths=data.time_lengths,
                            resources=json.dumps(data.resources), actions=json.dumps(actions),
                            event0=json.dumps(annotation["labels"][0]), num_instructions=len(annotation['instructions']))
+
+
+@app.route('/save/<annotation_id>', methods=['GET', 'POST'])
+def save(annotation_id):
+    annotation = annotation_io.get_annotation(annotation_id)
+    annotation['labels'] = json.loads(request.form.get("events", "%"))
+    annotation['status'] = request.form.get("status", '0')
+    annotation_io.save_annotation(annotation_id, annotation)
+    return redirect(url_for('index'))
+
+
+@app.route('/program/<annotation_id>')
+def program(annotation_id):
+    pass
 
 
 @app.after_request
