@@ -1,18 +1,20 @@
 [
     {
-        "name": "Workspace", "id": "W", "expanded": true, "children": [
-            {"name": "Combine", "id": "W1"},
-            {"name": "Roll", "id": "W2"},
-            {"name": "Fold", "id": "W3"},
-            {"name": "Massage", "id": "W4"},
-            {"name": "Knead", "id": "W5"},
-            {"name": "Peel", "id": "W6"}
+        "name": "Idle", "id": "A", "expanded": true, "children": [
+            {"name": "Unused", "id": "A1"},
+            {"name": "Set-Aside", "id": "A2"},
+            {"name": "Discarded", "id": "A0"},
+            {"name": "Serve", "id": "A5"}
         ]
     },
     {
-        "name": "Knife", "id": "C", "expanded": false, "children": [
-            {"name": "Chop finely", "id": "C1"},
-            {"name": "Cut to chunks", "id": "C2"}
+        "name": "Countertop", "id": "W", "expanded": true, "children": [
+            {"name": "Combine/Mix", "id": "W1"},
+            {"name": "Roll/Fold", "id": "W2"},
+            {"name": "Massage/Rub/Knead", "id": "W3"},
+            {"name": "Peel/Squeeze", "id": "W4"},
+            {"name": "Coat/Sprinkle", "id": "W5"},
+            {"name": "Cut/chop", "id": "C1"}
         ]
     },
     {

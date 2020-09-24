@@ -69,64 +69,126 @@
         <div id="dp"></div>
 
     </div>
-    <div class="modal" tabindex="-1" role="dialog" id="event_dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title"  id="modal-instruction"></h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="modal-body">
-            <div class="row">
-                <div class="col-sm-6"><h3>Ingredients</h3><?php
-
-                        foreach ($data["normalized_ingredients"] as $key => $value) {
-                            echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
-                        }
-
-                ?></div>
-                <div class="col-sm-3"><h3>Tools</h3><?php
-                        foreach ($tools as $key => $value) {
-                            echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
-                        }
-                ?></div>
-                <div class="col-sm-3"><h3>Implicit</h3><?php
-                        foreach ($implicits as $key => $value) {
-                            echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
-                        }
-                ?></div>
+    <div class="modal" tabindex="-1" role="dialog" id="msgbox_dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title"  id="msgbox_title"></h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row"><div class="col-sm-12" id="msgbox_body">
+                </div></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
             </div>
         </div>
-        <div class="modal-footer">
-            <select id="instruction_length">
-            <option selected value="">Ends Immediately</option>
-            <?php
-            foreach ($time_lengths as $key => $value) {
-                echo "<option value=\"$key\">$value</option>";
-            }
-            ?></select>
-            <button type="button" class="btn btn-primary" onclick="event_dialog_save()">Save changes</button>
-            <button type="button" class="btn btn-secondary" onclick="event_dialog_clipboard()">From Clipboard</button>
-            <button type="button" class="btn btn-secondary" onclick="event_dialog_clear()">Clear</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-        </div>
     </div>
+    <div class="modal" tabindex="-1" role="dialog" id="event_dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"  id="modal-instruction"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-6"><h3>Ingredients</h3><?php
+
+                            foreach ($data["normalized_ingredients"] as $key => $value) {
+                                echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
+                            }
+
+                    ?></div>
+                    <div class="col-sm-3"><h3>Tools</h3><?php
+                            foreach ($tools as $key => $value) {
+                                echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
+                            }
+                    ?></div>
+                    <div class="col-sm-3"><h3>Implicit</h3><?php
+                            foreach ($implicits as $key => $value) {
+                                echo "<div class=\"form-check\"><input type=\"checkbox\" class=\"form-check-input event_item\" id=\"$key\"><label class=\"form-check-label\" for=\"$key\">$value</label></div>";
+                            }
+                    ?></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <select id="instruction_length">
+                <option selected value="">Ends Immediately</option>
+                <?php
+                foreach ($time_lengths as $key => $value) {
+                    echo "<option value=\"$key\">$value</option>";
+                }
+                ?></select>
+                <button type="button" class="btn btn-primary" onclick="event_dialog_save()">Save changes</button>
+                <button type="button" class="btn btn-secondary" onclick="event_dialog_clipboard()">From Clipboard</button>
+                <button type="button" class="btn btn-secondary" onclick="event_dialog_clear()">Clear</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
     </div>
     <script type="text/javascript">
+        function msgbox(title, body)
+        {
+            jQuery('#msgbox_title').text(title);
+            jQuery('#msgbox_body').html(body);
+            jQuery('#msgbox_dialog').modal('show');
+        }
+        function date(dt) {
+            if (typeof(dt)==="string")
+                    return DayPilot.Date(dt);
+            return dt;
+        }
+        function verify_annotation()
+        {
+            let dt = DayPilot.Date(dp.startDate);
+            let time_stamps = [];
+            let i=0;
+            while (dp.events.list.filter(x=>x.start==dt).length>0) {
+                time_stamps.splice(0,0,dt);
+                dt=dt.addDays(1);
+            }
+            let next_dt=time_stamps[0];
+            let unused=[], next_unused=[], reused_issues=[];
+            next_unused=dp.events.list.filter(x=>(x.resource===unused_resource_id)&&(x.start===next_dt)).map(x=>x.action);
+            for (i=1;i<time_stamps.length;i++) {
+                dt=time_stamps[i];
+                unused=dp.events.list.filter(x=>(x.resource===unused_resource_id)&&(x.start===dt)).map(x=>x.action);
+                reused_issues=next_unused.filter(x=>unused.indexOf(x)<0);
+                if (reused_issues.length>0)
+                {
+                    msgbox("Ingredients cannot be marked as unused", "The following ingredients were marked as unused, despite being used previously:<ul><li>" +
+                    reused_issues.map(x=>dp.actions.filter(y=>y.id==x)[0].display).join("<li>")+"</ul>");
+                    return false;
+                }
+                next_unused=unused;
+                next_dt=dt;
+            }
+            return true;
+        }
+        function populate_unused_resource(start)
+        {
+            if (start==dp.startDate)
+                return;
+            truncate(unused_resource_id, start);
+            const used_ingredients = dp.events.list.filter(x=>x.start==start).map(x=>x.action);
+            const unused_ingredients = dp.actions.map(a=>a.id).filter(a=>a.startsWith('I')).filter(a=>(used_ingredients.filter(x=>x===a)).length===0);
+            add_events_by_action_id(unused_ingredients, {"start": start, "resource": unused_resource_id});
+        }
         function add_events_by_action_id(ids, event_data)
         {
             const selected_actions=dp.actions.filter(x => ids.filter((y)=>x.id == y).length>0);
-            let future_events = [];
             let i=0;
             selected_actions.forEach(function (selected_action) {
-                console.log(event_data)
-                if (typeof(event_data.start)==="string")
-                    event_data.start=DayPilot.Date(event_data.start)
-                if (typeof(event_data.end)==="string")
-                    event_data.end=DayPilot.Date(event_data.end)
+                event_data.start=date(event_data.start);
+                event_data.end=date(event_data.end);
                 const e=new DayPilot.Event({
                     start: event_data.start,
                     end: (!!(event_data.end) ? event_data.end : event_data.start.addDays(1)),
@@ -139,31 +201,50 @@
                 if (dp.events.list.filter(x=>(x.action==e.data.action) && (x.resource==e.data.resource) && (x.start==e.data.start)).length==0)
                 {
                     dp.events.add(e);
-                    future_events.push(e);
                 }
             });
-            for(i=instruction_index+1;i<events.length;i++)
-            {
-                if (!events[i].length)
-                    break;
-                future_events.forEach(e=>{events[i].push(e.data);});
-            }
+            if (event_data.resource!=unused_resource_id)
+                populate_unused_resource(event_data.start);
 
+        }
+        function set_reference_time_range(latest_events)
+        {
+            if  ((typeof latest_events === "undefined") || (latest_events.length==0))
+            {
+                // use all ingredients, set as unused
+                latest_events=dp.actions.filter(a=>a.id.startsWith('I')).map(a=>({
+                    "resource": unused_resource_id,
+                    "text": a.display,
+                    "barColor": a.color,
+                    "action": a.id,
+                    "id": a.id+':'+DayPilot.guid()
+                    }));
+            }
+            const start = DayPilot.Date(dp.startDate);
+            const end = start.addDays(1);
+            dp.events.list.filter(on_start_date).map(e=>e.id).forEach(dp.events.removeById);
+            latest_events.forEach(function (event_data) {
+                const e=new DayPilot.Event({
+                    start: start,
+                    end: end,
+                    id: event_data.id,
+                    action: event_data.action,
+                    resource: event_data.resource,
+                    text: event_data.text,
+                    barColor: event_data.barColor
+                });
+                dp.events.add(e);
+            });
+            populate_unused_resource(start);
         }
         function truncate(resource, start)
         {
-            let future_events=[];
+            if  (typeof start === "undefined") 
+                start=DayPilot.Date(dp.startDate);
             let i=0;
             dp.events.list.filter((x)=>(x["resource"]==resource) && (x["start"]==start)).forEach((e)=>{
                 dp.events.removeById(e.id);
-                future_events.push(e);
             });
-            for(i=instruction_index+1;i<events.length;i++)
-            {
-                if (!events[i].length)
-                    break;
-                future_events.forEach(e=>{events[i]=events[i].filter(c=>c.id!=e.id);});
-            }
         }
         function event_dialog_save()
         {
@@ -207,22 +288,27 @@
             }
             return ret;
         }
+        function get_latest_state_events()
+        {
+            const max_dt = dp.events.list.map(x=>date(x.end).ticks).reduce((x,y)=>(x>y?x:y),0);
+            return dp.events.list.filter(x=>(date(x.end).ticks==max_dt) && (!x.action.startsWith('L')));
+        }
         function next_instruction()
         {
             console.log("next_instruction");
             events[instruction_index]=dp.events.list;
+            if (!verify_annotation())
+                return;
             if (instruction_index+1==instructions.length){
                 if (!confirm("You are about to submit the annotations, are you sure ?"))
                     return;
                 save();
                 return;
             }
+            const latest_state_events=get_latest_state_events();
             instruction_index+=1;
-            if (!(events[instruction_index].length))
-            {
-                events[instruction_index]=events[instruction_index-1].slice();
-            }
             dp.events.list=events[instruction_index];
+            set_reference_time_range(latest_state_events);
             expand_resources();
             dp.update();
             show_instruction();
@@ -250,6 +336,8 @@
                 el.classList.add("last_instruction");
             else
                 el.classList.remove("last_instruction");
+            jQuery('.scheduler_default_timeheadercol_inner:contains("1")').css('background-color', 'gray')
+            jQuery('.scheduler_default_rowheader_inner:contains("Unused")').css('background-color', 'gray')
 
         }
         function expand_resources()
@@ -275,14 +363,18 @@
 
 
         dp.startDate = "2020-01-01";
-        dp.days = 28;
+        const unused_resource_id = "A1";
+        const on_start_date = (obj)=>(obj.hasOwnProperty('e')?date(obj.e.data.start).value.startsWith(dp.startDate):date(obj.start).value.startsWith(dp.startDate));
+        const on_unused = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource===unused_resource_id:obj.resource===unused_resource_id);
+        dp.days = 5;
         dp.scale = "Day";
+        dp.cellWidth=150;
         dp.timeHeaders = [
             //{groupBy: "Month", format: "MMMM yyyy"},
             {groupBy: "Day", format: "d"}
             //{ groupBy: "Hour", format: "H" }
         ];
-
+        
         dp.contextMenu = new DayPilot.Menu({
             items: [
                 {
@@ -367,6 +459,16 @@
 
         // event creating
         dp.onTimeRangeSelected = function (args) {
+            if (on_start_date(args))
+            {
+                msgbox("Reference Time-range cannot be changed", "The first time range is read only and cannot be modified");
+                return;
+            }
+            if (on_unused(args))
+            {
+                msgbox("Unused ingredients", "Unused Ingredients are populated automatically, there's no need to specify them manually");
+                return;
+            }
             selected_time_range=args;
             jQuery(".event_item").prop("checked", false);
             const previously_selected = prev_actions_for_resource(args.resource);
@@ -379,6 +481,16 @@
         };
 
         dp.onEventClicked = function (args) {
+            if (on_start_date(args))
+            {
+                msgbox("Reference Time-range cannot be changed", "The first time range is read only and cannot be modified");
+                return;
+            }
+            if (on_unused(args))
+            {
+                msgbox("Unused ingredients", "Unused Ingredients are populated automatically, there's no need to specify them manually");
+                return;
+            }
             selected_time_range=args.e.data;
             jQuery(".event_item").prop("checked", false);
             const resource=args.e.data.resource;
@@ -393,23 +505,10 @@
             jQuery('#event_dialog').modal('show');
         };
 
+        dp.onEventMoving = function(args) {
+            args.allowed = dp.eventMovingStartEndEnabled;
+        }
 
-        // dp.onEventMove = function (args) {
-        //     if (args.ctrl) {
-        //         var newEvent = new DayPilot.Event({
-        //             start: args.newStart,
-        //             end: args.newEnd,
-        //             text: "Copy of " + args.e.text(),
-        //             resource: args.newResource,
-        //             id: DayPilot.guid()  // generate random id
-        //         });
-        //         dp.events.add(newEvent);
-
-        //         // notify the server about the action here
-
-        //         args.preventDefault(); // prevent the default action - moving event to the new location
-        //     }
-        // };
         expand_resources();
         dp.init();
 
@@ -421,6 +520,10 @@
         let action_clipboard=[];
         let selected_time_range={};
         show_instruction();
+        if (dp.events.list.length==0)
+        {
+            set_reference_time_range();
+        }
 
     </script>
 
