@@ -7,6 +7,7 @@ from pathlib import Path
 from operator import itemgetter as at
 import annotation_io
 import data
+import actions
 
 app = Flask(__name__)
 
@@ -66,7 +67,8 @@ def save(annotation_id):
 
 @app.route('/program/<annotation_id>')
 def program(annotation_id):
-    pass
+    annotation = annotation_io.get_annotation(annotation_id)
+    return jsonify(actions.program(annotation, verbose=True))
 
 
 @app.after_request
