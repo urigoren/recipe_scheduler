@@ -4,6 +4,7 @@
 *.npz
 notebooks/.ipynb_checkpoints/
 preprocessed/
-.vscode/settings.json
+.vscode/
+.idea/
 __pycache__
 *.pyc
