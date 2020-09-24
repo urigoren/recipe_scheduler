@@ -6,8 +6,7 @@ import pandas as pd
 from pathlib import Path
 from operator import itemgetter as at
 import annotation_io
-
-data_dir = Path("data")
+import data
 
 app = Flask(__name__)
 
@@ -44,7 +43,16 @@ def index():
 
 @app.route('/annotate/<annotation_id>')
 def annotate(annotation_id):
-    return render_template('annotate.html')
+    annotation=annotation_io.get_annotation(annotation_id)
+    actions = []
+    actions.extend([{"display": value, "id": key, "color": "#ff0000"} for key, value in data.tools.items()])
+    actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in data.implicit_ingredients.items()])
+    actions.extend([{"display": value, "id": key, "color": "#000000"} for key, value in data.time_lengths.items()])
+    actions.extend([{"display": value, "id": key, "color": "#00ff00"} for key, value in annotation["normalized_ingredients"].items()])
+    return render_template('annotate.html', events=json.dumps(annotation["labels"]),  data=annotation, id=annotation_id,
+                           tools=data.tools, implicits=data.implicit_ingredients,time_lengths=data.time_lengths,
+                           resources=json.dumps(data.resources), actions=json.dumps(actions),
+                           event0=json.dumps(annotation["labels"][0]), num_instructions=len(annotation['instructions']))
 
 
 @app.after_request
