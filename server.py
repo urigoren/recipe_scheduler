@@ -68,7 +68,8 @@ def save(annotation_id):
 @app.route('/program/<annotation_id>')
 def program(annotation_id):
     annotation = annotation_io.get_annotation(annotation_id)
-    return jsonify(actions.program(annotation, verbose=True))
+    table = actions.program(annotation, verbose=True)
+    return render_template("program.html", table=table)
 
 
 @app.after_request
