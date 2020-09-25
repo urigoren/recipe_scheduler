@@ -3,6 +3,9 @@ from dataclasses import dataclass
 from copy import deepcopy
 from pathlib import Path
 from pprint import pp
+import collections
+from datetime import datetime
+from operator import itemgetter as at
 
 base_path = Path(__file__).absolute().parent.parent
 annot_path = base_path / "annotations"
@@ -16,6 +19,8 @@ with (preprocessed_path / "labels.json").open("r") as f:
     label2idx = {r: i for i, r in enumerate(idx2label)}
 with (preprocessed_path / "resources.json").open("r") as f:
     resources = json.load(f)
+
+IMMEDIATE = "LIMMEDIATE"
 ingredient_dict = {k: v for k, v in ingredients}
 resource_dict = {k: v for k, v in resources}
 
@@ -28,16 +33,46 @@ class Instruction:
     resource: str
 
 
+def ing2type(ing_id):
+    return {
+        "I": "Ingredient",
+        "M": "Unlisted ingredient",
+        "L": "Time duration",
+        "T": "Tool",
+
+    }[ing_id[0]]
+
+def handle_instruction_label(lst):
+    events = list(map(at("start", "end", "action", "resource"), lst))
+    ret = collections.defaultdict(list)
+    for start, end, action, resource in events:
+        start = (datetime.strptime(start, "%Y-%m-%dT00:00:00") - datetime(2020, 1, 1)).days
+        end = (datetime.strptime(end, "%Y-%m-%dT00:00:00") - datetime(2020, 1, 1)).days
+        for i in range(start, end):
+            ret[i].append((resource, action))
+    # Add "LIMMEDIATE" if no time duration specified
+    for lst in ret.values():
+        has_time_duration_map = collections.defaultdict(bool)
+        for res, action in lst:
+            has_time_duration_map[res] |= ing2type(action) == "Time duration"
+        for res, has_time_duration in has_time_duration_map.items():
+            if not has_time_duration:
+                lst.append((res, IMMEDIATE))
+            lst.sort()
+
+    return dict(ret)
+
+
 def program_step(annotation):
     max_ts = max(map(int, annotation.keys()))
     new_state = None
     state = {res: set() for res in resource_dict}
-    for resource, ing in annotation["0"]:
+    for resource, ing in annotation.get("0", annotation[0]):
         state[resource].add(ing)
     actions = []
     for ts in range(1, 1 + max_ts):
         new_state = {res: set() for res in resource_dict}
-        for resource, ing in annotation[str(ts)]:
+        for resource, ing in annotation.get(str(ts),annotation[ts]):
             new_state[resource].add(ing)
         for resource in new_state.keys():
             added_ings = new_state[resource] - state[resource]
@@ -80,6 +115,8 @@ def program_step(annotation):
 def program(annotation, verbose=False):
     """Runs program_step for each item in list, and fix timestamps"""
     # Union all steps, and align timestamps
+    if 'labels' in annotation:
+        annotation = [handle_instruction_label(l) for l in annotation['labels']]
     actions = []
     ts = 0
     for a in annotation:
