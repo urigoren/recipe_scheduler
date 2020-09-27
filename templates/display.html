@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Annotate</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="/js/daypilot-all.min.js?v=2020.2.4517"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <div id="content">
+        <div id="dp"></div>
+    </div>
+    <script type="text/javascript">
+        var dp = new DayPilot.Scheduler("dp");
+
+
+        dp.startDate = "2020-01-01";
+        dp.days = 10;
+        dp.scale = "Day";
+        dp.cellWidth=150;
+        dp.timeHeaders = [
+            //{groupBy: "Month", format: "MMMM yyyy"},
+            {groupBy: "Day", format: "d"}
+            //{ groupBy: "Hour", format: "H" }
+        ];
+
+
+        dp.treeEnabled = true;
+        dp.treePreventParentUsage = true;
+        dp.resources = {{resources|safe}};
+
+        dp.heightSpec = "Max";
+        dp.height = 500;
+        dp.allowMultiMove=true;
+        dp.allowMultiResize=true;
+
+        dp.events.list = {{events|safe}};
+
+
+        dp.eventMovingStartEndEnabled = false;
+        dp.eventResizingStartEndEnabled = false;
+        dp.timeRangeSelectingStartEndEnabled = false;
+
+        dp.onEventMoving = function(args) {
+            args.allowed = dp.eventMovingStartEndEnabled;
+        }
+
+        dp.init();
+
+        dp.scrollTo("2020-01-01");
+        alert = console.log;
+
+    </script>
+</body>
+</html>

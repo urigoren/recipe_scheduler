@@ -50,11 +50,29 @@ def annotate(annotation_id):
     actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in data.implicit_ingredients.items()])
     actions.extend([{"display": value, "id": key, "color": "#000000"} for key, value in data.time_lengths.items()])
     actions.extend([{"display": value, "id": key, "color": "#00ff00"} for key, value in annotation["normalized_ingredients"].items()])
-    return render_template('annotate.html', events=json.dumps(annotation["labels"]),  data=annotation, id=annotation_id,
-                           tools=data.tools, implicits=data.implicit_ingredients,time_lengths=data.time_lengths,
-                           resources=json.dumps(data.resources), actions=json.dumps(actions),
-                           event0=json.dumps(annotation["labels"][0]), num_instructions=len(annotation['instructions']))
+    return render_template('annotate.html',
+                           events=json.dumps(annotation["labels"]),
+                           data=annotation,
+                           id=annotation_id,
+                           tools=data.tools,
+                           implicits=data.implicit_ingredients,
+                           time_lengths=data.time_lengths,
+                           resources=json.dumps(data.resources),
+                           actions=json.dumps(actions),
+                           event0=json.dumps(annotation["labels"][0]),
+                           num_instructions=len(annotation['instructions']),
+                           )
 
+
+
+@app.route('/display/<annotation_id>')
+def display(annotation_id):
+    annotation = annotation_io.get_annotation(annotation_id)
+    return render_template("display.html",
+                           data=annotation,
+                           resources=json.dumps(data.resources),
+                           events=json.dumps(annotation["labels"][0]),
+                           )
 
 @app.route('/save/<annotation_id>', methods=['GET', 'POST'])
 def save(annotation_id):
