@@ -1,5 +1,3 @@
-let ingredients= [];
-let actions= [];
 let sequence_id=0;
 
 function refresh_actions(){
@@ -36,16 +34,18 @@ function add_ingredient(item) {
 }
 
 function remove_ingredient(id) {
+    let actions_diff = 0;
     if (id < 0)
         ingredients = [];
-    else
+    else {
         ingredients = ingredients.filter(item => item.id != id);
+        actions_diff = actions.length;
+        actions = actions.filter(item => item.arg != id);
+        actions_diff-=actions.length;
+    }
     refresh_ingredients();
-}
-
-function command_change() {
-    const command = commands.filter((com)=>com.id==document.getElementById("select_command").value)[0];
-    populate_selectbox("select_arg", command["arg_type"]);
+    if (actions_diff>0)
+        refresh_actions();
 }
 
 function add_action()
@@ -80,6 +80,11 @@ function remove_action(id)
     refresh_actions();
 }
 
+function command_change() {
+    const command = commands.filter((com)=>com.id==document.getElementById("select_command").value)[0];
+    populate_selectbox("select_arg", command["arg_type"]);
+}
+
 function populate_selectbox(select, type)
 {
     const selectbox = document.getElementById(select);
@@ -103,4 +108,6 @@ $(document).ready(function () {
     populate_selectbox("select_resource", "resources");
     populate_selectbox("select_arg", "resources");
     populate_selectbox("select_command", "commands");
+    refresh_ingredients();
+    refresh_actions();
 });

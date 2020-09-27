@@ -65,15 +65,33 @@ def annotate(annotation_id):
 
 
 @app.route('/simulate')
-def simulate():
+@app.route('/simulate/<annotation_id>')
+def simulate(annotation_id=None):
     resources = [{"id": child["id"], "name": parent["name"] + '/' + child["name"]} for parent in data.resources for child in parent["children"]]
     time_lengths = [{"id": k, "name": v} for k, v in data.time_lengths.items()]
     tools = [{"id": k, "name": v} for k, v in data.tools.items()]
+    ingredients = []
+    derived_actions=[]
+    if annotation_id is not None:
+        annotation = annotation_io.get_annotation(annotation_id)
+        derived_actions = actions.program(annotation, verbose=False)
+        derived_actions = [{
+            "ts": a.ts,
+            "arg": a.ingredient,
+            "resource": a.resource,
+            "command": [c for c in data.commands if c["name"] == a.command][0]['id'],
+            "arg_type": [c for c in data.commands if c["name"] == a.command][0]['arg_type'],
+        }
+            for a in derived_actions]
+        ingredients = [{"name": value, "id": key} for key, value in annotation["normalized_ingredients"].items()]
+
     return render_template("simulate.html",
                            resources=json.dumps(resources),
                            commands=json.dumps(data.commands),
                            tools=json.dumps(tools),
                            time_lengths=json.dumps(time_lengths),
+                           actions=json.dumps(derived_actions),
+                           ingredients=json.dumps(ingredients),
                            )
 
 

@@ -6,6 +6,7 @@ from pprint import pp
 import collections
 from datetime import datetime
 from operator import itemgetter as at
+from typing import List
 
 base_path = Path(__file__).absolute().parent.parent
 annot_path = base_path / "annotations"
@@ -42,6 +43,7 @@ def ing2type(ing_id):
 
     }[ing_id[0]]
 
+
 def handle_instruction_label(lst):
     events = list(map(at("start", "end", "action", "resource"), lst))
     ret = collections.defaultdict(list)
@@ -63,7 +65,7 @@ def handle_instruction_label(lst):
     return dict(ret)
 
 
-def program_step(annotation):
+def program_step(annotation)->List[Instruction]:
     max_ts = max(map(int, annotation.keys()))
     new_state = None
     state = {res: set() for res in resource_dict}
@@ -112,7 +114,7 @@ def program_step(annotation):
     return actions
 
 
-def program(annotation, verbose=False):
+def program(annotation, verbose=False)->List[Instruction]:
     """Runs program_step for each item in list, and fix timestamps"""
     # Union all steps, and align timestamps
     if 'labels' in annotation:
