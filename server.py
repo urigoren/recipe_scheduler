@@ -65,6 +65,17 @@ def annotate(annotation_id):
 
 
 
+
+@app.route('/simulate')
+def simulate():
+    return render_template("simulate.html")
+
+@app.route('/ingredients_autocomplete', methods=['GET', 'POST'])
+def ingredients_autocomplete():
+    term = request.args.get("term", "")
+    return jsonify([{"label": k, "value": {"id": v, "name": k}} for k,v in data.ingredients_map.items() if term in k])
+
+
 @app.route('/display/<annotation_id>')
 def display(annotation_id):
     annotation = annotation_io.get_annotation(annotation_id)

@@ -15,3 +15,6 @@ with (data_path / "implicit_ingredients.json").open('r') as f:
 
 with (data_path / "time_lengths.json").open('r') as f:
     time_lengths = json.load(f)
+
+with (data_path / "ingredients_map.json").open('r') as f:
+    ingredients_map = json.load(f)
