@@ -1,11 +1,28 @@
 let ingredients= [];
 let actions= [];
+let sequence_id=0;
 
+function refresh_actions(){
+    let actions_tbl = $("#actions_tbl").empty();
+    let command="";
+    let resource="";
+    let arg="";
+    actions.forEach(item => {
+        resource = resources.filter(x=>x.id==item.resource)[0]["name"];
+        command = commands.filter(x=>x.id==item.command)[0]["name"];
+        arg = eval(item.arg_type).filter(x=>x.id==item.arg)[0]["name"];
+        actions_tbl.append("<tr><td> " + command + "</td>" +
+            "<td> " + arg + "</td>" +
+            "<td> " + resource + "</td>" +
+            "<td><a onclick=\"remove_action(" + item.id + ")\" class=\"delete\" title=\"Delete\" data-toggle=\"tooltip\"><i class=\"material-icons\">&#xE5C9;</i></a></td>" +
+            "</tr>");
+    });
+}
 function refresh_ingredients() {
     // Shows cart items to screen, and invokes recipes
-    let cart_tbl = $("#ingredients_tbl").empty();
+    let ingredients_tbl = $("#ingredients_tbl").empty();
     ingredients.forEach(item => {
-        cart_tbl.append("<tr><td> " + item.name + "</td>" +
+        ingredients_tbl.append("<tr><td> " + item.name + "</td>" +
             "<td><a onclick=\"remove_ingredient('" + item.id + "')\" class=\"delete\" title=\"Delete\" data-toggle=\"tooltip\"><i class=\"material-icons\">&#xE5C9;</i></a></td>" +
             "</tr>");
     });
@@ -29,6 +46,34 @@ function remove_ingredient(id) {
 function command_change() {
     const command = commands.filter((com)=>com.id==document.getElementById("select_command").value)[0];
     populate_selectbox("select_arg", command["arg_type"]);
+}
+
+function add_action()
+{
+    const select_command = document.getElementById("select_command");
+    const select_arg = document.getElementById("select_arg");
+    const select_resource = document.getElementById("select_resource");
+    actions.push({
+        "id": sequence_id,
+        "command": select_command.value,
+        "arg": select_arg.value,
+        "arg_type": commands.filter(x=>x.id==select_command.value)[0]["arg_type"],
+        "resource":select_resource.value
+    });
+    sequence_id++;
+    select_resource.value="";
+    select_arg.value="";
+    select_command.value="";
+    refresh_actions();
+}
+
+function remove_action(id)
+{
+    if (id < 0)
+        actions = [];
+    else
+        actions = actions.filter(item => item.id != id);
+    refresh_actions();
 }
 
 function populate_selectbox(select, type)
