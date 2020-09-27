@@ -17,7 +17,7 @@
             <h1>Simulate Recipe</h1>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <input type="text" id="search_ingredients" placeholder="Search Ingredients" autocomplete="off"
                        class="form-control input-lg"/>
                 <table class="table table-striped table-hover">
@@ -31,8 +31,12 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <form class="form-inline">
+                  <div class="form-group mb-2">
+                    <label for="txt_ts" class="sr-only">Command</label>
+                    <input type="text" id="txt_ts" class="form-control" size="1" value="1">
+                  </div>
                   <div class="form-group mb-2">
                     <label for="select_command" class="sr-only">Command</label>
                     <select class="form-control" id="select_command" onchange="command_change()">
@@ -53,6 +57,7 @@
                 <table class="table table-striped table-hover">
                     <thead>
                     <tr>
+                        <th>Time</th>
                         <th>Command</th>
                         <th>Arg</th>
                         <th>Resource</th>

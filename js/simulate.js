@@ -11,7 +11,7 @@ function refresh_actions(){
         resource = resources.filter(x=>x.id==item.resource)[0]["name"];
         command = commands.filter(x=>x.id==item.command)[0]["name"];
         arg = eval(item.arg_type).filter(x=>x.id==item.arg)[0]["name"];
-        actions_tbl.append("<tr><td> " + command + "</td>" +
+        actions_tbl.append("<tr><td> " + item.ts + "</td><td> " + command + "</td>" +
             "<td> " + arg + "</td>" +
             "<td> " + resource + "</td>" +
             "<td><a onclick=\"remove_action(" + item.id + ")\" class=\"delete\" title=\"Delete\" data-toggle=\"tooltip\"><i class=\"material-icons\">&#xE5C9;</i></a></td>" +
@@ -53,17 +53,21 @@ function add_action()
     const select_command = document.getElementById("select_command");
     const select_arg = document.getElementById("select_arg");
     const select_resource = document.getElementById("select_resource");
+    const txt_ts = document.getElementById("txt_ts");
     actions.push({
         "id": sequence_id,
         "command": select_command.value,
+        "ts": parseInt(txt_ts.value),
         "arg": select_arg.value,
         "arg_type": commands.filter(x=>x.id==select_command.value)[0]["arg_type"],
         "resource":select_resource.value
     });
+    actions = actions.sort((x,y)=>x.ts-y.ts);
     sequence_id++;
     select_resource.value="";
     select_arg.value="";
     select_command.value="";
+    txt_ts.value=1+actions.map(x=>x.ts).reduce((x,y)=>(x>y?x:y),0);
     refresh_actions();
 }
 
