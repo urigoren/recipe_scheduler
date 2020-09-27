@@ -98,28 +98,28 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-sm-6"><h3>Ingredients</h3>
-                        <%for key, value in data["normalized_ingredients"].items() %>
+                        {%for key, value in data["normalized_ingredients"].items() %}
                         <div class="form-check"><input type="checkbox" class="form-check-input event_item" id="{{key}}"><label class="form-check-label" for="{{key}}">{{value}}</label></div>
-                        <%endfor%>
+                        {%endfor%}
                     </div>
                     <div class="col-sm-3"><h3>Tools</h3>
-                        <%for key, value in tools.items() %>
+                        {%for key, value in tools.items() %}
                         <div class="form-check"><input type="checkbox" class="form-check-input event_item" id="{{key}}"><label class="form-check-label" for="{{key}}">{{value}}</label></div>
-                        <%endfor%>
+                        {%endfor%}
                     </div>
                     <div class="col-sm-3"><h3>Implicit</h3>
-                        <%for key, value in implicits.items() %>
+                        {%for key, value in implicits.items() %}
                         <div class="form-check"><input type="checkbox" class="form-check-input event_item" id="{{key}}"><label class="form-check-label" for="{{key}}">{{value}}</label></div>
-                        <%endfor%>
+                        {%endfor%}
                     </div>
                 </div>
             </div>
             <div class="modal-footer">
                 <select id="instruction_length">
                     <option selected value="">Ends Immediately</option>
-                    <%for key, value in time_lengths.items() %>
+                    {%for key, value in time_lengths.items() %}
                     <option value="{{key}}">{{value}}</option>
-                    <%endfor%>
+                    {%endfor%}
                 </select>
                 <button type="button" class="btn btn-primary" onclick="event_dialog_save()">Save changes</button>
                 <button type="button" class="btn btn-secondary" onclick="event_dialog_clipboard()">From Clipboard</button>
