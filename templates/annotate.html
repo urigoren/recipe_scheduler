@@ -116,9 +116,9 @@
             </div>
             <div class="modal-footer">
                 <select id="instruction_length">
-                <option selected value="">Ends Immediately</option>
+                    <option selected value="">Ends Immediately</option>
                     <%for key, value in time_lengths.items() %>
-                        <option value="{{key}}">{{value}}</option>
+                    <option value="{{key}}">{{value}}</option>
                     <%endfor%>
                 </select>
                 <button type="button" class="btn btn-primary" onclick="event_dialog_save()">Save changes</button>
@@ -129,7 +129,7 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/annotate.js"></script>
     <script type="text/javascript">
         var dp = new DayPilot.Scheduler("dp");
 
