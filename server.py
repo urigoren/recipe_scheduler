@@ -64,16 +64,24 @@ def annotate(annotation_id):
                            )
 
 
-
-
 @app.route('/simulate')
 def simulate():
-    return render_template("simulate.html")
+    resources = [{"id": child["id"], "name": parent["name"] + '/' + child["name"]} for parent in data.resources for child in parent["children"]]
+    time_lengths = [{"id": k, "name": v} for k, v in data.time_lengths.items()]
+    tools = [{"id": k, "name": v} for k, v in data.tools.items()]
+    return render_template("simulate.html",
+                           resources=json.dumps(resources),
+                           commands=json.dumps(data.commands),
+                           tools=json.dumps(tools),
+                           time_lengths=json.dumps(time_lengths),
+                           )
+
 
 @app.route('/ingredients_autocomplete', methods=['GET', 'POST'])
 def ingredients_autocomplete():
     term = request.args.get("term", "")
-    return jsonify([{"label": k, "value": {"id": v, "name": k}} for k,v in data.ingredients_map.items() if term in k])
+    ret=[{"label": k, "value": {"id": v, "name": k}} for k,v in data.ingredients_map.items() if term in k]
+    return jsonify(ret)
 
 
 @app.route('/display/<annotation_id>')

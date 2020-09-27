@@ -1,4 +1,5 @@
 let ingredients= [];
+let actions= [];
 
 function refresh_ingredients() {
     // Shows cart items to screen, and invokes recipes
@@ -8,7 +9,7 @@ function refresh_ingredients() {
             "<td><a onclick=\"remove_ingredient('" + item.id + "')\" class=\"delete\" title=\"Delete\" data-toggle=\"tooltip\"><i class=\"material-icons\">&#xE5C9;</i></a></td>" +
             "</tr>");
     });
-    setTimeout(() => $('#search_data').val(""), 100);
+    setTimeout(() => $('#search_ingredients').val(""), 100);
 }
 
 function add_ingredient(item) {
@@ -25,9 +26,20 @@ function remove_ingredient(id) {
     refresh_ingredients();
 }
 
+function command_change() {
+    const command = commands.filter((com)=>com.id==document.getElementById("select_command").value)[0];
+    populate_selectbox("select_arg", command["arg_type"]);
+}
+
+function populate_selectbox(select, type)
+{
+    const selectbox = document.getElementById(select);
+    selectbox.innerHTML=eval(type).map((x)=>'<option value="'+ x.id +'">' +x.name + '</option>').join("\n");
+    selectbox.value="";
+}
+
 $(document).ready(function () {
-    $("#ingredients_dialog").dialog({"autoOpen": false, "closeOnEscape": true});
-    $('#search_data').autocomplete({
+    $('#search_ingredients').autocomplete({
         source: "/ingredients_autocomplete",
         minLength: 2,
         select: function (event, ui) {
@@ -39,5 +51,7 @@ $(document).ready(function () {
             .append(item.label)
             .appendTo(ul);
     };
-
+    populate_selectbox("select_resource", "resources");
+    populate_selectbox("select_arg", "resources");
+    populate_selectbox("select_command", "commands");
 });

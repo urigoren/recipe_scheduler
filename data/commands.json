@@ -1,0 +1,7 @@
+[
+  {"name": "remove", "id": 0, "arg_type": "ingredients"},
+  {"name": "put", "id": 1, "arg_type": "ingredients"},
+  {"name": "use", "id": 2, "arg_type": "tools"},
+  {"name": "chef_check", "id": 3, "arg_type": "time_lengths"},
+  {"name": "move_contents", "id": 4, "arg_type": "resources"}
+]
