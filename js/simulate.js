@@ -1,14 +1,18 @@
 let sequence_id=0;
 
+function name(lst, val) {
+    return (lst.filter(x=>x.id==val)[0] || {"name": val})["name"];
+}
+
 function refresh_actions(){
     let actions_tbl = $("#actions_tbl").empty();
     let command="";
     let resource="";
     let arg="";
     actions.forEach(item => {
-        resource = resources.filter(x=>x.id==item.resource)[0]["name"];
-        command = commands.filter(x=>x.id==item.command)[0]["name"];
-        arg = eval(item.arg_type).filter(x=>x.id==item.arg)[0]["name"];
+        resource = name(resources, item.resource);
+        command = name(commands, item.command);
+        arg = name(eval(item.arg_type), item.arg);
         actions_tbl.append("<tr><td> " + item.ts + "</td><td> " + command + "</td>" +
             "<td> " + arg + "</td>" +
             "<td> " + resource + "</td>" +

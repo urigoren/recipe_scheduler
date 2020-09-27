@@ -120,13 +120,6 @@ def save(annotation_id):
     return redirect(url_for('index'))
 
 
-@app.route('/program/<annotation_id>')
-def program(annotation_id):
-    annotation = annotation_io.get_annotation(annotation_id)
-    table = actions.program(annotation, verbose=True)
-    return render_template("program.html", table=table)
-
-
 @app.after_request
 def add_no_cache(response):
     if request.endpoint != "static":
