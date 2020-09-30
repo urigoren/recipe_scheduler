@@ -79,8 +79,8 @@ def simulate(annotation_id=None):
             "ts": a.ts,
             "arg": a.ingredient,
             "resource": a.resource,
-            "command": [c for c in data.commands if c["name"] == a.command][0]['id'],
-            "arg_type": [c for c in data.commands if c["name"] == a.command][0]['arg_type'],
+            "command": [c for c in data.commands if c["name"] == a.command.name][0]['id'],
+            "arg_type": [c for c in data.commands if c["name"] == a.command.name][0]['arg_type'],
         }
             for a in derived_actions]
         ingredients = [{"name": value, "id": key} for key, value in annotation["normalized_ingredients"].items()]

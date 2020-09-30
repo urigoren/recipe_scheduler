@@ -27,14 +27,6 @@ ingredient_dict = {k: v for k, v in ingredients}
 resource_dict = {k: v for k, v in resources}
 
 
-@dataclass
-class Instruction:
-    ts: int
-    command: str
-    ingredient: str
-    resource: str
-
-
 class AssignedTypes(Enum):
     Ingredient = 0
     UnlistedIngredient = 1
@@ -50,6 +42,26 @@ class AssignedTypes(Enum):
             "T": AssignedTypes.Tool,
 
         }[ing_id[0]]
+
+
+class Commands(Enum):
+    """Must be in-sync with commands.json"""
+    PUT = 0
+    REMOVE = 1
+    USE = 2
+    STOP_USING = 3
+    CHEF_CHECK = 4
+    MOVE_CONTENTS = 5
+
+
+
+@dataclass
+class Instruction:
+    ts: int
+    command: Commands
+    ingredient: str
+    resource: str
+
 
 
 def handle_instruction_label(lst):
@@ -91,39 +103,39 @@ def program_step(annotation)->List[Instruction]:
                 ing_type = AssignedTypes.parse(ing)
                 if ing_type==AssignedTypes.TimeLength:
                     if ing != IMMEDIATE:
-                        actions.append(Instruction(ts, "chef_check", ing, resource))
+                        actions.append(Instruction(ts, Commands.CHEF_CHECK, ing, resource))
                 elif ing_type==AssignedTypes.Tool:
-                    actions.append(Instruction(ts, "use", ing, resource))
+                    actions.append(Instruction(ts, Commands.USE, ing, resource))
                 elif resource != "A1":
-                    actions.append(Instruction(ts, "put", ing, resource))
+                    actions.append(Instruction(ts, Commands.PUT, ing, resource))
             for ing in removed_ings:
                 ing_type = AssignedTypes.parse(ing)
                 if resource.startswith("A"):
                     continue
                 if ing_type==AssignedTypes.Ingredient or ing_type==AssignedTypes.UnlistedIngredient:
-                    actions.append(Instruction(ts, "remove", ing, resource))
+                    actions.append(Instruction(ts, Commands.REMOVE, ing, resource))
                 elif ing_type==AssignedTypes.Tool:
-                    actions.append(Instruction(ts, "stop_using", ing, resource))
+                    actions.append(Instruction(ts, Commands.STOP_USING, ing, resource))
         state = deepcopy(new_state)
     for res in resource_dict:
         for ts in range(1, 1 + max_ts):
-            before = {a.ingredient for a in actions if a.ts < ts and a.command == "put" and a.resource == res and AssignedTypes.parse(a.ingredient) == AssignedTypes.Ingredient}
-            after = {a.ingredient for a in actions if a.ts == ts and a.command == "remove" and a.resource == res and AssignedTypes.parse(a.ingredient) == AssignedTypes.Ingredient}
-            new_res = {a.resource for a in actions if a.ts == ts and a.command == "put" and a.resource != res and a.ingredient in {b for b in before}}
+            before = {a.ingredient for a in actions if a.ts < ts and a.command == Commands.PUT and a.resource == res and AssignedTypes.parse(a.ingredient) == AssignedTypes.Ingredient}
+            after = {a.ingredient for a in actions if a.ts == ts and a.command == Commands.REMOVE and a.resource == res and AssignedTypes.parse(a.ingredient) == AssignedTypes.Ingredient}
+            new_res = {a.resource for a in actions if a.ts == ts and a.command == Commands.PUT and a.resource != res and a.ingredient in {b for b in before}}
             if len(new_res) != 1:
                 continue
             new_res = list(new_res)[0]
             if before <= after:
-                actions.append(Instruction(ts, "move_contents", res, new_res))
-                actions = [a for a in actions if not (a.ts == ts and (a.command, a.resource) in {("remove", res), ("put", new_res)} and a.ingredient in before)]
+                actions.append(Instruction(ts, Commands.MOVE_CONTENTS, res, new_res))
+                actions = [a for a in actions if not (a.ts == ts and (a.command, a.resource) in {(Commands.REMOVE, res), (Commands.PUT, new_res)} and a.ingredient in before)]
 
     action_order = [
-        "move_contents",
-        "remove",
-        "use",
-        "stop_using",
-        "put",
-        "chef_check",
+        Commands.MOVE_CONTENTS,
+        Commands.REMOVE,
+        Commands.USE,
+        Commands.STOP_USING,
+        Commands.PUT,
+        Commands.CHEF_CHECK,
     ]
     actions = sorted(actions, key=lambda t: (t.ts, action_order.index(t.command)))
     return actions
@@ -150,7 +162,7 @@ def program(annotation, verbose=False)->List[Instruction]:
         actions = [
             (
                 a.ts,
-                a.command,
+                a.command.name,
                 ingredient_dict.get(a.ingredient, resource_dict.get(a.ingredient, "")),
                 resource_dict.get(a.resource),
             )

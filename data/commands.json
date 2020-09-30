@@ -1,8 +1,8 @@
 [
-  {"name": "remove", "id": 0, "arg_type": "ingredients"},
-  {"name": "put", "id": 1, "arg_type": "ingredients"},
-  {"name": "use", "id": 2, "arg_type": "tools"},
-  {"name": "stop_using", "id": 3, "arg_type": "tools"},
-  {"name": "chef_check", "id": 4, "arg_type": "time_lengths"},
-  {"name": "move_contents", "id": 5, "arg_type": "resources"}
+  {"name": "PUT", "id": 0, "arg_type": "ingredients"},
+  {"name": "REMOVE", "id": 1, "arg_type": "ingredients"},
+  {"name": "USE", "id": 2, "arg_type": "tools"},
+  {"name": "STOP_USING", "id": 3, "arg_type": "tools"},
+  {"name": "CHEF_CHECK", "id": 4, "arg_type": "time_lengths"},
+  {"name": "MOVE_CONTENTS", "id": 5, "arg_type": "resources"}
 ]
