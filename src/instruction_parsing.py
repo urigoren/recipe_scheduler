@@ -1,13 +1,12 @@
-import json
+import json, collections, itertools
 from dataclasses import dataclass
 from copy import deepcopy
 from pathlib import Path
 from pprint import pp
-import collections
 from datetime import datetime
 from operator import itemgetter as at
 from enum import Enum
-from typing import List, Dict, Set
+from typing import List, Dict, Set, Tuple
 
 base_path = Path(__file__).absolute().parent.parent
 data_path = base_path / "data"
@@ -158,8 +157,24 @@ def program(annotation) -> List[Instruction]:
     return actions
 
 
-def execute(ingredients:List[str], instructions: List[Instruction])->List[Dict[str, Set[str]]]:
-    return []
+def execute(ingredients:List[str], instructions: List[Instruction])->List[Tuple[int, Dict[str, Set[str]]]]:
+    state = {res: set() for res in resource_dict}
+    ret = []
+    for ts, step in itertools.groupby(instructions, key=lambda a:a.ts):
+        for instruction in step:
+            if instruction.command in {Commands.PUT, Commands.USE, Commands.CHEF_CHECK}:
+                state[instruction.resource].add(instruction.ingredient)
+            elif instruction.command in {Commands.REMOVE, Commands.STOP_USING}:
+                state[instruction.resource].remove(instruction.ingredient)
+            elif instruction.command == Commands.MOVE_CONTENTS:
+                for ing in state[instruction.ingredient]:
+                    if AssignedTypes.parse(ing) in {AssignedTypes.Ingredient, AssignedTypes.UnlistedIngredient}:
+                        state[instruction.resource].add(ing)
+                state[instruction.ingredient]=set()
+            else:
+                raise NotImplementedError(instruction.command.name + " is not supported")
+        ret.append((ts, deepcopy(state)))
+    return ret
 
 
 def main(args):
