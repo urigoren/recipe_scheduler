@@ -6,6 +6,7 @@ from pprint import pp
 import collections
 from datetime import datetime
 from operator import itemgetter as at
+from enum import Enum
 from typing import List
 
 base_path = Path(__file__).absolute().parent.parent
@@ -34,14 +35,21 @@ class Instruction:
     resource: str
 
 
-def ing2type(ing_id):
-    return {
-        "I": "Ingredient",
-        "M": "Unlisted ingredient",
-        "L": "Time duration",
-        "T": "Tool",
+class AssignedTypes(Enum):
+    Ingredient = 0
+    UnlistedIngredient = 1
+    TimeLength = 2
+    Tool = 3
 
-    }[ing_id[0]]
+    @classmethod
+    def parse(cls, ing_id):
+        return {
+            "I": AssignedTypes.Ingredient,
+            "M": AssignedTypes.UnlistedIngredient,
+            "L": AssignedTypes.TimeLength,
+            "T": AssignedTypes.Tool,
+
+        }[ing_id[0]]
 
 
 def handle_instruction_label(lst):
@@ -56,7 +64,7 @@ def handle_instruction_label(lst):
     for lst in ret.values():
         has_time_duration_map = collections.defaultdict(bool)
         for res, action in lst:
-            has_time_duration_map[res] |= ing2type(action) == "Time duration"
+            has_time_duration_map[res] |= AssignedTypes.parse(action) == AssignedTypes.TimeLength
         for res, has_time_duration in has_time_duration_map.items():
             if not has_time_duration:
                 lst.append((res, IMMEDIATE))
@@ -69,32 +77,38 @@ def program_step(annotation)->List[Instruction]:
     max_ts = max(map(int, annotation.keys()))
     new_state = None
     state = {res: set() for res in resource_dict}
-    for resource, ing in annotation.get("0", annotation[0]):
+    for resource, ing in annotation.get("0", annotation.get(0)):
         state[resource].add(ing)
     actions = []
     for ts in range(1, 1 + max_ts):
         new_state = {res: set() for res in resource_dict}
-        for resource, ing in annotation.get(str(ts),annotation[ts]):
+        for resource, ing in annotation.get(str(ts), annotation.get(ts)):
             new_state[resource].add(ing)
         for resource in new_state.keys():
             added_ings = new_state[resource] - state[resource]
             removed_ings = state[resource] - new_state[resource]
             for ing in added_ings:
-                if ing.startswith("L"):
-                    if ing != "LIMMEDIATE":
+                ing_type = AssignedTypes.parse(ing)
+                if ing_type==AssignedTypes.TimeLength:
+                    if ing != IMMEDIATE:
                         actions.append(Instruction(ts, "chef_check", ing, resource))
-                elif ing.startswith("T"):
+                elif ing_type==AssignedTypes.Tool:
                     actions.append(Instruction(ts, "use", ing, resource))
                 elif resource != "A1":
                     actions.append(Instruction(ts, "put", ing, resource))
             for ing in removed_ings:
-                if not ing.startswith("L") and not resource.startswith("A"):
+                ing_type = AssignedTypes.parse(ing)
+                if resource.startswith("A"):
+                    continue
+                if ing_type==AssignedTypes.Ingredient or ing_type==AssignedTypes.UnlistedIngredient:
                     actions.append(Instruction(ts, "remove", ing, resource))
+                elif ing_type==AssignedTypes.Tool:
+                    actions.append(Instruction(ts, "stop_using", ing, resource))
         state = deepcopy(new_state)
     for res in resource_dict:
         for ts in range(1, 1 + max_ts):
-            before = {a.ingredient for a in actions if a.ts < ts and a.command == "put" and a.resource == res and a.ingredient.startswith("I")}
-            after = {a.ingredient for a in actions if a.ts == ts and a.command == "remove" and a.resource == res and a.ingredient.startswith("I")}
+            before = {a.ingredient for a in actions if a.ts < ts and a.command == "put" and a.resource == res and AssignedTypes.parse(a.ingredient) == AssignedTypes.Ingredient}
+            after = {a.ingredient for a in actions if a.ts == ts and a.command == "remove" and a.resource == res and AssignedTypes.parse(a.ingredient) == AssignedTypes.Ingredient}
             new_res = {a.resource for a in actions if a.ts == ts and a.command == "put" and a.resource != res and a.ingredient in {b for b in before}}
             if len(new_res) != 1:
                 continue
@@ -107,6 +121,7 @@ def program_step(annotation)->List[Instruction]:
         "move_contents",
         "remove",
         "use",
+        "stop_using",
         "put",
         "chef_check",
     ]

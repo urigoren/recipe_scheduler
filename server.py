@@ -111,8 +111,8 @@ def display(annotation_id):
                            events=json.dumps(annotation["labels"][0]),
                            )
 
-@app.route('/save/<annotation_id>', methods=['GET', 'POST'])
-def save(annotation_id):
+@app.route('/save_annotation/<annotation_id>', methods=['GET', 'POST'])
+def save_annotation(annotation_id):
     annotation = annotation_io.get_annotation(annotation_id)
     annotation['labels'] = json.loads(request.form.get("events", "%"))
     annotation['status'] = request.form.get("status", '0')
