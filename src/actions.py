@@ -10,7 +10,6 @@ from enum import Enum
 from typing import List
 
 base_path = Path(__file__).absolute().parent.parent
-annot_path = base_path / "annotations"
 data_path = base_path / "data"
 preprocessed_path = base_path / "preprocessed"
 
@@ -19,12 +18,12 @@ with (preprocessed_path / "ingredients.json").open("r") as f:
 with (preprocessed_path / "labels.json").open("r") as f:
     idx2label = [tuple(t) for t in json.load(f)]
     label2idx = {r: i for i, r in enumerate(idx2label)}
-with (preprocessed_path / "resources.json").open("r") as f:
-    resources = json.load(f)
 
 IMMEDIATE = "LIMMEDIATE"
-ingredient_dict = {k: v for k, v in ingredients}
-resource_dict = {k: v for k, v in resources}
+
+with (data_path/ "resources.json").open('r') as f:
+    resource_dict=json.load(f)
+    resource_dict = {res["id"]: res_category["name"] + "/" + res["name"] for res_category in resource_dict for res in res_category["children"]}
 
 
 class AssignedTypes(Enum):
@@ -141,7 +140,7 @@ def program_step(annotation)->List[Instruction]:
     return actions
 
 
-def program(annotation, verbose=False)->List[Instruction]:
+def program(annotation)->List[Instruction]:
     """Runs program_step for each item in list, and fix timestamps"""
     # Union all steps, and align timestamps
     if 'labels' in annotation:
@@ -156,25 +155,13 @@ def program(annotation, verbose=False)->List[Instruction]:
             instruction.ts += ts
         actions.extend(p)
         ts = p[-1].ts
-    #
-    # Vebose
-    if verbose:
-        actions = [
-            (
-                a.ts,
-                a.command.name,
-                ingredient_dict.get(a.ingredient, resource_dict.get(a.ingredient, "")),
-                resource_dict.get(a.resource),
-            )
-            for a in actions
-        ]
     return actions
 
 
 def main(args):
     with (data_path / "annotaions.json").open('r') as f:
         annotations = json.load(f)
-    pp(program(annotations[args.annotation_id], verbose=args.verbose))
+    pp(program(annotations[args.annotation_id]))
     return 0
 
 
@@ -183,7 +170,5 @@ if __name__ == "__main__":
     from argparse import ArgumentParser
     parser = ArgumentParser(description=main.__doc__)
     parser.add_argument('annotation_id', type=str, help='annotation id')
-    parser.add_argument('--verbose', dest='verbose', action='store_true')
-    parser.set_defaults(verbose=False)
 
     sys.exit(main(parser.parse_args()))

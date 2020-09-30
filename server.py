@@ -74,7 +74,7 @@ def simulate(annotation_id=None):
     derived_actions=[]
     if annotation_id is not None:
         annotation = annotation_io.get_annotation(annotation_id)
-        derived_actions = actions.program(annotation, verbose=False)
+        derived_actions = actions.program(annotation)
         derived_actions = [{
             "ts": a.ts,
             "arg": a.ingredient,
