@@ -96,6 +96,12 @@ function populate_selectbox(select, type)
     selectbox.value="";
 }
 
+function simulation_submit() {
+    document.getElementById('frm_actions').value=JSON.stringify(actions);
+    document.getElementById('frm_ingredients').value=JSON.stringify(ingredients);
+    document.getElementById('frm_simulate').submit();
+}
+
 $(document).ready(function () {
     $('#search_ingredients').autocomplete({
         source: "/ingredients_autocomplete",

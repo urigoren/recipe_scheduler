@@ -71,7 +71,13 @@
         </div>
     </div>
     <div class="row">
-
+        <div class="col-md-12">
+            <form method="post" action="/simulate" id="frm_simulate">
+                <input type="hidden" name="actions" id="frm_actions">
+                <input type="hidden" name="ingredients" id="frm_ingredients">
+                <input type="button" class="btn btn-primary btn-lg" value="Simulate" onclick="simulation_submit()">
+            </form>
+        </div>
     </div>
     <script type="text/javascript">
         const resources = {{resources|safe}};

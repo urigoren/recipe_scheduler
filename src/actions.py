@@ -7,23 +7,17 @@ import collections
 from datetime import datetime
 from operator import itemgetter as at
 from enum import Enum
-from typing import List
+from typing import List, Dict, Set
 
 base_path = Path(__file__).absolute().parent.parent
 data_path = base_path / "data"
-preprocessed_path = base_path / "preprocessed"
-
-with (preprocessed_path / "ingredients.json").open("r") as f:
-    ingredients = json.load(f)
-with (preprocessed_path / "labels.json").open("r") as f:
-    idx2label = [tuple(t) for t in json.load(f)]
-    label2idx = {r: i for i, r in enumerate(idx2label)}
 
 IMMEDIATE = "LIMMEDIATE"
 
-with (data_path/ "resources.json").open('r') as f:
-    resource_dict=json.load(f)
-    resource_dict = {res["id"]: res_category["name"] + "/" + res["name"] for res_category in resource_dict for res in res_category["children"]}
+with (data_path / "resources.json").open('r') as f:
+    resource_dict = json.load(f)
+    resource_dict = {res["id"]: res_category["name"] + "/" + res["name"] for res_category in resource_dict for res in
+                     res_category["children"]}
 
 
 class AssignedTypes(Enum):
@@ -53,14 +47,12 @@ class Commands(Enum):
     MOVE_CONTENTS = 5
 
 
-
 @dataclass
 class Instruction:
     ts: int
     command: Commands
     ingredient: str
     resource: str
-
 
 
 def handle_instruction_label(lst):
@@ -84,7 +76,7 @@ def handle_instruction_label(lst):
     return dict(ret)
 
 
-def program_step(annotation)->List[Instruction]:
+def program_step(annotation) -> List[Instruction]:
     max_ts = max(map(int, annotation.keys()))
     new_state = None
     state = {res: set() for res in resource_dict}
@@ -100,10 +92,10 @@ def program_step(annotation)->List[Instruction]:
             removed_ings = state[resource] - new_state[resource]
             for ing in added_ings:
                 ing_type = AssignedTypes.parse(ing)
-                if ing_type==AssignedTypes.TimeLength:
+                if ing_type == AssignedTypes.TimeLength:
                     if ing != IMMEDIATE:
                         actions.append(Instruction(ts, Commands.CHEF_CHECK, ing, resource))
-                elif ing_type==AssignedTypes.Tool:
+                elif ing_type == AssignedTypes.Tool:
                     actions.append(Instruction(ts, Commands.USE, ing, resource))
                 elif resource != "A1":
                     actions.append(Instruction(ts, Commands.PUT, ing, resource))
@@ -111,22 +103,30 @@ def program_step(annotation)->List[Instruction]:
                 ing_type = AssignedTypes.parse(ing)
                 if resource.startswith("A"):
                     continue
-                if ing_type==AssignedTypes.Ingredient or ing_type==AssignedTypes.UnlistedIngredient:
+                if ing_type == AssignedTypes.Ingredient or ing_type == AssignedTypes.UnlistedIngredient:
                     actions.append(Instruction(ts, Commands.REMOVE, ing, resource))
-                elif ing_type==AssignedTypes.Tool:
+                elif ing_type == AssignedTypes.Tool:
                     actions.append(Instruction(ts, Commands.STOP_USING, ing, resource))
         state = deepcopy(new_state)
     for res in resource_dict:
         for ts in range(1, 1 + max_ts):
-            before = {a.ingredient for a in actions if a.ts < ts and a.command == Commands.PUT and a.resource == res and AssignedTypes.parse(a.ingredient) == AssignedTypes.Ingredient}
-            after = {a.ingredient for a in actions if a.ts == ts and a.command == Commands.REMOVE and a.resource == res and AssignedTypes.parse(a.ingredient) == AssignedTypes.Ingredient}
-            new_res = {a.resource for a in actions if a.ts == ts and a.command == Commands.PUT and a.resource != res and a.ingredient in {b for b in before}}
+            before = {a.ingredient for a in actions if
+                      a.ts < ts and a.command == Commands.PUT and a.resource == res and AssignedTypes.parse(
+                          a.ingredient) == AssignedTypes.Ingredient}
+            after = {a.ingredient for a in actions if
+                     a.ts == ts and a.command == Commands.REMOVE and a.resource == res and AssignedTypes.parse(
+                         a.ingredient) == AssignedTypes.Ingredient}
+            new_res = {a.resource for a in actions if
+                       a.ts == ts and a.command == Commands.PUT and a.resource != res and a.ingredient in {b for b in
+                                                                                                           before}}
             if len(new_res) != 1:
                 continue
             new_res = list(new_res)[0]
             if before <= after:
                 actions.append(Instruction(ts, Commands.MOVE_CONTENTS, res, new_res))
-                actions = [a for a in actions if not (a.ts == ts and (a.command, a.resource) in {(Commands.REMOVE, res), (Commands.PUT, new_res)} and a.ingredient in before)]
+                actions = [a for a in actions if not (a.ts == ts and (a.command, a.resource) in {(Commands.REMOVE, res),
+                                                                                                 (Commands.PUT,
+                                                                                                  new_res)} and a.ingredient in before)]
 
     action_order = [
         Commands.MOVE_CONTENTS,
@@ -140,7 +140,7 @@ def program_step(annotation)->List[Instruction]:
     return actions
 
 
-def program(annotation)->List[Instruction]:
+def program(annotation) -> List[Instruction]:
     """Runs program_step for each item in list, and fix timestamps"""
     # Union all steps, and align timestamps
     if 'labels' in annotation:
@@ -158,6 +158,10 @@ def program(annotation)->List[Instruction]:
     return actions
 
 
+def execute(ingredients:List[str], instructions: List[Instruction])->List[Dict[str, Set[str]]]:
+    return
+
+
 def main(args):
     with (data_path / "annotaions.json").open('r') as f:
         annotations = json.load(f)
@@ -168,6 +172,7 @@ def main(args):
 if __name__ == "__main__":
     import sys
     from argparse import ArgumentParser
+
     parser = ArgumentParser(description=main.__doc__)
     parser.add_argument('annotation_id', type=str, help='annotation id')
 

@@ -64,9 +64,19 @@ def annotate(annotation_id):
                            )
 
 
-@app.route('/simulate')
+@app.route('/simulate', methods=['GET', 'POST'])
 @app.route('/simulate/<annotation_id>')
 def simulate(annotation_id=None):
+    if 'actions' in request.form:
+        submitted_actions = json.loads(request.form.get('actions', '{}'))
+        submitted_ingredients = json.loads(request.form.get('ingredients', '{}'))
+        states = actions.execute(submitted_ingredients, submitted_actions)
+        # TODO: translate events to UI
+        events = states
+        return render_template("display.html",
+                resources=json.dumps(data.resources),
+                events=json.dumps(events),
+                )
     resources = [{"id": child["id"], "name": parent["name"] + '/' + child["name"]} for parent in data.resources for child in parent["children"]]
     time_lengths = [{"id": k, "name": v} for k, v in data.time_lengths.items()]
     tools = [{"id": k, "name": v} for k, v in data.tools.items()]
@@ -106,10 +116,10 @@ def ingredients_autocomplete():
 def display(annotation_id):
     annotation = annotation_io.get_annotation(annotation_id)
     return render_template("display.html",
-                           data=annotation,
                            resources=json.dumps(data.resources),
                            events=json.dumps(annotation["labels"][0]),
                            )
+
 
 @app.route('/save_annotation/<annotation_id>', methods=['GET', 'POST'])
 def save_annotation(annotation_id):
