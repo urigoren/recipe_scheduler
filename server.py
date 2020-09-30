@@ -7,7 +7,7 @@ from pathlib import Path
 from operator import itemgetter as at
 import annotation_io
 import data
-import actions
+import instruction_parsing
 
 app = Flask(__name__)
 
@@ -70,7 +70,7 @@ def simulate(annotation_id=None):
     if 'actions' in request.form:
         submitted_actions = json.loads(request.form.get('actions', '{}'))
         submitted_ingredients = json.loads(request.form.get('ingredients', '{}'))
-        states = actions.execute(submitted_ingredients, submitted_actions)
+        states = instruction_parsing.execute(submitted_ingredients, submitted_actions)
         # TODO: translate events to UI
         events = states
         return render_template("display.html",
@@ -84,7 +84,7 @@ def simulate(annotation_id=None):
     derived_actions=[]
     if annotation_id is not None:
         annotation = annotation_io.get_annotation(annotation_id)
-        derived_actions = actions.program(annotation)
+        derived_actions = instruction_parsing.program(annotation)
         derived_actions = [{
             "ts": a.ts,
             "arg": a.ingredient,
