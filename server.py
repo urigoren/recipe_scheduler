@@ -2,11 +2,8 @@ import sys, json
 
 sys.path.append("src")
 from flask import Flask, request, send_from_directory, render_template, redirect, url_for, jsonify
-import pandas as pd
-from pathlib import Path
-from operator import itemgetter as at
 import annotation_io
-import data
+import read_data
 import instruction_parsing
 
 app = Flask(__name__)
@@ -46,18 +43,18 @@ def index():
 def annotate(annotation_id):
     annotation=annotation_io.get_annotation(annotation_id)
     actions = []
-    actions.extend([{"display": value, "id": key, "color": "#ff0000"} for key, value in data.tools.items()])
-    actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in data.implicit_ingredients.items()])
-    actions.extend([{"display": value, "id": key, "color": "#000000"} for key, value in data.time_lengths.items()])
+    actions.extend([{"display": value, "id": key, "color": "#ff0000"} for key, value in read_data.tools.items()])
+    actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in read_data.implicit_ingredients.items()])
+    actions.extend([{"display": value, "id": key, "color": "#000000"} for key, value in read_data.time_lengths.items()])
     actions.extend([{"display": value, "id": key, "color": "#00ff00"} for key, value in annotation["normalized_ingredients"].items()])
     return render_template('annotate.html',
                            events=json.dumps(annotation["labels"]),
                            data=annotation,
                            id=annotation_id,
-                           tools=data.tools,
-                           implicits=data.implicit_ingredients,
-                           time_lengths=data.time_lengths,
-                           resources=json.dumps(data.resources),
+                           tools=read_data.tools,
+                           implicits=read_data.implicit_ingredients,
+                           time_lengths=read_data.time_lengths,
+                           resources=json.dumps(read_data.resources),
                            actions=json.dumps(actions),
                            event0=json.dumps(annotation["labels"][0]),
                            num_instructions=len(annotation['instructions']),
@@ -74,12 +71,12 @@ def simulate(annotation_id=None):
         # TODO: translate events to UI
         events = states
         return render_template("display.html",
-                resources=json.dumps(data.resources),
-                events=json.dumps(events),
-                )
-    resources = [{"id": child["id"], "name": parent["name"] + '/' + child["name"]} for parent in data.resources for child in parent["children"]]
-    time_lengths = [{"id": k, "name": v} for k, v in data.time_lengths.items()]
-    tools = [{"id": k, "name": v} for k, v in data.tools.items()]
+                               resources=json.dumps(read_data.resources),
+                               events=json.dumps(events),
+                               )
+    resources = [{"id": child["id"], "name": parent["name"] + '/' + child["name"]} for parent in read_data.resources for child in parent["children"]]
+    time_lengths = [{"id": k, "name": v} for k, v in read_data.time_lengths.items()]
+    tools = [{"id": k, "name": v} for k, v in read_data.tools.items()]
     ingredients = []
     derived_actions=[]
     if annotation_id is not None:
@@ -89,15 +86,15 @@ def simulate(annotation_id=None):
             "ts": a.ts,
             "arg": a.ingredient,
             "resource": a.resource,
-            "command": [c for c in data.commands if c["name"] == a.command.name][0]['id'],
-            "arg_type": [c for c in data.commands if c["name"] == a.command.name][0]['arg_type'],
+            "command": [c for c in read_data.commands if c["name"] == a.command.name][0]['id'],
+            "arg_type": [c for c in read_data.commands if c["name"] == a.command.name][0]['arg_type'],
         }
             for a in derived_actions]
         ingredients = [{"name": value, "id": key} for key, value in annotation["normalized_ingredients"].items()]
 
     return render_template("simulate.html",
                            resources=json.dumps(resources),
-                           commands=json.dumps(data.commands),
+                           commands=json.dumps(read_data.commands),
                            tools=json.dumps(tools),
                            time_lengths=json.dumps(time_lengths),
                            actions=json.dumps(derived_actions),
@@ -108,7 +105,7 @@ def simulate(annotation_id=None):
 @app.route('/ingredients_autocomplete', methods=['GET', 'POST'])
 def ingredients_autocomplete():
     term = request.args.get("term", "")
-    ret=[{"label": k, "value": {"id": v, "name": k}} for k,v in data.ingredients_map.items() if term in k]
+    ret=[{"label": k, "value": {"id": v, "name": k}} for k,v in read_data.ingredients_map.items() if term in k]
     return jsonify(ret)
 
 
@@ -116,7 +113,7 @@ def ingredients_autocomplete():
 def display(annotation_id):
     annotation = annotation_io.get_annotation(annotation_id)
     return render_template("display.html",
-                           resources=json.dumps(data.resources),
+                           resources=json.dumps(read_data.resources),
                            events=json.dumps(annotation["labels"][0]),
                            )
 

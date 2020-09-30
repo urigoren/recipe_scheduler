@@ -159,7 +159,7 @@ def program(annotation) -> List[Instruction]:
 
 
 def execute(ingredients:List[str], instructions: List[Instruction])->List[Dict[str, Set[str]]]:
-    return
+    return []
 
 
 def main(args):
