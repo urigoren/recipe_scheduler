@@ -103,6 +103,9 @@ function simulation_submit() {
 }
 
 $(document).ready(function () {
+    $("#txt_ts").TouchSpin({
+      verticalbuttons: true
+    });
     $('#search_ingredients').autocomplete({
         source: "/ingredients_autocomplete",
         minLength: 2,
