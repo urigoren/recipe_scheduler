@@ -12,6 +12,7 @@ base_path = Path(__file__).absolute().parent.parent
 data_path = base_path / "data"
 
 IMMEDIATE = "LIMMEDIATE"
+UNUSED_RESOURCE_ID = "A1"
 
 with (data_path / "resources.json").open('r') as f:
     resource_dict = json.load(f)
@@ -109,7 +110,7 @@ def program_step(annotation) -> List[Instruction]:
                         actions.append(Instruction(ts, Commands.CHEF_CHECK, ing, resource))
                 elif ing_type == AssignedTypes.Tool:
                     actions.append(Instruction(ts, Commands.USE, ing, resource))
-                elif resource != "A1":
+                elif resource != UNUSED_RESOURCE_ID:
                     actions.append(Instruction(ts, Commands.PUT, ing, resource))
             for ing in removed_ings:
                 ing_type = AssignedTypes.parse(ing)

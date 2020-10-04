@@ -80,13 +80,15 @@ def simulate(annotation_id=None):
             return {
                 "action": item,
                 "barColor": actions_map[item]["color"],
-                "start": datetime(2020, 1, ts).strftime("%Y-%m-%dT%H:%M:%S"),
-                "end": datetime(2020,1,ts+1).strftime("%Y-%m-%dT%H:%M:%S"),
+                "start": datetime(2020, 1, 1+ts).strftime("%Y-%m-%dT%H:%M:%S"),
+                "end": datetime(2020,1,2+ts).strftime("%Y-%m-%dT%H:%M:%S"),
                 "id": item + ":" + str(random.randint(100000,999999)),
                 "resource": res,
                 "text": actions_map[item]["text"],
             }
         events = [ui_view(ts, res, item) for ts, d in states for res, items in d.items() for item in items]
+        events += [ui_view(0, instruction_parsing.UNUSED_RESOURCE_ID, ing["id"]) for ing in submitted_ingredients]
+        events = sorted(events, key=lambda x:x["id"][0])
         return render_template("display.html",
                                resources=json.dumps(read_data.resources),
                                events=json.dumps(events),
