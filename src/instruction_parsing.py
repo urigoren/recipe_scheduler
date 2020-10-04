@@ -50,8 +50,21 @@ class Commands(Enum):
 class Instruction:
     ts: int
     command: Commands
-    ingredient: str
+    arg: str
     resource: str
+
+    @classmethod
+    def from_dict(cls, d):
+        return Instruction(ts=int(d["ts"]),
+                           arg=d["arg"],
+                           resource=d["resource"],
+                           command=Commands(int(d["command"])),
+                           )
+
+    @classmethod
+    def from_dicts(cls, lst):
+        return [Instruction.from_dict(d) for d in lst]
+
 
 
 def handle_instruction_label(lst):
@@ -109,15 +122,15 @@ def program_step(annotation) -> List[Instruction]:
         state = deepcopy(new_state)
     for res in resource_dict:
         for ts in range(1, 1 + max_ts):
-            before = {a.ingredient for a in actions if
+            before = {a.arg for a in actions if
                       a.ts < ts and a.command == Commands.PUT and a.resource == res and AssignedTypes.parse(
-                          a.ingredient) == AssignedTypes.Ingredient}
-            after = {a.ingredient for a in actions if
+                          a.arg) == AssignedTypes.Ingredient}
+            after = {a.arg for a in actions if
                      a.ts == ts and a.command == Commands.REMOVE and a.resource == res and AssignedTypes.parse(
-                         a.ingredient) == AssignedTypes.Ingredient}
+                         a.arg) == AssignedTypes.Ingredient}
             new_res = {a.resource for a in actions if
-                       a.ts == ts and a.command == Commands.PUT and a.resource != res and a.ingredient in {b for b in
-                                                                                                           before}}
+                       a.ts == ts and a.command == Commands.PUT and a.resource != res and a.arg in {b for b in
+                                                                                                    before}}
             if len(new_res) != 1:
                 continue
             new_res = list(new_res)[0]
@@ -125,7 +138,7 @@ def program_step(annotation) -> List[Instruction]:
                 actions.append(Instruction(ts, Commands.MOVE_CONTENTS, res, new_res))
                 actions = [a for a in actions if not (a.ts == ts and (a.command, a.resource) in {(Commands.REMOVE, res),
                                                                                                  (Commands.PUT,
-                                                                                                  new_res)} and a.ingredient in before)]
+                                                                                                  new_res)} and a.arg in before)]
 
     action_order = [
         Commands.MOVE_CONTENTS,
@@ -157,20 +170,20 @@ def program(annotation) -> List[Instruction]:
     return actions
 
 
-def execute(ingredients:List[str], instructions: List[Instruction])->List[Tuple[int, Dict[str, Set[str]]]]:
+def execute(ingredients: List[str], instructions: List[Instruction]) -> List[Tuple[int, Dict[str, Set[str]]]]:
     state = {res: set() for res in resource_dict}
     ret = []
-    for ts, step in itertools.groupby(instructions, key=lambda a:a.ts):
+    for ts, step in itertools.groupby(instructions, key=lambda a: a.ts):
         for instruction in step:
             if instruction.command in {Commands.PUT, Commands.USE, Commands.CHEF_CHECK}:
-                state[instruction.resource].add(instruction.ingredient)
+                state[instruction.resource].add(instruction.arg)
             elif instruction.command in {Commands.REMOVE, Commands.STOP_USING}:
-                state[instruction.resource].remove(instruction.ingredient)
+                state[instruction.resource].remove(instruction.arg)
             elif instruction.command == Commands.MOVE_CONTENTS:
-                for ing in state[instruction.ingredient]:
+                for ing in state[instruction.arg]:
                     if AssignedTypes.parse(ing) in {AssignedTypes.Ingredient, AssignedTypes.UnlistedIngredient}:
                         state[instruction.resource].add(ing)
-                state[instruction.ingredient]=set()
+                state[instruction.arg] = set()
             else:
                 raise NotImplementedError(instruction.command.name + " is not supported")
         ret.append((ts, deepcopy(state)))

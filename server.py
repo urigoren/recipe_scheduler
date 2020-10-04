@@ -1,5 +1,5 @@
-import sys, json
-
+import sys, json, random
+from datetime import datetime, timedelta
 sys.path.append("src")
 from flask import Flask, request, send_from_directory, render_template, redirect, url_for, jsonify
 import annotation_io
@@ -67,9 +67,26 @@ def simulate(annotation_id=None):
     if 'actions' in request.form:
         submitted_actions = json.loads(request.form.get('actions', '{}'))
         submitted_ingredients = json.loads(request.form.get('ingredients', '{}'))
-        states = instruction_parsing.execute(submitted_ingredients, submitted_actions)
+        submitted_instructions=instruction_parsing.Instruction.from_dicts(submitted_actions)
+        states = instruction_parsing.execute(submitted_ingredients, submitted_instructions)
         # TODO: translate events to UI
-        events = states
+        actions_map = []
+        actions_map.extend([(key,{"text": value, "color": "#ff0000"}) for key, value in read_data.tools.items()])
+        actions_map.extend([(key,{"text": value, "color": "#0000ff"}) for key, value in read_data.implicit_ingredients.items()])
+        actions_map.extend([(key,{"text": value, "color": "#000000"}) for key, value in read_data.time_lengths.items()])
+        actions_map.extend([(value,{"text": key, "color": "#00ff00"}) for key, value in read_data.ingredients_map.items()])
+        actions_map = dict(actions_map)
+        def ui_view(ts, res, item):
+            return {
+                "action": item,
+                "barColor": actions_map[item]["color"],
+                "start": datetime(2020, 1, ts).strftime("%Y-%m-%dT%H:%M:%S"),
+                "end": datetime(2020,1,ts+1).strftime("%Y-%m-%dT%H:%M:%S"),
+                "id": item + ":" + str(random.randint(100000,999999)),
+                "resource": res,
+                "text": actions_map[item]["text"],
+            }
+        events = [ui_view(ts, res, item) for ts, d in states for res, items in d.items() for item in items]
         return render_template("display.html",
                                resources=json.dumps(read_data.resources),
                                events=json.dumps(events),
@@ -84,7 +101,7 @@ def simulate(annotation_id=None):
         derived_actions = instruction_parsing.program(annotation)
         derived_actions = [{
             "ts": a.ts,
-            "arg": a.ingredient,
+            "arg": a.arg,
             "resource": a.resource,
             "command": [c for c in read_data.commands if c["name"] == a.command.name][0]['id'],
             "arg_type": [c for c in read_data.commands if c["name"] == a.command.name][0]['arg_type'],
