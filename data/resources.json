@@ -9,9 +9,9 @@
     },
     {
         "name": "Countertop", "id": "W", "expanded": true, "children": [
-            {"name": "Combine/Mix", "id": "W1"},
+            {"name": "Mix (in a bowl)", "id": "W1"},
             {"name": "Roll/Fold", "id": "W2"},
-            {"name": "Massage/Rub/Knead", "id": "W3"},
+            {"name": "Massage/Rub", "id": "W3"},
             {"name": "Peel/Squeeze", "id": "W4"},
             {"name": "Coat/Sprinkle", "id": "W5"},
             {"name": "Cut/chop", "id": "C1"}
