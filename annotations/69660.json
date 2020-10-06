@@ -1,0 +1,60 @@
+{
+    "ingredients": [
+        "1 tablespoon olive oil",
+        "4 boneless pork chops",
+        "1 (14.5 ounce) can chicken broth",
+        "2 tablespoons soy sauce",
+        "1 tablespoon vinegar",
+        "2 tablespoons brown sugar",
+        "2 tablespoons cornstarch",
+        "1/2 cup pineapple juice"
+    ],
+    "instructions": [
+        "Heat the olive oil in a skillet over medium heat, and brown the pork chops about 5 minutes on each side. Remove chops from the skillet, and set aside.",
+        "Mix the chicken broth, soy sauce and vinegar into the skillet, and bring to a boil. Return the pork chops to the skillet, reduce heat, and simmer 20 minutes. An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C). Remove chops from the skillet, reserving broth mixture, and set aside.",
+        "In a bowl, blend the brown sugar, cornstarch, and pineapple juice. Mix into the skillet with the chicken broth mixture. Bring to a boil. Serve with the cooked pork chops."
+    ],
+    "title": "Pineapple Pork Chops",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/90386.jpg",
+    "url": "http://allrecipes.com/Recipe/69660/",
+    "normalized_ingredients": {
+        "IbpWInzAX": "olive oil",
+        "Iynxt1P5R": "boneless pork chops",
+        "INNbMITPe": "chicken broth",
+        "ILAT-xDbX": "soy sauce",
+        "I6WhEfvid": "vinegar",
+        "IRG-HJdJz": "brown sugar",
+        "Ik1g9zGpa": "cornstarch",
+        "IXPfkJpie": "pineapple juice"
+    },
+    "status": 0,
+    "sentences": [
+        "Heat the olive oil in a skillet over medium heat, and brown the pork chops about 5 minutes on each side.",
+        "Remove chops from the skillet, and set aside.",
+        "Mix the chicken broth, soy sauce and vinegar into the skillet, and bring to a boil.",
+        "Return the pork chops to the skillet, reduce heat, and simmer 20 minutes.",
+        "An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C).",
+        "Remove chops from the skillet, reserving broth mixture, and set aside.",
+        "In a bowl, blend the brown sugar, cornstarch, and pineapple juice.",
+        "Mix into the skillet with the chicken broth mixture.",
+        "Bring to a boil.",
+        "Serve with the cooked pork chops."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

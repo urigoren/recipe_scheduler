@@ -1,0 +1,56 @@
+{
+    "ingredients": [
+        "1 pound ground beef",
+        "1 egg",
+        "1/4 cup dry bread crumbs",
+        "1 onion, diced",
+        "1 cup packed brown sugar",
+        "3 tablespoons all-purpose flour",
+        "1 1/2 cups water",
+        "1/4 cup distilled white vinegar",
+        "3 tablespoons soy sauce"
+    ],
+    "instructions": [
+        "In a medium bowl, combine the ground beef, egg, bread crumbs and onion. Mix thoroughly and shape into golf ball-sized balls.",
+        "In a large skillet over medium heat, gently brown the meatballs and set aside.",
+        "In a large saucepan, combine the brown sugar, flour, water, white vinegar and soy sauce. Mix thoroughly. Add meatballs and bring to a boil. Reduce heat and simmer, stirring often, for 30 minutes."
+    ],
+    "title": "The Best Sweet and Sour Meatballs",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/550246.jpg",
+    "url": "http://allrecipes.com/Recipe/26673/",
+    "normalized_ingredients": {
+        "INzU_lxpu": "ground beef",
+        "IDpMSCH9Y": "egg",
+        "I-XuWYX5K": "dry bread crumbs",
+        "Iz0wiMjVJ": "onion",
+        "IjdeLbzOg": "packed brown sugar",
+        "IW2FkWnJk": "all-purpose flour",
+        "IlGA3C7DK": "water",
+        "IDn93ZNqi": "distilled white vinegar",
+        "ILAT-xDbX": "soy sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "In a medium bowl, combine the ground beef, egg, bread crumbs and onion.",
+        "Mix thoroughly and shape into golf ball-sized balls.",
+        "In a large skillet over medium heat, gently brown the meatballs and set aside.",
+        "In a large saucepan, combine the brown sugar, flour, water, white vinegar and soy sauce.",
+        "Mix thoroughly.",
+        "Add meatballs and bring to a boil.",
+        "Reduce heat and simmer, stirring often, for 30 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

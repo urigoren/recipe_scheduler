@@ -1,0 +1,64 @@
+{
+    "ingredients": [
+        "1/2 cup unsalted butter",
+        "20 mushrooms, stems removed",
+        "1/2 (8 ounce) package shredded Monterey Jack cheese",
+        "1/4 teaspoon garlic powder",
+        "1/8 teaspoon dried thyme",
+        "1/4 cup dry white wine",
+        "2 teaspoons soy sauce",
+        "1/2 cup seasoned dry bread crumbs"
+    ],
+    "instructions": [
+        "Set oven rack about 6 inches from the heat source and preheat the oven's broiler.",
+        "Place butter in a microwave-safe bowl. Heat in the microwave until melted, 30 seconds to 1 minute. Dip the bottom of each mushroom cap in melted butter and place on a rimmed baking sheet.",
+        "Stir Monterey Jack cheese, garlic powder, and thyme into the remaining melted butter. Stir in wine and soy sauce. Add enough bread crumbs to make a wet and sticky mixture.",
+        "Spoon bread crumb mixture into each mushroom cap, mounding it slightly to use up all the filling.",
+        "Broil in the preheated oven until brown and bubbly, 3 to 4 minutes. Cool slightly before serving, about 5 minutes."
+    ],
+    "title": "Happy Hour Mushrooms",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4243524.jpg",
+    "url": "http://allrecipes.com/Recipe/256151/",
+    "normalized_ingredients": {
+        "IXLKVjWtq": "unsalted butter",
+        "IllGAVvjD": "mushrooms",
+        "IZLAtSbir": "shredded Monterey Jack cheese",
+        "IvZ0DqVmo": "garlic powder",
+        "IqDlE93Rd": "dried thyme",
+        "Imz1mQGoq": "dry white wine",
+        "ILAT-xDbX": "soy sauce",
+        "IHyzKrVmO": "seasoned dry bread crumbs"
+    },
+    "status": 0,
+    "sentences": [
+        "Set oven rack about 6 inches from the heat source and preheat the oven's broiler.",
+        "Place butter in a microwave-safe bowl.",
+        "Heat in the microwave until melted, 30 seconds to 1 minute.",
+        "Dip the bottom of each mushroom cap in melted butter and place on a rimmed baking sheet.",
+        "Stir Monterey Jack cheese, garlic powder, and thyme into the remaining melted butter.",
+        "Stir in wine and soy sauce.",
+        "Add enough bread crumbs to make a wet and sticky mixture.",
+        "Spoon bread crumb mixture into each mushroom cap, mounding it slightly to use up all the filling.",
+        "Broil in the preheated oven until brown and bubbly, 3 to 4 minutes.",
+        "Cool slightly before serving, about 5 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

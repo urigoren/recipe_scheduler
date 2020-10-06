@@ -1,0 +1,62 @@
+{
+    "ingredients": [
+        "1/2 cup chopped onion",
+        "3 cups grated zucchini",
+        "1 tablespoon vegetable oil",
+        "1 1/4 cups rolled oats",
+        "1/4 cup shredded low-fat mozzarella cheese",
+        "1/4 cup egg substitute",
+        "1/2 teaspoon dried basil",
+        "7/8 teaspoon ground black pepper",
+        "1/3 cup tomato sauce"
+    ],
+    "instructions": [
+        "Preheat oven to 375 degrees F (190 degrees C).",
+        "Coat an 8x12 inch glass baking dish with vegetable cooking spray.",
+        "In a medium size frying pan saute onion in oil until tender.",
+        "In a medium size mixing bowl combine onion, zucchini, oats, mozzarella cheese, egg, basil or oregano, and pepper. Mix well. Spread mixture into the greased 8x12 inch baking pan. Spread tomato sauce evenly over the top. Bake in the preheated oven for 30 minutes or until heated through."
+    ],
+    "title": "Zucchini Bake",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/94165.jpg",
+    "url": "http://allrecipes.com/Recipe/13992/",
+    "normalized_ingredients": {
+        "Iz0wiMjVJ": "onion",
+        "IcDhRfa2n": "grated zucchini",
+        "I7oUHHY41": "vegetable oil",
+        "IGQuhhosG": "rolled oats",
+        "IKuPfzoaL": "shredded low-fat mozzarella cheese",
+        "ICIg-FVEt": "egg substitute",
+        "IkF0wURa-": "dried basil",
+        "IdlJrAHh2": "ground black pepper",
+        "I-4q8Lxl1": "tomato sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 375 degrees F",
+        "(190 degrees C).",
+        "Coat an 8x12 inch glass baking dish with vegetable cooking spray.",
+        "In a medium size frying pan saute onion in oil until tender.",
+        "In a medium size mixing bowl combine onion, zucchini, oats, mozzarella cheese, egg, basil or oregano, and pepper.",
+        "Mix well.",
+        "Spread mixture into the greased 8x12 inch baking pan.",
+        "Spread tomato sauce evenly over the top.",
+        "Bake in the preheated oven for 30 minutes or until heated through."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

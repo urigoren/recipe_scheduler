@@ -1,0 +1,62 @@
+{
+    "ingredients": [
+        "1 pound lean ground beef",
+        "1 onion, chopped",
+        "1 tablespoon minced garlic",
+        "1 teaspoon ground ginger",
+        "4 cups water",
+        "1 medium head bok choy, chopped",
+        "2 (3 ounce) packages beef flavored ramen noodles",
+        "2 teaspoons vegetable oil",
+        "2 tablespoons soy sauce"
+    ],
+    "instructions": [
+        "Brown meat in a large skillet. Drain off fat, and rinse meat using a colander.",
+        "Transfer meat to a large cooking pot. Stir in onion, garlic, and ginger. Add water, and bring soup to a boil. Stir in bok choy. Reduce heat ,and simmer for about 3 minutes.",
+        "Stir in noodles. Simmer 3 minutes longer, or until bok choy and onions are crisp tender and noodles are soft. Stir in seasoning packets, oil, and soy sauce."
+    ],
+    "title": "Quick Asian Beef Noodle Soup",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1072832.jpg",
+    "url": "http://allrecipes.com/Recipe/13014/",
+    "normalized_ingredients": {
+        "ICVfuQXfd": "lean ground beef",
+        "Iz0wiMjVJ": "onion",
+        "IzPYYTv5e": "garlic",
+        "IAq835ZPT": "ground ginger",
+        "IlGA3C7DK": "water",
+        "IzsiV1F0R": "head bok choy",
+        "IOn63gBWX": "beef flavored ramen noodles",
+        "I7oUHHY41": "vegetable oil",
+        "ILAT-xDbX": "soy sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "Brown meat in a large skillet.",
+        "Drain off fat, and rinse meat using a colander.",
+        "Transfer meat to a large cooking pot.",
+        "Stir in onion, garlic, and ginger.",
+        "Add water, and bring soup to a boil.",
+        "Stir in bok choy.",
+        "Reduce heat ,and simmer for about 3 minutes.",
+        "Stir in noodles.",
+        "Simmer 3 minutes longer, or until bok choy and onions are crisp tender and noodles are soft.",
+        "Stir in seasoning packets, oil, and soy sauce."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "ingredients": [
+        "1/2 cup honey",
+        "1/4 cup soy sauce",
+        "1 tablespoon fresh lemon juice",
+        "1/2 cup sesame seeds",
+        "2 pounds boneless, skinless chicken thighs"
+    ],
+    "instructions": [
+        "Preheat the oven to 350 degrees F (175 degrees C).",
+        "In a medium bowl, stir together the honey, soy sauce, lemon juice and sesame seeds. Dip the pieces of chicken into the sauce to coat, then place in a lightly greased 9x13 inch baking dish.",
+        "Bake for about 45 minutes in the preheated oven, until chicken is cooked through and sauce is caramelized."
+    ],
+    "title": "Sticky Sesame Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/14854.jpg",
+    "url": "http://allrecipes.com/Recipe/100386/",
+    "normalized_ingredients": {
+        "Itg64O_Uz": "honey",
+        "ILAT-xDbX": "soy sauce",
+        "I5wmzk9dU": "lemon juice",
+        "IS0gcu44e": "sesame seeds",
+        "IYkvl3BQC": "boneless"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat the oven to 350 degrees F (175 degrees C).",
+        "In a medium bowl, stir together the honey, soy sauce, lemon juice and sesame seeds.",
+        "Dip the pieces of chicken into the sauce to coat, then place in a lightly greased 9x13 inch baking dish.",
+        "Bake for about 45 minutes in the preheated oven, until chicken is cooked through and sauce is caramelized."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        []
+    ]
+}

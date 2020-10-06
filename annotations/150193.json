@@ -1,0 +1,46 @@
+{
+    "ingredients": [
+        "1 1/2 pounds ground beef chuck",
+        "1/2 cup chopped onion",
+        "1/2 cup brown sugar",
+        "1 beaten egg",
+        "1 (15 ounce) jar chunky salsa",
+        "1 1/2 cups dry bread crumbs"
+    ],
+    "instructions": [
+        "Preheat an oven to 350 degrees F (175 degrees C). Grease a 9x5 inch loaf pan.",
+        "Lightly mix the ground chuck, onion, brown sugar, egg, salsa, and bread crumbs in a bowl, and spoon into the prepared baking dish.",
+        "Bake in the preheated oven for about 45 minutes, until the meatloaf is cooked all the way through and the top is browned. An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C)."
+    ],
+    "title": "Garden Meatloaf",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1090011.jpg",
+    "url": "http://allrecipes.com/Recipe/150193/",
+    "normalized_ingredients": {
+        "IgCwyZcfK": "ground beef chuck",
+        "Iz0wiMjVJ": "onion",
+        "IRG-HJdJz": "brown sugar",
+        "ITXQFx_L9": "beaten egg",
+        "IPxI6mndc": "jar chunky salsa",
+        "I-XuWYX5K": "dry bread crumbs"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat an oven to 350 degrees F (175 degrees C).",
+        "Grease a 9x5 inch loaf pan.",
+        "Lightly mix the ground chuck, onion, brown sugar, egg, salsa, and bread crumbs in a bowl, and spoon into the prepared baking dish.",
+        "Bake in the preheated oven for about 45 minutes, until the meatloaf is cooked all the way through and the top is browned.",
+        "An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C)."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "ingredients": [
+        "2 pounds lean ground beef",
+        "4 (6 ounce) cans tomato paste",
+        "15 ounces dry bread crumbs",
+        "4 eggs",
+        "3 tablespoons garlic salt",
+        "3 tablespoons seasoning salt"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "In a large bowl, combine ground beef, tomato paste, bread crumbs, eggs, garlic salt and seasoning salt until well mixed. Shape into a loaf and place in a 9x5 inch loaf pan.",
+        "Bake in preheated oven 1 hour, until no longer pink."
+    ],
+    "title": "Meatloaf Supreme",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/27056.jpg",
+    "url": "http://allrecipes.com/Recipe/20674/",
+    "normalized_ingredients": {
+        "ICVfuQXfd": "lean ground beef",
+        "INAgcB9lc": "tomato paste",
+        "I-XuWYX5K": "dry bread crumbs",
+        "Iq5LZ-uXu": "eggs",
+        "IOHK_fJm8": "garlic salt",
+        "IubiahnlF": "seasoning salt"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "In a large bowl, combine ground beef, tomato paste, bread crumbs, eggs, garlic salt and seasoning salt until well mixed.",
+        "Shape into a loaf and place in a 9x5 inch loaf pan.",
+        "Bake in preheated oven 1 hour, until no longer pink."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

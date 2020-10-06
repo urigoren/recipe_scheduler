@@ -1,0 +1,48 @@
+{
+    "ingredients": [
+        "5 teaspoons soy sauce",
+        "1 (16 ounce) package frozen Asian veggies",
+        "3 tablespoons peanut butter",
+        "1 pound chicken breast strips",
+        "2 cups orange juice"
+    ],
+    "instructions": [
+        "Add all of your ingredients into a mixing bowl.",
+        "Give them a good stir.",
+        "Place in your crock-pot on medium heat.",
+        "Allow to cook for at least 4 hours and up to 8.",
+        "Serve alone or over rice."
+    ],
+    "title": "Asian Crock Pot",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/140078/",
+    "normalized_ingredients": {
+        "ILAT-xDbX": "soy sauce",
+        "I6gMlqvhK": "frozen Asian veggies",
+        "IEC1R0HRF": "peanut butter",
+        "IVMLCq1Ic": "chicken breast strips",
+        "IjCTxRq3o": "orange juice"
+    },
+    "status": 0,
+    "sentences": [
+        "Add all of your ingredients into a mixing bowl.",
+        "Give them a good stir.",
+        "Place in your crock-pot on medium heat.",
+        "Allow to cook for at least 4 hours and up to 8.",
+        "Serve alone or over rice."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "ingredients": [
+        "4 skinless, boneless chicken breast halves",
+        "6 ounces egg noodles",
+        "1 (10.75 ounce) can condensed cream of mushroom soup",
+        "1 (10.75 ounce) can condensed cream of chicken soup",
+        "1 cup sour cream",
+        "salt to taste",
+        "ground black pepper to taste",
+        "1 cup crumbled buttery round crackers",
+        "1/2 cup butter"
+    ],
+    "instructions": [
+        "Poach chicken in a large pot of simmering water. Cook until no longer pink in center, about 12 minutes. Remove from pot and set aside. Bring chicken cooking water to a boil and cook pasta in it. Drain. Cut chicken into small pieces, and mix with noodles.",
+        "In a separate bowl, mix together mushroom soup, chicken soup, and sour cream. Season with salt and pepper. Gently stir together cream soup mixture with the chicken mixture. Place in a 2 quart baking dish.",
+        "Melt butter in a small saucepan, and remove from heat. Stir in crumbled crackers. Top casserole with the buttery crackers.",
+        "Bake at 350 degrees F (175 degrees C) for about 30 minutes, until heated through and browned on top."
+    ],
+    "title": "Chicken Noodle Casserole I",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/547762.jpg",
+    "url": "http://allrecipes.com/Recipe/11864/",
+    "normalized_ingredients": {
+        "IyzbCHQD4": "skinless",
+        "IkUMHmRZp": "egg noodles",
+        "IlHIgQMc1": "condensed cream of mushroom soup",
+        "IbIjWSJxb": "condensed cream of chicken soup",
+        "IHju9fTVF": "sour cream",
+        "ILk6FOH8U": "salt to taste",
+        "Ivjvhu6Qz": "ground black pepper to taste",
+        "IESMVTrws": "crumbled buttery round crackers",
+        "I10_d4pRP": "butter"
+    },
+    "status": 0,
+    "sentences": [
+        "Poach chicken in a large pot of simmering water.",
+        "Cook until no longer pink in center, about 12 minutes.",
+        "Remove from pot and set aside.",
+        "Bring chicken cooking water to a boil and cook pasta in it.",
+        "Drain.",
+        "Cut chicken into small pieces, and mix with noodles.",
+        "In a separate bowl, mix together mushroom soup, chicken soup, and sour cream.",
+        "Season with salt and pepper.",
+        "Gently stir together cream soup mixture with the chicken mixture.",
+        "Place in a 2 quart baking dish.",
+        "Melt butter in a small saucepan, and remove from heat.",
+        "Stir in crumbled crackers.",
+        "Top casserole with the buttery crackers.",
+        "Bake at 350 degrees F",
+        "(175 degrees C) for about 30 minutes, until heated through and browned on top."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

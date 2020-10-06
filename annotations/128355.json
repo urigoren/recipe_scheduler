@@ -1,0 +1,62 @@
+{
+    "ingredients": [
+        "1/4 cup peanut butter",
+        "2 tablespoons light soy sauce",
+        "2 tablespoons Chinese black vinegar",
+        "2 tablespoons white sugar",
+        "1 tablespoon sesame oil",
+        "10 ounces dried Japanese udon noodles",
+        "20 uncooked large shrimp - peeled, deveined, tails left intact",
+        "1 cup broccoli florets",
+        "1/4 cup chopped roasted peanuts (optional)"
+    ],
+    "instructions": [
+        "In a small bowl, mix together the peanut butter, soy sauce, black vinegar, sugar, and sesame oil. Set aside.",
+        "Bring a large pot of water to a boil. Stir in the udon noodles and cook for 5 minutes. Add the frozen shrimp to the pot of boiling noodles and cook for about 3 minutes, until the shrimp are pink and opaque. Turn the stove off, but do not remove pot from the heat. Stir in the broccoli, cover, and let sit for 2-3 minutes.",
+        "Drain the noodles, broccoli, and shrimp. In a large serving bowl, toss together the noodles, broccoli, shrimp, and the peanut butter sauce. Garnish with chopped peanuts."
+    ],
+    "title": "Shrimp and Peanut Butter Noodles",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3977204.jpg",
+    "url": "http://allrecipes.com/Recipe/128355/",
+    "normalized_ingredients": {
+        "IEC1R0HRF": "peanut butter",
+        "IpQeldaIu": "light soy sauce",
+        "IIe8Lixxn": "Chinese black vinegar",
+        "I6xvdoZzb": "white sugar",
+        "IpyJf3OVq": "sesame oil",
+        "I-GECVZqt": "dried Japanese udon noodles",
+        "IEjNhQcpw": "uncooked large shrimp - peeled, deveined",
+        "IpbSvzodg": "broccoli florets",
+        "IBprpjzZA": "roasted peanuts "
+    },
+    "status": 0,
+    "sentences": [
+        "In a small bowl, mix together the peanut butter, soy sauce, black vinegar, sugar, and sesame oil.",
+        "Set aside.",
+        "Bring a large pot of water to a boil.",
+        "Stir in the udon noodles and cook for 5 minutes.",
+        "Add the frozen shrimp to the pot of boiling noodles and cook for about 3 minutes, until the shrimp are pink and opaque.",
+        "Turn the stove off, but do not remove pot from the heat.",
+        "Stir in the broccoli, cover, and let sit for 2-3 minutes.",
+        "Drain the noodles, broccoli, and shrimp.",
+        "In a large serving bowl, toss together the noodles, broccoli, shrimp, and the peanut butter sauce.",
+        "Garnish with chopped peanuts."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

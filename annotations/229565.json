@@ -1,0 +1,56 @@
+{
+    "ingredients": [
+        "1 cup Italian-seasoned bread crumbs",
+        "1/2 cup grated Parmesan cheese",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon ground black pepper",
+        "1/8 teaspoon garlic powder",
+        "1 egg",
+        "1/4 cup prepared ranch dressing",
+        "1 pound skinless, boneless chicken breasts, cut into 1-inch cubes",
+        "1/4 cup ranch dressing"
+    ],
+    "instructions": [
+        "Preheat oven to 400 degrees F (200 degrees C). Grease an 11x7-inch baking dish.",
+        "Combine bread crumbs, Parmesan cheese, salt, black pepper, and garlic powder in a shallow bowl. Beat egg and 1/4 cup ranch dressing in another shallow bowl; toss chicken in egg mixture until coated. Press chicken into bread crumb mixture and transfer to prepared baking dish.",
+        "Bake in preheated oven until chicken is no long pink in the center and juices run clear, 12 to 15 minutes. Serve with remaining 1/4 cup dressing as dipping sauce."
+    ],
+    "title": "Crixxie's Ranch Chicken Nuggets",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4508419.jpg",
+    "url": "http://allrecipes.com/Recipe/229565/",
+    "normalized_ingredients": {
+        "IwQFskJI4": "Italian-seasoned bread crumbs",
+        "Il1HOfVRG": "grated Parmesan cheese",
+        "IzrIHcuDJ": "salt",
+        "IdlJrAHh2": "ground black pepper",
+        "IvZ0DqVmo": "garlic powder",
+        "IDpMSCH9Y": "egg",
+        "IAmmCgHEn": "prepared ranch dressing",
+        "I7RMBnD2u": "skinless, boneless chicken breasts",
+        "Icx3dFuvF": "ranch dressing"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 400 degrees F (200 degrees C).",
+        "Grease an 11x7-inch baking dish.",
+        "Combine bread crumbs, Parmesan cheese, salt, black pepper, and garlic powder in a shallow bowl.",
+        "Beat egg and 1/4 cup ranch dressing in another shallow bowl; toss chicken in egg mixture until coated.",
+        "Press chicken into bread crumb mixture and transfer to prepared baking dish.",
+        "Bake in preheated oven until chicken is no long pink in the center and juices run clear, 12 to 15 minutes.",
+        "Serve with remaining 1/4 cup dressing as dipping sauce."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "ingredients": [
+        "2 slices wheat bread",
+        "10 ounces ground chicken",
+        "1 Granny Smith apple, grated",
+        "1 onion, grated",
+        "1 egg, beaten",
+        "1 tablespoon soy sauce",
+        "1 tablespoon oyster sauce",
+        "1/4 cup all-purpose flour, or as needed",
+        "cooking spray"
+    ],
+    "instructions": [
+        "Toast bread slices in toaster until hard and golden brown, about 5 minutes. Remove and cool on wire rack until no longer warm to the touch, about 10 minutes.",
+        "Crumble toasted bread slices into a large bowl until reduced to fine crumbs, or place in food processor and process until fine.",
+        "Combine chicken, apple, onion, breadcrumbs, egg, soy sauce, and oyster sauce in a bowl until well mixed.",
+        "Shape mixture into 4 patties. Place flour on a place, coat patties with flour.",
+        "Spray a nonstick skillet with cooking spray, heat to medium. Cook patties until browned on both sides, no longer pink in the center, and juices run clear, about 7 minutes per side. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+    ],
+    "title": "Chicken Patties",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/258657/",
+    "normalized_ingredients": {
+        "IGwUlATYw": "slices wheat bread",
+        "Ilho6-jmz": "ground chicken",
+        "IgOI5fVc8": "Granny Smith apple",
+        "Iz0wiMjVJ": "onion",
+        "IDpMSCH9Y": "egg",
+        "ILAT-xDbX": "soy sauce",
+        "IOa5on4Lh": "oyster sauce",
+        "IW2FkWnJk": "all-purpose flour",
+        "I8O2ccv5M": "cooking spray"
+    },
+    "status": 0,
+    "sentences": [
+        "Toast bread slices in toaster until hard and golden brown, about 5 minutes.",
+        "Remove and cool on wire rack until no longer warm to the touch, about 10 minutes.",
+        "Crumble toasted bread slices into a large bowl until reduced to fine crumbs, or place in food processor and process until fine.",
+        "Combine chicken, apple, onion, breadcrumbs, egg, soy sauce, and oyster sauce in a bowl until well mixed.",
+        "Shape mixture into 4 patties.",
+        "Place flour on a place, coat patties with flour.",
+        "Spray a nonstick skillet with cooking spray, heat to medium.",
+        "Cook patties until browned on both sides, no longer pink in the center, and juices run clear, about 7 minutes per side.",
+        "An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

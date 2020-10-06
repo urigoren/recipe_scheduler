@@ -1,0 +1,50 @@
+{
+    "ingredients": [
+        "3 pounds chicken wings",
+        "2 tablespoons olive oil",
+        "1/2 cup soy sauce",
+        "2 tablespoons ketchup",
+        "1 cup honey",
+        "1 clove garlic, minced",
+        "salt and pepper to taste"
+    ],
+    "instructions": [
+        "Preheat oven to 375 degrees F (190 degrees C).",
+        "Place chicken in a 9x13 inch baking dish. Mix together the oil, soy sauce, ketchup, honey, garlic, salt and pepper. Pour over the chicken.",
+        "Bake in preheated oven for one hour, or until sauce is caramelized."
+    ],
+    "title": "Caramelized Baked Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/432846.jpg",
+    "url": "http://allrecipes.com/Recipe/8614/",
+    "normalized_ingredients": {
+        "Ieg3R-oQ_": "chicken wings",
+        "IbpWInzAX": "olive oil",
+        "ILAT-xDbX": "soy sauce",
+        "IoskwJgPz": "ketchup",
+        "Itg64O_Uz": "honey",
+        "IZHo2eKTZ": "clove garlic",
+        "IKy5ha2qv": "salt and pepper to taste"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 375 degrees F",
+        "(190 degrees C).",
+        "Place chicken in a 9x13 inch baking dish.",
+        "Mix together the oil, soy sauce, ketchup, honey, garlic, salt and pepper.",
+        "Pour over the chicken.",
+        "Bake in preheated oven for one hour, or until sauce is caramelized."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

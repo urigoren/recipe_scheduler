@@ -1,0 +1,58 @@
+{
+    "ingredients": [
+        "4 pork chops",
+        "1 teaspoon salt",
+        "1 teaspoon ground black pepper",
+        "1 cup mayonnaise",
+        "1 cup panko bread crumbs",
+        "1 tablespoon honey",
+        "1 tablespoon dried rosemary"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C). Lightly coat the inside of a baking dish with butter or butter substitute.",
+        "Arrange pork chops in the prepared baking dish; season with salt and pepper. Spread mayonnaise over the tops of each pork chop with a spatula. Sprinkle panko bread crumbs over the mayonnaise. Drizzle honey over the bread crumbs. Season each chop with rosemary.",
+        "Bake pork chops in the preheated oven until no longer pink in the center, about 45 minutes. An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C)."
+    ],
+    "title": "Sweet Smothered Pork Chops",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1499693.jpg",
+    "url": "http://allrecipes.com/Recipe/234255/",
+    "normalized_ingredients": {
+        "Il-vU97ZJ": "pork chops",
+        "IzrIHcuDJ": "salt",
+        "IdlJrAHh2": "ground black pepper",
+        "I0BO-Tu1u": "mayonnaise",
+        "IQKlrrGrv": "panko bread crumbs",
+        "Itg64O_Uz": "honey",
+        "IYcAS3TxO": "dried rosemary"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Lightly coat the inside of a baking dish with butter or butter substitute.",
+        "Arrange pork chops in the prepared baking dish; season with salt and pepper.",
+        "Spread mayonnaise over the tops of each pork chop with a spatula.",
+        "Sprinkle panko bread crumbs over the mayonnaise.",
+        "Drizzle honey over the bread crumbs.",
+        "Season each chop with rosemary.",
+        "Bake pork chops in the preheated oven until no longer pink in the center, about 45 minutes.",
+        "An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C)."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

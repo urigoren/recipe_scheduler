@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "3 pounds skinless, boneless chicken breast halves - cut into 1 inch strips",
+        "3 cups all-purpose flour",
+        "2 teaspoons garlic pepper seasoning",
+        "2 cups buttermilk",
+        "3/4 cup honey barbecue sauce",
+        "2 eggs"
+    ],
+    "instructions": [
+        "Preheat the oven to 350 degrees F (175 degrees F). Spray a baking sheet with nonstick cooking spray.",
+        "In a shallow dish, stir together the flour and garlic pepper. In a separate bowl, whisk together the buttermilk, barbeque sauce, and eggs. Coat chicken with the flour mixture, then dip into the buttermilk mixture. Dip into the flour mixture again. Place chicken strips on the prepared baking sheet.",
+        "Bake for 30 minutes in the preheated oven, or until golden brown on one side. Turn over, and continue to cook until golden on the other side, 20 to 30 minutes."
+    ],
+    "title": "BBQ Fried Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/833892.jpg",
+    "url": "http://allrecipes.com/Recipe/73702/",
+    "normalized_ingredients": {
+        "IyzbCHQD4": "skinless",
+        "IW2FkWnJk": "all-purpose flour",
+        "Izt6MJm6X": "garlic pepper seasoning",
+        "ISeUo6Xf3": "buttermilk",
+        "IvGr2qRc5": "honey barbecue sauce",
+        "Iq5LZ-uXu": "eggs"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat the oven to 350 degrees F (175 degrees F).",
+        "Spray a baking sheet with nonstick cooking spray.",
+        "In a shallow dish, stir together the flour and garlic pepper.",
+        "In a separate bowl, whisk together the buttermilk, barbeque sauce, and eggs.",
+        "Coat chicken with the flour mixture, then dip into the buttermilk mixture.",
+        "Dip into the flour mixture again.",
+        "Place chicken strips on the prepared baking sheet.",
+        "Bake for 30 minutes in the preheated oven, or until golden brown on one side.",
+        "Turn over, and continue to cook until golden on the other side, 20 to 30 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

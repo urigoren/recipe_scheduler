@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "2 pounds lean ground beef",
+        "2 eggs",
+        "1 1/2 cups dry bread crumbs",
+        "1/4 cup ketchup",
+        "1 teaspoon monosodium glutamate (MSG)",
+        "1/2 cup warm water",
+        "1 (1 ounce) package dry onion soup mix",
+        "2 slices bacon",
+        "1 (8 ounce) can tomato sauce"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "In a large bowl combine the beef, eggs, crumbs, ketchup, MSG, water and soup mix. Mix well and spoon mixture into loaf pan. Cover with 2 strips of bacon, then cover with tomato sauce.",
+        "Bake in preheated oven for 1 hour."
+    ],
+    "title": "Ann's Sister's Meatloaf Recipe",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/101268.jpg",
+    "url": "http://allrecipes.com/Recipe/23101/",
+    "normalized_ingredients": {
+        "ICVfuQXfd": "lean ground beef",
+        "Iq5LZ-uXu": "eggs",
+        "I-XuWYX5K": "dry bread crumbs",
+        "IoskwJgPz": "ketchup",
+        "IXaH9DsEy": "monosodium glutamate ",
+        "I9gs_FpDC": "warm water",
+        "I8IdKkoFz": "dry onion soup mix",
+        "IAMCClUjH": "slices bacon",
+        "I-4q8Lxl1": "tomato sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "In a large bowl combine the beef, eggs, crumbs, ketchup, MSG, water and soup mix.",
+        "Mix well and spoon mixture into loaf pan.",
+        "Cover with 2 strips of bacon, then cover with tomato sauce.",
+        "Bake in preheated oven for 1 hour."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "ingredients": [
+        "12 ounces ground lamb",
+        "1 onion, chopped",
+        "2 tablespoons beef broth",
+        "1 teaspoon Worcestershire sauce",
+        "1/4 teaspoon salt, or to taste",
+        "1/4 teaspoon ground black pepper, or to taste",
+        "1 recipe pastry for double-crust pie",
+        "1 egg white, lightly beaten"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "In a large heavy skillet over medium heat, cook lamb until evenly brown; drain excess fat. Remove from heat, and stir in onion, beef broth and Worcestershire sauce. Season with salt and pepper.",
+        "On a lightly floured surface, roll pastry out to 1/8 inch thickness. Cut into 6 inch rounds. Place approximately 1/2 cup filling on one half of each. Fold the pastry over the filling, and crimp edges to seal. Brush lightly with beaten egg white, and cut three slits in the top to allow steam to escape. Place on baking sheet.",
+        "Bake in preheated oven for 30 to 35 minutes, or until golden brown."
+    ],
+    "title": "Forfar Bridies",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3990233.jpg",
+    "url": "http://allrecipes.com/Recipe/46886/",
+    "normalized_ingredients": {
+        "Ig0Bu5gif": "ground lamb",
+        "Iz0wiMjVJ": "onion",
+        "IM1TgK_n-": "beef broth",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "IzrIHcuDJ": "salt",
+        "IdlJrAHh2": "ground black pepper",
+        "I5y1QgJWo": "recipe pastry for double-crust pie",
+        "IEVIMHLF7": "egg white"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "In a large heavy skillet over medium heat, cook lamb until evenly brown; drain excess fat.",
+        "Remove from heat, and stir in onion, beef broth and Worcestershire sauce.",
+        "Season with salt and pepper.",
+        "On a lightly floured surface, roll pastry out to 1/8 inch thickness.",
+        "Cut into 6 inch rounds.",
+        "Place approximately 1/2 cup filling on one half of each.",
+        "Fold the pastry over the filling, and crimp edges to seal.",
+        "Brush lightly with beaten egg white, and cut three slits in the top to allow steam to escape.",
+        "Place on baking sheet.",
+        "Bake in preheated oven for 30 to 35 minutes, or until golden brown."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

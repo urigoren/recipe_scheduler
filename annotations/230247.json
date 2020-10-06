@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "4 (1-inch thick) bone-in pork chops",
+        "1/4 cup real maple syrup",
+        "1/4 cup water",
+        "1/4 cup chopped onion",
+        "1 tablespoon white vinegar",
+        "1 tablespoon Worcestershire sauce",
+        "1/2 teaspoon chili powder",
+        "salt and ground black pepper to taste"
+    ],
+    "instructions": [
+        "Preheat oven to 400 degrees F (200 degrees C).",
+        "Heat a skillet over medium-high heat. Sear the pork chops in the preheated skillet until browned, 2 to 3 minutes per side. Arrange seared chops into a casserole dish.",
+        "Whisk maple syrup, water, onion, vinegar, Worcestershire sauce, chili powder, salt, and pepper together in a bowl to dissolve the chili powder; pour over the pork chops.",
+        "Bake in preheated oven until the chops are no longer pink in the center, about 45 minutes."
+    ],
+    "title": "Easy Maple Pork Chops",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2433300.jpg",
+    "url": "http://allrecipes.com/Recipe/230247/",
+    "normalized_ingredients": {
+        "IxsTsKuL8": "bone-in pork chops",
+        "Iw1rO-H9h": "real maple syrup",
+        "IlGA3C7DK": "water",
+        "Iz0wiMjVJ": "onion",
+        "IUUPU5vsH": "white vinegar",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "Ix4-27vCe": "chili powder",
+        "IukXkN8DV": "salt and ground black pepper to taste"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 400 degrees F (200 degrees C).",
+        "Heat a skillet over medium-high heat.",
+        "Sear the pork chops in the preheated skillet until browned, 2 to 3 minutes per side.",
+        "Arrange seared chops into a casserole dish.",
+        "Whisk maple syrup, water, onion, vinegar, Worcestershire sauce, chili powder, salt, and pepper together in a bowl to dissolve the chili powder; pour over the pork chops.",
+        "Bake in preheated oven until the chops are no longer pink in the center, about 45 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "ingredients": [
+        "1 pound rump roast",
+        "1 cup water",
+        "1/4 cup barbeque sauce",
+        "2 tablespoons honey",
+        "1 tablespoon steak seasoning",
+        "1 teaspoon cumin",
+        "1/2 teaspoon onion powder",
+        "1/2 teaspoon garlic powder"
+    ],
+    "instructions": [
+        "Place the rump roast and water in a slow cooker. Cover, and cook 5 hours on High.",
+        "Remove the roast from slow cooker, and shred using two forks. Discard fat.",
+        "In the slow cooker, mix the barbeque sauce, honey, steak seasoning, cumin, onion powder, and garlic powder. Stir in the shredded beef.",
+        "Cook 1 hour on Low. Allow to sit for 10 minutes before serving."
+    ],
+    "title": "Shredded Beef",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/840014.jpg",
+    "url": "http://allrecipes.com/Recipe/73947/",
+    "normalized_ingredients": {
+        "I4JRvCRpI": "rump roast",
+        "IlGA3C7DK": "water",
+        "IsuMOgFFG": "barbeque sauce",
+        "Itg64O_Uz": "honey",
+        "ILLwNkaWk": "steak seasoning",
+        "ImsfGtL2-": "cumin",
+        "ICQ5epRkS": "onion powder",
+        "IvZ0DqVmo": "garlic powder"
+    },
+    "status": 0,
+    "sentences": [
+        "Place the rump roast and water in a slow cooker.",
+        "Cover, and cook 5 hours on High.",
+        "Remove the roast from slow cooker, and shred using two forks.",
+        "Discard fat.",
+        "In the slow cooker, mix the barbeque sauce, honey, steak seasoning, cumin, onion powder, and garlic powder.",
+        "Stir in the shredded beef.",
+        "Cook 1 hour on Low.",
+        "Allow to sit for 10 minutes before serving."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

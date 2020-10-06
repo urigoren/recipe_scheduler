@@ -1,0 +1,64 @@
+{
+    "ingredients": [
+        "6 cups water",
+        "4 cups uncooked egg noodles",
+        "1 onion, chopped",
+        "1/2 cup sour cream",
+        "1 (10.75 ounce) can condensed cream of chicken soup",
+        "2 cups diced cooked ham",
+        "2 cups shredded Swiss cheese",
+        "salt and pepper to taste",
+        "1/4 cup dry bread crumbs"
+    ],
+    "instructions": [
+        "Preheat an oven to 350 degrees F (175 degrees C). Grease a 2-quart casserole.",
+        "Bring water to a full rolling boil in a pot.. Cook the egg noodles in the boiling water, stirring occasionally, for 3 minutes; remove from heat, cover, and let stand until the noodles are tender, about 10 minutes. Drain.",
+        "Stir the noodles, onion, sour cream, chicken soup, ham, and Swiss cheese together in a large bowl. Season with salt and pepper. Spoon into the prepared casserole. Sprinkle the top with bread crumbs.",
+        "Bake in the preheated oven until the casserole is bubbling and the bread crumbs have browned, about 40 minutes."
+    ],
+    "title": "Ham and Noodle Casserole",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1019699.jpg",
+    "url": "http://allrecipes.com/Recipe/214046/",
+    "normalized_ingredients": {
+        "IlGA3C7DK": "water",
+        "IXxA92DUf": "uncooked egg noodles",
+        "Iz0wiMjVJ": "onion",
+        "IHju9fTVF": "sour cream",
+        "IbIjWSJxb": "condensed cream of chicken soup",
+        "IsMx2tbU3": "diced cooked ham",
+        "I9zaUaU1F": "shredded Swiss cheese",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "I-XuWYX5K": "dry bread crumbs"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat an oven to 350 degrees F (175 degrees C).",
+        "Grease a 2-quart casserole.",
+        "Bring water to a full rolling boil in a pot..",
+        "Cook the egg noodles in the boiling water, stirring occasionally, for 3 minutes; remove from heat, cover, and let stand until the noodles are tender, about 10 minutes.",
+        "Drain.",
+        "Stir the noodles, onion, sour cream, chicken soup, ham, and Swiss cheese together in a large bowl.",
+        "Season with salt and pepper.",
+        "Spoon into the prepared casserole.",
+        "Sprinkle the top with bread crumbs.",
+        "Bake in the preheated oven until the casserole is bubbling and the bread crumbs have browned, about 40 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

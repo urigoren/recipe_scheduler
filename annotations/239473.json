@@ -1,0 +1,62 @@
+{
+    "ingredients": [
+        "1/4 cup honey",
+        "2 tablespoons sesame oil",
+        "2 tablespoons reduced-sodium soy sauce",
+        "1 tablespoon chopped fresh ginger",
+        "2 cloves garlic, minced",
+        "2 1/2 pounds chicken wings",
+        "1 tablespoon toasted sesame seeds",
+        "3 scallions (green onions), chopped"
+    ],
+    "instructions": [
+        "Preheat oven to 375 degrees F (190 degrees C). Line a baking sheet with aluminum foil.",
+        "Whisk honey, sesame oil, soy sauce, ginger, and garlic together in a small bowl.",
+        "Arrange chicken wings on prepared baking sheet.",
+        "Bake chicken in the preheated oven for 45 minutes. Brush 1/2 of the honey mixture over the wings; bake for 10 minutes. Brush remaining sauce over wings, sprinkle sesame seeds over the top, and bake wings until no longer pink at the bone and juices run clear, about 5 minutes more. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C). Garnish wings with scallions."
+    ],
+    "title": "Honey Sesame Wings",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1850619.jpg",
+    "url": "http://allrecipes.com/Recipe/239473/",
+    "normalized_ingredients": {
+        "Itg64O_Uz": "honey",
+        "IpyJf3OVq": "sesame oil",
+        "IfK0MFefK": "reduced-sodium soy sauce",
+        "IB3RMMJmP": "fresh ginger",
+        "IXclyBsV3": "cloves garlic",
+        "Ieg3R-oQ_": "chicken wings",
+        "Ih0hBJZ72": "toasted sesame seeds",
+        "IqHoFJ7--": "scallions "
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 375 degrees F",
+        "(190 degrees C).",
+        "Line a baking sheet with aluminum foil.",
+        "Whisk honey, sesame oil, soy sauce, ginger, and garlic together in a small bowl.",
+        "Arrange chicken wings on prepared baking sheet.",
+        "Bake chicken in the preheated oven for 45 minutes.",
+        "Brush 1/2 of the honey mixture over the wings; bake for 10 minutes.",
+        "Brush remaining sauce over wings, sprinkle sesame seeds over the top, and bake wings until no longer pink at the bone and juices run clear, about 5 minutes more.",
+        "An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C).",
+        "Garnish wings with scallions."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

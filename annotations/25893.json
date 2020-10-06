@@ -1,0 +1,58 @@
+{
+    "ingredients": [
+        "1 (16 ounce) package frozen, chopped carrots",
+        "1/2 cup light cream",
+        "3 1/2 tablespoons prepared horseradish",
+        "1 tablespoon grated onion",
+        "1 cup mayonnaise",
+        "1 teaspoon salt",
+        "1/4 teaspoon black pepper",
+        "1/4 cup melted butter",
+        "1/2 cup crushed corn flake cereal"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C). Place carrots in a 9x13 inch baking dish.",
+        "In a medium bowl combine cream, horseradish, onion, mayonnaise, salt and pepper. Pour mixture over carrots.",
+        "Combine melted butter and corn flakes; sprinkle over carrots.",
+        "Bake in preheated oven for 15 to 20 minutes, or until heated through."
+    ],
+    "title": "Baked Zesty Carrots",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3027065.jpg",
+    "url": "http://allrecipes.com/Recipe/25893/",
+    "normalized_ingredients": {
+        "IcoWNGvPF": "frozen",
+        "IYnIBJAmA": "light cream",
+        "I2PVNqHWY": "prepared horseradish",
+        "IViUyCjg8": "grated onion",
+        "I0BO-Tu1u": "mayonnaise",
+        "IzrIHcuDJ": "salt",
+        "IwJejnQkl": "black pepper",
+        "Ixfk1PTD9": "melted butter",
+        "IZzJzdPnI": "crushed corn flake cereal"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Place carrots in a 9x13 inch baking dish.",
+        "In a medium bowl combine cream, horseradish, onion, mayonnaise, salt and pepper.",
+        "Pour mixture over carrots.",
+        "Combine melted butter and corn flakes; sprinkle over carrots.",
+        "Bake in preheated oven for 15 to 20 minutes, or until heated through."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

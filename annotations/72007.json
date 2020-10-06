@@ -1,0 +1,52 @@
+{
+    "ingredients": [
+        "1/2 cup soy sauce",
+        "1/4 cup brown sugar",
+        "2 tablespoons lemon juice",
+        "1 tablespoon vegetable oil",
+        "1/2 teaspoon ground ginger",
+        "1/8 teaspoon garlic powder",
+        "6 boneless pork chops"
+    ],
+    "instructions": [
+        "In a bowl, mix the soy sauce, brown sugar, lemon juice, vegetable oil, ginger, and garlic powder. Set aside some of the mixture in a separate bowl for marinating during cooking. Pierce the pork chops on both sides with a fork, place in a large resealable plastic bag, and cover with the remaining marinade mixture. Refrigerate 6 to 8 hours.",
+        "Preheat the grill for high heat.",
+        "Lightly oil the grill grate. Discard marinade, and grill pork chops 6 to 8 minutes per side, or to desired doneness, marinating often with the reserved portion of the marinade."
+    ],
+    "title": "Chinese Pork Chops",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2219717.jpg",
+    "url": "http://allrecipes.com/Recipe/72007/",
+    "normalized_ingredients": {
+        "ILAT-xDbX": "soy sauce",
+        "IRG-HJdJz": "brown sugar",
+        "I5wmzk9dU": "lemon juice",
+        "I7oUHHY41": "vegetable oil",
+        "IAq835ZPT": "ground ginger",
+        "IvZ0DqVmo": "garlic powder",
+        "Iynxt1P5R": "boneless pork chops"
+    },
+    "status": 0,
+    "sentences": [
+        "In a bowl, mix the soy sauce, brown sugar, lemon juice, vegetable oil, ginger, and garlic powder.",
+        "Set aside some of the mixture in a separate bowl for marinating during cooking.",
+        "Pierce the pork chops on both sides with a fork, place in a large resealable plastic bag, and cover with the remaining marinade mixture.",
+        "Refrigerate 6 to 8 hours.",
+        "Preheat the grill for high heat.",
+        "Lightly oil the grill grate.",
+        "Discard marinade, and grill pork chops 6 to 8 minutes per side, or to desired doneness, marinating often with the reserved portion of the marinade."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

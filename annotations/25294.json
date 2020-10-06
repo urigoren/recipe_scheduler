@@ -1,0 +1,50 @@
+{
+    "ingredients": [
+        "1 acorn squash, halved and seeded",
+        "4 tablespoons butter, divided",
+        "4 tablespoons brown sugar, divided",
+        "2 cups dry bread stuffing mix, divided",
+        "1 1/2 cups chicken broth, divided",
+        "salt and pepper to taste",
+        "garlic powder to taste",
+        "onion powder to taste"
+    ],
+    "instructions": [
+        "Preheat oven to 400 degrees F (200 degrees C).",
+        "Place squash, face up, in a shallow baking dish. In each half place 2 tablespoons butter, 2 tablespoons brown sugar, 1 cup stuffing mix, 3/4 cup chicken broth, salt, pepper, garlic powder and onion powder. Wrap each half tightly with aluminum foil.",
+        "Bake in preheated oven for 60 minutes, or until squash is very tender."
+    ],
+    "title": "Stuffed Acorn Squash",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/799184.jpg",
+    "url": "http://allrecipes.com/Recipe/25294/",
+    "normalized_ingredients": {
+        "ISwsZjAdO": "acorn squash",
+        "I10_d4pRP": "butter",
+        "IRG-HJdJz": "brown sugar",
+        "Iradv2wyT": "dry bread stuffing mix",
+        "INNbMITPe": "chicken broth",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "ICd58rwxC": "garlic powder to taste",
+        "IyABiIj7H": "onion powder to taste"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 400 degrees F (200 degrees C).",
+        "Place squash, face up, in a shallow baking dish.",
+        "In each half place 2 tablespoons butter, 2 tablespoons brown sugar, 1 cup stuffing mix, 3/4 cup chicken broth, salt, pepper, garlic powder and onion powder.",
+        "Wrap each half tightly with aluminum foil.",
+        "Bake in preheated oven for 60 minutes, or until squash is very tender."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

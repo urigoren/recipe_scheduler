@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "3 ounces roasted, salted peanuts",
+        "2 tablespoons canola oil",
+        "1 tablespoon Asian (toasted) sesame oil",
+        "1 teaspoon hot chili oil",
+        "2 tablespoons soy sauce",
+        "4 teaspoons fresh lime juice",
+        "1 tablespoon white sugar, or to taste",
+        "1 teaspoon Asian chili garlic sauce, or to taste"
+    ],
+    "instructions": [
+        "Preheat an oven to 350 degrees F (175 degrees C).",
+        "Pour the peanuts onto a dry baking sheet in a single layer, and break the whole nuts apart into halves. Toast the peanuts until they are fragrant and slightly darker in color, 7 to 10 minutes, watching carefully so they don't burn.",
+        "Remove peanuts from the oven, let cool, and place in the work bowl of a food processor. Pulse 2 or 3 times to chop them finely, then add the canola oil, toasted sesame oil, hot chili oil, soy sauce, lime juice, sugar, and chili garlic sauce. Process until the mixture is a fine paste with a little texture of chopped peanuts, not a totally smooth paste. The sauce should look a little grainy."
+    ],
+    "title": "Todd's Famous Thai Peanut Sauce",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/661556.jpg",
+    "url": "http://allrecipes.com/Recipe/202421/",
+    "normalized_ingredients": {
+        "IfpkWJT6O": "roasted",
+        "It3BrYOoh": "canola oil",
+        "INqPjJbiZ": "Asian  sesame oil",
+        "Ir8ZXrkN3": "hot chili oil",
+        "ILAT-xDbX": "soy sauce",
+        "IW1qYXIte": "lime juice",
+        "I6xvdoZzb": "white sugar",
+        "IF0d0bCjp": "Asian chili garlic sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat an oven to 350 degrees F (175 degrees C).",
+        "Pour the peanuts onto a dry baking sheet in a single layer, and break the whole nuts apart into halves.",
+        "Toast the peanuts until they are fragrant and slightly darker in color, 7 to 10 minutes, watching carefully so they don't burn.",
+        "Remove peanuts from the oven, let cool, and place in the work bowl of a food processor.",
+        "Pulse 2 or 3 times to chop them finely, then add the canola oil, toasted sesame oil, hot chili oil, soy sauce, lime juice, sugar, and chili garlic sauce.",
+        "Process until the mixture is a fine paste with a little texture of chopped peanuts, not a totally smooth paste.",
+        "The sauce should look a little grainy."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

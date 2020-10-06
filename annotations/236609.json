@@ -1,0 +1,42 @@
+{
+    "ingredients": [
+        "4 skinless, boneless chicken thighs",
+        "1/2 cup soy sauce",
+        "1/2 cup ketchup",
+        "1/3 cup honey",
+        "3 cloves garlic, minced",
+        "1 teaspoon dried basil"
+    ],
+    "instructions": [
+        "Lay chicken thighs into the bottom of a 4-quart slow cooker.",
+        "Whisk soy sauce, ketchup, honey, garlic, and basil together in a bowl; pour over the chicken.",
+        "Cook on Low for 6 hours."
+    ],
+    "title": "Honey-Garlic Slow Cooker Chicken Thighs",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1411947.jpg",
+    "url": "http://allrecipes.com/Recipe/236609/",
+    "normalized_ingredients": {
+        "IyzbCHQD4": "skinless",
+        "ILAT-xDbX": "soy sauce",
+        "IoskwJgPz": "ketchup",
+        "Itg64O_Uz": "honey",
+        "IXclyBsV3": "cloves garlic",
+        "IkF0wURa-": "dried basil"
+    },
+    "status": 0,
+    "sentences": [
+        "Lay chicken thighs into the bottom of a 4-quart slow cooker.",
+        "Whisk soy sauce, ketchup, honey, garlic, and basil together in a bowl; pour over the chicken.",
+        "Cook on Low for 6 hours."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        []
+    ]
+}

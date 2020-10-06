@@ -1,0 +1,52 @@
+{
+    "ingredients": [
+        "4 skinless, boneless chicken breasts",
+        "1 tablespoon vegetable oil",
+        "1/2 cup sliced onion",
+        "2 cups broccoli florets",
+        "2 carrots, julienned",
+        "2 cups snow peas",
+        "4 cups dry Chinese noodles",
+        "1/4 cup teriyaki sauce"
+    ],
+    "instructions": [
+        "In a large skillet brown chicken in oil, stirring constantly until juices run clear.",
+        "Add the onion, broccoli, carrots and peas. Cover skillet and steam for 2 minutes.",
+        "Add the Chinese noodles and teriyaki sauce. Stir noodles into chicken/vegetable mixture, making sure they are coated with sauce. When the noodles wilt, serve."
+    ],
+    "title": "Chinese Noodle Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2321024.jpg",
+    "url": "http://allrecipes.com/Recipe/8859/",
+    "normalized_ingredients": {
+        "IyzbCHQD4": "skinless",
+        "I7oUHHY41": "vegetable oil",
+        "Iz0wiMjVJ": "onion",
+        "IpbSvzodg": "broccoli florets",
+        "IGGqLcv5p": "carrots",
+        "ILLVOj855": "snow peas",
+        "IWesrN5nN": "dry Chinese noodles",
+        "IAp_oYIYQ": "teriyaki sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "In a large skillet brown chicken in oil, stirring constantly until juices run clear.",
+        "Add the onion, broccoli, carrots and peas.",
+        "Cover skillet and steam for 2 minutes.",
+        "Add the Chinese noodles and teriyaki sauce.",
+        "Stir noodles into chicken/vegetable mixture, making sure they are coated with sauce.",
+        "When the noodles wilt, serve."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

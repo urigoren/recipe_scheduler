@@ -1,0 +1,66 @@
+{
+    "ingredients": [
+        "1 1/2 pounds lean ground beef",
+        "1/2 teaspoon seasoned meat tenderizer",
+        "salt and pepper to taste",
+        "2 teaspoons butter",
+        "2 (4 ounce) cans sliced mushrooms, drained",
+        "2 tablespoons soy sauce",
+        "4 slices Swiss cheese",
+        "6 hamburger buns"
+    ],
+    "instructions": [
+        "Prepare a grill for medium heat. Lightly oil the grate.",
+        "Divide the ground beef into 6 patties. Season with meat tenderizer, salt and pepper. Set aside.",
+        "Melt the butter in a skillet over medium heat. Add the mushrooms and soy sauce; cook and stir until browned. Set aside and keep warm.",
+        "Grill the patties for about 6 minutes per side, or until cooked through. Divide the mushroom mixture evenly amongst the burgers and top each one with a slice of Swiss cheese. Cover the grill for about 1 minute to allow the cheese to melt. Remove from the grill and serve on hamburger buns."
+    ],
+    "title": "Grilled Mushroom Swiss Burgers",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/752223.jpg",
+    "url": "http://allrecipes.com/Recipe/36058/",
+    "normalized_ingredients": {
+        "ICVfuQXfd": "lean ground beef",
+        "ITRBwegVK": "seasoned meat tenderizer",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "I10_d4pRP": "butter",
+        "IllGAVvjD": "mushrooms",
+        "ILAT-xDbX": "soy sauce",
+        "Itgv7hYda": "slices Swiss cheese",
+        "IajEjqfYM": "hamburger buns"
+    },
+    "status": 0,
+    "sentences": [
+        "Prepare a grill for medium heat.",
+        "Lightly oil the grate.",
+        "Divide the ground beef into 6 patties.",
+        "Season with meat tenderizer, salt and pepper.",
+        "Set aside.",
+        "Melt the butter in a skillet over medium heat.",
+        "Add the mushrooms and soy sauce; cook and stir until browned.",
+        "Set aside and keep warm.",
+        "Grill the patties for about 6 minutes per side, or until cooked through.",
+        "Divide the mushroom mixture evenly amongst the burgers and top each one with a slice of Swiss cheese.",
+        "Cover the grill for about 1 minute to allow the cheese to melt.",
+        "Remove from the grill and serve on hamburger buns."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

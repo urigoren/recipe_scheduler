@@ -1,0 +1,50 @@
+{
+    "ingredients": [
+        "1/8 cup butter",
+        "1/2 cup mayonnaise",
+        "2 tablespoons prepared mustard",
+        "8 skinless, boneless chicken breast halves",
+        "salt and pepper to taste",
+        "1 (16 ounce) package herb-seasoned dry bread stuffing mix"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Melt butter/margarine and mix in a small bowl with mayonnaise and mustard. Pour mixture into a shallow bowl or plate.",
+        "Season chicken with salt and pepper to taste. Roll seasoned chicken breasts in mayonnaise mixture, then dip in mixed herbs and place in a lightly greased 9x13 inch baking dish. Bake in the preheated oven for 1 1/2 hours."
+    ],
+    "title": "Easy Deviled Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/463162.jpg",
+    "url": "http://allrecipes.com/Recipe/8917/",
+    "normalized_ingredients": {
+        "I10_d4pRP": "butter",
+        "I0BO-Tu1u": "mayonnaise",
+        "IF59D7FK9": "prepared mustard",
+        "IyzbCHQD4": "skinless",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "IwWoxSApG": "herb-seasoned dry bread stuffing mix"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Melt butter/margarine and mix in a small bowl with mayonnaise and mustard.",
+        "Pour mixture into a shallow bowl or plate.",
+        "Season chicken with salt and pepper to taste.",
+        "Roll seasoned chicken breasts in mayonnaise mixture, then dip in mixed herbs and place in a lightly greased 9x13 inch baking dish.",
+        "Bake in the preheated oven for 1 1/2 hours."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

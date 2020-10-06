@@ -1,0 +1,52 @@
+{
+    "ingredients": [
+        "4 slices rye bread",
+        "2 tablespoons extra-virgin olive oil",
+        "4 teaspoons mayonnaise",
+        "4 teaspoons hot chicken wing sauce",
+        "2 slices Swiss cheese",
+        "1/2 cup sauerkraut",
+        "8 slices deli turkey"
+    ],
+    "instructions": [
+        "Preheat a large skillet over medium heat.",
+        "Lightly coat one side of each slice of bread with olive oil; lay out the slices, oiled side down, on a plate. Spread 1 teaspoon mayonnaise and 1 teaspoon of hot sauce on each slice. Top two of the slices of bread with a slice of Swiss cheese and 1/4 cup of sauerkraut. Arrange the turkey on the other two slices of bread. Bring the two halves together.",
+        "Fry the sandwiches in the preheated skillet until the bread is golden brown on both sides and the cheese has melted."
+    ],
+    "title": "Grilled Turkey Reubens",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/733850.jpg",
+    "url": "http://allrecipes.com/Recipe/132350/",
+    "normalized_ingredients": {
+        "Is4x9sPcR": "slices rye bread",
+        "IThF37rzr": "extra-virgin olive oil",
+        "I0BO-Tu1u": "mayonnaise",
+        "IOz3xXq64": "hot chicken wing sauce",
+        "Itgv7hYda": "slices Swiss cheese",
+        "IUjgc7znv": "sauerkraut",
+        "ILTrYfcG-": "slices deli turkey"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat a large skillet over medium heat.",
+        "Lightly coat one side of each slice of bread with olive oil; lay out the slices, oiled side down, on a plate.",
+        "Spread 1 teaspoon mayonnaise and 1 teaspoon of hot sauce on each slice.",
+        "Top two of the slices of bread with a slice of Swiss cheese and 1/4 cup of sauerkraut.",
+        "Arrange the turkey on the other two slices of bread.",
+        "Bring the two halves together.",
+        "Fry the sandwiches in the preheated skillet until the bread is golden brown on both sides and the cheese has melted."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "ingredients": [
+        "1 1/2 pounds lean ground beef",
+        "1/4 cup chopped onion",
+        "1/4 teaspoon ground black pepper",
+        "2/3 cup barbeque sauce",
+        "1/4 cup diced dill pickles",
+        "1 teaspoon Worcestershire sauce",
+        "2 (15 ounce) cans pork and beans"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C)",
+        "In a large skillet or saucepan, brown ground beef and onion together with pepper, and drain well.",
+        "In a large casserole dish, combine beef mixture, barbeque sauce, pickles, Worcestershire sauce, and pork and beans. Cover with lid or foil, and bake in preheated oven for 40 to 45 minutes, until hot and bubbly. If you prefer, you can place the mixture in a slow cooker at high heat, and simmer for 1 hour, or until hot."
+    ],
+    "title": "Becca's Barbequed Beans",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/946700.jpg",
+    "url": "http://allrecipes.com/Recipe/18886/",
+    "normalized_ingredients": {
+        "ICVfuQXfd": "lean ground beef",
+        "Iz0wiMjVJ": "onion",
+        "IdlJrAHh2": "ground black pepper",
+        "IsuMOgFFG": "barbeque sauce",
+        "I7ZNzR1qk": "diced dill pickles",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "IdqnJwNSJ": "pork and beans"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F (175 degrees C)",
+        "In a large skillet or saucepan, brown ground beef and onion together with pepper, and drain well.",
+        "In a large casserole dish, combine beef mixture, barbeque sauce, pickles, Worcestershire sauce, and pork and beans.",
+        "Cover with lid or foil, and bake in preheated oven for 40 to 45 minutes, until hot and bubbly.",
+        "If you prefer, you can place the mixture in a slow cooker at high heat, and simmer for 1 hour, or until hot."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

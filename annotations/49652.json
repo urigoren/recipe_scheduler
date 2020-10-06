@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "4 slices bacon",
+        "1 pound beef liver, sliced into thin strips",
+        "1/2 cup all-purpose flour",
+        "salt and pepper to taste",
+        "1 (10.5 ounce) can condensed French onion soup",
+        "1/4 cup tomato-based chili sauce"
+    ],
+    "instructions": [
+        "In a large skillet over medium heat, fry bacon until browned and crisp. Remove from pan, cool and crumble. Keep the grease in the pan.",
+        "Dredge the liver slices in flour seasoned with salt and pepper. Fry liver in the bacon drippings over medium-high heat until browned on the outside. In a small bowl, mix together the French onion soup and chili sauce. Pour the mixture over the liver, cover, reduce heat to low, and simmer for 15 minutes stirring occasionally until tender. Remove lid, and continue cooking liver to desired doneness.",
+        "Serve liver and sauce topped with crumbled bacon."
+    ],
+    "title": "Chili Liver",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4502913.jpg",
+    "url": "http://allrecipes.com/Recipe/49652/",
+    "normalized_ingredients": {
+        "IAMCClUjH": "slices bacon",
+        "IMtwvqIc3": "beef liver",
+        "IW2FkWnJk": "all-purpose flour",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "IaCt_1nQK": "condensed French onion soup",
+        "IxuFn2ZfJ": "tomato-based chili sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "In a large skillet over medium heat, fry bacon until browned and crisp.",
+        "Remove from pan, cool and crumble.",
+        "Keep the grease in the pan.",
+        "Dredge the liver slices in flour seasoned with salt and pepper.",
+        "Fry liver in the bacon drippings over medium-high heat until browned on the outside.",
+        "In a small bowl, mix together the French onion soup and chili sauce.",
+        "Pour the mixture over the liver, cover, reduce heat to low, and simmer for 15 minutes stirring occasionally until tender.",
+        "Remove lid, and continue cooking liver to desired doneness.",
+        "Serve liver and sauce topped with crumbled bacon."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

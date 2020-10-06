@@ -1,0 +1,50 @@
+{
+    "ingredients": [
+        "1 1/2 pounds lean ground beef",
+        "3/4 cup crumbled blue cheese",
+        "1/2 cup diced onion",
+        "1/2 cup Italian bread crumbs",
+        "1/2 cup chopped fresh spinach",
+        "2 eggs",
+        "2 tablespoons Worcestershire sauce"
+    ],
+    "instructions": [
+        "Preheat an oven to 375 degrees F (190 degrees C). Grease a large muffin pan with cooking spray.",
+        "Combine ground beef, blue cheese, onion, bread crumbs, spinach, eggs, and Worcestershire sauce in a large bowl until well blended. Divide meat mixture evenly into the prepared muffin pan.",
+        "Bake in the preheated oven until no longer pink in the center, about 30 minutes. An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C)."
+    ],
+    "title": "Blue Cheese, Spinach Meat Loaf Muffins",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/786473.jpg",
+    "url": "http://allrecipes.com/Recipe/217151/",
+    "normalized_ingredients": {
+        "ICVfuQXfd": "lean ground beef",
+        "I_VWQsIyL": "crumbled blue cheese",
+        "IGB20k1ns": "diced onion",
+        "IPzzQItmI": "Italian bread crumbs",
+        "If3hLPItG": "fresh spinach",
+        "Iq5LZ-uXu": "eggs",
+        "Ih0sQOBSE": "Worcestershire sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat an oven to 375 degrees F (190 degrees C).",
+        "Grease a large muffin pan with cooking spray.",
+        "Combine ground beef, blue cheese, onion, bread crumbs, spinach, eggs, and Worcestershire sauce in a large bowl until well blended.",
+        "Divide meat mixture evenly into the prepared muffin pan.",
+        "Bake in the preheated oven until no longer pink in the center, about 30 minutes.",
+        "An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C)."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

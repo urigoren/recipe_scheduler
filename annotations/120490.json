@@ -1,0 +1,52 @@
+{
+    "ingredients": [
+        "6 1/2 cups uncooked wide egg noodles",
+        "3 tablespoons butter",
+        "1 1/2 pounds ground beef",
+        "2 1/4 cups spaghetti sauce",
+        "6 ounces process cheese (eg. Velveeta), cubed",
+        "3 cups shredded mozzarella cheese"
+    ],
+    "instructions": [
+        "Cook noodles according to package directions; drain. Add butter; toss to coat.",
+        "In a large skillet, cook beef over medium heat until no longer pink; drain. Spread a fourth of the spaghetti sauce into an ungreased 5-qt. slow cooker. Layer with a third of the noodles, a third of the beef, a third of the remaining sauce and a third of the cheeses. Repeat layers twice.",
+        "Cover and cook on low for 4 hours or until cheese is melted and lasagna is heated through."
+    ],
+    "title": "Egg Noodle Lasagna",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/107291.jpg",
+    "url": "http://allrecipes.com/Recipe/120490/",
+    "normalized_ingredients": {
+        "Inn2g6Qce": "uncooked wide egg noodles",
+        "I10_d4pRP": "butter",
+        "INzU_lxpu": "ground beef",
+        "IAT13MxJh": "spaghetti sauce",
+        "IOxp1ENxF": "process cheese ",
+        "I6xndLv-L": "shredded mozzarella cheese"
+    },
+    "status": 0,
+    "sentences": [
+        "Cook noodles according to package directions; drain.",
+        "Add butter; toss to coat.",
+        "In a large skillet, cook beef over medium heat until no longer pink; drain.",
+        "Spread a fourth of the spaghetti sauce into an ungreased 5-qt.",
+        "slow cooker.",
+        "Layer with a third of the noodles, a third of the beef, a third of the remaining sauce and a third of the cheeses.",
+        "Repeat layers twice.",
+        "Cover and cook on low for 4 hours or until cheese is melted and lasagna is heated through."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

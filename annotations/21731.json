@@ -1,0 +1,52 @@
+{
+    "ingredients": [
+        "1 pound ground smoked ham",
+        "3/4 pound ground pork",
+        "2 eggs",
+        "1 cup dry bread crumbs",
+        "1/4 cup brown sugar",
+        "1 tablespoon prepared mustard",
+        "1 teaspoon soy sauce"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Mix ham, ground pork, eggs, and bread crumbs in a bowl. Mix in enough bread crumbs to make it all stick together. Put in a loaf pan and bake for about 1 hour to 1 1/2 hours. Glaze the last 15 minutes of baking.",
+        "To make glaze: Mix brown sugar, mustard and soy sauce together in a bowl."
+    ],
+    "title": "Ham Loaf II",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1347785.jpg",
+    "url": "http://allrecipes.com/Recipe/21731/",
+    "normalized_ingredients": {
+        "Iv_L3i2qL": "ground smoked ham",
+        "IjCtMJWsl": "ground pork",
+        "Iq5LZ-uXu": "eggs",
+        "I-XuWYX5K": "dry bread crumbs",
+        "IRG-HJdJz": "brown sugar",
+        "IF59D7FK9": "prepared mustard",
+        "ILAT-xDbX": "soy sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Mix ham, ground pork, eggs, and bread crumbs in a bowl.",
+        "Mix in enough bread crumbs to make it all stick together.",
+        "Put in a loaf pan and bake for about 1 hour to 1 1/2 hours.",
+        "Glaze the last 15 minutes of baking.",
+        "To make glaze: Mix brown sugar, mustard and soy sauce together in a bowl."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

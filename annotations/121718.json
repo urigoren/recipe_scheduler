@@ -1,0 +1,64 @@
+{
+    "ingredients": [
+        "1 (6 ounce) package corn bread stuffing mix",
+        "2 eggs, beaten",
+        "1 (4 ounce) can mushroom stems and pieces, drained",
+        "2 teaspoons garlic powder",
+        "3 pounds lean ground beef",
+        "2 (4 ounce) cans chopped green chilies",
+        "1/4 cup shredded Cheddar cheese",
+        "1/4 cup salsa"
+    ],
+    "instructions": [
+        "In a large bowl, prepare the corn bread stuffing according to package directions. Add eggs, mushrooms and garlic powder. Crumble beef over mixture and mix well.",
+        "Shape into a loaf in a greased 13-in. x 9-in. x 2-in. baking dish. Bake, uncovered, at 350 degrees F for 1-1/4 hours; drain. Top with chilies. Cover and bake 20 minutes longer or until meat is no longer pink and a meat thermometer reads 160 degrees F.",
+        "Sprinkle with cheese and top with salsa. Bake, uncovered, for 5-10 minutes or until cheese is melted."
+    ],
+    "title": "Firemen's Meat Loaf",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/468065.jpg",
+    "url": "http://allrecipes.com/Recipe/121718/",
+    "normalized_ingredients": {
+        "IkMjQzEsw": "corn bread stuffing mix",
+        "Iq5LZ-uXu": "eggs",
+        "IK5ZJkWOy": "mushroom stems and pieces",
+        "IvZ0DqVmo": "garlic powder",
+        "ICVfuQXfd": "lean ground beef",
+        "IVZYL_2gv": "green chilies",
+        "IIa_cno7K": "shredded Cheddar cheese",
+        "IAUPB6Ol9": "salsa"
+    },
+    "status": 0,
+    "sentences": [
+        "In a large bowl, prepare the corn bread stuffing according to package directions.",
+        "Add eggs, mushrooms and garlic powder.",
+        "Crumble beef over mixture and mix well.",
+        "Shape into a loaf in a greased 13-in.",
+        "x 9-in.",
+        "x 2-in.",
+        "baking dish.",
+        "Bake, uncovered, at 350 degrees F for 1-1/4 hours; drain.",
+        "Top with chilies.",
+        "Cover and bake 20 minutes longer or until meat is no longer pink and a meat thermometer reads 160 degrees F.",
+        "Sprinkle with cheese and top with salsa.",
+        "Bake, uncovered, for 5-10 minutes or until cheese is melted."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

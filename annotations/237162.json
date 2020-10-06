@@ -1,0 +1,58 @@
+{
+    "ingredients": [
+        "3 pounds skinless, boneless chicken thighs, trimmed",
+        "2 cups water",
+        "2 cups low-sodium soy sauce",
+        "1 (13.5 ounce) can coconut milk",
+        "1 1/2 cups brown sugar",
+        "1 bunch green onions, chopped",
+        "1/4 cup white onion, chopped",
+        "1 teaspoon sesame oil",
+        "1/2 teaspoon minced garlic"
+    ],
+    "instructions": [
+        "Whisk water, soy sauce, coconut milk, brown sugar, green onions, white onion, sesame oil, and garlic together in a large glass or ceramic bowl. Add chicken thighs and toss to evenly coat. Cover the bowl with plastic wrap and marinate in the refrigerator, 4 hours to overnight.",
+        "Preheat grill for medium heat and lightly oil the grate.",
+        "Remove chicken from marinade and discard the marinade.",
+        "Cook chicken on the preheated grill until no longer pink in the center and the juices run clear, 5 to 7 minutes per side. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+    ],
+    "title": "Grilled Hawaiian Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4524614.jpg",
+    "url": "http://allrecipes.com/Recipe/237162/",
+    "normalized_ingredients": {
+        "IngTCr1_O": "skinless, boneless chicken thighs",
+        "IlGA3C7DK": "water",
+        "IS67YpbKU": "low-sodium soy sauce",
+        "Id14zo1J1": "coconut milk",
+        "IRG-HJdJz": "brown sugar",
+        "IGLWq6UYY": "bunch green onions",
+        "IUvj2FDbY": "white onion",
+        "IpyJf3OVq": "sesame oil",
+        "IzPYYTv5e": "garlic"
+    },
+    "status": 0,
+    "sentences": [
+        "Whisk water, soy sauce, coconut milk, brown sugar, green onions, white onion, sesame oil, and garlic together in a large glass or ceramic bowl.",
+        "Add chicken thighs and toss to evenly coat.",
+        "Cover the bowl with plastic wrap and marinate in the refrigerator, 4 hours to overnight.",
+        "Preheat grill for medium heat and lightly oil the grate.",
+        "Remove chicken from marinade and discard the marinade.",
+        "Cook chicken on the preheated grill until no longer pink in the center and the juices run clear, 5 to 7 minutes per side.",
+        "An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

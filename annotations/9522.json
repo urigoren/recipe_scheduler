@@ -1,0 +1,50 @@
+{
+    "ingredients": [
+        "1/2 cup unsalted butter",
+        "4 cups pecans",
+        "2 tablespoons Worcestershire sauce",
+        "1 tablespoon soy sauce",
+        "1/2 teaspoon salt",
+        "1/2 teaspoon ground cinnamon",
+        "1/2 teaspoon ground allspice",
+        "1/2 teaspoon ground cloves",
+        "1/2 teaspoon garlic powder"
+    ],
+    "instructions": [
+        "In a 2-quart microwave safe pan, melt the butter and stir in nuts.",
+        "Add the Worcestershire sauce, soy sauce, salt, cinnamon, allspice, cloves and garlic powder. Mix well and microwave on high for 6 to 8 minutes, stirring every 3 minutes.",
+        "Serve warm or at room temperature; store in a tightly sealed container."
+    ],
+    "title": "Spiced Nuts I",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/55705.jpg",
+    "url": "http://allrecipes.com/Recipe/9522/",
+    "normalized_ingredients": {
+        "IXLKVjWtq": "unsalted butter",
+        "IN0CxTNVh": "pecans",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "ILAT-xDbX": "soy sauce",
+        "IzrIHcuDJ": "salt",
+        "IFpnkGW9q": "ground cinnamon",
+        "I_du9V7ML": "ground allspice",
+        "II3BC4Stt": "ground cloves",
+        "IvZ0DqVmo": "garlic powder"
+    },
+    "status": 0,
+    "sentences": [
+        "In a 2-quart microwave safe pan, melt the butter and stir in nuts.",
+        "Add the Worcestershire sauce, soy sauce, salt, cinnamon, allspice, cloves and garlic powder.",
+        "Mix well and microwave on high for 6 to 8 minutes, stirring every 3 minutes.",
+        "Serve warm or at room temperature; store in a tightly sealed container."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        []
+    ]
+}

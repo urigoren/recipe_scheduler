@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "1 1/2 cups pineapple juice",
+        "1/2 cup soy sauce",
+        "1 teaspoon ground ginger",
+        "1/2 teaspoon garlic powder",
+        "1/4 teaspoon white pepper",
+        "4 (6 ounce) skinless, boneless chicken breast halves"
+    ],
+    "instructions": [
+        "In a large bowl, mix together the pineapple juice, soy sauce, ginger, garlic powder, and white pepper. Reserve a small amount of the marinade separately for dipping later.",
+        "Place chicken in marinade, and add enough water to cover. Cover, and refrigerate for 24 hours.",
+        "Heat an outdoor grill for medium-high heat.",
+        "Brush grate lightly with oil. Grill chicken 5 to 7 minutes per side, depending on thickness. Chicken is done when inside is no longer pink and juices run clear."
+    ],
+    "title": "Kevin's Teriyaki Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/245771.jpg",
+    "url": "http://allrecipes.com/Recipe/52446/",
+    "normalized_ingredients": {
+        "IXPfkJpie": "pineapple juice",
+        "ILAT-xDbX": "soy sauce",
+        "IAq835ZPT": "ground ginger",
+        "IvZ0DqVmo": "garlic powder",
+        "In56ZZ37S": "white pepper",
+        "IyzbCHQD4": "skinless"
+    },
+    "status": 0,
+    "sentences": [
+        "In a large bowl, mix together the pineapple juice, soy sauce, ginger, garlic powder, and white pepper.",
+        "Reserve a small amount of the marinade separately for dipping later.",
+        "Place chicken in marinade, and add enough water to cover.",
+        "Cover, and refrigerate for 24 hours.",
+        "Heat an outdoor grill for medium-high heat.",
+        "Brush grate lightly with oil.",
+        "Grill chicken 5 to 7 minutes per side, depending on thickness.",
+        "Chicken is done when inside is no longer pink and juices run clear."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "ingredients": [
+        "1 (8 ounce) package dry egg noodles",
+        "1 pound lean ground beef",
+        "1 (10.75 ounce) can condensed tomato soup",
+        "1 (10.5 ounce) can condensed vegetable soup",
+        "salt to taste",
+        "ground black pepper to taste",
+        "8 slices processed American cheese"
+    ],
+    "instructions": [
+        "Bring a large pot of lightly salted water to a boil. Add dry egg noodles and cook for 8 to 10 minutes, or until al dente; drain.",
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "In a large skillet over medium heat, brown the ground beef; drain fat. Stir in tomato and vegetable soups, salt and pepper. Mix in the noodles and cook for 10 minutes.",
+        "Transfer mixture to an 11x7 inch baking dish and layer with cheese. Bake in the preheated oven 20 minutes, or until cheese is melted and lightly brown."
+    ],
+    "title": "Haviland Glop",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/884577.jpg",
+    "url": "http://allrecipes.com/Recipe/36932/",
+    "normalized_ingredients": {
+        "I51hRU8eR": "dry egg noodles",
+        "ICVfuQXfd": "lean ground beef",
+        "I2wQk_rF4": "condensed tomato soup",
+        "IAvQ5dtbH": "condensed vegetable soup",
+        "ILk6FOH8U": "salt to taste",
+        "Ivjvhu6Qz": "ground black pepper to taste",
+        "IgZ1Hnx-7": "slices processed American cheese"
+    },
+    "status": 0,
+    "sentences": [
+        "Bring a large pot of lightly salted water to a boil.",
+        "Add dry egg noodles and cook for 8 to 10 minutes, or until al dente; drain.",
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "In a large skillet over medium heat, brown the ground beef; drain fat.",
+        "Stir in tomato and vegetable soups, salt and pepper.",
+        "Mix in the noodles and cook for 10 minutes.",
+        "Transfer mixture to an 11x7 inch baking dish and layer with cheese.",
+        "Bake in the preheated oven 20 minutes, or until cheese is melted and lightly brown."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "ingredients": [
+        "1 (8 ounce) can pineapple chunks",
+        "6 tablespoons soy sauce",
+        "2 tablespoons brown sugar",
+        "2 tablespoons vegetable oil",
+        "2 teaspoons ground ginger",
+        "1 teaspoon minced garlic",
+        "1/2 teaspoon pepper",
+        "1 pound boneless beef sirloin steak, cut into 1 inch cubes"
+    ],
+    "instructions": [
+        "Drain pineapple, reserving juice. Refrigerate the pineapple. In a small bowl, combine the pineapple juice, soy sauce, brown sugar, oil, ginger, garlic and pepper. Reserve 1/3 cup marinade for basting and 1/3 cup for serving; cover and refrigerate.",
+        "Pour the remaining marinade into a large resealable plastic bag; add beef cubes. Seal bag and turn to coat; refrigerate for 8 hours or overnight.",
+        "Drain and discard marinade from beef. On metal or soaked wooden skewers, alternately thread beef and pineapple chunks. Grill, uncovered, over medium heat for 5 minutes on each side or broil 4-6 in. from the heat until beef reaches desired doneness, basting frequently with one portion of reserved marinade. Serve with remaining marinade."
+    ],
+    "title": "Pineapple Sirloin Skewers",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/993302.jpg",
+    "url": "http://allrecipes.com/Recipe/116983/",
+    "normalized_ingredients": {
+        "IJCykaMjw": "pineapple chunks",
+        "ILAT-xDbX": "soy sauce",
+        "IRG-HJdJz": "brown sugar",
+        "I7oUHHY41": "vegetable oil",
+        "IAq835ZPT": "ground ginger",
+        "IzPYYTv5e": "garlic",
+        "Is_lS1dmt": "pepper",
+        "IqAi24Ivk": "boneless beef sirloin steak"
+    },
+    "status": 0,
+    "sentences": [
+        "Drain pineapple, reserving juice.",
+        "Refrigerate the pineapple.",
+        "In a small bowl, combine the pineapple juice, soy sauce, brown sugar, oil, ginger, garlic and pepper.",
+        "Reserve 1/3 cup marinade for basting and 1/3 cup for serving; cover and refrigerate.",
+        "Pour the remaining marinade into a large resealable plastic bag; add beef cubes.",
+        "Seal bag and turn to coat; refrigerate for 8 hours or overnight.",
+        "Drain and discard marinade from beef.",
+        "On metal or soaked wooden skewers, alternately thread beef and pineapple chunks.",
+        "Grill, uncovered, over medium heat for 5 minutes on each side or broil 4-6 in.",
+        "from the heat until beef reaches desired doneness, basting frequently with one portion of reserved marinade.",
+        "Serve with remaining marinade."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

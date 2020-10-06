@@ -1,0 +1,60 @@
+{
+    "ingredients": [
+        "4 (4 ounce) skinless, boneless chicken breast halves",
+        "1/4 pound butter",
+        "2 cloves garlic, chopped",
+        "1 teaspoon ground black pepper",
+        "3 teaspoons chili powder",
+        "1/2 cup lemon juice",
+        "1/4 teaspoon lemon zest",
+        "3 teaspoons Worcestershire sauce",
+        "1 (29 ounce) can peach halves, drained"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Melt butter or margarine in a large saucepan. Add garlic, pepper, chili powder, lemon juice, lemon rind and Worcestershire sauce. Mix well. Place chicken in a lightly greased 9x13 inch baking dish. Pour butter/margarine mixture over chicken, cover dish and bake in the preheated oven for 45 minutes or until thick parts of chicken are tender and juices run clear.",
+        "Arrange peach halves around chicken and spoon a little sauce over the peaches. Broil for 5 minutes and serve."
+    ],
+    "title": "Chili Chicken I",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/455523.jpg",
+    "url": "http://allrecipes.com/Recipe/9012/",
+    "normalized_ingredients": {
+        "IyzbCHQD4": "skinless",
+        "I10_d4pRP": "butter",
+        "IXclyBsV3": "cloves garlic",
+        "IdlJrAHh2": "ground black pepper",
+        "Ix4-27vCe": "chili powder",
+        "I5wmzk9dU": "lemon juice",
+        "IvMS-wxj_": "lemon zest",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "IedXFw_k1": "peach halves"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Melt butter or margarine in a large saucepan.",
+        "Add garlic, pepper, chili powder, lemon juice, lemon rind and Worcestershire sauce.",
+        "Mix well.",
+        "Place chicken in a lightly greased 9x13 inch baking dish.",
+        "Pour butter/margarine mixture over chicken, cover dish and bake in the preheated oven for 45 minutes or until thick parts of chicken are tender and juices run clear.",
+        "Arrange peach halves around chicken and spoon a little sauce over the peaches.",
+        "Broil for 5 minutes and serve."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

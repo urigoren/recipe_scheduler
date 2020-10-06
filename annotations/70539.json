@@ -1,0 +1,66 @@
+{
+    "ingredients": [
+        "1 pound lean ground beef",
+        "1/2 cup crumbled blue cheese",
+        "1/2 cup minced onion",
+        "1/2 cup hot chicken wing sauce",
+        "1 tablespoon Worcestershire sauce",
+        "1 teaspoon freshly ground black pepper",
+        "1 teaspoon prepared yellow mustard",
+        "4 hamburger buns, split"
+    ],
+    "instructions": [
+        "In a medium bowl, mix together the ground beef, blue cheese and onion. Season with Worcestershire sauce, mustard, and pepper. Mix well, using your hands if necessary. Form into four patties, and place on a plate. Cover and refrigerate for 1 hour.",
+        "Preheat an outdoor grill for high heat. Remove the hamburger patties from the refrigerator, and pour enough hot wing sauce over them to cover the top surface. Allow to sit for 10 minutes.",
+        "Place hamburgers on the hot grill, and cook for about 5 minutes per side, until no longer pink. The internal temperature should be at 180 degrees F (85 degrees C) if taken with a meat thermometer. For extra spicy burgers, baste with additional wing sauce while cooking. Serve on buns."
+    ],
+    "title": "Spicy Blue Cheese Hamburgers",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/613977.jpg",
+    "url": "http://allrecipes.com/Recipe/70539/",
+    "normalized_ingredients": {
+        "ICVfuQXfd": "lean ground beef",
+        "I_VWQsIyL": "crumbled blue cheese",
+        "Iz0wiMjVJ": "onion",
+        "IOz3xXq64": "hot chicken wing sauce",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "IjdSspGU2": "ly ground black pepper",
+        "IFVfDW1hp": "prepared yellow mustard",
+        "IajEjqfYM": "hamburger buns"
+    },
+    "status": 0,
+    "sentences": [
+        "In a medium bowl, mix together the ground beef, blue cheese and onion.",
+        "Season with Worcestershire sauce, mustard, and pepper.",
+        "Mix well, using your hands if necessary.",
+        "Form into four patties, and place on a plate.",
+        "Cover and refrigerate for 1 hour.",
+        "Preheat an outdoor grill for high heat.",
+        "Remove the hamburger patties from the refrigerator, and pour enough hot wing sauce over them to cover the top surface.",
+        "Allow to sit for 10 minutes.",
+        "Place hamburgers on the hot grill, and cook for about 5 minutes per side, until no longer pink.",
+        "The internal temperature should be at 180 degrees F",
+        "(85 degrees C) if taken with a meat thermometer.",
+        "For extra spicy burgers, baste with additional wing sauce while cooking.",
+        "Serve on buns."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

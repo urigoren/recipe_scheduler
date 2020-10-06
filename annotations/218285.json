@@ -1,0 +1,60 @@
+{
+    "ingredients": [
+        "1 pound ground beef",
+        "1 teaspoon Worcestershire sauce",
+        "1 clove garlic, minced",
+        "1 tablespoon minced onion",
+        "salt and pepper to taste",
+        "1 (15 ounce) can chili without beans",
+        "6 hot dog buns",
+        "6 slices American cheese",
+        "3 dill pickles, cut into strips lengthwise"
+    ],
+    "instructions": [
+        "Preheat an outdoor grill for high heat, and lightly oil the grate.",
+        "Mix the ground beef, Worcestershire, garlic, onion, salt, and pepper. Shape into 6 thin patties. Cook on the preheated grill until the burgers are cooked to your desired degree of doneness, about 3 minutes per side for well done. An instant-read thermometer inserted into the center should read 160 degrees F (70 degrees C). Place the cheese slices on the burgers during the last minute of cooking.",
+        "Heat the can of chili in a saucepan until hot. Cut the hamburger patties in half and put two halves into a hot dog bun, side by side. Place the pickles in the buns and top with chili."
+    ],
+    "title": "Hamburgers Chili Dog Style",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4511719.jpg",
+    "url": "http://allrecipes.com/Recipe/218285/",
+    "normalized_ingredients": {
+        "INzU_lxpu": "ground beef",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "IZHo2eKTZ": "clove garlic",
+        "Iz0wiMjVJ": "onion",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "IdjlQgAqT": "chili without beans",
+        "IjNuu8AcR": "hot dog buns",
+        "IypjXJHKr": "slices American cheese",
+        "IWWoOhMp3": "dill pickles"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat an outdoor grill for high heat, and lightly oil the grate.",
+        "Mix the ground beef, Worcestershire, garlic, onion, salt, and pepper.",
+        "Shape into 6 thin patties.",
+        "Cook on the preheated grill until the burgers are cooked to your desired degree of doneness, about 3 minutes per side for well done.",
+        "An instant-read thermometer inserted into the center should read 160 degrees F (70 degrees C).",
+        "Place the cheese slices on the burgers during the last minute of cooking.",
+        "Heat the can of chili in a saucepan until hot.",
+        "Cut the hamburger patties in half and put two halves into a hot dog bun, side by side.",
+        "Place the pickles in the buns and top with chili."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

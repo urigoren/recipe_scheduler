@@ -1,0 +1,56 @@
+{
+    "ingredients": [
+        "1 (14 ounce) package macaroni and cheese",
+        "1 pound extra-lean ground beef",
+        "1 (10 ounce) can canned whole kernel corn",
+        "1 (6 ounce) can tomato paste",
+        "1 (10 ounce) can tomato sauce",
+        "1 small onion, chopped",
+        "3 tablespoons grated Parmesan cheese (optional)"
+    ],
+    "instructions": [
+        "Preheat the oven to 450 degrees F (220 degrees C). Prepare the macaroni and cheese according to the directions on the package.",
+        "Brown the ground beef and onion in a skillet over medium heat until the meat is no longer pink. Drain excess grease.",
+        "In a 2 quart casserole dish, combine the macaroni and cheese, ground beef, onion, tomato paste, tomato sauce, and corn with its liquid. Mix well.",
+        "Bake for 20 to 25 minutes in the preheated oven, or until heated through. Top with grated Parmesan cheese, if desired."
+    ],
+    "title": "Cowboy Macaroni",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1341606.jpg",
+    "url": "http://allrecipes.com/Recipe/19373/",
+    "normalized_ingredients": {
+        "I9lUoU0dk": "macaroni and cheese",
+        "IVC5bHmAD": "extra-lean ground beef",
+        "I4uW7ax8H": "canned whole kernel corn",
+        "INAgcB9lc": "tomato paste",
+        "I-4q8Lxl1": "tomato sauce",
+        "Iz0wiMjVJ": "onion",
+        "Ibo-gPlqr": "grated Parmesan cheese "
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat the oven to 450 degrees F (220 degrees C).",
+        "Prepare the macaroni and cheese according to the directions on the package.",
+        "Brown the ground beef and onion in a skillet over medium heat until the meat is no longer pink.",
+        "Drain excess grease.",
+        "In a 2 quart casserole dish, combine the macaroni and cheese, ground beef, onion, tomato paste, tomato sauce, and corn with its liquid.",
+        "Mix well.",
+        "Bake for 20 to 25 minutes in the preheated oven, or until heated through.",
+        "Top with grated Parmesan cheese, if desired."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

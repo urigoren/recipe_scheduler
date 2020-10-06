@@ -1,0 +1,56 @@
+{
+    "ingredients": [
+        "1/4 cup brown sugar",
+        "1/4 cup olive oil",
+        "1/4 cup soy sauce",
+        "2 teaspoons lemon pepper",
+        "1 teaspoon dried thyme",
+        "1 teaspoon dried basil",
+        "1 teaspoon dried parsley",
+        "1/2 teaspoon garlic powder",
+        "4 (6 ounce) salmon fillets"
+    ],
+    "instructions": [
+        "Whisk together the brown sugar, olive oil, soy sauce, lemon pepper, thyme, basil, parsley, and garlic powder in a bowl, and pour into a resealable plastic bag. Add the salmon fillets, coat with the marinade, squeeze out excess air, and seal the bag. Marinate in the refrigerator for at least 1 hour, turning occasionally.",
+        "Preheat an outdoor grill for medium heat, and lightly oil the grate. Remove the salmon from the marinade, and shake off excess. Discard the remaining marinade.",
+        "Grill the salmon on the preheated grill until browned and the fish flakes easily with a fork, about 5 minutes on each side."
+    ],
+    "title": "Heather's Grilled Salmon",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2430433.jpg",
+    "url": "http://allrecipes.com/Recipe/218093/",
+    "normalized_ingredients": {
+        "IRG-HJdJz": "brown sugar",
+        "IbpWInzAX": "olive oil",
+        "ILAT-xDbX": "soy sauce",
+        "IuBpdOwFx": "lemon pepper",
+        "IqDlE93Rd": "dried thyme",
+        "IkF0wURa-": "dried basil",
+        "I7qELLKk_": "dried parsley",
+        "IvZ0DqVmo": "garlic powder",
+        "IgZcP0Mcx": "salmon fillets"
+    },
+    "status": 0,
+    "sentences": [
+        "Whisk together the brown sugar, olive oil, soy sauce, lemon pepper, thyme, basil, parsley, and garlic powder in a bowl, and pour into a resealable plastic bag.",
+        "Add the salmon fillets, coat with the marinade, squeeze out excess air, and seal the bag.",
+        "Marinate in the refrigerator for at least 1 hour, turning occasionally.",
+        "Preheat an outdoor grill for medium heat, and lightly oil the grate.",
+        "Remove the salmon from the marinade, and shake off excess.",
+        "Discard the remaining marinade.",
+        "Grill the salmon on the preheated grill until browned and the fish flakes easily with a fork, about 5 minutes on each side."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

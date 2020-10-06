@@ -1,0 +1,48 @@
+{
+    "ingredients": [
+        "1 cup butter",
+        "2 tablespoons Worcestershire sauce",
+        "2 tablespoons garlic powder",
+        "1 (1 ounce) envelope dry onion soup mix",
+        "1 dash hot pepper sauce (e.g. Tabasco\u2122)",
+        "20 ounces sourdough pretzels"
+    ],
+    "instructions": [
+        "Preheat the oven to 250 degrees F (120 degrees C).",
+        "Melt the butter in a saucepan over medium heat. Stir in the Worcestershire sauce, garlic powder, onion soup mix and hot pepper sauce. Coat pretzels in the mixture by dipping or brushing and place on a baking sheet.",
+        "Bake for 1 hour in the preheated oven, stirring every 15 minutes. Cool, then serve or store in an airtight container."
+    ],
+    "title": "Bar Stool Pretzels",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/55111.jpg",
+    "url": "http://allrecipes.com/Recipe/94731/",
+    "normalized_ingredients": {
+        "I10_d4pRP": "butter",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "IvZ0DqVmo": "garlic powder",
+        "IVY7sX09f": "envelope dry onion soup mix",
+        "I0ujRM_oU": "dash hot pepper sauce ",
+        "Isd9SEKYJ": "sourdough pretzels"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat the oven to 250 degrees F (120 degrees C).",
+        "Melt the butter in a saucepan over medium heat.",
+        "Stir in the Worcestershire sauce, garlic powder, onion soup mix and hot pepper sauce.",
+        "Coat pretzels in the mixture by dipping or brushing and place on a baking sheet.",
+        "Bake for 1 hour in the preheated oven, stirring every 15 minutes.",
+        "Cool, then serve or store in an airtight container."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

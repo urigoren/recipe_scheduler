@@ -1,0 +1,70 @@
+{
+    "ingredients": [
+        "1 pound skinless, boneless chicken breast halves",
+        "1 tablespoon butter",
+        "1 small onion, chopped",
+        "1 (10.75 ounce) can cream of celery soup",
+        "1 (5 ounce) can evaporated milk",
+        "1 cup chicken broth",
+        "1/4 cup melted butter",
+        "8 ounces corn bread stuffing mix"
+    ],
+    "instructions": [
+        "Boil chicken breasts in a pot of lightly salted water until no longer pink in the center and are beginning to fall apart, about 30 minutes. Remove chicken breasts from water using a slotted spoon and shred.",
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Melt 1 tablespoon butter in a skillet over medium heat; cook and stir onion in the melted butter until translucent, about 10 minutes. Add shredded chicken; mix well. Pour cream of celery soup and evaporated milk into chicken mixture; spoon mixture into an 8x8-inch baking dish.",
+        "Mix chicken broth and melted butter together in a bowl. Empty cornbread stuffing mix into a large bowl; pour chicken broth mixture over stuffing. Toss to combine. Pour stuffing over chicken mixture.",
+        "Bake in the preheated oven until bubbling and stuffing is lightly browned, about 45 minutes."
+    ],
+    "title": "Stacey's Chicken and Stuffing Casserole",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2731233.jpg",
+    "url": "http://allrecipes.com/Recipe/232871/",
+    "normalized_ingredients": {
+        "IyzbCHQD4": "skinless",
+        "I10_d4pRP": "butter",
+        "Iz0wiMjVJ": "onion",
+        "IVN4-x798": "cream of celery soup",
+        "IzrvoWNsx": "evaporated milk",
+        "INNbMITPe": "chicken broth",
+        "Ixfk1PTD9": "melted butter",
+        "IkMjQzEsw": "corn bread stuffing mix"
+    },
+    "status": 0,
+    "sentences": [
+        "Boil chicken breasts in a pot of lightly salted water until no longer pink in the center and are beginning to fall apart, about 30 minutes.",
+        "Remove chicken breasts from water using a slotted spoon and shred.",
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Melt 1 tablespoon butter in a skillet over medium heat; cook and stir onion in the melted butter until translucent, about 10 minutes.",
+        "Add shredded chicken",
+        "; mix well.",
+        "Pour cream of celery soup and evaporated milk into chicken mixture; spoon mixture into an 8x8-inch baking dish.",
+        "Mix chicken broth and melted butter together in a bowl.",
+        "Empty cornbread stuffing mix into a large bowl; pour chicken broth mixture over stuffing.",
+        "Toss to combine.",
+        "Pour stuffing over chicken mixture.",
+        "Bake in the preheated oven until bubbling and stuffing is lightly browned, about 45 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

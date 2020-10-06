@@ -1,0 +1,48 @@
+{
+    "ingredients": [
+        "1/4 cup all natural sour cream",
+        "1/4 cup Archer Farms\u2122 pure orange blossom honey",
+        "1 small garlic clove, minced",
+        "4 slices multigrain bread",
+        "16 thin slices English cucumber",
+        "1 (4 ounce) package Archer Farms\u2122 all natural smoked sockeye salmon",
+        "8 sprigs fresh dill"
+    ],
+    "instructions": [
+        "Combine sour cream, honey and garlic in small bowl; set aside.",
+        "Toast bread in toaster; cool slightly. Cut each bread slice in half cross wise.",
+        "Spread bread with sour cream mixture. Top with cucumber, salmon and dill sprigs."
+    ],
+    "title": "Smoked Salmon Toast Points",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/156554/",
+    "normalized_ingredients": {
+        "I5C2MOUz6": "all natural sour cream",
+        "INkcbeayh": "Archer Farms\u2122 pure orange blossom honey",
+        "IwROKJycn": "garlic clove",
+        "ICXl7fhEA": "slices multigrain bread",
+        "IsWcTQOAi": "thin slices English cucumber",
+        "IroM7mLgA": "Archer Farms\u2122 all natural smoked sockeye salmon",
+        "I3CrdWlyz": "sprigs fresh dill"
+    },
+    "status": 0,
+    "sentences": [
+        "Combine sour cream, honey and garlic in small bowl; set aside.",
+        "Toast bread in toaster; cool slightly.",
+        "Cut each bread slice in half cross wise.",
+        "Spread bread with sour cream mixture.",
+        "Top with cucumber, salmon and dill sprigs."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

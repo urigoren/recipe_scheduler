@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "8 ounces elbow macaroni",
+        "1 cup sour cream",
+        "1 cup cottage cheese",
+        "1 dash Worcestershire sauce (optional)",
+        "3 tablespoons minced onion",
+        "1 teaspoon minced garlic (optional)",
+        "1/2 cup seasoned dry bread crumbs"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain. Immediately add sour cream and cottage cheese to pasta; mix together.",
+        "Add Worcestershire sauce, onion and garlic to mixture, if desired. Pour mixture into a lightly greased two-quart baking dish and top with bread crumbs. Bake in preheated oven for 45 minutes."
+    ],
+    "title": "Noodles Romanoff III",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/15197/",
+    "normalized_ingredients": {
+        "IfPFKkTKu": "elbow macaroni",
+        "IHju9fTVF": "sour cream",
+        "ISUzthmzT": "cottage cheese",
+        "IWvzyYTJ3": "dash Worcestershire sauce ",
+        "Iz0wiMjVJ": "onion",
+        "IwqmsbUM4": "garlic ",
+        "IHyzKrVmO": "seasoned dry bread crumbs"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Bring a large pot of lightly salted water to a boil.",
+        "Add pasta and cook for 8 to 10 minutes or until al dente; drain.",
+        "Immediately add sour cream and cottage cheese to pasta; mix together.",
+        "Add Worcestershire sauce, onion and garlic to mixture, if desired.",
+        "Pour mixture into a lightly greased two-quart baking dish and top with bread crumbs.",
+        "Bake in preheated oven for 45 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

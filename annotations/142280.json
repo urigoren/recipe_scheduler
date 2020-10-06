@@ -1,0 +1,50 @@
+{
+    "ingredients": [
+        "1 pound ground turkey",
+        "1 cup grated zucchini",
+        "1/4 cup grated onion",
+        "1 egg",
+        "1/2 cup bread crumbs",
+        "1 teaspoon Worcestershire sauce",
+        "1 teaspoon hot pepper sauce",
+        "1 teaspoon salt",
+        "1/2 teaspoon ground black pepper"
+    ],
+    "instructions": [
+        "Preheat an outdoor grill for medium-low heat and lightly oil grate.",
+        "In a large bowl, combine turkey, zucchini, onion, egg, bread crumbs, Worcestershire sauce, hot pepper sauce, salt and pepper. Mix until well incorporated.",
+        "Form mixture into six evenly-sized patties and grill until no longer pink in the middle, about eight minutes per side."
+    ],
+    "title": "Zurkey Burgers",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/142280/",
+    "normalized_ingredients": {
+        "IlVc50HUg": "ground turkey",
+        "IcDhRfa2n": "grated zucchini",
+        "IViUyCjg8": "grated onion",
+        "IDpMSCH9Y": "egg",
+        "I8UU4881n": "bread crumbs",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "Iz1E1TJ9B": "hot pepper sauce",
+        "IzrIHcuDJ": "salt",
+        "IdlJrAHh2": "ground black pepper"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat an outdoor grill for medium-low heat and lightly oil grate.",
+        "In a large bowl, combine turkey, zucchini, onion, egg, bread crumbs, Worcestershire sauce, hot pepper sauce, salt and pepper.",
+        "Mix until well incorporated.",
+        "Form mixture into six evenly-sized patties and grill until no longer pink in the middle, about eight minutes per side."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        []
+    ]
+}

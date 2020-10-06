@@ -1,0 +1,58 @@
+{
+    "ingredients": [
+        "3 tablespoons butter",
+        "1 cup sliced onion",
+        "1 (8.5 ounce) package corn bread mix",
+        "1/2 cup milk",
+        "1 cup cream-style corn",
+        "1 dash hot pepper sauce",
+        "1 cup sour cream",
+        "1 cup shredded sharp Cheddar cheese"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C). Spray one 10x10 inch pan with non-stick cooking spray.",
+        "ina medium skillet, saute onions in butter over medium heat until soft; set aside.",
+        "In a medium sized bowl, combine corn muffin mix, milk, corn and hot sauce.",
+        "Pour cornbread into baking dish and layer with onions, followed by sour cream and cheese.",
+        "Bake for 25 to 30 minutes, cover for last 15 minutes."
+    ],
+    "title": "Cheese Corn Casserole",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/592007.jpg",
+    "url": "http://allrecipes.com/Recipe/13706/",
+    "normalized_ingredients": {
+        "I10_d4pRP": "butter",
+        "Iz0wiMjVJ": "onion",
+        "IN8mXcquE": "corn bread mix",
+        "I7L24gq6G": "milk",
+        "I1uFB-wTC": "cream-style corn",
+        "IyAAMTVob": "dash hot pepper sauce",
+        "IHju9fTVF": "sour cream",
+        "I02UBdDpo": "shredded sharp Cheddar cheese"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Spray one 10x10 inch pan with non-stick cooking spray.",
+        "ina medium skillet, saute onions in butter over medium heat until soft; set aside.",
+        "In a medium sized bowl, combine corn muffin mix, milk, corn and hot sauce.",
+        "Pour cornbread into baking dish and layer with onions, followed by sour cream and cheese.",
+        "Bake for 25 to 30 minutes, cover for last 15 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

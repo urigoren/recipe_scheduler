@@ -1,0 +1,62 @@
+{
+    "ingredients": [
+        "2 pounds boneless pork chops, cubed",
+        "oil for frying",
+        "2 eggs, beaten",
+        "plain bread crumbs",
+        "3 (1 ounce) packages dry mushroom gravy mix",
+        "1 pound fresh mushrooms, coarsely chopped",
+        "1 (16 ounce) package dry egg noodles"
+    ],
+    "instructions": [
+        "Pound out cubed pork, and cut in half.",
+        "Heat oil in a large skillet or Dutch oven over medium heat. Dip pork in egg, then bread crumbs, and place in hot oil. Cook, turning, until golden brown. Remove to a warm plate.",
+        "Prepare gravy mix according to package directions. Stir in mushrooms, and cook with gravy.",
+        "Meanwhile, bring a large pot of lightly salted water to a boil. Add the egg noodles, and cook until al dente, about 8 to 10 minutes; drain.",
+        "Serve pork over noodles and smother with gravy."
+    ],
+    "title": "Jaeger Schnitzel",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2026761.jpg",
+    "url": "http://allrecipes.com/Recipe/85935/",
+    "normalized_ingredients": {
+        "Iynxt1P5R": "boneless pork chops",
+        "IblmlNa-6": "oil for frying",
+        "Iq5LZ-uXu": "eggs",
+        "IxR0kxv30": "plain bread crumbs",
+        "InsDgDWUX": "dry mushroom gravy mix",
+        "IllGAVvjD": "mushrooms",
+        "I51hRU8eR": "dry egg noodles"
+    },
+    "status": 0,
+    "sentences": [
+        "Pound out cubed pork, and cut in half.",
+        "Heat oil in a large skillet or Dutch oven over medium heat.",
+        "Dip pork in egg, then bread crumbs, and place in hot oil.",
+        "Cook, turning, until golden brown.",
+        "Remove to a warm plate.",
+        "Prepare gravy mix according to package directions.",
+        "Stir in mushrooms, and cook with gravy.",
+        "Meanwhile, bring a large pot of lightly salted water to a boil.",
+        "Add the egg noodles, and cook until al dente, about 8 to 10 minutes; drain.",
+        "Serve pork over noodles and smother with gravy."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

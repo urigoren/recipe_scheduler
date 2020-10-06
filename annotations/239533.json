@@ -1,0 +1,52 @@
+{
+    "ingredients": [
+        "1 pound ground beef",
+        "1/3 cup dry bread crumbs",
+        "1 egg",
+        "1 (1 ounce) package dry onion soup mix",
+        "1 tablespoon vegetable oil",
+        "1 (10.75 ounce) can condensed golden mushroom soup",
+        "1 (10.75 ounce) can water"
+    ],
+    "instructions": [
+        "Mix ground beef, bread crumbs, egg, and onion soup mix together in a bowl; shape into 6 oblong patties.",
+        "Heat oil in a large skillet over medium-high heat. Cook patties until browned, about 5 minutes per side.",
+        "Stir golden mushroom soup and water together in a bowl; pour over the patties in the skillet. Turn patties to coat in the liquid. Bring liquid to a simmer, reduce heat to medium-low, place a cover on the skillet, and cook until steaks are very firm, hot, and grey in the center, 10 to 15 minutes. An instant-read thermometer inserted into the center should read 160 degrees F (70 degrees C)."
+    ],
+    "title": "Basic Salisbury Steaks",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1515852.jpg",
+    "url": "http://allrecipes.com/Recipe/239533/",
+    "normalized_ingredients": {
+        "INzU_lxpu": "ground beef",
+        "I-XuWYX5K": "dry bread crumbs",
+        "IDpMSCH9Y": "egg",
+        "I8IdKkoFz": "dry onion soup mix",
+        "I7oUHHY41": "vegetable oil",
+        "IFGlzzQP9": "condensed golden mushroom soup",
+        "IlGA3C7DK": "water"
+    },
+    "status": 0,
+    "sentences": [
+        "Mix ground beef, bread crumbs, egg, and onion soup mix together in a bowl; shape into 6 oblong patties.",
+        "Heat oil in a large skillet over medium-high heat.",
+        "Cook patties until browned, about 5 minutes per side.",
+        "Stir golden mushroom soup and water together in a bowl; pour over the patties in the skillet.",
+        "Turn patties to coat in the liquid.",
+        "Bring liquid to a simmer, reduce heat to medium-low, place a cover on the skillet, and cook until steaks are very firm, hot, and grey in the center, 10 to 15 minutes.",
+        "An instant-read thermometer inserted into the center should read 160 degrees F (70 degrees C)."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

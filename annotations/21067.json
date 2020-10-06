@@ -1,0 +1,62 @@
+{
+    "ingredients": [
+        "1 pound lean ground beef",
+        "1 pound sausage",
+        "1 teaspoon minced onion",
+        "1 pound processed cheese food, cubed",
+        "1 teaspoon dried oregano",
+        "1 1/2 tablespoons Worcestershire sauce",
+        "1 (1 pound) loaf cocktail rye bread"
+    ],
+    "instructions": [
+        "Preheat the broiler.",
+        "Place ground beef, sausage and onion in a large, deep skillet. Cook over medium high heat until meat is evenly brown and onions are soft. Drain liquid.",
+        "Mix in the processed cheese food, oregano and Worcestershire sauce. Stir continuously until the cheese is melted.",
+        "If the bread is not sliced, cut it into thin slices. Spoon approximately 1 tablespoon of the mixture onto each slice. Place the slices in a single layer on a baking pan.",
+        "Broil the slices 10 minutes, or until the cheese is slightly browned and the bread is toasted."
+    ],
+    "title": "Polish Mistakes",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2876963.jpg",
+    "url": "http://allrecipes.com/Recipe/21067/",
+    "normalized_ingredients": {
+        "ICVfuQXfd": "lean ground beef",
+        "Ii0M2cCWP": "sausage",
+        "Iz0wiMjVJ": "onion",
+        "IXgueeYVw": "processed cheese food",
+        "I5MyZsfNh": "dried oregano",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "IXgVg1XpG": "loaf cocktail rye bread"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat the broiler.",
+        "Place ground beef, sausage and onion in a large, deep skillet.",
+        "Cook over medium high heat until meat is evenly brown and onions are soft.",
+        "Drain liquid.",
+        "Mix in the processed cheese food, oregano and Worcestershire sauce.",
+        "Stir continuously until the cheese is melted.",
+        "If the bread is not sliced, cut it into thin slices.",
+        "Spoon approximately 1 tablespoon of the mixture onto each slice.",
+        "Place the slices in a single layer on a baking pan.",
+        "Broil the slices 10 minutes, or until the cheese is slightly browned and the bread is toasted."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

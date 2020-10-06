@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "2 tablespoons butter",
+        "6 boneless pork chops",
+        "1 to taste salt and pepper to taste",
+        "1 onion, thinly sliced",
+        "1 (10.75 ounce) can condensed cream of chicken soup",
+        "1/4 cup ketchup",
+        "2 1/2 teaspoons Worcestershire sauce"
+    ],
+    "instructions": [
+        "Over medium-high heat, melt butter in a large saucepan. Add pork chops and cook until browned on both sides. Season with salt and pepper. Top with onion slices.",
+        "In a bowl, stir together soup, ketchup and Worcestershire sauce. Pour soup mixture over pork chops.",
+        "Cover pan and simmer until meat is no longer pink inside and thermometer reads 145 degrees F (63 degrees C), about 40 to 60 minutes."
+    ],
+    "title": "Saucy Chops II",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1544571.jpg",
+    "url": "http://allrecipes.com/Recipe/24260/",
+    "normalized_ingredients": {
+        "I10_d4pRP": "butter",
+        "Iynxt1P5R": "boneless pork chops",
+        "IbZgglSTF": "to taste salt and pepper to taste",
+        "Iz0wiMjVJ": "onion",
+        "IbIjWSJxb": "condensed cream of chicken soup",
+        "IoskwJgPz": "ketchup",
+        "Ih0sQOBSE": "Worcestershire sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "Over medium-high heat, melt butter in a large saucepan.",
+        "Add pork chops and cook until browned on both sides.",
+        "Season with salt and pepper.",
+        "Top with onion slices.",
+        "In a bowl, stir together soup, ketchup and Worcestershire sauce.",
+        "Pour soup mixture over pork chops.",
+        "Cover pan and simmer until meat is no longer pink inside and thermometer reads 145 degrees",
+        "F (63 degrees C), about 40 to 60 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

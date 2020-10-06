@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "1/4 cup lemon juice",
+        "1/4 cup light corn syrup",
+        "2 tablespoons soy sauce",
+        "1 teaspoon salt",
+        "1/4 teaspoon ground ginger",
+        "1/4 cup corn oil",
+        "1 (8 ounce) can crushed pineapple (not drained)",
+        "10 chicken leg quarters"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Stir together lemon juice, corn syrup, soy sauce, salt, ginger, and corn oil in a bowl until smooth. Stir in the crushed pineapple with its liquid. Place the chicken legs in an ovenproof glass baking dish, and pour sauce over top.",
+        "Bake in preheated oven for 30 minutes, then turn the chicken over, and continue cooking until the chicken is tender, and no longer pink, about 20 minutes. Baste with sauce frequently while baking."
+    ],
+    "title": "Baked Aloha Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/999109.jpg",
+    "url": "http://allrecipes.com/Recipe/116113/",
+    "normalized_ingredients": {
+        "I5wmzk9dU": "lemon juice",
+        "IKNjYtyt9": "light corn syrup",
+        "ILAT-xDbX": "soy sauce",
+        "IzrIHcuDJ": "salt",
+        "IAq835ZPT": "ground ginger",
+        "I-yYZvqrO": "corn oil",
+        "I2EysVlRo": "crushed pineapple ",
+        "IUfVQ84DH": "chicken leg quarters"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Stir together lemon juice, corn syrup, soy sauce, salt, ginger, and corn oil in a bowl until smooth.",
+        "Stir in the crushed pineapple with its liquid.",
+        "Place the chicken legs in an ovenproof glass baking dish, and pour sauce over top.",
+        "Bake in preheated oven for 30 minutes, then turn the chicken over, and continue cooking until the chicken is tender, and no longer pink, about 20 minutes.",
+        "Baste with sauce frequently while baking."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

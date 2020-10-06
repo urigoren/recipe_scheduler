@@ -1,0 +1,46 @@
+{
+    "ingredients": [
+        "1 large chopped onion",
+        "1 large chopped green bell pepper",
+        "4 thick cut pork chops",
+        "1/2 cup all-purpose flour for coating",
+        "salt and pepper",
+        "32 ounces canned tomato sauce"
+    ],
+    "instructions": [
+        "In a large skillet saute onion and bell pepper in oil until tender. Remove from skillet.",
+        "Coat pork chops with flour, salt and pepper then add to skillet and brown on both sides.",
+        "Add onions and peppers to pork chops in skillet. Pour tomato sauce over all of it and simmer for 15 or 20 minutes until pork chops are fully cooked and tender."
+    ],
+    "title": "Tomato Chops II",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3107848.jpg",
+    "url": "http://allrecipes.com/Recipe/21125/",
+    "normalized_ingredients": {
+        "I5h4SWJYj": "chopped onion",
+        "Ib2mJn-sO": "chopped green bell pepper",
+        "IcdHCBTW2": "thick cut pork chops",
+        "ICqmka1t7": "all-purpose flour for coating",
+        "ILy6GLXfZ": "salt and pepper",
+        "IOYQMP62Q": "canned tomato sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "In a large skillet saute onion and bell pepper in oil until tender.",
+        "Remove from skillet.",
+        "Coat pork chops with flour, salt and pepper then add to skillet and brown on both sides.",
+        "Add onions and peppers to pork chops in skillet.",
+        "Pour tomato sauce over all of it and simmer for 15 or 20 minutes until pork chops are fully cooked and tender."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

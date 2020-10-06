@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "8 chicken wings",
+        "4 tablespoons soy sauce",
+        "3 tablespoons oyster sauce",
+        "3 tablespoons sweet sherry",
+        "salt and pepper to taste",
+        "1/2 cup all-purpose flour",
+        "1/2 cup corn flour",
+        "1 quart oil for deep frying"
+    ],
+    "instructions": [
+        "To Marinate: Place the chicken wings in a large nonporous glass dish or bowl. In a small bowl mix the soy sauce, oyster sauce, sherry, salt and pepper and pour mixture over chicken; turn to coat. Cover dish and refrigerate to marinate for 12 to 24 hours.",
+        "Remove chicken from marinade, disposing of any remaining marinade. Mix all-purpose flour with corn flour in a shallow dish or bowl and toss wings in flour mixture until well coated.",
+        "Heat oil in a deep skillet or deep fryer and deep fry wings until crispy and cooked through (juices run clear). Drain on paper towels and serve."
+    ],
+    "title": "Australian Deep Fried Chicken Wings",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/216541.jpg",
+    "url": "http://allrecipes.com/Recipe/20201/",
+    "normalized_ingredients": {
+        "Ieg3R-oQ_": "chicken wings",
+        "ILAT-xDbX": "soy sauce",
+        "IOa5on4Lh": "oyster sauce",
+        "IGSWqTqpm": "sweet sherry",
+        "IKy5ha2qv": "salt and pepper to taste",
+        "IW2FkWnJk": "all-purpose flour",
+        "I1yqSL96M": "corn flour",
+        "IOtxjugnD": "quart oil for deep frying"
+    },
+    "status": 0,
+    "sentences": [
+        "To Marinate: Place the chicken wings in a large nonporous glass dish or bowl.",
+        "In a small bowl mix the soy sauce, oyster sauce, sherry, salt and pepper and pour mixture over chicken; turn to coat.",
+        "Cover dish and refrigerate to marinate for 12 to 24 hours.",
+        "Remove chicken from marinade, disposing of any remaining marinade.",
+        "Mix all-purpose flour with corn flour in a shallow dish or bowl and toss wings in flour mixture until well coated.",
+        "Heat oil in a deep skillet or deep fryer and deep fry wings until crispy and cooked through (juices run clear).",
+        "Drain on paper towels and serve."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

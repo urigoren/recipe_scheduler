@@ -1,0 +1,52 @@
+{
+    "ingredients": [
+        "1 pound dry black beans, soaked overnight",
+        "4 teaspoons diced jalapeno peppers",
+        "6 cups chicken broth",
+        "1/2 teaspoon garlic powder",
+        "1 tablespoon chili powder",
+        "1 teaspoon ground cumin",
+        "1 teaspoon cayenne pepper",
+        "3/4 teaspoon ground black pepper",
+        "1/2 teaspoon hot pepper sauce"
+    ],
+    "instructions": [
+        "Drain black beans, and rinse.",
+        "Combine beans, jalapenos, and chicken broth in a slow cooker. Season with garlic powder, chili powder, cumin, cayenne, pepper, and hot pepper sauce.",
+        "Cook on High for 4 hours. Reduce heat to Low, and continue cooking for 2 hours, or until you are ready to eat."
+    ],
+    "title": "Spicy Slow Cooker Black Bean Soup",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/240569.jpg",
+    "url": "http://allrecipes.com/Recipe/13006/",
+    "normalized_ingredients": {
+        "InxlgENm0": "dry black beans",
+        "IhKik-OJp": "diced jalapeno peppers",
+        "INNbMITPe": "chicken broth",
+        "IvZ0DqVmo": "garlic powder",
+        "Ix4-27vCe": "chili powder",
+        "Ithb2Rinv": "ground cumin",
+        "IHYTIwEXb": "cayenne pepper",
+        "IdlJrAHh2": "ground black pepper",
+        "Iz1E1TJ9B": "hot pepper sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "Drain black beans, and rinse.",
+        "Combine beans, jalapenos, and chicken broth in a slow cooker.",
+        "Season with garlic powder, chili powder, cumin, cayenne, pepper, and hot pepper sauce.",
+        "Cook on High for 4 hours.",
+        "Reduce heat to Low, and continue cooking for 2 hours, or until you are ready to eat."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "ingredients": [
+        "1 (8 ounce) package uncooked egg noodles",
+        "1 (10.75 ounce) can condensed tomato soup",
+        "1 (11 ounce) can Mexican-style corn",
+        "1 medium onion, finely chopped",
+        "1 (10.75 ounce) can condensed cream of mushroom soup",
+        "16 slices American cheese"
+    ],
+    "instructions": [
+        "Bring a large pot of lightly salted water to a boil. Add the egg noodles and cook until tender, about 7 minutes. Drain, and set aside.",
+        "Preheat the oven to 350 degrees F (175 degrees C).",
+        "In a large bowl, mix together the tomato soup, corn, onion, and cream of mushroom soup. Stir in the cooked noodles until well coated. Transfer to a 9x13 inch baking dish. Place slices of cheese to cover the top.",
+        "Bake for 25 minutes in the preheated oven, or until cheese is melted and lightly browned."
+    ],
+    "title": "Hillbilly Casserole",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/261376.jpg",
+    "url": "http://allrecipes.com/Recipe/77719/",
+    "normalized_ingredients": {
+        "IXxA92DUf": "uncooked egg noodles",
+        "I2wQk_rF4": "condensed tomato soup",
+        "ISTEvhyqt": "Mexican-style corn",
+        "Iz0wiMjVJ": "onion",
+        "IlHIgQMc1": "condensed cream of mushroom soup",
+        "IypjXJHKr": "slices American cheese"
+    },
+    "status": 0,
+    "sentences": [
+        "Bring a large pot of lightly salted water to a boil.",
+        "Add the egg noodles and cook until tender, about 7 minutes.",
+        "Drain, and set aside.",
+        "Preheat the oven to 350 degrees F (175 degrees C).",
+        "In a large bowl, mix together the tomato soup, corn, onion, and cream of mushroom soup.",
+        "Stir in the cooked noodles until well coated.",
+        "Transfer to a 9x13 inch baking dish.",
+        "Place slices of cheese to cover the top.",
+        "Bake for 25 minutes in the preheated oven, or until cheese is melted and lightly browned."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

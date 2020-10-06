@@ -1,0 +1,44 @@
+{
+    "ingredients": [
+        "1 (12 ounce) package egg noodles",
+        "1 pound lean ground beef",
+        "1 (26 ounce) jar spaghetti sauce",
+        "1 (15.25 ounce) can whole kernel corn",
+        "1 onion, chopped",
+        "1 cup shredded Cheddar cheese"
+    ],
+    "instructions": [
+        "Bring a large pot of lightly salted water to a boil. Add egg noodles and cook for 8 to 10 minutes or until al dente; drain.",
+        "In a skillet over medium heat, brown the beef; drain.",
+        "Heat through over medium the beef, spaghetti sauce, corn, chopped onion and cheese."
+    ],
+    "title": "Quick and Easy Goulash",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3915220.jpg",
+    "url": "http://allrecipes.com/Recipe/22994/",
+    "normalized_ingredients": {
+        "IkUMHmRZp": "egg noodles",
+        "ICVfuQXfd": "lean ground beef",
+        "IAHfPqwcT": "jar spaghetti sauce",
+        "IgG6czOBh": "whole kernel corn",
+        "Iz0wiMjVJ": "onion",
+        "IIa_cno7K": "shredded Cheddar cheese"
+    },
+    "status": 0,
+    "sentences": [
+        "Bring a large pot of lightly salted water to a boil.",
+        "Add egg noodles and cook for 8 to 10 minutes or until al dente; drain.",
+        "In a skillet over medium heat, brown the beef; drain.",
+        "Heat through over medium the beef, spaghetti sauce, corn, chopped onion and cheese."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        []
+    ]
+}

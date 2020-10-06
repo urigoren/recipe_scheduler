@@ -1,0 +1,66 @@
+{
+    "ingredients": [
+        "1/4 cup panko bread crumbs",
+        "1/4 cup Italian-seasoned bread crumbs",
+        "1/4 cup sweetened flaked coconut",
+        "1 pinch cayenne pepper, or to taste",
+        "1 pinch dried thyme, or to taste (optional)",
+        "1 egg",
+        "1 teaspoon sriracha sauce",
+        "2 skinless, boneless chicken thighs, cut into 1 1/2-inch pieces"
+    ],
+    "instructions": [
+        "Preheat oven to 400 degrees F (200 degrees C). Place a wire rack on a rimmed baking sheet.",
+        "Place panko bread crumbs, seasoned bread crumbs, coconut, cayenne pepper, and thyme in the bowl of a food processor. Pulse until coconut resembles size of bread crumbs. Transfer to a flat bowl or dish.",
+        "Whisk egg and sriracha sauce together in a separate bowl.",
+        "Dip chicken pieces in crumb mixture. Coat all sides with egg mixture. Roll again in crumb mixture and place on the prepared rack. Repeat for all chicken pieces.",
+        "Bake in the preheated oven until browned and crisp, about 20 minutes."
+    ],
+    "title": "Baked Coconut Cayenne Chicken Nuggets",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4509790.jpg",
+    "url": "http://allrecipes.com/Recipe/257927/",
+    "normalized_ingredients": {
+        "IQKlrrGrv": "panko bread crumbs",
+        "IwQFskJI4": "Italian-seasoned bread crumbs",
+        "Iz6M82xt7": "sweetened flaked coconut",
+        "I5NhoF25_": "pinch cayenne pepper",
+        "IBb9NK4-3": "pinch dried thyme",
+        "IDpMSCH9Y": "egg",
+        "Ip1NGwVyo": "sriracha sauce",
+        "IngTCr1_O": "skinless, boneless chicken thighs"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 400 degrees F (200 degrees C).",
+        "Place a wire rack on a rimmed baking sheet.",
+        "Place panko bread crumbs, seasoned bread crumbs, coconut, cayenne pepper, and thyme in the bowl of a food processor.",
+        "Pulse until coconut resembles size of bread crumbs.",
+        "Transfer to a flat bowl or dish.",
+        "Whisk egg and sriracha sauce together in a separate bowl.",
+        "Dip chicken pieces in crumb mixture.",
+        "Coat all sides with egg mixture.",
+        "Roll again in crumb mixture and place on the prepared rack.",
+        "Repeat for all chicken pieces.",
+        "Bake in the preheated oven until browned and crisp, about 20 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

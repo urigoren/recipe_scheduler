@@ -1,0 +1,52 @@
+{
+    "ingredients": [
+        "2 teaspoons vegetable oil",
+        "2 1/2 cups peeled and cubed potatoes",
+        "1 cup thinly sliced celery",
+        "1 onion, chopped",
+        "6 cups shredded cabbage",
+        "4 cups chicken broth",
+        "1 bay leaf",
+        "1/2 teaspoon ground black pepper",
+        "1 (15 ounce) can pork and beans in tomato sauce"
+    ],
+    "instructions": [
+        "Heat oil in medium size saucepan. Add potatoes, celery, and onion, saute for 5 minutes.",
+        "Stir in cabbage, cover and cook over medium heat, until cabbage is tender.",
+        "Add broth, bay leaf, pepper and pork and beans. Heat until soup is hot and then remove bay leaf and serve."
+    ],
+    "title": "Cabbage, Potato and Baked Bean Soup",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3116270.jpg",
+    "url": "http://allrecipes.com/Recipe/13267/",
+    "normalized_ingredients": {
+        "I7oUHHY41": "vegetable oil",
+        "IK7_dpXv1": "peeled and cubed potatoes",
+        "IUQe7JIQa": "thinly sliced celery",
+        "Iz0wiMjVJ": "onion",
+        "IjTkNLQVR": "shredded cabbage",
+        "INNbMITPe": "chicken broth",
+        "IALbgJROm": "bay leaf",
+        "IdlJrAHh2": "ground black pepper",
+        "I5KISX3q-": "pork and beans in tomato sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "Heat oil in medium size saucepan.",
+        "Add potatoes, celery, and onion, saute for 5 minutes.",
+        "Stir in cabbage, cover and cook over medium heat, until cabbage is tender.",
+        "Add broth, bay leaf, pepper and pork and beans.",
+        "Heat until soup is hot and then remove bay leaf and serve."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

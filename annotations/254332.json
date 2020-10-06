@@ -1,0 +1,60 @@
+{
+    "ingredients": [
+        "1 (16 ounce) package egg noodles",
+        "1 pound ground beef",
+        "1 pinch salt and ground black pepper to taste",
+        "1 pinch garlic powder (optional)",
+        "2 (10.75 ounce) cans cream of mushroom soup",
+        "1 (8 ounce) package cream cheese",
+        "1/2 cup milk, plus more to taste",
+        "1 (11 ounce) can diced carrots"
+    ],
+    "instructions": [
+        "Bring a large pot of lightly salted water to a boil. Cook egg noodles in boiling water, stirring occasionally, until tender yet firm to the bite, 8 to 10 minutes. Drain and transfer to a large dish.",
+        "Season ground beef with salt, pepper, and garlic powder.",
+        "Heat a large skillet over medium heat. Add seasoned beef; cook and stir until browned, 6 to 8 minutes. Add cream of mushroom soup, cream cheese, and milk; cook and stir until cream cheese melts and mixture is saucy, about 6 minutes.",
+        "Pour mixture over noodles. Add carrots; stir until evenly combined."
+    ],
+    "title": "Michelle's Ultimate Beef Stroganoff Casserole",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3803398.jpg",
+    "url": "http://allrecipes.com/Recipe/254332/",
+    "normalized_ingredients": {
+        "IkUMHmRZp": "egg noodles",
+        "INzU_lxpu": "ground beef",
+        "IiHzj6Gf-": "pinch salt and ground black pepper to taste",
+        "IfJpNMeYD": "pinch garlic powder ",
+        "ICvNMkhaQ": "cream of mushroom soup",
+        "IDUWQF1DU": "cream cheese",
+        "I7L24gq6G": "milk",
+        "Ig6TVcp1D": "diced carrots"
+    },
+    "status": 0,
+    "sentences": [
+        "Bring a large pot of lightly salted water to a boil.",
+        "Cook egg noodles in boiling water, stirring occasionally, until tender yet firm to the bite, 8 to 10 minutes.",
+        "Drain and transfer to a large dish.",
+        "Season ground beef with salt, pepper, and garlic powder.",
+        "Heat a large skillet over medium heat.",
+        "Add seasoned beef; cook and stir until browned, 6 to 8 minutes.",
+        "Add cream of mushroom soup, cream cheese, and milk; cook and stir until cream cheese melts and mixture is saucy, about 6 minutes.",
+        "Pour mixture over noodles.",
+        "Add carrots; stir until evenly combined."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

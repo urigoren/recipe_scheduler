@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "2 pounds ground beef",
+        "1 1/2 cups fresh bread crumbs",
+        "1/4 cup chopped onion",
+        "1/2 cup milk",
+        "1 1/2 teaspoons salt",
+        "2 eggs",
+        "1 (18 ounce) bottle barbecue sauce"
+    ],
+    "instructions": [
+        "Preheat oven to 375 degrees F (190 degrees C).",
+        "In a large bowl, combine the beef, bread, onion, milk, salt and eggs. Shape into little meatballs, about 1 inch in size. Place the meatballs into a 9x13 inch baking dish.",
+        "Bake at 375 degrees F (190 degrees C) for 25 to 30 minutes. Pour barbecue sauce over the meatballs and bake for 35 more minutes."
+    ],
+    "title": "Barbecued Meatballs",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/297544.jpg",
+    "url": "http://allrecipes.com/Recipe/16163/",
+    "normalized_ingredients": {
+        "INzU_lxpu": "ground beef",
+        "I8UU4881n": "bread crumbs",
+        "Iz0wiMjVJ": "onion",
+        "I7L24gq6G": "milk",
+        "IzrIHcuDJ": "salt",
+        "Iq5LZ-uXu": "eggs",
+        "I-mJ6GeDQ": "bottle barbecue sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 375 degrees F",
+        "(190 degrees C).",
+        "In a large bowl, combine the beef, bread, onion, milk, salt and eggs.",
+        "Shape into little meatballs, about 1 inch in size.",
+        "Place the meatballs into a 9x13 inch baking dish.",
+        "Bake at 375 degrees F",
+        "(190 degrees C) for 25 to 30 minutes.",
+        "Pour barbecue sauce over the meatballs and bake for 35 more minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

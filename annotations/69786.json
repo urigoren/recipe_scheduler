@@ -1,0 +1,58 @@
+{
+    "ingredients": [
+        "1/2 cup soy sauce",
+        "1/2 cup sherry or white cooking wine",
+        "1/2 cup chicken broth",
+        "1/4 teaspoon ground ginger",
+        "1 pinch garlic powder",
+        "1 bunch green onions, chopped",
+        "1 pound skinless, boneless chicken breast halves - cut into 2 inch pieces"
+    ],
+    "instructions": [
+        "In a small saucepan, combine the soy sauce, sherry, chicken broth, ginger, garlic powder and green onions. Bring to a boil, and immediately remove from heat. Set aside.",
+        "Preheat your oven's broiler. Thread chicken pieces onto metal or bamboo skewers. Arrange on a broiler pan that has been coated with cooking spray. Spoon 1 or 2 tablespoons of the sauce over each chicken skewer.",
+        "Place the pan under the broiler, and broil for about 3 minutes, until browned. Remove from the oven, turn over, and spoon more sauce onto each one. Return to the oven until chicken is cooked through and nicely browned."
+    ],
+    "title": "Juicy Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/844133.jpg",
+    "url": "http://allrecipes.com/Recipe/69786/",
+    "normalized_ingredients": {
+        "ILAT-xDbX": "soy sauce",
+        "IxZz3vMhQ": "sherry or white cooking wine",
+        "INNbMITPe": "chicken broth",
+        "IAq835ZPT": "ground ginger",
+        "IwoxqWgWF": "pinch garlic powder",
+        "IGLWq6UYY": "bunch green onions",
+        "IyzbCHQD4": "skinless"
+    },
+    "status": 0,
+    "sentences": [
+        "In a small saucepan, combine the soy sauce, sherry, chicken broth, ginger, garlic powder and green onions.",
+        "Bring to a boil, and immediately remove from heat.",
+        "Set aside.",
+        "Preheat your oven's broiler.",
+        "Thread chicken pieces onto metal or bamboo skewers.",
+        "Arrange on a broiler pan that has been coated with cooking spray.",
+        "Spoon 1 or 2 tablespoons of the sauce over each chicken skewer.",
+        "Place the pan under the broiler, and broil for about 3 minutes, until browned.",
+        "Remove from the oven, turn over, and spoon more sauce onto each one.",
+        "Return to the oven until chicken is cooked through and nicely browned."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

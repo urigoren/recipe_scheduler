@@ -1,0 +1,58 @@
+{
+    "ingredients": [
+        "1 (12 inch) pre-baked pizza crust",
+        "1 (7 ounce) jar peanut sauce",
+        "1/4 cup peanut butter",
+        "8 ounces cooked skinless, boneless chicken breast halves, cut into strips",
+        "1 cup shredded Italian cheese blend",
+        "1 bunch green onions, chopped",
+        "1/2 cup fresh bean sprouts (optional)",
+        "1/2 cup shredded carrot (optional)",
+        "1 tablespoon chopped roasted peanuts (optional)"
+    ],
+    "instructions": [
+        "Preheat the oven to 400 degrees F (200 degrees C).",
+        "In a small bowl, stir together the peanut sauce and peanut butter. Spread over the pizza crust. Arrange strips of chicken on top. Sprinkle on the green onions and cheese.",
+        "Bake for 8 to 12 minutes in the preheated oven, until cheese is melted and bubbly. Top with bean sprouts, carrot shreds and peanuts, if using. Slice into wedges and serve."
+    ],
+    "title": "Thai Chicken Pizza",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/20805.jpg",
+    "url": "http://allrecipes.com/Recipe/71145/",
+    "normalized_ingredients": {
+        "IeVNjqyCO": "pre-baked pizza crust",
+        "I2Gg88gj2": "jar peanut sauce",
+        "IEC1R0HRF": "peanut butter",
+        "IVMZVJ2MA": "cooked skinless, boneless chicken breast halves",
+        "IXEta3yKo": "shredded Italian cheese blend",
+        "IGLWq6UYY": "bunch green onions",
+        "IA_6pMPT7": "bean sprouts ",
+        "IE1vE7VMb": "shredded carrot ",
+        "IBprpjzZA": "roasted peanuts "
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat the oven to 400 degrees F (200 degrees C).",
+        "In a small bowl, stir together the peanut sauce and peanut butter.",
+        "Spread over the pizza crust.",
+        "Arrange strips of chicken on top.",
+        "Sprinkle on the green onions and cheese.",
+        "Bake for 8 to 12 minutes in the preheated oven, until cheese is melted and bubbly.",
+        "Top with bean sprouts, carrot shreds and peanuts, if using.",
+        "Slice into wedges and serve."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

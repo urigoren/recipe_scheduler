@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "1 1/2 pounds ground beef",
+        "1 small onion, finely chopped",
+        "1 egg",
+        "1/2 cup bread crumbs",
+        "1/4 cup bacon bits",
+        "garlic salt to taste",
+        "4 hamburger buns, split and toasted"
+    ],
+    "instructions": [
+        "Preheat an outdoor grill for high heat.",
+        "In a medium bowl, mix together the ground beef, onion, egg, bread crumbs, and bacon bits. Season with garlic salt. (I like to use a lot.) Divide into four balls, and pat into patties.",
+        "Lightly oil the grate, and place patties onto the grill. Cook for about 5 minutes per side, or until firm and no longer pink in the center. Serve on toasted buns with your favorite hamburger toppings."
+    ],
+    "title": "Lea's Hamburgers",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/3658491.jpg",
+    "url": "http://allrecipes.com/Recipe/70513/",
+    "normalized_ingredients": {
+        "INzU_lxpu": "ground beef",
+        "Iz0wiMjVJ": "onion",
+        "IDpMSCH9Y": "egg",
+        "I8UU4881n": "bread crumbs",
+        "IeCTmZLDv": "bacon bits",
+        "I5QY0Bh1N": "garlic salt to taste",
+        "IajEjqfYM": "hamburger buns"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat an outdoor grill for high heat.",
+        "In a medium bowl, mix together the ground beef, onion, egg, bread crumbs, and bacon bits.",
+        "Season with garlic salt.",
+        "(I like to use a lot.)",
+        "Divide into four balls, and pat into patties.",
+        "Lightly oil the grate, and place patties onto the grill.",
+        "Cook for about 5 minutes per side, or until firm and no longer pink in the center.",
+        "Serve on toasted buns with your favorite hamburger toppings."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "ingredients": [
+        "1/2 cup soy sauce",
+        "1/2 cup lemon juice",
+        "1/4 cup peanut butter",
+        "6 cloves garlic, chopped",
+        "2 tablespoons curry powder",
+        "1 tablespoon brown sugar",
+        "1 teaspoon hot pepper sauce",
+        "6 (6 ounce) skinless, boneless chicken breast halves, cut into chunks",
+        "6 (10 inch) skewers"
+    ],
+    "instructions": [
+        "Stir soy sauce, lemon juice, peanut butter, garlic, curry powder, brown sugar, and hot pepper sauce together in a large bowl until marinade is well-combined. Place chicken in the marinade and stir to coat. Cover the bowl with plastic wrap and refrigerate 2 hours to overnight.",
+        "Preheat an outdoor grill for high heat, and lightly oil the grate.",
+        "Remove chicken from marinade; discard marinade and thread chicken onto skewers.",
+        "Cook chicken on the preheated grill until juices run clear and chicken is cooked through, about 5 minutes per side."
+    ],
+    "title": "Thai-Style Chicken Satay",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1378357.jpg",
+    "url": "http://allrecipes.com/Recipe/237195/",
+    "normalized_ingredients": {
+        "ILAT-xDbX": "soy sauce",
+        "I5wmzk9dU": "lemon juice",
+        "IEC1R0HRF": "peanut butter",
+        "IXclyBsV3": "cloves garlic",
+        "IB5g5dS9v": "curry powder",
+        "IRG-HJdJz": "brown sugar",
+        "Iz1E1TJ9B": "hot pepper sauce",
+        "IS79z8a3m": "skinless, boneless chicken breast halves",
+        "Izm84_vv0": "skewers"
+    },
+    "status": 0,
+    "sentences": [
+        "Stir soy sauce, lemon juice, peanut butter, garlic, curry powder, brown sugar, and hot pepper sauce together in a large bowl until marinade is well-combined.",
+        "Place chicken in the marinade and stir to coat.",
+        "Cover the bowl with plastic wrap and refrigerate 2 hours to overnight.",
+        "Preheat an outdoor grill for high heat, and lightly oil the grate.",
+        "Remove chicken from marinade; discard marinade and thread chicken onto skewers.",
+        "Cook chicken on the preheated grill until juices run clear and chicken is cooked through, about 5 minutes per side."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "ingredients": [
+        "4 skinless, boneless chicken breasts",
+        "1 (6 ounce) container plain low-fat yogurt",
+        "1 lemon, juiced",
+        "1 cup dried bread crumbs, seasoned",
+        "1/2 teaspoon garlic powder",
+        "salt to taste",
+        "1/4 cup butter",
+        "1 tablespoon chopped fresh parsley"
+    ],
+    "instructions": [
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Place yogurt in a small bowl and stir until creamy smooth. Add lemon and stir together. (Note: If you do not stir the yogurt first, the lemon juice will make the yogurt curdle.) In a separate shallow dish or bowl combine the bread crumbs, garlic powder and salt to taste; mix together.",
+        "In a 9x13 inch baking dish place 1 scant pat of butter or margarine for each chicken breast. Rinse chicken breasts and pat dry. Dip each breast in the lemon/yogurt mixture, then in the bread crumb mixture (coating completely but not heavily).",
+        "Place coated chicken in the baking dish and top each breast with a full pat of butter or margarine. Sprinkle with chopped parsley and bake in the preheated oven for 1 hour. Let cool for 5 to 10 minutes before serving."
+    ],
+    "title": "Yogurt Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/214066.jpg",
+    "url": "http://allrecipes.com/Recipe/15221/",
+    "normalized_ingredients": {
+        "IyzbCHQD4": "skinless",
+        "InZihqotK": "container plain low-fat yogurt",
+        "IPyTlZ1ke": "lemon",
+        "ItL7OC95t": "dried bread crumbs",
+        "IvZ0DqVmo": "garlic powder",
+        "ILk6FOH8U": "salt to taste",
+        "I10_d4pRP": "butter",
+        "Ipez39jKi": "fresh parsley"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Place yogurt in a small bowl and stir until creamy smooth.",
+        "Add lemon and stir together.",
+        "(Note: If you do not stir the yogurt first, the lemon juice will make the yogurt curdle.)",
+        "In a separate shallow dish or bowl combine the bread crumbs, garlic powder and salt to taste; mix together.",
+        "In a 9x13 inch baking dish place 1 scant pat of butter or margarine for each chicken breast.",
+        "Rinse chicken breasts and pat dry.",
+        "Dip each breast in the lemon/yogurt mixture, then in the bread crumb mixture (coating completely but not heavily).",
+        "Place coated chicken in the baking dish and top each breast with a full pat of butter or margarine.",
+        "Sprinkle with chopped parsley and bake in the preheated oven for 1 hour.",
+        "Let cool for 5 to 10 minutes before serving."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

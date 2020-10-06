@@ -1,0 +1,58 @@
+{
+    "ingredients": [
+        "2 (8 ounce) cans water chestnuts, drained",
+        "1/3 cup soy sauce",
+        "1 pound bacon, halved crosswise",
+        "20 toothpicks, or as needed",
+        "1/3 cup packed brown sugar",
+        "1/3 cup mayonnaise",
+        "1/3 cup chili sauce"
+    ],
+    "instructions": [
+        "Soak water chestnuts in a bowl with soy sauce for at least 3 hours; drain.",
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Wrap each water chestnut with a piece of bacon; secure with a toothpick and arrange on a shallow baking dish. Repeat with remaining water chestnuts.",
+        "Bake in the preheated oven until bacon is crisp, 25 to 35 minutes.",
+        "Meanwhile, mix brown sugar, mayonnaise, and chili sauce in a bowl until dipping sauce is smooth. Serve bacon-wrapped water chestnuts with dipping sauce."
+    ],
+    "title": "Best Bacon Wrapped Water Chestnuts",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1944721.jpg",
+    "url": "http://allrecipes.com/Recipe/233601/",
+    "normalized_ingredients": {
+        "I-2CKAvHd": "water chestnuts",
+        "ILAT-xDbX": "soy sauce",
+        "IeBMljvjG": "bacon",
+        "IidU-0fJ_": "toothpicks",
+        "IjdeLbzOg": "packed brown sugar",
+        "I0BO-Tu1u": "mayonnaise",
+        "IrOFel8FB": "chili sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "Soak water chestnuts in a bowl with soy sauce for at least 3 hours; drain.",
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Wrap each water chestnut with a piece of bacon; secure with a toothpick and arrange on a shallow baking dish.",
+        "Repeat with remaining water chestnuts.",
+        "Bake in the preheated oven until bacon is crisp, 25 to 35 minutes.",
+        "Meanwhile, mix brown sugar, mayonnaise, and chili sauce in a bowl until dipping sauce is smooth.",
+        "Serve bacon-wrapped water chestnuts with dipping sauce."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

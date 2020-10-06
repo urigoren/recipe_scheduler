@@ -1,0 +1,62 @@
+{
+    "ingredients": [
+        "1 (10.75 ounce) can condensed tomato soup",
+        "1 onion, chopped",
+        "3 cloves garlic, minced",
+        "1 tablespoon brown sugar",
+        "1 tablespoon Worcestershire sauce",
+        "2 tablespoons soy sauce",
+        "2 pounds pork spareribs",
+        "1 teaspoon cornstarch (optional)",
+        "1/4 cup cold water (optional)"
+    ],
+    "instructions": [
+        "Place ribs in a large stock pot, and cover with water. Bring to a boil, and cook for 15 minutes.",
+        "In a mixing bowl, mix together soup, onion, garlic, brown sugar, Worcestershire sauce, and soy sauce. Remove ribs from water, and transfer to a slow cooker. Pour sauce over ribs.",
+        "Cover, and cook on Low for 6 to 8 hours, or until ribs are tender.",
+        "If sauce is too thin when cooking time is done, drain sauce from ribs, and pour into a sauce pan. Combine 1 teaspoon cornstarch with a small amount of cold water, stir into sauce, and bring sauce to boil. Cook until sauce has reached desired thickness."
+    ],
+    "title": "Slow Cooker Spare Ribs",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/410372.jpg",
+    "url": "http://allrecipes.com/Recipe/24538/",
+    "normalized_ingredients": {
+        "I2wQk_rF4": "condensed tomato soup",
+        "Iz0wiMjVJ": "onion",
+        "IXclyBsV3": "cloves garlic",
+        "IRG-HJdJz": "brown sugar",
+        "Ih0sQOBSE": "Worcestershire sauce",
+        "ILAT-xDbX": "soy sauce",
+        "IhmX17TkK": "pork spareribs",
+        "ILtXu9dhI": "cornstarch ",
+        "IUspHSzI2": "cold water "
+    },
+    "status": 0,
+    "sentences": [
+        "Place ribs in a large stock pot, and cover with water.",
+        "Bring to a boil, and cook for 15 minutes.",
+        "In a mixing bowl, mix together soup, onion, garlic, brown sugar, Worcestershire sauce, and soy sauce.",
+        "Remove ribs from water, and transfer to a slow cooker.",
+        "Pour sauce over ribs.",
+        "Cover, and cook on Low for 6 to 8 hours, or until ribs are tender.",
+        "If sauce is too thin when cooking time is done, drain sauce from ribs, and pour into a sauce pan.",
+        "Combine 1 teaspoon cornstarch with a small amount of cold water, stir into sauce, and bring sauce to boil.",
+        "Cook until sauce has reached desired thickness."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

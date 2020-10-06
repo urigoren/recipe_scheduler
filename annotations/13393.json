@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "1 1/2 tablespoons vegetable oil",
+        "1/4 small head cabbage, shredded",
+        "4 ounces lean pork tenderloin, cut into thin strips",
+        "6 cups chicken broth",
+        "2 tablespoons soy sauce",
+        "1/2 teaspoon minced fresh ginger root",
+        "8 fresh green onions, chopped",
+        "4 ounces dry Chinese noodles"
+    ],
+    "instructions": [
+        "Using a large skillet or wok heat oil over medium heat. Add cabbage and pork; fry until pork in no longer pink inside, approximately 5 minutes. Make sure to stir your cabbage and pork while it is frying.",
+        "Add chicken broth, soy sauce, ginger and bring to a boil. Reduce heat to low; simmer 10 minutes, stirring occasionally.",
+        "Stir in onions and add noodles. Cook until noodles are tender, 2 to 4 minutes."
+    ],
+    "title": "Long Soup",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/70440.jpg",
+    "url": "http://allrecipes.com/Recipe/13393/",
+    "normalized_ingredients": {
+        "I7oUHHY41": "vegetable oil",
+        "IkNHUvIXw": "head cabbage",
+        "IFblkpXbV": "lean pork tenderloin",
+        "INNbMITPe": "chicken broth",
+        "ILAT-xDbX": "soy sauce",
+        "IfQ6FM5Es": "fresh ginger root",
+        "I_o-EUBYD": "green onions",
+        "IWesrN5nN": "dry Chinese noodles"
+    },
+    "status": 0,
+    "sentences": [
+        "Using a large skillet or wok heat oil over medium heat.",
+        "Add cabbage and pork; fry until pork in no longer pink inside, approximately 5 minutes.",
+        "Make sure to stir your cabbage and pork while it is frying.",
+        "Add chicken broth, soy sauce, ginger and bring to a boil.",
+        "Reduce heat to low; simmer 10 minutes, stirring occasionally.",
+        "Stir in onions and add noodles.",
+        "Cook until noodles are tender, 2 to 4 minutes."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "ingredients": [
+        "2 pounds lean ground beef",
+        "1 packet dry onion soup mix",
+        "1/2 cup water",
+        "1 teaspoon hot pepper sauce",
+        "3/4 cup dried bread crumbs"
+    ],
+    "instructions": [
+        "Preheat an outdoor grill for medium high heat and lightly oil grate.",
+        "In a large bowl, combine the beef, onion soup mix, water, hot sauce and bread crumbs. Mix together well and form into patties.",
+        "Grill patties over medium high heat for 10 to 20 minutes, or to desired doneness."
+    ],
+    "title": "Brandi's Best Burgers",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/571472.jpg",
+    "url": "http://allrecipes.com/Recipe/18004/",
+    "normalized_ingredients": {
+        "ICVfuQXfd": "lean ground beef",
+        "In7QlvXs0": "packet dry onion soup mix",
+        "IlGA3C7DK": "water",
+        "Iz1E1TJ9B": "hot pepper sauce",
+        "ItL7OC95t": "dried bread crumbs"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat an outdoor grill for medium high heat and lightly oil grate.",
+        "In a large bowl, combine the beef, onion soup mix, water, hot sauce and bread crumbs.",
+        "Mix together well and form into patties.",
+        "Grill patties over medium high heat for 10 to 20 minutes, or to desired doneness."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        []
+    ]
+}

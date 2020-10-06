@@ -1,0 +1,56 @@
+{
+    "ingredients": [
+        "1/4 cup lemon juice",
+        "1/4 cup honey",
+        "2 tablespoons reduced-sodium soy sauce",
+        "1 tablespoon sherry",
+        "2 cloves garlic, minced",
+        "4 (4 ounce) boneless pork loin chops"
+    ],
+    "instructions": [
+        "Whisk the lemon juice, honey, soy sauce, sherry, and garlic together in a small bowl; pour about 1/2 cup of the mixture into a large resealable plastic bag. Cover the bowl containing the remaining marinade with plastic wrap, and refrigerate. Add the pork chops to the plastic bag; squeeze as much air as possible from the bag and seal. Turn the bag to coat the meat thoroughly; refrigerate 2 to 3 hours.",
+        "Preheat an outdoor grill for medium-high heat, and lightly oil the grate.",
+        "Remove the pork chops to a plate; allow to sit until they reach room temperature. Discard the used marinade.",
+        "Cook on the preheated grill until the pork is no longer pink in the center, 4 to 5 minutes per side, basting frequently with the reserved marinade. An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C)."
+    ],
+    "title": "Honey-Soy Pork Chops from the Bradshaw Family",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/843823.jpg",
+    "url": "http://allrecipes.com/Recipe/218086/",
+    "normalized_ingredients": {
+        "I5wmzk9dU": "lemon juice",
+        "Itg64O_Uz": "honey",
+        "IfK0MFefK": "reduced-sodium soy sauce",
+        "IB4_4fm80": "sherry",
+        "IXclyBsV3": "cloves garlic",
+        "Ixsij1FT4": "boneless pork loin chops"
+    },
+    "status": 0,
+    "sentences": [
+        "Whisk the lemon juice, honey, soy sauce, sherry, and garlic together in a small bowl; pour about 1/2 cup of the mixture into a large resealable plastic bag.",
+        "Cover the bowl containing the remaining marinade with plastic wrap, and refrigerate.",
+        "Add the pork chops to the plastic bag; squeeze as much air as possible from the bag and seal.",
+        "Turn the bag to coat the meat thoroughly; refrigerate 2 to 3 hours.",
+        "Preheat an outdoor grill for medium-high heat, and lightly oil the grate.",
+        "Remove the pork chops to a plate; allow to sit until they reach room temperature.",
+        "Discard the used marinade.",
+        "Cook on the preheated grill until the pork is no longer pink in the center, 4 to 5 minutes per side, basting frequently with the reserved marinade.",
+        "An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C)."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

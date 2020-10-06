@@ -1,0 +1,48 @@
+{
+    "ingredients": [
+        "1 pound ground turkey",
+        "1/2 cup Italian bread crumbs",
+        "1/4 cup thinly sliced baby spinach",
+        "1 egg",
+        "2 tablespoons onion powder",
+        "2 tablespoons garlic powder"
+    ],
+    "instructions": [
+        "Preheat oven to 375 degrees F (190 degrees C).",
+        "Combine turkey, bread crumbs, spinach, egg, onion powder, and garlic powder together in a bowl. Roll mixture into palm-size meatballs and place 2 inches apart on a baking sheet.",
+        "Bake in the preheated oven until no longer pink in the center and outside is browned, 15 to 20 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+    ],
+    "title": "Baked Turkey Meatballs",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2035550.jpg",
+    "url": "http://allrecipes.com/Recipe/239951/",
+    "normalized_ingredients": {
+        "IlVc50HUg": "ground turkey",
+        "IPzzQItmI": "Italian bread crumbs",
+        "IFuJ0E5dC": "thinly sliced baby spinach",
+        "IDpMSCH9Y": "egg",
+        "ICQ5epRkS": "onion powder",
+        "IvZ0DqVmo": "garlic powder"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven to 375 degrees F",
+        "(190 degrees C).",
+        "Combine turkey, bread crumbs, spinach, egg, onion powder, and garlic powder together in a bowl.",
+        "Roll mixture into palm-size meatballs and place 2 inches apart on a baking sheet.",
+        "Bake in the preheated oven until no longer pink in the center and outside is browned, 15 to 20 minutes.",
+        "An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

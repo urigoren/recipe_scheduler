@@ -1,0 +1,48 @@
+{
+    "ingredients": [
+        "1 (8 ounce) package egg noodles",
+        "1 pound ground beef",
+        "1 (10.75 ounce) can fat free condensed cream of mushroom soup",
+        "1 tablespoon garlic powder",
+        "1/2 cup sour cream",
+        "salt and pepper to taste"
+    ],
+    "instructions": [
+        "Prepare the egg noodles according to package directions and set aside.",
+        "In a separate large skillet over medium heat, saute the ground beef over medium heat for 5 to 10 minutes, or until browned. Drain the fat and add the soup and garlic powder. Simmer for 10 minutes, stirring occasionally.",
+        "Remove from heat and combine the meat mixture with the egg noodles. Add the sour cream, stirring well, and season with salt and pepper to taste."
+    ],
+    "title": "Simple Beef Stroganoff",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/262402.jpg",
+    "url": "http://allrecipes.com/Recipe/16311/",
+    "normalized_ingredients": {
+        "IkUMHmRZp": "egg noodles",
+        "INzU_lxpu": "ground beef",
+        "IZeFu7Pne": "fat free condensed cream of mushroom soup",
+        "IvZ0DqVmo": "garlic powder",
+        "IHju9fTVF": "sour cream",
+        "IKy5ha2qv": "salt and pepper to taste"
+    },
+    "status": 0,
+    "sentences": [
+        "Prepare the egg noodles according to package directions and set aside.",
+        "In a separate large skillet over medium heat, saute the ground beef over medium heat for 5 to 10 minutes, or until browned.",
+        "Drain the fat and add the soup and garlic powder.",
+        "Simmer for 10 minutes, stirring occasionally.",
+        "Remove from heat and combine the meat mixture with the egg noodles.",
+        "Add the sour cream, stirring well, and season with salt and pepper to taste."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

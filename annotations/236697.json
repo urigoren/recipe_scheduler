@@ -1,0 +1,50 @@
+{
+    "ingredients": [
+        "1 1/2 pounds beef stew meat, cut into cubes",
+        "3 large potatoes, cut into cubes",
+        "1 pound carrots, cut into 3/4-inch chunks",
+        "1 large onion, chopped",
+        "1 (10.5 ounce) can cream of mushroom soup",
+        "1 (8 ounce) can tomato sauce",
+        "1 (1 ounce) package dry onion soup mix",
+        "1 tablespoon dried parsley flakes",
+        "1 teaspoon ground black pepper"
+    ],
+    "instructions": [
+        "Combine beef, potatoes, carrots, and onion in a slow cooker crock.",
+        "Mix cream of mushroom soup, tomato sauce, onion soup mix, parsley, and pepper together in a bowl; pour over the beef mixture.",
+        "Cook on Low for 6 to 8 hours. Stir before serving."
+    ],
+    "title": "Easy and Hearty Slow Cooker Beef Stew",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4515784.jpg",
+    "url": "http://allrecipes.com/Recipe/236697/",
+    "normalized_ingredients": {
+        "IjuezGdd_": "beef stew meat",
+        "I4aHwvjDO": "potatoes",
+        "IGGqLcv5p": "carrots",
+        "Iz0wiMjVJ": "onion",
+        "ICvNMkhaQ": "cream of mushroom soup",
+        "I-4q8Lxl1": "tomato sauce",
+        "I8IdKkoFz": "dry onion soup mix",
+        "IRNwJGSwI": "dried parsley flakes",
+        "IdlJrAHh2": "ground black pepper"
+    },
+    "status": 0,
+    "sentences": [
+        "Combine beef, potatoes, carrots, and onion in a slow cooker crock.",
+        "Mix cream of mushroom soup, tomato sauce, onion soup mix, parsley, and pepper together in a bowl; pour over the beef mixture.",
+        "Cook on Low for 6 to 8 hours.",
+        "Stir before serving."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        []
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "ingredients": [
+        "6 chicken thighs",
+        "1/4 cup soy sauce",
+        "2 lemons",
+        "2 tablespoons butter",
+        "5 cloves garlic, peeled and chopped",
+        "salt and ground black pepper to taste"
+    ],
+    "instructions": [
+        "In a shallow dish, soak chicken thighs in soy sauce. Squeeze juice from the lemons into the dish. Let stand for at least 10 minutes.",
+        "While the chicken is marinating, melt butter in a large skillet or wok. Add garlic and fry until tender. Add chicken thighs and cook on medium high until the juices run clear, about 20 to 25 minutes.",
+        "Serve over white rice with pan drippings."
+    ],
+    "title": "Greasy Chicken",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/33622.jpg",
+    "url": "http://allrecipes.com/Recipe/28015/",
+    "normalized_ingredients": {
+        "ISdM85QOB": "chicken thighs",
+        "ILAT-xDbX": "soy sauce",
+        "II4rVGn8d": "lemons",
+        "I10_d4pRP": "butter",
+        "IXclyBsV3": "cloves garlic",
+        "IukXkN8DV": "salt and ground black pepper to taste"
+    },
+    "status": 0,
+    "sentences": [
+        "In a shallow dish, soak chicken thighs in soy sauce.",
+        "Squeeze juice from the lemons into the dish.",
+        "Let stand for at least 10 minutes.",
+        "While the chicken is marinating, melt butter in a large skillet or wok.",
+        "Add garlic and fry until tender.",
+        "Add chicken thighs and cook on medium high until the juices run clear, about 20 to 25 minutes.",
+        "Serve over white rice with pan drippings."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}
