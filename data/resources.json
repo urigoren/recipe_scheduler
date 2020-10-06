@@ -49,7 +49,8 @@
     {
         "name": "Other", "id": "O", "expanded": false, "children": [
             {"name": "Grind", "id": "O1"},
-            {"name": "Blend", "id": "O2"}
+            {"name": "Blend", "id": "O2"},
+            {"name": "Deep Fry", "id": "O3"}
         ]
     }
 ]
