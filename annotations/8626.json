@@ -11,16 +11,10 @@
         "skewers"
     ],
     "instructions": [
-        "In a large bowl, whisk together oil, honey, soy sauce, and pepper.",
-        "Before adding chicken, reserve a small amount of marinade to brush onto kabobs while cooking.",
-        "Place the chicken, garlic, onions and peppers in the bowl, and marinate in the refrigerator at least 2 hours (the longer the better).",
+        "In a large bowl, whisk together oil, honey, soy sauce, and pepper. Before adding chicken, reserve a small amount of marinade to brush onto kabobs while cooking. Place the chicken, garlic, onions and peppers in the bowl, and marinate in the refrigerator at least 2 hours (the longer the better).",
         "Preheat the grill for high heat.",
-        "Drain marinade from the chicken and vegetables, and discard marinade.",
-        "Thread chicken and vegetables alternately onto the skewers.",
-        "Lightly oil the grill grate.",
-        "Place the skewers on the grill.",
-        "Cook for 12 to 15 minutes, until chicken juices run clear.",
-        "Turn and brush with reserved marinade frequently."
+        "Drain marinade from the chicken and vegetables, and discard marinade. Thread chicken and vegetables alternately onto the skewers.",
+        "Lightly oil the grill grate. Place the skewers on the grill. Cook for 12 to 15 minutes, until chicken juices run clear. Turn and brush with reserved marinade frequently."
     ],
     "title": "Yummy Honey Chicken Kabobs",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1017234.jpg",
@@ -37,13 +31,25 @@
         "Izm84_vv0": "skewers"
     },
     "status": 0,
-    "steps": [
-        "In a large bowl, whisk together oil, honey, soy sauce, and pepper. Before adding chicken, reserve a small amount of marinade to brush onto kabobs while cooking. Place the chicken, garlic, onions and peppers in the bowl, and marinate in the refrigerator at least 2 hours (the longer the better).",
+    "sentences": [
+        "In a large bowl, whisk together oil, honey, soy sauce, and pepper.",
+        "Before adding chicken, reserve a small amount of marinade to brush onto kabobs while cooking.",
+        "Place the chicken, garlic, onions and peppers in the bowl, and marinate in the refrigerator at least 2 hours (the longer the better).",
         "Preheat the grill for high heat.",
-        "Drain marinade from the chicken and vegetables, and discard marinade. Thread chicken and vegetables alternately onto the skewers.",
-        "Lightly oil the grill grate. Place the skewers on the grill. Cook for 12 to 15 minutes, until chicken juices run clear. Turn and brush with reserved marinade frequently."
+        "Drain marinade from the chicken and vegetables, and discard marinade.",
+        "Thread chicken and vegetables alternately onto the skewers.",
+        "Lightly oil the grill grate.",
+        "Place the skewers on the grill.",
+        "Cook for 12 to 15 minutes, until chicken juices run clear.",
+        "Turn and brush with reserved marinade frequently."
     ],
     "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

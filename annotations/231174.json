@@ -10,10 +10,7 @@
         "3 pounds skinless, boneless chicken breasts, cut into strips"
     ],
     "instructions": [
-        "Whisk vegetable oil, chili powder, lime juice, honey, garlic powder, paprika, and black pepper in a bowl to make a marinade.",
-        "Place chicken strips into a large resealable plastic bag; pour marinade over chicken.",
-        "Knead bag to coat chicken with marinade.",
-        "Squeeze out air, seal bag, and refrigerate 4 hours to overnight.",
+        "Whisk vegetable oil, chili powder, lime juice, honey, garlic powder, paprika, and black pepper in a bowl to make a marinade. Place chicken strips into a large resealable plastic bag; pour marinade over chicken. Knead bag to coat chicken with marinade. Squeeze out air, seal bag, and refrigerate 4 hours to overnight.",
         "Preheat an outdoor grill for medium-high heat and lightly oil the grate.",
         "Remove chicken strips from marinade; discard used marinade.",
         "Grill chicken on preheated grill until browned, the juices run clear, and an instant-read meat thermometer inserted into the thickest piece reads at least 160 degrees F (70 degrees C), about 10 minutes per side."
@@ -32,13 +29,22 @@
         "I7RMBnD2u": "skinless, boneless chicken breasts"
     },
     "status": 0,
-    "steps": [
-        "Whisk vegetable oil, chili powder, lime juice, honey, garlic powder, paprika, and black pepper in a bowl to make a marinade. Place chicken strips into a large resealable plastic bag; pour marinade over chicken. Knead bag to coat chicken with marinade. Squeeze out air, seal bag, and refrigerate 4 hours to overnight.",
+    "sentences": [
+        "Whisk vegetable oil, chili powder, lime juice, honey, garlic powder, paprika, and black pepper in a bowl to make a marinade.",
+        "Place chicken strips into a large resealable plastic bag; pour marinade over chicken.",
+        "Knead bag to coat chicken with marinade.",
+        "Squeeze out air, seal bag, and refrigerate 4 hours to overnight.",
         "Preheat an outdoor grill for medium-high heat and lightly oil the grate.",
         "Remove chicken strips from marinade; discard used marinade.",
         "Grill chicken on preheated grill until browned, the juices run clear, and an instant-read meat thermometer inserted into the thickest piece reads at least 160 degrees F (70 degrees C), about 10 minutes per side."
     ],
     "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

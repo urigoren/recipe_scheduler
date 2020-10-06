@@ -11,14 +11,9 @@
         "4 tablespoons cornstarch"
     ],
     "instructions": [
-        "TO MAKE MARINADE",
-        ": Combine the soy sauce, red chili powder, red food coloring, vinegar, garlic and green chiles.",
-        "Mix well.",
-        "On each chicken wing, push the meat down to one end.",
-        "Marinate the wings for AT LEAST 1/2 hour.",
-        "Remove the wings from the marinade and add the cornstarch to the marinade to make a batter.",
-        "Dip the wings in the batter and deep fry.",
-        "Ready to serve!"
+        "TO MAKE MARINADE: Combine the soy sauce, red chili powder, red food coloring, vinegar, garlic and green chiles. Mix well.",
+        "On each chicken wing, push the meat down to one end. Marinate the wings for AT LEAST 1/2 hour.",
+        "Remove the wings from the marinade and add the cornstarch to the marinade to make a batter. Dip the wings in the batter and deep fry. Ready to serve!"
     ],
     "title": "Chicken Lollipops",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/212616.jpg",
@@ -35,12 +30,22 @@
         "Ik1g9zGpa": "cornstarch"
     },
     "status": 0,
-    "steps": [
-        "TO MAKE MARINADE: Combine the soy sauce, red chili powder, red food coloring, vinegar, garlic and green chiles. Mix well.",
-        "On each chicken wing, push the meat down to one end. Marinate the wings for AT LEAST 1/2 hour.",
-        "Remove the wings from the marinade and add the cornstarch to the marinade to make a batter. Dip the wings in the batter and deep fry. Ready to serve!"
+    "sentences": [
+        "TO MAKE MARINADE",
+        ": Combine the soy sauce, red chili powder, red food coloring, vinegar, garlic and green chiles.",
+        "Mix well.",
+        "On each chicken wing, push the meat down to one end.",
+        "Marinate the wings for AT LEAST 1/2 hour.",
+        "Remove the wings from the marinade and add the cornstarch to the marinade to make a batter.",
+        "Dip the wings in the batter and deep fry.",
+        "Ready to serve!"
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

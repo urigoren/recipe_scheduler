@@ -11,10 +11,8 @@
     ],
     "instructions": [
         "Bring a large pot of heavily salted water to a boil; cook the rotini at a boil until tender yet firm to the bite, about 15 minutes; drain and transfer to a bowl.",
-        "Bring marinara sauce to a simmer in a saucepan.",
-        "Add kimchi, chicken, onion, and red chile paste; stir until completely mixed and heated through, about 5 minutes.",
-        "Mix butter into pasta and toss to coat.",
-        "Pour marinara sauce over pasta and top with scallions."
+        "Bring marinara sauce to a simmer in a saucepan. Add kimchi, chicken, onion, and red chile paste; stir until completely mixed and heated through, about 5 minutes.",
+        "Mix butter into pasta and toss to coat. Pour marinara sauce over pasta and top with scallions."
     ],
     "title": "Spicy Kimchi Chicken Rotini",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2281988.jpg",
@@ -30,12 +28,19 @@
         "ILayDpm-Z": "scallion"
     },
     "status": 0,
-    "steps": [
+    "sentences": [
         "Bring a large pot of heavily salted water to a boil; cook the rotini at a boil until tender yet firm to the bite, about 15 minutes; drain and transfer to a bowl.",
-        "Bring marinara sauce to a simmer in a saucepan. Add kimchi, chicken, onion, and red chile paste; stir until completely mixed and heated through, about 5 minutes.",
-        "Mix butter into pasta and toss to coat. Pour marinara sauce over pasta and top with scallions."
+        "Bring marinara sauce to a simmer in a saucepan.",
+        "Add kimchi, chicken, onion, and red chile paste; stir until completely mixed and heated through, about 5 minutes.",
+        "Mix butter into pasta and toss to coat.",
+        "Pour marinara sauce over pasta and top with scallions."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

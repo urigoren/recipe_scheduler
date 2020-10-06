@@ -11,13 +11,9 @@
         "1 (10.75 ounce) can condensed tomato soup"
     ],
     "instructions": [
-        "Bring a large pot of lightly salted water to a boil.",
-        "Add pasta and cook for 8 to 10 minutes or until al dente; drain.",
-        "In a large skillet, over medium heat, brown the ground beef and onion together.",
-        "Drain off the grease.",
-        "Add salt, pepper, and garlic salt to taste.",
-        "Stir in the corn, kidney beans, and tomato soup.",
-        "Stir in the cooked egg noodles and mix thoroughly."
+        "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain.",
+        "In a large skillet, over medium heat, brown the ground beef and onion together. Drain off the grease. Add salt, pepper, and garlic salt to taste.",
+        "Stir in the corn, kidney beans, and tomato soup. Stir in the cooked egg noodles and mix thoroughly."
     ],
     "title": "Goulash I",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4462438.jpg",
@@ -34,12 +30,21 @@
         "I2wQk_rF4": "condensed tomato soup"
     },
     "status": 0,
-    "steps": [
-        "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain.",
-        "In a large skillet, over medium heat, brown the ground beef and onion together. Drain off the grease. Add salt, pepper, and garlic salt to taste.",
-        "Stir in the corn, kidney beans, and tomato soup. Stir in the cooked egg noodles and mix thoroughly."
+    "sentences": [
+        "Bring a large pot of lightly salted water to a boil.",
+        "Add pasta and cook for 8 to 10 minutes or until al dente; drain.",
+        "In a large skillet, over medium heat, brown the ground beef and onion together.",
+        "Drain off the grease.",
+        "Add salt, pepper, and garlic salt to taste.",
+        "Stir in the corn, kidney beans, and tomato soup.",
+        "Stir in the cooked egg noodles and mix thoroughly."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

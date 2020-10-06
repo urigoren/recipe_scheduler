@@ -7,9 +7,7 @@
         "4 pork chops"
     ],
     "instructions": [
-        "In a shallow dish, combine the soy sauce, vinegar, honey and garlic powder.",
-        "Place chops in dish, and turn to coat.",
-        "Cover, and marinate for 2 to 4 hours in the refrigerator.",
+        "In a shallow dish, combine the soy sauce, vinegar, honey and garlic powder. Place chops in dish, and turn to coat. Cover, and marinate for 2 to 4 hours in the refrigerator.",
         "Preheat grill to high heat, and lightly oil grate.",
         "Grill steaks 5 to 8 minutes per side, or to desired doneness."
     ],
@@ -24,12 +22,19 @@
         "Il-vU97ZJ": "pork chops"
     },
     "status": 0,
-    "steps": [
-        "In a shallow dish, combine the soy sauce, vinegar, honey and garlic powder. Place chops in dish, and turn to coat. Cover, and marinate for 2 to 4 hours in the refrigerator.",
+    "sentences": [
+        "In a shallow dish, combine the soy sauce, vinegar, honey and garlic powder.",
+        "Place chops in dish, and turn to coat.",
+        "Cover, and marinate for 2 to 4 hours in the refrigerator.",
         "Preheat grill to high heat, and lightly oil grate.",
         "Grill steaks 5 to 8 minutes per side, or to desired doneness."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

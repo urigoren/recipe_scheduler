@@ -10,15 +10,9 @@
         "1 teaspoon garlic salt"
     ],
     "instructions": [
-        "Preheat oven to 375 degrees F",
-        "(190 degrees C).",
-        "Slice the ribs into individual pieces.",
-        "In a large bowl, combine the honey, soy sauce, vinegar, garlic and brown sugar.",
-        "Stir until honey and sugar are completely dissolved, then stir in the baking soda.",
-        "The mixture will begin to foam.",
-        "Transfer ribs to the bowl, and turn to coat.",
-        "Cover a cookie sheet with foil, and arrange the ribs meat side up on the sheet.",
-        "Pour excess sauce over all, and sprinkle with the garlic salt.",
+        "Preheat oven to 375 degrees F (190 degrees C).",
+        "Slice the ribs into individual pieces. In a large bowl, combine the honey, soy sauce, vinegar, garlic and brown sugar. Stir until honey and sugar are completely dissolved, then stir in the baking soda. The mixture will begin to foam. Transfer ribs to the bowl, and turn to coat.",
+        "Cover a cookie sheet with foil, and arrange the ribs meat side up on the sheet. Pour excess sauce over all, and sprinkle with the garlic salt.",
         "Bake for 1 hour, turning every 20 minutes."
     ],
     "title": "Honey Garlic Ribs",
@@ -35,13 +29,25 @@
         "IOHK_fJm8": "garlic salt"
     },
     "status": 0,
-    "steps": [
-        "Preheat oven to 375 degrees F (190 degrees C).",
-        "Slice the ribs into individual pieces. In a large bowl, combine the honey, soy sauce, vinegar, garlic and brown sugar. Stir until honey and sugar are completely dissolved, then stir in the baking soda. The mixture will begin to foam. Transfer ribs to the bowl, and turn to coat.",
-        "Cover a cookie sheet with foil, and arrange the ribs meat side up on the sheet. Pour excess sauce over all, and sprinkle with the garlic salt.",
+    "sentences": [
+        "Preheat oven to 375 degrees F",
+        "(190 degrees C).",
+        "Slice the ribs into individual pieces.",
+        "In a large bowl, combine the honey, soy sauce, vinegar, garlic and brown sugar.",
+        "Stir until honey and sugar are completely dissolved, then stir in the baking soda.",
+        "The mixture will begin to foam.",
+        "Transfer ribs to the bowl, and turn to coat.",
+        "Cover a cookie sheet with foil, and arrange the ribs meat side up on the sheet.",
+        "Pour excess sauce over all, and sprinkle with the garlic salt.",
         "Bake for 1 hour, turning every 20 minutes."
     ],
     "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

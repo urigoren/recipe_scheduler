@@ -8,17 +8,9 @@
         "6 skinless chicken thighs"
     ],
     "instructions": [
-        "Preheat oven to 375 degrees F",
-        "(190 degrees C).",
-        "Melt butter in a large saucepan over medium heat.",
-        "Add garlic powder, rosemary, salt, and pepper; simmer until flavors combine, about 1 minute.",
-        "Stir in honey; bring to a boil.",
-        "Reduce heat to low.",
-        "Dip chicken into sauce, 1 piece at a time, until coated.",
-        "Place chicken on a 9x13-inch baking pan; pour remaining sauce over chicken.",
-        "Bake chicken in the preheated oven until no longer pink at the bone and the juices run clear, about 30 minutes.",
-        "An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C).",
-        "Remove from oven; immediately turn over chicken with tongs to coat the top with sauce."
+        "Preheat oven to 375 degrees F (190 degrees C).",
+        "Melt butter in a large saucepan over medium heat. Add garlic powder, rosemary, salt, and pepper; simmer until flavors combine, about 1 minute. Stir in honey; bring to a boil. Reduce heat to low. Dip chicken into sauce, 1 piece at a time, until coated. Place chicken on a 9x13-inch baking pan; pour remaining sauce over chicken.",
+        "Bake chicken in the preheated oven until no longer pink at the bone and the juices run clear, about 30 minutes. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C). Remove from oven; immediately turn over chicken with tongs to coat the top with sauce."
     ],
     "title": "Honey Garlic Chicken with Rosemary",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4528872.jpg",
@@ -32,12 +24,25 @@
         "IGQ0gXA-P": "skinless chicken thighs"
     },
     "status": 0,
-    "steps": [
-        "Preheat oven to 375 degrees F (190 degrees C).",
-        "Melt butter in a large saucepan over medium heat. Add garlic powder, rosemary, salt, and pepper; simmer until flavors combine, about 1 minute. Stir in honey; bring to a boil. Reduce heat to low. Dip chicken into sauce, 1 piece at a time, until coated. Place chicken on a 9x13-inch baking pan; pour remaining sauce over chicken.",
-        "Bake chicken in the preheated oven until no longer pink at the bone and the juices run clear, about 30 minutes. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C). Remove from oven; immediately turn over chicken with tongs to coat the top with sauce."
+    "sentences": [
+        "Preheat oven to 375 degrees F",
+        "(190 degrees C).",
+        "Melt butter in a large saucepan over medium heat.",
+        "Add garlic powder, rosemary, salt, and pepper; simmer until flavors combine, about 1 minute.",
+        "Stir in honey; bring to a boil.",
+        "Reduce heat to low.",
+        "Dip chicken into sauce, 1 piece at a time, until coated.",
+        "Place chicken on a 9x13-inch baking pan; pour remaining sauce over chicken.",
+        "Bake chicken in the preheated oven until no longer pink at the bone and the juices run clear, about 30 minutes.",
+        "An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C).",
+        "Remove from oven; immediately turn over chicken with tongs to coat the top with sauce."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

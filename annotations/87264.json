@@ -10,13 +10,8 @@
         "onion powder to taste"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F",
-        "(175 degrees C).",
-        "Place the butter in a 9x9 inch baking dish, and melt in the oven.",
-        "Remove from heat, and mix in Italian salad dressing, lemon juice, and Worcestershire sauce.",
-        "Arrange the chicken tenderloins in the baking dish, coating with the melted butter mixture.",
-        "Season both sides of chicken with lemon pepper, garlic salt, and onion powder.",
-        "Sprinkle with lemon zest.",
+        "Preheat oven to 350 degrees F (175 degrees C). Place the butter in a 9x9 inch baking dish, and melt in the oven. Remove from heat, and mix in Italian salad dressing, lemon juice, and Worcestershire sauce.",
+        "Arrange the chicken tenderloins in the baking dish, coating with the melted butter mixture. Season both sides of chicken with lemon pepper, garlic salt, and onion powder. Sprinkle with lemon zest.",
         "Bake 25 minutes in the preheated oven, or until chicken juices run clear."
     ],
     "title": "Lemon Butter Chicken",
@@ -33,12 +28,22 @@
         "IyABiIj7H": "onion powder to taste"
     },
     "status": 0,
-    "steps": [
-        "Preheat oven to 350 degrees F (175 degrees C). Place the butter in a 9x9 inch baking dish, and melt in the oven. Remove from heat, and mix in Italian salad dressing, lemon juice, and Worcestershire sauce.",
-        "Arrange the chicken tenderloins in the baking dish, coating with the melted butter mixture. Season both sides of chicken with lemon pepper, garlic salt, and onion powder. Sprinkle with lemon zest.",
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Place the butter in a 9x9 inch baking dish, and melt in the oven.",
+        "Remove from heat, and mix in Italian salad dressing, lemon juice, and Worcestershire sauce.",
+        "Arrange the chicken tenderloins in the baking dish, coating with the melted butter mixture.",
+        "Season both sides of chicken with lemon pepper, garlic salt, and onion powder.",
+        "Sprinkle with lemon zest.",
         "Bake 25 minutes in the preheated oven, or until chicken juices run clear."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

@@ -9,18 +9,8 @@
         "1 teaspoon chili powder, or to taste"
     ],
     "instructions": [
-        "Preheat the oven to 375 degrees F (190 degrees C).",
-        "Bring a large pot of lightly salted water to a boil.",
-        "Add the noodles, and cook until tender, about 7 minutes.",
-        "Drain, and return to the pot.",
-        "Crumble the ground beef into a large skillet over medium-high heat.",
-        "Cook and stir until evenly browned.",
-        "Drain off grease.",
-        "Stir in the tomato sauce, corn and olives.",
-        "Season with chili powder.",
-        "Stir the beef mixture in with the noodles.",
-        "Pour into a 9x13 inch baking dish.",
-        "Top with Cheddar cheese.",
+        "Preheat the oven to 375 degrees F (190 degrees C). Bring a large pot of lightly salted water to a boil. Add the noodles, and cook until tender, about 7 minutes. Drain, and return to the pot.",
+        "Crumble the ground beef into a large skillet over medium-high heat. Cook and stir until evenly browned. Drain off grease. Stir in the tomato sauce, corn and olives. Season with chili powder. Stir the beef mixture in with the noodles. Pour into a 9x13 inch baking dish. Top with Cheddar cheese.",
         "Bake for 20 minutes in the preheated oven, until the cheese is melted."
     ],
     "title": "Talerini",
@@ -36,12 +26,27 @@
         "Ix4-27vCe": "chili powder"
     },
     "status": 0,
-    "steps": [
-        "Preheat the oven to 375 degrees F (190 degrees C). Bring a large pot of lightly salted water to a boil. Add the noodles, and cook until tender, about 7 minutes. Drain, and return to the pot.",
-        "Crumble the ground beef into a large skillet over medium-high heat. Cook and stir until evenly browned. Drain off grease. Stir in the tomato sauce, corn and olives. Season with chili powder. Stir the beef mixture in with the noodles. Pour into a 9x13 inch baking dish. Top with Cheddar cheese.",
+    "sentences": [
+        "Preheat the oven to 375 degrees F (190 degrees C).",
+        "Bring a large pot of lightly salted water to a boil.",
+        "Add the noodles, and cook until tender, about 7 minutes.",
+        "Drain, and return to the pot.",
+        "Crumble the ground beef into a large skillet over medium-high heat.",
+        "Cook and stir until evenly browned.",
+        "Drain off grease.",
+        "Stir in the tomato sauce, corn and olives.",
+        "Season with chili powder.",
+        "Stir the beef mixture in with the noodles.",
+        "Pour into a 9x13 inch baking dish.",
+        "Top with Cheddar cheese.",
         "Bake for 20 minutes in the preheated oven, until the cheese is melted."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

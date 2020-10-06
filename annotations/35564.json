@@ -10,11 +10,8 @@
         "4 fresh strawberries for garnish"
     ],
     "instructions": [
-        "In a small saucepan, combine the strawberry preserves, minced garlic, soy sauce and horseradish.",
-        "Cook over low heat, stirring frequently until heated through.",
-        "Melt butter in a medium skillet.",
-        "Lightly sprinkle both sides of each pork chop with cayenne pepper.",
-        "Fry the chops until browned on each side, then continue to cook over medium heat until no longer pink, and the juices run clear.",
+        "In a small saucepan, combine the strawberry preserves, minced garlic, soy sauce and horseradish. Cook over low heat, stirring frequently until heated through.",
+        "Melt butter in a medium skillet. Lightly sprinkle both sides of each pork chop with cayenne pepper. Fry the chops until browned on each side, then continue to cook over medium heat until no longer pink, and the juices run clear.",
         "Serve chops with sauce poured over, and garnish with fresh strawberries."
     ],
     "title": "Leslie's Strawberry Breakfast Chops",
@@ -31,12 +28,20 @@
         "I_-bWJ7UY": "strawberries for garnish"
     },
     "status": 0,
-    "steps": [
-        "In a small saucepan, combine the strawberry preserves, minced garlic, soy sauce and horseradish. Cook over low heat, stirring frequently until heated through.",
-        "Melt butter in a medium skillet. Lightly sprinkle both sides of each pork chop with cayenne pepper. Fry the chops until browned on each side, then continue to cook over medium heat until no longer pink, and the juices run clear.",
+    "sentences": [
+        "In a small saucepan, combine the strawberry preserves, minced garlic, soy sauce and horseradish.",
+        "Cook over low heat, stirring frequently until heated through.",
+        "Melt butter in a medium skillet.",
+        "Lightly sprinkle both sides of each pork chop with cayenne pepper.",
+        "Fry the chops until browned on each side, then continue to cook over medium heat until no longer pink, and the juices run clear.",
         "Serve chops with sauce poured over, and garnish with fresh strawberries."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

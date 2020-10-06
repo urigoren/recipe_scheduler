@@ -11,16 +11,9 @@
         "1 tablespoon ground red pepper"
     ],
     "instructions": [
-        "In large shallow bowl, combine marinade ingredients; whisk until blended.",
-        "Remove and reserve 1/2 cup for basting.",
-        "Trim fat from beef steak; cut into 1-1/2-inch cubes.",
-        "Add beef to remaining marinade in bowl; toss to coat.",
-        "Cover and marinate in refrigerator 20 minutes.",
-        "Remove beef from marinade; discard marinade.",
-        "Alternately thread an equal amount of beef and green onion pieces onto each of four 12-inch metal skewers.",
-        "Place skewers on grid over medium, ash-covered coals.",
-        "Grill, uncovered, 10 to 12 minutes for medium rare to medium doneness, basting frequently with reserved 1/2 cup marinade and turning occasionally.",
-        "Serve immediately."
+        "In large shallow bowl, combine marinade ingredients; whisk until blended. Remove and reserve 1/2 cup for basting. Trim fat from beef steak; cut into 1-1/2-inch cubes. Add beef to remaining marinade in bowl; toss to coat. Cover and marinate in refrigerator 20 minutes.",
+        "Remove beef from marinade; discard marinade. Alternately thread an equal amount of beef and green onion pieces onto each of four 12-inch metal skewers.",
+        "Place skewers on grid over medium, ash-covered coals. Grill, uncovered, 10 to 12 minutes for medium rare to medium doneness, basting frequently with reserved 1/2 cup marinade and turning occasionally. Serve immediately."
     ],
     "title": "Fiery Beef Satay Skewers",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
@@ -37,12 +30,24 @@
         "I1cMQ_1iq": "ground red pepper"
     },
     "status": 0,
-    "steps": [
-        "In large shallow bowl, combine marinade ingredients; whisk until blended. Remove and reserve 1/2 cup for basting. Trim fat from beef steak; cut into 1-1/2-inch cubes. Add beef to remaining marinade in bowl; toss to coat. Cover and marinate in refrigerator 20 minutes.",
-        "Remove beef from marinade; discard marinade. Alternately thread an equal amount of beef and green onion pieces onto each of four 12-inch metal skewers.",
-        "Place skewers on grid over medium, ash-covered coals. Grill, uncovered, 10 to 12 minutes for medium rare to medium doneness, basting frequently with reserved 1/2 cup marinade and turning occasionally. Serve immediately."
+    "sentences": [
+        "In large shallow bowl, combine marinade ingredients; whisk until blended.",
+        "Remove and reserve 1/2 cup for basting.",
+        "Trim fat from beef steak; cut into 1-1/2-inch cubes.",
+        "Add beef to remaining marinade in bowl; toss to coat.",
+        "Cover and marinate in refrigerator 20 minutes.",
+        "Remove beef from marinade; discard marinade.",
+        "Alternately thread an equal amount of beef and green onion pieces onto each of four 12-inch metal skewers.",
+        "Place skewers on grid over medium, ash-covered coals.",
+        "Grill, uncovered, 10 to 12 minutes for medium rare to medium doneness, basting frequently with reserved 1/2 cup marinade and turning occasionally.",
+        "Serve immediately."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

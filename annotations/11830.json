@@ -11,14 +11,9 @@
         "3 teaspoons chopped fresh cilantro"
     ],
     "instructions": [
-        "Place the peanut butter in a small glass, and add the hot water; stir with a fork until smooth.",
-        "Mix in soy sauce, garlic, cream, sesame oil, chili sauce until smooth.",
-        "Set aside.",
-        "Cook pasta in a large pot of boiling water until done.",
-        "Drain well.",
-        "Place the drained pasta in a bowl.",
-        "Stir the reserved peanut butter mixture together again; add to the cooked pasta.",
-        "Toss all together, and garnish with cilantro."
+        "Place the peanut butter in a small glass, and add the hot water; stir with a fork until smooth. Mix in soy sauce, garlic, cream, sesame oil, chili sauce until smooth. Set aside.",
+        "Cook pasta in a large pot of boiling water until done. Drain well.",
+        "Place the drained pasta in a bowl. Stir the reserved peanut butter mixture together again; add to the cooked pasta. Toss all together, and garnish with cilantro."
     ],
     "title": "Spaghetti With Peanut Butter Sauce",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/47770.jpg",
@@ -35,12 +30,22 @@
         "IFP4aQpcU": "fresh cilantro"
     },
     "status": 0,
-    "steps": [
-        "Place the peanut butter in a small glass, and add the hot water; stir with a fork until smooth. Mix in soy sauce, garlic, cream, sesame oil, chili sauce until smooth. Set aside.",
-        "Cook pasta in a large pot of boiling water until done. Drain well.",
-        "Place the drained pasta in a bowl. Stir the reserved peanut butter mixture together again; add to the cooked pasta. Toss all together, and garnish with cilantro."
+    "sentences": [
+        "Place the peanut butter in a small glass, and add the hot water; stir with a fork until smooth.",
+        "Mix in soy sauce, garlic, cream, sesame oil, chili sauce until smooth.",
+        "Set aside.",
+        "Cook pasta in a large pot of boiling water until done.",
+        "Drain well.",
+        "Place the drained pasta in a bowl.",
+        "Stir the reserved peanut butter mixture together again; add to the cooked pasta.",
+        "Toss all together, and garnish with cilantro."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

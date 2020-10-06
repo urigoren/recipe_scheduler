@@ -10,12 +10,9 @@
         "salt and pepper to taste"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F",
-        "(175 degrees C).",
+        "Preheat oven to 350 degrees F (175 degrees C).",
         "Place the chicken pieces in a lightly greased 9x13 inch baking dish.",
-        "In a medium bowl combine the onion soup mix, cream of chicken soup mix, soy sauce, garlic, apple and orange juice, salt and pepper.",
-        "Mix together and pour mixture over chicken.",
-        "Cover and bake in the preheated oven for 1 hour, then remove cover/lid and bake for another 1/2 hour to brown the chicken."
+        "In a medium bowl combine the onion soup mix, cream of chicken soup mix, soy sauce, garlic, apple and orange juice, salt and pepper. Mix together and pour mixture over chicken. Cover and bake in the preheated oven for 1 hour, then remove cover/lid and bake for another 1/2 hour to brown the chicken."
     ],
     "title": "Apple and Orange Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/51159.jpg",
@@ -31,12 +28,20 @@
         "IKy5ha2qv": "salt and pepper to taste"
     },
     "status": 0,
-    "steps": [
-        "Preheat oven to 350 degrees F (175 degrees C).",
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
         "Place the chicken pieces in a lightly greased 9x13 inch baking dish.",
-        "In a medium bowl combine the onion soup mix, cream of chicken soup mix, soy sauce, garlic, apple and orange juice, salt and pepper. Mix together and pour mixture over chicken. Cover and bake in the preheated oven for 1 hour, then remove cover/lid and bake for another 1/2 hour to brown the chicken."
+        "In a medium bowl combine the onion soup mix, cream of chicken soup mix, soy sauce, garlic, apple and orange juice, salt and pepper.",
+        "Mix together and pour mixture over chicken.",
+        "Cover and bake in the preheated oven for 1 hour, then remove cover/lid and bake for another 1/2 hour to brown the chicken."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

@@ -11,12 +11,9 @@
         "1/3 cup heavy cream"
     ],
     "instructions": [
-        "Preheat oven to 300 degrees F",
-        "(150 degrees C).",
-        "Place sausage links on a baking sheet and bake 25 minutes, or until cooked through.",
-        "Slice into 1/2 inch slices.",
-        "Heat oil in a large saucepan over medium heat.",
-        "Saute onions until translucent; add garlic and cook 1 minute.",
+        "Preheat oven to 300 degrees F (150 degrees C).",
+        "Place sausage links on a baking sheet and bake 25 minutes, or until cooked through. Slice into 1/2 inch slices.",
+        "Heat oil in a large saucepan over medium heat. Saute onions until translucent; add garlic and cook 1 minute.",
         "Stir in broth, water and potatoes; simmer 15 minutes.",
         "Reduce heat to low and add sausage, kale and cream; simmer until heated through and serve."
     ],
@@ -35,14 +32,24 @@
         "IjkEbmVg7": "heavy cream"
     },
     "status": 0,
-    "steps": [
-        "Preheat oven to 300 degrees F (150 degrees C).",
-        "Place sausage links on a baking sheet and bake 25 minutes, or until cooked through. Slice into 1/2 inch slices.",
-        "Heat oil in a large saucepan over medium heat. Saute onions until translucent; add garlic and cook 1 minute.",
+    "sentences": [
+        "Preheat oven to 300 degrees F",
+        "(150 degrees C).",
+        "Place sausage links on a baking sheet and bake 25 minutes, or until cooked through.",
+        "Slice into 1/2 inch slices.",
+        "Heat oil in a large saucepan over medium heat.",
+        "Saute onions until translucent; add garlic and cook 1 minute.",
         "Stir in broth, water and potatoes; simmer 15 minutes.",
         "Reduce heat to low and add sausage, kale and cream; simmer until heated through and serve."
     ],
     "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

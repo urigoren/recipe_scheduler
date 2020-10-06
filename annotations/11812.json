@@ -9,14 +9,10 @@
         "1 cup seasoned dry bread crumbs"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F",
-        "(175 degrees C).",
+        "Preheat oven to 350 degrees F (175 degrees C).",
         "Cook noodles until tender and drain.",
-        "Combine noodles, corned beef, cheese, cream of chicken soup, milk and onion.",
-        "Pour into a 2 quart casserole dish.",
-        "Top with buttered bread crumbs.",
-        "Bake at 350 degrees F",
-        "(175 degrees C) for 45 minutes."
+        "Combine noodles, corned beef, cheese, cream of chicken soup, milk and onion. Pour into a 2 quart casserole dish. Top with buttered bread crumbs.",
+        "Bake at 350 degrees F (175 degrees C) for 45 minutes."
     ],
     "title": "Corned Beef Noodle Casserole",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/195258.jpg",
@@ -31,13 +27,23 @@
         "IHyzKrVmO": "seasoned dry bread crumbs"
     },
     "status": 0,
-    "steps": [
-        "Preheat oven to 350 degrees F (175 degrees C).",
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
         "Cook noodles until tender and drain.",
-        "Combine noodles, corned beef, cheese, cream of chicken soup, milk and onion. Pour into a 2 quart casserole dish. Top with buttered bread crumbs.",
-        "Bake at 350 degrees F (175 degrees C) for 45 minutes."
+        "Combine noodles, corned beef, cheese, cream of chicken soup, milk and onion.",
+        "Pour into a 2 quart casserole dish.",
+        "Top with buttered bread crumbs.",
+        "Bake at 350 degrees F",
+        "(175 degrees C) for 45 minutes."
     ],
     "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

@@ -11,14 +11,10 @@
         "1 tablespoon olive oil"
     ],
     "instructions": [
-        "Mash butter beans in a large mixing bowl.",
-        "Add ground turkey, egg white, onion powder, garlic powder, salt, and pepper; stir until evenly mixed.",
-        "Fold bread crumbs into mixture evenly.",
+        "Mash butter beans in a large mixing bowl. Add ground turkey, egg white, onion powder, garlic powder, salt, and pepper; stir until evenly mixed. Fold bread crumbs into mixture evenly.",
         "Form the mixture into 1-inch meatballs.",
         "Heat oil in a skillet over medium heat.",
-        "Cook meatballs in hot oil until browned on all sides, 5 to 7 minutes.",
-        "Cover the skillet and continue cooking until meatballs are no longer pink in the center, about 5 minutes more.",
-        "An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+        "Cook meatballs in hot oil until browned on all sides, 5 to 7 minutes. Cover the skillet and continue cooking until meatballs are no longer pink in the center, about 5 minutes more. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
     ],
     "title": "Quick Bean and Turkey Italian Meatballs",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/965701.jpg",
@@ -35,13 +31,23 @@
         "IbpWInzAX": "olive oil"
     },
     "status": 0,
-    "steps": [
-        "Mash butter beans in a large mixing bowl. Add ground turkey, egg white, onion powder, garlic powder, salt, and pepper; stir until evenly mixed. Fold bread crumbs into mixture evenly.",
+    "sentences": [
+        "Mash butter beans in a large mixing bowl.",
+        "Add ground turkey, egg white, onion powder, garlic powder, salt, and pepper; stir until evenly mixed.",
+        "Fold bread crumbs into mixture evenly.",
         "Form the mixture into 1-inch meatballs.",
         "Heat oil in a skillet over medium heat.",
-        "Cook meatballs in hot oil until browned on all sides, 5 to 7 minutes. Cover the skillet and continue cooking until meatballs are no longer pink in the center, about 5 minutes more. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+        "Cook meatballs in hot oil until browned on all sides, 5 to 7 minutes.",
+        "Cover the skillet and continue cooking until meatballs are no longer pink in the center, about 5 minutes more.",
+        "An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
     ],
     "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

@@ -9,14 +9,9 @@
         "salt and pepper to taste"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F",
-        "(175 degrees C).",
-        "TO MAKE FILLING: In a large bowl beat the cream cheese until smooth.",
-        "Add the feta cheese, dill weed and garlic powder.",
-        "Beat until smooth and creamy.",
-        "Put a dollop of 1/4 of the filling on each breast, then roll and tie the breasts with cooking string to seal.",
-        "Brush each breast with melted butter/margarine and sprinkle with salt and pepper to taste.",
-        "Bake uncovered in the preheated oven for 20 minutes or until the juices run clear."
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "TO MAKE FILLING: In a large bowl beat the cream cheese until smooth. Add the feta cheese, dill weed and garlic powder. Beat until smooth and creamy.",
+        "Put a dollop of 1/4 of the filling on each breast, then roll and tie the breasts with cooking string to seal. Brush each breast with melted butter/margarine and sprinkle with salt and pepper to taste. Bake uncovered in the preheated oven for 20 minutes or until the juices run clear."
     ],
     "title": "Mediterranean Stuffed Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/557767.jpg",
@@ -31,12 +26,22 @@
         "IKy5ha2qv": "salt and pepper to taste"
     },
     "status": 0,
-    "steps": [
-        "Preheat oven to 350 degrees F (175 degrees C).",
-        "TO MAKE FILLING: In a large bowl beat the cream cheese until smooth. Add the feta cheese, dill weed and garlic powder. Beat until smooth and creamy.",
-        "Put a dollop of 1/4 of the filling on each breast, then roll and tie the breasts with cooking string to seal. Brush each breast with melted butter/margarine and sprinkle with salt and pepper to taste. Bake uncovered in the preheated oven for 20 minutes or until the juices run clear."
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "TO MAKE FILLING: In a large bowl beat the cream cheese until smooth.",
+        "Add the feta cheese, dill weed and garlic powder.",
+        "Beat until smooth and creamy.",
+        "Put a dollop of 1/4 of the filling on each breast, then roll and tie the breasts with cooking string to seal.",
+        "Brush each breast with melted butter/margarine and sprinkle with salt and pepper to taste.",
+        "Bake uncovered in the preheated oven for 20 minutes or until the juices run clear."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

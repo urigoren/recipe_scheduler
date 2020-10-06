@@ -8,11 +8,8 @@
         "1 tablespoon garlic salt"
     ],
     "instructions": [
-        "Preheat oven to 325 degrees F",
-        "(165 degrees C).",
-        "Place drummettes in a 9x13 inch baking dish.",
-        "In a medium bowl, combine the soup, cilantro, onion powder, pepper and garlic salt.",
-        "Mix well, and pour mixture over chicken.",
+        "Preheat oven to 325 degrees F (165 degrees C).",
+        "Place drummettes in a 9x13 inch baking dish. In a medium bowl, combine the soup, cilantro, onion powder, pepper and garlic salt. Mix well, and pour mixture over chicken.",
         "Bake at 325 degrees F (165 degrees C) for 1 hour, or until chicken is cooked through and juices run clear."
     ],
     "title": "Kari's Delicious Drummettes",
@@ -27,12 +24,20 @@
         "IOHK_fJm8": "garlic salt"
     },
     "status": 0,
-    "steps": [
-        "Preheat oven to 325 degrees F (165 degrees C).",
-        "Place drummettes in a 9x13 inch baking dish. In a medium bowl, combine the soup, cilantro, onion powder, pepper and garlic salt. Mix well, and pour mixture over chicken.",
+    "sentences": [
+        "Preheat oven to 325 degrees F",
+        "(165 degrees C).",
+        "Place drummettes in a 9x13 inch baking dish.",
+        "In a medium bowl, combine the soup, cilantro, onion powder, pepper and garlic salt.",
+        "Mix well, and pour mixture over chicken.",
         "Bake at 325 degrees F (165 degrees C) for 1 hour, or until chicken is cooked through and juices run clear."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

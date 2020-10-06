@@ -9,15 +9,10 @@
         "1 cup shredded Cheddar cheese, or to taste"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F",
-        "(175 degrees C).",
-        "Bring a large pot of lightly salted water to a boil.",
-        "Cook shell pasta in boiling water, stirring occasionally, until cooked through but firm to the bite, 12 minutes; drain.",
-        "Heat an oven-safe Dutch oven over medium-high heat.",
-        "Cook and stir beef with the onion soup mix in the pot until browned and crumbly, 5 to 7 minutes.",
-        "Stir tomato sauce, whole kernel corn, and cream-style corn into the beef; add drained shell pasta and stir.",
-        "Transfer Dutch oven to the preheated oven and bake for 23 minutes.",
-        "Stir casserole, top with cheese, and continue baking until the cheese melts, about 5 minutes more."
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "Bring a large pot of lightly salted water to a boil. Cook shell pasta in boiling water, stirring occasionally, until cooked through but firm to the bite, 12 minutes; drain.",
+        "Heat an oven-safe Dutch oven over medium-high heat. Cook and stir beef with the onion soup mix in the pot until browned and crumbly, 5 to 7 minutes. Stir tomato sauce, whole kernel corn, and cream-style corn into the beef; add drained shell pasta and stir.",
+        "Transfer Dutch oven to the preheated oven and bake for 23 minutes. Stir casserole, top with cheese, and continue baking until the cheese melts, about 5 minutes more."
     ],
     "title": "Sissy Casserole",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4522174.jpg",
@@ -32,13 +27,24 @@
         "IIa_cno7K": "shredded Cheddar cheese"
     },
     "status": 0,
-    "steps": [
-        "Preheat oven to 350 degrees F (175 degrees C).",
-        "Bring a large pot of lightly salted water to a boil. Cook shell pasta in boiling water, stirring occasionally, until cooked through but firm to the bite, 12 minutes; drain.",
-        "Heat an oven-safe Dutch oven over medium-high heat. Cook and stir beef with the onion soup mix in the pot until browned and crumbly, 5 to 7 minutes. Stir tomato sauce, whole kernel corn, and cream-style corn into the beef; add drained shell pasta and stir.",
-        "Transfer Dutch oven to the preheated oven and bake for 23 minutes. Stir casserole, top with cheese, and continue baking until the cheese melts, about 5 minutes more."
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "Bring a large pot of lightly salted water to a boil.",
+        "Cook shell pasta in boiling water, stirring occasionally, until cooked through but firm to the bite, 12 minutes; drain.",
+        "Heat an oven-safe Dutch oven over medium-high heat.",
+        "Cook and stir beef with the onion soup mix in the pot until browned and crumbly, 5 to 7 minutes.",
+        "Stir tomato sauce, whole kernel corn, and cream-style corn into the beef; add drained shell pasta and stir.",
+        "Transfer Dutch oven to the preheated oven and bake for 23 minutes.",
+        "Stir casserole, top with cheese, and continue baking until the cheese melts, about 5 minutes more."
     ],
     "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

@@ -9,12 +9,8 @@
         "1/2 tablespoon dried minced onion (optional)"
     ],
     "instructions": [
-        "Dissolve bouillon in boiling water.",
-        "Cut spaghetti noodles in half and add to boiling water until done.",
-        "Over medium heat empty can of corned beef onto a skillet.",
-        "Add spaghetti sauce to meat.",
-        "Stir until heated; corned beef will come apart and a thick sauce will form.",
-        "If desired, add Italian seasoning, garlic powder, dry onion, or any other spices.",
+        "Dissolve bouillon in boiling water. Cut spaghetti noodles in half and add to boiling water until done.",
+        "Over medium heat empty can of corned beef onto a skillet. Add spaghetti sauce to meat. Stir until heated; corned beef will come apart and a thick sauce will form. If desired, add Italian seasoning, garlic powder, dry onion, or any other spices.",
         "Once noodles are done, drain and combine with corned beef sauce."
     ],
     "title": "Spaghetti with Corned Beef",
@@ -30,12 +26,21 @@
         "Iaqg7F70r": "dried minced onion "
     },
     "status": 0,
-    "steps": [
-        "Dissolve bouillon in boiling water. Cut spaghetti noodles in half and add to boiling water until done.",
-        "Over medium heat empty can of corned beef onto a skillet. Add spaghetti sauce to meat. Stir until heated; corned beef will come apart and a thick sauce will form. If desired, add Italian seasoning, garlic powder, dry onion, or any other spices.",
+    "sentences": [
+        "Dissolve bouillon in boiling water.",
+        "Cut spaghetti noodles in half and add to boiling water until done.",
+        "Over medium heat empty can of corned beef onto a skillet.",
+        "Add spaghetti sauce to meat.",
+        "Stir until heated; corned beef will come apart and a thick sauce will form.",
+        "If desired, add Italian seasoning, garlic powder, dry onion, or any other spices.",
         "Once noodles are done, drain and combine with corned beef sauce."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

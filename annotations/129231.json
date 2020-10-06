@@ -11,10 +11,8 @@
     ],
     "instructions": [
         "Preheat oven to 400 degrees F (200 degrees C).",
-        "Mix together ground beef, chestnuts, soy sauce, brown sugar, onion powder, and garlic powder thoroughly in a large bowl.",
-        "Form the mixture into 2 tablespoon-sized balls, and place onto a baking sheet.",
-        "Bake in preheated oven until no longer pink in the center, about 15 minutes.",
-        "Stir together the apricot preserves and the cider vinegar, toss with meatballs in a clean bowl, then return to baking sheet, and bake for an additional 5 minutes."
+        "Mix together ground beef, chestnuts, soy sauce, brown sugar, onion powder, and garlic powder thoroughly in a large bowl. Form the mixture into 2 tablespoon-sized balls, and place onto a baking sheet.",
+        "Bake in preheated oven until no longer pink in the center, about 15 minutes. Stir together the apricot preserves and the cider vinegar, toss with meatballs in a clean bowl, then return to baking sheet, and bake for an additional 5 minutes."
     ],
     "title": "Hawaiian-Style Meatballs",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/645010.jpg",
@@ -30,12 +28,19 @@
         "Ip_T4HGks": "apple cider vinegar"
     },
     "status": 0,
-    "steps": [
+    "sentences": [
         "Preheat oven to 400 degrees F (200 degrees C).",
-        "Mix together ground beef, chestnuts, soy sauce, brown sugar, onion powder, and garlic powder thoroughly in a large bowl. Form the mixture into 2 tablespoon-sized balls, and place onto a baking sheet.",
-        "Bake in preheated oven until no longer pink in the center, about 15 minutes. Stir together the apricot preserves and the cider vinegar, toss with meatballs in a clean bowl, then return to baking sheet, and bake for an additional 5 minutes."
+        "Mix together ground beef, chestnuts, soy sauce, brown sugar, onion powder, and garlic powder thoroughly in a large bowl.",
+        "Form the mixture into 2 tablespoon-sized balls, and place onto a baking sheet.",
+        "Bake in preheated oven until no longer pink in the center, about 15 minutes.",
+        "Stir together the apricot preserves and the cider vinegar, toss with meatballs in a clean bowl, then return to baking sheet, and bake for an additional 5 minutes."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

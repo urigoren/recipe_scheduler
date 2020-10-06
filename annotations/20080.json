@@ -6,15 +6,9 @@
         "12 chicken drumsticks, skin removed"
     ],
     "instructions": [
-        "In a large bowl, mix together the honey, sweet chili sauce and soy sauce.",
-        "Set aside a small dish of the marinade for basting.",
-        "Place chicken drumsticks into the bowl.",
-        "Cover and refrigerate at least 1 hour.",
+        "In a large bowl, mix together the honey, sweet chili sauce and soy sauce. Set aside a small dish of the marinade for basting. Place chicken drumsticks into the bowl. Cover and refrigerate at least 1 hour.",
         "Preheat an outdoor grill for medium-high heat.",
-        "Lightly oil the grill grate.",
-        "Arrange drumsticks on the grill.",
-        "Cook for 10 minutes per side, or until juices run clear.",
-        "Baste frequently with the reserved sauce during the last 5 minutes."
+        "Lightly oil the grill grate. Arrange drumsticks on the grill. Cook for 10 minutes per side, or until juices run clear. Baste frequently with the reserved sauce during the last 5 minutes."
     ],
     "title": "Chili Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/259769.jpg",
@@ -26,12 +20,23 @@
         "IF9M_nZnE": "chicken drumsticks"
     },
     "status": 0,
-    "steps": [
-        "In a large bowl, mix together the honey, sweet chili sauce and soy sauce. Set aside a small dish of the marinade for basting. Place chicken drumsticks into the bowl. Cover and refrigerate at least 1 hour.",
+    "sentences": [
+        "In a large bowl, mix together the honey, sweet chili sauce and soy sauce.",
+        "Set aside a small dish of the marinade for basting.",
+        "Place chicken drumsticks into the bowl.",
+        "Cover and refrigerate at least 1 hour.",
         "Preheat an outdoor grill for medium-high heat.",
-        "Lightly oil the grill grate. Arrange drumsticks on the grill. Cook for 10 minutes per side, or until juices run clear. Baste frequently with the reserved sauce during the last 5 minutes."
+        "Lightly oil the grill grate.",
+        "Arrange drumsticks on the grill.",
+        "Cook for 10 minutes per side, or until juices run clear.",
+        "Baste frequently with the reserved sauce during the last 5 minutes."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

@@ -10,10 +10,8 @@
         "2 tablespoons distilled white vinegar"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F",
-        "(175 degrees C).",
-        "In a large bowl combine the frankfurters, pork and beans, butter beans, chili beans, onion, sugar, oregano and vinegar.",
-        "Mix all together and pour mixture into a lightly greased 9x13-inch baking dish.",
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "In a large bowl combine the frankfurters, pork and beans, butter beans, chili beans, onion, sugar, oregano and vinegar. Mix all together and pour mixture into a lightly greased 9x13-inch baking dish.",
         "Bake uncovered at 350 degrees F (175 degrees C) for 1 hour, or until cooked through and bubbly."
     ],
     "title": "Three Bean Casserole",
@@ -30,12 +28,19 @@
         "IDn93ZNqi": "distilled white vinegar"
     },
     "status": 0,
-    "steps": [
-        "Preheat oven to 350 degrees F (175 degrees C).",
-        "In a large bowl combine the frankfurters, pork and beans, butter beans, chili beans, onion, sugar, oregano and vinegar. Mix all together and pour mixture into a lightly greased 9x13-inch baking dish.",
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "In a large bowl combine the frankfurters, pork and beans, butter beans, chili beans, onion, sugar, oregano and vinegar.",
+        "Mix all together and pour mixture into a lightly greased 9x13-inch baking dish.",
         "Bake uncovered at 350 degrees F (175 degrees C) for 1 hour, or until cooked through and bubbly."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

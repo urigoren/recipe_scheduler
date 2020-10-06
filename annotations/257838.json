@@ -10,16 +10,11 @@
         "3/4 cup of your favourite tomato sauce"
     ],
     "instructions": [
-        "Finely chop the onion.",
-        "Place all the ingredients into a bowl and mix well.",
-        "Shape the mixture into 10 to 12 balls.",
+        "Finely chop the onion. Place all the ingredients into a bowl and mix well. Shape the mixture into 10 to 12 balls.",
         "Heat the Philips Airfryer to 200C.",
         "Fry in two batches.",
-        "Place the meatballs in the Airfryer basket and slide the basket in the Philips Airfryer.",
-        "Set the timer for 7 minutes.",
-        "Transfer the meatballs to an oven dish, add the tomato sauce and place the dish into the basket of the Airfryer.",
-        "Slide the basket into the Airfryer.",
-        "Turn the temperature to 160C and set the timer for 5 minutes to warm everything through."
+        "Place the meatballs in the Airfryer basket and slide the basket in the Philips Airfryer. Set the timer for 7 minutes.",
+        "Transfer the meatballs to an oven dish, add the tomato sauce and place the dish into the basket of the Airfryer. Slide the basket into the Airfryer. Turn the temperature to 160C and set the timer for 5 minutes to warm everything through."
     ],
     "title": "Fried meatballs in tomato sauce",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4505599.jpg",
@@ -35,14 +30,26 @@
         "IbRTqMxWn": "of your favourite tomato sauce"
     },
     "status": 0,
-    "steps": [
-        "Finely chop the onion. Place all the ingredients into a bowl and mix well. Shape the mixture into 10 to 12 balls.",
+    "sentences": [
+        "Finely chop the onion.",
+        "Place all the ingredients into a bowl and mix well.",
+        "Shape the mixture into 10 to 12 balls.",
         "Heat the Philips Airfryer to 200C.",
         "Fry in two batches.",
-        "Place the meatballs in the Airfryer basket and slide the basket in the Philips Airfryer. Set the timer for 7 minutes.",
-        "Transfer the meatballs to an oven dish, add the tomato sauce and place the dish into the basket of the Airfryer. Slide the basket into the Airfryer. Turn the temperature to 160C and set the timer for 5 minutes to warm everything through."
+        "Place the meatballs in the Airfryer basket and slide the basket in the Philips Airfryer.",
+        "Set the timer for 7 minutes.",
+        "Transfer the meatballs to an oven dish, add the tomato sauce and place the dish into the basket of the Airfryer.",
+        "Slide the basket into the Airfryer.",
+        "Turn the temperature to 160C and set the timer for 5 minutes to warm everything through."
     ],
     "labels": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

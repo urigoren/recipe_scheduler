@@ -11,16 +11,9 @@
         "1 1/2 cups cooked frozen or fresh corn"
     ],
     "instructions": [
-        "Bring a medium pot of water to a boil.",
-        "Add macaroni, and cook until tender according to package instructions.",
-        "Drain in a colander, and set aside.",
-        "Meanwhile, heat a large saute pan over medium-high heat.",
-        "Add ground beef and onion; cook, stirring frequently with a wooden spoon, until meat is no longer pink and onion is soft and translucent, 4 to 5 minutes.",
-        "Add cumin, chili powder, salt, and pepper; stir to combine.",
-        "Stir tomato sauce and corn into mixture in pan.",
-        "Cook until sauce comes to a boil, about 5 minutes.",
-        "Remove from heat, and stir in reserved cooked macaroni.",
-        "Scoop onto plates, and serve warm."
+        "Bring a medium pot of water to a boil. Add macaroni, and cook until tender according to package instructions. Drain in a colander, and set aside.",
+        "Meanwhile, heat a large saute pan over medium-high heat. Add ground beef and onion; cook, stirring frequently with a wooden spoon, until meat is no longer pink and onion is soft and translucent, 4 to 5 minutes. Add cumin, chili powder, salt, and pepper; stir to combine.",
+        "Stir tomato sauce and corn into mixture in pan. Cook until sauce comes to a boil, about 5 minutes. Remove from heat, and stir in reserved cooked macaroni. Scoop onto plates, and serve warm."
     ],
     "title": "Macaroni with Beef",
     "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
@@ -37,12 +30,24 @@
         "Ivqo_mBY2": "cooked frozen or fresh corn"
     },
     "status": 0,
-    "steps": [
-        "Bring a medium pot of water to a boil. Add macaroni, and cook until tender according to package instructions. Drain in a colander, and set aside.",
-        "Meanwhile, heat a large saute pan over medium-high heat. Add ground beef and onion; cook, stirring frequently with a wooden spoon, until meat is no longer pink and onion is soft and translucent, 4 to 5 minutes. Add cumin, chili powder, salt, and pepper; stir to combine.",
-        "Stir tomato sauce and corn into mixture in pan. Cook until sauce comes to a boil, about 5 minutes. Remove from heat, and stir in reserved cooked macaroni. Scoop onto plates, and serve warm."
+    "sentences": [
+        "Bring a medium pot of water to a boil.",
+        "Add macaroni, and cook until tender according to package instructions.",
+        "Drain in a colander, and set aside.",
+        "Meanwhile, heat a large saute pan over medium-high heat.",
+        "Add ground beef and onion; cook, stirring frequently with a wooden spoon, until meat is no longer pink and onion is soft and translucent, 4 to 5 minutes.",
+        "Add cumin, chili powder, salt, and pepper; stir to combine.",
+        "Stir tomato sauce and corn into mixture in pan.",
+        "Cook until sauce comes to a boil, about 5 minutes.",
+        "Remove from heat, and stir in reserved cooked macaroni.",
+        "Scoop onto plates, and serve warm."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

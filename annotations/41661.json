@@ -8,12 +8,8 @@
     ],
     "instructions": [
         "Preheat the oven to 350 degrees F (175 degrees C).",
-        "In a small bowl, stir together the orange juice, soy sauce, onion soup mix and garlic powder; set aside.",
-        "Rinse chicken, and pat dry.",
-        "Place chicken thighs into a 9x13 inch glass baking dish.",
-        "Pour the orange juice mixture over.",
-        "Bake, uncovered, for 1 hour and 30 minutes in the preheated oven, basting every half hour.",
-        "If using boneless chicken, reduce cooking time to 1 hour."
+        "In a small bowl, stir together the orange juice, soy sauce, onion soup mix and garlic powder; set aside. Rinse chicken, and pat dry. Place chicken thighs into a 9x13 inch glass baking dish. Pour the orange juice mixture over.",
+        "Bake, uncovered, for 1 hour and 30 minutes in the preheated oven, basting every half hour. If using boneless chicken, reduce cooking time to 1 hour."
     ],
     "title": "Bev's Orange Chicken",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/418754.jpg",
@@ -26,12 +22,21 @@
         "ISdM85QOB": "chicken thighs"
     },
     "status": 0,
-    "steps": [
+    "sentences": [
         "Preheat the oven to 350 degrees F (175 degrees C).",
-        "In a small bowl, stir together the orange juice, soy sauce, onion soup mix and garlic powder; set aside. Rinse chicken, and pat dry. Place chicken thighs into a 9x13 inch glass baking dish. Pour the orange juice mixture over.",
-        "Bake, uncovered, for 1 hour and 30 minutes in the preheated oven, basting every half hour. If using boneless chicken, reduce cooking time to 1 hour."
+        "In a small bowl, stir together the orange juice, soy sauce, onion soup mix and garlic powder; set aside.",
+        "Rinse chicken, and pat dry.",
+        "Place chicken thighs into a 9x13 inch glass baking dish.",
+        "Pour the orange juice mixture over.",
+        "Bake, uncovered, for 1 hour and 30 minutes in the preheated oven, basting every half hour.",
+        "If using boneless chicken, reduce cooking time to 1 hour."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

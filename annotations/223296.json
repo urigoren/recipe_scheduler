@@ -8,12 +8,8 @@
     ],
     "instructions": [
         "Mix honey and mustard together in a bowl until thoroughly combined.",
-        "Heat butter in a skillet over medium-high heat and lay pork chops into the hot butter.",
-        "Sprinkle chops with half the garlic powder and cook until browned, about 3 minutes.",
-        "Turn chops over, sprinkle with remaining garlic powder, and pan-fry chops for 3 more minutes.",
-        "Brush honey mustard sauce over chops, turn them over, and cook for 5 minutes; turn chops onto other side and brush with honey mustard sauce.",
-        "Cook until chops are no longer pink inside and an instant-read meat thermometer inserted into the thickest part of a chop",
-        "reads 165 degrees F (75 degrees C), about 5 more minutes."
+        "Heat butter in a skillet over medium-high heat and lay pork chops into the hot butter. Sprinkle chops with half the garlic powder and cook until browned, about 3 minutes. Turn chops over, sprinkle with remaining garlic powder, and pan-fry chops for 3 more minutes.",
+        "Brush honey mustard sauce over chops, turn them over, and cook for 5 minutes; turn chops onto other side and brush with honey mustard sauce. Cook until chops are no longer pink inside and an instant-read meat thermometer inserted into the thickest part of a chop reads 165 degrees F (75 degrees C), about 5 more minutes."
     ],
     "title": "Honey Mustard Pork Chops",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/851810.jpg",
@@ -26,12 +22,21 @@
         "IvZ0DqVmo": "garlic powder"
     },
     "status": 0,
-    "steps": [
+    "sentences": [
         "Mix honey and mustard together in a bowl until thoroughly combined.",
-        "Heat butter in a skillet over medium-high heat and lay pork chops into the hot butter. Sprinkle chops with half the garlic powder and cook until browned, about 3 minutes. Turn chops over, sprinkle with remaining garlic powder, and pan-fry chops for 3 more minutes.",
-        "Brush honey mustard sauce over chops, turn them over, and cook for 5 minutes; turn chops onto other side and brush with honey mustard sauce. Cook until chops are no longer pink inside and an instant-read meat thermometer inserted into the thickest part of a chop reads 165 degrees F (75 degrees C), about 5 more minutes."
+        "Heat butter in a skillet over medium-high heat and lay pork chops into the hot butter.",
+        "Sprinkle chops with half the garlic powder and cook until browned, about 3 minutes.",
+        "Turn chops over, sprinkle with remaining garlic powder, and pan-fry chops for 3 more minutes.",
+        "Brush honey mustard sauce over chops, turn them over, and cook for 5 minutes; turn chops onto other side and brush with honey mustard sauce.",
+        "Cook until chops are no longer pink inside and an instant-read meat thermometer inserted into the thickest part of a chop",
+        "reads 165 degrees F (75 degrees C), about 5 more minutes."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

@@ -7,11 +7,8 @@
         "1 (32 ounce) package tater tots"
     ],
     "instructions": [
-        "Preheat an oven to 450 degrees F (230 degrees C).",
-        "Grease a 9x9-inch baking dish.",
-        "Mix the ground beef, onion, and egg together in a bowl; spread evenly into the prepared baking dish.",
-        "Arrange the tater tots over the beef mixture.",
-        "Pour the chicken soup over the tater tots.",
+        "Preheat an oven to 450 degrees F (230 degrees C). Grease a 9x9-inch baking dish.",
+        "Mix the ground beef, onion, and egg together in a bowl; spread evenly into the prepared baking dish. Arrange the tater tots over the beef mixture. Pour the chicken soup over the tater tots.",
         "Bake in the preheated oven until the beef is cooked through and has reached an internal temperature of 160 degrees F (71 degrees C), about 1 hour."
     ],
     "title": "Easy Tater Tot Hot Dish",
@@ -25,12 +22,20 @@
         "IhgsPfJ1q": "tater tots"
     },
     "status": 0,
-    "steps": [
-        "Preheat an oven to 450 degrees F (230 degrees C). Grease a 9x9-inch baking dish.",
-        "Mix the ground beef, onion, and egg together in a bowl; spread evenly into the prepared baking dish. Arrange the tater tots over the beef mixture. Pour the chicken soup over the tater tots.",
+    "sentences": [
+        "Preheat an oven to 450 degrees F (230 degrees C).",
+        "Grease a 9x9-inch baking dish.",
+        "Mix the ground beef, onion, and egg together in a bowl; spread evenly into the prepared baking dish.",
+        "Arrange the tater tots over the beef mixture.",
+        "Pour the chicken soup over the tater tots.",
         "Bake in the preheated oven until the beef is cooked through and has reached an internal temperature of 160 degrees F (71 degrees C), about 1 hour."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

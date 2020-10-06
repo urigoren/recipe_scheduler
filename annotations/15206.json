@@ -11,13 +11,10 @@
         "1 1/2 teaspoons lemon juice"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F",
-        "(175 degrees C).",
-        "In a large bowl, mix together the ground beef, egg, water, bread crumbs, and minced onion.",
-        "Roll into small meatballs.",
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "In a large bowl, mix together the ground beef, egg, water, bread crumbs, and minced onion. Roll into small meatballs.",
         "Bake in preheated oven for 20 to 25 minutes, turning once.",
-        "In a slow cooker or large saucepan over low heat, blend the cranberry sauce, chili sauce, brown sugar, and lemon juice.",
-        "Add meatballs, and simmer for 1 hour before serving."
+        "In a slow cooker or large saucepan over low heat, blend the cranberry sauce, chili sauce, brown sugar, and lemon juice. Add meatballs, and simmer for 1 hour before serving."
     ],
     "title": "Cocktail Meatballs",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1066728.jpg",
@@ -34,13 +31,22 @@
         "I5wmzk9dU": "lemon juice"
     },
     "status": 0,
-    "steps": [
-        "Preheat oven to 350 degrees F (175 degrees C).",
-        "In a large bowl, mix together the ground beef, egg, water, bread crumbs, and minced onion. Roll into small meatballs.",
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "In a large bowl, mix together the ground beef, egg, water, bread crumbs, and minced onion.",
+        "Roll into small meatballs.",
         "Bake in preheated oven for 20 to 25 minutes, turning once.",
-        "In a slow cooker or large saucepan over low heat, blend the cranberry sauce, chili sauce, brown sugar, and lemon juice. Add meatballs, and simmer for 1 hour before serving."
+        "In a slow cooker or large saucepan over low heat, blend the cranberry sauce, chili sauce, brown sugar, and lemon juice.",
+        "Add meatballs, and simmer for 1 hour before serving."
     ],
     "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

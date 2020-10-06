@@ -8,14 +8,9 @@
         "salt and pepper to taste"
     ],
     "instructions": [
-        "Place the ribs in a roasting pan.",
-        "Mix together the chicken broth, teriyaki sauce, garlic powder, onion powder, salt and pepper.",
-        "Pour over the ribs.",
-        "Cover, and marinate for 1/2 hour.",
-        "Preheat the oven to 350 degrees F (175 degrees C).",
-        "Cover the roasting pan with aluminum foil.",
-        "Roast in the oven for about 2 hours, or until the meat is so tender that it comes off of the bone easily.",
-        "Check occasionally to make sure the juices do not boil over into the oven, and remove some of the broth if necessary."
+        "Place the ribs in a roasting pan. Mix together the chicken broth, teriyaki sauce, garlic powder, onion powder, salt and pepper. Pour over the ribs. Cover, and marinate for 1/2 hour.",
+        "Preheat the oven to 350 degrees F (175 degrees C). Cover the roasting pan with aluminum foil.",
+        "Roast in the oven for about 2 hours, or until the meat is so tender that it comes off of the bone easily. Check occasionally to make sure the juices do not boil over into the oven, and remove some of the broth if necessary."
     ],
     "title": "Simple Spare Ribs",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/870998.jpg",
@@ -29,12 +24,22 @@
         "IKy5ha2qv": "salt and pepper to taste"
     },
     "status": 0,
-    "steps": [
-        "Place the ribs in a roasting pan. Mix together the chicken broth, teriyaki sauce, garlic powder, onion powder, salt and pepper. Pour over the ribs. Cover, and marinate for 1/2 hour.",
-        "Preheat the oven to 350 degrees F (175 degrees C). Cover the roasting pan with aluminum foil.",
-        "Roast in the oven for about 2 hours, or until the meat is so tender that it comes off of the bone easily. Check occasionally to make sure the juices do not boil over into the oven, and remove some of the broth if necessary."
+    "sentences": [
+        "Place the ribs in a roasting pan.",
+        "Mix together the chicken broth, teriyaki sauce, garlic powder, onion powder, salt and pepper.",
+        "Pour over the ribs.",
+        "Cover, and marinate for 1/2 hour.",
+        "Preheat the oven to 350 degrees F (175 degrees C).",
+        "Cover the roasting pan with aluminum foil.",
+        "Roast in the oven for about 2 hours, or until the meat is so tender that it comes off of the bone easily.",
+        "Check occasionally to make sure the juices do not boil over into the oven, and remove some of the broth if necessary."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

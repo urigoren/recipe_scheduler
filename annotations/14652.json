@@ -9,14 +9,9 @@
         "1/4 teaspoon ground black pepper"
     ],
     "instructions": [
-        "Preheat oven to 350 degrees F",
-        "(175 degrees C).",
-        "In a large bowl, combine meat, tomato juice, oats, egg, chopped onion, salt and pepper.",
-        "Mix lightly but thoroughly.",
-        "Press into 8x4 inch loaf pan.",
-        "Bake for 1 hour, or until meat is no longer pink and juices run clear.",
-        "Drain.",
-        "Let stand 5 minutes before serving."
+        "Preheat oven to 350 degrees F (175 degrees C).",
+        "In a large bowl, combine meat, tomato juice, oats, egg, chopped onion, salt and pepper. Mix lightly but thoroughly. Press into 8x4 inch loaf pan.",
+        "Bake for 1 hour, or until meat is no longer pink and juices run clear. Drain. Let stand 5 minutes before serving."
     ],
     "title": "Best Ever Meatloaf I",
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/120448.jpg",
@@ -31,12 +26,22 @@
         "IdlJrAHh2": "ground black pepper"
     },
     "status": 0,
-    "steps": [
-        "Preheat oven to 350 degrees F (175 degrees C).",
-        "In a large bowl, combine meat, tomato juice, oats, egg, chopped onion, salt and pepper. Mix lightly but thoroughly. Press into 8x4 inch loaf pan.",
-        "Bake for 1 hour, or until meat is no longer pink and juices run clear. Drain. Let stand 5 minutes before serving."
+    "sentences": [
+        "Preheat oven to 350 degrees F",
+        "(175 degrees C).",
+        "In a large bowl, combine meat, tomato juice, oats, egg, chopped onion, salt and pepper.",
+        "Mix lightly but thoroughly.",
+        "Press into 8x4 inch loaf pan.",
+        "Bake for 1 hour, or until meat is no longer pink and juices run clear.",
+        "Drain.",
+        "Let stand 5 minutes before serving."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

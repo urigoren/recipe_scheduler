@@ -10,11 +10,7 @@
     "instructions": [
         "Arrange a steamer basket in a pot over boiling water, and steam the green beans 3 to 4 minutes.",
         "In a bowl, mix the soy sauce, garlic, garlic chili sauce, and honey.",
-        "Heat the canola oil in a skillet over medium heat.",
-        "Add the green beans, and fry for 3 to 5 minutes.",
-        "Pour in the soy sauce mixture.",
-        "Continue cooking and stirring 2 minutes, or until the liquid is nearly evaporated.",
-        "Serve immediately."
+        "Heat the canola oil in a skillet over medium heat. Add the green beans, and fry for 3 to 5 minutes. Pour in the soy sauce mixture. Continue cooking and stirring 2 minutes, or until the liquid is nearly evaporated. Serve immediately."
     ],
     "title": "Sweet and Spicy Green Beans",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/329941.jpg",
@@ -28,12 +24,21 @@
         "It3BrYOoh": "canola oil"
     },
     "status": 0,
-    "steps": [
+    "sentences": [
         "Arrange a steamer basket in a pot over boiling water, and steam the green beans 3 to 4 minutes.",
         "In a bowl, mix the soy sauce, garlic, garlic chili sauce, and honey.",
-        "Heat the canola oil in a skillet over medium heat. Add the green beans, and fry for 3 to 5 minutes. Pour in the soy sauce mixture. Continue cooking and stirring 2 minutes, or until the liquid is nearly evaporated. Serve immediately."
+        "Heat the canola oil in a skillet over medium heat.",
+        "Add the green beans, and fry for 3 to 5 minutes.",
+        "Pour in the soy sauce mixture.",
+        "Continue cooking and stirring 2 minutes, or until the liquid is nearly evaporated.",
+        "Serve immediately."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],

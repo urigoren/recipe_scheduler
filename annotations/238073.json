@@ -7,15 +7,9 @@
         "6 pork chops"
     ],
     "instructions": [
-        "Whisk honey, soy sauce, lemon juice, and garlic together in a bowl until marinade is smooth.",
-        "Pour marinade into a resealable plastic bag, reserving about 1/4 of the marinade in a bowl for basting.",
-        "Add the pork chops to the bag, coat with the marinade, squeeze bag to remove excess air, and seal the bag; marinate in the refrigerator at least 5 hours.",
-        "Preheat grill for medium heat and lightly oil the grate.",
-        "Remove pork chops from the marinade, and shake off excess.",
-        "Discard remaining marinade.",
-        "Grill pork chops on the preheated grill, basting with the reserved marinade during the last few minutes, until pork chops are cooked through, 15 to 20 minutes.",
-        "An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C).",
-        "Let pork chops rest for 3 minutes before serving."
+        "Whisk honey, soy sauce, lemon juice, and garlic together in a bowl until marinade is smooth. Pour marinade into a resealable plastic bag, reserving about 1/4 of the marinade in a bowl for basting. Add the pork chops to the bag, coat with the marinade, squeeze bag to remove excess air, and seal the bag; marinate in the refrigerator at least 5 hours.",
+        "Preheat grill for medium heat and lightly oil the grate. Remove pork chops from the marinade, and shake off excess. Discard remaining marinade.",
+        "Grill pork chops on the preheated grill, basting with the reserved marinade during the last few minutes, until pork chops are cooked through, 15 to 20 minutes. An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C). Let pork chops rest for 3 minutes before serving."
     ],
     "title": "Honey-Grilled Pork Chops",
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/4474123.jpg",
@@ -28,12 +22,23 @@
         "Il-vU97ZJ": "pork chops"
     },
     "status": 0,
-    "steps": [
-        "Whisk honey, soy sauce, lemon juice, and garlic together in a bowl until marinade is smooth. Pour marinade into a resealable plastic bag, reserving about 1/4 of the marinade in a bowl for basting. Add the pork chops to the bag, coat with the marinade, squeeze bag to remove excess air, and seal the bag; marinate in the refrigerator at least 5 hours.",
-        "Preheat grill for medium heat and lightly oil the grate. Remove pork chops from the marinade, and shake off excess. Discard remaining marinade.",
-        "Grill pork chops on the preheated grill, basting with the reserved marinade during the last few minutes, until pork chops are cooked through, 15 to 20 minutes. An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C). Let pork chops rest for 3 minutes before serving."
+    "sentences": [
+        "Whisk honey, soy sauce, lemon juice, and garlic together in a bowl until marinade is smooth.",
+        "Pour marinade into a resealable plastic bag, reserving about 1/4 of the marinade in a bowl for basting.",
+        "Add the pork chops to the bag, coat with the marinade, squeeze bag to remove excess air, and seal the bag; marinate in the refrigerator at least 5 hours.",
+        "Preheat grill for medium heat and lightly oil the grate.",
+        "Remove pork chops from the marinade, and shake off excess.",
+        "Discard remaining marinade.",
+        "Grill pork chops on the preheated grill, basting with the reserved marinade during the last few minutes, until pork chops are cooked through, 15 to 20 minutes.",
+        "An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C).",
+        "Let pork chops rest for 3 minutes before serving."
     ],
     "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
         [],
         [],
         [],
