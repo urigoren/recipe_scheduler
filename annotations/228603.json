@@ -1,0 +1,48 @@
+{
+    "ingredients": [
+        "1 (9 ounce) pouch Progresso\u2122 Recipe Starters\u2122 fire roasted tomato cooking sauce",
+        "2 tablespoons honey Dijon mustard",
+        "5 teaspoons Worcestershire sauce",
+        "3 cups shredded deli rotisserie chicken",
+        "4 soft burger buns, split",
+        "1 (14 ounce) container prepared coleslaw (optional)"
+    ],
+    "instructions": [
+        "Mix cooking sauce, mustard and Worcestershire sauce in 3-quart saucepan.",
+        "Heat to simmering over medium-high heat. Stir in chicken. Reduce heat to medium; simmer 20 minutes, stirring occasionally.",
+        "Serve chicken mixture on buns. Top each with coleslaw."
+    ],
+    "title": "Pulled Chicken Sandwiches",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/987061.jpg",
+    "url": "http://allrecipes.com/Recipe/228603/",
+    "normalized_ingredients": {
+        "ISLLszUTR": "pouch progresso\u2122 recipe starters\u2122 fire tomato cooking sauce",
+        "IbVJSJtSa": "honey dijon mustard",
+        "IjfDnu7na": "worcestershire sauce",
+        "IEKoG9DmW": "deli rotisserie chicken",
+        "Ih1uNEEUU": "soft burger buns, split",
+        "ITFuUbjTF": "container coleslaw"
+    },
+    "status": 0,
+    "sentences": [
+        "Mix cooking sauce, mustard and Worcestershire sauce in 3-quart saucepan.",
+        "Heat to simmering over medium-high heat.",
+        "Stir in chicken.",
+        "Reduce heat to medium; simmer 20 minutes, stirring occasionally.",
+        "Serve chicken mixture on buns.",
+        "Top each with coleslaw."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

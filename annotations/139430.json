@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/701198.jpg",
     "url": "http://allrecipes.com/Recipe/139430/",
     "normalized_ingredients": {
-        "IXclyBsV3": "cloves garlic",
-        "IB3RMMJmP": "fresh ginger",
+        "IzPYYTv5e": "garlic",
+        "Ib07FFO7o": "ginger",
         "Iz0wiMjVJ": "onion",
         "InSOg1iMD": "low sodium soy sauce",
-        "ID5zqpXGS": "toasted sesame oil",
-        "Ih0sQOBSE": "Worcestershire sauce",
-        "IpzTmX3D2": "unseasoned meat tenderizer",
-        "I6xvdoZzb": "white sugar",
-        "Irq5Z8Gc2": "beef flank steak"
+        "IpyJf3OVq": "sesame oil",
+        "IjfDnu7na": "worcestershire sauce",
+        "InaimNYyQ": "meat tenderizer",
+        "IraFb0aXd": "sugar",
+        "IktEoZasZ": "beef flank steak of excess fat"
     },
     "status": 0,
     "sentences": [

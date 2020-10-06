@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/1101100.jpg",
     "url": "http://allrecipes.com/Recipe/68675/",
     "normalized_ingredients": {
-        "IvkV6B_3O": "ground beef chuck ",
-        "Iqy5r55q2": "boneless lamb chops",
+        "IgCwyZcfK": "ground beef chuck",
+        "IUcxevuzr": "lamb chops",
         "Iz0wiMjVJ": "onion",
         "IzPYYTv5e": "garlic",
         "I1jXu4p5-": "ground marjoram",
         "I5Mj0kFDF": "ground rosemary",
-        "ICf1wHyU4": "sea salt",
-        "IdlJrAHh2": "ground black pepper"
+        "IzrIHcuDJ": "salt",
+        "Is_lS1dmt": "pepper"
     },
     "status": 0,
     "sentences": [

@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/613977.jpg",
     "url": "http://allrecipes.com/Recipe/70539/",
     "normalized_ingredients": {
-        "ICVfuQXfd": "lean ground beef",
-        "I_VWQsIyL": "crumbled blue cheese",
+        "INzU_lxpu": "ground beef",
+        "IauGP0RLb": "blue cheese",
         "Iz0wiMjVJ": "onion",
         "IOz3xXq64": "hot chicken wing sauce",
-        "Ih0sQOBSE": "Worcestershire sauce",
-        "IjdSspGU2": "ly ground black pepper",
-        "IFVfDW1hp": "prepared yellow mustard",
-        "IajEjqfYM": "hamburger buns"
+        "IjfDnu7na": "worcestershire sauce",
+        "Is_lS1dmt": "pepper",
+        "IIV5DGjo9": "yellow mustard",
+        "Io_Ajb0VD": "hamburger buns, split"
     },
     "status": 0,
     "sentences": [

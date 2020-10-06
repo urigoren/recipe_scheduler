@@ -18,14 +18,14 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/995302.jpg",
     "url": "http://allrecipes.com/Recipe/31147/",
     "normalized_ingredients": {
-        "IOggjtQHB": "corned beef",
-        "INxPCQH47": "shredded steamed cabbage",
-        "IMsDowo_g": "diced cooked potatoes",
-        "Iw10uczjP": "shredded carrot",
-        "IxgiHTih8": "thinly sliced onion",
-        "ILy6GLXfZ": "salt and pepper",
+        "INJApA96N": "beef",
+        "IsxiK2rPw": "cabbage",
+        "IjuICeYOR": "potato",
+        "IAF0F3ilI": "carrot",
+        "IkH5kp3iN": "thinly onion",
+        "IzrIHcuDJ": "salt",
         "IGLZ4ilfA": "egg roll wrappers",
-        "IXdjl1Krs": "quarts oil for deep frying"
+        "IxrbJ-dCi": "oil for deep frying"
     },
     "status": 0,
     "sentences": [

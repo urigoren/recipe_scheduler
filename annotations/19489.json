@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "1 pound crabmeat, shredded",
+        "1 1/2 tablespoons dry bread crumbs",
+        "2 teaspoons chopped fresh parsley",
+        "salt and pepper to taste",
+        "1 egg",
+        "1 1/2 tablespoons mayonnaise",
+        "1/2 teaspoon ground dry mustard",
+        "1 dash hot pepper sauce"
+    ],
+    "instructions": [
+        "Preheat oven broiler.",
+        "Mix together crabmeat, bread crumbs, parsley, salt and pepper.",
+        "Beat together egg, mayonnaise, hot sauce and mustard. Combine with other ingredients and mix well. Form into patties and place on a lightly greased broiler pan or baking sheet.",
+        "Broil for 10 to 15 minutes, until lightly brown."
+    ],
+    "title": "Maryland Crab Cakes II",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/222154.jpg",
+    "url": "http://allrecipes.com/Recipe/19489/",
+    "normalized_ingredients": {
+        "ILwsmBi75": "crabmeat",
+        "I8UU4881n": "bread crumbs",
+        "IrXTUISnn": "parsley",
+        "IzrIHcuDJ": "salt",
+        "IDpMSCH9Y": "egg",
+        "I0BO-Tu1u": "mayonnaise",
+        "IWNsRg6MD": "ground dry mustard",
+        "Iz1E1TJ9B": "hot pepper sauce"
+    },
+    "status": 0,
+    "sentences": [
+        "Preheat oven broiler.",
+        "Mix together crabmeat, bread crumbs, parsley, salt and pepper.",
+        "Beat together egg, mayonnaise, hot sauce and mustard.",
+        "Combine with other ingredients and mix well.",
+        "Form into patties and place on a lightly greased broiler pan or baking sheet.",
+        "Broil for 10 to 15 minutes, until lightly brown."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

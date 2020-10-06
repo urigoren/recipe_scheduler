@@ -19,12 +19,12 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/560x315/2876963.jpg",
     "url": "http://allrecipes.com/Recipe/21067/",
     "normalized_ingredients": {
-        "ICVfuQXfd": "lean ground beef",
+        "INzU_lxpu": "ground beef",
         "Ii0M2cCWP": "sausage",
         "Iz0wiMjVJ": "onion",
-        "IXgueeYVw": "processed cheese food",
-        "I5MyZsfNh": "dried oregano",
-        "Ih0sQOBSE": "Worcestershire sauce",
+        "IArBqG3gX": "cheese food",
+        "I5IP2D1SP": "oregano",
+        "IjfDnu7na": "worcestershire sauce",
         "IXgVg1XpG": "loaf cocktail rye bread"
     },
     "status": 0,

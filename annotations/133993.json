@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        "6 cups Chex cereals, any combination",
+        "1 cup pretzel twists",
+        "1 cup bite-size cheese crackers",
+        "1 cup honey roasted peanuts",
+        "1/2 cup barbecue sauce",
+        "1 tablespoon vegetable oil",
+        "3/4 teaspoon onion powder",
+        "3/4 teaspoon garlic powder"
+    ],
+    "instructions": [
+        "Toss together cereal, pretzels, crackers and peanuts in large microwaveable bowl.",
+        "Combine remaining ingredients in small bowl. Pour over cereal mixture; toss to coat.",
+        "Microwave uncovered on High 10 minutes, stirring every 3 minutes.",
+        "Spread on foil or paper towels to cool. Store in airtight container."
+    ],
+    "title": "Chex BBQ Snack Mix",
+    "photo_url": "http://images.media-allrecipes.com/global/recipes/nophoto/nopicture-910x511.png",
+    "url": "http://allrecipes.com/Recipe/133993/",
+    "normalized_ingredients": {
+        "IQBX30hlV": "chex cereals, any combination",
+        "I1ywU9xSk": "pretzel twists",
+        "I25RDa5ux": "bite-size cheese crackers",
+        "I9ckSMEGt": "honey peanuts",
+        "I0EA2DbS7": "barbecue sauce",
+        "I7oUHHY41": "vegetable oil",
+        "ICQ5epRkS": "onion powder",
+        "IvZ0DqVmo": "garlic powder"
+    },
+    "status": 0,
+    "sentences": [
+        "Toss together cereal, pretzels, crackers and peanuts in large microwaveable bowl.",
+        "Combine remaining ingredients in small bowl.",
+        "Pour over cereal mixture; toss to coat.",
+        "Microwave uncovered on High 10 minutes, stirring every 3 minutes.",
+        "Spread on foil or paper towels to cool.",
+        "Store in airtight container."
+    ],
+    "labels": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

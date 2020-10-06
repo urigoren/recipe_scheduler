@@ -1,0 +1,60 @@
+{
+    "ingredients": [
+        "2 cups pineapple juice",
+        "1 tablespoon cornstarch",
+        "2 tablespoons light soy sauce (50% less sodium)",
+        "1 1/2 tablespoons white vinegar",
+        "2 garlic cloves, crushed",
+        "3 tablespoons minced fresh ginger",
+        "1 1/4 pounds raw firm fish, such as salmon, tuna or halibut, cut in chunks",
+        "4 cups fresh pineapple in large chunks (or substitute canned pineapple chunks)",
+        "1 large red onion, cut in wedges"
+    ],
+    "instructions": [
+        "In a small saucepan, dissolve cornstarch in pineapple juice. Add soy sauce, vinegar, garlic and ginger. Simmer until slightly thickened, about 7 minutes. Let cool. Add fish and pineapple to sauce and marinate in the refrigerator for 30 minutes.",
+        "Thread fish, pineapple and onion on skewers. Place on a hot grill (or under a broiler) until fish is done to your liking.",
+        "Serve with rice. Heat marinade and use as a sauce over fish and rice."
+    ],
+    "title": "Gingery Fish Kabobs",
+    "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/56773.jpg",
+    "url": "http://allrecipes.com/Recipe/77526/",
+    "normalized_ingredients": {
+        "IXPfkJpie": "pineapple juice",
+        "Ik1g9zGpa": "cornstarch",
+        "IpQeldaIu": "light soy sauce",
+        "I6WhEfvid": "vinegar",
+        "IzPYYTv5e": "garlic",
+        "Ib07FFO7o": "ginger",
+        "I3PjpHw9d": "raw firm fish, such as salmon, tuna or halibut, cut in chunks",
+        "I3S_O_9F5": "pineapple in  chunks",
+        "IKCwesl2H": "red onion, cut in wedges"
+    },
+    "status": 0,
+    "sentences": [
+        "In a small saucepan, dissolve cornstarch in pineapple juice.",
+        "Add soy sauce, vinegar, garlic and ginger.",
+        "Simmer until slightly thickened, about 7 minutes.",
+        "Let cool.",
+        "Add fish and pineapple to sauce and marinate in the refrigerator for 30 minutes.",
+        "Thread fish, pineapple and onion on skewers.",
+        "Place on a hot grill (or under a broiler) until fish is done to your liking.",
+        "Serve with rice.",
+        "Heat marinade and use as a sauce over fish and rice."
+    ],
+    "labels": [
+        [],
+        [],
+        []
+    ],
+    "sentence_labels": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+}

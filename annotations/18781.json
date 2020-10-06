@@ -20,15 +20,15 @@
     "photo_url": "http://images.media-allrecipes.com/userphotos/250x250/510089.jpg",
     "url": "http://allrecipes.com/Recipe/18781/",
     "normalized_ingredients": {
-        "IXxA92DUf": "uncooked egg noodles",
-        "ICVfuQXfd": "lean ground beef",
+        "IkUMHmRZp": "egg noodles",
+        "INzU_lxpu": "ground beef",
         "Iz0wiMjVJ": "onion",
-        "IXclyBsV3": "cloves garlic",
-        "IzL3iMCR3": "green bell pepper",
+        "IzPYYTv5e": "garlic",
+        "ISwKd9Yco": "bell pepper",
         "IyjKFHn5A": "pepperoni sausage",
         "I7sHPCv-A": "pizza sauce",
         "I7L24gq6G": "milk",
-        "I6xndLv-L": "shredded mozzarella cheese"
+        "I6ALUx9z1": "m zarella cheese"
     },
     "status": 0,
     "sentences": [
