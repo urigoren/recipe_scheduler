@@ -1,0 +1,40 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+    <div>
+        <h3>${data}</h3>
+        <input type="text" name="test" id="test" value="">
+    </div>
+    <input type="hidden" name="result" id="result" value="{}">
+
+</crowd-form>
+<script>
+document.querySelector('crowd-form').onsubmit = function (){
+    const resultField = document.getElementById("result");
+    let results={"test": document.getElementById("test").value};
+    resultField.value = JSON.stringify(results);
+}
+
+function validateHIT(){
+    window.setInterval(function () {
+        let crowdButton = document.getElementsByTagName("crowd-button")[0];
+        // if (typeof dp === "undefined")
+        //     return;
+        if (isHITComplete())
+            crowdButton.style.display = "block";
+        else
+            crowdButton.style.display = "none";
+    }, 200); // disables the submit key until hit is complete it is hacky but works
+}
+
+function isHITComplete() {
+    return document.getElementById("test").value!="";
+}
+
+window.onload = validateHIT;
+</script>
