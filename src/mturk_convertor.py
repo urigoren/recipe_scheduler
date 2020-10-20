@@ -3,9 +3,9 @@ from pathlib import Path
 import annotation_io
 import read_data
 
-def csv_safe(s):
-    s = str(s)
-    return '"' +s.replace('"', '""').replace('\n', '\\n') +'"'
+
+def csv_row(lst):
+    return ",".join(['"' +str(s).replace('"', '""').replace('\n', '\\n') +'"' for s in lst]) + "\n"
 
 SERVER = "http://54.93.36.200:8080/"
 MAX_ROWS = 499
@@ -25,7 +25,7 @@ with (output_path / "annotate.html").open('w') as f:
 
 with (output_path / "annotate.csv").open('w') as f:
     row_num = 0
-    f.write(",".join([csv_safe(f"v{i}") for i in range(len(magics))]) + "\n")
+    f.write(csv_row([f"v{i}" for i in range(len(magics))]))
     ##  names are important for `eval`
     events = []
     time_lengths = read_data.time_lengths
@@ -49,8 +49,7 @@ with (output_path / "annotate.csv").open('w') as f:
             if 'tojson' in parts:
                 var = f"json.dumps({var})"
             line.append(eval(var))
-        f.write(",".join([csv_safe(c) for c in line]))
-        f.write("\n")
+        f.write(csv_row(line))
         row_num +=1
         if row_num>MAX_ROWS:
             break
