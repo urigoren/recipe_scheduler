@@ -31,8 +31,8 @@ with (output_path / "annotate.csv").open('w') as f:
     resources=read_data.resources
     implicits=read_data.implicit_ingredients
     tools=read_data.tools
-    line=[]
     for id, annotation in annotation_io.all_annotations().items():
+        line = []
         data=annotation
         num_instructions = len(annotation['instructions'])
         actions = []
@@ -47,5 +47,5 @@ with (output_path / "annotate.csv").open('w') as f:
             if 'tojson' in parts:
                 var = f"json.dumps({var})"
             line.append(eval(var))
-    f.write(",".join([csv_safe(c) for c in line]))
-    f.write("\n")
+        f.write(",".join([csv_safe(c) for c in line]))
+        f.write("\n")
