@@ -10,12 +10,11 @@
         <h3>${data}</h3>
         <input type="text" name="test" id="test" value="">
     </div>
-    <input type="hidden" name="result" id="result" value="{}">
-
+    <input type="hidden" name="mturk_result" id="mturk_result" value="{}">
 </crowd-form>
 <script>
 document.querySelector('crowd-form').onsubmit = function (){
-    const resultField = document.getElementById("result");
+    const resultField = document.getElementById("mturk_result");
     let results={"test": document.getElementById("test").value};
     resultField.value = JSON.stringify(results);
 }
@@ -23,6 +22,7 @@ document.querySelector('crowd-form').onsubmit = function (){
 function validateHIT(){
     window.setInterval(function () {
         let crowdButton = document.getElementsByTagName("crowd-button")[0];
+        if (!crowdButton) return;
         // if (typeof dp === "undefined")
         //     return;
         if (isHITComplete())

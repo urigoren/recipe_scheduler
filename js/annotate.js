@@ -226,7 +226,7 @@ function show_instruction()
     let instruction=instructions[instruction_index];
     document.getElementById('modal-instruction').innerHTML=instruction;
     document.getElementById('instruction').innerHTML="<h3>"+(instruction_index+1)+"/"+instructions.length+"</h3>"+instruction;
-    document.getElementById('events').value=JSON.stringify(events);
+    document.getElementById('frm_events').value=JSON.stringify(events);
     const el = document.getElementById('next_instruction');
     if (instruction_index+1==instructions.length)
         el.classList.add("last_instruction");
@@ -250,8 +250,18 @@ function expand_resources()
 }
 function save()
 {
-    show_instruction();
-    document.forms[0].submit();
+    const mturk_result = document.getElementById("mturk_result");
+    if (mturk_result) { // Running within mturk
+        mturk_result.value=JSON.stringify({
+            "id": document.getElementById("frm_id").value,
+            "status": document.getElementById("frm_status").value,
+            "events": events
+        });
+        document.querySelector('crowd-form').submit();
+    } else {
+        document.getElementById('frm_events').value=JSON.stringify(events);
+        document.getElementById("annotation_form").submit();
+    }
 
 }
 

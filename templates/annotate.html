@@ -37,9 +37,9 @@
             </div>
             <h5>Status</h5>
             <div class="col-sm-3">
-                <form method="POST" action="/save_annotation/{{id}}">
-                <input type="hidden" name="id" value="{{id}}">
-                <select name="status">
+                <form method="POST" action="/save_annotation/{{id}}" id="annotation_form">
+                <input type="hidden" name="id" id="frm_id" value="{{id}}">
+                <select name="status" id="frm_status">
                 <option value="1">All OK</option>
                 <option value="0">All OK, not finished</option>
                 <option value="-1">Missing Tool</option>
@@ -48,7 +48,7 @@
                 <option value="-4">Missing Time Boundry</option>
                 <option value="-5">Other issue</option>
                 </select>
-                <input type="hidden" name="events" id="events" value="[]">
+                <input type="hidden" name="events" id="frm_events" value="[]">
                 </form>
             </div>
         </div>
@@ -216,6 +216,11 @@
             if (dp.events.list.length===0)
             {
                 set_reference_time_range();
+            }
+
+            const crowdButtons = document.getElementsByTagName("crowd-button");
+            for (let i = 0; i < crowdButtons.length; i++) {
+              crowdButtons[i].style.display = "none";
             }
         });
 
