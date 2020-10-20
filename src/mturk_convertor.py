@@ -8,6 +8,7 @@ def csv_safe(s):
     return '"' +s.replace('"', '""').replace('\n', '\\n') +'"'
 
 SERVER = "http://54.93.36.200:8080/"
+MAX_ROWS = 499
 magic_pattern = re.compile(r"{{[^}]+}}")
 annotate_template = Path(__file__).parent.parent / "templates" / "annotate.html"
 output_path = Path(__file__).parent.parent / "mturk"
@@ -23,6 +24,7 @@ with (output_path / "annotate.html").open('w') as f:
     f.write(html)
 
 with (output_path / "annotate.csv").open('w') as f:
+    row_num = 0
     f.write(",".join([csv_safe(f"v{i}") for i in range(len(magics))]) + "\n")
     ##  names are important for `eval`
     events = []
@@ -49,3 +51,6 @@ with (output_path / "annotate.csv").open('w') as f:
             line.append(eval(var))
         f.write(",".join([csv_safe(c) for c in line]))
         f.write("\n")
+        row_num +=1
+        if row_num>MAX_ROWS:
+            break
