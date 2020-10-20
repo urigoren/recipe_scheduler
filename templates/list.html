@@ -10,7 +10,7 @@
 <body>
     <div id="annotations"></div>
     <script>
-const tabledata={{table|safe}};
+const tabledata={{table|tojson|safe}};
 function status_color(status) {
     if (status==0)
         return "orange";

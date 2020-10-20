@@ -47,14 +47,14 @@
 
         dp.treeEnabled = true;
         dp.treePreventParentUsage = true;
-        dp.resources = {{resources|safe}};
+        dp.resources = {{resources|tojson|safe}};
 
         dp.heightSpec = "Max";
         dp.height = 500;
         dp.allowMultiMove=false;
         dp.allowMultiResize=false;
 
-        dp.events.list = {{events|safe}};
+        dp.events.list = {{events|tojson|safe}};
         expand_resources();
 
 

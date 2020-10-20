@@ -36,7 +36,7 @@ def index():
     }
         for annotation_id, data in annotations.items()
     ]
-    return render_template('list.html', table=json.dumps(table))
+    return render_template('list.html', table=table)
 
 
 @app.route('/annotate/<annotation_id>')
@@ -91,8 +91,8 @@ def simulate(annotation_id=None):
         events += [ui_view(0, instruction_parsing.UNUSED_RESOURCE_ID, ing["id"]) for ing in submitted_ingredients]
         events = sorted(events, key=lambda x:x["id"][0])
         return render_template("display.html",
-                               resources=json.dumps(read_data.resources),
-                               events=json.dumps(events),
+                               resources=read_data.resources,
+                               events=events,
                                )
     resources = [{"id": child["id"], "name": parent["name"] + '/' + child["name"]} for parent in read_data.resources for child in parent["children"]]
     time_lengths = [{"id": k, "name": v} for k, v in read_data.time_lengths.items()]
@@ -113,12 +113,12 @@ def simulate(annotation_id=None):
         ingredients = [{"name": value, "id": key} for key, value in annotation["normalized_ingredients"].items()]
 
     return render_template("simulate.html",
-                           resources=json.dumps(resources),
-                           commands=json.dumps(read_data.commands),
-                           tools=json.dumps(tools),
-                           time_lengths=json.dumps(time_lengths),
-                           actions=json.dumps(derived_actions),
-                           ingredients=json.dumps(ingredients),
+                           resources=resources,
+                           commands=read_data.commands,
+                           tools=tools,
+                           time_lengths=time_lengths,
+                           actions=derived_actions,
+                           ingredients=ingredients,
                            )
 
 
@@ -133,8 +133,8 @@ def ingredients_autocomplete():
 def display(annotation_id):
     annotation = annotation_io.get_annotation(annotation_id)
     return render_template("display.html",
-                           resources=json.dumps(read_data.resources),
-                           events=json.dumps(annotation["labels"][0]),
+                           resources=read_data.resources,
+                           events=annotation["labels"][0],
                            )
 
 
