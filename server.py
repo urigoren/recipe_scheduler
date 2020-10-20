@@ -47,16 +47,17 @@ def annotate(annotation_id):
     actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in read_data.implicit_ingredients.items()])
     actions.extend([{"display": value, "id": key, "color": "#000000"} for key, value in read_data.time_lengths.items()])
     actions.extend([{"display": value, "id": key, "color": "#00ff00"} for key, value in annotation["normalized_ingredients"].items()])
+    tl = read_data.time_lengths
+    tl[""]="Ends Immediately"
     return render_template('annotate.html',
-                           events=json.dumps(annotation["labels"]),
+                           events=annotation["labels"],
                            data=annotation,
                            id=annotation_id,
                            tools=read_data.tools,
                            implicits=read_data.implicit_ingredients,
-                           time_lengths=read_data.time_lengths,
-                           resources=json.dumps(read_data.resources),
-                           actions=json.dumps(actions),
-                           event0=json.dumps(annotation["labels"][0]),
+                           time_lengths=tl,
+                           resources=read_data.resources,
+                           actions=actions,
                            num_instructions=len(annotation['instructions']),
                            )
 

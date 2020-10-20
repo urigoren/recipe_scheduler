@@ -2,6 +2,35 @@ const unused_resource_id = "A1";
 const on_start_date = (obj)=>(obj.hasOwnProperty('e')?date(obj.e.data.start).value.startsWith(dp.startDate):date(obj.start).value.startsWith(dp.startDate));
 const on_unused = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource===unused_resource_id:obj.resource===unused_resource_id);
 
+function append_checkboxes(elid, header, dict) {
+    const el= document.getElementById(elid);
+    let html = (header?"<h3>" + header + "</h3>":"");
+    let v="";
+    for (const k in dict) {
+        v = dict[k];
+        html+='<div class="form-check"><input type="checkbox" class="form-check-input event_item" id="'+k+'"><label class="form-check-label" for="'+k+'">'+v+'</label></div>';
+    }
+    el.innerHTML=html;
+}
+function append_options(elid, dict) {
+    const el= document.getElementById(elid);
+    let html = "";
+    let v="";
+    for (const k in dict) {
+        v = dict[k];
+        html+='<option value="'+k+'">'+v+'</option>';
+    }
+    el.innerHTML=html;
+}
+function append_li(elid, lst) {
+    const el= document.getElementById(elid);
+    let html = "";
+    let i=0;
+    for (i=0;i<lst.length;i++) {
+        html+='<li>'+lst[i]+'</li>';
+    }
+    el.innerHTML=html;
+}
 function msgbox(title, body)
 {
     jQuery('#msgbox_title').text(title);

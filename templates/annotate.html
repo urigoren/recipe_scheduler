@@ -33,11 +33,7 @@
                 <a href="{{data['url']}}"><img src="{{data['photo_url']}}" width=200 target="_blank"></a>
             </div>
             <div class="col-sm-6">
-            <ul>
-                {%for value in data['ingredients']%}
-                <li>{{value}}</li>
-                {%endfor%}
-            </ul>
+            <ul id="ul_ingredients"></ul>
             </div>
             <h5>Status</h5>
             <div class="col-sm-3">
@@ -97,30 +93,13 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-sm-6"><h3>Ingredients</h3>
-                        {%for key, value in data["normalized_ingredients"].items() %}
-                        <div class="form-check"><input type="checkbox" class="form-check-input event_item" id="{{key}}"><label class="form-check-label" for="{{key}}">{{value}}</label></div>
-                        {%endfor%}
-                    </div>
-                    <div class="col-sm-3"><h3>Tools</h3>
-                        {%for key, value in tools.items() %}
-                        <div class="form-check"><input type="checkbox" class="form-check-input event_item" id="{{key}}"><label class="form-check-label" for="{{key}}">{{value}}</label></div>
-                        {%endfor%}
-                    </div>
-                    <div class="col-sm-3"><h3>Implicit</h3>
-                        {%for key, value in implicits.items() %}
-                        <div class="form-check"><input type="checkbox" class="form-check-input event_item" id="{{key}}"><label class="form-check-label" for="{{key}}">{{value}}</label></div>
-                        {%endfor%}
-                    </div>
+                    <div class="col-sm-6" id="modal_body_ingredients"></div>
+                    <div class="col-sm-3" id="modal_body_tools"></div>
+                    <div class="col-sm-3" id="modal_body_implicits"></div>
                 </div>
             </div>
             <div class="modal-footer">
-                <select id="instruction_length">
-                    <option selected value="">Ends Immediately</option>
-                    {%for key, value in time_lengths.items() %}
-                    <option value="{{key}}">{{value}}</option>
-                    {%endfor%}
-                </select>
+                <select id="instruction_length"></select>
                 <button type="button" class="btn btn-primary" onclick="event_dialog_save()">Save changes</button>
                 <button type="button" class="btn btn-secondary" onclick="event_dialog_clipboard()">From Clipboard</button>
                 <button type="button" class="btn btn-secondary" onclick="event_dialog_clear()">Clear</button>
@@ -148,7 +127,7 @@
             items: [
                 {
                     text: "Delete", onClick: function (args) {
-                        if (dp.multiselect.events().length==0)
+                        if (dp.multiselect.events().length===0)
                         {
                             dp.events.remove(args.source);
                         }
@@ -187,15 +166,15 @@
 
         dp.treeEnabled = true;
         dp.treePreventParentUsage = true;
-        dp.resources = {{resources|safe}};
-        dp.actions = {{actions|safe}};
+        dp.resources = {{resources|tojson|safe}};
+        dp.actions = {{actions|tojson|safe}};
 
         dp.heightSpec = "Max";
         dp.height = 500;
         dp.allowMultiMove=true;
         dp.allowMultiResize=true;
 
-        dp.events.list = {{event0|safe}};
+        dp.events.list = {{data["labels"][0]|tojson|safe}};
 
 
         dp.eventMovingStartEndEnabled = false;
@@ -220,16 +199,25 @@
         dp.scrollTo("2020-01-01");
         alert = console.log;
         let instruction_index=0;
-        let instructions={{data['instructions']|safe}};
-        let events={{events|safe}};
+        let instructions={{data['instructions']|tojson|safe}};
+        let events={{events|tojson|safe}};
         let action_clipboard=[];
         let selected_time_range={};
 
-        show_instruction();
-        if (dp.events.list.length==0)
-        {
-            set_reference_time_range();
-        }
+        // main ()
+        document.addEventListener("DOMContentLoaded", function(event) {
+            append_checkboxes("modal_body_ingredients", "Ingredients",{{data["normalized_ingredients"]|tojson|safe}});
+            append_checkboxes("modal_body_tools", "Tools",{{tools|tojson|safe}});
+            append_checkboxes("modal_body_implicits", "Implicits",{{implicits|tojson|safe}});
+            append_options("instruction_length", {{time_lengths|tojson|safe}});
+            append_li("ul_ingredients", {{data['ingredients']|tojson|safe}});
+
+            show_instruction();
+            if (dp.events.list.length===0)
+            {
+                set_reference_time_range();
+            }
+        });
 
     </script>
 
