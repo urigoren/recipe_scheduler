@@ -48,7 +48,7 @@ def annotate(annotation_id):
     actions.extend([{"display": value, "id": key, "color": "#000000"} for key, value in read_data.time_lengths.items()])
     actions.extend([{"display": value, "id": key, "color": "#00ff00"} for key, value in annotation["normalized_ingredients"].items()])
     tl = read_data.time_lengths
-    tl[""]="Ends Immediately"
+    tl[""] = "Ends Immediately"
     return render_template('annotate.html',
                            events=annotation["labels"],
                            data=annotation,
