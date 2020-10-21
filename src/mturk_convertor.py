@@ -1,4 +1,4 @@
-import re,json
+import re, json, sys
 from pathlib import Path
 import annotation_io
 import read_data
@@ -8,23 +8,33 @@ def csv_row(lst):
     return ",".join(['"' +str(s).replace('"', '""').replace('\n', '\\n') +'"' for s in lst]) + "\n"
 
 
-SERVER = "http://54.93.36.200:8080/"
+def inject_script(m):
+    ret = '<script type="text/javascript">\n'
+    with (js_path / (m[2] + ".js")).open('r', encoding='utf8') as f:
+        ret+=f.read()
+    ret += '\n</script>'
+    return ret
+
+
 MAX_ROWS = 499
 magic_pattern = re.compile(r"{{[^}]+}}")
+local_js_pattern = re.compile(r'(<script src="/js/([^?/"]+).js[^"]*">\s*</script>)')
 annotate_template = Path(__file__).parent.parent / "templates" / "annotate.html"
 output_path = Path(__file__).parent.parent / "mturk"
+js_path = Path(__file__).parent.parent / "js"
 
 with annotate_template.open('r') as f:
     html = f.read()
 
 magics = {"${v"+str(i)+"}": m for i, m in enumerate(sorted(set(magic_pattern.findall(html))))}
-html=html.replace('"/', '"' + SERVER)
 for k,v in magics.items():
     html=html.replace(v,k)
 
+html = local_js_pattern.sub(inject_script,html)
+
 html = html.replace("</head>", '<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>\n</head>', 1)
 html = html.replace("</form>", '</form>\n<crowd-form answer-format="flatten-objects"><input type="hidden" name="mturk_result" id="mturk_result" value="{}"></crowd-form>', 1)
-with (output_path / "annotate.html").open('w') as f:
+with (output_path / "annotate.html").open('w', encoding='utf8') as f:
     f.write(html)
 
 with (output_path / "annotate.csv").open('w') as f:
