@@ -7,6 +7,7 @@ import read_data
 def csv_row(lst):
     return ",".join(['"' +str(s).replace('"', '""').replace('\n', '\\n') +'"' for s in lst]) + "\n"
 
+
 SERVER = "http://54.93.36.200:8080/"
 MAX_ROWS = 499
 magic_pattern = re.compile(r"{{[^}]+}}")
@@ -20,6 +21,9 @@ magics = {"${v"+str(i)+"}": m for i, m in enumerate(sorted(set(magic_pattern.fin
 html=html.replace('"/', '"' + SERVER)
 for k,v in magics.items():
     html=html.replace(v,k)
+
+html = html.replace("</head>", '<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>\n</head>', 1)
+html = html.replace("</form>", '</form>\n<crowd-form answer-format="flatten-objects"><input type="hidden" name="mturk_result" id="mturk_result" value="{}"></crowd-form>', 1)
 with (output_path / "annotate.html").open('w') as f:
     f.write(html)
 
