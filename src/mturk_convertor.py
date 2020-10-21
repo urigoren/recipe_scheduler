@@ -9,7 +9,7 @@ def csv_row(lst):
 
 
 def inject_script(m):
-    ret = '<script type="text/javascript">\n'
+    ret = '<script>\n'
     with (js_path / (m[2] + ".js")).open('r', encoding='utf8') as f:
         ret+=f.read()
     ret += '\n</script>'
@@ -31,9 +31,8 @@ for k,v in magics.items():
     html=html.replace(v,k)
 
 html = local_js_pattern.sub(inject_script,html)
-
-html = html.replace("</head>", '<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>\n</head>', 1)
-html = html.replace("</form>", '</form>\n<crowd-form answer-format="flatten-objects"><input type="hidden" name="mturk_result" id="mturk_result" value="{}"></crowd-form>', 1)
+html = re.sub(r'</script>[\s\t\n]*<script>',"", html, flags=re.MULTILINE)
+# html = html.replace("</head>", '<script src="https://s3.amazonaws.com/mturk-public/externalHIT_v1.js"></script>\n</head>', 1)
 with (output_path / "annotate.html").open('w', encoding='utf8') as f:
     f.write(html)
 

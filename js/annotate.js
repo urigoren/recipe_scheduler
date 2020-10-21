@@ -2,6 +2,11 @@ const unused_resource_id = "A1";
 const on_start_date = (obj)=>(obj.hasOwnProperty('e')?date(obj.e.data.start).value.startsWith(dp.startDate):date(obj.start).value.startsWith(dp.startDate));
 const on_unused = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource===unused_resource_id:obj.resource===unused_resource_id);
 
+function getUrlParam(name) {
+  var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+  return match ? decodeURIComponent(match[1].replace(/\+/g, ' ')) : null;
+}
+
 function append_checkboxes(elid, header, dict) {
     const el= document.getElementById(elid);
     let html = (header?"<h3>" + header + "</h3>":"");
@@ -250,18 +255,13 @@ function expand_resources()
 }
 function save()
 {
-    const mturk_result = document.getElementById("mturk_result");
-    if (mturk_result) { // Running within mturk
-        mturk_result.value=JSON.stringify({
-            "id": document.getElementById("frm_id").value,
-            "status": document.getElementById("frm_status").value,
-            "events": events
-        });
-        document.querySelector('crowd-form').submit();
-    } else {
-        document.getElementById('frm_events').value=JSON.stringify(events);
-        document.getElementById("annotation_form").submit();
+    const form = document.getElementById("annotation_form");
+    const turk_submit = getUrlParam('turkSubmitTo');
+    if (turk_submit) {
+        form.attr('action', turk_submit + '/mturk/externalSubmit');
     }
+    document.getElementById('frm_events').value=JSON.stringify(events);
+    form.submit();
 
 }
 
