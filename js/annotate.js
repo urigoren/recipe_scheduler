@@ -265,7 +265,12 @@ function save()
     form.submit();
 
 }
-
+function status_updated() {
+    const feedback = document.getElementById("frm_feedback_grp");
+    const status = document.getElementById("frm_status");
+    feedback.style.display=(status.value>=0?"none":"block");
+    console.log("status_updated " +status.value);
+}
 function onEventClicked(args) {
     if (on_start_date(args))
     {
