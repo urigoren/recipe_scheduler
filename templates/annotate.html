@@ -37,8 +37,9 @@
             </div>
             <h5>Status</h5>
             <div class="col-sm-3">
-                <form method="POST" action="/save_annotation/{{id}}" id="annotation_form">
+                <form method="POST" action="/save_annotation/{{id}}" id="mturk_form" name="mturk_form">
                 <input type="hidden" name="id" id="frm_id" value="{{id}}">
+                <input type='hidden' value='' name='assignmentId' id='frm_assignment'/>
                 <select name="status" id="frm_status">
                 <option value="1">All OK</option>
                 <option value="0">All OK, not finished</option>
@@ -200,7 +201,7 @@
         alert = console.log;
         let instruction_index=0;
         let instructions={{data['instructions']|tojson|safe}};
-        let events={{events|tojson|safe}};
+        let events={{data["labels"]|tojson|safe}};
         let action_clipboard=[];
         let selected_time_range={};
 
@@ -218,9 +219,9 @@
                 set_reference_time_range();
             }
 
-            const crowdButtons = document.getElementsByTagName("crowd-button");
-            for (let i = 0; i < crowdButtons.length; i++) {
-              crowdButtons[i].style.display = "none";
+            const submitButton = document.getElementById("submitButton");
+            if (submitButton){
+              submitButton.style.display = "none";
             }
         });
 

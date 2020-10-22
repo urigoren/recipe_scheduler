@@ -1,56 +1,56 @@
 [
     {
         "name": "Idle", "id": "A", "expanded": true, "children": [
-            {"name": "Unused", "id": "A1"},
-            {"name": "Set-Aside", "id": "A2"},
-            {"name": "Discarded", "id": "A0"},
-            {"name": "Serve", "id": "A5"}
+            {"name": "Unused", "id": "A1", "merger":  false},
+            {"name": "Set-Aside", "id": "A2", "merger":  false},
+            {"name": "Discarded", "id": "A0", "merger":  false},
+            {"name": "Serve", "id": "A5", "merger":  false}
         ]
     },
     {
         "name": "Countertop", "id": "W", "expanded": true, "children": [
-            {"name": "Bowl (for combining)", "id": "W1"},
-            {"name": "Roll/Fold", "id": "W2"},
-            {"name": "Massage/Rub", "id": "W3"},
-            {"name": "Peel/Squeeze", "id": "W4"},
-            {"name": "Coat/Sprinkle", "id": "W5"},
-            {"name": "Chopping Board", "id": "C1"}
+            {"name": "Bowl (for combining)", "id": "W1", "merger":  true},
+            {"name": "Roll/Fold", "id": "W2", "merger":  false},
+            {"name": "Massage/Rub", "id": "W3", "merger":  false},
+            {"name": "Peel/Squeeze", "id": "W4", "merger":  false},
+            {"name": "Coat/Sprinkle", "id": "W5", "merger":  false},
+            {"name": "Chopping Board", "id": "C1", "merger":  false}
         ]
     },
     {
         "name": "Stove", "id": "GL", "expanded": false, "children": [
-            {"name": "Low", "id": "GW1"},
-            {"name": "Medium-Low", "id": "GW2"},
-            {"name": "Medium", "id": "GW3"},
-            {"name": "Medium-High", "id": "GW4"},
-            {"name": "High", "id": "GW5"}
+            {"name": "Low", "id": "GW1", "merger":  true},
+            {"name": "Medium-Low", "id": "GW2", "merger":  true},
+            {"name": "Medium", "id": "GW3", "merger":  true},
+            {"name": "Medium-High", "id": "GW4", "merger":  true},
+            {"name": "High", "id": "GW5", "merger":  true}
         ]
     },
     {
         "name": "Oven", "id": "BL", "expanded": false, "children": [
-            {"name": "Low", "id": "BL1"},
-            {"name": "Medium", "id": "BL2"},
-            {"name": "High", "id": "BL3"}
+            {"name": "Low", "id": "BL1", "merger":  false},
+            {"name": "Medium", "id": "BL2", "merger":  false},
+            {"name": "High", "id": "BL3", "merger":  false}
         ]
     },
     {
         "name": "Regrigerator", "id": "R", "expanded": false, "children": [
-            {"name": "Marinade", "id": "R1"},
-            {"name": "Chill", "id": "R2"},
-            {"name": "Freeze", "id": "R3"}
+            {"name": "Marinade", "id": "R1", "merger":  false},
+            {"name": "Chill", "id": "R2", "merger":  false},
+            {"name": "Freeze", "id": "R3", "merger":  false}
         ]
     },
     {
         "name": "Sink", "id": "S", "expanded": false, "children": [
-            {"name": "Wash", "id": "S1"},
-            {"name": "Drain", "id": "S2"}
+            {"name": "Wash", "id": "S1", "merger":  false},
+            {"name": "Drain", "id": "S2", "merger":  false}
         ]
     },
     {
         "name": "Other", "id": "O", "expanded": false, "children": [
-            {"name": "Grind", "id": "O1"},
-            {"name": "Blend", "id": "O2"},
-            {"name": "Deep Fry", "id": "O3"}
+            {"name": "Grind", "id": "O1", "merger":  false},
+            {"name": "Blend", "id": "O2", "merger":  false},
+            {"name": "Deep Fry", "id": "O3", "merger":  false}
         ]
     }
 ]

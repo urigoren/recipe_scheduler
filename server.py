@@ -50,7 +50,6 @@ def annotate(annotation_id):
     tl = read_data.time_lengths
     tl[""] = "Ends Immediately"
     return render_template('annotate.html',
-                           events=annotation["labels"],
                            data=annotation,
                            id=annotation_id,
                            tools=read_data.tools,

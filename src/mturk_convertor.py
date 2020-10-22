@@ -40,7 +40,6 @@ with (output_path / "annotate.csv").open('w') as f:
     row_num = 0
     f.write(csv_row([f"v{i}" for i in range(len(magics))]))
     ##  names are important for `eval`
-    events = []
     time_lengths = read_data.time_lengths
     time_lengths[""] = "Ends Immediately"
     resources=read_data.resources
@@ -50,6 +49,7 @@ with (output_path / "annotate.csv").open('w') as f:
         line = []
         data=annotation
         num_instructions = len(annotation['instructions'])
+        data["labels"]=[[] for _ in range(num_instructions)]
         actions = []
         actions.extend([{"display": value, "id": key, "color": "#ff0000"} for key, value in read_data.tools.items()])
         actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in read_data.implicit_ingredients.items()])

@@ -255,10 +255,11 @@ function expand_resources()
 }
 function save()
 {
-    const form = document.getElementById("annotation_form");
+    const form = document.getElementById("mturk_form");
     const turk_submit = getUrlParam('turkSubmitTo');
     if (turk_submit) {
-        form.attr('action', turk_submit + '/mturk/externalSubmit');
+        form.action=turk_submit + '/mturk/externalSubmit';
+        document.getElementById("frm_assignment").value = getUrlParam('assignmentId');
     }
     document.getElementById('frm_events').value=JSON.stringify(events);
     form.submit();
