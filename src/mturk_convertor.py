@@ -19,6 +19,7 @@ def inject_script(m):
 MAX_ROWS = 499
 magic_pattern = re.compile(r"{{[^}]+}}")
 local_js_pattern = re.compile(r'(<script src="/js/([^?/"]+).js[^"]*">\s*</script>)')
+form_pattern = re.compile(r"</?form[^>]*>", flags=re.IGNORECASE)
 annotate_template = Path(__file__).parent.parent / "templates" / "annotate.html"
 output_path = Path(__file__).parent.parent / "mturk"
 js_path = Path(__file__).parent.parent / "js"
@@ -31,6 +32,7 @@ for k,v in magics.items():
     html=html.replace(v,k)
 
 html = local_js_pattern.sub(inject_script,html)
+html = form_pattern.sub("", html)
 html = re.sub(r'</script>[\s\t\n]*<script>',"", html, flags=re.MULTILINE)
 # html = html.replace("</head>", '<script src="https://s3.amazonaws.com/mturk-public/externalHIT_v1.js"></script>\n</head>', 1)
 with (output_path / "annotate.html").open('w', encoding='utf8') as f:

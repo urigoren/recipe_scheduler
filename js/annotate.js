@@ -259,7 +259,7 @@ function save()
     const turk_submit = getUrlParam('turkSubmitTo');
     if (turk_submit) {
         form.action=turk_submit + '/mturk/externalSubmit';
-        document.getElementById("frm_assignment").value = getUrlParam('assignmentId');
+        document.getElementById("assignmentId").value = getUrlParam('assignmentId');
     }
     document.getElementById('frm_events').value=JSON.stringify(events);
     form.submit();
