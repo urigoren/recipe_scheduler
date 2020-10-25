@@ -15,9 +15,13 @@ IMMEDIATE = "LIMMEDIATE"
 UNUSED_RESOURCE_ID = "A1"
 
 with (data_path / "resources.json").open('r') as f:
-    resource_dict = json.load(f)
-    resource_dict = {res["id"]: res_category["name"] + "/" + res["name"] for res_category in resource_dict for res in
-                     res_category["children"]}
+    resource_dict = dict()
+    for res_category in json.load(f):
+        if 'children' in res_category:
+            for res in res_category["children"]:
+                resource_dict[res["id"]]=res_category["name"] + "/" + res["name"]
+        else:
+            resource_dict[res_category["id"]] = res_category["name"]
 
 
 class AssignedTypes(Enum):

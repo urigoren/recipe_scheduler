@@ -248,6 +248,8 @@ function expand_resources()
     let active_resources=[];
     for (i=0;i<dp.resources.length;i++)
     {
+        if (!dp.resources[i].children)
+            continue;
         children=dp.resources[i].children.map(x=>x.id);
         active_resources=dp.events.list.map(e=>e.resource);
         dp.resources[i].expanded= dp.resources[i].expanded || children.map(c=>active_resources.indexOf(c)).filter(i=>i>-1).length>0;
