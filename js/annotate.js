@@ -49,7 +49,6 @@ function date(dt) {
 }
 function verify_annotation()
 {
-    return true;
     let dt = DayPilot.Date(dp.startDate);
     let time_stamps = [];
     let i=0;
