@@ -111,6 +111,8 @@ def program_step(annotation) -> List[Instruction]:
             removed_ings = state[resource] - new_state[resource]
             for ing in added_ings:
                 ing_type = AssignedTypes.parse(ing)
+                if not ing_type:
+                    continue
                 if ing_type == AssignedTypes.TimeLength:
                     if ing != IMMEDIATE:
                         actions.append(Instruction(ts, Commands.CHEF_CHECK, ing, resource))
