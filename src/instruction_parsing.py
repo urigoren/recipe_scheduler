@@ -32,6 +32,8 @@ class AssignedTypes(Enum):
 
     @classmethod
     def parse(cls, ing_id):
+        if not ing_id:
+            return None
         return {
             "I": AssignedTypes.Ingredient,
             "M": AssignedTypes.UnlistedIngredient,
