@@ -26,7 +26,7 @@ with (data_path / "resources.json").open('r') as f:
 
 class AssignedTypes(Enum):
     Ingredient = 0
-    UnlistedIngredient = 1
+    Activity = 1
     TimeLength = 2
     Tool = 3
 
@@ -36,7 +36,7 @@ class AssignedTypes(Enum):
             return None
         return {
             "I": AssignedTypes.Ingredient,
-            "M": AssignedTypes.UnlistedIngredient,
+            "M": AssignedTypes.Activity,
             "L": AssignedTypes.TimeLength,
             "T": AssignedTypes.Tool,
 
