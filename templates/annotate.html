@@ -104,7 +104,7 @@
                 <div class="row">
                     <div class="col-sm-6" id="modal_body_ingredients"></div>
                     <div class="col-sm-3" id="modal_body_tools"></div>
-                    <div class="col-sm-3" id="modal_body_implicits"></div>
+                    <div class="col-sm-3" id="modal_body_activities"></div>
                 </div>
             </div>
             <div class="modal-footer">
@@ -217,7 +217,7 @@
         document.addEventListener("DOMContentLoaded", function(event) {
             append_checkboxes("modal_body_ingredients", "Ingredients",{{data["normalized_ingredients"]|tojson|safe}});
             append_checkboxes("modal_body_tools", "Tools",{{tools|tojson|safe}});
-            append_checkboxes("modal_body_implicits", "Implicits",{{implicits|tojson|safe}});
+            append_checkboxes("modal_body_activities", "Activities",{{activities|tojson|safe}});
             append_options("instruction_length", {{time_lengths|tojson|safe}});
             append_li("ul_ingredients", {{data['ingredients']|tojson|safe}});
 

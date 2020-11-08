@@ -1,7 +1,12 @@
 const unused_resource_id = "A1";
 const on_start_date = (obj)=>(obj.hasOwnProperty('e')?date(obj.e.data.start).value.startsWith(dp.startDate):date(obj.start).value.startsWith(dp.startDate));
 const on_unused = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource===unused_resource_id:obj.resource===unused_resource_id);
-
+const AssignedTypes = {
+    INGREDIENT: 0,
+    ACTIVITY: 1,
+    TIME_LENGTH: 2,
+    TOOL: 3,
+}
 function getUrlParam(name) {
   var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
   return match ? decodeURIComponent(match[1].replace(/\+/g, ' ')) : null;
@@ -42,6 +47,15 @@ function msgbox(title, body)
     jQuery('#msgbox_body').html(body);
     jQuery('#msgbox_dialog').modal('show');
 }
+function ing2type(ing_id) {
+    switch (ing_id[0]) {
+        case "I": return AssignedTypes.INGREDIENT;
+        case "M": return AssignedTypes.ACTIVITY;
+        case "L": return AssignedTypes.TIME_LENGTH;
+        case "T": return AssignedTypes.TOOL;
+        default: return null;
+    }
+}
 function date(dt) {
     if (typeof(dt)==="string")
             return DayPilot.Date(dt);
@@ -80,7 +94,7 @@ function populate_unused_resource(start)
         return;
     truncate(unused_resource_id, start);
     const used_ingredients = dp.events.list.filter(x=>x.start==start).map(x=>x.action);
-    const unused_ingredients = dp.actions.map(a=>a.id).filter(a=>a.startsWith('I')).filter(a=>(used_ingredients.filter(x=>x===a)).length===0);
+    const unused_ingredients = dp.actions.map(a=>a.id).filter(a=>ing2type(a)==AssignedTypes.INGREDIENT).filter(a=>(used_ingredients.filter(x=>x===a)).length===0);
     add_events_by_action_id(unused_ingredients, {"start": start, "resource": unused_resource_id});
 }
 function add_events_by_action_id(ids, event_data)
@@ -113,7 +127,7 @@ function set_reference_time_range(latest_events)
     if  ((typeof latest_events === "undefined") || (latest_events.length==0))
     {
         // use all ingredients, set as unused
-        latest_events=dp.actions.filter(a=>a.id.startsWith('I')).map(a=>({
+        latest_events=dp.actions.filter(a=>ing2type(a.id)===AssignedTypes.INGREDIENT).map(a=>({
             "resource": unused_resource_id,
             "text": a.display,
             "barColor": a.color,
@@ -150,6 +164,8 @@ function truncate(resource, start)
 function event_dialog_save()
 {
     const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
+    const instruction_length_id = document.getElementById("instruction_length").value;
+    // Update events
     truncate(selected_time_range.resource, selected_time_range.start);
     add_events_by_action_id(selected_action_ids, {
         "start": selected_time_range.start,
@@ -157,12 +173,13 @@ function event_dialog_save()
         "resource": selected_time_range.resource,
     });
     //instruction length special event:
-    const instruction_length_id = document.getElementById("instruction_length").value;
-    add_events_by_action_id([instruction_length_id], {
-        "start": selected_time_range.start,
-        "end:": selected_time_range.end,
-        "resource": selected_time_range.resource,
-    });
+    if (instruction_length_id!="") {
+        add_events_by_action_id([instruction_length_id], {
+            "start": selected_time_range.start,
+            "end:": selected_time_range.end,
+            "resource": selected_time_range.resource,
+        });
+    }
     jQuery('#event_dialog').modal('hide');
     setTimeout(dp.multirange.clear, 100);
 }
@@ -192,7 +209,7 @@ function prev_actions_for_resource(resource)
 function get_latest_state_events()
 {
     const max_dt = dp.events.list.map(x=>date(x.end).ticks).reduce((x,y)=>(x>y?x:y),0);
-    return dp.events.list.filter(x=>(date(x.end).ticks==max_dt) && (!x.action.startsWith('L')));
+    return dp.events.list.filter(x=>(date(x.end).ticks==max_dt) && (ing2type(x.action)!==AssignedTypes.TIME_LENGTH));
 }
 function next_instruction()
 {
@@ -298,7 +315,7 @@ function onEventClicked(args) {
     })
     // selectbox
     const instruction_length_select = document.getElementById("instruction_length");
-    previously_selected=previously_selected.filter(x=>x.startsWith('L'));
+    previously_selected=previously_selected.filter(x=>ing2type(x)==AssignedTypes.TIME_LENGTH);
     instruction_length_select.value=(previously_selected.length>0?previously_selected[0]:"");
     jQuery('#event_dialog').modal('show');
 }

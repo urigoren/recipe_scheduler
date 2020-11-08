@@ -44,7 +44,7 @@ def annotate(annotation_id):
     annotation=annotation_io.get_annotation(annotation_id)
     actions = []
     actions.extend([{"display": value, "id": key, "color": "#ff0000"} for key, value in read_data.tools.items()])
-    actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in read_data.implicit_ingredients.items()])
+    actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in read_data.activities.items()])
     actions.extend([{"display": value, "id": key, "color": "#000000"} for key, value in read_data.time_lengths.items()])
     actions.extend([{"display": value, "id": key, "color": "#00ff00"} for key, value in annotation["normalized_ingredients"].items()])
     tl = read_data.time_lengths
@@ -53,7 +53,7 @@ def annotate(annotation_id):
                            data=annotation,
                            id=annotation_id,
                            tools=read_data.tools,
-                           implicits=read_data.implicit_ingredients,
+                           activities=read_data.activities,
                            time_lengths=tl,
                            resources=read_data.resources,
                            actions=actions,
@@ -72,7 +72,7 @@ def simulate(annotation_id=None):
         # TODO: translate events to UI
         actions_map = []
         actions_map.extend([(key,{"text": value, "color": "#ff0000"}) for key, value in read_data.tools.items()])
-        actions_map.extend([(key,{"text": value, "color": "#0000ff"}) for key, value in read_data.implicit_ingredients.items()])
+        actions_map.extend([(key,{"text": value, "color": "#0000ff"}) for key, value in read_data.activities.items()])
         actions_map.extend([(key,{"text": value, "color": "#000000"}) for key, value in read_data.time_lengths.items()])
         actions_map.extend([(value,{"text": key, "color": "#00ff00"}) for key, value in read_data.ingredients_map.items()])
         actions_map = dict(actions_map)

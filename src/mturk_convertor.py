@@ -45,7 +45,7 @@ with (output_path / "annotate.csv").open('w') as f:
     time_lengths = read_data.time_lengths
     time_lengths[""] = "Ends Immediately"
     resources=read_data.resources
-    implicits=read_data.implicit_ingredients
+    activities=read_data.activities
     tools=read_data.tools
     for id, annotation in annotation_io.all_annotations().items():
         line = []
@@ -54,7 +54,7 @@ with (output_path / "annotate.csv").open('w') as f:
         data["labels"]=[[] for _ in range(num_instructions)]
         actions = []
         actions.extend([{"display": value, "id": key, "color": "#ff0000"} for key, value in read_data.tools.items()])
-        actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in read_data.implicit_ingredients.items()])
+        actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in read_data.activities.items()])
         actions.extend([{"display": value, "id": key, "color": "#000000"} for key, value in read_data.time_lengths.items()])
         actions.extend([{"display": value, "id": key, "color": "#00ff00"} for key, value in annotation["normalized_ingredients"].items()])
         for alias, magic in magics.items():
