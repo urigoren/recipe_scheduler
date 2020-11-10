@@ -2,5 +2,8 @@
     "LTIME":"For X minutes",
     "LCOLOR":"Until color change",
     "LTEXTURE":"Until texture change",
-    "LTEMPTRATURE":"Until cool/boil"
+    "LSHAPE":"Until even in shape",
+    "LSIDES":"Until cooked from both sides",
+    "LCOOL":"Until cool down",
+    "LBOIL":"Until boil"
 }

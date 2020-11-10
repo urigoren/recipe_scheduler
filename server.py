@@ -96,6 +96,7 @@ def simulate(annotation_id=None):
     resources = [{"id": child["id"], "name": parent["name"] + '/' + child["name"]} for parent in read_data.resources for child in parent["children"]]
     time_lengths = [{"id": k, "name": v} for k, v in read_data.time_lengths.items()]
     tools = [{"id": k, "name": v} for k, v in read_data.tools.items()]
+    activities = [{"name": value, "id": key} for key, value in read_data.activities.items()]
     ingredients = []
     derived_actions=[]
     if annotation_id is not None:
@@ -114,6 +115,7 @@ def simulate(annotation_id=None):
     return render_template("simulate.html",
                            resources=resources,
                            commands=read_data.commands,
+                           activities=activities,
                            tools=tools,
                            time_lengths=time_lengths,
                            actions=derived_actions,

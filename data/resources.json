@@ -1,20 +1,10 @@
 [
-    {
-        "name": "Idle", "id": "A", "expanded": true, "children": [
-            {"name": "Unused", "id": "A1", "merger":  false, "frozen": "bottom"},
-            {"name": "Set-Aside", "id": "A2", "merger":  false},
-            {"name": "Discarded", "id": "A0", "merger":  false},
-            {"name": "Serve", "id": "A5", "merger":  false}
-        ]
-    },
+    {"name": "Unused", "id": "A1", "merger":  false, "frozen": "top"},
     {
         "name": "Countertop", "id": "W", "expanded": true, "children": [
-            {"name": "Bowl (for combining)", "id": "W1", "merger":  true},
-            {"name": "Roll/Fold", "id": "W2", "merger":  false},
-            {"name": "Massage/Rub", "id": "W3", "merger":  false},
-            {"name": "Peel/Squeeze", "id": "W4", "merger":  false},
-            {"name": "Coat/Sprinkle", "id": "W5", "merger":  false},
-            {"name": "Chopping Board", "id": "C1", "merger":  false}
+            {"name": "Countertop", "id": "W1", "merger":  true},
+            {"name": "Bowl/Container", "id": "W2", "merger":  false},
+            {"name": "Chopping Board", "id": "W3", "merger":  false}
         ]
     },
     {
@@ -34,23 +24,18 @@
         ]
     },
     {
-        "name": "Regrigerator", "id": "R", "expanded": false, "children": [
-            {"name": "Marinade", "id": "R1", "merger":  false},
-            {"name": "Chill", "id": "R2", "merger":  false},
-            {"name": "Freeze", "id": "R3", "merger":  false}
+        "name": "Refrigerator", "id": "R", "expanded": false, "children": [
+            {"name": "Chill", "id": "R1", "merger":  false},
+            {"name": "Freeze", "id": "R2", "merger":  false}
         ]
     },
     {
-        "name": "Sink", "id": "S", "expanded": false, "children": [
-            {"name": "Wash", "id": "S1", "merger":  false},
-            {"name": "Drain", "id": "S2", "merger":  false}
+        "name": "Appliances", "id": "O", "expanded": false, "children": [
+            {"name": "Slicer", "id": "O1", "merger":  false},
+            {"name": "Grind", "id": "O2", "merger":  false},
+            {"name": "Blend", "id": "O3", "merger":  false},
+            {"name": "Deep Fry", "id": "O4", "merger":  false}
         ]
     },
-    {
-        "name": "Other", "id": "O", "expanded": false, "children": [
-            {"name": "Grind", "id": "O1", "merger":  false},
-            {"name": "Blend", "id": "O2", "merger":  false},
-            {"name": "Deep Fry", "id": "O3", "merger":  false}
-        ]
-    }
+    {"name": "Trash Bin", "id": "A2"}
 ]

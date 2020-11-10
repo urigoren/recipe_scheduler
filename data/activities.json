@@ -1,4 +1,9 @@
 {
     "MSTIR": "Stir",
+    "MROLL": "Roll",
+    "MMASSAGE": "Massage",
+    "MPEEL": "Peel",
+    "MDRAIN": "Drain",
+    "MPOUND": "Pound (w/mallet)",
     "MCOOK": "Cook"
 }

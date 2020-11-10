@@ -50,7 +50,8 @@ class Commands(Enum):
     USE = 2
     STOP_USING = 3
     CHEF_CHECK = 4
-    MOVE_CONTENTS = 5
+    CHEF_DO = 4
+    MOVE_CONTENTS = 6
 
 
 @dataclass
@@ -116,6 +117,8 @@ def program_step(annotation) -> List[Instruction]:
                 if ing_type == AssignedTypes.TimeLength:
                     if ing != IMMEDIATE:
                         actions.append(Instruction(ts, Commands.CHEF_CHECK, ing, resource))
+                elif ing_type == AssignedTypes.Activity:
+                    actions.append(Instruction(ts, Commands.CHEF_DO, ing, resource))
                 elif ing_type == AssignedTypes.Tool:
                     actions.append(Instruction(ts, Commands.USE, ing, resource))
                 elif resource != UNUSED_RESOURCE_ID:
@@ -124,8 +127,10 @@ def program_step(annotation) -> List[Instruction]:
                 ing_type = AssignedTypes.parse(ing)
                 if resource.startswith("A"):
                     continue
-                if ing_type == AssignedTypes.Ingredient or ing_type == AssignedTypes.UnlistedIngredient:
+                if ing_type == AssignedTypes.Ingredient:
                     actions.append(Instruction(ts, Commands.REMOVE, ing, resource))
+                elif ing_type == ing_type == AssignedTypes.Activity:
+                    pass
                 elif ing_type == AssignedTypes.Tool:
                     actions.append(Instruction(ts, Commands.STOP_USING, ing, resource))
         state = deepcopy(new_state)
