@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        const isJSON = (x)=>{try {var y= JSON.parse(x); return true;} catch {return false;}};
+        function verify() {
+            const data = document.getElementById('data').value;
+            if (isJSON(data))
+                document.forms[0].submit();
+            else
+                alert("Invalid JSON");
+        }
+        function radio_change(t) {
+            //const data_type = document.querySelector('input[name="data_type"]:checked').value;
+            document.getElementById('data').value=data[t];
+        }
+        const data={{data|tojson|safe}};
+    </script>
+</head>
+<body>
+<form method="post" action="/edit">
+    {%for t in data_types:%}
+    <input type="radio" name="data_type" value="{{t}}" onchange="radio_change('{{t}}');">{{t}}</input>
+    {%endfor%}
+    <br />
+    <textarea cols="80" rows="40" id="data" name="data"></textarea>
+    <br />
+    <input type="button" value="Save" onclick="verify()">
+</form>
+
+</body>
+</html>

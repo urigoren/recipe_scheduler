@@ -8,6 +8,12 @@ import instruction_parsing
 
 app = Flask(__name__)
 
+def isJson(x):
+    try:
+        json.loads(x)
+        return True
+    except:
+        return False
 
 @app.route('/favicon.ico')
 def favicon():
@@ -146,6 +152,22 @@ def save_annotation(annotation_id):
     annotation['status'] = request.form.get("status", '0')
     annotation_io.save_annotation(annotation_id, annotation)
     return redirect(url_for('index'))
+
+
+@app.route('/edit', methods=['GET', 'POST'])
+def edit_jsons():
+    data_types = ("activities", "time_lengths", "tools", "resources")
+    if request.form.get("data_type", "") in data_types and isJson(request.form.get('data', "")):
+        data_type = request.form['data_type']
+        assert data_type in data_types
+        with (read_data.data_path / (data_type + ".json")).open('w') as f:
+            f.write(request.form['data'])
+        return "<h1>Saved</h1>"
+    data=dict()
+    for t in data_types:
+        with (read_data.data_path / (t + ".json")).open('r') as f:
+            data[t] = f.read()
+    return render_template("edit_data.html", data_types=data_types, data=data)
 
 
 @app.after_request
