@@ -14,7 +14,7 @@ function getUrlParam(name) {
 
 function append_checkboxes(elid, header, dict) {
     const el= document.getElementById(elid);
-    let html = (header?"<h3>" + header + "</h3>":"");
+    let html = (header?"<h3>" + header + "</h3>":el.innerHTML);
     let v="";
     for (const k in dict) {
         v = dict[k];

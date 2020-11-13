@@ -55,6 +55,7 @@ def annotate(annotation_id):
     actions.extend([{"display": value, "id": key, "color": "#00ff00"} for key, value in annotation["normalized_ingredients"].items()])
     tl = read_data.time_lengths
     tl[""] = "Ends Immediately"
+    ingredients_autocomplete = [{"label":desc, "value":{key: desc}} for desc, key in read_data.ingredients_map.items()]
     return render_template('annotate.html',
                            data=annotation,
                            id=annotation_id,
@@ -64,6 +65,7 @@ def annotate(annotation_id):
                            resources=read_data.resources,
                            actions=actions,
                            num_instructions=len(annotation['instructions']),
+                           ingredients_autocomplete=ingredients_autocomplete,
                            )
 
 
@@ -162,7 +164,7 @@ def edit_jsons():
         assert data_type in data_types
         with (read_data.data_path / (data_type + ".json")).open('w') as f:
             f.write(request.form['data'])
-        return "<h1>Saved</h1>"
+        return f"<h1>Saved {data_type}</h1>"
     data=dict()
     for t in data_types:
         with (read_data.data_path / (t + ".json")).open('r') as f:
