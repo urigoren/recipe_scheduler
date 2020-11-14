@@ -14,7 +14,7 @@ function getUrlParam(name) {
 
 function append_checkboxes(elid, header, dict) {
     const el= document.getElementById(elid);
-    let html = (header?"<h3>" + header + "</h3>":"");
+    let html = (header?"<h3>" + header + "</h3>":el.innerHTML);
     let v="";
     for (const k in dict) {
         v = dict[k];
@@ -40,6 +40,14 @@ function append_li(elid, lst) {
         html+='<li>'+lst[i]+'</li>';
     }
     el.innerHTML=html;
+}
+function add_missing_ingredient(item) {
+    // This is some seriously messed up code
+    const kv=Object.entries(item)[0];
+    append_checkboxes("modal_body_ingredients", undefined,item);
+    document.getElementById("ul_ingredients").innerHTML+="<li>"+kv[1]+"</li>";
+    dp.actions.push({"display": kv[1], "id": kv[0], "color": "#00cc00"});
+    setTimeout(() => $('#search_ingredients').val(""), 50);
 }
 function msgbox(title, body)
 {
