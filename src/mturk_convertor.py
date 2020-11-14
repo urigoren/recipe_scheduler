@@ -44,9 +44,10 @@ with (output_path / "annotate.csv").open('w') as f:
     ##  names are important for `eval`
     time_lengths = read_data.time_lengths
     time_lengths[""] = "Ends Immediately"
-    resources=read_data.resources
-    activities=read_data.activities
-    tools=read_data.tools
+    resources = read_data.resources
+    activities = read_data.activities
+    tools = read_data.tools
+    ingredients_autocomplete = [{"label": desc, "value": {key: desc}} for desc, key in read_data.ingredients_map.items()]
     for id, annotation in annotation_io.all_annotations().items():
         line = []
         data=annotation
