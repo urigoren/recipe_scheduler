@@ -42,6 +42,7 @@ function append_li(elid, lst) {
     el.innerHTML=html;
 }
 function add_missing_ingredient(item) {
+    // This is some seriously messed up code
     const kv=Object.entries(item)[0];
     append_checkboxes("modal_body_ingredients", undefined,item);
     document.getElementById("ul_ingredients").innerHTML+="<li>"+kv[1]+"</li>";
