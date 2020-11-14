@@ -41,6 +41,13 @@ function append_li(elid, lst) {
     }
     el.innerHTML=html;
 }
+function add_missing_ingredient(item) {
+    const kv=Object.entries(item)[0];
+    append_checkboxes("modal_body_ingredients", undefined,item);
+    document.getElementById("ul_ingredients").innerHTML+="<li>"+kv[1]+"</li>";
+    dp.actions.push({"display": kv[1], "id": kv[0], "color": "#00cc00"});
+    setTimeout(() => $('#search_ingredients').val(""), 50);
+}
 function msgbox(title, body)
 {
     jQuery('#msgbox_title').text(title);

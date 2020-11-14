@@ -39,6 +39,8 @@
             </div>
             <div class="col-sm-5">
                 <ul id="ul_ingredients"></ul>
+                <input type="text" id="search_ingredients" placeholder="Add Missing Ingredients" autocomplete="off"
+               class="form-control input-lg"/>
             </div>
             <div class="col-sm-4">
                 <form method="POST" action="/save_annotation/{{id}}" id="mturk_form" name="mturk_form">
@@ -107,12 +109,6 @@
                     <div class="col-sm-6" id="modal_body_ingredients"></div>
                     <div class="col-sm-3" id="modal_body_tools"></div>
                     <div class="col-sm-3" id="modal_body_activities"></div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <input type="text" id="search_ingredients" placeholder="Search Ingredients" autocomplete="off"
-                       class="form-control input-lg"/>
-                    </div>
                 </div>
             </div>
             <div class="modal-footer">
@@ -238,9 +234,8 @@
             $('#search_ingredients').autocomplete({
                     source: {{ingredients_autocomplete|tojson|safe}},
                     minLength: 2,
-                    select: function (event, ui) {
-                        //add_ingredient(ui.item.value);
-                        console.log(ui);
+                    select: function(event, ui) {
+                        add_missing_ingredient(ui.item.value);
                     }
                 }).data('ui-autocomplete')._renderItem = function (ul, item) {
                     return $("<li class='ui-autocomplete-row'></li>")
