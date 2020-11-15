@@ -33,4 +33,4 @@ def reload():
         commands = json.load(f)
 
 
-refresh()
+reload()
