@@ -164,6 +164,7 @@ def edit_jsons():
         assert data_type in data_types
         with (read_data.data_path / (data_type + ".json")).open('w') as f:
             f.write(request.form['data'])
+        read_data.refresh()
         return f"<h1>Saved {data_type}</h1>"
     data=dict()
     for t in data_types:
