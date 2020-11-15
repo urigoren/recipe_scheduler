@@ -162,9 +162,10 @@ def edit_jsons():
     if request.form.get("data_type", "") in data_types and isJson(request.form.get('data', "")):
         data_type = request.form['data_type']
         assert data_type in data_types
+        jdata = json.loads(request.form['data'])
         with (read_data.data_path / (data_type + ".json")).open('w') as f:
-            f.write(request.form['data'])
-        read_data.refresh()
+            json.dump(jdata, f, indent=4)
+        read_data.reload()
         return f"<h1>Saved {data_type}</h1>"
     data=dict()
     for t in data_types:

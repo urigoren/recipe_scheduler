@@ -6,12 +6,13 @@ data_path = base_path / "data"
 
 resources = []
 tools = {}
-activities={}
-time_lengths={}
-ingredients_map={}
-commands={}
+activities = {}
+time_lengths = {}
+ingredients_map = {}
+commands = []
 
-def refresh():
+
+def reload():
     global resources, tools, activities, time_lengths, ingredients_map, commands
     with (data_path / "resources.json").open('r') as f:
         resources = json.load(f)
@@ -30,4 +31,6 @@ def refresh():
 
     with (data_path / "commands.json").open('r') as f:
         commands = json.load(f)
+
+
 refresh()
