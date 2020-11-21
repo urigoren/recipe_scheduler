@@ -94,6 +94,14 @@ function verify_annotation()
         next_unused=unused;
         next_dt=dt;
     }
+    if (instructions.length===1+instruction_index) // last instruction
+    {
+        unused=dp.events.list.filter(x=>(x.resource===unused_resource_id)&&(x.start===time_stamps[0]))
+        if (unused.length>0) {
+            msgbox("Unused Ingredients", "Last step cannot have unused ingredients");
+            return false;
+        }
+    }
     return true;
 }
 function populate_unused_resource(start)
