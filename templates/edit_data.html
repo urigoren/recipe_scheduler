@@ -7,13 +7,41 @@
         const isJSON = (x)=>{try {var y= JSON.parse(x); return true;} catch {return false;}};
         function verify() {
             const data = document.getElementById('data').value;
-            if (isJSON(data))
+            const data_type = document.querySelector('input[name="data_type"]:checked').value;
+            let valid = true;
+            let error_msg="";
+            if (!isJSON(data)) {
+                valid=false;
+                error_msg="Invalid JSON";
+            }
+            if (valid) {
+                if (data_type === "activities") {
+                    for (const key in data) {
+                        if (key[0]!=="M")
+                            valid=false;
+                    }
+                }
+                if (data_type === "time_lengths") {
+                    for (const key in data) {
+                        if (key[0]!=="L")
+                            valid=false;
+                    }
+                }
+                if (data_type === "tools") {
+                    for (const key in data) {
+                        if (key[0]!=="T")
+                            valid=false;
+                    }
+                }
+                if (!valid)
+                    error_msg = "Keys do not begin with the correct letter";
+            }
+            if (valid)
                 document.forms[0].submit();
             else
-                alert("Invalid JSON");
+                alert(error_msg);
         }
         function radio_change(t) {
-            //const data_type = document.querySelector('input[name="data_type"]:checked').value;
             document.getElementById('data').value=data[t];
         }
         const data={{data|tojson|safe}};
