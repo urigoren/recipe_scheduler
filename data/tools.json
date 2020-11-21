@@ -1,4 +1,6 @@
 {
+    "TSHEET": "Baking Sheet",
+    "TBAKE_DISH": "Baking Dish",
     "TBOWL": "Bowl",
     "TFOIL": "Foil",
     "TGRATE": "Grate",
@@ -10,7 +12,6 @@
     "TPAN": "Sauce Pan",
     "TSKEWER": "Skewers",
     "TSKILLET": "Skillet",
-    "TSTIR": "Stirring spoon",
     "TSPATULA": "Spatula",
     "TWOK": "Wok",
     "TOTHER": "Other"
