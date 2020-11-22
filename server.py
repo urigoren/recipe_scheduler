@@ -164,7 +164,10 @@ def edit_jsons():
         assert data_type in data_types
         jdata = json.loads(request.form['data'])
         with (read_data.data_path / (data_type + ".json")).open('w') as f:
-            json.dump(jdata, f, indent=4)
+            if data_type!='resources':
+                json.dump(jdata, f, indent=4, sort_keys=True)
+            else:
+                json.dump(jdata, f, indent=4)
         read_data.reload()
         return f"<h1>Saved {data_type}</h1>"
     data=dict()

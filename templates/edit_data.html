@@ -15,26 +15,21 @@
                 error_msg="Invalid JSON";
             }
             if (valid) {
-                if (data_type === "activities") {
-                    for (const key in data) {
-                        if (key[0]!=="M")
-                            valid=false;
+                let prefix="";
+                if (data_type === "activities")
+                    prefix="M";
+                if (data_type === "time_lengths")
+                    prefix="L";
+                if (data_type === "tools")
+                    prefix="T";
+                for (const key in JSON.parse(data)) {
+                    if (!key.startsWith("T")) {
+                        error_msg = key + "\n" + error_msg;
+                        valid = false;
                     }
                 }
-                if (data_type === "time_lengths") {
-                    for (const key in data) {
-                        if (key[0]!=="L")
-                            valid=false;
-                    }
-                }
-                if (data_type === "tools") {
-                    for (const key in data) {
-                        if (key[0]!=="T")
-                            valid=false;
-                    }
-                }
-                if (!valid)
-                    error_msg = "Keys do not begin with the correct letter";
+                if ((!valid) && (prefix!==""))
+                    error_msg += "Keys do not begin with the correct letter "+ prefix;
             }
             if (valid)
                 document.forms[0].submit();
