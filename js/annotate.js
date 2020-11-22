@@ -272,7 +272,14 @@ function show_instruction()
         el.classList.remove("last_instruction");
     jQuery('.scheduler_default_timeheadercol_inner:contains("1")').css('background-color', 'gray')
     jQuery('.scheduler_default_rowheader_inner:contains("Unused")').css('background-color', 'gray')
-
+    // renumerate time headers
+    let last_dt_idx=0, i=0;
+    while (i<instruction_index)
+    {
+        last_dt_idx += events[i].map(x=>date(x.start).getDayOfYear()-1).reduce((x,y)=>(x>y?x:y),0);
+        i++;
+    }
+    document.querySelectorAll(".scheduler_default_timeheader_cell_inner").forEach((e,i)=>{e.innerHTML=last_dt_idx+i;});
 }
 function expand_resources()
 {
