@@ -1,6 +1,8 @@
 const unused_resource_id = "A1";
+const get_last_timestamp = () => dp.events.list.map(x=>date(x.end).getDayOfYear()-1).reduce((x,y)=>(x>y?x:y),0);
 const on_start_date = (obj)=>(obj.hasOwnProperty('e')?date(obj.e.data.start).value.startsWith(dp.startDate):date(obj.start).value.startsWith(dp.startDate));
 const on_unused = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource===unused_resource_id:obj.resource===unused_resource_id);
+const on_nonconsequent = (obj)=> date(obj.start).getDayOfYear() - get_last_timestamp() > 1;
 const AssignedTypes = {
     INGREDIENT: 0,
     ACTIVITY: 1,
@@ -224,8 +226,8 @@ function prev_actions_for_resource(resource)
 }
 function get_latest_state_events()
 {
-    const max_dt = dp.events.list.map(x=>date(x.end).ticks).reduce((x,y)=>(x>y?x:y),0);
-    return dp.events.list.filter(x=>(date(x.end).ticks==max_dt) && (ing2type(x.action)!==AssignedTypes.TIME_LENGTH));
+    const max_dt = get_last_timestamp();
+    return dp.events.list.filter(x=>(date(x.end).getDayOfYear()-1==max_dt) && (ing2type(x.action)!==AssignedTypes.TIME_LENGTH));
 }
 function next_instruction()
 {
@@ -360,6 +362,11 @@ function onTimeRangeSelected(args) {
     if (on_unused(args))
     {
         msgbox("Unused ingredients", "Unused Ingredients are populated automatically, there's no need to specify them manually");
+        return;
+    }
+    if (on_nonconsequent(args))
+    {
+        msgbox("Skipped a timeframe ?", "Time frames (columns) must be consequent, skipping is not allowed.");
         return;
     }
     selected_time_range=args;
