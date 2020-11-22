@@ -1,11 +1,17 @@
 {
-    "MGREASE": "Grease",
-    "MMARINATE": "Marinate",
-    "MSTIR": "Stir",
-    "MROLL": "Roll",
-    "MMASSAGE": "Massage",
-    "MPEEL": "Peel",
+    "MCOAT": "Coat with powder",
+    "MCOOK": "Cook / Fry",
+    "MCUT": "Cut/chop",
     "MDRAIN": "Drain",
+    "MGREASE": "Grease",
+    "MGRILL": "Grill",
+    "MMARINATE": "Marinate",
+    "MMASSAGE": "Massage",
+    "MORGANIZE": "Lay down is specific form",
+    "MPEEL": "Peel",
     "MPOUND": "Pound (w/mallet)",
-    "MCOOK": "Cook"
+    "MROLL": "Roll",
+    "MSIMMER": "Simmer",
+    "MSPRINKLE": "Sprinkle with fluid",
+    "MSTIR": "Stir"
 }
