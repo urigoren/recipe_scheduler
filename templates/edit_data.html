@@ -23,7 +23,7 @@
                 if (data_type === "tools")
                     prefix="T";
                 for (const key in JSON.parse(data)) {
-                    if (!key.startsWith("T")) {
+                    if (!key.startsWith(prefix)) {
                         error_msg = key + "\n" + error_msg;
                         valid = false;
                     }
