@@ -1,7 +1,9 @@
 import json
 from pathlib import Path
+import pandas as pd
 
 base_path = Path(__file__).absolute().parent.parent
+mturk_path = base_path / "mturk/results"
 annotations_path = base_path / "annotations"
 
 
@@ -30,3 +32,14 @@ def save_annotation(annotation_id, data):
 
 def annotation_exists(annotation_id):
     return annotation_file(annotation_id).exists()
+
+
+def mturk_annotation(batch, assignment_id):
+    df = pd.read_csv(str(next(mturk_path.rglob(f"*{batch}*.csv"))))
+    df = df[[c for c in df.columns if "Answer." in c or 'Id' in c]]
+    df = df.rename(columns={c:c.split('.',1)[1] for c in df.columns if '.' in c}).set_index("AssignmentId")
+    ret = get_annotation(df.loc[assignment_id, "id"])
+    ret["labels"] = json.loads(df.loc[assignment_id, "events"])
+    ret["status"] = df.loc[assignment_id, "status"]
+    ret["feedback"] = df.loc[assignment_id, "feedback"]
+    return ret

@@ -45,9 +45,13 @@ def index():
     return render_template('list.html', table=table)
 
 
+@app.route('/annotate/<mturk_batch>/<annotation_id>')
 @app.route('/annotate/<annotation_id>')
-def annotate(annotation_id):
-    annotation=annotation_io.get_annotation(annotation_id)
+def annotate(annotation_id, mturk_batch=None):
+    if mturk_batch:
+        annotation = annotation_io.mturk_annotation(mturk_batch, annotation_id)
+    else:
+        annotation=annotation_io.get_annotation(annotation_id)
     actions = []
     actions.extend([{"display": value, "id": key, "color": "#ff0000"} for key, value in read_data.tools.items()])
     actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in read_data.activities.items()])
