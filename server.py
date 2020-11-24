@@ -105,7 +105,8 @@ def simulate(annotation_id=None):
                                resources=read_data.resources,
                                events=events,
                                )
-    resources = [{"id": child["id"], "name": parent["name"] + '/' + child["name"]} for parent in read_data.resources for child in parent["children"]]
+    resources = [{"id": child["id"], "name": parent["name"] + '/' + child["name"]} for parent in read_data.resources for child in parent.get("children", [])]
+    resources +=  [{"id": parent["id"], "name": parent["name"]} for parent in read_data.resources if 'children' not in parent]
     time_lengths = [{"id": k, "name": v} for k, v in read_data.time_lengths.items()]
     tools = [{"id": k, "name": v} for k, v in read_data.tools.items()]
     activities = [{"name": value, "id": key} for key, value in read_data.activities.items()]
