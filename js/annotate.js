@@ -229,6 +229,17 @@ function get_latest_state_events()
     const max_dt = get_last_timestamp();
     return dp.events.list.filter(x=>(date(x.end).getDayOfYear()-1==max_dt) && (ing2type(x.action)!==AssignedTypes.TIME_LENGTH));
 }
+function get_merged_ingredients()
+{
+    let merged_ingredients={};
+    if (instruction_index===0) {
+        return merged_ingredients;
+    }
+    const mergers=dp.resources.filter(x=>x.children).flatMap(x=>x.children).concat(dp.resources.filter(x=>!x.hasOwnProperty('children'))).filter(x=>x.merger).map(x=>x.id);
+    get_latest_state_events().filter(x=>(mergers.indexOf(x.resource)>-1) && (ing2type(x.action)===AssignedTypes.INGREDIENT)).forEach(x=>{merged_ingredients[x.resource]=(merged_ingredients[x.resource]||[]).concat([x.action]);});
+    return merged_ingredients;
+}
+
 function next_instruction()
 {
     console.log("next_instruction");

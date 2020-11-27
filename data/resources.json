@@ -3,7 +3,7 @@
     {
         "name": "Countertop", "id": "W", "expanded": true, "children": [
             {"name": "Countertop", "id": "W1", "merger":  true},
-            {"name": "Bowl/Container", "id": "W2", "merger":  false},
+            {"name": "Bowl/Container", "id": "W2", "merger":  true},
             {"name": "Chopping Board", "id": "W3", "merger":  false}
         ]
     },
@@ -18,9 +18,9 @@
     },
     {
         "name": "Oven", "id": "BL", "expanded": false, "children": [
-            {"name": "Low", "id": "BL1", "merger":  false},
-            {"name": "Medium", "id": "BL2", "merger":  false},
-            {"name": "High", "id": "BL3", "merger":  false}
+            {"name": "Low", "id": "BL1", "merger":  true},
+            {"name": "Medium", "id": "BL2", "merger":  true},
+            {"name": "High", "id": "BL3", "merger":  true}
         ]
     },
     {
@@ -32,8 +32,8 @@
     {
         "name": "Appliances", "id": "O", "expanded": false, "children": [
             {"name": "Slicer", "id": "O1", "merger":  false},
-            {"name": "Grind", "id": "O2", "merger":  false},
-            {"name": "Blend", "id": "O3", "merger":  false},
+            {"name": "Grind", "id": "O2", "merger":  true},
+            {"name": "Blend", "id": "O3", "merger":  true},
             {"name": "Deep Fry", "id": "O4", "merger":  false}
         ]
     },
