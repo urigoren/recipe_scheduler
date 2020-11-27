@@ -44,7 +44,7 @@
             </div>
             <div class="col-sm-4">
                 <a href="https://youtu.be/WDjWlCV_clw" class="btn btn-info btn-lg" target="_blank">
-                <span class="glyphicon glyphicon-facetime-video"></span> Watch Instructions
+                <span class="glyphicon glyphicon-facetime-video"></span> Watch Tutorial
                 </a><br /><br />
                 <form method="POST" action="/save_annotation/{{id}}" id="mturk_form" name="mturk_form">
                 <input type="hidden" name="id" id="frm_id" value="{{id}}">
@@ -112,8 +112,8 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-sm-6" id="modal_body_ingredients"></div>
-                    <div class="col-sm-3" id="modal_body_tools"></div>
-                    <div class="col-sm-3" id="modal_body_activities"></div>
+                    <div class="col-sm-6" id="modal_body_tools"></div>
+                    <!--<div class="col-sm-3" id="modal_body_activities"></div>-->
                 </div>
             </div>
             <div class="modal-footer">
@@ -226,7 +226,7 @@
         document.addEventListener("DOMContentLoaded", function(event) {
             append_checkboxes("modal_body_ingredients", "Ingredients",{{data["normalized_ingredients"]|tojson|safe}});
             append_checkboxes("modal_body_tools", "Tools",{{tools|tojson|safe}});
-            append_checkboxes("modal_body_activities", "Activities",{{activities|tojson|safe}});
+            //append_checkboxes("modal_body_activities", "Activities",{{activities|tojson|safe}});
             append_options("instruction_length", {{time_lengths|tojson|safe}});
             append_li("ul_ingredients", {{data['ingredients']|tojson|safe}});
 
