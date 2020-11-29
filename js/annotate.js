@@ -4,6 +4,7 @@ const get_ingredients_at_timestamp = (ts) => dp.events.list.filter(x=>(ts===date
 const on_start_date = (obj)=>(obj.hasOwnProperty('e')?date(obj.e.data.start).value.startsWith(dp.startDate):date(obj.start).value.startsWith(dp.startDate));
 const on_unused = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource===unused_resource_id:obj.resource===unused_resource_id);
 const on_nonconsequent = (obj)=> date(obj.start).getDayOfYear() - get_last_timestamp() > 1;
+const clone = (obj)=>Object.assign({},obj);
 const AssignedTypes = {
     INGREDIENT: 0,
     ACTIVITY: 1,
@@ -224,6 +225,8 @@ function get_latest_state_events()
 }
 function get_merged_ingredients()
 {
+    let ingredients_cluster={}, i=0, j=0;
+    dp.actions.map(x=>x.id).filter(x=>ing2type(x)===AssignedTypes.INGREDIENT).sort().forEach(x=>{ingredients_cluster[x]=i;i++;});
     let ret=[];
     let merged_ingredients={};
     const mergers=dp.resources.filter(x=>x.children).flatMap(x=>x.children).concat(dp.resources.filter(x=>!x.hasOwnProperty('children'))).filter(x=>x.merger).map(x=>x.id);
@@ -232,7 +235,18 @@ function get_merged_ingredients()
     {
         merged_ingredients={}
         get_ingredients_at_timestamp(ts).filter(x=>mergers.indexOf(x.resource)>-1).forEach(x=>{merged_ingredients[x.resource]=(merged_ingredients[x.resource]||[]).concat([x.action]);});
-        ret.push(merged_ingredients);
+        for (i in merged_ingredients)
+        {
+            const merged_in_res=merged_ingredients[i].sort();
+            if (merged_in_res.length<2)
+                continue
+            const new_cluster=ingredients_cluster[merged_in_res[0]];
+            for(j=0;j<merged_ingredients[i].length;j++)
+            {
+                ingredients_cluster[merged_ingredients[i][j]]=new_cluster;
+            }
+        }
+        ret.push(clone(ingredients_cluster));
     }
     return ret;
 }
