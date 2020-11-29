@@ -1,5 +1,6 @@
 const unused_resource_id = "A1";
 const get_last_timestamp = () => dp.events.list.map(x=>date(x.end).getDayOfYear()-1).reduce((x,y)=>(x>y?x:y),0);
+const get_ingredients_at_timestamp = (ts) => dp.events.list.filter(x=>(ts===date(x.end).getDayOfYear()-1) && (ing2type(x.action)===AssignedTypes.INGREDIENT));
 const on_start_date = (obj)=>(obj.hasOwnProperty('e')?date(obj.e.data.start).value.startsWith(dp.startDate):date(obj.start).value.startsWith(dp.startDate));
 const on_unused = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource===unused_resource_id:obj.resource===unused_resource_id);
 const on_nonconsequent = (obj)=> date(obj.start).getDayOfYear() - get_last_timestamp() > 1;
@@ -73,19 +74,12 @@ function date(dt) {
 }
 function verify_annotation()
 {
-    let dt = DayPilot.Date(dp.startDate);
-    let time_stamps = [];
+    const n_ts=get_last_timestamp();
     let i=0;
-    while (dp.events.list.filter(x=>x.start==dt).length>0) {
-        time_stamps.splice(0,0,dt);
-        dt=dt.addDays(1);
-    }
-    let next_dt=time_stamps[0];
     let unused=[], next_unused=[], reused_issues=[];
-    next_unused=dp.events.list.filter(x=>(x.resource===unused_resource_id)&&(x.start===next_dt)).map(x=>x.action);
-    for (i=1;i<time_stamps.length;i++) {
-        dt=time_stamps[i];
-        unused=dp.events.list.filter(x=>(x.resource===unused_resource_id)&&(x.start===dt)).map(x=>x.action);
+    next_unused=get_ingredients_at_timestamp(n_ts).filter(x=>x.resource===unused_resource_id).map(x=>x.action);
+    for (i=n_ts-1;i>0;i--) {
+        unused=get_ingredients_at_timestamp(i).filter(x=>x.resource===unused_resource_id).map(x=>x.action);
         reused_issues=next_unused.filter(x=>unused.indexOf(x)<0);
         if (reused_issues.length>0)
         {
@@ -94,11 +88,10 @@ function verify_annotation()
             return false;
         }
         next_unused=unused;
-        next_dt=dt;
     }
     if (instructions.length===1+instruction_index) // last instruction
     {
-        unused=dp.events.list.filter(x=>(x.resource===unused_resource_id)&&(x.start===time_stamps[0]))
+        unused=get_ingredients_at_timestamp(n_ts).filter(x=>x.resource===unused_resource_id)
         if (unused.length>0) {
             msgbox("Unused Ingredients", "Last step cannot have unused ingredients");
             return false;
@@ -231,13 +224,17 @@ function get_latest_state_events()
 }
 function get_merged_ingredients()
 {
+    let ret=[];
     let merged_ingredients={};
-    if (instruction_index===0) {
-        return merged_ingredients;
-    }
     const mergers=dp.resources.filter(x=>x.children).flatMap(x=>x.children).concat(dp.resources.filter(x=>!x.hasOwnProperty('children'))).filter(x=>x.merger).map(x=>x.id);
-    get_latest_state_events().filter(x=>(mergers.indexOf(x.resource)>-1) && (ing2type(x.action)===AssignedTypes.INGREDIENT)).forEach(x=>{merged_ingredients[x.resource]=(merged_ingredients[x.resource]||[]).concat([x.action]);});
-    return merged_ingredients;
+    const n_ts=get_last_timestamp();
+    for (let ts=1;ts<=n_ts;ts++)
+    {
+        merged_ingredients={}
+        get_ingredients_at_timestamp(ts).filter(x=>mergers.indexOf(x.resource)>-1).forEach(x=>{merged_ingredients[x.resource]=(merged_ingredients[x.resource]||[]).concat([x.action]);});
+        ret.push(merged_ingredients);
+    }
+    return ret;
 }
 
 function next_instruction()
