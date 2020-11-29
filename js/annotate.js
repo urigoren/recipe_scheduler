@@ -223,7 +223,7 @@ function get_latest_state_events()
     const max_dt = get_last_timestamp();
     return dp.events.list.filter(x=>(date(x.end).getDayOfYear()-1==max_dt) && (ing2type(x.action)!==AssignedTypes.TIME_LENGTH));
 }
-function get_merged_ingredients()
+function get_clustered_ingredients()
 {
     let ingredients_cluster={}, i=0, j=0;
     dp.actions.map(x=>x.id).filter(x=>ing2type(x)===AssignedTypes.INGREDIENT).sort().forEach(x=>{ingredients_cluster[x]=i;i++;});
@@ -349,6 +349,7 @@ function onEventClicked(args) {
         return;
     }
     selected_time_range=args.e.data;
+    clustered_ingredients=get_clustered_ingredients();
     jQuery(".event_item").prop("checked", false);
     const resource=args.e.data.resource;
     const start=args.e.data.start;
@@ -392,6 +393,7 @@ function onTimeRangeSelected(args) {
         return;
     }
     selected_time_range=args;
+    clustered_ingredients=get_clustered_ingredients();
     jQuery(".event_item").prop("checked", false);
     const previously_selected = prev_actions_for_resource(args.resource);
     previously_selected.forEach(id=>{
