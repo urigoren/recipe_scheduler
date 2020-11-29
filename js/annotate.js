@@ -177,6 +177,31 @@ function event_dialog_save()
 {
     const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
     const instruction_length_id = document.getElementById("instruction_length").value;
+    //Verify clusters
+    for(let i=0;i<selected_action_ids.length;i++)
+    {
+        if (ing2type(selected_action_ids[i])!==AssignedTypes.INGREDIENT)
+            continue;
+        const ing=selected_action_ids[i];
+        const sel_cluster_count= selected_action_ids.filter(x=>clustered_ingredients[ing]===clustered_ingredients[x]).length;
+        let cluster_count=0;
+        for (let j in clustered_ingredients)
+        {
+            cluster_count += (clustered_ingredients[ing]==clustered_ingredients[j]?1:0);
+        }
+        if (sel_cluster_count < cluster_count) {
+            if (confirm("Some ingredients were merged in the past, and must be selected\n\nWould you like to auto-correct ?")) {
+                for (let j in clustered_ingredients)
+                {
+                    if (clustered_ingredients[ing]==clustered_ingredients[j])
+                    {
+                        document.getElementById(j).checked=true;
+                    }
+                }
+            }
+            return;
+        }
+    }
     // Update events
     truncate(selected_time_range.resource, selected_time_range.start);
     add_events_by_action_id(selected_action_ids, {
