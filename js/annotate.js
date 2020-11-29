@@ -349,7 +349,7 @@ function onEventClicked(args) {
         return;
     }
     selected_time_range=args.e.data;
-    clustered_ingredients=get_clustered_ingredients();
+    clustered_ingredients=get_clustered_ingredients()[selected_time_range.start.getDayOfYear()-2];
     jQuery(".event_item").prop("checked", false);
     const resource=args.e.data.resource;
     const start=args.e.data.start;
@@ -393,7 +393,7 @@ function onTimeRangeSelected(args) {
         return;
     }
     selected_time_range=args;
-    clustered_ingredients=get_clustered_ingredients();
+    clustered_ingredients=get_clustered_ingredients()[selected_time_range.start.getDayOfYear()-2];
     jQuery(".event_item").prop("checked", false);
     const previously_selected = prev_actions_for_resource(args.resource);
     previously_selected.forEach(id=>{
