@@ -222,6 +222,7 @@
         let action_clipboard=[];
         let selected_time_range={};
         let clustered_ingredients={};
+        const flat_resources = dp.resources.filter(x=>x.children).flatMap(x=>x.children).concat(dp.resources.filter(x=>!x.hasOwnProperty('children')));
 
         // main ()
         document.addEventListener("DOMContentLoaded", function(event) {

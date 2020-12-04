@@ -71,6 +71,7 @@
         dp.init();
 
         dp.scrollTo("2020-01-01");
+        const flat_resources = dp.resources.filter(x=>x.children).flatMap(x=>x.children).concat(dp.resources.filter(x=>!x.hasOwnProperty('children')));
         alert = console.log;
     </script>
 </body>

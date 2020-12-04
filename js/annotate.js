@@ -4,6 +4,18 @@ const get_ingredients_at_timestamp = (ts) => dp.events.list.filter(x=>(ts===date
 const on_start_date = (obj)=>(obj.hasOwnProperty('e')?date(obj.e.data.start).value.startsWith(dp.startDate):date(obj.start).value.startsWith(dp.startDate));
 const on_unused = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource===unused_resource_id:obj.resource===unused_resource_id);
 const on_nonconsequent = (obj)=> date(obj.start).getDayOfYear() - get_last_timestamp() > 1;
+function prev_resource_empty(obj)
+{
+    if (isNaN(obj.resource[obj.resource.length-1])) // not an ordered resource
+        return false;
+    const parts = obj.resource.match(/([a-zA-Z_]+)(\d+)/);
+    const res_base = parts[1];
+    const res_num = parts[2];
+    const prev_res = res_base +''+ (res_num-1);
+    if (flat_resources.filter(r=>r.id===prev_res).length===0) // non existing
+        return false;
+    return dp.events.list.filter(e=>(e.start===obj.start) && (e.resource===prev_res)).length===0;
+}
 const clone = (obj)=>Object.assign({},obj);
 const AssignedTypes = {
     INGREDIENT: 0,
@@ -254,7 +266,7 @@ function get_clustered_ingredients()
     dp.actions.map(x=>x.id).filter(x=>ing2type(x)===AssignedTypes.INGREDIENT).sort().forEach(x=>{ingredients_cluster[x]=i;i++;});
     let ret=[];
     let merged_ingredients={};
-    const mergers=dp.resources.filter(x=>x.children).flatMap(x=>x.children).concat(dp.resources.filter(x=>!x.hasOwnProperty('children'))).filter(x=>x.merger).map(x=>x.id);
+    const mergers=flat_resources.filter(x=>x.merger).map(x=>x.id);
     const n_ts=get_last_timestamp();
     for (let ts=1;ts<=n_ts;ts++)
     {
@@ -415,6 +427,11 @@ function onTimeRangeSelected(args) {
     if (on_nonconsequent(args))
     {
         msgbox("Skipped a timeframe ?", "Time frames (columns) must be consequent, skipping is not allowed.");
+        return;
+    }
+    if (prev_resource_empty(args))
+    {
+        msgbox("Numbered resources must be set in order", "This resource has multiple instances, please use them in order (1 before 2, 2 before 3, etc...)");
         return;
     }
     selected_time_range=args;

@@ -1,41 +1,46 @@
 [
-    {"name": "Unused", "id": "A1", "merger":  false, "frozen": "top"},
     {
-        "name": "Countertop", "id": "W", "expanded": true, "children": [
-            {"name": "Countertop", "id": "W1", "merger":  true},
-            {"name": "Bowl/Container", "id": "W2", "merger":  true},
-            {"name": "Chopping Board", "id": "W3", "merger":  false}
+        "name": "Countertop", "id": "COUNTER", "expanded": true, "children": [
+            {"name": "Countertop 1", "id": "COUNTER1", "merger":  false},
+            {"name": "Countertop 2", "id": "COUNTER2", "merger":  false},
+            {"name": "Countertop 3", "id": "COUNTER3", "merger":  false}
         ]
     },
     {
-        "name": "Stove", "id": "GL", "expanded": false, "children": [
-            {"name": "Low", "id": "GW1", "merger":  true},
-            {"name": "Medium-Low", "id": "GW2", "merger":  true},
-            {"name": "Medium", "id": "GW3", "merger":  true},
-            {"name": "Medium-High", "id": "GW4", "merger":  true},
-            {"name": "High", "id": "GW5", "merger":  true}
+        "name": "Stove", "id": "STOVE", "expanded": false, "children": [
+            {"name": "Low", "id": "STOVE_LOW", "merger":  true},
+            {"name": "Medium-Low", "id": "STOVE_MEDLOW", "merger":  true},
+            {"name": "Medium", "id": "STOVE_MED", "merger":  true},
+            {"name": "Medium-High", "id": "STOVE_MEDHI", "merger":  true},
+            {"name": "High", "id": "STOVE_HI", "merger":  true}
         ]
     },
     {
-        "name": "Oven", "id": "BL", "expanded": false, "children": [
-            {"name": "Low", "id": "BL1", "merger":  true},
-            {"name": "Medium", "id": "BL2", "merger":  true},
-            {"name": "High", "id": "BL3", "merger":  true}
+        "name": "Oven", "id": "OVEN", "expanded": false, "children": [
+            {"name": "Low (0-150 C)", "id": "OVEN_LOW", "merger":  true},
+            {"name": "Medium (150-199 C)", "id": "OVEN_MED", "merger":  true},
+            {"name": "High (200-250 C)", "id": "OVEN_HI", "merger":  true},
+            {"name": "Grill", "id": "OVEN_G", "merger":  true}
         ]
     },
     {
-        "name": "Refrigerator", "id": "R", "expanded": false, "children": [
-            {"name": "Chill", "id": "R1", "merger":  false},
-            {"name": "Freeze", "id": "R2", "merger":  false}
+        "name": "Refrigerator", "id": "REF", "expanded": false, "children": [
+            {"name": "Chill", "id": "REF_CHIL", "merger":  false},
+            {"name": "Freeze", "id": "REF_FRZ", "merger":  false}
         ]
     },
     {
-        "name": "Appliances", "id": "O", "expanded": false, "children": [
-            {"name": "Slicer", "id": "O1", "merger":  false},
-            {"name": "Grind", "id": "O2", "merger":  true},
-            {"name": "Blend", "id": "O3", "merger":  true},
-            {"name": "Deep Fry", "id": "O4", "merger":  false}
+        "name": "Appliances", "id": "APPL", "expanded": false, "children": [
+            {"name": "MicroWave", "id": "APPL_MICRO", "merger":  false},
+            {"name": "Slicer", "id": "APPL_SLICE", "merger":  false},
+            {"name": "Grind", "id": "APPL_GRIND", "merger":  true},
+            {"name": "Blend", "id": "APPL_BLEND", "merger":  true}
         ]
     },
-    {"name": "Trash Bin", "id": "A2"}
+    {"name": "Trash Bin", "id": "TRASH"},
+    {
+        "name": "Verification", "id": "VER", "expanded": false, "children": [
+            {"name": "Unused", "id": "A1", "merger":  false}
+        ]
+    }
 ]
