@@ -1,19 +1,21 @@
 {
-    "TSHEET": "Baking Sheet",
+    "TBAG": "Resealable bag",
     "TBAKE_DISH": "Baking Dish",
     "TBOWL": "Bowl",
     "TFOIL": "Foil",
     "TGRATE": "Grate",
-    "TSTRING": "Kitchen String",
+    "TGRATER": "Greater",
     "TLID": "Lid",
+    "TMORTAR": "Mortar and Pestle",
+    "TOTHER": "Other",
+    "TPAN": "Sauce Pan",
     "TPLATE": "Plate",
     "TPOT": "Pot",
-    "TBAG": "Resealable bag",
-    "TPAN": "Sauce Pan",
+    "TSHEET": "Baking Sheet",
     "TSKEWER": "Skewers",
     "TSKILLET": "Skillet",
     "TSPATULA": "Spatula",
+    "TSTRING": "Kitchen String",
     "TTHERMOMETER": "Thermometer",
-    "TWOK": "Wok",
-    "TOTHER": "Other"
+    "TWOK": "Wok"
 }
