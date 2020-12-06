@@ -129,6 +129,36 @@ function populate_unused_resource(start)
     const unused_ingredients = dp.actions.map(a=>a.id).filter(a=>ing2type(a)==AssignedTypes.INGREDIENT).filter(a=>(used_ingredients.filter(x=>x===a)).length===0);
     add_events_by_action_id(unused_ingredients, {"start": start, "resource": unused_resource_id});
 }
+function populate_mixtures() {
+    const res_prefix = "VALID_MIX";
+    const cmap = get_clustered_ingredients();
+    for(let day_i=0;day_i<cmap.length;day_i++) {
+        const start=dp.startDate.addDays(day_i);
+        let mix_i=0;
+        let clusters ={};
+        for (let ing_id in cmap[day_i])
+        {
+            const ing_cluster = cmap[day_i][ing_id];
+            if (clusters.hasOwnProperty(ing_cluster))
+                clusters[ing_cluster].push(ing_id);
+            else
+                clusters[ing_cluster]=[ing_id];
+        }
+        for (let ing_cluster in clusters)
+        {
+            if (clusters[ing_cluster].length>1){
+                mix_i+=1;
+                const res=res_prefix + '' + (mix_i);
+                if (flat_resources.filter(r=>r.id===res).length>0) {
+                    add_events_by_action_id(clusters[ing_cluster], {
+                        "start": start,
+                        "resource": res
+                    });
+                }
+            }
+        }
+    }
+}
 function add_events_by_action_id(ids, event_data)
 {
     const selected_actions=dp.actions.filter(x => ids.filter((y)=>x.id == y).length>0);
@@ -150,8 +180,10 @@ function add_events_by_action_id(ids, event_data)
             dp.events.add(e);
         }
     });
-    if (!on_validation_resource(event_data))
+    if (!on_validation_resource(event_data)) {
         populate_unused_resource(event_data.start);
+        populate_mixtures();
+    }
 
 }
 function set_reference_time_range(latest_events)
@@ -183,6 +215,7 @@ function set_reference_time_range(latest_events)
         dp.events.add(e);
     });
     populate_unused_resource(start);
+    populate_mixtures();
 }
 function truncate(resource, start)
 {
@@ -390,7 +423,7 @@ function onEventClicked(args) {
     }
     if (on_validation_resource(args))
     {
-        msgbox("Validation Resource", "Validation resources (such as Unused Ingredients) are populated automatically, there's no need to specify them manually");
+        msgbox("Validation Resource cannot be modified", "Validation resources (such as Unused Ingredients) are populated automatically, there's no need to specify them manually");
         return;
     }
     selected_time_range=args.e.data;

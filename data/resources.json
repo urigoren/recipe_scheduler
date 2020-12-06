@@ -40,7 +40,13 @@
     {"name": "Trash Bin", "id": "TRASH"},
     {
         "name": "Validation", "id": "VALID", "expanded": false, "children": [
-            {"name": "Unused", "id": "VALID_UNUSED", "merger":  false}
+            {"name": "Unused", "id": "VALID_UNUSED", "merger":  false},
+            {"name": "Mixture 1", "id": "VALID_MIX1", "merger":  false},
+            {"name": "Mixture 2", "id": "VALID_MIX2", "merger":  false},
+            {"name": "Mixture 3", "id": "VALID_MIX3", "merger":  false},
+            {"name": "Mixture 4", "id": "VALID_MIX4", "merger":  false},
+            {"name": "Mixture 5", "id": "VALID_MIX5", "merger":  false}
+
         ]
     }
 ]
