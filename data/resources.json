@@ -39,8 +39,8 @@
     },
     {"name": "Trash Bin", "id": "TRASH"},
     {
-        "name": "Verification", "id": "VER", "expanded": false, "children": [
-            {"name": "Unused", "id": "A1", "merger":  false}
+        "name": "Validation", "id": "VALID", "expanded": false, "children": [
+            {"name": "Unused", "id": "VALID_UNUSED", "merger":  false}
         ]
     }
 ]

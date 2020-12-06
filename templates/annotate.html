@@ -182,6 +182,8 @@
             ]
         });
 
+        dp.onBeforeCellRender = cellColor;
+
         dp.treeEnabled = true;
         dp.treePreventParentUsage = true;
         dp.resources = {{resources|tojson|safe}};

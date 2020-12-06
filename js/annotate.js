@@ -1,11 +1,14 @@
-const unused_resource_id = "A1";
+const validation_resource_prefix = 'VALID';
+const unused_resource_id = "VALID_UNUSED";
 const get_last_timestamp = () => dp.events.list.map(x=>date(x.end).getDayOfYear()-1).reduce((x,y)=>(x>y?x:y),0);
 const get_ingredients_at_timestamp = (ts) => dp.events.list.filter(x=>(ts===date(x.end).getDayOfYear()-1) && (ing2type(x.action)===AssignedTypes.INGREDIENT));
 const on_start_date = (obj)=>(obj.hasOwnProperty('e')?date(obj.e.data.start).value.startsWith(dp.startDate):date(obj.start).value.startsWith(dp.startDate));
-const on_unused = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource===unused_resource_id:obj.resource===unused_resource_id);
+const on_validation_resource = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource.startsWith(validation_resource_prefix):obj.resource.startsWith(validation_resource_prefix));
 const on_nonconsequent = (obj)=> date(obj.start).getDayOfYear() - get_last_timestamp() > 1;
 function prev_resource_empty(obj)
 {
+    if (on_validation_resource(obj))
+        return false;
     if (isNaN(obj.resource[obj.resource.length-1])) // not an ordered resource
         return false;
     const parts = obj.resource.match(/([a-zA-Z_]+)(\d+)/);
@@ -14,7 +17,7 @@ function prev_resource_empty(obj)
     const prev_res = res_base +''+ (res_num-1);
     if (flat_resources.filter(r=>r.id===prev_res).length===0) // non existing
         return false;
-    return dp.events.list.filter(e=>(e.start===obj.start) && (e.resource===prev_res)).length===0;
+    return dp.events.list.filter(e=>(e.start<=obj.start) && (e.resource===prev_res)).length===0;
 }
 const clone = (obj)=>Object.assign({},obj);
 const AssignedTypes = {
@@ -56,6 +59,11 @@ function append_li(elid, lst) {
         html+='<li>'+lst[i]+'</li>';
     }
     el.innerHTML=html;
+}
+function cellColor(args) {
+  if ((args.cell.start.getDayOfYear() === 1) || args.cell.resource.startsWith(validation_resource_prefix)) {
+    args.cell.backColor = "#e0e0e0";
+  }
 }
 function add_missing_ingredient(item) {
     // This is some seriously messed up code
@@ -142,7 +150,7 @@ function add_events_by_action_id(ids, event_data)
             dp.events.add(e);
         }
     });
-    if (event_data.resource!=unused_resource_id)
+    if (!on_validation_resource(event_data))
         populate_unused_resource(event_data.start);
 
 }
@@ -380,9 +388,9 @@ function onEventClicked(args) {
         msgbox("Reference Time-range cannot be changed", "The first time range is read only and cannot be modified");
         return;
     }
-    if (on_unused(args))
+    if (on_validation_resource(args))
     {
-        msgbox("Unused ingredients", "Unused Ingredients are populated automatically, there's no need to specify them manually");
+        msgbox("Validation Resource", "Validation resources (such as Unused Ingredients) are populated automatically, there's no need to specify them manually");
         return;
     }
     selected_time_range=args.e.data;
@@ -419,9 +427,9 @@ function onTimeRangeSelected(args) {
         msgbox("Reference Time-range cannot be changed", "The first time range is read only and cannot be modified");
         return;
     }
-    if (on_unused(args))
+    if (on_validation_resource(args))
     {
-        msgbox("Unused ingredients", "Unused Ingredients are populated automatically, there's no need to specify them manually");
+        msgbox("Validation Resource", "Validation resources (such as Unused Ingredients) are populated automatically, there's no need to specify them manually");
         return;
     }
     if (on_nonconsequent(args))
