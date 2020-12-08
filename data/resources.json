@@ -1,5 +1,4 @@
 [
-    {"name": "Unused", "id": "A1", "merger":  false, "frozen": "top"},
     {
         "name": "Countertop", "id": "W", "expanded": true, "children": [
             {"name": "Countertop", "id": "W1", "merger":  true},
@@ -37,5 +36,10 @@
             {"name": "Deep Fry", "id": "O4", "merger":  false}
         ]
     },
-    {"name": "Trash Bin", "id": "A2"}
+    {
+        "name": "Hidden", "id": "O", "expanded": false, "children": [
+            {"name": "Unused", "id": "A1", "merger":  false},
+            {"name": "Trash Bin", "id": "A2"}
+        ]
+    }
 ]
