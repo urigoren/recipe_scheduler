@@ -20,6 +20,7 @@ function prev_resource_empty(obj)
     return dp.events.list.filter(e=>(e.start<=obj.start) && (e.resource===prev_res)).length===0;
 }
 const clone = (obj)=>Object.assign({},obj);
+const display = (action_id)=>dp.actions.filter(x=>x.id===action_id).map(x=>x.display)[0] || "";
 const AssignedTypes = {
     INGREDIENT: 0,
     ACTIVITY: 1,
@@ -95,6 +96,7 @@ function date(dt) {
 }
 function verify_annotation()
 {
+    //verify unused ingredients doesn't grow
     const n_ts=get_last_timestamp();
     let i=0;
     let unused=[], next_unused=[], reused_issues=[];
@@ -110,6 +112,19 @@ function verify_annotation()
         }
         next_unused=unused;
     }
+    //verify duplicate ingredients
+    const ingredients = dp.actions.map(x=>x.id).filter(x=>ing2type(x)===AssignedTypes.INGREDIENT).sort();
+    for (let ts=1;ts<=n_ts;ts++) {
+        const ing_at_ts = get_ingredients_at_timestamp(ts).filter(x=>!on_validation_resource(x)).map(x=>x.action);
+        for (let i=0;i<ingredients.length;i++) {
+            const ing = ingredients[i];
+            if (ing_at_ts.filter(i => i===ing).length > 1) {
+                msgbox("Ingredient used twice at the same time", display(ing) + " was used twice at the same time.");
+                return false;
+            }
+        }
+    }
+    //verify last instruction
     if (instructions.length===1+instruction_index) // last instruction
     {
         unused=get_ingredients_at_timestamp(n_ts).filter(x=>x.resource===unused_resource_id)
