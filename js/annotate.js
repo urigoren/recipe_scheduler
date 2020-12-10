@@ -109,7 +109,7 @@ function verify_annotation()
         if (reused_issues.length>0)
         {
             msgbox("Ingredients cannot be marked as unused", "The following ingredients were marked as unused, despite being used previously:<ul><li>" +
-            reused_issues.map(x=>dp.actions.filter(y=>y.id==x)[0].display).join("<li>")+"</ul>");
+            reused_issues.map(display).join("<li>")+"</ul>");
             return false;
         }
         next_unused=unused;
@@ -137,11 +137,11 @@ function verify_annotation()
     const instruction=instructions[instruction_index].toLowerCase();
     const mentioned_ingredients=ingredients.filter(ing=>instruction.includes(display(ing)));
     const mentioned_unused = last_unused.filter(x=>mentioned_ingredients.indexOf(x)>-1);
-    for(i=0;i<mentioned_unused.length;i++) {
-        msgbox("Ingredient mentioned but unused", "It seems that '" + display(mentioned_unused[i]) + "' was mentioned in the instruction, but not used in the schedule.");
+    if (mentioned_unused.length>1) {
+        msgbox("Ingredient mentioned but unused", "The following ingredients were mentioned in the instruction, but not used:<ul><li>" +
+        mentioned_unused.map(display).join("<li>")+"</ul>");
         return false;
     }
-    //last_unused
     //verify last instruction
     if (instructions.length===1+instruction_index) // last instruction
     {
