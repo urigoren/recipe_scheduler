@@ -5,6 +5,7 @@ const get_ingredients_at_timestamp = (ts) => dp.events.list.filter(x=>(ts===date
 const on_start_date = (obj)=>(obj.hasOwnProperty('e')?date(obj.e.data.start).value.startsWith(dp.startDate):date(obj.start).value.startsWith(dp.startDate));
 const on_validation_resource = (obj)=>(obj.hasOwnProperty('e')?obj.e.data.resource.startsWith(validation_resource_prefix):obj.resource.startsWith(validation_resource_prefix));
 const on_nonconsequent = (obj)=> date(obj.start).getDayOfYear() - get_last_timestamp() > 1;
+const compare_events_at_timestamps = (x,y)=>JSON.stringify(dp.events.list.filter(t=>date(t.end).getDayOfYear()-1===x).map(t=>[t.resource,t.action]).sort())===JSON.stringify(dp.events.list.filter(t=>date(t.end).getDayOfYear()-1===y).map(t=>[t.resource,t.action]).sort());
 function prev_resource_empty(obj)
 {
     if (on_validation_resource(obj))
@@ -122,6 +123,13 @@ function verify_annotation()
                 msgbox("Ingredient used twice at the same time", display(ing) + " was used twice at the same time.");
                 return false;
             }
+        }
+    }
+    //verify columns do not repeat themselves
+    for (let ts=1;ts<n_ts;ts++) {
+        if (compare_events_at_timestamps(ts,ts+1)) {
+                msgbox("Column Repetition Detected", "Timestamp "+ts+" seem to be exactly the same as the consequent timestamp.");
+                return false;
         }
     }
     //verify last instruction
