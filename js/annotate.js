@@ -101,7 +101,8 @@ function verify_annotation()
     const n_ts=get_last_timestamp();
     let i=0;
     let unused=[], next_unused=[], reused_issues=[];
-    next_unused=get_ingredients_at_timestamp(n_ts).filter(x=>x.resource===unused_resource_id).map(x=>x.action);
+    const last_unused=get_ingredients_at_timestamp(n_ts).filter(x=>x.resource===unused_resource_id).map(x=>x.action);
+    next_unused=last_unused;
     for (i=n_ts-1;i>0;i--) {
         unused=get_ingredients_at_timestamp(i).filter(x=>x.resource===unused_resource_id).map(x=>x.action);
         reused_issues=next_unused.filter(x=>unused.indexOf(x)<0);
@@ -132,6 +133,15 @@ function verify_annotation()
                 return false;
         }
     }
+    //check if substring match an ingredient
+    const instruction=instructions[instruction_index].toLowerCase();
+    const mentioned_ingredients=ingredients.filter(ing=>instruction.includes(display(ing)));
+    const mentioned_unused = last_unused.filter(x=>mentioned_ingredients.indexOf(x)>-1);
+    for(i=0;i<mentioned_unused.length;i++) {
+        msgbox("Ingredient mentioned but unused", "It seems that '" + display(mentioned_unused[i]) + "' was mentioned in the instruction, but not used in the schedule.");
+        return false;
+    }
+    //last_unused
     //verify last instruction
     if (instructions.length===1+instruction_index) // last instruction
     {
