@@ -1,4 +1,6 @@
 const validation_resource_prefix = 'VALID';
+const served_resource_id = "SERVE";
+const trash_resource_id = "TRASH";
 const unused_resource_id = "VALID_UNUSED";
 const get_last_timestamp = () => dp.events.list.map(x=>date(x.end).getDayOfYear()-1).reduce((x,y)=>(x>y?x:y),0);
 const get_ingredients_at_timestamp = (ts) => dp.events.list.filter(x=>(ts===date(x.end).getDayOfYear()-1) && (ing2type(x.action)===AssignedTypes.INGREDIENT));
@@ -145,9 +147,14 @@ function verify_annotation()
     //verify last instruction
     if (instructions.length===1+instruction_index) // last instruction
     {
-        unused=get_ingredients_at_timestamp(n_ts).filter(x=>x.resource===unused_resource_id)
+        unused=get_ingredients_at_timestamp(n_ts).filter(x=>x.resource===unused_resource_id);
         if (unused.length>0) {
             msgbox("Unused Ingredients", "Last step cannot have unused ingredients");
+            return false;
+        }
+        const served=get_ingredients_at_timestamp(n_ts).filter(x=>((x.resource===served_resource_id)||(x.resource===trash_resource_id)) && (ing2type(x.action)===AssignedTypes.INGREDIENT)).map(x=>x.action).sort();
+        if (JSON.stringify(ingredients)!=JSON.stringify(served)) {
+            msgbox("Dish Not Served", "The last step should be serving the dish.<br />Some ingredients were not served or trashed.");
             return false;
         }
     }
