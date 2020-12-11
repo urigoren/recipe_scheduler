@@ -1,4 +1,5 @@
 [
+    {"name": "Serve", "id": "SERVE", "merger":  false, "frozen": "top"},
     {
         "name": "Countertop", "id": "COUNTER", "expanded": true, "children": [
             {"name": "Countertop 1", "id": "COUNTER1", "merger":  false},
