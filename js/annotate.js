@@ -116,6 +116,20 @@ function verify_annotation()
         }
         next_unused=unused;
     }
+    //verify that what gets put in the trash, stays there
+    let prev_trashed=get_ingredients_at_timestamp(1).filter(x=>x.resource===trash_resource_id).map(x=>x.action);
+    let trashed=[], untrashed=[];
+    for (i=1;i<=n_ts;i++) {
+        trashed=get_ingredients_at_timestamp(i).filter(x=>x.resource===trash_resource_id).map(x=>x.action);
+        untrashed=prev_trashed.filter(x=>trashed.indexOf(x)<0);
+        if (untrashed.length>0)
+        {
+            msgbox("Ingredients cannot be used after trashed", "The following ingredients were marked as trash, Then reused:<ul><li>" +
+            untrashed.map(display).join("<li>")+"</ul>");
+            return false;
+        }
+        prev_trashed=trashed;
+    }
     //verify duplicate ingredients
     const ingredients = dp.actions.map(x=>x.id).filter(x=>ing2type(x)===AssignedTypes.INGREDIENT).sort();
     for (let ts=1;ts<=n_ts;ts++) {
@@ -166,6 +180,8 @@ function populate_unused_resource(start)
         return;
     truncate(unused_resource_id, start);
     const used_ingredients = dp.events.list.filter(x=>x.start==start).map(x=>x.action);
+    if (used_ingredients.length===0)
+        return;
     const unused_ingredients = dp.actions.map(a=>a.id).filter(a=>ing2type(a)==AssignedTypes.INGREDIENT).filter(a=>(used_ingredients.filter(x=>x===a)).length===0);
     add_events_by_action_id(unused_ingredients, {"start": start, "resource": unused_resource_id});
 }
@@ -265,6 +281,8 @@ function truncate(resource, start)
     dp.events.list.filter((x)=>(x["resource"]==resource) && (x["start"]==start)).forEach((e)=>{
         dp.events.removeById(e.id);
     });
+    if (resource!==unused_resource_id)
+        populate_unused_resource(start);
 }
 function event_dialog_save()
 {
