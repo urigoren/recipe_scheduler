@@ -16,7 +16,8 @@ def inject_script(m):
     return ret
 
 
-MAX_ROWS = 15
+MAX_ROWS = 50
+ROW_OFFSET=20
 magic_pattern = re.compile(r"{{[^}]+}}")
 local_js_pattern = re.compile(r'(<script src="/js/([^?/"]+).js[^"]*">\s*</script>)')
 form_pattern = re.compile(r"</?form[^>]*>", flags=re.IGNORECASE)
@@ -49,6 +50,9 @@ with (output_path / "annotate.csv").open('w') as f:
     tools = read_data.tools
     ingredients_autocomplete = [{"label": desc, "value": {key: desc}} for desc, key in read_data.ingredients_map.items()]
     for id, annotation in annotation_io.all_annotations().items():
+        if ROW_OFFSET>0:
+            ROW_OFFSET-=1
+            continue
         line = []
         data=annotation
         num_instructions = len(annotation['instructions'])

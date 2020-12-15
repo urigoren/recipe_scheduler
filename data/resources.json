@@ -34,8 +34,8 @@
         "name": "Appliances", "id": "APPL", "expanded": false, "children": [
             {"name": "MicroWave", "id": "APPL_MICRO", "merger":  false},
             {"name": "Slicer", "id": "APPL_SLICE", "merger":  false},
-            {"name": "Grind", "id": "APPL_GRIND", "merger":  true},
-            {"name": "Blend", "id": "APPL_BLEND", "merger":  true}
+            {"name": "Food Processor", "id": "APPL_PROCESSOR", "merger":  true},
+            {"name": "Blender", "id": "APPL_BLEND", "merger":  true}
         ]
     },
     {"name": "Trash Bin", "id": "TRASH"},
