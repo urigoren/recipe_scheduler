@@ -252,7 +252,8 @@
                         .append(item.label)
                         .appendTo(ul);
                 };
-
+              //Ignore the enter key, as it seem to submit the HIT for some turkers
+              $(document).on("keydown", "form", event=>event.key != "Enter");
             const submitButton = document.getElementById("submitButton");
             if (submitButton){
               submitButton.style.display = "none";
