@@ -82,6 +82,7 @@ function msgbox(title, body)
     jQuery('#msgbox_title').text(title);
     jQuery('#msgbox_body').html(body);
     jQuery('#msgbox_dialog').modal('show');
+    msgbox_count+=1;
 }
 function ing2type(ing_id) {
     switch (ing_id[0]) {
@@ -464,6 +465,8 @@ function save()
         document.getElementById("assignmentId").value = getUrlParam('assignmentId');
     }
     document.getElementById('frm_events').value=JSON.stringify(events);
+    document.getElementById('frm_msgbox_count').value=JSON.stringify(msgbox_count);
+    document.getElementById('frm_seconds_spent').value=JSON.stringify(seconds_spent);
     form.submit();
 
 }
@@ -531,6 +534,11 @@ function onTimeRangeSelected(args) {
     if (prev_resource_empty(args))
     {
         msgbox("Numbered resources must be set in order", "This resource has multiple instances, please use them in order (1 before 2, 2 before 3, etc...)");
+        return;
+    }
+    if ((args.resource==served_resource_id) && (instruction_index<instructions.length-1))
+    {
+        msgbox("Cannot Serve", "You cannot serve the dish just yet, this is not the last instruction.");
         return;
     }
     selected_time_range=args;

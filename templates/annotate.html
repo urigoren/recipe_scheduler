@@ -49,6 +49,8 @@
                 <form method="POST" action="/save_annotation/{{id}}" id="mturk_form" name="mturk_form">
                 <input type="hidden" name="id" id="frm_id" value="{{id}}">
                 <input type="hidden" name="events" id="frm_events" value="[]">
+                <input type="hidden" name="seconds_spent" id="frm_seconds_spent" value="[]">
+                <input type="hidden" name="msgbox_count" id="frm_msgbox_count" value="0">
                 <div class="form-group">
                     <label for="frm_status">Status</label>
                     <select name="status" id="frm_status" class="form-control" onchange="status_updated()" onmousedown="status_updated()">
@@ -225,6 +227,10 @@
         let selected_time_range={};
         let clustered_ingredients={};
         const flat_resources = dp.resources.filter(x=>x.children).flatMap(x=>x.children).concat(dp.resources.filter(x=>!x.hasOwnProperty('children')));
+        let seconds_spent=instructions.map(x=>0);
+        let msgbox_count=0;
+
+        setInterval(()=>{seconds_spent[instruction_index]+=1;},1000);
 
         // main ()
         document.addEventListener("DOMContentLoaded", function(event) {
