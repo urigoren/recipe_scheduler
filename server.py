@@ -75,7 +75,8 @@ def annotate(annotation_id, mturk_batch=None):
 
 @app.route('/simulate', methods=['GET', 'POST'])
 @app.route('/simulate/<annotation_id>')
-def simulate(annotation_id=None):
+@app.route('/simulate/<mturk_batch>/<annotation_id>')
+def simulate(annotation_id=None, mturk_batch=None):
     if 'actions' in request.form:
         submitted_actions = json.loads(request.form.get('actions', '{}'))
         submitted_ingredients = json.loads(request.form.get('ingredients', '{}'))
@@ -113,7 +114,10 @@ def simulate(annotation_id=None):
     ingredients = []
     derived_actions=[]
     if annotation_id is not None:
-        annotation = annotation_io.get_annotation(annotation_id)
+        if mturk_batch:
+            annotation = annotation_io.mturk_annotation(mturk_batch, annotation_id)
+        else:
+            annotation = annotation_io.get_annotation(annotation_id)
         derived_actions = instruction_parsing.program(annotation)
         derived_actions = [{
             "ts": a.ts,

@@ -12,7 +12,7 @@ base_path = Path(__file__).absolute().parent.parent
 data_path = base_path / "data"
 
 IMMEDIATE = "LIMMEDIATE"
-UNUSED_RESOURCE_ID = "A1"
+UNUSED_RESOURCE_ID = "VALID_UNUSED"
 
 with (data_path / "resources.json").open('r') as f:
     resource_dict = dict()
@@ -125,7 +125,7 @@ def program_step(annotation) -> List[Instruction]:
                     actions.append(Instruction(ts, Commands.PUT, ing, resource))
             for ing in removed_ings:
                 ing_type = AssignedTypes.parse(ing)
-                if resource.startswith("A"):
+                if resource.startswith("VALID"):
                     continue
                 if ing_type == AssignedTypes.Ingredient:
                     actions.append(Instruction(ts, Commands.REMOVE, ing, resource))

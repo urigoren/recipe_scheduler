@@ -16,8 +16,8 @@ def inject_script(m):
     return ret
 
 
-MAX_ROWS = 50
-ROW_OFFSET=20
+MAX_ROWS = 9
+ROW_OFFSET=30
 magic_pattern = re.compile(r"{{[^}]+}}")
 local_js_pattern = re.compile(r'(<script src="/js/([^?/"]+).js[^"]*">\s*</script>)')
 form_pattern = re.compile(r"</?form[^>]*>", flags=re.IGNORECASE)
