@@ -16,8 +16,8 @@ def inject_script(m):
     return ret
 
 
-MAX_ROWS = 9
-ROW_OFFSET=30
+MAX_ROWS = 10
+ROW_OFFSET = 30
 magic_pattern = re.compile(r"{{[^}]+}}")
 local_js_pattern = re.compile(r'(<script src="/js/([^?/"]+).js[^"]*">\s*</script>)')
 form_pattern = re.compile(r"</?form[^>]*>", flags=re.IGNORECASE)
@@ -71,5 +71,5 @@ with (output_path / "annotate.csv").open('w') as f:
             line.append(eval(var))
         f.write(csv_row(line))
         row_num +=1
-        if row_num>MAX_ROWS:
+        if row_num>=MAX_ROWS:
             break

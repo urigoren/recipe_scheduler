@@ -50,7 +50,7 @@ class Commands(Enum):
     USE = 2
     STOP_USING = 3
     CHEF_CHECK = 4
-    CHEF_DO = 4
+    CHEF_DO = 5
     MOVE_CONTENTS = 6
 
 
