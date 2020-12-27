@@ -2,9 +2,9 @@
     {"name": "Serve", "id": "SERVE", "merger":  false, "frozen": "top"},
     {
         "name": "Countertop", "id": "COUNTER", "expanded": true, "children": [
-            {"name": "Countertop 1", "id": "COUNTER1", "merger":  false},
-            {"name": "Countertop 2", "id": "COUNTER2", "merger":  false},
-            {"name": "Countertop 3", "id": "COUNTER3", "merger":  false}
+            {"name": "Countertop 1", "id": "COUNTER1", "merger":  true},
+            {"name": "Countertop 2", "id": "COUNTER2", "merger":  true},
+            {"name": "Countertop 3", "id": "COUNTER3", "merger":  true}
         ]
     },
     {

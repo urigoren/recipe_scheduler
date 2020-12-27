@@ -123,6 +123,33 @@ function verify_annotation()
         }
         next_unused=unused;
     }
+    // Verify that one resource changes per timestamp
+    let prev_list_resources = flat_resources.map(x=>x.id).filter(r=>(!r.startsWith(validation_resource_prefix)) && (r!==trash_resource_id) && (get_ingredients_at_timestamp(2).map(x=>x.resource).indexOf(r)>=0));
+    let list_resources = [];
+    for (i=2;i<=n_ts;i++) {
+        list_resources = flat_resources.map(x=>x.id).filter(r=>(!r.startsWith(validation_resource_prefix)) && (r!==trash_resource_id) && (get_ingredients_at_timestamp(i).map(x=>x.resource).indexOf(r)>=0));
+        const newly_added_resources = list_resources.filter(r=>prev_list_resources.indexOf(r)<0);
+        if (newly_added_resources.length>1) {
+            msgbox("More than one resource introduced at a given timestamp", "At timestamp " + i +
+                ", multiple resources were introduced:<ul><li>" +
+                newly_added_resources.map(r=> flat_resources.filter(x=>x.id===r)[0]["name"]).join("<li>") +
+            "</ul> Please split it into multiple steps");
+            return false;
+        }
+        const modified_resources = list_resources.filter(r=>prev_list_resources.indexOf(r)>=0).filter(r=>
+        JSON.stringify(get_ingredients_at_timestamp(i).filter(x=>x.resource===r).map(x => x.action).sort()) !== JSON.stringify(get_ingredients_at_timestamp(i - 1).filter(x=>x.resource===r).map(x => x.action).sort())
+        )
+        if (modified_resources.length+newly_added_resources.length>1) {
+            msgbox("More than one resource modified a given timestamp", "At timestamp " + i +
+                ", multiple resources were modified:<ul><li>" +
+                modified_resources.concat(newly_added_resources).map(r=> flat_resources.filter(x=>x.id===r)[0]["name"]).join("<li>") +
+            "</ul> Please split it into multiple steps");
+            console.log(modified_resources);
+            console.log(newly_added_resources.length);
+            return false;
+        }
+        prev_list_resources = list_resources;
+    }
     //verify that what gets put in the trash, stays there
     let prev_trashed=get_ingredients_at_timestamp(1).filter(x=>x.resource===trash_resource_id).map(x=>x.action);
     let trashed=[], untrashed=[];
@@ -144,7 +171,7 @@ function verify_annotation()
         for (let i=0;i<ingredients.length;i++) {
             const ing = ingredients[i];
             if (ing_at_ts.filter(i => i===ing).length > 1) {
-                msgbox("Ingredient used twice at the same time", display(ing) + " was used twice at the same time.");
+                msgbox("Ingredient used twice at the same time", '"' + display(ing) + "\" was used twice at the same time.");
                 return false;
             }
         }
