@@ -144,8 +144,6 @@ function verify_annotation()
                 ", multiple resources were modified:<ul><li>" +
                 modified_resources.concat(newly_added_resources).map(r=> flat_resources.filter(x=>x.id===r)[0]["name"]).join("<li>") +
             "</ul> Please split it into multiple steps");
-            console.log(modified_resources);
-            console.log(newly_added_resources.length);
             return false;
         }
         prev_list_resources = list_resources;
