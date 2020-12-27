@@ -424,7 +424,7 @@ function show_instruction()
 {
     let instruction=instructions[instruction_index];
     document.getElementById('modal-instruction').innerHTML=instruction;
-    document.getElementById('instruction').innerHTML="<h3>"+(instruction_index+1)+"/"+instructions.length+"</h3>"+instruction;
+    document.getElementById('instruction').innerHTML="<h3><span class=\"label label-info\">"+(instruction_index+1)+"/"+instructions.length+"</span></h3>"+instruction;
     document.getElementById('frm_events').value=JSON.stringify(events);
     const el = document.getElementById('next_instruction');
     if (instruction_index+1==instructions.length)
@@ -488,7 +488,7 @@ function onEventClicked(args) {
         return;
     }
     selected_time_range=args.e.data;
-    clustered_ingredients=get_clustered_ingredients()[selected_time_range.start.getDayOfYear()-2];
+    clustered_ingredients=get_clustered_ingredients()[date(selected_time_range.start).getDayOfYear()-2];
     jQuery(".event_item").prop("checked", false);
     const resource=args.e.data.resource;
     const start=args.e.data.start;
