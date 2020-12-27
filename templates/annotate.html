@@ -234,6 +234,7 @@
 
         // main ()
         document.addEventListener("DOMContentLoaded", function(event) {
+            msgbox("Kitchen Overview", '<img src="http://goren.ml/cdn/kitchen.png" width="100%"><h2>Mark where ingredients are after each instrucion</h2>Click "Close" to start annotating recipes');
             append_checkboxes("modal_body_ingredients", "Ingredients",{{data["normalized_ingredients"]|tojson|safe}});
             append_checkboxes("modal_body_tools", "Tools",{{tools|tojson|safe}});
             //append_checkboxes("modal_body_activities", "Activities",{{activities|tojson|safe}});
