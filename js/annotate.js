@@ -295,6 +295,20 @@ function event_dialog_save()
 {
     const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
     const instruction_length_id = document.getElementById("instruction_length").value;
+    //Verify annotations contains tools
+    let only_tools = true;
+    for(let i=0;i<selected_action_ids.length;i++) {
+        only_tools = only_tools && (ing2type(selected_action_ids[i])!==AssignedTypes.INGREDIENT);
+    }
+    if (only_tools && (selected_action_ids.length>0))
+    {
+        msgbox("No ingredients marked", "There's no need to mark steps that do not contain ingredients <ul>" +
+            "<li>If the tools you chose contain ingredients within them, please mark them.</li>"+
+            "<li>Otherwise, do not mark anything.</li>" +
+            "</ul>"
+        );
+        return;
+    }
     //Verify clusters
     for(let i=0;i<selected_action_ids.length;i++)
     {
