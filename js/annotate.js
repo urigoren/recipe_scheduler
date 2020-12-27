@@ -79,9 +79,15 @@ function add_missing_ingredient(item) {
 }
 function msgbox(title, body)
 {
+    const event_dialog_shown = (jQuery("#event_dialog").data('bs.modal') || {})._isShown;
+    const msgbox_dialog = jQuery('#msgbox_dialog');
+    if (event_dialog_shown)
+        msgbox_dialog.css("z-index", 3000);
+    else
+        msgbox_dialog.css("z-index", "");
     jQuery('#msgbox_title').text(title);
     jQuery('#msgbox_body').html(body);
-    jQuery('#msgbox_dialog').modal('show');
+    msgbox_dialog.modal('show');
     msgbox_count+=1;
 }
 function ing2type(ing_id) {
