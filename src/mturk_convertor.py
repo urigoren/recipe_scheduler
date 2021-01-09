@@ -62,7 +62,7 @@ with (output_path / "annotate.csv").open('w') as f:
     resources = read_data.resources
     activities = read_data.activities
     tools = read_data.tools
-    ingredients_autocomplete = [{"label": desc, "value": {key: desc}} for desc, key in read_data.ingredients_map.items()]
+    ingredients_autocomplete = [{"label": desc, "value": {key: desc}} for desc, key in annotation_io.ingredients_map.items()]
     for id, annotation in annotation_io.all_annotations().items():
         if ROW_OFFSET>0:
             ROW_OFFSET-=1

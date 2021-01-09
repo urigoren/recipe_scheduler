@@ -8,7 +8,6 @@ resources = []
 tools = {}
 activities = {}
 time_lengths = {}
-ingredients_map = {}
 commands = []
 
 
@@ -25,9 +24,6 @@ def reload():
 
     with (data_path / "time_lengths.json").open('r') as f:
         time_lengths = json.load(f)
-
-    with (data_path / "ingredients_map.json").open('r') as f:
-        ingredients_map = json.load(f)
 
     with (data_path / "commands.json").open('r') as f:
         commands = json.load(f)

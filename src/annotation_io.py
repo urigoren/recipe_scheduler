@@ -5,7 +5,10 @@ import pandas as pd
 base_path = Path(__file__).absolute().parent.parent
 mturk_path = base_path / "mturk/results"
 annotations_path = base_path / "annotations"
+data_path = base_path / "data"
 
+with (data_path / "ingredients_map.json").open('r') as f:
+    ingredients_map = json.load(f)
 
 def annotation_file(annotation_id):
     return (annotations_path / "{a}.json".format(a=annotation_id))

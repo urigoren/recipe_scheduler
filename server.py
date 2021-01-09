@@ -59,7 +59,7 @@ def annotate(annotation_id, mturk_batch=None):
     actions.extend([{"display": value, "id": key, "color": "#00ff00"} for key, value in annotation["normalized_ingredients"].items()])
     tl = read_data.time_lengths
     tl[""] = "Ends Immediately"
-    ingredients_autocomplete = [{"label":desc, "value":{key: desc}} for desc, key in read_data.ingredients_map.items()]
+    ingredients_autocomplete = [{"label":desc, "value":{key: desc}} for desc, key in annotation_io.ingredients_map.items()]
     return render_template('annotate.html',
                            data=annotation,
                            id=annotation_id,
@@ -87,7 +87,7 @@ def simulate(annotation_id=None, mturk_batch=None):
         actions_map.extend([(key,{"text": value, "color": "#ff0000"}) for key, value in read_data.tools.items()])
         actions_map.extend([(key,{"text": value, "color": "#0000ff"}) for key, value in read_data.activities.items()])
         actions_map.extend([(key,{"text": value, "color": "#000000"}) for key, value in read_data.time_lengths.items()])
-        actions_map.extend([(value,{"text": key, "color": "#00ff00"}) for key, value in read_data.ingredients_map.items()])
+        actions_map.extend([(value,{"text": key, "color": "#00ff00"}) for key, value in annotation_io.ingredients_map.items()])
         actions_map = dict(actions_map)
         def ui_view(ts, res, item):
             return {
@@ -143,7 +143,7 @@ def simulate(annotation_id=None, mturk_batch=None):
 @app.route('/ingredients_autocomplete', methods=['GET', 'POST'])
 def ingredients_autocomplete():
     term = request.args.get("term", "")
-    ret=[{"label": k, "value": {"id": v, "name": k}} for k,v in read_data.ingredients_map.items() if term in k]
+    ret=[{"label": k, "value": {"id": v, "name": k}} for k,v in annotation_io.ingredients_map.items() if term in k]
     return jsonify(ret)
 
 
