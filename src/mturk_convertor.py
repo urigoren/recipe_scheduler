@@ -16,23 +16,37 @@ def inject_script(m):
     return ret
 
 
+def inject_style(m):
+    ret = '<style>\n'
+    with (css_path / (m[2] + ".css")).open('r', encoding='utf8') as f:
+        ret+=f.read()
+    ret += '\n</style>'
+    return ret
+
+
 MAX_ROWS = 20
 ROW_OFFSET = 100
 magic_pattern = re.compile(r"{{[^}]+}}")
 local_js_pattern = re.compile(r'(<script src="/js/([^?/"]+).js[^"]*">\s*</script>)')
+local_css_pattern = re.compile(r'(<link rel="stylesheet" href="/css/([^?/"]+).css[^"]*"/>)')
 form_pattern = re.compile(r"</?form[^>]*>", flags=re.IGNORECASE)
+comment_pattern=re.compile(r"<!--.+-->")
 annotate_template = Path(__file__).parent.parent / "templates" / "annotate.html"
 output_path = Path(__file__).parent.parent / "mturk"
 js_path = Path(__file__).parent.parent / "js"
+css_path = Path(__file__).parent.parent / "css"
 
 with annotate_template.open('r') as f:
     html = f.read()
+
+html = comment_pattern.sub("", html)
 
 magics = {"${v"+str(i)+"}": m for i, m in enumerate(sorted(set(magic_pattern.findall(html))))}
 for k,v in magics.items():
     html=html.replace(v,k)
 
 html = local_js_pattern.sub(inject_script,html)
+html = local_css_pattern.sub(inject_style,html)
 html = form_pattern.sub("", html)
 html = re.sub(r'</script>[\s\t\n]*<script>',"", html, flags=re.MULTILINE)
 # html = html.replace("</head>", '<script src="https://s3.amazonaws.com/mturk-public/externalHIT_v1.js"></script>\n</head>', 1)
