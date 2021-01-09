@@ -3,12 +3,19 @@ from pathlib import Path
 import pandas as pd
 
 base_path = Path(__file__).absolute().parent.parent
-mturk_path = base_path / "mturk/results"
-annotations_path = base_path / "annotations"
-data_path = base_path / "data"
+recipe_source = "allrecipes"
+mturk_path = base_path / "mturk" / "results"
+annotations_path = base_path / "annotations" / recipe_source
+ingredients_map = {}
 
-with (data_path / "ingredients_map.json").open('r') as f:
-    ingredients_map = json.load(f)
+
+def set_recipe_source(source):
+    global recipe_source
+    global ingredients_map
+    recipe_source = source
+    with (base_path /"data"/ source / "ingredients_map.json").open('r') as f:
+        ingredients_map = json.load(f)
+
 
 def annotation_file(annotation_id):
     return (annotations_path / "{a}.json".format(a=annotation_id))
@@ -46,3 +53,6 @@ def mturk_annotation(batch, assignment_id):
     ret["status"] = df.loc[assignment_id, "status"]
     ret["feedback"] = df.loc[assignment_id, "feedback"]
     return ret
+
+
+set_recipe_source("allrecipes")
