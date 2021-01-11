@@ -18,9 +18,9 @@
     },
     {
         "name": "Oven", "id": "OVEN", "expanded": false, "children": [
-            {"name": "Low (0-150 C)", "id": "OVEN_LOW", "merger":  true},
-            {"name": "Medium (150-199 C)", "id": "OVEN_MED", "merger":  true},
-            {"name": "High (200-250 C)", "id": "OVEN_HI", "merger":  true},
+            {"name": "Low (0-150 C; 300 F)", "id": "OVEN_LOW", "merger":  true},
+            {"name": "Medium (150-199 C; 400 F)", "id": "OVEN_MED", "merger":  true},
+            {"name": "High (200-250 C; 480 F)", "id": "OVEN_HI", "merger":  true},
             {"name": "Grill", "id": "OVEN_G", "merger":  true}
         ]
     },
@@ -31,13 +31,15 @@
         ]
     },
     {
-        "name": "Appliances", "id": "APPL", "expanded": false, "children": [
-            {"name": "MicroWave", "id": "APPL_MICRO", "merger":  false},
-            {"name": "Slicer", "id": "APPL_SLICE", "merger":  false},
-            {"name": "Food Processor", "id": "APPL_PROCESSOR", "merger":  true},
-            {"name": "Blender", "id": "APPL_BLEND", "merger":  true}
+        "name": "Sink", "id": "FAUCET", "expanded": false, "children": [
+            {"name": "Faucet On (for washing)", "id": "FAUCET_ON", "merger":  false},
+            {"name": "Faucet Off (for draining)", "id": "FAUCET_OFF", "merger":  false}
         ]
     },
+    {"name": "MicroWave", "id": "APPL_MICRO", "merger":  false},
+    {"name": "Slicer (for cutting)", "id": "APPL_SLICE", "merger":  false},
+    {"name": "Food Processor (for grinding)", "id": "APPL_PROCESSOR", "merger":  true},
+    {"name": "Blender", "id": "APPL_BLEND", "merger":  true},
     {"name": "Trash Bin", "id": "TRASH"},
     {
         "name": "Validation", "id": "VALID", "expanded": false, "children": [

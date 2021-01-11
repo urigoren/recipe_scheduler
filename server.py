@@ -6,6 +6,8 @@ import annotation_io
 import read_data
 import instruction_parsing
 
+annotation_io.set_recipe_source("npn-cooking")
+
 app = Flask(__name__)
 
 def isJson(x):

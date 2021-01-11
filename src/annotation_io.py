@@ -12,7 +12,9 @@ ingredients_map = {}
 def set_recipe_source(source):
     global recipe_source
     global ingredients_map
+    global annotations_path
     recipe_source = source
+    annotations_path = base_path / "annotations" / source
     with (base_path /"data"/ source / "ingredients_map.json").open('r') as f:
         ingredients_map = json.load(f)
 
