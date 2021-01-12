@@ -25,7 +25,7 @@ def inject_style(m):
 
 
 MAX_ROWS = 20
-ROW_OFFSET = 100
+ROW_OFFSET = 0
 magic_pattern = re.compile(r"{{[^}]+}}")
 local_js_pattern = re.compile(r'(<script src="/js/([^?/"]+).js[^"]*">\s*</script>)')
 local_css_pattern = re.compile(r'(<link rel="stylesheet" href="/css/([^?/"]+).css[^"]*"/>)')
@@ -71,6 +71,9 @@ with (output_path / "annotate.csv").open('w') as f:
         data=annotation
         num_instructions = len(annotation['instructions'])
         data["labels"]=[[] for _ in range(num_instructions)]
+        validations=[[] for _ in range(num_instructions)]
+        if 'validations' in annotation:
+            validations=annotation['validations']
         actions = []
         actions.extend([{"display": value, "id": key, "color": "#ff0000"} for key, value in read_data.tools.items()])
         actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in read_data.activities.items()])

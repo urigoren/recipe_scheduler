@@ -54,6 +54,9 @@ def annotate(annotation_id, mturk_batch=None):
         annotation = annotation_io.mturk_annotation(mturk_batch, annotation_id)
     else:
         annotation=annotation_io.get_annotation(annotation_id)
+    validations=[[] for _ in range(len(annotation['instructions']))]
+    if 'validations' in annotation:
+        validations=annotation['validations']
     actions = []
     actions.extend([{"display": value, "id": key, "color": "#ff0000"} for key, value in read_data.tools.items()])
     actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in read_data.activities.items()])
@@ -72,6 +75,7 @@ def annotate(annotation_id, mturk_batch=None):
                            actions=actions,
                            num_instructions=len(annotation['instructions']),
                            ingredients_autocomplete=ingredients_autocomplete,
+                           validations=validations,
                            )
 
 

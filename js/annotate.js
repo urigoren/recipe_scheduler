@@ -186,8 +186,15 @@ function verify_annotation()
     const mentioned_ingredients=ingredients.filter(ing=>instruction.includes(display(ing)));
     const mentioned_unused = last_unused.filter(x=>mentioned_ingredients.indexOf(x)>-1);
     if (mentioned_unused.length>1) {
-        msgbox("Ingredient mentioned but unused", "The following ingredients were mentioned in the instruction, but not used:<ul><li>" +
+        msgbox("Ingredient mentioned but not unused", "The following ingredients were mentioned in the instruction, but not used:<ul><li>" +
         mentioned_unused.map(display).join("<li>")+"</ul>");
+        return false;
+    }
+    // validation from `validations` variable
+    const validated_unused = last_unused.filter(x=>validations[instruction_index].indexOf(x)>-1);
+    if (validated_unused.length>0) {
+        msgbox("Conflict with previous annotation", "The following ingredients should be used in this instruction according to a previous annotator:<ul><li>" +
+        validated_unused.map(display).join("<li>")+"</ul>");
         return false;
     }
     //verify last instruction

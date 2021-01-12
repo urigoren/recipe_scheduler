@@ -221,8 +221,9 @@
         dp.scrollTo("2020-01-01");
         alert = console.log;
         let instruction_index=0;
-        let instructions={{data['instructions']|tojson|safe}};
+        const instructions={{data['instructions']|tojson|safe}};
         let events={{data["labels"]|tojson|safe}};
+        const validations={{validations|tojson|safe}};
         let action_clipboard=[];
         let selected_time_range={};
         let clustered_ingredients={};
