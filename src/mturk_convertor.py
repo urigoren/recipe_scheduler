@@ -2,7 +2,7 @@ import re, json, sys
 from pathlib import Path
 import annotation_io
 import read_data
-
+annotation_io.set_recipe_source("npn-cooking")
 
 def csv_row(lst):
     return ",".join(['"' +str(s).replace('"', '""').replace('\n', '\\n') +'"' for s in lst]) + "\n"

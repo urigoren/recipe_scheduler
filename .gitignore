@@ -9,3 +9,5 @@ preprocessed/
 mturk/
 __pycache__
 *.pyc
+annotations/
+data/
