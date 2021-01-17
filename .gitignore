@@ -10,4 +10,5 @@ mturk/
 __pycache__
 *.pyc
 annotations/
-data/
+data/npn-cooking
+data/allrecipes
