@@ -24,7 +24,7 @@ def inject_style(m):
     return ret
 
 
-MAX_ROWS = 20
+MAX_ROWS = 60
 ROW_OFFSET = 0
 magic_pattern = re.compile(r"{{[^}]+}}")
 local_js_pattern = re.compile(r'(<script src="/js/([^?/"]+).js[^"]*">\s*</script>)')

@@ -20,7 +20,7 @@ function prev_resource_empty(obj)
     const prev_res = res_base +''+ (res_num-1);
     if (flat_resources.filter(r=>r.id===prev_res).length===0) // non existing
         return false;
-    return dp.events.list.filter(e=>(e.start<=obj.start) && (e.resource===prev_res)).length===0;
+    return dp.events.list.filter(e=>(e.start===obj.start) && (e.resource===prev_res)).length===0;
 }
 const clone = (obj)=>Object.assign({},obj);
 const display = (action_id)=>dp.actions.filter(x=>x.id===action_id).map(x=>x.display)[0] || "";
@@ -191,12 +191,12 @@ function verify_annotation()
         return false;
     }
     // validation from `validations` variable
-    const validated_unused = last_unused.filter(x=>validations[instruction_index].indexOf(x)>-1);
-    if (validated_unused.length>0) {
-        msgbox("Conflict with previous annotation", "The following ingredients should be used in this instruction according to a previous annotator:<ul><li>" +
-        validated_unused.map(display).join("<li>")+"</ul>");
-        return false;
-    }
+    // const validated_unused = last_unused.filter(x=>validations[instruction_index].indexOf(x)>-1);
+    // if (validated_unused.length>0) {
+    //     msgbox("Conflict with previous annotation", "The following ingredients should be used in this instruction according to a previous annotator:<ul><li>" +
+    //     validated_unused.map(display).join("<li>")+"</ul>");
+    //     return false;
+    // }
     //verify last instruction
     if (instructions.length===1+instruction_index) // last instruction
     {
