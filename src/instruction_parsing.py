@@ -154,13 +154,12 @@ def program(annotation) -> List[Instruction]:
             instruction.ts += ts
         actions.extend(p)
         ts = p[-1].ts
-    max_ts=ts
+    max_ts=max([a.ts for a in actions])
     actions_to_remove = []
     for to_res in resource_dict:
         if to_res.startswith(VALIDATION_PREFIX):
             continue
-        for ts in range(1, max_ts):
-            print(f"============= {ts} ===============")
+        for ts in range(1, max_ts+1):
             put_ings = {a.arg for a in actions if
                       a.ts == ts and a.command == Commands.PUT and a.resource == to_res and AssignedTypes.parse(
                           a.arg) == AssignedTypes.Ingredient}
@@ -169,17 +168,14 @@ def program(annotation) -> List[Instruction]:
                           a.arg) == AssignedTypes.Ingredient}
             if not any(remove_ings):
                 continue
-            from_res = {a.resource for a in actions if a.ts == ts-1 and a.arg in remove_ings and a.command==Commands.PUT}
+            from_res = {a.resource for a in actions if a.ts <ts and a.arg in remove_ings and a.command==Commands.PUT}
             # from_res &= {a.resource for a in actions if a.ts == ts and a.command == Commands.REMOVE and a.resource != to_res}
-            print(remove_ings)
-            if len(from_res)!=1:
-                continue
-            from_res = list(from_res)[0]
             #TODO: Check that all contents are removed
-            if any(remove_ings) and remove_ings<=put_ings:
-                actions.append(Instruction(ts, Commands.MOVE_CONTENTS, from_res, to_res))
+            if any(remove_ings) and any(from_res) and remove_ings<=put_ings:
                 actions_to_remove.extend([a for a in actions if a.ts==ts and a.resource == to_res and a.command == Commands.PUT and a.arg in remove_ings])
-                actions_to_remove.extend([a for a in actions if a.ts==ts and a.resource == from_res and a.command == Commands.REMOVE and a.arg in remove_ings])
+                for res in from_res:
+                    actions.append(Instruction(ts, Commands.MOVE_CONTENTS, res, to_res))
+                    actions_to_remove.extend([a for a in actions if a.ts==ts and a.resource == res and a.command == Commands.REMOVE and a.arg in remove_ings])
     actions = [a for a in actions if a not in actions_to_remove]
     action_order = [
         Commands.MOVE_CONTENTS,
