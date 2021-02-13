@@ -135,35 +135,7 @@ def program_step(annotation) -> List[Instruction]:
                 elif ing_type == AssignedTypes.Tool:
                     actions.append(Instruction(ts, Commands.STOP_USING, ing, resource))
         state = deepcopy(new_state)
-    for res in resource_dict:
-        for ts in range(1, 1 + max_ts):
-            before = {a.arg for a in actions if
-                      a.ts < ts and a.command == Commands.PUT and a.resource == res and AssignedTypes.parse(
-                          a.arg) == AssignedTypes.Ingredient}
-            after = {a.arg for a in actions if
-                     a.ts == ts and a.command == Commands.REMOVE and a.resource == res and AssignedTypes.parse(
-                         a.arg) == AssignedTypes.Ingredient}
-            new_res = {a.resource for a in actions if
-                       a.ts == ts and a.command == Commands.PUT and a.resource != res and a.arg in {b for b in
-                                                                                                    before}}
-            if len(new_res) != 1:
-                continue
-            new_res = list(new_res)[0]
-            if before <= after:
-                actions.append(Instruction(ts, Commands.MOVE_CONTENTS, res, new_res))
-                actions = [a for a in actions if not (a.ts == ts and (a.command, a.resource) in {(Commands.REMOVE, res),
-                                                                                                 (Commands.PUT,
-                                                                                                  new_res)} and a.arg in before)]
 
-    action_order = [
-        Commands.MOVE_CONTENTS,
-        Commands.REMOVE,
-        Commands.USE,
-        Commands.STOP_USING,
-        Commands.PUT,
-        Commands.CHEF_CHECK,
-    ]
-    actions = sorted(actions, key=lambda t: (t.ts, action_order.index(t.command)))
     return actions
 
 
@@ -182,6 +154,42 @@ def program(annotation) -> List[Instruction]:
             instruction.ts += ts
         actions.extend(p)
         ts = p[-1].ts
+    max_ts=ts
+    actions_to_remove = []
+    for to_res in resource_dict:
+        if to_res.startswith(VALIDATION_PREFIX):
+            continue
+        for ts in range(1, max_ts):
+            print(f"============= {ts} ===============")
+            put_ings = {a.arg for a in actions if
+                      a.ts == ts and a.command == Commands.PUT and a.resource == to_res and AssignedTypes.parse(
+                          a.arg) == AssignedTypes.Ingredient}
+            remove_ings = {a.arg for a in actions if
+                      a.ts == ts and a.command == Commands.REMOVE and a.resource != to_res and AssignedTypes.parse(
+                          a.arg) == AssignedTypes.Ingredient}
+            if not any(remove_ings):
+                continue
+            from_res = {a.resource for a in actions if a.ts == ts-1 and a.arg in remove_ings and a.command==Commands.PUT}
+            # from_res &= {a.resource for a in actions if a.ts == ts and a.command == Commands.REMOVE and a.resource != to_res}
+            print(remove_ings)
+            if len(from_res)!=1:
+                continue
+            from_res = list(from_res)[0]
+            #TODO: Check that all contents are removed
+            if any(remove_ings) and remove_ings<=put_ings:
+                actions.append(Instruction(ts, Commands.MOVE_CONTENTS, from_res, to_res))
+                actions_to_remove.extend([a for a in actions if a.ts==ts and a.resource == to_res and a.command == Commands.PUT and a.arg in remove_ings])
+                actions_to_remove.extend([a for a in actions if a.ts==ts and a.resource == from_res and a.command == Commands.REMOVE and a.arg in remove_ings])
+    actions = [a for a in actions if a not in actions_to_remove]
+    action_order = [
+        Commands.MOVE_CONTENTS,
+        Commands.REMOVE,
+        Commands.USE,
+        Commands.STOP_USING,
+        Commands.PUT,
+        Commands.CHEF_CHECK,
+    ]
+    actions = sorted(actions, key=lambda t: (t.ts, action_order.index(t.command)))
     return actions
 
 
