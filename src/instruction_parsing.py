@@ -174,7 +174,8 @@ def program(annotation) -> List[Instruction]:
             if any(remove_ings) and any(from_res) and remove_ings<=put_ings:
                 actions_to_remove.extend([a for a in actions if a.ts==ts and a.resource == to_res and a.command == Commands.PUT and a.arg in remove_ings])
                 for res in from_res:
-                    actions.append(Instruction(ts, Commands.MOVE_CONTENTS, res, to_res))
+                    if res!=to_res:
+                        actions.append(Instruction(ts, Commands.MOVE_CONTENTS, res, to_res))
                     actions_to_remove.extend([a for a in actions if a.ts==ts and a.resource == res and a.command == Commands.REMOVE and a.arg in remove_ings])
     actions = [a for a in actions if a not in actions_to_remove]
     action_order = [
