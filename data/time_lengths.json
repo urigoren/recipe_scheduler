@@ -1,13 +1,13 @@
 {
-    "LBOIL": "Until boil",
-    "LBROWN": "Until browned",
-    "LCOOL": "Until cool down",
-    "LINSIDE": "Until color inside changes",
-    "LMELT": "Until melted",
-    "LSHAPE": "Until even in shape",
-    "LSIDES": "Until cooked from both sides",
-    "LSOLID": "Until solid enough",
-    "LTEXTURE": "Until texture is even",
-    "LTHICK": "Until thick enough",
+    "LBOIL": "Boil",
+    "LBROWN": "Browned",
+    "LCOOL": "Cool down",
+    "LINSIDE": "Color inside changes",
+    "LMELT": "Melted",
+    "LSHAPE": "Even in shape",
+    "LSIDES": "Cooked both sides",
+    "LSOLID": "Solid enough",
+    "LTEXTURE": "Texture is even",
+    "LTHICK": "Thick enough",
     "LTIME": "For X minutes"
 }

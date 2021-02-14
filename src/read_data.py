@@ -6,13 +6,14 @@ data_path = base_path / "data"
 
 resources = []
 tools = {}
+tool_containers = []
 activities = {}
 time_lengths = {}
 commands = []
 
 
 def reload():
-    global resources, tools, activities, time_lengths, ingredients_map, commands
+    global resources, tools, activities, time_lengths, ingredients_map, commands, tool_containers
     with (data_path / "resources.json").open('r') as f:
         resources = json.load(f)
 
@@ -24,6 +25,9 @@ def reload():
 
     with (data_path / "time_lengths.json").open('r') as f:
         time_lengths = json.load(f)
+
+    with (data_path / "tool_containers.json").open('r') as f:
+        tool_containers = json.load(f)
 
     with (data_path / "commands.json").open('r') as f:
         commands = json.load(f)

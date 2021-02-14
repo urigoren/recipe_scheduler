@@ -41,17 +41,8 @@ function append_checkboxes(elid, header, dict) {
     let v="";
     for (const k in dict) {
         v = dict[k];
-        html+='<div class="form-check"><input type="checkbox" class="form-check-input event_item" id="'+k+'"><label class="form-check-label" for="'+k+'">'+v+'</label></div>';
-    }
-    el.innerHTML=html;
-}
-function append_options(elid, dict) {
-    const el= document.getElementById(elid);
-    let html = "";
-    let v="";
-    for (const k in dict) {
-        v = dict[k];
-        html+='<option value="'+k+'">'+v+'</option>';
+        v=v.replace(/\([^)]+\)/g, x=>"<small><br />"+x+"</small>");
+        html+='<div class="form-check"><input type="checkbox" class="form-check-input event_item" id="'+k+'"><label class="form-check-label" for="'+k+'">&nbsp;'+v+'</label></div>';
     }
     el.innerHTML=html;
 }
@@ -60,7 +51,7 @@ function append_li(elid, lst) {
     let html = "";
     let i=0;
     for (i=0;i<lst.length;i++) {
-        html+='<li>'+lst[i]+'</li>';
+        html+='<li>&nbsp;'+lst[i]+'</li>';
     }
     el.innerHTML=html;
 }
@@ -326,11 +317,13 @@ function truncate(resource, start)
 function event_dialog_save()
 {
     const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
-    const instruction_length_id = document.getElementById("instruction_length").value;
     //Verify annotations contains tools
     let only_tools = true;
+    let selected_containers = [];
     for(let i=0;i<selected_action_ids.length;i++) {
         only_tools = only_tools && (ing2type(selected_action_ids[i])!==AssignedTypes.INGREDIENT);
+        if (containers.indexOf(selected_action_ids[i])!==-1)
+            selected_containers.push(selected_action_ids[i]);
     }
     if (only_tools && (selected_action_ids.length>0))
     {
@@ -339,6 +332,25 @@ function event_dialog_save()
             "<li>Otherwise, do not mark anything.</li>" +
             "</ul>"
         );
+        return;
+    }
+    if (selected_containers.length>1)
+    {
+        msgbox("Too many containers", "You can only use one container, but these were marked: <ul>" +
+        "<li>"+ selected_containers.map(display).join("<li>")+  "</ul>"
+        );
+        return;
+    }
+    //verify time lengths
+    let time_length_count = 0;
+    for(let i=0;i<selected_action_ids.length;i++) {
+        if (ing2type(selected_action_ids[i])===AssignedTypes.TIME_LENGTH)
+            time_length_count+=1;
+    }
+    if (time_length_count>2)
+    {
+        msgbox("Too many time conditions", "" + time_length_count + " time conditions were marked, please choose one " +
+            "<br />Or none, if there's no time condition in this instruction.");
         return;
     }
     //Verify clusters
@@ -373,14 +385,6 @@ function event_dialog_save()
         "end:": selected_time_range.end,
         "resource": selected_time_range.resource,
     });
-    //instruction length special event:
-    if (instruction_length_id!="") {
-        add_events_by_action_id([instruction_length_id], {
-            "start": selected_time_range.start,
-            "end:": selected_time_range.end,
-            "resource": selected_time_range.resource,
-        });
-    }
     jQuery('#event_dialog').modal('hide');
     setTimeout(dp.multirange.clear, 100);
 }
@@ -552,10 +556,6 @@ function onEventClicked(args) {
         if ((!!c) && (c.type==="checkbox"))
             c.checked=1;
     })
-    // selectbox
-    const instruction_length_select = document.getElementById("instruction_length");
-    previously_selected=previously_selected.filter(x=>ing2type(x)==AssignedTypes.TIME_LENGTH);
-    instruction_length_select.value=(previously_selected.length>0?previously_selected[0]:"");
     jQuery('#event_dialog').modal('show');
 }
 
@@ -602,6 +602,5 @@ function onTimeRangeSelected(args) {
         if ((!!c) && (c.type==="checkbox"))
             c.checked=1;
     })
-    document.getElementById("instruction_length").value="";
     jQuery('#event_dialog').modal('show');
 }

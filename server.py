@@ -63,12 +63,12 @@ def annotate(annotation_id, mturk_batch=None):
     actions.extend([{"display": value, "id": key, "color": "#000000"} for key, value in read_data.time_lengths.items()])
     actions.extend([{"display": value, "id": key, "color": "#00ff00"} for key, value in annotation["normalized_ingredients"].items()])
     tl = read_data.time_lengths
-    tl[""] = "Ends Immediately"
     ingredients_autocomplete = [{"label":desc, "value":{key: desc}} for desc, key in annotation_io.ingredients_map.items()]
     return render_template('annotate.html',
                            data=annotation,
                            id=annotation_id,
                            tools=read_data.tools,
+                           containers=read_data.tool_containers,
                            activities=read_data.activities,
                            time_lengths=tl,
                            resources=read_data.resources,

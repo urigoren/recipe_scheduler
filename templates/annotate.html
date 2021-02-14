@@ -113,13 +113,12 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-sm-6" id="modal_body_ingredients"></div>
-                    <div class="col-sm-6" id="modal_body_tools"></div>
-                    <!--<div class="col-sm-3" id="modal_body_activities"></div>-->
+                    <div class="col-sm-4" id="modal_body_ingredients"></div>
+                    <div class="col-sm-4" id="modal_body_tools"></div>
+                    <div class="col-sm-4" id="modal_body_times"></div>
                 </div>
             </div>
             <div class="modal-footer">
-                <select id="instruction_length"></select>
                 <button type="button" class="btn btn-primary" onclick="event_dialog_save()">Save changes</button>
                 <button type="button" class="btn btn-secondary" onclick="event_dialog_clipboard()">From Clipboard</button>
                 <button type="button" class="btn btn-secondary" onclick="event_dialog_clear()">Clear</button>
@@ -224,6 +223,7 @@
         const instructions={{data['instructions']|tojson|safe}};
         let events={{data["labels"]|tojson|safe}};
         const validations={{validations|tojson|safe}};
+        const containers={{containers|tojson|safe}};
         let action_clipboard=[];
         let selected_time_range={};
         let clustered_ingredients={};
@@ -238,8 +238,7 @@
             msgbox("Kitchen Overview", '<img src="http://goren.ml/cdn/kitchen.png" width="100%"><h2>Mark where ingredients are after each instrucion</h2>Click "Close" to start annotating recipes');
             append_checkboxes("modal_body_ingredients", "Ingredients",{{data["normalized_ingredients"]|tojson|safe}});
             append_checkboxes("modal_body_tools", "Tools",{{tools|tojson|safe}});
-            //append_checkboxes("modal_body_activities", "Activities",{{activities|tojson|safe}});
-            append_options("instruction_length", {{time_lengths|tojson|safe}});
+            append_checkboxes("modal_body_times", "Until",{{time_lengths|tojson|safe}});
             append_li("ul_ingredients", {{data['ingredients']|tojson|safe}});
 
             show_instruction();

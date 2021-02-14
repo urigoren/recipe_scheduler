@@ -58,10 +58,10 @@ with (output_path / "annotate.csv").open('w') as f:
     f.write(csv_row([f"v{i}" for i in range(len(magics))]))
     ##  names are important for `eval`
     time_lengths = read_data.time_lengths
-    time_lengths[""] = "Ends Immediately"
     resources = read_data.resources
     activities = read_data.activities
     tools = read_data.tools
+    containers = read_data.tool_containers
     ingredients_autocomplete = [{"label": desc, "value": {key: desc}} for desc, key in annotation_io.ingredients_map.items()]
     for id, annotation in annotation_io.all_annotations().items():
         if ROW_OFFSET>0:
