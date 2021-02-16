@@ -9,6 +9,10 @@ annotations_path = base_path / "annotations" / recipe_source
 ingredients_map = {}
 
 
+def set_annotation_path(p):
+    global annotations_path
+    annotations_path = p
+
 def set_recipe_source(source):
     global recipe_source
     global ingredients_map

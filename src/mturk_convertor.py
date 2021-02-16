@@ -2,7 +2,7 @@ import re, json, sys
 from pathlib import Path
 import annotation_io
 import read_data
-annotation_io.set_recipe_source("npn-cooking")
+# annotation_io.set_recipe_source("npn-cooking")
 
 def csv_row(lst):
     return ",".join(['"' +str(s).replace('"', '""').replace('\n', '\\n') +'"' for s in lst]) + "\n"
@@ -24,8 +24,7 @@ def inject_style(m):
     return ret
 
 
-MAX_ROWS = 60
-ROW_OFFSET = 0
+MAX_ROWS = 100
 magic_pattern = re.compile(r"{{[^}]+}}")
 local_js_pattern = re.compile(r'(<script src="/js/([^?/"]+).js[^"]*">\s*</script>)')
 local_css_pattern = re.compile(r'(<link rel="stylesheet" href="/css/([^?/"]+).css[^"]*"/>)')
@@ -35,6 +34,9 @@ annotate_template = Path(__file__).parent.parent / "templates" / "annotate.html"
 output_path = Path(__file__).parent.parent / "mturk"
 js_path = Path(__file__).parent.parent / "js"
 css_path = Path(__file__).parent.parent / "css"
+
+exp_path = Path(__file__).parent.parent/"data"/"npn-cooking"/"20210216_exp"
+annotation_io.set_annotation_path(exp_path)
 
 with annotate_template.open('r') as f:
     html = f.read()
@@ -53,7 +55,7 @@ html = re.sub(r'</script>[\s\t\n]*<script>',"", html, flags=re.MULTILINE)
 with (output_path / "annotate.html").open('w', encoding='utf8') as f:
     f.write(html)
 
-with (output_path / "annotate.csv").open('w') as f:
+with (output_path / "annotate.csv").open('w', encoding="utf-8") as f:
     row_num = 0
     f.write(csv_row([f"v{i}" for i in range(len(magics))]))
     ##  names are important for `eval`
@@ -64,9 +66,6 @@ with (output_path / "annotate.csv").open('w') as f:
     containers = read_data.tool_containers
     ingredients_autocomplete = [{"label": desc, "value": {key: desc}} for desc, key in annotation_io.ingredients_map.items()]
     for id, annotation in annotation_io.all_annotations().items():
-        if ROW_OFFSET>0:
-            ROW_OFFSET-=1
-            continue
         line = []
         data=annotation
         num_instructions = len(annotation['instructions'])
