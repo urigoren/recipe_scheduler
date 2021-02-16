@@ -154,7 +154,7 @@ def program(annotation) -> List[Instruction]:
             instruction.ts += ts
         actions.extend(p)
         ts = p[-1].ts
-    max_ts=max([a.ts for a in actions])
+    max_ts=max([a.ts for a in actions]) if any(actions) else 1
     actions_to_remove = []
     for to_res in resource_dict:
         if to_res.startswith(VALIDATION_PREFIX):
