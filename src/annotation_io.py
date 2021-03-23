@@ -57,6 +57,7 @@ def mturk_annotation(batch, assignment_id):
     ret = get_annotation(df.loc[assignment_id, "id"])
     ret["labels"] = json.loads(df.loc[assignment_id, "events"])
     ret["status"] = df.loc[assignment_id, "status"]
+    ret["id"] = df.loc[assignment_id, "id"]
     ret["feedback"] = df.loc[assignment_id, "feedback"]
     return ret
 
