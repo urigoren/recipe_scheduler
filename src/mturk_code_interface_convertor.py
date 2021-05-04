@@ -2,7 +2,17 @@ import re, json, sys
 from pathlib import Path
 import annotation_io
 import read_data
-# annotation_io.set_recipe_source("npn-cooking")
+import pandas as pd
+annotation_io.set_recipe_source("npn-cooking")
+mturk_path = Path(__file__).absolute().parent.parent / "mturk"/"results"
+
+def load_results(batch):
+    df = pd.read_csv(str(next(mturk_path.rglob(f"*{batch}*.csv"))))
+    #hack:
+    df = df.rename(columns={"Input.v9":"Answer.Title"})
+    df = df[[c for c in df.columns if "Answer." in c or 'Id' in c]]
+    df = df.rename(columns={c:c.split('.',1)[1] for c in df.columns if '.' in c})
+    return df.set_index("AssignmentId")
 
 def csv_row(lst):
     return ",".join(['"' +str(s).replace('"', '""').replace('\n', '\\n') +'"' for s in lst]) + "\n"
@@ -24,7 +34,9 @@ def inject_style(m):
     return ret
 
 
-MAX_ROWS = 100
+batch = 4335716
+annotation_ids_from_batch = set(load_results(batch)["id"].unique())
+
 magic_pattern = re.compile(r"{{[^}]+}}")
 local_js_pattern = re.compile(r'(<script src="/js/([^?/"]+).js[^"]*">\s*</script>)')
 local_css_pattern = re.compile(r'(<link rel="stylesheet" href="/css/([^?/"]+).css[^"]*"/>)')
@@ -50,15 +62,15 @@ for k,v in magics.items():
 html = local_js_pattern.sub(inject_script,html)
 html = local_css_pattern.sub(inject_style,html)
 html = form_pattern.sub("", html)
-html = re.sub(r'</script>[\s\t\n]*<script>',"", html, flags=re.MULTILINE)
 # html = html.replace("</head>", '<script src="https://s3.amazonaws.com/mturk-public/externalHIT_v1.js"></script>\n</head>', 1)
 with (output_path / "code_annotate.html").open('w', encoding='utf8') as f:
     f.write(html)
 
 with (output_path / "code_annotate.csv").open('w', encoding="utf-8") as f:
-    row_num = 0
     f.write(csv_row([f"v{i}" for i in range(len(magics))]))
     ##  names are important for `eval`
+    ingredients_autocomplete = [{"label": desc, "value": {key: desc}} for desc, key in
+                                annotation_io.ingredients_map.items()]
     commands = read_data.commands
     resources = [{"id": child["id"], "name": parent["name"] + '/' + child["name"]} for parent in read_data.resources for child in parent.get("children", [])]
     resources +=  [{"id": parent["id"], "name": parent["name"]} for parent in read_data.resources if 'children' not in parent]
@@ -68,6 +80,8 @@ with (output_path / "code_annotate.csv").open('w', encoding="utf-8") as f:
     ingredients = []
     actions = []
     for id, annotation in annotation_io.all_annotations().items():
+        if id not in annotation_ids_from_batch:
+            continue
         line = []
         ingredients = [{"name": value, "id": key} for key, value in annotation["normalized_ingredients"].items()]
         instructions = annotation['instructions']
@@ -81,6 +95,3 @@ with (output_path / "code_annotate.csv").open('w', encoding="utf-8") as f:
                 var = f"json.dumps({var})"
             line.append(eval(var))
         f.write(csv_row(line))
-        row_num +=1
-        if row_num>=MAX_ROWS:
-            break

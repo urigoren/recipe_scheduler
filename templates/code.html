@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
+        #select_arg {
+            width: 150px;
+        }
+        #select_resource {
+            width: 150px;
+        }
         #instruction {
             color: navy;
             font-size: 20px;
@@ -51,7 +57,15 @@
 <body>
     <div class="container">
         <div class="row">
-            <h1>{{title}}</h1>
+            <div class="col-sm-9">
+                <h1>{{title}}</h1>
+            </div>
+            <div class="col-sm-3">
+                <br />
+                <a href="https://youtu.be/HIcfNl6p3Ls" class="btn btn-info btn-lg" target="_blank">
+                <span class="glyphicon glyphicon-facetime-video"></span> Watch Tutorial
+                </a>
+            </div>
         </div>
         <div class="row">
             <div class="col-sm-1"><h1 class="glyphicon glyphicon-backward" id="prev_instruction" onclick="prev_instruction();"></h1></div>
@@ -127,6 +141,7 @@
     </div>
     <script type="text/javascript">
         let instruction_index= 0;
+        const ingredients_autocomplete={{ingredients_autocomplete|tojson|safe}};
         const resources = {{resources|tojson|safe}};
         const commands = {{commands|tojson|safe}};
         const tools = {{tools|tojson|safe}};

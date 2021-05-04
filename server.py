@@ -134,7 +134,8 @@ def simulate(annotation_id=None, mturk_batch=None):
         }
             for a in derived_actions]
         ingredients = [{"name": value, "id": key} for key, value in annotation["normalized_ingredients"].items()]
-
+    ingredients_autocomplete = [{"label": desc, "value": {key: desc}} for desc, key in
+                                annotation_io.ingredients_map.items()]
     return render_template("simulate.html",
                            resources=resources,
                            commands=read_data.commands,
@@ -143,6 +144,7 @@ def simulate(annotation_id=None, mturk_batch=None):
                            time_lengths=time_lengths,
                            actions=derived_actions,
                            ingredients=ingredients,
+                           ingredients_autocomplete=ingredients_autocomplete,
                            )
 
 
@@ -172,6 +174,8 @@ def code(annotation_id=None, mturk_batch=None):
         actions = []
         ingredients = [{"name": value, "id": key} for key, value in annotation["normalized_ingredients"].items()]
 
+    ingredients_autocomplete = [{"label": desc, "value": {key: desc}} for desc, key in
+                                annotation_io.ingredients_map.items()]
     return render_template("code.html",
                            id=annotation_id,
                            resources=resources,
@@ -184,6 +188,7 @@ def code(annotation_id=None, mturk_batch=None):
                            instructions=annotation['instructions'],
                            num_instructions=len(annotation['instructions']),
                            title=annotation['title'],
+                           ingredients_autocomplete=ingredients_autocomplete,
                            )
 
 

@@ -162,7 +162,7 @@ $(document).ready(function () {
       verticalbuttons: true
     });
     $('#search_ingredients').autocomplete({
-        source: "/ingredients_autocomplete",
+        source: ingredients_autocomplete,
         minLength: 2,
         select: function (event, ui) {
             add_ingredient(ui.item.value);
@@ -178,4 +178,10 @@ $(document).ready(function () {
     populate_selectbox("select_command", "commands");
     refresh_ingredients();
     refresh_actions();
+
+    $(document).on("keydown", "form", event=>event.key != "Enter");
+    const submitButton = document.getElementById("submitButton");
+    if (submitButton){
+      submitButton.style.display = "none";
+    }
 });
