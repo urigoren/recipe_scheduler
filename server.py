@@ -147,39 +147,39 @@ def simulate(annotation_id=None, mturk_batch=None):
 
 
 @app.route('/code', methods=['GET', 'POST'])
-@app.route('/code/<annotation_id>')
+@app.route('/code/<annotation_id>', methods=['GET', 'POST'])
 @app.route('/code/<mturk_batch>/<annotation_id>')
 def code(annotation_id=None, mturk_batch=None):
+    if 'actions' in request.form:
+        return jsonify({
+            "actions": request.form["actions"],
+            "ingredients": request.form["ingredients"],
+            "seconds_spent": request.form["seconds_spent"],
+        })
     resources = [{"id": child["id"], "name": parent["name"] + '/' + child["name"]} for parent in read_data.resources for child in parent.get("children", [])]
     resources +=  [{"id": parent["id"], "name": parent["name"]} for parent in read_data.resources if 'children' not in parent]
     time_lengths = [{"id": k, "name": v} for k, v in read_data.time_lengths.items()]
     tools = [{"id": k, "name": v} for k, v in read_data.tools.items()]
     activities = [{"name": value, "id": key} for key, value in read_data.activities.items()]
     ingredients = []
-    derived_actions=[]
+    actions = []
     if annotation_id is not None:
         if mturk_batch:
             annotation = annotation_io.mturk_annotation(mturk_batch, annotation_id)
         else:
             annotation = annotation_io.get_annotation(annotation_id)
-        derived_actions = []#instruction_parsing.program(annotation)
-        derived_actions = [{
-            "ts": a.ts,
-            "arg": a.arg,
-            "resource": a.resource,
-            "command": [c for c in read_data.commands if c["name"] == a.command.name][0]['id'],
-            "arg_type": [c for c in read_data.commands if c["name"] == a.command.name][0]['arg_type'],
-        }
-            for a in derived_actions]
+        #TODO: Load action from somewhere
+        actions = []
         ingredients = [{"name": value, "id": key} for key, value in annotation["normalized_ingredients"].items()]
 
     return render_template("code.html",
+                           id=annotation_id,
                            resources=resources,
                            commands=read_data.commands,
                            activities=activities,
                            tools=tools,
                            time_lengths=time_lengths,
-                           actions=derived_actions,
+                           actions=actions,
                            ingredients=ingredients,
                            instructions=annotation['instructions'],
                            num_instructions=len(annotation['instructions']),

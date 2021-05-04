@@ -112,7 +112,7 @@ function next_instruction()
     if (instruction_index+1==instructions.length){
         if (!confirm("You are about to submit the annotations, are you sure ?"))
             return;
-        save();
+        mturk_submit();
         return;
     }
     instruction_index+=1;
@@ -135,6 +135,26 @@ function show_instruction()
         el.classList.add("last_instruction");
     else
         el.classList.remove("last_instruction");
+}
+
+function getUrlParam(name) {
+  var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+  return match ? decodeURIComponent(match[1].replace(/\+/g, ' ')) : null;
+}
+
+function mturk_submit()
+{
+    const form = document.getElementById("mturk_form");
+    const turk_submit = getUrlParam('turkSubmitTo');
+    if (turk_submit) {
+        form.action=turk_submit + '/mturk/externalSubmit';
+        document.getElementById("assignmentId").value = getUrlParam('assignmentId');
+    }
+    document.getElementById('frm_actions').value=JSON.stringify(actions);
+    document.getElementById('frm_ingredients').value=JSON.stringify(ingredients);
+    document.getElementById('frm_seconds_spent').value=JSON.stringify(seconds_spent);
+    form.submit();
+
 }
 
 $(document).ready(function () {
