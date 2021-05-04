@@ -58,6 +58,8 @@ function add_action()
     const select_arg = document.getElementById("select_arg");
     const select_resource = document.getElementById("select_resource");
     const txt_ts = document.getElementById("txt_ts");
+    if ((select_command.value==="")||(select_arg.value==="")||(select_resource.value===""))
+        return;
     actions.push({
         "id": sequence_id,
         "command": select_command.value,
@@ -100,6 +102,39 @@ function simulation_submit() {
     document.getElementById('frm_actions').value=JSON.stringify(actions);
     document.getElementById('frm_ingredients').value=JSON.stringify(ingredients);
     document.getElementById('frm_simulate').submit();
+}
+
+function next_instruction()
+{
+    console.log("next_instruction");
+    // if (!verify_annotation())
+    //     return;
+    if (instruction_index+1==instructions.length){
+        if (!confirm("You are about to submit the annotations, are you sure ?"))
+            return;
+        save();
+        return;
+    }
+    instruction_index+=1;
+    show_instruction();
+}
+function prev_instruction()
+{
+    console.log("prev_instruction");
+    if (instruction_index==0)
+        return;
+    instruction_index-=1;
+    show_instruction();
+}
+function show_instruction()
+{
+    let instruction=instructions[instruction_index];
+    document.getElementById('instruction').innerHTML="<h3><span class=\"label label-info\">"+(instruction_index+1)+"/"+instructions.length+"</span></h3>"+instruction;
+    const el = document.getElementById('next_instruction');
+    if (instruction_index+1==instructions.length)
+        el.classList.add("last_instruction");
+    else
+        el.classList.remove("last_instruction");
 }
 
 $(document).ready(function () {
