@@ -151,6 +151,7 @@ function mturk_submit()
         document.getElementById("assignmentId").value = getUrlParam('assignmentId');
     }
     document.getElementById('frm_actions').value=JSON.stringify(actions);
+    document.getElementById('frm_n_actions').value=actions.length;
     document.getElementById('frm_ingredients').value=JSON.stringify(ingredients);
     document.getElementById('frm_seconds_spent').value=JSON.stringify(seconds_spent);
     form.submit();
