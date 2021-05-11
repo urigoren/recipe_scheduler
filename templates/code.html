@@ -94,6 +94,7 @@
                     <input type="hidden" name="n_actions" id="frm_n_actions">
                     <input type="hidden" name="ingredients" id="frm_ingredients">
                     <input type="hidden" name="seconds_spent" id="frm_seconds_spent">
+                    <input type="hidden" name="msgbox_count" id="frm_msgbox_count">
                 </form>
             </div>
             <div class="col-md-9">
@@ -140,6 +141,25 @@
 
         </div>
     </div>
+    <div class="modal" tabindex="-1" role="dialog" id="msgbox_dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header" style="background-color: #cceeff">
+                <h3 class="modal-title"  id="msgbox_title"></h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row"><div class="col-sm-12" id="msgbox_body">
+                </div></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript">
         let instruction_index= 0;
         const ingredients_autocomplete={{ingredients_autocomplete|tojson|safe}};
@@ -152,6 +172,7 @@
         let ingredients = {{ingredients|tojson|safe}};
         let actions= {{actions|tojson|safe}};
         let seconds_spent=instructions.map(x=>0);
+        let msgbox_count=0;
         setInterval(()=>{seconds_spent[instruction_index]+=1;},1000);
     </script>
     <script src="/js/simulate.js"></script>

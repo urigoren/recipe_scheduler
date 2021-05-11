@@ -107,9 +107,9 @@ function simulation_submit() {
 function next_instruction()
 {
     console.log("next_instruction");
-    // if (!verify_annotation())
-    //     return;
     if (instruction_index+1==instructions.length){
+        if (!verify_annotation())
+            return;
         if (!confirm("You are about to submit the annotations, are you sure ?"))
             return;
         mturk_submit();
@@ -154,8 +154,96 @@ function mturk_submit()
     document.getElementById('frm_n_actions').value=actions.length;
     document.getElementById('frm_ingredients').value=JSON.stringify(ingredients);
     document.getElementById('frm_seconds_spent').value=JSON.stringify(seconds_spent);
+    document.getElementById('frm_msgbox_count').value=JSON.stringify(msgbox_count);
     form.submit();
 
+}
+function verify_annotation() {
+    const display = (ing)=>ingredients.concat(tools).concat(time_lengths).concat(resources).filter(x=>x.id===ing).map(x=>x.name)[0] || "";
+    if (actions.length===0)
+    {
+        msgbox("Nothing done", "We are sorry, you cannot submit an empty program.");
+        return false;
+    }
+    if (ingredients.length<1)
+    {
+        msgbox("Nothing done", "We are sorry, you cannot submit an recipe with no ingredients.");
+        return false;
+    }
+    let used_ingredients = {};
+    ingredients.forEach(x=>used_ingredients[x.id]=false);
+    actions.filter(x=>x.arg_type==="ingredients").forEach(x=>used_ingredients[x.arg]=true);
+    const missing_ing = Object.values(used_ingredients).indexOf(false);
+    if (missing_ing>=0) {
+        msgbox("Unmentioned ingredients",
+        "The following ingredients were not used in your program: <br />"+
+        display(Object.keys(used_ingredients)[missing_ing])
+        );
+        return false;
+    }
+
+    let ingredient_at_resource = {};
+    let mentioned_resources = [];
+    ingredients.forEach(x=>ingredient_at_resource[x.id]="");
+    tools.forEach(x=>ingredient_at_resource[x.id]="");
+    for(i=0;i<actions.length;i++) {
+        action = actions[i];
+        if ((action.command==0) || (action.command==2)) { //PUT
+            if (ingredient_at_resource[actions[i].arg]!="") {
+                msgbox("Error on line " + (i+1),
+                    "The following ingredient or tool was added despite the fact that it was not removed in a previous instruction<br />"+
+                        "<b>"+display(actions[i].arg)+"</b> is still on <b>"+display(ingredient_at_resource[actions[i].arg])+"</b>"+
+                    "<br /> Ingredients can only be in a single place simoltanously."
+                );
+                return false;
+            }
+            ingredient_at_resource[actions[i].arg]=actions[i].resource;
+        }
+        if ((action.command==1) || ((action.command==3))) { //REMOVE
+            if (ingredient_at_resource[actions[i].arg]=="") {
+                msgbox("Error on line " + (i+1),
+                    "The following ingredient or tool was removed despite the fact that it was not used previously<br />"+
+                        "<b>"+display(actions[i].arg)+"</b>"
+                );
+                return false;
+            }
+            ingredient_at_resource[actions[i].arg]="";
+        }
+        if (action.command==6) { //MOVE_CONTENTS
+            if (mentioned_resources.filter(x=>x==actions[i].arg).length===0) {
+                msgbox("Error on line " + (i+1),
+                    "MOVE_CONTENTS cannot be applied to a resource that was not previously mentioned: <br />"+
+                        "<b>"+display(actions[i].arg)+"</b>"
+                );
+                return false;
+            }
+        }
+        if (action.command==4) { //CHEF_CHECK
+            if (mentioned_resources.filter(x=>x==actions[i].resource).length===0) {
+                msgbox("Error on line " + (i+1),
+                    "CHEF_CHECK cannot be applied to a resource that was not previously mentioned: <br />"+
+                    "CHEF_CHECK <b>"+display(actions[i].arg)+"</b> on " +
+                        "<b>"+display(actions[i].resource)+"</b> <br />"
+                );
+                return false;
+            }
+        }
+        mentioned_resources.push(actions[i].resource);
+    }
+    return true;
+}
+function msgbox(title, body)
+{
+    const event_dialog_shown = (jQuery("#event_dialog").data('bs.modal') || {})._isShown;
+    const msgbox_dialog = jQuery('#msgbox_dialog');
+    if (event_dialog_shown)
+        msgbox_dialog.css("z-index", 3000);
+    else
+        msgbox_dialog.css("z-index", "");
+    jQuery('#msgbox_title').text(title);
+    jQuery('#msgbox_body').html(body);
+    msgbox_dialog.modal('show');
+    msgbox_count+=1;
 }
 
 $(document).ready(function () {
