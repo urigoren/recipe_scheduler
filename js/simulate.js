@@ -160,12 +160,12 @@ function mturk_submit()
 }
 function verify_annotation() {
     const display = (ing)=>ingredients.concat(tools).concat(time_lengths).concat(resources).filter(x=>x.id===ing).map(x=>x.name)[0] || "";
-    if (actions.length===0)
+    if (actions.length<3)
     {
         msgbox("Nothing done", "We are sorry, you cannot submit an empty program.");
         return false;
     }
-    if (ingredients.length<1)
+    if (ingredients.length<3)
     {
         msgbox("Nothing done", "We are sorry, you cannot submit an recipe with no ingredients.");
         return false;
