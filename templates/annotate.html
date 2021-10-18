@@ -37,12 +37,7 @@
 <!--            <div class="col-sm-3">-->
 <!--                <a href="{{data['url']}}" target="_blank"><img src="{{data['photo_url']}}" width=200></a>-->
 <!--            </div>-->
-            <div class="col-sm-8">
-                <ul id="ul_ingredients"></ul>
-                <input type="text" id="search_ingredients" placeholder="Add Missing Ingredients" autocomplete="off"
-               class="form-control input-lg"/>
-            </div>
-            <div class="col-sm-4">
+            <div class="col-sm-12">
                 <a href="https://youtu.be/xu51XpTBv44" class="btn btn-info btn-lg" target="_blank">
                 <span class="glyphicon glyphicon-facetime-video"></span> Watch Tutorial
                 </a><br /><br />
@@ -235,11 +230,10 @@
 
         // main ()
         document.addEventListener("DOMContentLoaded", function(event) {
-            msgbox("Kitchen Overview", '<img src="http://goren.ml/cdn/kitchen.png" width="100%"><h2>Mark where ingredients are after each instrucion</h2>Click "Close" to start annotating recipes');
-            append_checkboxes("modal_body_ingredients", "Ingredients",{{data["normalized_ingredients"]|tojson|safe}});
-            append_checkboxes("modal_body_tools", "Tools",{{tools|tojson|safe}});
-            append_checkboxes("modal_body_times", "Until",{{time_lengths|tojson|safe}});
-            append_li("ul_ingredients", {{data['ingredients']|tojson|safe}});
+            msgbox("Kitchen Overview", '<img src="http://goren.ml/cdn/beakers.png" width="100%"><h2>Mark the contents of the beakers after each instrucion</h2>Click "Close" to start annotating');
+            append_checkboxes("modal_body_ingredients", "1st Unit",{{data["normalized_ingredients"]|tojson|safe}});
+            append_checkboxes("modal_body_tools", "2nd Unit",{{tools|tojson|safe}});
+            append_checkboxes("modal_body_times", "3rd Unit",{{time_lengths|tojson|safe}});
 
             show_instruction();
             if (dp.events.list.length===0)
@@ -247,18 +241,6 @@
                 set_reference_time_range();
             }
 
-            $('#search_ingredients').autocomplete({
-                    source: {{ingredients_autocomplete|tojson|safe}},
-                    minLength: 2,
-                    select: function(event, ui) {
-                        add_missing_ingredient(ui.item.value);
-                    }
-                }).data('ui-autocomplete')._renderItem = function (ul, item) {
-                    return $("<li class='ui-autocomplete-row'></li>")
-                        .data("item.autocomplete", item)
-                        .append(item.label)
-                        .appendTo(ul);
-                };
               //Ignore the enter key, as it seem to submit the HIT for some turkers
               $(document).on("keydown", "form", event=>event.key != "Enter");
             const submitButton = document.getElementById("submitButton");

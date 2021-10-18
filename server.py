@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 sys.path.append("src")
 from flask import Flask, request, send_from_directory, render_template, redirect, url_for, jsonify
 import annotation_io
-import read_data
+import read_scone_data as  read_data
 import instruction_parsing
 
 annotation_io.set_recipe_source("npn-cooking")
@@ -58,12 +58,13 @@ def annotate(annotation_id, mturk_batch=None):
     if 'validations' in annotation:
         validations=annotation['validations']
     actions = []
-    actions.extend([{"display": value, "id": key, "color": "#ff0000"} for key, value in read_data.tools.items()])
-    actions.extend([{"display": value, "id": key, "color": "#0000ff"} for key, value in read_data.activities.items()])
-    actions.extend([{"display": value, "id": key, "color": "#000000"} for key, value in read_data.time_lengths.items()])
-    actions.extend([{"display": value, "id": key, "color": "#00ff00"} for key, value in annotation["normalized_ingredients"].items()])
+    actions.extend([{"display": value, "id": key, "color": value} for key, value in read_data.tools.items()])
+    actions.extend([{"display": value, "id": key, "color": value} for key, value in read_data.activities.items()])
+    actions.extend([{"display": value, "id": key, "color": value} for key, value in read_data.time_lengths.items()])
+    actions.extend([{"display": value, "id": key, "color": value} for key, value in read_data.ingredients.items()])
     tl = read_data.time_lengths
     ingredients_autocomplete = [{"label":desc, "value":{key: desc}} for desc, key in annotation_io.ingredients_map.items()]
+    annotation["normalized_ingredients"]=read_data.ingredients
     return render_template('annotate.html',
                            data=annotation,
                            id=annotation_id,
