@@ -317,66 +317,48 @@ function truncate(resource, start)
 function event_dialog_save()
 {
     const selected_action_ids=jQuery(".event_item").filter((i,v)=>v.checked).map((i,v)=>v.id).toArray();
-    //Verify annotations contains tools
-    let only_tools = true;
-    let selected_containers = [];
-    for(let i=0;i<selected_action_ids.length;i++) {
-        only_tools = only_tools && (ing2type(selected_action_ids[i])!==AssignedTypes.INGREDIENT);
-        if (containers.indexOf(selected_action_ids[i])!==-1)
-            selected_containers.push(selected_action_ids[i]);
-    }
-    if (only_tools && (selected_action_ids.length>0))
-    {
-        msgbox("No ingredients marked", "There's no need to mark steps that do not contain ingredients <ul>" +
-            "<li>If the tools you chose contain ingredients within them, please mark them.</li>"+
-            "<li>Otherwise, do not mark anything.</li>" +
-            "</ul>"
-        );
-        return;
-    }
-    if (selected_containers.length>1)
-    {
-        msgbox("Too many containers", "You can only use one container, but these were marked: <ul>" +
-        "<li>"+ selected_containers.map(display).join("<li>")+  "</ul>"
-        );
-        return;
-    }
     //verify time lengths
+    let ingredient_count = 0;
+    for(let i=0;i<selected_action_ids.length;i++) {
+        if (ing2type(selected_action_ids[i])===AssignedTypes.INGREDIENT)
+            ingredient_count+=1;
+    }
+    let tool_count = 0;
+    for(let i=0;i<selected_action_ids.length;i++) {
+        if (ing2type(selected_action_ids[i])===AssignedTypes.TOOL)
+            tool_count+=1;
+    }
     let time_length_count = 0;
     for(let i=0;i<selected_action_ids.length;i++) {
         if (ing2type(selected_action_ids[i])===AssignedTypes.TIME_LENGTH)
             time_length_count+=1;
     }
-    if (time_length_count>2)
-    {
-        msgbox("Too many time conditions", "" + time_length_count + " time conditions were marked, please choose one " +
-            "<br />Or none, if there's no time condition in this instruction.");
+    if ((ingredient_count==0)&&((tool_count>0))) {
+        msgbox("Invalid order","Unit 1 is not set, you cannot set unit 2");
         return;
     }
-    //Verify clusters
-    for(let i=0;i<selected_action_ids.length;i++)
+    if ((tool_count==0)&&((time_length_count>0))) {
+        msgbox("Invalid order","Unit 2 is not set, you cannot set unit 3");
+        return;
+    }
+    if ((ingredient_count==0)&&((time_length_count>0))) {
+        msgbox("Invalid order","Unit 1 is not set, you cannot set unit 3");
+        return;
+    }
+    if (tool_count>1)
     {
-        if (ing2type(selected_action_ids[i])!==AssignedTypes.INGREDIENT)
-            continue;
-        const ing=selected_action_ids[i];
-        const sel_cluster_count= selected_action_ids.filter(x=>clustered_ingredients[ing]===clustered_ingredients[x]).length;
-        let cluster_count=0;
-        for (let j in clustered_ingredients)
-        {
-            cluster_count += (clustered_ingredients[ing]==clustered_ingredients[j]?1:0);
-        }
-        if (sel_cluster_count < cluster_count) {
-            if (confirm("Some ingredients were merged in the past, and must be selected\n\nWould you like to auto-correct ?")) {
-                for (let j in clustered_ingredients)
-                {
-                    if (clustered_ingredients[ing]==clustered_ingredients[j])
-                    {
-                        document.getElementById(j).checked=true;
-                    }
-                }
-            }
-            return;
-        }
+        msgbox("Too many colors in unit 2","Only one color is allowed");
+        return;
+    }
+    if (ingredient_count>1)
+    {
+        msgbox("Too many colors in unit 1","Only one color is allowed");
+        return;
+    }
+    if (time_length_count>1)
+    {
+        msgbox("Too many colors in unit 3","Only one color is allowed");
+        return;
     }
     // Update events
     truncate(selected_time_range.resource, selected_time_range.start);
