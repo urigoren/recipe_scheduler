@@ -130,13 +130,6 @@ function verify_annotation()
         const modified_resources = list_resources.filter(r=>prev_list_resources.indexOf(r)>=0).filter(r=>
         JSON.stringify(get_ingredients_at_timestamp(i).filter(x=>x.resource===r).map(x => x.action).sort()) !== JSON.stringify(get_ingredients_at_timestamp(i - 1).filter(x=>x.resource===r).map(x => x.action).sort())
         )
-        if (modified_resources.length+newly_added_resources.length>1) {
-            msgbox("More than one resource modified a given timestamp", "At timestamp " + i +
-                ", multiple resources were modified:<ul><li>" +
-                modified_resources.concat(newly_added_resources).map(r=> flat_resources.filter(x=>x.id===r)[0]["name"]).join("<li>") +
-            "</ul> Please split it into multiple steps");
-            return false;
-        }
         prev_list_resources = list_resources;
     }
     //verify that what gets put in the trash, stays there
@@ -159,10 +152,6 @@ function verify_annotation()
         const ing_at_ts = get_ingredients_at_timestamp(ts).filter(x=>!on_validation_resource(x)).map(x=>x.action);
         for (let i=0;i<ingredients.length;i++) {
             const ing = ingredients[i];
-            if (ing_at_ts.filter(i => i===ing).length > 1) {
-                msgbox("Ingredient used twice at the same time", '"' + display(ing) + "\" was used twice at the same time.");
-                return false;
-            }
         }
     }
     //verify columns do not repeat themselves
@@ -176,11 +165,6 @@ function verify_annotation()
     const instruction=instructions[instruction_index].toLowerCase();
     const mentioned_ingredients=ingredients.filter(ing=>instruction.includes(display(ing)));
     const mentioned_unused = last_unused.filter(x=>mentioned_ingredients.indexOf(x)>-1);
-    if (mentioned_unused.length>1) {
-        msgbox("Ingredient mentioned but not unused", "The following ingredients were mentioned in the instruction, but not used:<ul><li>" +
-        mentioned_unused.map(display).join("<li>")+"</ul>");
-        return false;
-    }
     // validation from `validations` variable
     // const validated_unused = last_unused.filter(x=>validations[instruction_index].indexOf(x)>-1);
     // if (validated_unused.length>0) {
@@ -192,15 +176,7 @@ function verify_annotation()
     if (instructions.length===1+instruction_index) // last instruction
     {
         unused=get_ingredients_at_timestamp(n_ts).filter(x=>x.resource===unused_resource_id);
-        if (unused.length>0) {
-            msgbox("Unused Ingredients", "Last step cannot have unused ingredients");
-            return false;
-        }
         const served=get_ingredients_at_timestamp(n_ts).filter(x=>((x.resource===served_resource_id)||(x.resource===trash_resource_id)) && (ing2type(x.action)===AssignedTypes.INGREDIENT)).map(x=>x.action).sort();
-        if (JSON.stringify(ingredients)!=JSON.stringify(served)) {
-            msgbox("Dish Not Served", "The last step should be serving the dish.<br />Some ingredients were not served or trashed.");
-            return false;
-        }
     }
     return true;
 }

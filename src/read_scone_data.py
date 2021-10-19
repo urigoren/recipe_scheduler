@@ -30,14 +30,14 @@ resources = [
 tools = {'TOO': 'Orange',
  'TPP': 'Purple',
  'TYY': 'Yellow',
- 'TBB': 'Blue',
+ 'TBB': 'Brown',
  'TGG': 'Green',
  'TRR': 'Red'}
 tool_containers = []
 time_lengths = {'LOOO': 'Orange',
  'LPPP': 'Purple',
  'LYYY': 'Yellow',
- 'LBBB': 'Blue',
+ 'LBBB': 'Brown',
  'LGGG': 'Green',
  'LRRR': 'Red'}
 commands = []
@@ -45,7 +45,7 @@ commands = []
 ingredients = {'IO': 'Orange',
  'IP': 'Purple',
  'IY': 'Yellow',
- 'IB': 'Blue',
+ 'IB': 'Brown',
  'IG': 'Green',
  'IR': 'Red'}
 

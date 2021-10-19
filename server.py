@@ -6,7 +6,7 @@ import annotation_io
 import read_scone_data as  read_data
 import instruction_parsing
 
-annotation_io.set_recipe_source("npn-cooking")
+annotation_io.set_recipe_source("scone")
 
 app = Flask(__name__)
 
