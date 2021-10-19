@@ -1,8 +1,8 @@
 import re, json, sys
 from pathlib import Path
 import annotation_io
-import read_data
-# annotation_io.set_recipe_source("npn-cooking")
+import read_scone_data as read_data
+annotation_io.set_recipe_source("scone")
 
 def csv_row(lst):
     return ",".join(['"' +str(s).replace('"', '""').replace('\n', '\\n') +'"' for s in lst]) + "\n"
@@ -24,19 +24,19 @@ def inject_style(m):
     return ret
 
 
-MAX_ROWS = 100
+MAX_ROWS = 10
 magic_pattern = re.compile(r"{{[^}]+}}")
 local_js_pattern = re.compile(r'(<script src="/js/([^?/"]+).js[^"]*">\s*</script>)')
 local_css_pattern = re.compile(r'(<link rel="stylesheet" href="/css/([^?/"]+).css[^"]*"/>)')
 form_pattern = re.compile(r"</?form[^>]*>", flags=re.IGNORECASE)
 comment_pattern=re.compile(r"<!--.+-->")
-annotate_template = Path(__file__).parent.parent / "templates" / "annotate.html"
-output_path = Path(__file__).parent.parent / "mturk"
-js_path = Path(__file__).parent.parent / "js"
-css_path = Path(__file__).parent.parent / "css"
+annotate_template = Path(__file__).absolute().parent.parent / "templates" / "annotate.html"
+output_path = Path(__file__).absolute().parent.parent / "mturk"
+js_path = Path(__file__).absolute().parent.parent / "js"
+css_path = Path(__file__).absolute().parent.parent / "css"
 
-exp_path = Path(__file__).parent.parent/"data"/"npn-cooking"/"20210216_exp"
-annotation_io.set_annotation_path(exp_path)
+#exp_path = Path(__file__).absolute().parent.parent/"data"/"scone"
+#annotation_io.set_annotation_path(exp_path)
 
 with annotate_template.open('r') as f:
     html = f.read()
