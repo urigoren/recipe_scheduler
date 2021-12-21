@@ -106,12 +106,12 @@ function verify_annotation()
     for (i=n_ts-1;i>0;i--) {
         unused=get_ingredients_at_timestamp(i).filter(x=>x.resource===unused_resource_id).map(x=>x.action);
         reused_issues=next_unused.filter(x=>unused.indexOf(x)<0);
-        if (reused_issues.length>0)
-        {
-            msgbox("Ingredients cannot be marked as unused", "The following ingredients were marked as unused, despite being used previously:<ul><li>" +
-            reused_issues.map(display).join("<li>")+"</ul>");
-            return false;
-        }
+        // if (reused_issues.length>0)
+        // {
+            // msgbox("Ingredients cannot be marked as unused", "The following ingredients were marked as unused, despite being used previously:<ul><li>" +
+            // reused_issues.map(display).join("<li>")+"</ul>");
+            // return false;
+        // }
         next_unused=unused;
     }
     // Verify that one resource changes per timestamp
@@ -138,12 +138,12 @@ function verify_annotation()
     for (i=1;i<=n_ts;i++) {
         trashed=get_ingredients_at_timestamp(i).filter(x=>x.resource===trash_resource_id).map(x=>x.action);
         untrashed=prev_trashed.filter(x=>trashed.indexOf(x)<0);
-        if (untrashed.length>0)
-        {
-            msgbox("Ingredients cannot be used after trashed", "The following ingredients were marked as trash, Then reused:<ul><li>" +
-            untrashed.map(display).join("<li>")+"</ul>");
-            return false;
-        }
+        // if (untrashed.length>0)
+        // {
+            // msgbox("Ingredients cannot be used after trashed", "The following ingredients were marked as trash, Then reused:<ul><li>" +
+            // untrashed.map(display).join("<li>")+"</ul>");
+            // return false;
+        // }
         prev_trashed=trashed;
     }
     //verify duplicate ingredients
@@ -163,8 +163,21 @@ function verify_annotation()
     }
     //check if substring match an ingredient
     const instruction=instructions[instruction_index].toLowerCase();
-    const mentioned_ingredients=ingredients.filter(ing=>instruction.includes(display(ing)));
-    const mentioned_unused = last_unused.filter(x=>mentioned_ingredients.indexOf(x)>-1);
+    let instruction_colors = [];
+    if (instruction.indexOf('mix')>-1) instruction_colors.push("brown");
+    if (instruction.indexOf('brown')>-1) instruction_colors.push("brown");
+    if (instruction.indexOf('yellow')>-1) instruction_colors.push("yellow");
+    if (instruction.indexOf('orange')>-1) instruction_colors.push("orange");
+    if (instruction.indexOf('purple')>-1) instruction_colors.push("purple");
+    if (instruction.indexOf('green')>-1) instruction_colors.push("green");
+    let found_colors = events[instruction_index].filter(x=>x.resource.indexOf("VALID")==-1).map(x=>x.text.toLowerCase());
+    if (instruction_index>0) found_colors=found_colors.concat(events[instruction_index-1].filter(x=>x.resource.indexOf("VALID")==-1).map(x=>x.text.toLowerCase()));
+    const all_mentioned_found = instruction_colors.every(x=>found_colors.indexOf(x)>-1);
+    if (!all_mentioned_found)
+    {
+        msgbox("Missing color ?","Some colors were mentioned and not annotated");
+        return false;
+    }
     // validation from `validations` variable
     // const validated_unused = last_unused.filter(x=>validations[instruction_index].indexOf(x)>-1);
     // if (validated_unused.length>0) {
@@ -323,17 +336,17 @@ function event_dialog_save()
     }
     if (tool_count>1)
     {
-        msgbox("Too many colors in unit 2","Only one color is allowed");
+        msgbox("Too many colors in unit 2","Only one color is allowed - when colors mix the result is brown");
         return;
     }
     if (ingredient_count>1)
     {
-        msgbox("Too many colors in unit 1","Only one color is allowed");
+        msgbox("Too many colors in unit 1","Only one color is allowed - when colors mix the result is brown");
         return;
     }
     if (time_length_count>1)
     {
-        msgbox("Too many colors in unit 3","Only one color is allowed");
+        msgbox("Too many colors in unit 3","Only one color is allowed - when colors mix the result is brown");
         return;
     }
     // Update events
