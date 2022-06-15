@@ -125,7 +125,7 @@ select option[value="yellow"] {background: yellow;}
 <FORM method="POST" id="mturk_form" name="mturk_form">
         <div class="row">
             <div class="col-sm-1"><h1 class="glyphicon glyphicon-backward" id="prev_instruction" onclick="prev_instruction();"></h1></div>
-            <div class="col-sm-10" id="instruction"><h3>1/7</h3></div>
+            <div class="col-sm-10" id="instruction"><h3>0/6</h3></div>
             <div class="col-sm-1"><h1 class="glyphicon glyphicon-forward" id="next_instruction" onclick="next_instruction();"></h1></div>
         </div>
         <div class="row" id="page_0">
@@ -151,6 +151,54 @@ html+="""<div class="row" id="page_5" style="display:none">""" + recipe_page(183
 html+="""
         <div class="row" id="page_6" style="display:none">
         <h1>A few questions</h1>
+        (1)   Describe what did you like and dislike while performing the task? (open question, mandatory)<br />
+        <textarea name="q1"></textarea><br/>
+
+(2)   Rate how easy was the task for you? (1 – not easy at all, 5 – very easy)<br />
+<select name="q2"><option value="" selected>Please rate</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select><br/>
+
+(3)   Rate how clear was the task for you? (1 – not clear at all, 5 – very clear)<br />
+<select name="q3"><option value="" selected>Please rate</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select><br/>
+
+(4)   Rate how intuitive was the task for you? (1 – not intuitive at all, 5 – very intuitive)<br />
+<select name="q4"><option value="" selected>Please rate</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select><br/>
+ 
+
+(5)   How satisfied are you with the quality of your annotations? (1 – not satisfied at all, 5 – very satisfied)<br />
+<select name="q5"><option value="" selected>Please rate</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select><br/>
+
+ 
+
+(6)   How comfortable did you feel while performing the task? (1 – not comfortable at all, 5 – very comfortable)<br />
+<select name="q6"><option value="" selected>Please rate</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select><br/>
+
+(7)   How confident did you feel while performing the task? (1 – not confident at all, 5 – very confident)<br />
+<select name="q7"><option value="" selected>Please rate</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select><br/>
+
+(8)   How confused did you feel when performing the task? (1 – not confused at all, 5 – very confused)<br />
+<select name="q8"><option value="" selected>Please rate</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select><br/>
+
+(9)   How frustrated did you feel when performing the task? (1 – not frustrated at all, 5 – very frustrated)<br />
+<select name="q9"><option value="" selected>Please rate</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select><br/>
+
+ 
+(10)Do you have any suggestions for improving the task? (open question, optional)<br />
+<textarea name="q10"></textarea><br/>
+ 
+
+(11)Rate how clear was the user interface for you? (1 – not clear at all, 5 – very clear)<br />
+<select name="q11"><option value="" selected>Please rate</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select><br/>
+
+(12)Rate how intuitive was the user interface for you? (1 – not intuitive at all, 5 – very intuitive)<br />
+<select name="q12"><option value="" selected>Please rate</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select><br/>
+
+ 
+(13)Do you have any suggestions for improving the user interface? (open question, optional)<br />
+<textarea name="q13"></textarea><br/>
+ 
+
+(14)Any other comments? (open question, optional)<br />
+<textarea name="q14"></textarea><br/>
         </div>
     <script>
 
@@ -187,7 +235,7 @@ html+="""
             }
             instruction_index+=1;
             hide_all_pages();
-            document.getElementById("instruction").innerHTML="<h3>"+instruction_index+"/"+instructions_length+"</h3>";
+            document.getElementById("instruction").innerHTML="<h3>"+instruction_index+"/"+(instructions_length-1)+"</h3>";
             document.getElementById("page_"+instruction_index).style.display="block";
         }
         function prev_instruction()
@@ -197,7 +245,7 @@ html+="""
                 return;
             instruction_index-=1;
             hide_all_pages();
-            document.getElementById("instruction").innerHTML="<h3>"+instruction_index+"/"+instructions_length+"</h3>";
+            document.getElementById("instruction").innerHTML="<h3>"+instruction_index+"/"+(instructions_length-1)+"</h3>";
             document.getElementById("page_"+instruction_index).style.display="block";
         }
 
