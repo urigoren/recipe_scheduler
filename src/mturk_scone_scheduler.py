@@ -210,7 +210,7 @@ def anootation_html(recipes=[1831,1834,1835,1836,1837],code=False):
         for i, rid in enumerate(recipes):
             html+=f"""<div class="row" id="page_{i+1}" style="display:none">{code_page(rid)}</div>""" 
     else:
-        html+="""
+        html+=f"""
             <div class="row" id="page_0">
             <h1>Welcome</h1>
             <img src="http://goren.ml/cdn/beakernum.png"/><br />
@@ -218,6 +218,39 @@ def anootation_html(recipes=[1831,1834,1835,1836,1837],code=False):
             You will be asked to annotate the color of the liquid you poured into the beaker and the amount of units.<br />
             The first row will be the initial state of the beakers<br />
             At the end of the 5 protocols, you will be asked a few questions to describe your expirience<br />
+            <h2>Example annotation</h2>
+            <table border="2">
+            <tr>
+            <th>Instruction</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            </tr>
+            <tr>
+            <td>Initial State</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("y")}</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("rrr")}</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("pp")}</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("g")}</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("yg")}</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("")}</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("b")}</td>
+            </tr>
+            <tr>
+            <td>Pour 2 units of red color from beaker 2 to beaker 4</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("y")}</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("r")}</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("pp")}</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("rrg")}</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("yg")}</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("")}</td>
+            <td style="padding-left:20px;padding-right:20px;">{block("b")}</td>
+            </tr>
+            </table>
             </div>
         """
         for i, rid in enumerate(recipes):
