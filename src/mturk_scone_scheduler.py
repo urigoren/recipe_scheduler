@@ -141,10 +141,10 @@ def code_page(idx):
             continue
         html+=f"""<tr>
             <td>{row["instruction"]}</td>
-            <td><select name="i{idx}_s{row[seq]}_cmd"><option value="MOVE">Move</option><option value="REM">Remove</option><option value="MIX">Mix</option></select></td>
-            <td><select name="i{idx}_s{row[seq]}_arg1"><option value="1">Beaker 1</option><option value="2">Beaker 2</option><option value="3">Beaker 3</option><option value="4">Beaker 4</option><option value="5">Beaker 5</option><option value="6">Beaker 6</option><option value="7">Beaker 7</option></select></td>
-            <td><select name="i{idx}_s{row[seq]}_arg2"><option value="1">1 Unit</option><option value="2">2 Units</option><option value="3">3 Units</option></select></td>
-            <td><select name="i{idx}_s{row[seq]}_arg3"><option value="1">Beaker 1</option><option value="2">Beaker 2</option><option value="3">Beaker 3</option><option value="4">Beaker 4</option><option value="5">Beaker 5</option><option value="6">Beaker 6</option><option value="7">Beaker 7</option></select></td>
+            <td><select name="i{idx}_s{row["seq"]}_cmd"><option value="MOVE">Move</option><option value="REM">Remove</option><option value="MIX">Mix</option></select></td>
+            <td><select name="i{idx}_s{row["seq"]}_arg1"><option value="1">Beaker 1</option><option value="2">Beaker 2</option><option value="3">Beaker 3</option><option value="4">Beaker 4</option><option value="5">Beaker 5</option><option value="6">Beaker 6</option><option value="7">Beaker 7</option></select></td>
+            <td><select name="i{idx}_s{row["seq"]}_arg2"><option value="1">1 Unit</option><option value="2">2 Units</option><option value="3">3 Units</option></select></td>
+            <td><select name="i{idx}_s{row["seq"]}_arg3"><option value="1">Beaker 1</option><option value="2">Beaker 2</option><option value="3">Beaker 3</option><option value="4">Beaker 4</option><option value="5">Beaker 5</option><option value="6">Beaker 6</option><option value="7">Beaker 7</option></select></td>
             </tr>
         """
     html+="</table>"
