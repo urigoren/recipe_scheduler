@@ -170,6 +170,7 @@ def anootation_html(recipes=[1831,1834,1835,1836,1837],code=False):
     <div id="content"><div class="row"><div class="col-sm-1"></div><div class="col-sm-10">
     <FORM method="POST" id="mturk_form" name="mturk_form">
     <input type="hidden" name="seconds_spent" id="frm_seconds_spent" value="[]">
+    <input type="hidden" name="verify" id="frm_verify" value="reject">
             <div class="row">
                 <div class="col-sm-1"><h1 class="glyphicon glyphicon-backward" id="prev_instruction" onclick="prev_instruction();"></h1></div>
                 <div class="col-sm-10" id="instruction"><h3>0/6</h3></div>
@@ -225,39 +226,93 @@ def anootation_html(recipes=[1831,1834,1835,1836,1837],code=False):
             You will be asked to annotate the color of the liquid you poured into the beaker and the amount of units.<br />
             The first row will be the initial state of the beakers<br />
             At the end of the 5 protocols, you will be asked a few questions to describe your expirience<br />
-            <h2>Example annotation</h2>
-            <table border="2">
-            <tr>
-            <th>Instruction</th>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th>4</th>
-            <th>5</th>
-            <th>6</th>
-            <th>7</th>
-            </tr>
-            <tr>
-            <td>Initial State</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("y")}</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("rrr")}</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("pp")}</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("g")}</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("yg")}</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("")}</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("b")}</td>
-            </tr>
-            <tr>
-            <td>Pour 2 units of red color from beaker 2 to beaker 4</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("y")}</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("r")}</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("pp")}</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("rrg")}</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("yg")}</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("")}</td>
-            <td style="padding-left:20px;padding-right:20px;">{block("b")}</td>
-            </tr>
-            </table>
+
+
+            <h2>Annotation example:</h2>
+<table border="2">
+<tbody>
+<tr>
+<th style="width: 88.225px;">Instruction</th>
+<th style="width: 135.438px;">1</th>
+<th style="width: 123.963px;">2</th>
+<th style="width: 135.438px;">3</th>
+<th style="width: 138.663px;">4</th>
+<th style="width: 134.925px;">5</th>
+<th style="width: 134.562px;">6</th>
+<th style="width: 126.713px;">7</th>
+</tr>
+<tr>
+<td style="width: 88.225px;">Initial State</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">{block("gg")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 85.9625px;">{block("r")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">{block("g")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 100.662px;">{block("")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.925px;">{block("o")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.5625px;">{block("yy")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 88.7125px;">{block("o")}</td>
+</tr>
+<tr>
+<td style="width: 88.225px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 85.9625px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 100.662px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.925px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.5625px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 88.7125px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 88.225px;">throw out the yellow chemical</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">{block("gg")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 85.9625px;">{block("r")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">{block("g")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 100.662px;">{block("")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.925px;">{block("o")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.5625px;">{block("")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 88.7125px;">{block("o")}</td>
+</tr>
+<tr>
+<td style="width: 88.225px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 85.9625px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 100.662px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.925px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.5625px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 88.7125px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 88.225px;">pour the third beaker into the fifth one</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">{block("gg")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 85.9625px;">{block("r")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">{block("")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 100.662px;">{block("")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.925px;">{block("go")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.5625px;">{block("")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 88.7125px;">{block("o")}</td>
+</tr>
+<tr>
+<td style="width: 88.225px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 85.9625px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 100.662px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.925px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.5625px;">&nbsp;</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 88.7125px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 88.225px;">mix the fifth beaker</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">{block("gg")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 85.9625px;">{block("r")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 97.4375px;">{block("")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 100.662px;">{block("")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.925px;">{block("bb")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 96.5625px;">{block("")}</td>
+<td style="padding-left: 20px; padding-right: 20px; width: 88.7125px;">{block("o")}</td>
+</tr>
+</tbody>
+</table>
             </div>
         """
         for i, rid in enumerate(recipes):
@@ -324,6 +379,228 @@ def anootation_html(recipes=[1831,1834,1835,1836,1837],code=False):
             var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
             return match ? decodeURIComponent(match[1].replace(/\+/g, ' ')) : null;
             }
+            function verify(form) {
+                let ret=true;
+                let id="";
+                let val="";
+
+                // page 1
+                id="i1831_s1_b1_l1";
+                val="yellow";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1831_s1_b2_l1";
+                val="white";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1831_s1_b3_l1";
+                val="yellow";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1831_s1_b4_l1";
+                val="yellow";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1831_s1_b5_l1";
+                val="purple";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1831_s1_b6_l1";
+                val="white";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1831_s1_b7_l1";
+                val="orange";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                // page 2
+                id="i1834_s1_b1_l1";
+                val="orange";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1834_s1_b2_l1";
+                val="green";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1834_s1_b3_l1";
+                val="green";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1834_s1_b4_l1";
+                val="red";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1834_s1_b5_l1";
+                val="red";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1834_s1_b6_l1";
+                val="red";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1834_s1_b7_l1";
+                val="yellow";
+                ret = ret && (form[id]?form[id].value==val:true);
+                
+                // page 3
+                id="i1835_s1_b1_l1";
+                val="yellow";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1835_s1_b2_l1";
+                val="green";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1835_s1_b3_l1";
+                val="yellow";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1835_s1_b4_l1";
+                val="orange";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1835_s1_b5_l1";
+                val="white";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1835_s1_b6_l1";
+                val="purple";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1835_s1_b7_l1";
+                val="white";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                // page 4
+                id="i1836_s1_b1_l1";
+                val="purple";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1836_s1_b2_l1";
+                val="purple";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1836_s1_b3_l1";
+                val="orange";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1836_s1_b4_l1";
+                val="white";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1836_s1_b5_l1";
+                val="red";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1836_s1_b6_l1";
+                val="yellow";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1836_s1_b7_l1";
+                val="orange";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                // page 5
+                id="i1837_s1_b1_l1";
+                val="white";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1837_s1_b2_l1";
+                val="green";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1837_s1_b3_l1";
+                val="orange";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1837_s1_b4_l1";
+                val="white";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1837_s1_b5_l1";
+                val="red";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1837_s1_b6_l1";
+                val="purple";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1837_s1_b7_l1";
+                val="green";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                //code page 1
+                id="i1831_s3_cmd";
+                val="MOVE";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1831_s3_arg1";
+                val="3";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1831_s3_arg2";
+                val="4";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+
+                //code page 2
+                id="i1834_s1_cmd";
+                val="REM";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1834_s2_cmd";
+                val="MOVE";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1834_s3_cmd";
+                val="MIX";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                //code page 3
+                id="i1835_s2_cmd";
+                val="MOVE";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1835_s2_arg1";
+                val="4";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1835_s2_arg2";
+                val="2";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                //code page 4
+                id="i1836_s2_cmd";
+                val="MOVE";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1836_s2_arg1";
+                val="1";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1836_s2_arg2";
+                val="6";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1836_s3_cmd";
+                val="MIX";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                //code page 5
+                id="i1837_s2_cmd";
+                val="MOVE";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1837_s2_arg1";
+                val="7";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                id="i1837_s2_arg2";
+                val="2";
+                ret = ret && (form[id]?form[id].value==val:true);
+
+                return ret;
+            }
             function save()
             {
                 const form = document.getElementById("mturk_form");
@@ -333,6 +610,7 @@ def anootation_html(recipes=[1831,1834,1835,1836,1837],code=False):
                     document.getElementById("assignmentId").value = getUrlParam('assignmentId');
                 }
                 document.getElementById('frm_seconds_spent').value=JSON.stringify(seconds_spent);
+                document.getElementById('frm_verify').value=(verify(document.forms[0].elements)?"accept":"reject");
                 form.submit();
             }
             function hide_all_pages() {
