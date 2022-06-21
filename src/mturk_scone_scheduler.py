@@ -178,33 +178,40 @@ def anootation_html(recipes=[1831,1834,1835,1836,1837],code=False):
     """
     if code:
         html+=f"""
-            <div class="row" id="page_0">
-            <h1>Welcome</h1>
-            <img src="http://goren.ml/cdn/beakernum.png"/><br />
-            In this task you will be shown 5 protocols, in each of them you will be asked to pour liquid from one beaker to another.<br />
-            We are introducing you 4 commands, that can be executed by a robot:<br />
-            <ul>
-            <li>PUT</li>
-            <li>REMOVE</li>
-            <li>MOVE</li>
-            <li>MIX</li>
-            </ul>
-            <h3>These are the results of each command</h3>
-            <h4>Put</h4>
-            Puting several units of a color liquid into a beaker.<br />
-            <table width=600><tr><th>Command</th><th>Before</th><th>After</th></tr>
-            <tr><th>PUT(Beaker1,2,orange)</th><td>{block("o")}</td><td>{block("ooo")}</td></tr></table>
-            <h4>Remove</h4>
-            Removing several units of a color liquid into a beaker.<br />
-            <table width=600><tr><th>Command</th><th>Before</th><th>After</th></tr>
-            <tr><th>Remove(Beaker1,1)</th><td>{block("ogg")}</td><td>{block("gg")}</td></tr></table>
-            <h4>Move</h4>
-            <table width=600><tr><th>Command</th><th>Before</th><th>After</th></tr>
-            <tr><th>Move(Beaker1,Beaker2,1)</th><td><table><tr><td>{block("ogg")}</td><td>{block("r")}</td></tr></table></td><td><table><tr><td>{block("gg")}</td><td>{block("or")}</td></tr></table></td></tr></table>
-            <h4>Mix</h4>
-            Mixing always creates a brown liquid.<br />
-            <table width=600><tr><th>Command</th><th>Before</th><th>After</th></tr>
-            <tr><th>Mix(Beaker1)</th><td>{block("og")}</td><td>{block("bb")}</td></tr></table>
+<div id="page_0" class="row">
+<h1>Welcome</h1>
+<p>In this task, your role will be to translate 5 short scientific procedures into code and to answer a questionnaire regarding how was the task for you.&nbsp;</p>
+<p>In each scientific procedure, there are 7 beakers with liquids in them, and you will get the initial state of the beakers written in code using the PUT command.&nbsp;</p>
+<p>The <strong>PUT</strong> command gets 3 arguments: <strong>the beaker</strong> we put liquids to (where B1 refers to 1st beaker and B7 refers to the 7th beaker), <strong>the color</strong> of the liquid we want to put in that beaker, and the number of <strong>units</strong> <strong>of liquid</strong>&nbsp;we put in that beaker.&nbsp;</p>
+<p>For example,&nbsp;</p>
+<img src="http://goren.ml/cdn/beakernum.png" width="426" height="104" />
+<div class="row">The code for the initial state of the beakers above will be given to you in code as follows:&nbsp;</div>
+<div class="row">&nbsp;</div>
+<div class="row">PUT B1 green 2 (= put in the 1st beaker 2 units of green liquid)</div>
+<div class="row">PUT B2 red 1</div>
+<div class="row">PUT B3 green 1</div>
+<div class="row">PUT B5 orange 1</div>
+<div class="row">PUT B6 yellow 2</div>
+<div class="row">PUT B7 orange 1</div>
+<div class="row">&nbsp;</div>
+<div class="row">After getting the initial state of the beakers, you will get a sequence of instructions that will be executed one after another. In these instructions, you will be asked to <span style="text-decoration: underline;"><strong>REMOVE</strong></span>&nbsp;liquids from a specific beaker, <strong><u>MOVE </u></strong>liquids from one beaker to another, or <strong><u>MIX</u> </strong>liquids in a specific beaker. Your role will be to translate these instructions into code.</div>
+<div class="row">&nbsp;</div>
+<div class="row">For translating the instructions into code, you can use the following three commands:</div>
+<ul>
+<li>The <span style="text-decoration: underline;"><strong>REMOVE</strong></span> command gets 2 arguments: <strong>the beaker</strong> from which we remove content, and the number of<strong> units of liquid</strong> to remove.</li>
+</ul>
+<p style="padding-left: 40px;">For example, given the initial state above, the instruction <strong>"throw out the yellow chemical"</strong> should be translated into&nbsp;<strong>"REMOVE B6 2" </strong>(as only the 6th beaker has a yellow chemical and it has two units of that chemical). After executing that command, the new state will look like that:&nbsp;</p>
+<p style="padding-left: 40px;"><img src="http://goren.ml/cdn/beakers_exp_remove.png" width="426" height="104" /></p>
+<ul>
+<li class="row">The <span style="text-decoration: underline;"><strong>MOVE</strong></span> command gets 3 arguments: <strong>the beaker</strong> from which we take the content, <strong>the beaker</strong> we move the content into, and the number of <strong>units of liquid</strong> to move.</li>
+</ul>
+<p style="padding-left: 40px;">For example, <strong>"pour the third beaker into the fifth one"</strong> should be translated into <strong>"MOVE B3 B5 1"</strong>, and the new state will look like that:</p>
+<p style="padding-left: 40px;"><img src="http://goren.ml/cdn/beakers_exp_move.png" width="426" height="104" /></p>
+<ul>
+<li class="row">The <span style="text-decoration: underline;"><strong>MIX</strong></span> command gets just one argument - <strong>the beaker</strong> to be mixed. <span style="color: #ff0000;"><strong>NOTE THAT</strong></span> mixing two different colors in a beaker turns the color of the liquid in that beaker into <span style="color: #993300;"><strong>brown</strong></span>.&nbsp;</li>
+</ul>
+<p style="padding-left: 40px;">For example,&nbsp;<strong>"mix the fifth beaker"</strong> should be translated into&nbsp;<strong>"MIX B5"</strong>, and the new state will look like that:</p>
+<p style="padding-left: 40px;"><img src="http://goren.ml/cdn/beakers_exp_mix.png" width="426" height="104" /></p>
             </div>
         """
         for i, rid in enumerate(recipes):
@@ -380,14 +387,10 @@ def anootation_html(recipes=[1831,1834,1835,1836,1837],code=False):
 
 
 if __name__=="__main__":
-    code = True
-    output_file = Path(__file__).absolute().parent.parent /"mturk"
-    if code:
-        output_file=output_file/"scone_code_mturk.html"
-    else:
-        output_file=output_file/"scone_scheduler_mturk.html"
-    html = anootation_html(code=code)
-    with output_file.open('w') as f:
-        f.write(html)
+    output_dir = Path(__file__).absolute().parent.parent /"mturk"
+    with (output_dir/"scone_code_mturk.html").open('w') as f:
+        f.write(anootation_html(code=True))
+    with (output_dir/"scone_scheduler_mturk.html").open('w') as f:
+        f.write(anootation_html(code=False))
 
 # %%
